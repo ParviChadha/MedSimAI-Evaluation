@@ -1,0 +1,1057 @@
+{
+    "109": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "basic information",
+        "sex": "Male",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "ear(L)",
+        "when": "a week ago",
+        "other": "having discomfort  over the last few days",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "Yes",
+        "when": " yesterday",
+        "other": "Temperature: 39 degrees Celsius.",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "ear(L)",
+        "when check": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "ear(L)",
+        "when": "a week ago",
+        "characteristics": "scratching",
+        "characteristics status": "yes",
+        "progression": "gradually getting worse over time",
+        "other": "started crying four days ago due to pain",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "ear(L)",
+        "progression": "gradually getting worse over time",
+        "other": "last few days have been really tough",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "redness,discharge",
+        "location": "ear(L)",
+        "location check": true,
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "discharge",
+        "status": "Yes",
+        "location": "ear(L)",
+        "color": "clear to yellowish fluid ",
+        "uid": "7"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "redness",
+        "status": "No",
+        "location": "ear(L)",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "Discharge",
+        "location": "ear(L)",
+        "color check": true,
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "Discharge",
+        "status": "Yes",
+        "location": "ear(L)",
+        "color": " yellow tinge",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "discharge,pain",
+        "location check": true,
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "discharge,pain",
+        "status": "Yes",
+        "location": "ear(L)",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "ear problem",
+        "location": "ear(R)",
+        "location check": true,
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "ear problem",
+        "status": "No",
+        "location": "ear(R)",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "Itching",
+        "location": "ears",
+        "location check": true,
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "Itching",
+        "status": "Yes",
+        "location": "ears",
+        "when": "a week ago",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "ear problem",
+        "location": "outside or on the inside ears",
+        "location check": true,
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "ear problem",
+        "status": "No",
+        "location": "outside of the ears",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "hearing problem",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hearing problem",
+        "status": "No",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "ear infection,hearing problem",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "hearing problem",
+        "status": "No",
+        "uid": "21"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "ear infection",
+        "status": "The patient sufferred from the condition in the past.",
+        "when": "when patient was 2 years old",
+        "other": " he did have a couple ear infections.",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "ear infection treatment",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "ear infection treatment",
+        "status": "The patient sufferred from the condition in the past.",
+        "other": "one time for right ear infection",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "Tympanostomy (Ear Tubes)",
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "Tympanostomy (Ear Tubes)",
+        "status": "No",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nasal congestion,runny nose",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nasal congestion,runny nose",
+        "status": "No",
+        "uid": "27"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "nasal congestion",
+        "status": "The patient sufferred from the condition in the past.",
+        "when": "last week",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "nasal congestion",
+        "when": "last week",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "nasal congestion",
+        "status": "The patient sufferred from the condition in the past.",
+        "when": "maybe two weeks ago",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "general",
+        "when": "two weeks ago",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "general",
+        "status": "No",
+        "when": "two weeks ago",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "vision problem,smell loss,taste loss",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "vision problem,smell loss,taste loss",
+        "status": "No",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "No",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical test",
+        "name": "Temperature check",
+        "other": "enquiry regarding time of Temperature check",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Temperature check",
+        "status": "Yes",
+        "when": "yesterday",
+        "other": "Test Result: 39 degrees Celsius",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Temperature check",
+        "other": "will be checked today also",
+        "uid": "38"
+      },
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "Tylenol",
+        "response to": "Fever",
+        "response to check": true,
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Tylenol",
+        "status": "no",
+        "response to": "Fever",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "No",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "No",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez,dyspnea",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez,dyspnea",
+        "status": "No",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain,palpitation",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain,palpitation",
+        "status": "No",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dizzyness,fainting",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dizzyness,fainting",
+        "status": "No",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "confusion",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "confusion",
+        "status": "No",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "head ache",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "No",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "status": "No",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nausea,vomitting",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nausea,vomitting",
+        "status": "No",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "status": "No",
+        "other": "maybe a little bit more fussy",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "urination",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "urination",
+        "status": "No",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "general",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "general",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "Complications during pregnancy",
+        "relation": "Mother",
+        "other": "when his mother was pregnant with him",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "Complications during pregnancy",
+        "status": "No",
+        "relation": "Mother",
+        "other": "no Complications during pregnancy when his mother was pregnant with him",
+        "uid": "65"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "premature birth",
+        "status": "No",
+        "other": "doctors had to use some tools to get him out ",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "Patient was born through a vaginal delivery",
+        "status": "Yes",
+        "uid": "66"
+      },
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "forceps delivery,vacuum delivery",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "forceps delivery",
+        "status": "Yes",
+        "uid": "67"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vacuum delivery",
+        "status": "No",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "premature birth",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "premature birth",
+        "status": "No",
+        "other": " he was born at 40 weeks",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "hospitalizaiton after birth",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "hospitalizaiton after birth",
+        "status": "No",
+        "other": "stayed one day extra in the hospital because of misshaping of patient's head",
+        "uid": "71"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "misshaping of head",
+        "status": "The patient sufferred from the condition in the past.",
+        "when": "At birth",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "misshaping of head",
+        "status": "The patient sufferred from the condition in the past.",
+        "other": "condition went away",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "status": "no",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "status": "Yes",
+        "other": "all up to date",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy",
+        "status": "No",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "lung disease,heart disease",
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "high blood pressure,diabetes",
+        "status": "Yes",
+        "relation": "Grandfather",
+        "uid": "81"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "genetic hearing issues",
+        "uid": "82"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "genetic hearing issues",
+        "status": "No",
+        "uid": "83"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "secondhand cigarette",
+        "uid": "84"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "secondhand cigarette",
+        "status": "No",
+        "uid": "85"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "other": "Enquiry regarding who does patient live with",
+        "uid": "86"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "other": "patient lives with his father, and his mother as well",
+        "uid": "87"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "88"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "89"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "90"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "91"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "92"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "other": "patient  been at home, met with cousins 3 weeks ago",
+        "uid": "93"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "travel",
+        "status check": true,
+        "uid": "94"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "No",
+        "uid": "95"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "96"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "97"
+      }
+    ],
+    [
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "Covid",
+        "status": "Maybe",
+        "uid": "98"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Covid swab test",
+        "other": "will be performed",
+        "uid": "98"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "acute otitis media,",
+        "status": "Maybe",
+        "uid": "98"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Ear Check",
+        "other": "will be performed",
+        "uid": "98"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "Eardrum Perforation",
+        "status": "Maybe",
+        "uid": "98"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "antibiotics",
+        "other": "will be prescribed if diagnosed with Eardrum Perforation",
+        "uid": "98"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": " middle ear effusion",
+        "status": "Maybe",
+        "uid": "98"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "bulging tympanic membrane",
+        "status": "Maybe",
+        "uid": "98"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "amoxicillin",
+        "other": "will be prescribed",
+        "uid": "98"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "penicillin allergy",
+        "status": "No",
+        "uid": "98"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "99"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "100"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "101"
+      },
+      {
+        "intent": "salutations",
+        "uid": "101"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "acute otitis media",
+        "ddx 2": "Eardrum Perforation",
+        "ddx 3": "middle ear effusion",
+        "ddx 4": "bulging tympanic membrane",
+        "ddx 5": "Covid 19",
+        "uid": "102"
+      }
+    ]
+  ]
+}

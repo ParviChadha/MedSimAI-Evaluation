@@ -1,0 +1,161 @@
+{
+  "precision": 0.30434782608695654,
+  "recall": 0.7777777777777778,
+  "f1_score": 0.43750000000000006,
+  "true_positives": 7,
+  "false_positives": 16,
+  "false_negatives": 2,
+  "total_items": 25,
+  "false_positive_details": [
+    {
+      "item": "Dyspnea,Sore Throat,Runny Nose,Nasal Congestion",
+      "result_quotes": [
+        "OK, and, um, are you having any, uh, other symptoms besides the cough, um, like shortness of breath, sore throat, um, runny nose, congestion, anything like that?",
+        "Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well."
+      ]
+    },
+    {
+      "item": "Smell Loss,Taste Loss",
+      "result_quotes": [
+        "OK, and any loss of sense of taste or smell?",
+        "No."
+      ]
+    },
+    {
+      "item": "Fever,Chills",
+      "result_quotes": [
+        "And other than that, have you been having any fevers or chills?",
+        "Yeah, I've felt chills."
+      ]
+    },
+    {
+      "item": "Head Ache",
+      "result_quotes": [
+        "Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well.",
+        "And how about the headache? When did that start?",
+        "So it's been, uh, kind of off and on over the past, uh, week or so."
+      ]
+    },
+    {
+      "item": "Loss Of Appetite,Fatigue Sleep",
+      "result_quotes": [
+        "OK, any fatigue?",
+        "Yes.",
+        "Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."
+      ]
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "result_quotes": [
+        "Have you noticed any significant weight loss in the last few weeks?",
+        "No, it's been the same."
+      ]
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "result_quotes": [
+        "Any night sweats?",
+        "No,"
+      ]
+    },
+    {
+      "item": "Urination",
+      "result_quotes": [
+        "Any urinary issues?",
+        "No."
+      ]
+    },
+    {
+      "item": "Hemoptysis, Colored/Excess Sputum",
+      "result_quotes": [
+        "OK, have you noticed at all, um, like green or yellow color of your sputum or any blood tinged sputum?",
+        "Uh, No blood, and maybe a little yellowish."
+      ]
+    },
+    {
+      "item": "Sore Throat,Head Ache",
+      "result_quotes": [
+        "Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well."
+      ]
+    },
+    {
+      "item": "Loss Of Appetite, Fatigue Sleep",
+      "result_quotes": [
+        "OK, any fatigue?",
+        "Yes.",
+        "Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."
+      ]
+    },
+    {
+      "item": "Dysphagia",
+      "result_quotes": [
+        "And do you have any difficulty, uh, swallowing at all?",
+        "It's a little sore, but, uh, it's been OK, to eat and drink."
+      ]
+    },
+    {
+      "item": "Fatigue Extended",
+      "result_quotes": [
+        "OK, any fatigue?",
+        "Yes.",
+        "Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."
+      ]
+    },
+    {
+      "item": "Nausea,Vomitting",
+      "result_quotes": [
+        "Any nausea or vomiting?",
+        "No."
+      ]
+    },
+    {
+      "item": "Bowel Movement,Diarrhoea,Constipation",
+      "result_quotes": [
+        "OK. Alright, any changes to your bowel movements, like any Constipation or diarrhea?",
+        "No."
+      ]
+    },
+    {
+      "item": "Redness In Throat",
+      "result_quotes": [
+        "And have you noticed any kind of redness in your throat..."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Swelling",
+      "truth_quotes": [
+        "and drink.",
+        "K, to eat and drink."
+      ]
+    },
+    {
+      "item": "All",
+      "truth_quotes": [
+        "first, but then it's been kind of the same, um, since.",
+        "that's been about the same.",
+        "atient: **Both sides.",
+        ", caused some of these symptoms?",
+        "'t get warm even with a blanket on.",
+        "been needing naps and not feeling rested in the morning.",
+        "It does feel sore, kind of, uh, the center of my chest.",
+        "d it just went away.",
+        "dorm, a house?",
+        "ehold at all?",
+        "**Patient: **Sometimes with friends, on a weekend.",
+        "tional drugs like marijuana?",
+        "now, right?",
+        "hat sounds great.",
+        "of the same, um, since.",
+        "n about the same.",
+        "n with a blanket on.",
+        "g rested in the morning.",
+        "e center of my chest.",
+        "t went away.",
+        "n't, I'm healthy.",
+        "another test done for you today to see if there's any bacteria causing what we call walking pneumonia."
+      ]
+    }
+  ]
+}

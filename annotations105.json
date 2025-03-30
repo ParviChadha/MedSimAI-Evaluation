@@ -1,0 +1,1080 @@
+{
+    "105": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "when": "six months ago",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "Yes",
+        "other": "lost 20 or 30 pounds in the last six months.",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "other": " enquiry regarding how much weight has been lost (20 to 30 pounds)?",
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "Yes",
+        "other": "lost 20 or 30 pounds in the last six months",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "Yes",
+        "other": "Previous weight: 200, Current weight:170",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "when check": true,
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "when": "few couple of years ago",
+        "duration": "all day",
+        "characteristics": "smokers cough",
+        "progression": "gradually getting worse over time",
+        "other": "cough that the patient would have in the morning and it would just go away but around six months ago patient started having this cough all day",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "characteristics": " dry cough or a productive cough",
+        "characteristics check": true,
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": " dry cough",
+        "characteristics status": "yes",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "characteristics": "Dry Cough",
+        "characteristics check": true,
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "Dry Cough",
+        "characteristics status": "yes",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "colored/excess sputum,hemoptysis",
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "colored/excess sputum,hemoptysis",
+        "status": "Yes",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "when": "six months ago",
+        "progression": "gradually getting worse over time",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez",
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez",
+        "status": "No",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "location": "side of the chest(R)",
+        "characteristics": "dull aching ",
+        "characteristics status": "yes",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "characteristics": " sharp pain or dull, achy pain",
+        "characteristics check": true,
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "characteristics": "dull pain",
+        "characteristics status": "yes",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "ana factors": "physical exertion",
+        "ana factors check": true,
+        "progression check": true,
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "ana factors": "physical exertion",
+        "ana factors status": "no aggravating",
+        "progression": "unchanged with time",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "location": "centre of chest",
+        "location check": true,
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "location": "side of the chest(R)",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "ana factors": "deep breathing",
+        "ana factors check": true,
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "ana factors": "deep breathing",
+        "ana factors status": "no aggravating",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "ana factors": "lean forward",
+        "ana factors check": true,
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "ana factors": "lean forward",
+        "ana factors status": "no aggravating",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical test",
+        "name": "Test for chest pain",
+        "uid": "30"
+      },
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "heart attacks,blocked arteries",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "stress test",
+        "status": "Yes",
+        "when": "a year ago",
+        "other": "Test Result: Normal",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "palpitation",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "palpitation",
+        "status": "No",
+        "uid": "33"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "atrial fibrillation",
+        "status": "The patient still suffers from the condition.",
+        "other": "Sometimes patient may feel palpitations due to atrial fibrillation",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dizzyness,fainting",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dizzyness,fainting",
+        "status": "No",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "calf",
+        "location check": true,
+        "other": "when patient walk a lot",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "No",
+        "location": "calf",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "No",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fatigue",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fatigue",
+        "status": "No",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "No",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "vision problem,hearing problem",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "vision problem,hearing problem",
+        "status": "No",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "smell loss,taste loss",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "smell loss,taste loss",
+        "status": "No",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nasal congestion,runny nose",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nasal congestion,runny nose",
+        "status": "No",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sore throat",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sore throat",
+        "status": "No",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "diarrhoea",
+        "status": "No",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "constipation,rectal bleeding",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "constipation,rectal bleeding",
+        "status": "No",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nausea,vomitting",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nausea,vomitting",
+        "status": "No",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "status": "No",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "urination",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "urination",
+        "status": "No",
+        "uid": "61"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "benign prostate hypertrophy",
+        "status": "The patient still suffers from the condition.",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "head ache",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "paralysis general",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "paralysis general",
+        "status": "No",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "confusion,memory loss",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "confusion,memory loss",
+        "status": "No",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "joint,muscle",
+        "location check": true,
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "arthritis",
+        "status": "The patient still suffers from the condition.",
+        "uid": "69"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "Knee",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "high bp",
+        "status": "Yes",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "acute copd exacerbation / infection",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "acute copd exacerbation / infection",
+        "status": "No",
+        "uid": "73"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "breathing test",
+        "status": "Yes",
+        "other": "Test Result: Normal",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical test",
+        "name": "breathing test",
+        "status": "Yes",
+        "other": "Enquiry regarding time of test done",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "breathing test",
+        "status": "Yes",
+        "when": "5 to 10 years ago",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "value": "high blood pressure medication",
+        "status": "currently taking",
+        "slot": "medication",
+        "response to": "high blood pressure",
+        "uid": "77"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "beta blocker",
+        "status": "currently taking",
+        "response to": "atrial fibrillation",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "status": "Yes",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy",
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy",
+        "status": "No",
+        "uid": "81"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "lung disease,heart disease",
+        "uid": "82"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "lung cancer",
+        "status": "Yes",
+        "relation": "Uncle and a couple of family members",
+        "other": " they've all been smokers",
+        "uid": "83"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "lung cancer",
+        "status": "Yes",
+        "relation": "Uncle and a couple of family members",
+        "other": "Enquiry regarding type of Lung cancer",
+        "uid": "84"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "lung cancer",
+        "status": "Yes",
+        "relation": "Uncle and a couple of family members",
+        "other": "Patient  not sure about type lung cancer",
+        "uid": "85"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "frquency check": true,
+        "when check": true,
+        "uid": "86"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "Yes",
+        "frquency": "a pack per day",
+        "when": "60 years ago",
+        "uid": "87"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "88"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "Yes",
+        "other": "Earlier the patient used to smoke 2 packs a day",
+        "uid": "89"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "90"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "91"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "uid": "92"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "status": "No",
+        "uid": "93"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "uid": "94"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "Yes",
+        "frquency": "one or two beers every day",
+        "uid": "95"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "value check": true,
+        "uid": "96"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "value": " townhouse",
+        "other": "lives with wife",
+        "uid": "97"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "old carpets,dust,asbestos,mold",
+        "uid": "98"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "old carpets,dust,asbestos,mold",
+        "status": "No",
+        "uid": "99"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "100"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "101"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "pets",
+        "uid": "102"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "pets",
+        "status": "No",
+        "uid": "103"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "104"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "uid": "105"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "travel",
+        "status check": true,
+        "uid": "106"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "No",
+        "uid": "107"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "108"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "109"
+      }
+    ],
+    [
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "lung cancer",
+        "status": "Maybe",
+        "uid": "110"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Covid swab, chest x-ray, CT scan, Pet CT, biopsy, ",
+        "other": "will be performed",
+        "uid": "110"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "covid",
+        "status": "Maybe",
+        "uid": "110"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "111"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "Lung Cancer",
+        "ddx 2": "Chronic Obstructive Pulmonary Disease (COPD)",
+        "ddx 3": "Pulmonary Embolism",
+        "ddx 4": "Tuberculosis (TB)",
+        "ddx 5": "Atrial Fibrillation-Related Complications",
+        "uid": "112"
+      }
+    ]
+  ]
+}
