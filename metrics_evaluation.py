@@ -23,177 +23,60 @@ def load_json_file(file_path: str) -> Dict[str, Any]:
         print(f"Error: File {file_path} is not a valid JSON file.")
         sys.exit(1)
 
-def read_transcript(file_path: str) -> str:
-    """Read transcript from a file."""
-    try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            return file.read().strip()
-    except FileNotFoundError:
-        print(f"Error: Transcript file {file_path} not found.")
-        sys.exit(1)
+def extract_symptoms_from_annotations(annotations: Dict[str, List[List[Dict[str, Any]]]]) -> Set[str]:
+    """Extract unique symptoms from annotations."""
+    unique_symptoms = set()
+    symptom_quotes = {}
+    
+    for conversation_id, utterances in annotations.items():
+        for utterance_list in utterances:
+            for utterance in utterance_list:
+                if utterance.get("slot") == "symptom" and "value" in utterance:
+                    # Split combined symptoms by comma and add each individually
+                    symptom_values = utterance["value"].split(",")
+                    for symptom in symptom_values:
+                        symptom = symptom.strip()
+                        # Skip empty symptoms and "all"
+                        if symptom and symptom.lower() != "all":
+                            unique_symptoms.add(symptom)
+                            
+                            # Store the utterance text as a quote for this symptom
+                            symptom_key = symptom.lower().replace(' ', '_').replace('-', '_').replace('/', '_')
+                            if symptom_key not in symptom_quotes:
+                                symptom_quotes[symptom_key] = []
+                            
+                            speaker_text = utterance.get("speaker_text", "")
+                            if speaker_text and speaker_text not in symptom_quotes[symptom_key]:
+                                symptom_quotes[symptom_key].append(speaker_text)
+    
+    return unique_symptoms, symptom_quotes
 
-def generate_ground_truth_from_transcript(transcript: str, criteria: Dict[str, List[str]], use_ai: bool = False) -> Dict[str, Any]:
-    """Generate ground truth assessment data from transcript."""
-    if use_ai and client_openai:
-        # Use AI to assess the transcript (more accurate but requires API key)
-        return ai_assess_transcript(transcript, criteria)
-    else:
-        # Use rule-based approach (less accurate but doesn't require API key)
-        return rule_based_assess_transcript(transcript, criteria)
-
-def rule_based_assess_transcript(transcript: str, criteria: Dict[str, List[str]]) -> Dict[str, Any]:
-    """Assess transcript using rule-based approach to identify discussed items."""
+def generate_ground_truth_from_annotations(annotations: Dict[str, Any], criteria: List[str]) -> Dict[str, Any]:
+    """Generate ground truth assessment data from annotations file."""
+    # Extract symptoms from annotations
+    discussed_symptoms, symptom_quotes = extract_symptoms_from_annotations(annotations)
+    print(discussed_symptoms)
+    
+    # Create ground truth structure
     ground_truth = {"medical_history_assessed": {}}
     
-    # Preprocess transcript to lowercase for better matching
-    transcript_lower = transcript.lower()
-    
-    # Create lookup dictionary for various phrasings of the same concept
-    concept_variations = {}
-    # Map common variations
-    variation_mapping = {
-        "shortness of breath": ["shortness of breath", "short of breath", "sob", "difficulty breathing", "trouble breathing"],
-        "high blood pressure": ["high blood pressure", "hypertension", "elevated blood pressure"],
-        "colored/excess sputum": ["sputum", "phlegm", "mucus"],
-        "hemoptysis": ["blood in sputum", "bloody sputum", "coughing up blood", "blood tinged sputum", "hemoptysis"],
-    }
-    
-    # Process each category and its items
-    for category, items in criteria.items():
-        for item in items:
-            item_key = item.lower().replace(' ', '_').replace('-', '_')
-            
-            # Set up variations for matching
-            variations = [item.lower()]
-            
-            # Add mapped variations if they exist
-            for concept, concept_vars in variation_mapping.items():
-                if item.lower() == concept:
-                    variations.extend(concept_vars)
-            
-            # Check if any variation is mentioned in the transcript
-            is_assessed = False
-            example_quotes = []
-            
-            # Check for direct mentions
-            for variation in variations:
-                # Look for the term surrounded by word boundaries or punctuation
-                pattern = r'(?<![a-z])' + re.escape(variation) + r'(?![a-z])'
-                matches = re.finditer(pattern, transcript_lower)
-                
-                for match in matches:
-                    # Get the context (sentence or question) containing the match
-                    start = max(0, match.start() - 100)
-                    end = min(len(transcript_lower), match.end() + 100)
-                    context = transcript[start:end]
-                    
-                    # Extract the complete sentence or question
-                    sentence_match = re.search(r'([^.!?]+[.!?])', context)
-                    if sentence_match:
-                        quote = sentence_match.group(0).strip()
-                        if quote not in example_quotes:
-                            example_quotes.append(quote)
-                    else:
-                        # If we can't extract a clean sentence, use the context
-                        if context.strip() not in example_quotes:
-                            example_quotes.append(context.strip())
-                    
-                    is_assessed = True
-            
-            # Look for clear indications of assessment through questions
-            # For example, a medical student asking "Do you have any allergies?"
-            assessment_patterns = [
-                rf"(?:any|have|experiencing|noticed) (?:.*?){re.escape(item.lower())}",
-                rf"(?:check|assess|evaluate|asked about) (?:.*?){re.escape(item.lower())}"
-            ]
-            
-            for pattern in assessment_patterns:
-                matches = re.finditer(pattern, transcript_lower)
-                for match in matches:
-                    start = max(0, match.start() - 50)
-                    end = min(len(transcript_lower), match.end() + 50)
-                    context = transcript[start:end]
-                    
-                    sentence_match = re.search(r'([^.!?]+[.!?])', context)
-                    if sentence_match:
-                        quote = sentence_match.group(0).strip()
-                        if quote not in example_quotes:
-                            example_quotes.append(quote)
-                    else:
-                        if context.strip() not in example_quotes:
-                            example_quotes.append(context.strip())
-                    
-                    is_assessed = True
-            
-            # Add to ground truth
-            ground_truth["medical_history_assessed"][item_key] = {
-                "assessed": "Yes" if is_assessed else "No",
-                "example_quotes": example_quotes
-            }
+    # Process each item in criteria
+    for item in criteria:
+        item_key = item.lower().replace(' ', '_').replace('-', '_').replace('/', '_')
+        
+        # Check if this item was discussed according to annotations
+        is_assessed = any(symptom.lower() == item.lower() for symptom in discussed_symptoms)
+        
+        # Get example quotes for this item if available
+        quotes = symptom_quotes.get(item_key, [])
+        
+        # Add to ground truth
+        ground_truth["medical_history_assessed"][item_key] = {
+            "assessed": "Yes" if is_assessed else "No",
+            "example_quotes": quotes
+        }
     
     return ground_truth
-
-def ai_assess_transcript(transcript: str, criteria: Dict[str, List[str]]) -> Dict[str, Any]:
-    """Use OpenAI to assess the transcript for medical history elements."""
-    # Flatten criteria into a single list
-    all_items = []
-    for category, items in criteria.items():
-        all_items.extend(items)
-    
-    # Construct prompt
-    prompt = "# Medical History Assessment Evaluation\n"
-    prompt += "Analyze this conversation between a medical student and a patient. "
-    prompt += "Determine whether each of the following medical history elements was assessed or discussed.\n\n"
-    
-    # Add list of items to check
-    prompt += "## Items to evaluate:\n"
-    for item in all_items:
-        prompt += f"- {item}\n"
-    
-    # Add output format instructions
-    prompt += "\n## Required Output Format\n"
-    prompt += "Provide your evaluation in the following JSON format:\n```json\n{\n"
-    prompt += "  \"medical_history_assessed\": {\n"
-    
-    # Generate JSON structure
-    for item in all_items:
-        item_key = item.lower().replace(' ', '_').replace('-', '_')
-        prompt += f"    \"{item_key}\": {{\n"
-        prompt += f"      \"assessed\": \"Yes/No\",\n"
-        prompt += f"      \"example_quotes\": []\n"
-        prompt += f"    }}"
-        if item != all_items[-1]:
-            prompt += ","
-        prompt += "\n"
-    
-    prompt += "  }\n}\n```\n\n"
-    
-    # Add instructions
-    prompt += "### Instructions\n"
-    prompt += "1. For each item, determine if it was assessed in the conversation.\n"
-    prompt += "2. Include example quotes from the transcript that demonstrate the assessment.\n"
-    prompt += "3. Mark an item as 'Yes' if the medical student directly asked about it OR if the patient volunteered information about it.\n"
-    prompt += "4. Use an empty array for example_quotes when an item was not assessed.\n"
-    
-    # Make API call
-    try:
-        response = client_openai.chat.completions.create(
-            model="gpt-4o",
-            response_format={"type": "json_object"},
-            messages=[
-                {"role": "system", "content": prompt},
-                {"role": "user", "content": transcript}
-            ],
-        )
-        
-        # Extract and parse the response
-        content = response.choices[0].message.content
-        return json.loads(content)
-    
-    except Exception as e:
-        print(f"Error using AI to assess transcript: {e}")
-        print("Falling back to rule-based assessment...")
-        return rule_based_assess_transcript(transcript, criteria)
 
 def calculate_metrics(results: Dict[str, Any], ground_truth: Dict[str, Any]) -> Dict[str, float]:
     """Calculate precision, recall, and F1 score for assessment results."""
@@ -282,13 +165,12 @@ def save_metrics(metrics: Dict[str, Any], output_file: str) -> None:
 def main():
     """Main function to run the metrics evaluation."""
     # Set up argument parser
-    parser = argparse.ArgumentParser(description="Evaluate medical assessment accuracy using transcript")
+    parser = argparse.ArgumentParser(description="Evaluate medical assessment accuracy using annotations")
     parser.add_argument("conversation_number", help="Conversation number (e.g., 101, 102)")
     parser.add_argument("--results", help="Results file path (default: results{conversation_number}.json)")
-    parser.add_argument("--transcript", help="Transcript file path (default: transcript{conversation_number}.txt)")
+    parser.add_argument("--annotations", help="Annotations file path (default: annotations{conversation_number}.json)")
     parser.add_argument("--criteria", help="Criteria file path (default: criteria{conversation_number}.json)")
     parser.add_argument("--output", help="Output metrics file path (default: metrics{conversation_number}.json)")
-    parser.add_argument("--use-ai", action="store_true", help="Use AI to assess transcript (requires OpenAI API key)")
     parser.add_argument("--save-ground-truth", action="store_true", help="Save generated ground truth to file")
     
     # Parse arguments
@@ -297,7 +179,7 @@ def main():
     # Generate file paths based on conversation number
     conversation_number = args.conversation_number
     results_file = args.results or f"results{conversation_number}.json"
-    transcript_file = args.transcript or f"transcript{conversation_number}.txt"
+    annotations_file = args.annotations or f"annotations{conversation_number}.json"
     criteria_file = args.criteria or f"criteria{conversation_number}.json"
     output_file = args.output or f"metrics{conversation_number}.json"
     
@@ -307,15 +189,24 @@ def main():
     
     # Load criteria file
     print(f"Loading criteria from {criteria_file}...")
-    criteria = load_json_file(criteria_file)
+    criteria_data = load_json_file(criteria_file)
     
-    # Load transcript file
-    print(f"Loading transcript from {transcript_file}...")
-    transcript = read_transcript(transcript_file)
+    # Handle both formats (list or dict with categories)
+    if isinstance(criteria_data, dict):
+        # Extract symptoms from categorized format
+        criteria_list = []
+        for category_symptoms in criteria_data.values():
+            criteria_list.extend(category_symptoms)
+    else:
+        criteria_list = criteria_data
     
-    # Generate ground truth from transcript
-    print("Analyzing transcript to determine ground truth...")
-    ground_truth = generate_ground_truth_from_transcript(transcript, criteria, args.use_ai)
+    # Load annotations file
+    print(f"Loading annotations from {annotations_file}...")
+    annotations = load_json_file(annotations_file)
+    
+    # Generate ground truth from annotations
+    print("Analyzing annotations to determine ground truth...")
+    ground_truth = generate_ground_truth_from_annotations(annotations, criteria_list)
     
     # Save ground truth if requested
     if args.save_ground_truth:
@@ -363,7 +254,7 @@ def main():
         for item in false_negatives:
             print(f"- {item['item']}")
             if item['truth_quotes']:
-                print("  Evidence from transcript:")
+                print("  Evidence from annotations:")
                 for quote in item['truth_quotes'][:2]:  # Limit to 2 quotes for readability
                     print(f"  • \"{quote}\"")
 

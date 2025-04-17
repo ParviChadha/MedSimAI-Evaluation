@@ -1,15 +1,12 @@
 import json
 import os
 import sys
-from typing import Dict, Any, List, Set
+from typing import Dict, Any, List
 import openai
 from openai import OpenAI
 
 # Initialize OpenAI client
 client_openai = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-
-# Configuration - Change this to set the conversation number
-CONVERSATION_NUMBER = "102"  # Edit this line to change conversation number
 
 def read_transcript(file_path: str) -> str:
     """Read transcript from a file."""
@@ -29,47 +26,6 @@ def read_assessment_criteria(file_path: str) -> List[str]:
             return sorted(flattened)
         # If it's already a list, return it directly
         return data
-
-def read_annotations(file_path: str) -> Dict[str, Any]:
-    """Read annotations from a JSON file."""
-    with open(file_path, 'r', encoding='utf-8') as file:
-        return json.load(file)
-
-def extract_symptoms_from_annotations(annotations: Dict[str, List[List[Dict[str, Any]]]]) -> Set[str]:
-    """Extract unique symptoms from annotations."""
-    unique_symptoms = set()
-    
-    for conversation_id, utterances in annotations.items():
-        for utterance_list in utterances:
-            for utterance in utterance_list:
-                if utterance.get("slot") == "symptom" and "value" in utterance:
-                    # Split combined symptoms by comma and add each individually
-                    symptom_values = utterance["value"].split(",")
-                    for symptom in symptom_values:
-                        symptom = symptom.strip()
-                        # Skip empty symptoms and "all"
-                        if symptom and symptom.lower() != "all":
-                            unique_symptoms.add(symptom)
-    
-    return unique_symptoms
-
-def generate_criteria_from_annotations(annotations_file: str, output_file: str) -> List[str]:
-    """Generate criteria list from annotations file."""
-    # Read annotations
-    annotations = read_annotations(annotations_file)
-    
-    # Extract unique symptoms - properly split any combined symptoms
-    unique_symptoms = extract_symptoms_from_annotations(annotations)
-    
-    # Sort the symptoms alphabetically
-    sorted_symptoms = sorted(unique_symptoms)
-    
-    # Save to output file - flat list of symptoms
-    with open(output_file, 'w', encoding='utf-8') as file:
-        json.dump(sorted_symptoms, file, indent=2)
-    
-    print(f"Criteria file successfully generated at {output_file}")
-    return sorted_symptoms
 
 def construct_prompt(symptoms: List[str]) -> str:
     """Construct the evaluation prompt based on a flat list of symptoms."""
@@ -147,31 +103,23 @@ def save_results(results: Dict[str, Any], output_file: str) -> None:
     print(f"Results saved to {output_file}")
 
 def main():
-    """Main function to run the evaluation."""
+    """Main function to evaluate a transcript."""
     if len(sys.argv) < 4:
-        print("Usage: python script.py <transcript_file> <annotations_file> <output_file> [criteria_file]")
+        print("Usage: python evaluate_transcript.py <transcript_file> <criteria_file> <output_results_file>")
         sys.exit(1)
     
     transcript_file = sys.argv[1]
-    annotations_file = sys.argv[2]
+    criteria_file = sys.argv[2]
     output_file = sys.argv[3]
     
-    # Generate default file names based on CONVERSATION_NUMBER
-    default_criteria_file = f"criteria{CONVERSATION_NUMBER}.json"
-    
-    # If criteria file is provided, use it, otherwise generate from annotations
-    if len(sys.argv) >= 5:
-        criteria_file = sys.argv[4]
-        symptoms = read_assessment_criteria(criteria_file)
-    else:
-        # Generate criteria from annotations
-        criteria_file = default_criteria_file
-        symptoms = generate_criteria_from_annotations(annotations_file, criteria_file)
-    
-    # Read transcript
+    # Read transcript and criteria
     transcript = read_transcript(transcript_file)
+    symptoms = read_assessment_criteria(criteria_file)
+    
+    print(f"Loaded {len(symptoms)} symptoms from criteria file")
     
     # Evaluate medical history
+    print("Evaluating medical history in transcript...")
     results = evaluate_medical_history(transcript, symptoms)
     
     # Save results
@@ -181,6 +129,8 @@ def main():
     print("\nEvaluation Summary:")
     for item, details in results["medical_history_assessed"].items():
         print(f"{item.replace('_', ' ').title()}: {details['assessed']}")
+    
+    print(f"\nDetailed results saved to {output_file}")
 
 if __name__ == "__main__":
     main()
