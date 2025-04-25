@@ -1,0 +1,1037 @@
+{
+  "305": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "coughing fit",
+        "status": "Yes",
+        "when": "last couple of months",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "coughing fit",
+        "when check": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "coughing fit",
+        "status": "Yes",
+        "ana factors": "physical exertion",
+        "ana factors status": "yes aggravating",
+        "other": "probably during the winter",
+        "uid": "3"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "coughing fit",
+        "ana factors": "physical exertion, cold",
+        "ana factors check": true,
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "coughing fit",
+        "status": "Yes",
+        "ana factors": "physical exertion, cold",
+        "ana factors status": "yes aggravating",
+        "uid": "5"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "coughing fit",
+        "status": "Yes",
+        "ana factors": "second hand cigarette smoke",
+        "ana factors status": "yes aggravating",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "coughing fit",
+        "ana factors check": true,
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "coughing fit",
+        "status": "Yes",
+        "ana factors": "physical exertion",
+        "ana factors status": "yes aggravating",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "trouble breathing with cough",
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "trouble breathing with cough",
+        "status": "Yes",
+        "frequency": "couple of times",
+        "other": "not able to breath properly",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "past experience",
+        "status": "No",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "head ache",
+        "when": "past couple of months",
+        "when check": true,
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "No",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "vision problem,hearing problem",
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "vision problem,hearing problem\"",
+        "status": "No",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "confusion",
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "confusion",
+        "status": "No",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "runny nose,nasal congestion,sinus congestion",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "runny nose,nasal congestion,sinus congestion",
+        "status": "No",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sore throat",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sore throat",
+        "status": "No",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "ana factors": "cough weight lift bowel movement",
+        "ana factors status": "yes aggravating",
+        "other": "chest pain when patient get really bad coughing fits",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "ana factors": "cough weight lift bowel movement",
+        "ana factors check": true,
+        "other": "chest pain goes away when coughing stops?",
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain ",
+        "status": "Yes",
+        "ana factors": "cough weight lift bowel movement",
+        "ana factors status": "yes aggravating",
+        "other": "chest pain goes away after take some rest",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "belly",
+        "location check": true,
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "No",
+        "location": "belly",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "palpitation",
+        "location": "heart",
+        "location check": true,
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "palpitation",
+        "status": "No",
+        "location": "heart",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "status": "No",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "status": "No",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "acid reflux",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "acid reflux",
+        "status": "No",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "muscle,joint",
+        "location check": true,
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "No",
+        "location": "muscle,joint",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "numbness, tingling",
+        "location": "arms, legs",
+        "location check": true,
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "numbness, tingling",
+        "status": "No",
+        "location": "arms, legs",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "characteristics": "dry or wet cough",
+        "characteristics check": true,
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "dry cough",
+        "characteristics status": "yes",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "dry cough",
+        "characteristics status": "yes",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "colored/excess sputum,hemoptysis",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "status": "Yes",
+        "frequency": "occasionally",
+        "uid": "45"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "status": "No",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "status": "Yes",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "characteristics": "barky cough or a muffled cough",
+        "characteristics check": true,
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "barky cough or a muffled cough",
+        "characteristics status": "yes",
+        "other": "a weird noise occur when patient trying to take deep breaths in.",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez",
+        "uid": "50"
+      },
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "paroxysmal coughing",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "paroxysmal coughing",
+        "status": "No",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "ana factors": "smoking,dust or pollen,outdoor visiting",
+        "ana factors check": true,
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "ana factors": "smoking,dust or pollen,outdoor visiting",
+        "ana factors status": "no aggravating",
+        "uid": "53"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "ana factors": "being in the basement",
+        "ana factors status": "yes aggravating",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "status": "No",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "rash or eczema",
+        "when": "when patient was a child",
+        "when check": true,
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "eczema",
+        "status": "The patient sufferred from the condition in the past.",
+        "when": "when patient was ten",
+        "other": "eczema on hands",
+        "uid": "57"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "cream",
+        "status": "took in the past",
+        "response to": "eczema",
+        "other": "eczema on hands",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergic rhinitis",
+        "uid": "58"
+      },
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy",
+        "other": "allergy from mold or dust, or termites?",
+        "other check": true,
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy",
+        "status": "No",
+        "other": "no allergy from mold or dust, or termites",
+        "uid": "59"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergic rhinitis",
+        "status": "No",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "delayed growth milestones",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "delayed growth milestones",
+        "status": "No",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "hospitalizations",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "hospitalizaiton",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "surgery",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery",
+        "status": "No",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "status": "no",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "eczema cream",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "eczema cream",
+        "status": "took in the past",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "environmental allergies",
+        "status": "The patient still suffers from the condition.",
+        "other": "sometimes in the springtime",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy",
+        "other": "inquire regarding allergic reactions",
+        "other check": true,
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy",
+        "status": "The patient still suffers from the condition.",
+        "other": "it's like a pollen allergy, do get like some nasal congestion",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "visit to allergist",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "visit to allergist",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "who prescribed the cream for the eczema?",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "who prescribed the cream for the eczema?",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "lung-related problems",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "asthma",
+        "status": "Yes",
+        "relation": "sister",
+        "uid": "79"
+      },
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "high blood pressure",
+        "status": "Maybe",
+        "relation": "father",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "other": "who do you live with at home?",
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "other": "live with older sister, and mom and dad.",
+        "uid": "81"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "psychological wellbeing",
+        "other": "feel safe at home",
+        "uid": "82"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "psychological wellbeing",
+        "status": "No",
+        "other": "feel completely safe at home",
+        "uid": "83"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "psychological wellbeing",
+        "other": " bullying at school",
+        "uid": "84"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "psychological wellbeing",
+        "status": "No",
+        "other": "no bullying at school",
+        "uid": "85"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "marijuana,recreational drugs",
+        "uid": "86"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "marijuana,recreational drugs",
+        "status": "No",
+        "uid": "87"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "uid": "88"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "No",
+        "uid": "89"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "sexually activity",
+        "uid": "90"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "sexually activity",
+        "status": "No",
+        "uid": "91"
+      }
+    ],
+    [
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "asthma ",
+        "status": "Maybe",
+        "uid": "92"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "asthma test",
+        "other": "suggesting for asthma test",
+        "uid": "92"
+      },
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "all",
+        "severity": true,
+        "uid": "92"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "all",
+        "status": "Yes",
+        "severity": "1",
+        "severity criterion": "mMRC",
+        "other": "only in gym class",
+        "uid": "93"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "all",
+        "other": "Does it wake patient up at night?",
+        "uid": "94"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "all",
+        "status": "Yes",
+        "other": "no, I get pretty good sleep",
+        "uid": "95"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "all",
+        "frequency check": true,
+        "uid": "96"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "all",
+        "status": "Yes",
+        "when": "two months ago",
+        "frequency": "4-5 times in two months",
+        "uid": "97"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "puffers",
+        "other": "patient may need",
+        "uid": "98"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "99"
+      }
+    ],
+    [
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "covid",
+        "status": "Maybe",
+        "uid": "100"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "corticosteroid puffer",
+        "other": "doctor suggests to take",
+        "uid": "100"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "COVID test",
+        "other": "doctor suggests to take",
+        "uid": "100"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "asthma",
+        "ddx 2": "covid",
+        "ddx 3": "allergic rhinitis",
+        "ddx 4": "COPD",
+        "ddx 5": "bronchitis",
+        "uid": "101"
+      }
+    ]
+  ]
+}

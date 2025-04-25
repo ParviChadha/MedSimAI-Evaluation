@@ -1,0 +1,33 @@
+{
+  "precision": 0.8928571428571429,
+  "recall": 1.0,
+  "f1_score": 0.9433962264150945,
+  "true_positives": 25,
+  "false_positives": 3,
+  "false_negatives": 0,
+  "total_items": 37,
+  "false_positive_details": [
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "OK, worse, OK, so you're having a cough, shortness of breath and fever, and did that all start together?",
+        "Um, so the cough came first, then the shortness of breath, and then the fever."
+      ]
+    },
+    {
+      "item": "Lightheadedness",
+      "result_quotes": [
+        "OK, do you feel dizzy or lightheaded at all?",
+        "Um, no."
+      ]
+    },
+    {
+      "item": "Difficulty Sleeping",
+      "result_quotes": [
+        "Have you been able to sleep throughout the night or does the cough wake you up or the chills wake you up?",
+        "Um, no, they don't wake me up. I wouldn't say that."
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

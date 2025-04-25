@@ -1,0 +1,45 @@
+{
+  "precision": 0.8571428571428571,
+  "recall": 0.96,
+  "f1_score": 0.9056603773584904,
+  "true_positives": 24,
+  "false_positives": 4,
+  "false_negatives": 1,
+  "total_items": 39,
+  "false_positive_details": [
+    {
+      "item": "Tingling",
+      "result_quotes": [
+        "Medical Student: Uh, numbness or tingling?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "Medical Student: Okay, are you experiencing any shortness of breath along with the cough?",
+        "Patient: Uh, a little bit after, um, if I have like a coughing fit that's bad enough, but um, for the most part, I've been okay."
+      ]
+    },
+    {
+      "item": "Fainting",
+      "result_quotes": [
+        "Medical Student: Okay. Any dizziness or fainting spells?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Medical Student: Sore throat?",
+        "Patient: Um, yeah, now that you mention it, I have had a little bit of a sore throat as well."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Paralysis General",
+      "truth_quotes": []
+    }
+  ]
+}

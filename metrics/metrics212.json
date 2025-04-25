@@ -1,0 +1,33 @@
+{
+  "precision": 0.9090909090909091,
+  "recall": 1.0,
+  "f1_score": 0.9523809523809523,
+  "true_positives": 30,
+  "false_positives": 3,
+  "false_negatives": 0,
+  "total_items": 60,
+  "false_positive_details": [
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Medical Student: Alright, and then how about any urinary problems such as painful urination or going frequently?",
+        "Patient: No, no changes."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "Medical Student: OK, and any allergies?",
+        "Patient: Just seasonal allergies."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Patient: Sure, you know I've been feeling kinda hot for the past couple of days and I have this terrible, terrible headache.",
+        "Medical Student: OK and so have you traveled anywhere recently?"
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

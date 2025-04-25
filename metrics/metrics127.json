@@ -1,0 +1,36 @@
+{
+  "precision": 0.8125,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.8666666666666666,
+  "true_positives": 13,
+  "false_positives": 3,
+  "false_negatives": 1,
+  "total_items": 28,
+  "false_positive_details": [
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "I've been cutting out like salt and trying to walk more."
+      ]
+    },
+    {
+      "item": "Trauma",
+      "result_quotes": [
+        "And, but it could it could be a number of things like, it could be something like a pulmonary embolism, but you said you don't have any swelling. Um, but you did say you have some chest pain when you're breathing pretty, when you take a deep breath in."
+      ]
+    },
+    {
+      "item": "Vaccine Related Reaction",
+      "result_quotes": [
+        "OK, and are you up to date with all your immunizations?",
+        "Oh, I get that, like my wife, my wife makes me get that."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    }
+  ]
+}

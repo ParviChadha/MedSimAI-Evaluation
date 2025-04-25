@@ -1,0 +1,33 @@
+{
+  "precision": 0.9166666666666666,
+  "recall": 0.9166666666666666,
+  "f1_score": 0.9166666666666666,
+  "true_positives": 22,
+  "false_positives": 2,
+  "false_negatives": 2,
+  "total_items": 35,
+  "false_positive_details": [
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Yeah, I'm bringing up sputum uh pretty much um like every time I'm coughing up I'm bringing up some yellowish or greenish uh sputum."
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "It's um yeah, I'm just really feeling like I just can't, uh catch my breath even with um some small things around the apartment uh that normally I can do, it's any type of exertion, I just can't catch my breath."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    }
+  ]
+}

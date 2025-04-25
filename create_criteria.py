@@ -2,6 +2,7 @@ import json
 import os
 import sys
 from typing import Dict, Any, List, Set
+import random
 import openai
 from openai import OpenAI
 
@@ -15,7 +16,14 @@ CONVERSATION_NUMBER = "102"  # Edit this line to change conversation number
 ALL_SYMPTOMS_FILE = "all_symptoms.json"  # Edit if your file is named differently
 
 # Symptoms to always exclude (hardcoded)
-EXCLUDED_SYMPTOMS = {"general", "surgery", "recent hospitalizaiton"}
+EXCLUDED_SYMPTOMS = {"general", "surgery", "recent hospitalizaiton", "past experience"}
+
+# Maximum ratio of additional symptoms to real symptoms
+# Set to 1.0 to add the same number of fake symptoms as real symptoms
+ADDITIONAL_SYMPTOMS_RATIO = 1.0
+
+# Absolute maximum number of additional symptoms (as a safety cap)
+MAX_ABSOLUTE_ADDITIONAL_SYMPTOMS = 40
 
 def read_annotations(file_path: str) -> Dict[str, Any]:
     """Read annotations from a JSON file."""
@@ -101,6 +109,7 @@ For each potential symptom in the second list, determine if it should be EXCLUDE
    - Example: "hoarse tone" and "sore throat" both affect the throat area
 
 Be strict about applying these criteria - when in doubt, EXCLUDE the additional symptom.
+Make sure all the symptoms you keep are TRULY DISTINCT from the existing symptoms and from each other.
 
 Return a JSON object with TWO arrays:
 1. "keep" - symptoms to include in the criteria list
@@ -159,6 +168,7 @@ def generate_criteria_from_annotations(annotations_file: str, output_file: str, 
     
     # Extract unique symptoms from the current conversation
     conversation_symptoms = extract_symptoms_from_annotations(annotations)
+    print(f"Found {len(conversation_symptoms)} real symptoms in the conversation")
     
     # Read all possible symptoms from the comprehensive file
     all_symptoms = read_all_symptoms(all_symptoms_file)
@@ -180,12 +190,29 @@ def generate_criteria_from_annotations(annotations_file: str, output_file: str, 
     # Filter additional symptoms to only include those that are conceptually distinct
     if potential_additional_symptoms:
         print(f"Filtering {len(potential_additional_symptoms)} potential additional symptoms...")
-        additional_symptoms = filter_similar_symptoms(
+        filtered_additional_symptoms = filter_similar_symptoms(
             conversation_symptoms, 
             potential_additional_symptoms
         )
     else:
-        additional_symptoms = []
+        filtered_additional_symptoms = []
+    
+    # Calculate target number of additional symptoms (same as real symptoms)
+    target_additional_count = min(
+        int(len(conversation_symptoms) * ADDITIONAL_SYMPTOMS_RATIO),
+        MAX_ABSOLUTE_ADDITIONAL_SYMPTOMS
+    )
+    
+    # If we have more filtered symptoms than our target, randomly select a subset
+    if len(filtered_additional_symptoms) > target_additional_count:
+        print(f"Limiting additional symptoms from {len(filtered_additional_symptoms)} to {target_additional_count} " +
+              f"(matching real symptom count of {len(conversation_symptoms)})")
+        random.seed(int(CONVERSATION_NUMBER))  # Use conversation number as seed for consistent results
+        additional_symptoms = random.sample(filtered_additional_symptoms, target_additional_count)
+    else:
+        print(f"Using all {len(filtered_additional_symptoms)} filtered additional symptoms " +
+              f"(fewer than real symptom count of {len(conversation_symptoms)})")
+        additional_symptoms = filtered_additional_symptoms
     
     # Combine symptoms: those from the current conversation, plus filtered additions
     combined_symptoms = set(conversation_symptoms)
@@ -200,7 +227,7 @@ def generate_criteria_from_annotations(annotations_file: str, output_file: str, 
         json.dump(sorted_symptoms, file, indent=2)
     
     print(f"\nCriteria file successfully generated at {output_file}")
-    print(f"- {len(conversation_symptoms)} symptoms from this conversation")
+    print(f"- {len(conversation_symptoms)} real symptoms from this conversation")
     print(f"- {len(additional_symptoms)} additional symptoms from comprehensive list")
     print(f"- {len(sorted_symptoms)} total symptoms in criteria file")
     

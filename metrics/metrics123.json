@@ -1,0 +1,38 @@
+{
+  "precision": 0.9142857142857143,
+  "recall": 0.9696969696969697,
+  "f1_score": 0.9411764705882354,
+  "true_positives": 32,
+  "false_positives": 3,
+  "false_negatives": 1,
+  "total_items": 55,
+  "false_positive_details": [
+    {
+      "item": "Eye Pain",
+      "result_quotes": [
+        "Medical Student: Any pain or discharge in the eyes or ears?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Lightheadedness",
+      "result_quotes": [
+        "Medical Student: OK, any dizziness or fainting spells?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "Medical Student: OK. And then, um, have you experienced any shortness of breath?",
+        "Patient: Um, not really, no."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
+}

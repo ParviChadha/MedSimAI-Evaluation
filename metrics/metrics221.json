@@ -1,0 +1,26 @@
+{
+  "precision": 0.8947368421052632,
+  "recall": 1.0,
+  "f1_score": 0.9444444444444444,
+  "true_positives": 17,
+  "false_positives": 2,
+  "false_negatives": 0,
+  "total_items": 34,
+  "false_positive_details": [
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Medical Student: OK, and has there been any kind of green slimy mucus in your cough at all?",
+        "Patient: No, it's been a dry cough."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Medical Student: OK, do you have any past medical history any like hypertension that like diabetes? So any conditions that you've been diagnosed with?",
+        "Patient: No, I I'm healthy."
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

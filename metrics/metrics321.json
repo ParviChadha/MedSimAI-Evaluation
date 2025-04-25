@@ -1,0 +1,26 @@
+{
+  "precision": 0.9130434782608695,
+  "recall": 1.0,
+  "f1_score": 0.9545454545454545,
+  "true_positives": 21,
+  "false_positives": 2,
+  "false_negatives": 0,
+  "total_items": 42,
+  "false_positive_details": [
+    {
+      "item": "Headache",
+      "result_quotes": [
+        "OK, and or do you have any headaches?",
+        "Uh. No, I haven't really had any headaches."
+      ]
+    },
+    {
+      "item": "Vaccine Related Reaction",
+      "result_quotes": [
+        "And are you up to date with all your immunizations?",
+        "Yeah, my mom makes me get the flu shot every year."
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

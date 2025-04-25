@@ -1,0 +1,34 @@
+{
+  "precision": 0.9285714285714286,
+  "recall": 0.8125,
+  "f1_score": 0.8666666666666666,
+  "true_positives": 13,
+  "false_positives": 1,
+  "false_negatives": 3,
+  "total_items": 28,
+  "false_positive_details": [
+    {
+      "item": "Body Ache",
+      "result_quotes": [
+        "OK, do you have any neck stiffness?",
+        "No.",
+        "Any pain anywhere else in your body?",
+        "Uh, no."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    }
+  ]
+}

@@ -1,0 +1,1284 @@
+{
+  "321": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      },
+      {
+        "intent": "inquire",
+        "slot": "basic information",
+        "name": true,
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "basic information",
+        "name": "Scott",
+        "uid": "1"
+      },
+      {
+        "intent": "salutations",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "basic information",
+        "age": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "basic information",
+        "age": "15 years",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "salutations",
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sore throat",
+        "status": "Yes",
+        "when": "a couple of weeks ago",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sore throat",
+        "when": "two weeks,three weeks",
+        "when check": true,
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sore throat",
+        "status": "Yes",
+        "when": "two to three weeks ago",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sore throat",
+        "characteristics": "burning,itchy",
+        "characteristics check": true,
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sore throat",
+        "status": "Yes",
+        "when": "two to three weeks",
+        "characteristics": "burning scratchy",
+        "characteristics status": "yes",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "odynophagia",
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "odynophagia",
+        "status": "Yes",
+        "ana factors": "cold food",
+        "ana factors status": "yes alleviating",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "neck",
+        "location check": true,
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "neck",
+        "severity": "3",
+        "uid": "13"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "Lumps",
+        "status": "Yes",
+        "location": "front of the neck",
+        "characteristics": "sore",
+        "characteristics status": "yes",
+        "volume": "some",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "Lumps",
+        "location": "midline,side of the neck",
+        "location check": true,
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "Lumps",
+        "status": "Yes",
+        "location": "side of the neck(L),side of the neck(R)",
+        "characteristics": "sore",
+        "characteristics status": "yes",
+        "other": "right side is more sore than the left",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "neck",
+        "severity": true,
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "neck",
+        "severity": "3",
+        "ana factors": "movement",
+        "ana factors status": "yes aggravating",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "neck",
+        "other": "do the symptoms preventing patient from sleeping, going to school, playing",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "neck",
+        "other": " it's more sore throat when swallowing",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "Yes",
+        "uid": "21"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Temperature check",
+        "status": "Yes",
+        "when": "This morning",
+        "other": "Temperature was 38.7 C",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Temperature check",
+        "other": "Future",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "location check": true,
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "location": "chest,belly",
+        "color": "pink",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "size": true,
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "size": "Yes",
+        "other": "not continuous and present in patches or blotches",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "swollen": true,
+        "other": "is the rash raised",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "swollen": "No",
+        "other": "rash is not raised",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "itching": true,
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "itching": "0",
+        "other": "no itching",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "other": "is the rash painful",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "other": "rash is not painful",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "other": "is the rash bleeding or oozing pus",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "location": "hands",
+        "color": "pink",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "location": "chest,belly,hands",
+        "other": "Onset order with sore throat",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "Yes",
+        "location": "chest,belly,hands",
+        "other": "Onset order-  sore throat started first and maybe a rash came a little bit later",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "swollen glands",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "swollen glands",
+        "status": "Yes",
+        "location": "neck",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "No",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nasal congestion,runny nose",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nasal congestion,runny nose",
+        "status": "No",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "widespread pain",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "widespread pain",
+        "status": "Yes",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "upper limbs,lower limbs",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "joints,muscles",
+        "other": "pain is present all over the body",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "head ache",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "No",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "status": "Yes",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "Yes",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "when check": true,
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "Yes",
+        "when": "Three or four weeks ago",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "eye issues",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "eye issues",
+        "status": "No",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "Pus ",
+        "location": "eyes",
+        "location check": true,
+        "uid": "62"
+      },
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "eye redness",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "Pus ",
+        "status": "No",
+        "location": "eyes",
+        "uid": "63"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "eye redness",
+        "status": "Yes",
+        "other": "might have looked maybe a little bit more more red",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "status": "No",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "bowel movement,diarrhoea,constipation",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "bowel movement,diarrhoea,constipation",
+        "status": "No",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "urination",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "urination",
+        "status": "No",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "past experience",
+        "status": "No",
+        "uid": "71"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": " sore throat",
+        "status": "The patient still suffers from the condition.",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": " sore throat",
+        "status": "The patient still suffers from the condition.",
+        "when check": true,
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": " sore throat",
+        "status": "The patient still suffers from the condition.",
+        "when": "In childhood",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": " sore throat",
+        "status": "The patient still suffers from the condition.",
+        "other": "It's been awhile",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "strep throat,viral infection",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "antibiotics",
+        "status": "took in the past",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "asthma",
+        "status": "The patient still suffers from the condition.",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "response to": "asthma",
+        "response to check": true,
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Ventolin ",
+        "status": "currently taking",
+        "response to": "asthma",
+        "frequency": "as needed",
+        "uid": "81"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Flovent ",
+        "status": "currently taking",
+        "response to": "asthma",
+        "frequency": "daily ",
+        "uid": "81"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "82"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "inhalers ",
+        "status": "currently taking",
+        "response to": "asthma",
+        "uid": "83"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "uid": "84"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Reactine,allergy pill",
+        "status": "currently taking",
+        "frequency": "sometimes ",
+        "uid": "85"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy",
+        "uid": "86"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy",
+        "status": "The patient still suffers from the condition.",
+        "other": "allergies from dust",
+        "uid": "87"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "seasonal allergies",
+        "status": "The patient still suffers from the condition.",
+        "uid": "87"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "uid": "88"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "status": "Yes",
+        "other": "get the flu shot every year",
+        "uid": "89"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "have patient seen another doctor for the symptoms ",
+        "uid": "90"
+      },
+      {
+        "intent": "inquire",
+        "slot": "medical test",
+        "name": "blood work",
+        "uid": "90"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": " haven't seen anybody for the symptoms",
+        "uid": "91"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "blood work",
+        "status": "No",
+        "uid": "91"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "over the counter medications",
+        "response to": "sore throat,pain,Lumps,fever,swollen glands,widespread pain,odynophagia",
+        "response to check": true,
+        "uid": "92"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Tylenol ",
+        "status": "took in the past",
+        "response to": "pain",
+        "impact": "Yes",
+        "other": "but they've come right back",
+        "uid": "93"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "lung disease,heart disease",
+        "uid": "94"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "lung disease,heart disease",
+        "status": "No",
+        "uid": "95"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "cancer",
+        "uid": "96"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "cancer",
+        "status": "Yes",
+        "relation": "Grandfather ",
+        "other": "Grandfather had a pancreatic cancer",
+        "uid": "97"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "value check": true,
+        "uid": "98"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "value": "home",
+        "status": "Yes",
+        "other": "lives with parents and younger sister",
+        "uid": "99"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "similar symptoms",
+        "relation": "sister",
+        "uid": "100"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "similar symptoms",
+        "status": "No",
+        "relation": "sister",
+        "uid": "101"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "travel",
+        "status check": true,
+        "uid": "102"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "No",
+        "uid": "103"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "uid": "104"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "No",
+        "uid": "105"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "marijuana",
+        "uid": "106"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "marijuana",
+        "status": "No",
+        "other": "tried it once or twice but it was just those couple times",
+        "uid": "107"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "uid": "108"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "No",
+        "uid": "109"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "sexual activity",
+        "uid": "110"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "sexual activity",
+        "status": "No",
+        "uid": "111"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": " Have patient kissed anyone recently",
+        "uid": "112"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "patient have a girlfriend, so may be yes  patient kissed her",
+        "uid": "113"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "114"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "may be yes  patient kissed her",
+        "uid": "115"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "116"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "Yes",
+        "other": "The patient's girlfriend didn't have symptoms as bad as himself",
+        "uid": "117"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "118"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "119"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "similar symptoms",
+        "uid": "120"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "similar symptoms",
+        "status": "No",
+        "uid": "121"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "122"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "123"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "relationship ",
+        "uid": "124"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "relationship ",
+        "uid": "125"
+      }
+    ],
+    [
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "kissing disease",
+        "status": "Maybe",
+        "uid": "126"
+      },
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "126"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "127"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "128"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "129"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "130"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "131"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "monospot test",
+        "other": "future",
+        "uid": "132"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": " rapid strep test",
+        "other": "future",
+        "uid": "132"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "strep throat",
+        "status": "Maybe",
+        "uid": "132"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "133"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "kissing disease",
+        "ddx 2": "strep throat",
+        "ddx 3": "viral pharyngitis",
+        "ddx 4": "tonsillitis",
+        "uid": "134"
+      }
+    ]
+  ]
+}

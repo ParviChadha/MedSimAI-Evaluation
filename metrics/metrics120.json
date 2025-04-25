@@ -1,0 +1,47 @@
+{
+  "precision": 0.875,
+  "recall": 0.9655172413793104,
+  "f1_score": 0.9180327868852458,
+  "true_positives": 28,
+  "false_positives": 4,
+  "false_negatives": 1,
+  "total_items": 55,
+  "false_positive_details": [
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "I see OK and have you had any painful urination or feeling the need to urinate frequently?",
+        "No."
+      ]
+    },
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "OK, have you had any troubles with swallowing, like being painful?",
+        "No, well, no no. I would say no."
+      ]
+    },
+    {
+      "item": "Eye Pain",
+      "result_quotes": [
+        "OK, how about any pain around your eyes or ears?",
+        "No."
+      ]
+    },
+    {
+      "item": "Ear Problem",
+      "result_quotes": [
+        "OK, how about any discharge like mucus or tears from your eyes or ears?",
+        "No, nothing like that.",
+        "OK, how about any pain around your eyes or ears?",
+        "No."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    }
+  ]
+}

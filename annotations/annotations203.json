@@ -1,0 +1,650 @@
+{
+  "203": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "grunting noise,more quiet,not crying",
+        "status": "Yes",
+        "when": "last 2 days ",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "basic information",
+        "sex": "Male",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "grunting",
+        "when check": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "Grunting ",
+        "status": "Yes",
+        "when": "2 days ago ",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "Grunting",
+        "when check": true,
+        "other": "Confirmation whether the sound is heard when the baby is trying to breathe.",
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "tachypnea",
+        "status": "Yes",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sleep",
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "difficulty sleeping",
+        "status": "Yes",
+        "other": "sleep around 4 hours with difficulties",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "Confirmation about feedings.",
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "status": "Yes",
+        "other": "really hard to get him to feed",
+        "uid": "9"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "difficulty feeding",
+        "status": "Yes",
+        "other": "really hard to get him to feed",
+        "uid": "9"
+      },
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "Patient takes formula feed",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "difficulty feeding",
+        "when check": true,
+        "other": "Confirmation on :  Does this happen when the mother try to feed .",
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "difficulty feeding",
+        "status": "Yes",
+        "other": "not excited about feeding",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "diarrhoea",
+        "other": "Enquiry regarding number of wet diapers changed since yesterday/today",
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "diarrhoea",
+        "status": "No",
+        "other": "number of wet diapers unchanged (six times)",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "basic information",
+        "age": "six months",
+        "uid": "14"
+      },
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "anything new fed to the child",
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "Patient only takes bottle feed",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "confirmation regarding solid food intake",
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "no solid food intake ",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "decreased activity",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "Yes",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "drooling",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "drooling",
+        "status": "No",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "No",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "delayed growth milestones",
+        "other": "does patient sit up on his own",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "delayed growth milestones",
+        "status": "No",
+        "other": "Patient sit up against a sofa or chair, but not really on his own.",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "foreign body intake",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "foreign body intake",
+        "status": "No",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "status": "Yes",
+        "other": "up to date with all his immunizations",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "vaccine related reaction",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "vaccine related reaction",
+        "status": "No",
+        "other": "Vaccinated 2-3 weeks back",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "diarrhoea",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "diarrhoea",
+        "status": "No",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "status": "No",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "limp,lethargic",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "limp,lethargic",
+        "status": "No",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "decreased fluid intake",
+        "other": "Any milk or anything ",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "decreased fluid intake",
+        "status": "Yes",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "decreased oral intake",
+        "when": "over the past or today",
+        "when check": true,
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "decreased oral intake",
+        "status": "Yes",
+        "when": "over the past and today",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dehydration",
+        "severity": "2",
+        "other": "a little bit",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "premature birth",
+        "uid": "46"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "physical exam",
+        "other": "will be performed in this visit",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "premature birth",
+        "status": "Yes",
+        "when": "At birth",
+        "other": "35 weeks and 4 days otherwise no complications during birth",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "Respiratory distress syndrome, lung complications",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "apnea at birth",
+        "status": "Yes",
+        "other": "Didn't breathe for five minutes",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "NICU stay",
+        "when": "after being born",
+        "when check": true,
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "NICU stay",
+        "status": "Yes",
+        "when": "after being born",
+        "other": "for three days",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "general",
+        "when": "over the past six months",
+        "when check": true,
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "general",
+        "status": "No",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "delayed growth milestones",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "delayed growth milestones",
+        "status": "No",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "surgery,recent hospitalizaiton",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery,recent hospitalizaiton",
+        "status": "No",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy",
+        "status": "No",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "status": "No",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "cystic fibrosis",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "cystic fibrosis",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "vitals check,auscultation,",
+        "other": "will be performed",
+        "uid": "64"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "antibiotic",
+        "other": "patient might need",
+        "uid": "64"
+      },
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "He might need potentially, to be intubated",
+        "uid": "64"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Lab test",
+        "other": "will be performed",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "respiratory distress syndrome",
+        "ddx 2": "bronchiolitis",
+        "ddx 3": "pneumonia",
+        "ddx 4": "gerd",
+        "uid": "67"
+      }
+    ]
+  ]
+}

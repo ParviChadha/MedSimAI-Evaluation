@@ -1,0 +1,45 @@
+{
+  "precision": 0.8823529411764706,
+  "recall": 0.967741935483871,
+  "f1_score": 0.923076923076923,
+  "true_positives": 30,
+  "false_positives": 4,
+  "false_negatives": 1,
+  "total_items": 61,
+  "false_positive_details": [
+    {
+      "item": "Eye Pain",
+      "result_quotes": [
+        "Medical Student: Changes in your vision or eye pain?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "Medical Student: Um, how about uh like feeling you're like you're tired?",
+        "Patient: Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older."
+      ]
+    },
+    {
+      "item": "Change In Taste",
+      "result_quotes": [
+        "Medical Student: OK um, have there been any changes to your taste recently?",
+        "Patient: No, not that I know."
+      ]
+    },
+    {
+      "item": "Ear Problem",
+      "result_quotes": [
+        "Medical Student: OK, changes in your hearing or ear pain?",
+        "Patient: No."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
+}

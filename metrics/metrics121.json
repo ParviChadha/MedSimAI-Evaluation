@@ -1,0 +1,40 @@
+{
+  "precision": 0.875,
+  "recall": 1.0,
+  "f1_score": 0.9333333333333333,
+  "true_positives": 28,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 43,
+  "false_positive_details": [
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "Medical Student: Have you been having any cold-like symptoms before the two days, like in the last week, like runny nose, sore throat?",
+        "Patient: No. I was, like, I was absolutely fine."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "Medical Student: Okay. How about sore throat, headaches, muscle pain, anything like that?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "Medical Student: Have you had any allergic reactions before?",
+        "Patient: I don't know, maybe it, it's an allergic reaction to the morphine."
+      ]
+    },
+    {
+      "item": "Hyperhidrosis",
+      "result_quotes": [
+        "Medical Student: Okay. Any night sweats?",
+        "Patient: No."
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

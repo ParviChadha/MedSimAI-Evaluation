@@ -1,0 +1,39 @@
+{
+  "precision": 0.9375,
+  "recall": 0.9090909090909091,
+  "f1_score": 0.923076923076923,
+  "true_positives": 30,
+  "false_positives": 2,
+  "false_negatives": 3,
+  "total_items": 38,
+  "false_positive_details": [
+    {
+      "item": "Itching",
+      "result_quotes": [
+        "Do your current symptoms feel like that?",
+        "No, no."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "I've been just on wall recently over the last, I would say three to four days.",
+        "I started getting these like really bad muscle pains all throughout my body."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Paralysis General",
+      "truth_quotes": []
+    }
+  ]
+}
