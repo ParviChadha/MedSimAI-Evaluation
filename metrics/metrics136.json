@@ -1,31 +1,123 @@
 {
-  "precision": 0.9142857142857143,
-  "recall": 1.0,
-  "f1_score": 0.955223880597015,
-  "true_positives": 32,
+  "precision": 0.75,
+  "recall": 0.28125,
+  "f1_score": 0.4090909090909091,
+  "true_positives": 9,
   "false_positives": 3,
-  "false_negatives": 0,
-  "total_items": 45,
+  "false_negatives": 23,
+  "total_items": 63,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Weight Changes",
       "result_quotes": [
-        "Patient: Um, yeah I would say it's getting a little bit harsh. It's more just like, I'm not bringing anything up, it's more like a dry cough um, but yeah, I would say it's getting worse, definitely."
+        "Uh no, probably weight gain."
       ]
     },
     {
-      "item": "Tachypnea",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "Patient: Uh probably like a five. It kind of just started out with uh, three days ago, was kind of like I just couldn't take deep breaths like I noticed that my breathing was getting a little bit more shallow and now it's, especially when I'm coughing, it's like I really have to sit down and catch my breath."
+        "Uh, so I do have diabetes and high blood pressure."
       ]
     },
     {
-      "item": "Aches",
+      "item": "Changes In Appetite",
       "result_quotes": [
-        "Medical Student: OK, um how about um pain in your calves when you walk a few blocks?",
-        "Patient: No, I've been fine that way."
+        "Maybe just a little bit, like I don't really feel like eating when I'm coughing all the time, but other than that, no, not really."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dysphagia",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Rectal Bleeding",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    }
+  ]
 }

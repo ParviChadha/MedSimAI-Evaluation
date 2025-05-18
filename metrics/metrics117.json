@@ -1,26 +1,140 @@
 {
-  "precision": 0.9696969696969697,
-  "recall": 0.9411764705882353,
-  "f1_score": 0.955223880597015,
-  "true_positives": 32,
-  "false_positives": 1,
-  "false_negatives": 2,
-  "total_items": 42,
+  "precision": 0.6470588235294118,
+  "recall": 0.3235294117647059,
+  "f1_score": 0.4313725490196078,
+  "true_positives": 11,
+  "false_positives": 6,
+  "false_negatives": 23,
+  "total_items": 62,
   "false_positive_details": [
     {
       "item": "Hyperhidrosis",
       "result_quotes": [
-        "No, but I get really sweaty when these episodes happen. Just like yeah, my face is like sweating, and my neck."
+        "I get really sweaty when these episodes happen."
+      ]
+    },
+    {
+      "item": "More Quiet",
+      "result_quotes": [
+        "I just feel like staying at home."
+      ]
+    },
+    {
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "I kind of sleep all day."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "Um. Well, I've been feeling a little low."
+      ]
+    },
+    {
+      "item": "Irregular Heartbeat",
+      "result_quotes": [
+        "I also feel like my heart's like breathing really fast."
+      ]
+    },
+    {
+      "item": "Impending Doom Anxiety",
+      "result_quotes": [
+        "I can kind of tell when they're about to come on."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Watery Eyes",
+      "item": "Swelling",
       "truth_quotes": []
     },
     {
       "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Slow Motion Feeling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pregnancy",
+      "truth_quotes": []
+    },
+    {
+      "item": "Guilt Feeling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Self Harm Thoughts",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
       "truth_quotes": []
     }
   ]

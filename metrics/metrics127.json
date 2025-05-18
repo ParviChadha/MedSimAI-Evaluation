@@ -1,35 +1,54 @@
 {
-  "precision": 0.8125,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.8666666666666666,
-  "true_positives": 13,
-  "false_positives": 3,
-  "false_negatives": 1,
+  "precision": 0.8333333333333334,
+  "recall": 0.35714285714285715,
+  "f1_score": 0.5,
+  "true_positives": 5,
+  "false_positives": 1,
+  "false_negatives": 9,
   "total_items": 28,
   "false_positive_details": [
     {
-      "item": "Tachypnea",
+      "item": "Straining And Chest Discomfort",
       "result_quotes": [
-        "I've been cutting out like salt and trying to walk more."
-      ]
-    },
-    {
-      "item": "Trauma",
-      "result_quotes": [
-        "And, but it could it could be a number of things like, it could be something like a pulmonary embolism, but you said you don't have any swelling. Um, but you did say you have some chest pain when you're breathing pretty, when you take a deep breath in."
-      ]
-    },
-    {
-      "item": "Vaccine Related Reaction",
-      "result_quotes": [
-        "OK, and are you up to date with all your immunizations?",
-        "Oh, I get that, like my wife, my wife makes me get that."
+        "But then I woke up and I was like walking up the stairs and I like was kinda having a hard time breathing."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
       "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
       "truth_quotes": []
     }
   ]

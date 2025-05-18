@@ -1,14 +1,16 @@
 import os
-import json
 import sys
-import subprocess
+import json
+import importlib
+import time
+from typing import Dict, Any, List, Optional
+import multiprocessing
+import tqdm
+from functools import partial
 import argparse
-from typing import Dict, Any, List, Set
-import pandas as pd
-import numpy as np
-from tqdm import tqdm
-import shutil
-from concurrent.futures import ProcessPoolExecutor, as_completed
+
+# Import our ModelInterface 
+from model_interface import ModelInterface, process_conversation_worker
 
 def create_directory_structure():
     """Create the necessary directory structure for the project."""
@@ -60,172 +62,13 @@ def extract_all_conversations(input_file: str, output_dir: str, file_prefix: str
     successful_ids = []
     
     # Extract each conversation
-    for i in tqdm(range(start_id, end_id + 1), desc=f"Extracting {file_prefix} files"):
+    for i in tqdm.tqdm(range(start_id, end_id + 1), desc=f"Extracting {file_prefix} files"):
         conversation_id = str(i)
         if extract_conversation(data, conversation_id, output_dir, file_prefix):
             successful_ids.append(conversation_id)
     
     print(f"Successfully extracted {len(successful_ids)} {file_prefix} files")
     return successful_ids
-
-def create_transcript(dialog_file: str, output_file: str):
-    """Create a transcript from a dialog file using the Node.js script."""
-    # Create a temporary JavaScript file that uses the conversion function
-    # Use a unique filename based on the conversation ID to avoid conflicts
-    conversation_id = os.path.basename(dialog_file).replace("dialogs", "").replace(".json", "")
-    temp_js = f"temp_convert_{conversation_id}.js"
-    
-    with open(temp_js, 'w', encoding='utf-8') as file:
-        file.write('''const fs = require('fs');
-
-function convertDialogsToTranscript(inputFile, outputFile) {
-  // Read the JSON file
-  fs.readFile(inputFile, 'utf8', (err, data) => {
-    if (err) {
-      console.error(`Error reading file: ${err}`);
-      process.exit(1);
-      return;
-    }
-
-    try {
-      // Parse the JSON data
-      const dialogsData = JSON.parse(data);
-      let transcript = '';
-
-      // Process each dialog
-      Object.values(dialogsData).forEach(dialog => {
-        // Process each utterance in the dialog
-        dialog.utterances.forEach(utterance => {
-          // Format the speaker role properly
-          let speakerRole;
-          if (utterance.speaker === "doctor") {
-            speakerRole = "Medical Student";
-          } else {
-            // Capitalize first letter for other roles
-            speakerRole = utterance.speaker.charAt(0).toUpperCase() + utterance.speaker.slice(1);
-          }
-          
-          // Format the line according to the specified format
-          transcript += `**${speakerRole}: **${utterance.text}\\n`;
-        });
-        
-        // Add a newline between different dialogs
-        transcript += '\\n';
-      });
-
-      // Write the transcript to the output file
-      fs.writeFile(outputFile, transcript, err => {
-        if (err) {
-          console.error(`Error writing transcript file: ${err}`);
-          process.exit(1);
-          return;
-        }
-        console.log(`Transcript successfully written to ${outputFile}`);
-        process.exit(0);
-      });
-    } catch (error) {
-      console.error(`Error parsing JSON: ${error}`);
-      process.exit(1);
-    }
-  });
-}
-
-// Call the function with the command line arguments
-const inputFile = process.argv[2];
-const outputFile = process.argv[3];
-convertDialogsToTranscript(inputFile, outputFile);
-''')
-    
-    try:
-        # Run the Node.js script with a timeout
-        result = subprocess.run(['node', temp_js, dialog_file, output_file], 
-                               capture_output=True, text=True, timeout=30)
-        
-        # Check the result
-        if result.returncode != 0:
-            print(f"Error creating transcript: {result.stderr}")
-            return False
-    except subprocess.TimeoutExpired:
-        print(f"Timeout while creating transcript for {dialog_file}")
-        return False
-    except Exception as e:
-        print(f"Exception while creating transcript: {e}")
-        return False
-    finally:
-        # Clean up the temporary file
-        try:
-            if os.path.exists(temp_js):
-                os.remove(temp_js)
-        except Exception as e:
-            print(f"Warning: Could not remove temporary file {temp_js}: {e}")
-    
-    # Verify the transcript file was created
-    if not os.path.exists(output_file):
-        print(f"Transcript file {output_file} was not created")
-        return False
-    
-    return True
-
-def process_conversation(conversation_id: str, directories: List[str]):
-    """Process a single conversation through the entire pipeline."""
-    conversation_id_str = str(conversation_id)
-    
-    # File paths
-    dialog_file = os.path.join(directories[1], f"dialogs{conversation_id_str}.json")
-    annotation_file = os.path.join(directories[2], f"annotations{conversation_id_str}.json")
-    transcript_file = os.path.join(directories[0], f"transcript{conversation_id_str}.txt")
-    criteria_file = os.path.join(directories[3], f"criteria{conversation_id_str}.json")
-    results_file = os.path.join(directories[4], f"results{conversation_id_str}.json")
-    metrics_file = os.path.join(directories[5], f"metrics{conversation_id_str}.json")
-    
-    # Step 1: Create transcript from dialog
-    if not os.path.exists(transcript_file):
-        print(f"Creating transcript for conversation {conversation_id_str}")
-        if not create_transcript(dialog_file, transcript_file):
-            print(f"Failed to create transcript for conversation {conversation_id_str}")
-            return False
-    
-    # Step 2: Create criteria from annotations
-    if not os.path.exists(criteria_file):
-        print(f"Creating criteria for conversation {conversation_id_str}")
-        create_criteria_cmd = [
-            'python', 'create_criteria.py', 
-            annotation_file, criteria_file, conversation_id_str, 'all_symptoms.json'
-        ]
-        result = subprocess.run(create_criteria_cmd, capture_output=True, text=True)
-        if result.returncode != 0:
-            print(f"Error creating criteria for conversation {conversation_id_str}: {result.stderr}")
-            return False
-    
-    # Step 3: Create results from transcript and criteria
-    if not os.path.exists(results_file):
-        print(f"Creating results for conversation {conversation_id_str}")
-        create_results_cmd = [
-            'python', 'create_results.py',
-            transcript_file, criteria_file, results_file
-        ]
-        result = subprocess.run(create_results_cmd, capture_output=True, text=True)
-        if result.returncode != 0:
-            print(f"Error creating results for conversation {conversation_id_str}: {result.stderr}")
-            return False
-    
-    # Step 4: Calculate metrics from results and annotations
-    if not os.path.exists(metrics_file):
-        print(f"Calculating metrics for conversation {conversation_id_str}")
-        metrics_cmd = [
-            'python', 'metrics_evaluation.py',
-            conversation_id_str,
-            f"--results={results_file}",
-            f"--annotations={annotation_file}",
-            f"--criteria={criteria_file}",
-            f"--output={metrics_file}"
-        ]
-        result = subprocess.run(metrics_cmd, capture_output=True, text=True)
-        if result.returncode != 0:
-            print(f"Error calculating metrics for conversation {conversation_id_str}: {result.stderr}")
-            return False
-    
-    return True
 
 def calculate_aggregated_metrics(metrics_dir: str, conversation_ids: List[str]):
     """Calculate aggregated metrics across all processed conversations."""
@@ -309,52 +152,58 @@ def calculate_aggregated_metrics(metrics_dir: str, conversation_ids: List[str]):
     
     # Create a visual representation of the metrics distribution
     if len(individual_metrics) > 0:
-        df = pd.DataFrame(individual_metrics)
-        
-        # Calculate statistics
-        stats = {
-            "precision": {
-                "mean": df["precision"].mean(),
-                "median": df["precision"].median(),
-                "std": df["precision"].std(),
-                "min": df["precision"].min(),
-                "max": df["precision"].max()
-            },
-            "recall": {
-                "mean": df["recall"].mean(),
-                "median": df["recall"].median(),
-                "std": df["recall"].std(),
-                "min": df["recall"].min(),
-                "max": df["recall"].max()
-            },
-            "f1_score": {
-                "mean": df["f1_score"].mean(),
-                "median": df["f1_score"].median(),
-                "std": df["f1_score"].std(),
-                "min": df["f1_score"].min(),
-                "max": df["f1_score"].max()
+        try:
+            import pandas as pd
+            import numpy as np
+            
+            df = pd.DataFrame(individual_metrics)
+            
+            # Calculate statistics
+            stats = {
+                "precision": {
+                    "mean": df["precision"].mean(),
+                    "median": df["precision"].median(),
+                    "std": df["precision"].std(),
+                    "min": df["precision"].min(),
+                    "max": df["precision"].max()
+                },
+                "recall": {
+                    "mean": df["recall"].mean(),
+                    "median": df["recall"].median(),
+                    "std": df["recall"].std(),
+                    "min": df["recall"].min(),
+                    "max": df["recall"].max()
+                },
+                "f1_score": {
+                    "mean": df["f1_score"].mean(),
+                    "median": df["f1_score"].median(),
+                    "std": df["f1_score"].std(),
+                    "min": df["f1_score"].min(),
+                    "max": df["f1_score"].max()
+                }
             }
-        }
-        
-        print("\nMetrics Distribution Statistics:")
-        for metric, values in stats.items():
-            print(f"\n{metric.title()}:")
-            print(f"  Mean: {values['mean']:.4f}")
-            print(f"  Median: {values['median']:.4f}")
-            print(f"  Std Dev: {values['std']:.4f}")
-            print(f"  Min: {values['min']:.4f}")
-            print(f"  Max: {values['max']:.4f}")
-        
-        # Save statistics to file
-        stats_file = os.path.join(metrics_dir, "metrics_statistics.json")
-        with open(stats_file, 'w', encoding='utf-8') as file:
-            json.dump(stats, file, indent=2)
-        print(f"\nSaved metrics statistics to {stats_file}")
+            
+            print("\nMetrics Distribution Statistics:")
+            for metric, values in stats.items():
+                print(f"\n{metric.title()}:")
+                print(f"  Mean: {values['mean']:.4f}")
+                print(f"  Median: {values['median']:.4f}")
+                print(f"  Std Dev: {values['std']:.4f}")
+                print(f"  Min: {values['min']:.4f}")
+                print(f"  Max: {values['max']:.4f}")
+            
+            # Save statistics to file
+            stats_file = os.path.join(metrics_dir, "metrics_statistics.json")
+            with open(stats_file, 'w', encoding='utf-8') as file:
+                json.dump(stats, file, indent=2)
+            print(f"\nSaved metrics statistics to {stats_file}")
+        except ImportError:
+            print("Pandas or NumPy not installed. Skipping detailed statistics.")
     
     return aggregated_metrics
 
 def main():
-    """Main function to run the entire pipeline."""
+    """Main function to run the entire pipeline with proper multiprocessing."""
     parser = argparse.ArgumentParser(description="Automate medical dialogue analysis pipeline")
     
     parser.add_argument("--dialogs", default="dialogs.json", help="Main dialogs JSON file")
@@ -363,8 +212,23 @@ def main():
     parser.add_argument("--end", type=int, default=201, help="Ending conversation ID")
     parser.add_argument("--parallel", type=int, default=4, help="Number of parallel processes")
     parser.add_argument("--force", action="store_true", help="Force reprocessing of all conversations")
+    parser.add_argument("--api-key", help="API key for the selected model")
+    parser.add_argument("--model", help="Pre-select model (openai/claude/gemini/fireworks) to skip interactive selection")
     
     args = parser.parse_args()
+    
+    # Select model (interactively or from command line)
+    if args.model:
+        if args.model.lower() in ["openai", "claude", "gemini", "fireworks"]:
+            selected_model = args.model.lower()
+            print(f"Using pre-selected model: {selected_model}")
+        else:
+            print(f"Invalid model: {args.model}. Please choose from: openai, claude, gemini, fireworks")
+            sys.exit(1)
+    else:
+        # Import here to avoid circular imports
+        from model_interface import select_model
+        selected_model = select_model()
     
     # Create directory structure
     directories = create_directory_structure()
@@ -395,30 +259,37 @@ def main():
         print("Error: No conversations could be extracted from both files")
         return
     
-    print(f"Processing {len(conversation_ids)} conversations...")
+    print(f"Processing {len(conversation_ids)} conversations with {selected_model} model...")
     
-    # Process each conversation
+    # Process each conversation using our worker function
     successful_conversations = []
-    
+
     if args.parallel > 1:
-        # Parallel processing
-        with ProcessPoolExecutor(max_workers=args.parallel) as executor:
-            future_to_id = {
-                executor.submit(process_conversation, conv_id, directories): conv_id 
-                for conv_id in conversation_ids
-            }
+        # Parallel processing with the new worker function
+        print(f"Note: Using parallel processing with {args.parallel} workers")
+        
+        # Create a partial function with the fixed arguments
+        worker_func = partial(process_conversation_worker, 
+                             model_name=selected_model, 
+                             api_key=args.api_key)
+        
+        # Use a context manager to handle process cleanup
+        with multiprocessing.Pool(processes=args.parallel) as pool:
+            # Map the worker function to conversation IDs with a progress bar
+            results = list(tqdm.tqdm(
+                pool.imap(worker_func, conversation_ids),
+                total=len(conversation_ids),
+                desc="Processing conversations"
+            ))
             
-            for future in tqdm(as_completed(future_to_id), total=len(conversation_ids), desc="Processing conversations"):
-                conv_id = future_to_id[future]
-                try:
-                    if future.result():
-                        successful_conversations.append(conv_id)
-                except Exception as e:
-                    print(f"Error processing conversation {conv_id}: {e}")
+            # Collect successful conversations
+            successful_conversations = [
+                conv_id for conv_id, success in zip(conversation_ids, results) if success
+            ]
     else:
-        # Sequential processing
-        for conv_id in tqdm(conversation_ids, desc="Processing conversations"):
-            if process_conversation(conv_id, directories):
+        # Sequential processing 
+        for conv_id in tqdm.tqdm(conversation_ids, desc="Processing conversations"):
+            if process_conversation_worker(conv_id, selected_model, args.api_key):
                 successful_conversations.append(conv_id)
     
     print(f"Successfully processed {len(successful_conversations)} out of {len(conversation_ids)} conversations")
@@ -430,4 +301,8 @@ def main():
         print("No conversations were successfully processed. Cannot calculate aggregated metrics.")
 
 if __name__ == "__main__":
+    # Set the multiprocessing start method to 'spawn' for better compatibility on Windows
+    if sys.platform == 'win32':
+        multiprocessing.set_start_method('spawn', force=True)
+    
     main()

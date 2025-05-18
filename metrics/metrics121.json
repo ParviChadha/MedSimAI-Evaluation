@@ -1,40 +1,115 @@
 {
-  "precision": 0.875,
-  "recall": 1.0,
-  "f1_score": 0.9333333333333333,
-  "true_positives": 28,
-  "false_positives": 4,
-  "false_negatives": 0,
-  "total_items": 43,
+  "precision": 0.7,
+  "recall": 0.25,
+  "f1_score": 0.3684210526315789,
+  "true_positives": 7,
+  "false_positives": 3,
+  "false_negatives": 21,
+  "total_items": 46,
   "false_positive_details": [
-    {
-      "item": "Sinus Congestion",
-      "result_quotes": [
-        "Medical Student: Have you been having any cold-like symptoms before the two days, like in the last week, like runny nose, sore throat?",
-        "Patient: No. I was, like, I was absolutely fine."
-      ]
-    },
     {
       "item": "Muscle Ache",
       "result_quotes": [
-        "Medical Student: Okay. How about sore throat, headaches, muscle pain, anything like that?",
-        "Patient: No."
+        "the arthritis pain was just killing me last night"
       ]
     },
     {
-      "item": "Allergic Rhinitis",
+      "item": "Tachypnea",
       "result_quotes": [
-        "Medical Student: Have you had any allergic reactions before?",
-        "Patient: I don't know, maybe it, it's an allergic reaction to the morphine."
+        "I'm getting out of breath really easily"
       ]
     },
     {
-      "item": "Hyperhidrosis",
+      "item": "Feeling Tired",
       "result_quotes": [
-        "Medical Student: Okay. Any night sweats?",
-        "Patient: No."
+        "I was just very drowsy and uh, I think I might have taken a bit too much."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Issues",
+      "truth_quotes": []
+    }
+  ]
 }

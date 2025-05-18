@@ -4,12 +4,47 @@ import os
 import re
 from typing import Dict, Any, Tuple, List, Set
 import argparse
-import openai
-from openai import OpenAI
 
-# Initialize OpenAI client (if API key is provided)
+# OpenAI initialization that avoids the proxies issue
+def create_openai_client(api_key=None):
+    """Create an OpenAI client that works around the proxies issue"""
+    if not api_key:
+        api_key = os.environ.get("OPENAI_API_KEY")
+        if not api_key:
+            print("No OpenAI API key found. OpenAI functionality will be limited.")
+            return None
+    
+    try:
+        # Try the standard initialization
+        from openai import OpenAI
+        return OpenAI(api_key=api_key)
+    except TypeError as e:
+        if "unexpected keyword argument 'proxies'" in str(e):
+            print("Detected proxies issue in OpenAI initialization. Using workaround...")
+            
+            # Method 2: Manual client creation
+            try:
+                from openai._client import OpenAI as OpenAIBase
+                
+                class CleanOpenAI(OpenAIBase):
+                    def __init__(self, api_key=None):
+                        super().__init__(api_key=api_key)
+                
+                return CleanOpenAI(api_key=api_key)
+            except Exception as e2:
+                print(f"Error with OpenAI manual client creation: {e2}")
+                return None
+        else:
+            # Unexpected error
+            print(f"Error initializing OpenAI client: {e}")
+            return None
+    except Exception as e:
+        print(f"Unexpected error initializing OpenAI client: {e}")
+        return None
+
+# Initialize OpenAI client if API key is provided
 api_key = os.environ.get("OPENAI_API_KEY")
-client_openai = OpenAI(api_key=api_key) if api_key else None
+client_openai = create_openai_client(api_key) if api_key else None
 
 def load_json_file(file_path: str) -> Dict[str, Any]:
     """Load a JSON file and return its contents."""
@@ -55,7 +90,6 @@ def generate_ground_truth_from_annotations(annotations: Dict[str, Any], criteria
     """Generate ground truth assessment data from annotations file."""
     # Extract symptoms from annotations
     discussed_symptoms, symptom_quotes = extract_symptoms_from_annotations(annotations)
-    print(discussed_symptoms)
     
     # Create ground truth structure
     ground_truth = {"medical_history_assessed": {}}

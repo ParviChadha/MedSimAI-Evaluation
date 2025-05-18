@@ -1,37 +1,131 @@
 {
-  "precision": 0.9142857142857143,
-  "recall": 0.9696969696969697,
-  "f1_score": 0.9411764705882354,
-  "true_positives": 32,
-  "false_positives": 3,
-  "false_negatives": 1,
-  "total_items": 55,
+  "precision": 0.6875,
+  "recall": 0.3333333333333333,
+  "f1_score": 0.4489795918367347,
+  "true_positives": 11,
+  "false_positives": 5,
+  "false_negatives": 22,
+  "total_items": 52,
   "false_positive_details": [
     {
-      "item": "Eye Pain",
+      "item": "Change In Taste",
       "result_quotes": [
-        "Medical Student: Any pain or discharge in the eyes or ears?",
-        "Patient: No."
+        "I started having a loss of taste and smell so that got me really worried.",
+        "I couldn't really taste anything and then continued during lunch and dinner."
       ]
     },
     {
-      "item": "Lightheadedness",
+      "item": "Flu Like Symptom",
       "result_quotes": [
-        "Medical Student: OK, any dizziness or fainting spells?",
-        "Patient: No."
+        "Not the loss of taste and smell, but like the other stuff when I just had a cold or flu like symptoms previously."
       ]
     },
     {
-      "item": "Difficulty Breathing",
+      "item": "Sensitivity To Allergies",
       "result_quotes": [
-        "Medical Student: OK. And then, um, have you experienced any shortness of breath?",
-        "Patient: Um, not really, no."
+        "I get a bit sniffly... but other than that, I don't know of any allergies to any foods or medications."
+      ]
+    },
+    {
+      "item": "Loss Of Sense",
+      "result_quotes": [
+        "I started having a loss of taste and smell."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "I have been a bit tired in the last few days."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
       "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Rectal Bleeding",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Discharge",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
       "truth_quotes": []
     }
   ]

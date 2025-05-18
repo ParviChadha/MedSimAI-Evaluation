@@ -1,28 +1,94 @@
 {
-  "precision": 0.9259259259259259,
-  "recall": 0.9615384615384616,
-  "f1_score": 0.9433962264150944,
-  "true_positives": 25,
-  "false_positives": 2,
-  "false_negatives": 1,
-  "total_items": 47,
+  "precision": 0.875,
+  "recall": 0.2692307692307692,
+  "f1_score": 0.411764705882353,
+  "true_positives": 7,
+  "false_positives": 1,
+  "false_negatives": 19,
+  "total_items": 52,
   "false_positive_details": [
     {
-      "item": "Weakness",
+      "item": "Loss Of Sense",
       "result_quotes": [
-        "it's exhausting."
-      ]
-    },
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "and a high blood pressure."
+        "I couldn't really tell, uh, everything was kind of a bit bland. Yeah, I think my taste buds are acting all weird too."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
       "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
       "truth_quotes": []
     }
   ]

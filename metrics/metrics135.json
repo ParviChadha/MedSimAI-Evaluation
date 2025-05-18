@@ -1,22 +1,40 @@
 {
-  "precision": 0.9166666666666666,
-  "recall": 1.0,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 11,
-  "false_positives": 1,
-  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 0.36363636363636365,
+  "f1_score": 0.5333333333333333,
+  "true_positives": 4,
+  "false_positives": 0,
+  "false_negatives": 7,
   "total_items": 22,
-  "false_positive_details": [
+  "false_positive_details": [],
+  "false_negative_details": [
     {
-      "item": "Allergic Rhinitis",
-      "result_quotes": [
-        "Normally get more in certain seasons?",
-        "I find the cold air makes it worse like winter makes it worse or like. Yeah, maybe also the spring spring with like pollen and stuff like that.",
-        "So do you have besides your asthma, do you have any health problems?",
-        "I think you might have allergies in the spring? Do you have allergies to anything else that you know?",
-        "Uh no, not that I know of."
-      ]
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
     }
-  ],
-  "false_negative_details": []
+  ]
 }

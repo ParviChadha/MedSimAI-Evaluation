@@ -2,11 +2,8 @@ import json
 import os
 import sys
 from typing import Dict, Any, List
-import openai
-from openai import OpenAI
-
-# Initialize OpenAI client
-client_openai = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+from model_interface import ModelInterface, select_model 
+from tiktoken import encoding_for_model 
 
 def read_transcript(file_path: str) -> str:
     """Read transcript from a file."""
@@ -27,7 +24,7 @@ def read_assessment_criteria(file_path: str) -> List[str]:
         # If it's already a list, return it directly
         return data
 
-def construct_prompt(symptoms: List[str]) -> str:
+def construct_prompt(symptoms: List[str]) -> str: #TODO: Put this prompt in the methods section
     """Construct the evaluation prompt based on a flat list of symptoms."""
     prompt = "# Medical History Assessment Evaluation\n"
     prompt += "You are tasked with evaluating a conversation between a medical student and a patient "
@@ -67,34 +64,25 @@ def construct_prompt(symptoms: List[str]) -> str:
     
     return prompt
 
-def openai_api_call(transcript: str, prompt: str, response_type: str = "json_object") -> Any:
-    """Make a call to OpenAI API with the given transcript and prompt."""
-    response = client_openai.chat.completions.create(
-        model="gpt-4o",
-        response_format={"type": response_type},
-        messages=[
-            {"role": "system", "content": prompt},
-            {"role": "user", "content": transcript}
-        ],
-    )
-    return response
-
-def evaluate_medical_history(transcript: str, symptoms: List[str]) -> Dict[str, Any]:
+def evaluate_medical_history(transcript: str, symptoms: List[str], model_interface: ModelInterface) -> Dict[str, Any]:
     """Evaluate whether the medical history topics were assessed in the conversation."""
     # Construct prompt from symptoms list
     prompt = construct_prompt(symptoms)
-    
+    # count number of tokens inside the transcript and inside the prompt
+    # Choose the encoding based on model 
+    enc = encoding_for_model("gpt-4")
+    num_tokens = len(enc.encode(transcript))
+    num_tokens_prompt = len(enc.encode(prompt))
+    print(f"Number of tokens in transcript: {num_tokens}")
+    print(f"Number of tokens in prompt: {num_tokens_prompt}")
     # Make API call
-    response = openai_api_call(transcript, prompt)
+    response = model_interface.call_model(
+        system_prompt=prompt,
+        user_message=transcript,
+        response_type="json_object"
+    )
     
-    # Extract and return the evaluation
-    if hasattr(response, 'choices') and len(response.choices) > 0:
-        content = response.choices[0].message.content
-        if isinstance(content, str):
-            return json.loads(content)
-        return content
-    else:
-        return response.choices[0].message.content
+    return response
 
 def save_results(results: Dict[str, Any], output_file: str) -> None:
     """Save evaluation results to a JSON file."""
@@ -105,22 +93,40 @@ def save_results(results: Dict[str, Any], output_file: str) -> None:
 def main():
     """Main function to evaluate a transcript."""
     if len(sys.argv) < 4:
-        print("Usage: python evaluate_transcript.py <transcript_file> <criteria_file> <output_results_file>")
+        print("Usage: python create_results.py <transcript_file> <criteria_file> <output_results_file> [--api-key KEY]")
         sys.exit(1)
     
     transcript_file = sys.argv[1]
     criteria_file = sys.argv[2]
     output_file = sys.argv[3]
     
+    # Check for API key argument
+    api_key = None
+    if "--api-key" in sys.argv:
+        api_key_index = sys.argv.index("--api-key")
+        if api_key_index + 1 < len(sys.argv):
+            api_key = sys.argv[api_key_index + 1]
+    
+    # Select model interactively
+    selected_model = select_model()
+    
+    # Initialize model interface
+    try:
+        model_interface = ModelInterface(selected_model, api_key=api_key)
+    except ValueError as e:
+        print(f"Error: {e}")
+        sys.exit(1)
+    
     # Read transcript and criteria
     transcript = read_transcript(transcript_file)
     symptoms = read_assessment_criteria(criteria_file)
     
     print(f"Loaded {len(symptoms)} symptoms from criteria file")
+    print(f"Using {selected_model} model for evaluation...")
     
     # Evaluate medical history
     print("Evaluating medical history in transcript...")
-    results = evaluate_medical_history(transcript, symptoms)
+    results = evaluate_medical_history(transcript, symptoms, model_interface)
     
     # Save results
     save_results(results, output_file)

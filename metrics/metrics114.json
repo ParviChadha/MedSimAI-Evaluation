@@ -1,25 +1,106 @@
 {
-  "precision": 0.9354838709677419,
-  "recall": 1.0,
-  "f1_score": 0.9666666666666666,
-  "true_positives": 29,
-  "false_positives": 2,
-  "false_negatives": 0,
-  "total_items": 37,
+  "precision": 0.75,
+  "recall": 0.41379310344827586,
+  "f1_score": 0.5333333333333333,
+  "true_positives": 12,
+  "false_positives": 4,
+  "false_negatives": 17,
+  "total_items": 58,
   "false_positive_details": [
     {
-      "item": "Injury",
+      "item": "Trauma",
       "result_quotes": [
-        "OK, and were you doing anything at the time when the chest pain started? Like did you get in a car accident maybe? Or any trauma to the chest or anything you can think of?"
+        "...did you get in a car accident maybe? Or any trauma to the chest or anything you can think of? Patient: No, not really."
       ]
     },
     {
-      "item": "Phlegm",
+      "item": "Trouble Breathing",
       "result_quotes": [
-        "OK, alright, is the cough dry or have you brought up sputum?",
-        "It is dry."
+        "...I'm finding that I'm very short of breath as well..."
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "...has your weight been stable over the last several months? Patient: Yeah, weight has been stable."
+      ]
+    },
+    {
+      "item": "Respiratory Distress Syndrome",
+      "result_quotes": [
+        "...I'm finding that I'm very short of breath as well...",
+        "...I'm really having trouble getting any deep breaths in..."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Nasal Discharge",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Aches",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    }
+  ]
 }

@@ -1,12 +1,27 @@
 {
   "medical_history_assessed": {
-    "constipation": {
+    "change_in_taste": {
       "assessed": "No",
       "example_quotes": []
     },
-    "discharge": {
+    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "complications_during_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_breathing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any difficulties breathing?",
+        "No."
+      ]
     },
     "dizzyness": {
       "assessed": "No",
@@ -16,157 +31,127 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "drowsiness": {
+    "ear_problem": {
       "assessed": "No",
       "example_quotes": []
     },
-    "fainting": {
+    "grunting_noise": {
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting": {
+    "injury": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_general": {
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "phlegm": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
+    "nose_problem": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
+    "redness_in_throat": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I look in the mirror, is like just very red and like angry looking."
+      ]
     },
     "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "vaginal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vomiting": {
+    "wheeze": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your bowel movements, or your urinary, or any urinary concerns?",
-        "Uh, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any um, pain in your chest?",
+        "Any pain in your chest?",
         "No."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've also been getting some chills over the last few nights as well."
+        "I've been getting some chills over the last few nights."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay, what about uh, cough?",
+        "What about cough?",
         "Um, no, not, not, no cough really."
       ]
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay, um, have you had any difficulties swallowing?",
-        "Um, yeah, I definitely feel like uh, I do get some pain ones following, but it may be just with the sore throat."
+        "Have you had any difficulties swallowing?",
+        "I definitely feel like I do get some pain when swallowing."
       ]
     },
     "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And um, any difficulties breathing?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've also just been feeling very tired and um, over the last whole week as well."
+        "I've also just been feeling very tired over the last whole week as well."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "And um, have you had, uh, have you had any headaches?",
+        "Any headaches?",
         "Uh, no headaches."
       ]
     },
     "lumps": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, I also feel like, so with a sore throat, I also have some um, pain on the sides, like on my, on my neck. Like I almost feel like some lumps on both sides."
+        "I also have some um, pain on the sides, like on my neck. Like I almost feel like some lumps on both sides."
       ]
     },
     "nasal_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any uh, stuffy nose or runny nose?",
-        "Uh no, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I definitely feel like uh, I do get some pain ones following, but it may be just with the sore throat."
+        "I definitely feel like I do get some pain when swallowing."
       ]
     },
     "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um, do you feel like your heart is racing?",
-        "No, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "The back of my throat, when I look in the mirror, is like just very red and like angry looking."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any uh, stuffy nose or runny nose?",
-        "Uh no, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sinus_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No um, sinus congestion?",
-        "Uh no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
@@ -175,11 +160,8 @@
       ]
     },
     "urination": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your bowel movements, or your urinary, or any urinary concerns?",
-        "Uh, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

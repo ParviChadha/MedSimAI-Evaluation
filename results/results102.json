@@ -1,88 +1,6 @@
 {
   "medical_history_assessed": {
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "injury": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness_due_to_alcohol": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "motor_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "mucous_building": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications."
-      ]
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "swelling": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -90,71 +8,80 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: No, that's been normal."
+        "OK, any changes in her bowel movement, constipation, diarrhea?",
+        "No, that's been normal."
       ]
     },
     "chest_pain": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "Medical Student: OK, any chest pain that she's described?",
-        "Patient: No chest pain."
+        "OK, any chest pain that she's described?",
+        "No chest pain."
       ]
     },
     "chills": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "cold": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any other symptoms like fevers, chills, shortness of breath, um, anything like that?"
+        "Yeah, I'm just bringing in my old daughter who's really been complaining about having a runny nose and has been sneezing a lot over this past over this past week."
       ]
     },
     "colored_excess_sputum": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "Medical Student: OK, is she at all, coughing up any green or yellow material or any blood at all?",
+        "Medical Student: OK, for the last two to three days. OK, is she at all, coughing up any green or yellow material or any blood at all?",
         "Patient: No, nothing like that."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any changes in her bowel movement, constipation, diarrhea?"
+        "OK, any changes in her bowel movement, constipation, diarrhea?",
+        "No, that's been normal."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
+        "Medical Student: OK, does she have any coughing at all?",
         "Patient: Yeah, so she she did start to cough actually after that so that the cough has been there for the last, for the last maybe two to three days. It's a dry cough."
       ]
+    },
+    "coughing_fit": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "delayed_growth_milestones": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Uhm any issues developmentally as she was growing up like to meet are all our milestones at an appropriate age?",
+        "Medical Student: OK, uhm, any issues developmentally as she was growing up like to meet are all our milestones at an appropriate age?",
         "Patient: She did yeah, she has met she was walking at the appropriate times and able to talk and does work really well in school and is social with with her classmates and peers."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any changes in her bowel movement, constipation, diarrhea?",
-        "Patient: No, that's been normal."
+        "OK, any changes in her bowel movement, constipation, diarrhea?",
+        "No, that's been normal."
       ]
     },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK. Any other symptoms like fevers, chills, shortness of breath, um, anything like that?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fainting": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
@@ -166,100 +93,158 @@
     "fatigue_sleep": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any issues with their sleep or appetite?",
+        "OK, any issues with their sleep or appetite?",
         "Patient: She has been a bit a bit fussy, but she's been sleeping OK."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Uh, she did feel a bit warm to touch and has looked a bit flushed in her face. Just doesn't look like herself."
+        "Patient: Uh, she did feel a bit warm to touch and has looked a bit flushed in her face."
       ]
     },
-    "head_ache": {
+    "flu_like_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any headaches, nausea or vomiting?",
+        "Medical Student: So yeah, based on her symptoms, she does seem to have some just a cold like symptoms, viral symptoms."
+      ]
+    },
+    "food_allergy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "head_ache": {
+      "assessed": "No",
+      "example_quotes": [
+        "Medical Student: OK, any headaches, nausea or vomiting?",
         "Patient: Uhm, no."
       ]
     },
     "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, is she at all, coughing up any green or yellow material or any blood at all?",
-        "Patient: No, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "high_blood_pressure": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK. Any issues with their sleep or appetite?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucus_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: I think the runny nose is what, what started first. And like kind of the nasal congestion."
-      ]
-    },
-    "nausea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any headaches, nausea or vomiting?",
-        "Patient: Uhm, no."
-      ]
-    },
-    "pressure_in_around_face": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: I think the runny nose is what, what started first. And like kind of the nasal congestion. She's saying that she felt there was like pressure or congestion in her nose."
-      ]
-    },
-    "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: I think the runny nose is what, what started first."
-      ]
-    },
-    "smell_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, does, has she lost a sense of taste or smell at all?",
-        "Patient: No, she hasn't said any anything like that, just the nasal congestion."
-      ]
-    },
-    "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, and then this, when did this sneezing start?",
         "Patient: Surely after that probably maybe the same day or or the next day."
       ]
     },
-    "taste_loss": {
+    "nausea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pressure_in_around_face": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, does, has she lost a sense of taste or smell at all?"
+        "OK, did you feel any pressure in around her face at all?",
+        "Patient: Uh, yeah, well yeah, I think so. She doesn't say, well, no pain but does feel like a bit of pressure with the congestion, I think."
       ]
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Yeah, I'm just bringing in my old daughter who's really been complaining about having a runny nose and has been sneezing a lot over this past over this past week."
+      ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensation_of_chest": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sinus_headaches": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: I think the symptoms maybe started three or four days ago."
+      ]
+    },
+    "speech_volume": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "taste_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, has she lost any weight recently?",
-        "Patient: No, no no. She's been gaining weight well."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK. Any urinary problems?",
-        "Patient: No, she had a urinary tract infection when she was like little but hasn't had any since."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any headaches, nausea or vomiting?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

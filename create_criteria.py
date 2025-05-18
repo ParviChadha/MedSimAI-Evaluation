@@ -3,11 +3,7 @@ import os
 import sys
 from typing import Dict, Any, List, Set
 import random
-import openai
-from openai import OpenAI
-
-# Initialize OpenAI client
-client_openai = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+from model_interface import ModelInterface, select_model
 
 # Configuration - Change this to set the conversation number
 CONVERSATION_NUMBER = "102"  # Edit this line to change conversation number
@@ -16,7 +12,7 @@ CONVERSATION_NUMBER = "102"  # Edit this line to change conversation number
 ALL_SYMPTOMS_FILE = "all_symptoms.json"  # Edit if your file is named differently
 
 # Symptoms to always exclude (hardcoded)
-EXCLUDED_SYMPTOMS = {"general", "surgery", "recent hospitalizaiton", "past experience"}
+EXCLUDED_SYMPTOMS = {"general", "surgery", "recent hospitalizaiton", "past experience"} #made a big choice
 
 # Maximum ratio of additional symptoms to real symptoms
 # Set to 1.0 to add the same number of fake symptoms as real symptoms
@@ -39,7 +35,7 @@ def read_all_symptoms(file_path: str) -> List[str]:
         print(f"Warning: Could not read all symptoms file ({file_path}): {e}")
         return []
 
-def standardize_symptom(symptom: str) -> str:
+def standardize_symptom(symptom: str) -> str: #made a big choice here
     """Standardize symptom spelling - just handle vomiting vs vomitting."""
     # Convert to lowercase for comparison
     symptom_lower = symptom.lower().strip()
@@ -72,8 +68,8 @@ def extract_symptoms_from_annotations(annotations: Dict[str, List[List[Dict[str,
     
     return unique_symptoms
 
-def filter_similar_symptoms(existing_symptoms: Set[str], additional_symptoms: List[str]) -> List[str]:
-    """Use OpenAI to filter out additional symptoms that are too similar to existing ones."""
+def filter_similar_symptoms(existing_symptoms: Set[str], additional_symptoms: List[str], model_interface: ModelInterface) -> List[str]:
+    """Use LLM to filter out additional symptoms that are too similar to existing ones."""
     # Convert sets to lists for the API
     existing_list = list(existing_symptoms)
     
@@ -127,22 +123,15 @@ Example response:
 
     try:
         # Make API call
-        response = client_openai.chat.completions.create(
-            model="gpt-4o",  # Using a more capable model for better filtering
-            response_format={"type": "json_object"},
-            messages=[
-                {"role": "system", "content": "You are a medical terminology expert assistant."},
-                {"role": "user", "content": prompt}
-            ]
+        response = model_interface.call_model(
+            system_prompt="You are a medical terminology expert assistant.",
+            user_message=prompt,
+            response_type="json_object"
         )
         
-        # Parse the response
-        content = response.choices[0].message.content
-        result = json.loads(content)
-        
         # Extract the filtered symptoms
-        kept_symptoms = result.get("keep", [])
-        excluded_symptoms = result.get("exclude", [])
+        kept_symptoms = response.get("keep", [])
+        excluded_symptoms = response.get("exclude", [])
         
         # Log what was excluded for transparency
         if excluded_symptoms:
@@ -161,7 +150,7 @@ Example response:
         # As a fallback, just return the additional symptoms
         return additional_symptoms
 
-def generate_criteria_from_annotations(annotations_file: str, output_file: str, all_symptoms_file: str = ALL_SYMPTOMS_FILE) -> List[str]:
+def generate_criteria_from_annotations(annotations_file: str, output_file: str, model_interface: ModelInterface, all_symptoms_file: str = ALL_SYMPTOMS_FILE) -> List[str]:
     """Generate criteria list from annotations file and add symptoms from all_symptoms."""
     # Read annotations
     annotations = read_annotations(annotations_file)
@@ -190,9 +179,10 @@ def generate_criteria_from_annotations(annotations_file: str, output_file: str, 
     # Filter additional symptoms to only include those that are conceptually distinct
     if potential_additional_symptoms:
         print(f"Filtering {len(potential_additional_symptoms)} potential additional symptoms...")
-        filtered_additional_symptoms = filter_similar_symptoms(
+        filtered_additional_symptoms = filter_similar_symptoms( #made a big choice to filter using LLM
             conversation_symptoms, 
-            potential_additional_symptoms
+            potential_additional_symptoms,
+            model_interface
         )
     else:
         filtered_additional_symptoms = []
@@ -200,7 +190,7 @@ def generate_criteria_from_annotations(annotations_file: str, output_file: str, 
     # Calculate target number of additional symptoms (same as real symptoms)
     target_additional_count = min(
         int(len(conversation_symptoms) * ADDITIONAL_SYMPTOMS_RATIO),
-        MAX_ABSOLUTE_ADDITIONAL_SYMPTOMS
+        MAX_ABSOLUTE_ADDITIONAL_SYMPTOMS #TODO: check if this is necessary now that symptoms cannot be more than target
     )
     
     # If we have more filtered symptoms than our target, randomly select a subset
@@ -212,7 +202,7 @@ def generate_criteria_from_annotations(annotations_file: str, output_file: str, 
     else:
         print(f"Using all {len(filtered_additional_symptoms)} filtered additional symptoms " +
               f"(fewer than real symptom count of {len(conversation_symptoms)})")
-        additional_symptoms = filtered_additional_symptoms
+        additional_symptoms = filtered_additional_symptoms #check how many times there are less fake symptoms than real symptoms
     
     # Combine symptoms: those from the current conversation, plus filtered additions
     combined_symptoms = set(conversation_symptoms)
@@ -220,7 +210,7 @@ def generate_criteria_from_annotations(annotations_file: str, output_file: str, 
         combined_symptoms.add(symptom)
     
     # Sort the symptoms alphabetically
-    sorted_symptoms = sorted(combined_symptoms)
+    sorted_symptoms = sorted(combined_symptoms) #TODO: check if this is necessary
     
     # Save to output file - flat list of symptoms
     with open(output_file, 'w', encoding='utf-8') as file:
@@ -236,24 +226,41 @@ def generate_criteria_from_annotations(annotations_file: str, output_file: str, 
 def main():
     """Main function to create criteria from annotations."""
     if len(sys.argv) < 3:
-        print("Usage: python create_criteria.py <annotations_file> <output_criteria_file> [conversation_number] [all_symptoms_file]")
+        print("Usage: python create_criteria.py <annotations_file> <output_criteria_file> [conversation_number] [all_symptoms_file] [--api-key KEY]")
         sys.exit(1)
     
     annotations_file = sys.argv[1]
     output_file = sys.argv[2]
     
+    # Check for API key argument
+    api_key = None
+    if "--api-key" in sys.argv:
+        api_key_index = sys.argv.index("--api-key")
+        if api_key_index + 1 < len(sys.argv):
+            api_key = sys.argv[api_key_index + 1]
+    
+    # Select model interactively
+    selected_model = select_model()
+    
+    # Initialize model interface
+    try:
+        model_interface = ModelInterface(selected_model, api_key=api_key)
+    except ValueError as e:
+        print(f"Error: {e}")
+        sys.exit(1)
+    
     # If conversation number is provided, update the global variable
-    if len(sys.argv) >= 4:
+    if len(sys.argv) >= 4 and sys.argv[3] != "--api-key":
         global CONVERSATION_NUMBER
         CONVERSATION_NUMBER = sys.argv[3]
     
     # If all_symptoms file is provided, use it
     all_symptoms_file = ALL_SYMPTOMS_FILE
-    if len(sys.argv) >= 5:
+    if len(sys.argv) >= 5 and sys.argv[4] != "--api-key":
         all_symptoms_file = sys.argv[4]
     
     # Generate criteria from annotations
-    generate_criteria_from_annotations(annotations_file, output_file, all_symptoms_file)
+    generate_criteria_from_annotations(annotations_file, output_file, model_interface, all_symptoms_file)
     
     print(f"Completed creating criteria for conversation {CONVERSATION_NUMBER}")
 

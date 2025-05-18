@@ -1,19 +1,108 @@
 {
-  "precision": 1.0,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.962962962962963,
-  "true_positives": 26,
-  "false_positives": 0,
-  "false_negatives": 2,
-  "total_items": 33,
-  "false_positive_details": [],
+  "precision": 0.7777777777777778,
+  "recall": 0.25,
+  "f1_score": 0.3783783783783784,
+  "true_positives": 7,
+  "false_positives": 2,
+  "false_negatives": 21,
+  "total_items": 43,
+  "false_positive_details": [
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "And how was your weight been recently? Any changes? No, no changes."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "I haven't been tired or like, it's just been like these symptoms that don't seem to go away."
+      ]
+    }
+  ],
   "false_negative_details": [
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Facial Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
     {
       "item": "Speech Volume",
       "truth_quotes": []
     },
     {
-      "item": "Watery Eyes",
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
       "truth_quotes": []
     }
   ]

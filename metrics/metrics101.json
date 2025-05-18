@@ -1,19 +1,115 @@
 {
-  "precision": 0.9655172413793104,
-  "recall": 1.0,
-  "f1_score": 0.9824561403508771,
-  "true_positives": 28,
-  "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 44,
+  "precision": 0.6923076923076923,
+  "recall": 0.32142857142857145,
+  "f1_score": 0.4390243902439025,
+  "true_positives": 9,
+  "false_positives": 4,
+  "false_negatives": 19,
+  "total_items": 56,
   "false_positive_details": [
     {
       "item": "Throat Pain",
       "result_quotes": [
-        "Patient: Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well.",
-        "Medical Student: OK, and when did the sore throat start?"
+        "Patient: I've had, um, a sore throat."
+      ]
+    },
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "Medical Student: And do you have any difficulty, uh, swallowing at all?",
+        "Patient: It's a little sore, but, uh, it's been OK, to eat and drink."
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "Patient: Yeah, so I mean sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Medical Student: OK, and it's been going on for more than a week. Has it been getting worse?",
+        "Patient: It got a little bit worse at first, but then it's been kind of the same."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dysphagia",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    }
+  ]
 }
