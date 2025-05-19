@@ -1,10 +1,10 @@
 {
   "medical_history_assessed": {
-    "changes_inappetite": {
+    "injury": {
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting": {
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -20,7 +20,11 @@
         "To give it a number from one to ten, what would you say in terms of how severe it is with ten being the worst pain ever.",
         "I would say, maybe six. It feels pretty sharp when it happens and it goes away after a few minutes.",
         "OK, and where exactly is it, is the pain?",
-        "Uh yeah, I kind of feel it, Yeah, just over on the right side of the sternum."
+        "Uh yeah, I kind of feel it, Yeah, just over on the right side of the sternum.",
+        "And does it radiate anywhere? Does it go anywhere other than that one location?",
+        "No, I feel it just in the one spot.",
+        "And has that pain gotten worse overtime?",
+        "No, that pain started, I guess like two days ago."
       ]
     },
     "chest_pressure": {
@@ -40,7 +44,9 @@
       "assessed": "Yes",
       "example_quotes": [
         "And has it been a dry cough or wet cough?",
-        "I've been bringing up, some, like, uh, whitish sputum. It's like, yeah, whitish or clear."
+        "I've been bringing up, some, like, uh, whitish sputum. It's like, yeah, whitish or clear.",
+        "And you haven't seen blood anytime right? In your sputum?",
+        "No."
       ]
     },
     "constipation": {
@@ -53,9 +59,13 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, so you're just having difficulties breathing for the past three-four days. Do you have any, uh, do you have a cough?",
+        "Do you have a cough?",
         "I did have a, uh, yeah, I've had a cough as well, over these last few days."
       ]
+    },
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -64,17 +74,14 @@
         "No."
       ]
     },
-    "discomfort": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain.",
-        "I would say, maybe six. It feels pretty sharp when it happens and it goes away after a few minutes."
-      ]
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, it's felt a little itchy I guess but no pain with swallowing."
+        "it's felt a little itchy I guess but no pain with swallowing."
       ]
     },
     "dyspnea": {
@@ -88,20 +95,14 @@
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. What about, any redness in your eyes or any congestion in your nose?",
+        "What about, any redness in your eyes or any congestion in your nose?",
         "Uh, I haven't noticed anything like that."
       ]
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Uhm, alright, have you had a headache?",
-        "Uh, no.",
-        "No, OK. What about fatigue or muscle aches?",
+        "What about fatigue or muscle aches?",
         "I've been fatigued. No muscle aches."
       ]
     },
@@ -114,10 +115,14 @@
         "No, I haven't. I don't have a thermometer at home."
       ]
     },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Uhm, alright, have you had a headache?",
+        "have you had a headache?",
         "Uh, no."
       ]
     },
@@ -128,7 +133,19 @@
         "No."
       ]
     },
-    "lightheadness": {
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any other medical conditions?",
+        "I have high blood pressure. And I take Amlodipine, for that.",
+        "my dad has high blood pressure as well"
+      ]
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -136,40 +153,43 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. What about, any redness in your eyes or any congestion in your nose?",
+        "any congestion in your nose?",
         "Uh, I haven't noticed anything like that."
-      ]
-    },
-    "nasal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "nause": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, have you had a sore throat?",
-        "Uh, it's felt a little itchy I guess but no pain with swallowing."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "And do you have any chest pain or chest pressure?",
+        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain.",
+        "To give it a number from one to ten, what would you say in terms of how severe it is",
+        "I would say, maybe six. It feels pretty sharp when it happens and it goes away after a few minutes.",
+        "OK, and where exactly is it, is the pain?",
+        "Uh yeah, I kind of feel it, Yeah, just over on the right side of the sternum.",
+        "and does it radiate anywhere? Does it go anywhere other than that one location?",
+        "No, I feel it just in the one spot.",
+        "and has that pain gotten worse overtime?",
+        "No, that pain started, I guess like two days ago.",
+        "when you sort of touch that area over your chest, does touching it make it worse?",
+        "no, I haven't noticed that, touching it doesn't make it worse.",
+        "What about fatigue or muscle aches?",
+        "I've been fatigued. No muscle aches.",
         "Any pain in your belly?",
         "No."
       ]
     },
-    "rectal_bleeding": {
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sleep_problem": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -184,18 +204,18 @@
         "No."
       ]
     },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had a sore throat?",
-        "Uh, it's felt a little itchy I guess but no pain with swallowing."
+        "have you had a sore throat?",
+        "it's felt a little itchy I guess but no pain with swallowing."
       ]
     },
-    "sweaty": {
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptoms_stress": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -206,21 +226,20 @@
         "No."
       ]
     },
-    "taste_problem": {
+    "tearing_or_or_itchiness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your sense of taste?",
-        "No."
+        "it's felt a little itchy I guess but no pain with swallowing."
       ]
     },
-    "tonsilitis": {
+    "unexplained_weight_loss": {
       "assessed": "No",
       "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your, uh, any changes when you pee?",
+        "Any changes when you pee?",
         "Uh, nothing there."
       ]
     },
@@ -228,16 +247,9 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "wheez_inhale": {
+    "widespread_pain": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "widespread_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, OK. What about fatigue or muscle aches?",
-        "I've been fatigued. No muscle aches."
-      ]
     }
   }
 }

@@ -1,19 +1,38 @@
 {
-  "precision": 0.95,
-  "recall": 1.0,
-  "f1_score": 0.9743589743589743,
-  "true_positives": 19,
-  "false_positives": 1,
-  "false_negatives": 0,
+  "precision": 0.8571428571428571,
+  "recall": 0.9473684210526315,
+  "f1_score": 0.9,
+  "true_positives": 18,
+  "false_positives": 3,
+  "false_negatives": 1,
   "total_items": 38,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Underweight At Birth",
       "result_quotes": [
-        "Medical Student: Okay, um, and can you describe the cough a little bit? Is it a dry cough or is she bringing anything up?",
-        "Patient: Um, it is a, it is a dry cough"
+        "Was she at term or premature?",
+        "She was at term, she was born at term."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "And how was your pregnancy, your pregnancy with her, like any complications at all?",
+        "No, no complications. It was uh, it was very, yeah, it went well."
+      ]
+    },
+    {
+      "item": "Vaccine Related Reaction",
+      "result_quotes": [
+        "Has she, are her immunizations all up to date?",
+        "Oh no, no. I don't, I don't get those. My friend's, my friend's daughter developed autism and I'm just, I don't want that, you know, so no. I don't vaccinate my kids."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Sleep Dyspnea",
+      "truth_quotes": []
+    }
+  ]
 }

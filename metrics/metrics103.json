@@ -1,44 +1,31 @@
 {
-  "precision": 0.8275862068965517,
+  "precision": 0.8888888888888888,
   "recall": 1.0,
-  "f1_score": 0.9056603773584906,
+  "f1_score": 0.9411764705882353,
   "true_positives": 24,
-  "false_positives": 5,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Lightheadedness",
+      "item": "Odynophagia",
       "result_quotes": [
-        "Do you have any other symptoms like. Shortness of breath, chest pain, dizziness, or anything like that?"
+        "And the sore throat are you having trouble or pain while swallowing any food?",
+        "It's not that bad. It's just irritation in my throat."
       ]
     },
     {
-      "item": "Symptom Speedup",
+      "item": "Infection",
       "result_quotes": [
-        "Okay. Are you symptom getting any better or worse?",
-        "Uhm? Maybe a little worse."
+        "Have you had any recent exposure to anyone that's been sick recently at all?",
+        "I work at a hospital. Um, but I'm always maintaining, social distancing and I try to be very careful."
       ]
     },
     {
-      "item": "Appetite",
+      "item": "Throat Pain",
       "result_quotes": [
-        "Any changes in your appetite?"
-      ]
-    },
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "Any muscle aches at all?",
-        "Uhm? Yeah, little bit.",
-        "OK, and is it just all over your body or in certain locations?",
-        "It's all over."
-      ]
-    },
-    {
-      "item": "Pain",
-      "result_quotes": [
-        "And the sore throat are you having trouble or pain while swallowing any food?"
+        "It started with a sore throat two nights ago",
+        "I've had a sore throat for the past two days"
       ]
     }
   ],

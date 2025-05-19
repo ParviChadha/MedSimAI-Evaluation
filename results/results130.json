@@ -1,22 +1,29 @@
 {
   "medical_history_assessed": {
-    "anxious": {
+    "changes_in_memory": {
       "assessed": "No",
       "example_quotes": []
     },
-    "bad_smell": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "brain_fog": {
+    "throat_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "allergic_rhinitis": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_discomfort": {
       "assessed": "Yes",
       "example_quotes": [
-        "I do feel some discomfort in my chest like I just associated it with the cough.",
-        "It's more of just the discomfort with the coughing."
+        "But kind of like I do feel some discomfort in my chest like I just associated it with the cough."
       ]
     },
     "chest_pain": {
@@ -29,38 +36,23 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um have you had any fevers or chills?",
+        "I see, alright. Um have you had any fevers or chills?",
         "Uh definitely I feel like I have had some chills over the last week."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, when the cough started uh were you bringing up, um were you bringing up sputum or phlegm at that time?",
         "Uh yeah, initially it was just like um kind of white too, sometimes yellowish phlegm, but now over the last week I've been also noticing um some blood in it as well."
       ]
-    },
-    "complications_actual_delivery": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just uh been experiencing um a cough for the last few weeks",
-        "I would say it's almost I would say almost like three weeks now."
+        "I've just uh been experiencing um a cough for the last few weeks and uh I also recently started noticing that I'm coughing up some blood as well, like it's mixed into like sputum.",
+        "so it sounds like you've been having this cough um that's been going on for just over three weeks now and starting with some um whitish clear sputum and more recently even started to be coughing up some blood as well."
       ]
-    },
-    "decreased_focus": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -69,10 +61,18 @@
         "No."
       ]
     },
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "discomfort": {
       "assessed": "Yes",
       "example_quotes": [
-        "I do feel some discomfort in my chest like I just associated it with the cough."
+        "But kind of like I do feel some discomfort in my chest like I just associated it with the cough."
       ]
     },
     "dizzyness": {
@@ -82,7 +82,7 @@
         "No, nothing like that."
       ]
     },
-    "drooling": {
+    "dysphagia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -100,15 +100,7 @@
         "Uh no, nothing like that."
       ]
     },
-    "ear_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pressure": {
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -129,22 +121,36 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um have you had any fevers or chills?",
         "OK, have you felt feverish? Or have you felt hot at any point?",
         "Um, yeah I would say like a few times this week, I've also felt like hot."
       ]
     },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "I also recently started noticing that I'm coughing up some blood as well, like it's mixed into like sputum.",
-        "OK, and how much blood have you been bringing up? Um just trying to think in maybe uh teaspoon sizes if you can.",
-        "Uh yeah, I would say maybe half a half a teaspoon."
+        "I've just uh been experiencing um a cough for the last few weeks and uh I also recently started noticing that I'm coughing up some blood as well, like it's mixed into like sputum.",
+        "now over the last week I've been also noticing um some blood in it as well.",
+        "OK, and how much blood have you been bringing up?"
       ]
     },
     "high_blood_pressure": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "impending_doom_anxiety": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Alright. Um and have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?",
+        "Uh no, nothing like that."
+      ]
     },
     "itching_eyes": {
       "assessed": "Yes",
@@ -157,19 +163,19 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_smell": {
+    "loss_of_sense": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
     "more_quiet": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -180,27 +186,29 @@
         "No, no, no nausea or vomiting."
       ]
     },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
         "Have you had any abdominal pain?",
-        "No."
+        "No.",
+        "Any chest pain?",
+        "Uh, no. It's more of just the discomfort with the coughing."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Uhm and have you felt as though um like your heart's racing or beating really fast?",
+        "Uhm and have you felt as though um like your heart's racing or beating really fast?",
         "No, nothing like that."
       ]
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
@@ -209,9 +217,15 @@
         "Uh no, nothing like that."
       ]
     },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "sexually_transmitted_infection": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, um and are you currently sexually active?",
+        "Uh currently, no.",
         "OK, um so no concerns for a sexually transmitted infection at this time?",
         "No."
       ]
@@ -219,9 +233,13 @@
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, have you had any um like night sweats?",
+        "Alright. Um have you had any um like night sweats?",
         "Uhm now that you mention it like I I would say two two days out of the last week I've had night sweats where my sheets were kind of just drenched when I, and then I woke up noticing that."
       ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
@@ -230,19 +248,15 @@
         "Uh no, nothing like that."
       ]
     },
+    "symptoms_stress": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "tearing": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tonsilitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trauma": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
+    "tingling": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -273,22 +287,11 @@
         "No, no, no nausea or vomiting."
       ]
     },
-    "weight_gain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
         "OK, and um have you had any changes to your breathing like like wheezing?",
         "Uh, no, nothing like that."
-      ]
-    },
-    "widespread_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any muscle aches or joint pains?",
-        "Um no, nothing like that."
       ]
     }
   }

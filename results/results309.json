@@ -1,27 +1,38 @@
 {
   "medical_history_assessed": {
-    "aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any muscle aches or pains?",
-        "Maybe slight muscle aches."
-      ]
+    "allergic_rhinitis": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "body_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any muscle aches or pains?",
-        "Maybe slight muscle aches."
-      ]
+    "apnea_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any eye symptoms like discharge or or eye pain?",
-        "No, nothing like that."
-      ]
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "grunting": {
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -29,19 +40,49 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "phlegm": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and so you haven't been bringing up any sputum or or any blood?",
-        "No."
-      ]
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "throat_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Ok and, have you had a sore throat?",
-        "No sore throat."
-      ]
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "ache": {
       "assessed": "Yes",
@@ -50,27 +91,12 @@
         "Maybe slight muscle aches."
       ]
     },
-    "arthritis_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "behaviour_change": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having this chest pain for the since last night",
-        "I felt this crampy pain in my chest",
-        "I'd say like the center of my chest",
-        "center of my chest going up to around my throat area maybe"
-      ]
-    },
-    "chest_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I felt this crampy pain in my chest"
+        "I've been having this chest pain for the since last night.",
+        "Ok, and where is this pain located?",
+        "I'd say like the center of my chest."
       ]
     },
     "chills": {
@@ -86,10 +112,6 @@
         "Alright, and so you haven't been bringing up any sputum or or any blood?",
         "No."
       ]
-    },
-    "complications_during_delivery": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "confusion": {
       "assessed": "Yes",
@@ -112,18 +134,6 @@
         "No cough, no."
       ]
     },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_focus": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
@@ -131,41 +141,18 @@
         "No."
       ]
     },
-    "difficulty_breathing": {
+    "discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm also having a hard time breathing",
-        "the shortness of breath you mentioned, uh, when did that start?",
-        "Around the same time."
+        "How about any eye symptoms like discharge or or eye pain?",
+        "No, nothing like that."
       ]
-    },
-    "difficulty_sleeping": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "has there been any change to your sleep or any stressful events happen that might be tiring you out?",
-        "No."
-      ]
-    },
-    "discomfort": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I felt this crampy pain in my chest"
-      ]
-    },
-    "drowsiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm also having a hard time breathing",
-        "the shortness of breath you mentioned, uh, when did that start?",
-        "Around the same time."
+        "I'm also having a hard time breathing so thought I should check it out.",
+        "Ok, and the shortness of breath you mentioned, uh, when did that start?"
       ]
     },
     "eye_redness": {
@@ -175,14 +162,11 @@
         "Nope."
       ]
     },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
         "Just just some fatigue, some tiredness.",
+        "Alright, and did that start around the same time?",
         "That started a few days before, like maybe two days before."
       ]
     },
@@ -191,13 +175,6 @@
       "example_quotes": [
         "Ok, and have you had a fever?",
         "Um, nope."
-      ]
-    },
-    "flu_like_symptom": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Maybe slight muscle aches.",
-        "Just just some fatigue, some tiredness."
       ]
     },
     "head_ache": {
@@ -213,10 +190,6 @@
         "Alright, and so you haven't been bringing up any sputum or or any blood?",
         "No."
       ]
-    },
-    "limp": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
@@ -242,10 +215,9 @@
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having this chest pain for the since last night",
-        "I felt this crampy pain in my chest",
-        "Any abdominal pains?",
-        "No."
+        "I've been having this chest pain for the since last night.",
+        "Any muscle aches or pains?",
+        "Maybe slight muscle aches."
       ]
     },
     "palpitation": {
@@ -254,14 +226,6 @@
         "Alright, and uh have you felt like your heart is racing at all?",
         "No."
       ]
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "rapid_breathing": {
       "assessed": "Yes",
@@ -277,14 +241,10 @@
         "No."
       ]
     },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sleep_change": {
       "assessed": "Yes",
       "example_quotes": [
-        "has there been any change to your sleep or any stressful events happen that might be tiring you out?",
+        "Ok, has there been any change to your sleep or any stressful events happen that might be tiring you out?",
         "No."
       ]
     },
@@ -294,17 +254,6 @@
         "Alright and then any night sweats?",
         "No."
       ]
-    },
-    "sleep_issues": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "has there been any change to your sleep or any stressful events happen that might be tiring you out?",
-        "No."
-      ]
-    },
-    "slow_motion_feeling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -318,28 +267,6 @@
       "example_quotes": [
         "Ok and, have you had a sore throat?",
         "No sore throat."
-      ]
-    },
-    "soreness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any muscle aches or pains?",
-        "Maybe slight muscle aches."
-      ]
-    },
-    "straining_and_chest_discomfort": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I guess taking in a deep breath.",
-        "Ok, and how about changing positions, does the pain get worse if you lie flat or or if you lean forward?",
-        "No."
-      ]
-    },
-    "symptom_speedup": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Ok, and and has the pain get been getting worse, getting better, staying the same?",
-        "It's been the same."
       ]
     },
     "taste_loss": {
@@ -370,17 +297,10 @@
         "No."
       ]
     },
-    "weight_gain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I see, ok and have you had any changes to your weight in the last several months?",
-        "No."
-      ]
-    },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Ok, and have you noticed any changes to the sounds of your breathing, like a wheeze or whistling sound?",
+        "Have you noticed any changes to the sounds of your breathing, like a wheeze or whistling sound?",
         "Yeah, maybe maybe a slight wheeze."
       ]
     }

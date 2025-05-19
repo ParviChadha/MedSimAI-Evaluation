@@ -1,29 +1,37 @@
 {
-  "precision": 0.8823529411764706,
-  "recall": 0.9375,
-  "f1_score": 0.9090909090909091,
-  "true_positives": 15,
+  "precision": 0.8666666666666667,
+  "recall": 0.8125,
+  "f1_score": 0.8387096774193549,
+  "true_positives": 13,
   "false_positives": 2,
-  "false_negatives": 1,
+  "false_negatives": 3,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Diabetes",
+      "item": "Decreased Fluid Intake",
       "result_quotes": [
-        "I'm pre diabetic, so I've been checking my glucose levels"
+        "have you been able to eat and drink during this time period?",
+        "Yes."
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Flu Like Symptom",
       "result_quotes": [
-        "So no high blood pressure?",
-        "No."
+        "So it's also a possibility it might be influenza, just the seasonal flu. But until we, I suppose rule out covid, it'd be best just to keep to yourself just in case you are infectious for the meanwhile."
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
       "truth_quotes": []
     }
   ]

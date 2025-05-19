@@ -1,45 +1,11 @@
 {
   "medical_history_assessed": {
-    "aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Do you have any muscle aches?",
-        "Um, a little bit."
-      ]
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "muscle_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Do you have any muscle aches?",
-        "Um, a little bit.",
-        "OK, and where on your muscles would you say are aching?",
-        "I would say my lower limbs and just generally all over, but just yeah like the big muscles like my thighs, my shoulders."
-      ]
-    },
     "ache": {
       "assessed": "Yes",
       "example_quotes": [
         "Do you have any muscle aches?",
-        "Um, a little bit.",
-        "OK, and where on your muscles would you say are aching?",
         "I would say my lower limbs and just generally all over, but just yeah like the big muscles like my thighs, my shoulders."
       ]
-    },
-    "anxious": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "apnea_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
@@ -48,17 +14,28 @@
         "No."
       ]
     },
+    "change_in_sleep": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been able to sleep throughout the night or does the cough wake you up or the chills wake you up?",
+        "Um, no, they don't wake me up. I wouldn't say that."
+      ]
+    },
+    "changes_in_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. And do you feel any kind of chest pain with shortness of breath?",
+        "Do you feel any kind of chest pain with shortness of breath?",
         "Um, no nothing like that."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, but you've been having chills and are you having any other symptoms?",
+        "but you've been having chills and are you having any other symptoms?",
         "Yeah, chills. I've been feeling kind of hot during the day."
       ]
     },
@@ -69,22 +46,14 @@
         "Um, I guess a little bit, yeah. Yeah, I guess a little bit and it's yellow.",
         "It's yellow, OK, do you notice any kind of blood in your sputum?",
         "No, no blood.",
-        "OK, so just yellow sputum and how much would you say you're producing an average day?",
+        "so just yellow sputum and how much would you say you're producing an average day?",
         "Um, maybe like, 10 to 15 times in a day I produce enough to fill like the inside of my palm."
       ]
-    },
-    "complications_actual_delivery": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "complications_during_delivery": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Are you having any other symptoms like a sore throat, runny nose, congestion, anything like that?",
+        "any other symptoms like a sore throat, runny nose, congestion, anything like that?",
         "No."
       ]
     },
@@ -98,20 +67,11 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have a cough, I'm feeling short of breath and I have a feeling like I have a fever.",
-        "OK, worse, OK, so you're having a cough, shortness of breath and fever, and did that all start together? Or did one come before another?",
-        "Um, so the cough came first, then the shortness of breath, and then the fever.",
+        "I started coughing again and now I have all the same symptoms. I have a cough, I'm feeling short of breath...",
+        "So are your symptoms similar to when you got admitted?",
         "OK, and the cough, how would you describe the cough?",
         "Um, it's harsh, it's persistent."
       ]
-    },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_oral_intake": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -119,24 +79,6 @@
         "So, OK, any kind of bowel movement issues? Any constipation or diarrhea?",
         "No."
       ]
-    },
-    "difficulty_breathing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I have a cough, I'm feeling short of breath and I have a feeling like I have a fever.",
-        "OK, worse, OK, so you're having a cough, shortness of breath and fever, and did that all start together? Or did one come before another?",
-        "Um, so the cough came first, then the shortness of breath, and then the fever.",
-        "Yeah, OK. And how about the shortness of breath, is that just during activity or you can have that when you're sleeping or resting as well?",
-        "The shortness of breath is more with like activity when I'm walking around."
-      ]
-    },
-    "difficulty_feeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
@@ -149,15 +91,25 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have a cough, I'm feeling short of breath and I have a feeling like I have a fever.",
-        "OK, worse, OK, so you're having a cough, shortness of breath and fever, and did that all start together? Or did one come before another?",
-        "Um, so the cough came first, then the shortness of breath, and then the fever.",
-        "Yeah, OK. And how about the shortness of breath, is that just during activity or you can have that when you're sleeping or resting as well?",
+        "I'm feeling short of breath",
+        "And how about the shortness of breath, is that just during activity or you can have that when you're sleeping or resting as well?",
         "The shortness of breath is more with like activity when I'm walking around."
       ]
+    },
+    "ear_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "eye_redness": {
       "assessed": "No",
@@ -173,40 +125,42 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have a cough, I'm feeling short of breath and I have a feeling like I have a fever.",
-        "OK, worse, OK, so you're having a cough, shortness of breath and fever, and did that all start together? Or did one come before another?",
-        "Um, so the cough came first, then the shortness of breath, and then the fever.",
-        "OK. And with the fever, did you get a chance to measure, take a temperature at all?",
+        "I have a feeling like I have a fever.",
+        "And with the fever, did you get a chance to measure, take a temperature at all?",
         "Umm, no, I haven't actually taken my temperature."
       ]
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any headaches?",
+        "Any headaches?",
         "No headaches."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "It's yellow, OK, do you notice any kind of blood in your sputum?",
+        "do you notice any kind of blood in your sputum?",
         "No, no blood."
       ]
     },
-    "itching_eyes": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lethargic": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "malaise": {
+    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -217,77 +171,90 @@
         "No."
       ]
     },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and do you feel at all that your heart is racing?",
+        "do you feel at all that your heart is racing?",
         "No."
       ]
     },
-    "redness_in_throat": {
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Are you having any other symptoms like a sore throat, runny nose, congestion, anything like that?",
+        "any other symptoms like a sore throat, runny nose, congestion, anything like that?",
         "No."
       ]
     },
-    "sexually_transmitted_infection": {
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and do you have any symptoms like a loss of taste, sense of taste or smell?",
-        "No."
-      ]
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sore": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK. Are you having any other symptoms like a sore throat, runny nose, congestion, anything like that?",
+        "any symptoms like a loss of taste, sense of taste or smell?",
         "No."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Are you having any other symptoms like a sore throat, runny nose, congestion, anything like that?",
+        "any other symptoms like a sore throat, runny nose, congestion, anything like that?",
         "No."
       ]
-    },
-    "soreness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. And have you been having any kind of swelling in your limbs at all?",
+        "have you been having any kind of swelling in your limbs at all?",
         "No, no swelling.",
-        "OK and any kind of swelling of your neck region or lymph nodes?",
+        "any kind of swelling of your neck region or lymph nodes?",
         "No, not that I noticed."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and do you have any symptoms like a loss of taste, sense of taste or smell?",
+        "any symptoms like a loss of taste, sense of taste or smell?",
         "No."
       ]
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you lost any weight recently?",
+        "Have you lost any weight recently?",
         "No."
       ]
     },
@@ -298,16 +265,28 @@
         "Um, nothing like that."
       ]
     },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
         "Any nausea or vomiting?",
         "No."
       ]
-    },
-    "watery_eyes": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

@@ -1,24 +1,17 @@
 {
-  "precision": 0.9230769230769231,
+  "precision": 0.96,
   "recall": 1.0,
-  "f1_score": 0.9600000000000001,
+  "f1_score": 0.9795918367346939,
   "true_positives": 24,
-  "false_positives": 2,
+  "false_positives": 1,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Fever",
+      "item": "Sexually Transmitted Infection",
       "result_quotes": [
-        "Medical Student: Ok, and yeah, you mentioned you had a fever but did have you checked your temperature?",
-        "Patient: No, I haven't I I just had like chills over the last two nights."
-      ]
-    },
-    {
-      "item": "Rash",
-      "result_quotes": [
-        "Medical Student: OK, have you noticed any rashes anywhere?",
-        "Patient: No."
+        "and have you had a sexually transmitted infection before?",
+        "Nope."
       ]
     }
   ],

@@ -1,5 +1,24 @@
 {
   "medical_history_assessed": {
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "complications_during_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, so no diabetes, high blood pressure, anything like that?",
+        "No."
+      ]
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "grunting": {
       "assessed": "No",
       "example_quotes": []
@@ -7,149 +26,22 @@
     "hyperacusis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and how about any sensitivity to light when you're you're seeing it or sensitivity to sound?",
-        "Patient: No."
+        "how about any sensitivity to light when you're you're seeing it or sensitivity to sound?",
+        "No."
       ]
     },
-    "brain_fog": {
+    "infectious_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Sure, you know I've been feeling kinda hot for the past couple of days and I have this terrible, terrible headache. And just my brain feels foggy.",
-        "Patient: Um, just like the brain fog that I was speaking of, you know. I just don't remember, I remember things, but it's it's like I'm doing everything underwater."
+        "I've been feeling kinda hot for the past couple of days and I have this terrible, terrible headache.",
+        "so we will do a PCR COVID swab as well as order some general lab work to look for signs of infection, such as a CBC and a white blood cell count."
       ]
     },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, have you experienced any chest pain?",
-        "Patient: No."
-      ]
-    },
-    "chest_pressure": {
+    "injury": {
       "assessed": "No",
       "example_quotes": []
     },
-    "chest_tightness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "confusion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Oh OK. Have you been uh confused or concerns with your memory?",
-        "Patient: Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
-      ]
-    },
-    "constipation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, um and any constipation?",
-        "Patient: No."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, and have you had a cough?",
-        "Patient: No cough, no."
-      ]
-    },
-    "decrease_interest_in_activities": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "diabetes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, so no diabetes, high blood pressure, anything like that?",
-        "Patient: No."
-      ]
-    },
-    "diarrhoea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, have you had any diarrhea?",
-        "Patient: Um no, no diarrhea."
-      ]
-    },
-    "difficulty_breathing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Alright, how about shortness of breath?",
-        "Patient: No shortness of breath either."
-      ]
-    },
-    "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
-        "Patient: No, nothing like that."
-      ]
-    },
-    "drowsiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Alright, how about shortness of breath?",
-        "Patient: No shortness of breath either."
-      ]
-    },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fatigue_extended": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: I see, OK, and how has your energy been? Have you had uh significant fatigue?",
-        "Patient: Yes, I would say I am significantly more tired than I used to be."
-      ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Sure, you know I've been feeling kinda hot for the past couple of days",
-        "Medical Student: OK, um, and so you you mentioned that you had you had a fever as well. Did you check your temperature?",
-        "Patient: I didn't actually, no I didn't check my temperature, I just feel hot."
-      ]
-    },
-    "grunting_noise": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Sure, you know I've been feeling kinda hot for the past couple of days and I have this terrible, terrible headache.",
-        "Medical Student: OK. Uh, and uh, in terms of the headache, uh, does your head hurt in any particular location?",
-        "Patient: I would say mostly the sides of my head."
-      ]
-    },
-    "hearing_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: So with the acuity of your symptoms, starting with the last few days and getting worse, especially with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection"
-      ]
-    },
-    "itchiness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
-        "Patient: No, nothing like that."
-      ]
-    },
-    "loss_of_appetite": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -157,182 +49,236 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "malaise": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, with this fatigue, have you had any aches and pains?",
-        "Patient: Some muscle aches, I would say mostly in my arms and just my legs, yeah."
-      ]
-    },
-    "memory_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Oh OK. Have you been uh confused or concerns with your memory?",
-        "Patient: Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
-      ]
-    },
-    "mucous_building": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "nasal_congestion": {
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "nausea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK. And have you had any nausea or vomiting?",
-        "Patient: No."
-      ]
-    },
-    "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, with this fatigue, have you had any aches and pains?",
-        "Patient: Some muscle aches, I would say mostly in my arms and just my legs, yeah."
-      ]
-    },
-    "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, how about any period where you felt as though your heart was racing?",
-        "Patient: No."
-      ]
-    },
-    "photophobia": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, and how about any sensitivity to light when you're you're seeing it or sensitivity to sound?",
-        "Patient: No."
-      ]
     },
     "pregnancy": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Sure, I I just my husband, um we we don't use protection. But I'm on the birth control pill."
+        "we don't use protection. But I'm on the birth control pill."
       ]
     },
-    "pressure_in_around_face": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sleep": {
+    "sexually_transmitted_infection": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, um, how has your sleep been?",
-        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
+        "and have you had a sexually transmitted infection before?",
+        "No."
       ]
     },
-    "sleep_issue": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, um, how has your sleep been?",
-        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
-      ]
-    },
-    "sleep_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, um, how has your sleep been?",
-        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
-      ]
-    },
-    "sleeping_issues": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, um, how has your sleep been?",
-        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
-      ]
-    },
-    "smell_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, and have you had any loss of taste or smell?",
-        "Patient: Um, no."
-      ]
-    },
-    "sneezing": {
+    "tonsilitis": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "symptoms_stress": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "taste_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, and have you had any loss of taste or smell?",
-        "Patient: Um, no."
-      ]
-    },
-    "tearing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
-        "Patient: No, nothing like that."
-      ]
-    },
-    "tearing_or_or_itchiness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
-        "Patient: No, nothing like that."
-      ]
-    },
-    "tired": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: I see, OK, and how has your energy been? Have you had uh significant fatigue?",
-        "Patient: Yes, I would say I am significantly more tired than I used to be."
-      ]
     },
     "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "brain_fog": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "just my brain feels foggy.",
+        "just like the brain fog that I was speaking of, you know. I just don't remember, I remember things, but it's it's like I'm doing everything underwater."
+      ]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you experienced any chest pain?",
+        "No."
+      ]
+    },
+    "confusion": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been uh confused or concerns with your memory?",
+        "Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
+      ]
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "um and any constipation?",
+        "No."
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "and have you had a cough?",
+        "No cough, no."
+      ]
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any diarrhea?",
+        "Um no, no diarrhea."
+      ]
+    },
+    "discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any eye symptoms such as discharge, tearing or or itchiness?",
+        "No, nothing like that."
+      ]
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "how about shortness of breath?",
+        "No shortness of breath either."
+      ]
+    },
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "how has your energy been? Have you had uh significant fatigue?",
+        "Yes, I would say I am significantly more tired than I used to be."
+      ]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've been feeling kinda hot for the past couple of days",
+        "you mentioned that you had you had a fever as well. Did you check your temperature?",
+        "I didn't actually, no I didn't check my temperature, I just feel hot.",
+        "we now have documented of 38.8"
+      ]
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I have this terrible, terrible headache.",
+        "in terms of the headache, uh, does your head hurt in any particular location?",
+        "how would you describe the headache?",
+        "how long has the headache been going on for?",
+        "have you had headaches like this before in the past?"
+      ]
+    },
+    "itchiness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any eye symptoms such as discharge, tearing or or itchiness?",
+        "No, nothing like that."
+      ]
+    },
+    "memory_loss": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been uh confused or concerns with your memory?",
+        "Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
+      ]
+    },
+    "nausea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any nausea or vomiting?",
+        "No."
+      ]
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "in terms of the headache, uh, does your head hurt in any particular location?",
+        "and with this fatigue, have you had any aches and pains?",
+        "Some muscle aches, I would say mostly in my arms and just my legs."
+      ]
+    },
+    "palpitation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "how about any period where you felt as though your heart was racing?",
+        "No."
+      ]
+    },
+    "photophobia": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "how about any sensitivity to light when you're you're seeing it or sensitivity to sound?",
+        "No."
+      ]
+    },
+    "sleep_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "how has your sleep been?",
+        "My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
+      ]
+    },
+    "smell_loss": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any loss of taste or smell?",
+        "Um, no."
+      ]
+    },
+    "taste_loss": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any loss of taste or smell?",
+        "Um, no."
+      ]
+    },
+    "tearing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any eye symptoms such as discharge, tearing or or itchiness?",
+        "No, nothing like that."
+      ]
+    },
+    "tearing_or_or_itchiness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any eye symptoms such as discharge, tearing or or itchiness?",
+        "No, nothing like that."
+      ]
+    },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Alright, and then how about any urinary problems such as painful urination or going frequently?",
-        "Patient: No, no changes."
+        "how about any urinary problems such as painful urination or going frequently?",
+        "No, no changes."
       ]
     },
     "vaginal_discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and any I guess like vaginal discharge or vaginal discomfort?",
-        "Patient: No."
+        "any I guess like vaginal discharge or vaginal discomfort?",
+        "No."
       ]
     },
     "vaginal_discomfort": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and any I guess like vaginal discharge or vaginal discomfort?",
-        "Patient: No."
+        "any I guess like vaginal discharge or vaginal discomfort?",
+        "No."
       ]
-    },
-    "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And have you had any nausea or vomiting?",
-        "Patient: No."
+        "have you had any nausea or vomiting?",
+        "No."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and have you have any wheezing?",
-        "Patient: Um no no wheezing."
+        "and have you have any wheezing?",
+        "Um no no wheezing."
       ]
     }
   }

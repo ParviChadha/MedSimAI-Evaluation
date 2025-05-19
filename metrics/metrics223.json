@@ -1,32 +1,24 @@
 {
-  "precision": 0.9,
+  "precision": 0.9310344827586207,
   "recall": 1.0,
-  "f1_score": 0.9473684210526316,
+  "f1_score": 0.9642857142857143,
   "true_positives": 27,
-  "false_positives": 3,
+  "false_positives": 2,
   "false_negatives": 0,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Change In Sleep",
-      "result_quotes": [
-        "OK, uhm, and have you had any, uh, instances where you've woke up in the middle of the night extremely short of breath?",
-        "Yeah, that happened last night, couldn't fall asleep.",
-        "OK, and do you, uh, typically have problems with shortness of breath if you lie flat?",
-        "I do, I have to, uh, started using two pillows."
-      ]
-    },
-    {
-      "item": "Fainting",
+      "item": "Lightheadedness",
       "result_quotes": [
         "Alright, have you had any fainting or dizziness?",
         "Uh, no."
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Lung Complications",
       "result_quotes": [
-        "Yeah, I have uh, heart, heart failure and uh, had two heart attacks and have high cholesterol, high blood pressure and, uh, I'm also overweight."
+        "and in terms of family history, has anybody had any heart or lung conditions?",
+        "Oh yeah, everyone in my family has high blood pressure. My mom had a heart attack. My brother had a heart attack. My sister had a heart attack. Everyone, everyone has heart problems."
       ]
     }
   ],

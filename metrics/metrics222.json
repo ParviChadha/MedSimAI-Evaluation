@@ -1,25 +1,33 @@
 {
-  "precision": 0.8,
+  "precision": 0.8333333333333334,
   "recall": 1.0,
-  "f1_score": 0.888888888888889,
+  "f1_score": 0.9090909090909091,
   "true_positives": 20,
-  "false_positives": 5,
+  "false_positives": 4,
   "false_negatives": 0,
   "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
+      "item": "Self Hurt",
       "result_quotes": [
-        "Not to medication I'm allergic to like strawberries and Kiwis.",
-        "OK, and what kind of reaction do you get?",
-        "I just break out in hives."
+        "Do you feel safe or do you find yourself feeling unsafe or having been bullied at all?",
+        "Oh, I'm pretty, I feel pretty safe."
       ]
     },
     {
-      "item": "Pain",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "Any sensation of chest pain or racing of your heart?",
-        "No."
+        "Have you traveled at all recently or been in touch with anyone who's been sick?",
+        "Uh no, nothing like that.",
+        "Are any of them sick at all?",
+        "No everyones pretty healthy."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "And how would you describe the cough? Is it wet or dry?",
+        "It's dry."
       ]
     },
     {
@@ -27,20 +35,6 @@
       "result_quotes": [
         "Any changes in your appetite or weight?",
         "No."
-      ]
-    },
-    {
-      "item": "Loss Of Consciousness Due To Alcohol",
-      "result_quotes": [
-        "So currently right now you're 16. This is an age where sometimes your peers or yourself might experiment with alcohol, smoking or recreational drugs. Have you have you tried anything at all?",
-        "No, I haven't."
-      ]
-    },
-    {
-      "item": "Infection",
-      "result_quotes": [
-        "And have you traveled at all recently or been in touch with anyone who's been sick?",
-        "Uhm, no, nothing like that."
       ]
     }
   ],

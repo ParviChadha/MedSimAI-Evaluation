@@ -1,42 +1,32 @@
 {
-  "precision": 0.8709677419354839,
+  "precision": 0.9,
   "recall": 1.0,
-  "f1_score": 0.9310344827586207,
+  "f1_score": 0.9473684210526316,
   "true_positives": 27,
-  "false_positives": 4,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Throat Pain",
+      "item": "Vaccine Related Reaction",
       "result_quotes": [
-        "I have a sore throat",
-        "OK, um, are you having any pain with swallowing either liquids or food?",
-        "Um, mostly with foods.",
-        "OK, and when did the sore throat start?",
-        "It started up around the same time as my cough."
+        "Are your immunizations up to date?",
+        "I think, yeah, I think so."
       ]
     },
     {
-      "item": "Nasal Discharge",
+      "item": "Physical Or Emotional Abuse At Home",
       "result_quotes": [
-        "Any mucous or pain or discharge from either your ears or nose?",
-        "No."
+        "OK, and is there any physical or verbal abuse in the home?",
+        "No.",
+        "OK, so you do feel safe in the home?",
+        "Yes yes."
       ]
     },
     {
-      "item": "Soreness",
+      "item": "Change In Taste",
       "result_quotes": [
-        "I have a sore throat",
-        "OK, and when did the sore throat start?",
-        "It started up around the same time as my cough."
-      ]
-    },
-    {
-      "item": "Muscle Aches",
-      "result_quotes": [
-        "OK, and any muscle aches or or body pains?",
-        "No."
+        "I feel like I can't taste things the same."
       ]
     }
   ],

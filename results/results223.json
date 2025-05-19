@@ -1,22 +1,21 @@
 {
   "medical_history_assessed": {
-    "aches": {
+    "change_in_taste": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Alright, have you had any fainting or dizziness?",
+        "Uh, no."
+      ]
     },
     "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -31,23 +30,11 @@
         "Uhm, no."
       ]
     },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "change_in_sleep": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, uhm, and have you had any, uh, instances where you've woke up in the middle of the night extremely short of breath?",
-        "Yeah, that happened last night, couldn't fall asleep.",
-        "OK, and do you, uh, typically have problems with shortness of breath if you lie flat?",
-        "I do, I have to, uh, started using two pillows."
-      ]
-    },
     "changes_in_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had any changes to your appetite or, or diet or exercise?"
+        "And have you had any changes to your appetite or, or diet or exercise?",
+        "I can barely exercise. I feel so short of breath. My dad's the same."
       ]
     },
     "chest_pain": {
@@ -55,16 +42,20 @@
       "example_quotes": [
         "Alright, and, uhm, how about any, any chest pain?",
         "No.",
-        "OK, and have you, have you been stable in regards to your, uh, like chest pain? Have you had any?",
+        "and have you been stable in regards to your, uh, like chest pain? Have you had any?",
         "No, I haven't had chest pain."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, uhm, I, I don't, I don't think I asked. Have you had any fevers or chills?",
+        "I don't think I asked. Have you had any fevers or chills?",
         "No."
       ]
+    },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
@@ -76,7 +67,7 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Yeah, and have you been experiencing any cough?",
+        "OK, and, uhm, have you been experiencing any cough?",
         "No."
       ]
     },
@@ -94,8 +85,13 @@
     "diet": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had any changes to your appetite or, or diet or exercise?"
+        "And have you had any changes to your appetite or, or diet or exercise?",
+        "I can barely exercise. I feel so short of breath. My dad's the same."
       ]
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "discharge": {
       "assessed": "Yes",
@@ -117,8 +113,10 @@
         "I've had, uh, worsening, uhm, shortness of breath, uhm, for the past couple of days.",
         "OK, how far are you able to walk before getting shorter breath?",
         "A couple of stairs, two to three stairs.",
-        "OK, and have you had shortness of breath like this before?",
-        "Yeah, uhm, six months ago."
+        "and have you had any, uh, instances where you've woke up in the middle of the night extremely short of breath?",
+        "Yeah, that happened last night, couldn't fall asleep.",
+        "do you, uh, typically have problems with shortness of breath if you lie flat?",
+        "I do, I have to, uh, started using two pillows."
       ]
     },
     "ear_problem": {
@@ -129,12 +127,8 @@
       "assessed": "Yes",
       "example_quotes": [
         "And have you had any changes to your appetite or, or diet or exercise?",
-        "I can barely exercise. I feel so short of breath."
+        "I can barely exercise. I feel so short of breath. My dad's the same."
       ]
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "eye_redness": {
       "assessed": "Yes",
@@ -143,39 +137,41 @@
         "Not recently, I had that about two months ago, but that got better."
       ]
     },
-    "facial_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fainting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, have you had any fainting or dizziness?",
-        "Uh, no."
-      ]
-    },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, uhm, I, I don't, I don't think I asked. Have you had any fevers or chills?",
+        "I don't think I asked. Have you had any fevers or chills?",
         "No."
       ]
     },
-    "foreign_body_intake": {
+    "hearing_problem": {
       "assessed": "No",
       "example_quotes": []
     },
-    "high_blood_pressure": {
+    "impending_doom_anxiety": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lung_complications": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I have uh, heart, heart failure and uh, had two heart attacks and have high cholesterol, high blood pressure and, uh, I'm also overweight."
+        "and in terms of family history, has anybody had any heart or lung conditions?",
+        "Oh yeah, everyone in my family has high blood pressure. My mom had a heart attack. My brother had a heart attack. My sister had a heart attack. Everyone, everyone has heart problems."
       ]
     },
-    "loss_of_smell": {
+    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lymphadenitis": {
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -189,18 +185,20 @@
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and, uh, I might have asked, but just to, to be complete, did you have any nausea or vomiting?",
+        "I might have asked, but just to, to be complete, did you have any nausea or vomiting?",
         "No."
       ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, and, uhm, how about any, any chest pain?",
+        "and have you been having any abdominal pain?",
         "No.",
-        "OK, and have you, have you been stable in regards to your, uh, like chest pain? Have you had any?",
-        "No, I haven't had chest pain.",
-        "have you been having any abdominal pain?",
+        "Alright, and, uhm, how about any, any chest pain?",
         "No."
       ]
     },
@@ -215,7 +213,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "physical_or_emotional_abuse_at_home": {
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -227,17 +225,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "rigor": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, uhm, and have you had any, uh, instances where you've woke up in the middle of the night extremely short of breath?",
-        "Yeah, that happened last night, couldn't fall asleep.",
-        "Did it help, uh, sitting up?",
-        "Yeah, I just went and sat on my chair and slept on the chair."
+        "and have you had any, uh, instances where you've woke up in the middle of the night extremely short of breath?",
+        "Yeah, that happened last night, couldn't fall asleep."
       ]
     },
     "sleep_hydrosis": {
@@ -246,10 +242,6 @@
         "OK and or, or any night sweats?",
         "No"
       ]
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
@@ -262,6 +254,10 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
@@ -269,7 +265,7 @@
         "Yeah, Oh my goodness, it's so bad I couldn't wear my shoes this morning. It's gotten worse over the past, one month."
       ]
     },
-    "unexplained_weight_loss": {
+    "symptoms_stress": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -291,7 +287,7 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and, uh, I might have asked, but just to, to be complete, did you have any nausea or vomiting?",
+        "I might have asked, but just to, to be complete, did you have any nausea or vomiting?",
         "No."
       ]
     },

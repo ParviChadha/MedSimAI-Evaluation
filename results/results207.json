@@ -1,41 +1,13 @@
 {
   "medical_history_assessed": {
-    "grunting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "So, it's more of just like a dry cough. I'm not really bringing anything up."
-      ]
-    },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "allergy_medication": {
       "assessed": "Yes",
       "example_quotes": [
         "Any medications that you take, including over the counter, or herbal medications, or vitamins or minerals?",
-        "No, no. I don't take any medication."
+        "Allergies, including allergies to food, or environmental allergies, and allergies to medications?",
+        "No, no. I don't take any medication.",
+        "Um, no."
       ]
-    },
-    "bad_smell": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "changes_in_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "changes_in_memory": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
@@ -48,14 +20,15 @@
       "assessed": "Yes",
       "example_quotes": [
         "Um, okay. Uh, any fevers or chills?",
-        "No, not really. Last week I maybe had a, uh, two nights, I was a bit chilly, but since then I've been fine."
+        "No, not really. Last week I maybe had a, uh, two nights, I was a bit chilly, but since then I've been fine.",
+        "you had two nights of, uh two nights where you felt sort of cold and you had the chills um, last week"
       ]
     },
     "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "confusion": {
+    "complications_during_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -70,16 +43,21 @@
       "assessed": "Yes",
       "example_quotes": [
         "I've been having this cough for um, the last two weeks and it just, is not going away.",
-        "So, it's more of just like a dry cough. I'm not really bringing anything up."
+        "So, can you tell me about your cough?",
+        "So, it's more of just like a dry cough. I'm not really bringing anything up.",
+        "No blood?",
+        "No.",
+        "So it sounds like you have a cough that started two weeks ago"
       ]
     },
-    "decreased_activity": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_physical_activity": {
-      "assessed": "No",
-      "example_quotes": []
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you um, do you have any medical conditions that you've been diagnosed with?",
+        "No, I've been uh, completely healthy otherwise.",
+        "Any conditions, medical conditions that run in the family?",
+        "Um, I think my dad has uh, high cholesterol."
+      ]
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -98,23 +76,15 @@
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "And uh, have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
+        "Have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
         "Uh no, nothing like that."
       ]
-    },
-    "fatigue": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "feeling_tired": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
         "Um, okay. Uh, any fevers or chills?",
-        "No, not really. Last week I maybe had a, uh, two nights, I was a bit chilly, but since then I've been fine."
+        "No, not really."
       ]
     },
     "food_allergy": {
@@ -124,22 +94,12 @@
         "Um, no."
       ]
     },
-    "greenish_yellowish_nasal_discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh it's, it's pretty clear. It might be light, but it's not like green or yellow or anything like that."
-      ]
-    },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay. Um, and uh, have you had a headache at all in these past two weeks?",
+        "And uh, have you had a headache at all in these past two weeks?",
         "No, I didn't have a headache, but sometimes I feel a bit congested."
       ]
-    },
-    "hearing_problem": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
@@ -148,24 +108,21 @@
         "No."
       ]
     },
-    "infection": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "malaise": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "muscle_aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any aches in your, any muscle aches?",
-        "No."
-      ]
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
@@ -174,17 +131,12 @@
         "No, no."
       ]
     },
-    "numbness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any numbness or tingling in your arms or feet?",
-        "Nope."
-      ]
-    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
         "Any pain in your belly?",
+        "No.",
+        "Any chest pain?",
         "No."
       ]
     },
@@ -199,7 +151,19 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "redness_in_throat": {
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -207,8 +171,13 @@
       "assessed": "Yes",
       "example_quotes": [
         "I've also been getting like, just a runny nose for the last couple, I would take the whole week, all of last week.",
+        "And the runny nose, what, what's the discharge like?",
         "Uh it's, it's pretty clear. It might be light, but it's not like green or yellow or anything like that."
       ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sensitive_to_allergies": {
       "assessed": "Yes",
@@ -224,33 +193,33 @@
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay, and uh, any night sweats?",
+        "Any night sweats?",
         "Uh, no."
       ]
-    },
-    "slow_motion_feeling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay, any um, changes in smell?",
-        "Uh no, but uh, sorry, for smell, like when I was a bit congested I, I could smell less. I wasn't able to smell too much, but taste has been fine."
+        "Okay, any changes in smell?",
+        "Nope.",
+        "for smell, like when I was a bit congested I, I could smell less. I wasn't able to smell too much"
       ]
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay, any um, changes in smell?",
-        "Uh no, but uh, sorry, for smell, like when I was a bit congested I, I could smell less. I wasn't able to smell too much, but taste has been fine."
+        "Okay, any changes in smell?",
+        "Nope.",
+        "for smell, like when I was a bit congested I, I could smell less. I wasn't able to smell too much"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
         "Alright, and what about uh, sore throat?",
-        "No, no. No, sore throat."
+        "No, no. No, sore throat.",
+        "you said that you don't have a sore throat at all, right?",
+        "No."
       ]
     },
     "taste_loss": {
@@ -260,21 +229,14 @@
         "Uh no, but uh, sorry, for smell, like when I was a bit congested I, I could smell less. I wasn't able to smell too much, but taste has been fine."
       ]
     },
-    "tearing_or_or_itchiness": {
+    "tingling": {
       "assessed": "Yes",
       "example_quotes": [
-        "And uh, have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
-        "Uh no, nothing like that."
+        "Any numbness or tingling in your arms or feet?",
+        "Nope."
       ]
     },
-    "teary_eyes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And uh, have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
-        "Uh no, nothing like that."
-      ]
-    },
-    "trauma": {
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -285,10 +247,14 @@
         "No, my weight's been the same."
       ]
     },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "And uh, have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
+        "Have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
         "Uh no, nothing like that."
       ]
     },
@@ -302,7 +268,7 @@
     "watery_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "And uh, have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
+        "Have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
         "Uh no, nothing like that."
       ]
     }

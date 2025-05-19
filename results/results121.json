@@ -1,14 +1,27 @@
 {
   "medical_history_assessed": {
-    "anxiety": {
+    "itching": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "allergic_rhinitis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any allergic reactions before?",
+        "Have you ever had any allergies to any pets or animals?"
+      ]
     },
     "arthritis_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "The, the arthritis pain was just killing me last night and I thought taking an extra pill would help.",
-        "I just have the osteoarthritis."
+        "The arthritis pain was just killing me last night and I thought taking an extra pill would help.",
+        "I just have the osteoarthritis.",
+        "Is that why you're taking the?",
+        "Yeah, yeah."
       ]
     },
     "behaviour_change": {
@@ -21,25 +34,22 @@
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, how about, do you have any changes in your bowel movements like constipation, diarrhea?",
+        "Do you have any changes in your bowel movements like constipation, diarrhea?",
         "No."
       ]
-    },
-    "change_in_taste": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay, any chest pain?",
+        "any chest pain?",
         "No, I don't."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, do you have any other symptoms like any fevers or chills?"
+        "do you have any other symptoms like any fevers or chills?",
+        "I checked my fever last night, it was um, 37.2."
       ]
     },
     "colored_excess_sputum": {
@@ -49,57 +59,55 @@
         "No."
       ]
     },
-    "confusion": {
+    "complications_during_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, how about, do you have any changes in your bowel movements like constipation, diarrhea?",
+        "Do you have any changes in your bowel movements like constipation, diarrhea?",
         "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I also developed this cough um, yesterday morning.",
-        "Okay, so did, did the cough come first or the breathing, difficulty breathing?",
-        "And um, so, can you describe your cough a little bit? Is it wet or is it dry?",
+        "I just started having, um, difficulty with breathing um, starting yesterday. And I also developed this cough um, yesterday morning.",
+        "Can you describe your cough a little bit? Is it wet or is it dry?",
         "Um, it's just um, it's just a dry cough."
       ]
     },
-    "depression": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "diabetes": {
+    "delayed_growth_milestones": {
       "assessed": "No",
       "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, how about, do you have any changes in your bowel movements like constipation, diarrhea?",
+        "Do you have any changes in your bowel movements like constipation, diarrhea?",
         "No."
       ]
     },
-    "discharge": {
+    "difficulty_talking": {
       "assessed": "No",
       "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, do you have any other symptoms like dizziness uh, any fainting spells?",
+        "do you have any other symptoms like dizziness uh, any fainting spells?",
         "No."
       ]
+    },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "drowsiness": {
       "assessed": "Yes",
       "example_quotes": [
         "I was feeling quite um, drowsy.",
-        "I was just very drowsy",
         "He just said that I was, I was just extremely drowsy yesterday and I was very hard to wake up."
       ]
     },
@@ -107,14 +115,22 @@
       "assessed": "Yes",
       "example_quotes": [
         "I just started having, um, difficulty with breathing um, starting yesterday.",
-        "For the shortness of breath, can you describe it a little bit?",
-        "Yeah, I just feel like um, I'm getting out of breath really easily, just like um, walking even, walking to the kitchen from my bedroom, I'm getting short of breath"
+        "For the shortness of breath, can you describe it a little bit? Is it, are you having trouble taking deep breaths, or are you breathing faster? Can you describe it?",
+        "Yeah, I just feel like um, I'm getting out of breath really easily, just like um, walking even, walking to the kitchen from my bedroom, I'm getting short of breath and it, it just started yesterday morning, it's so odd."
       ]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, do you have any other symptoms like dizziness uh, any fainting spells?",
+        "do you have any other symptoms like dizziness uh, any fainting spells?",
         "No."
       ]
     },
@@ -128,18 +144,14 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, do you have any other symptoms like any fevers or chills?",
+        "do you have any other symptoms like any fevers or chills?",
         "I checked my fever last night, it was um, 37.2."
       ]
-    },
-    "food_allergy": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay. How about sore throat, headaches, muscle pain, anything like that?",
+        "How about sore throat, headaches, muscle pain, anything like that?",
         "No."
       ]
     },
@@ -150,21 +162,23 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "And uh, are you coughing up any blood by any chance?",
+        "are you coughing up any blood by any chance?",
         "No."
       ]
     },
-    "high_blood_pressure": {
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "itching_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
+    "lethargic": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "He just said that I was, I was just extremely drowsy yesterday and I was very hard to wake up."
+      ]
     },
     "loss_of_appetite": {
       "assessed": "Yes",
@@ -173,70 +187,53 @@
         "No."
       ]
     },
-    "loss_of_smell": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "mucous_building": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Okay, you're not bringing up any sputum or any other material?",
+        "No."
+      ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, any nausea or vomiting?",
+        "any nausea or vomiting?",
         "No."
       ]
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "The, the arthritis pain was just killing me last night",
-        "Okay. How about sore throat, headaches, muscle pain, anything like that?",
-        "No."
+        "The arthritis pain was just killing me last night and I thought taking an extra pill would help."
       ]
     },
     "palpitation": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis": {
+    "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rash": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sexually_transmitted_infection": {
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "And did it wake you up from sleep at all? Like did you wake up trying to catch a breath or anything?",
-        "No."
+        "did you wake up trying to catch a breath or anything?",
+        "No.",
+        "did you wake up coughing or catching your breath or anything like that?",
+        "No, I actually, I ended up waking up at 1:00 PM or 2:00 PM, I was just very drowsy"
       ]
     },
     "sleep_hydrosis": {
@@ -253,64 +250,81 @@
         "No."
       ]
     },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay. How about sore throat, headaches, muscle pain, anything like that?",
-        "No."
+        "How about sore throat, headaches, muscle pain, anything like that?",
+        "No.",
+        "Have you been having any cold-like symptoms before the two days, like in the last week, like runny nose, sore throat?",
+        "No. I was, like, I was absolutely fine."
       ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay, any swelling in your legs or arms, hands?",
+        "any swelling in your legs or arms, hands?",
         "No. No, I haven't noticed any of that."
       ]
     },
-    "tearing": {
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And is this, are your symptoms constant? Or do they come and go?",
+        "They're constant for the past two days."
+      ]
+    },
+    "symptoms_stress": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trauma": {
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay. Have you lost uh, significant weight in the last few months?",
+        "Have you lost uh, significant weight in the last few months?",
         "No."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "No. Any trouble with urinating?",
+        "Any trouble with urinating?",
         "No."
       ]
     },
-    "vaccine_related_reaction": {
+    "vaginal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vision_problem": {
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, any nausea or vomiting?",
+        "any nausea or vomiting?",
         "No."
       ]
+    },
+    "watery_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheez": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheez_inhale": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

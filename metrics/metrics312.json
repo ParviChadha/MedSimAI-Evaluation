@@ -8,36 +8,38 @@
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Phlegm",
-      "result_quotes": [
-        "OK, and is it a dry cough or wet cough?",
-        "It's dry."
-      ]
-    },
-    {
-      "item": "Diarrhoea",
-      "result_quotes": [
-        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "No."
-      ]
-    },
-    {
       "item": "Sexually Transmitted Infection",
       "result_quotes": [
-        "OK. And are you so sexually active?",
+        "are you so sexually active?",
         "No, I'm not."
       ]
     },
     {
-      "item": "Sneezing",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "I was sneezing quite a bit last week, but that has kind of ah, gone away now."
+        "Have you had any fevers or chills?",
+        "Have you had contact with anyone who might be sick?",
+        "Any medical conditions that run in your family, anything related to the lungs, or otherwise?"
       ]
     },
     {
-      "item": "Constipation",
+      "item": "Underweight At Birth",
       "result_quotes": [
-        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
+        "Were you born prematurely? Were there any complications at birth?",
+        "Uh, I did have a couple of ear infections when I was, when I was younger, but I haven't had any since."
+      ]
+    },
+    {
+      "item": "Physical Or Emotional Abuse At Home",
+      "result_quotes": [
+        "Do you feel safe at home?",
+        "I do, yes."
+      ]
+    },
+    {
+      "item": "Loss Of Consciousness Due To Alcohol",
+      "result_quotes": [
+        "OK, any alcohol?",
         "No."
       ]
     }

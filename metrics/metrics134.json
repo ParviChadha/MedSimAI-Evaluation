@@ -1,26 +1,20 @@
 {
-  "precision": 0.9230769230769231,
+  "precision": 0.96,
   "recall": 1.0,
-  "f1_score": 0.9600000000000001,
+  "f1_score": 0.9795918367346939,
   "true_positives": 24,
-  "false_positives": 2,
+  "false_positives": 1,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Pain",
+      "item": "Diabetes",
       "result_quotes": [
-        "now my chest hurts",
-        "And uh, where would you say you're getting the chest pain?",
-        "Um, it's mostly like centre of my chest",
-        "And is it related to you taking deep breaths at all?",
-        "Yes, it's definitely when I take a deep breath in."
-      ]
-    },
-    {
-      "item": "Fatigue",
-      "result_quotes": [
-        "I get tired with the shortness of breath."
+        "do you have any past medical conditions or diagnoses?",
+        "Um I was diagnosed with diabetes...",
+        "when were you diagnosed with diabetes?",
+        "I was diagnosed about 10 years ago.",
+        "For the diabetes I take insulin."
       ]
     }
   ],

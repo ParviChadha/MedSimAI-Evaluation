@@ -1,11 +1,53 @@
 {
-  "precision": 1.0,
+  "precision": 0.8181818181818182,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9,
   "true_positives": 27,
-  "false_positives": 0,
+  "false_positives": 6,
   "false_negatives": 0,
-  "total_items": 36,
-  "false_positive_details": [],
+  "total_items": 54,
+  "false_positive_details": [
+    {
+      "item": "Underweight At Birth",
+      "result_quotes": [
+        "he was at term though, he wasn't premature",
+        "he was born at uh 40 weeks."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "any allergies?",
+        "not that we know of."
+      ]
+    },
+    {
+      "item": "Physical Or Emotional Abuse At Home",
+      "result_quotes": [
+        "how are things at home, um is like, are things financially stable? Any relationship issues?",
+        "no financial issues uh and we have a lot of support from our parents as well. Uh the relationship is great, so no, no issues."
+      ]
+    },
+    {
+      "item": "Complications During Delivery",
+      "result_quotes": [
+        "he was like a difficult baby coming out. Um and he was at term though, he wasn't premature, but they had to use just um some tools to get him out.",
+        "it was forceps, yeah."
+      ]
+    },
+    {
+      "item": "Complications Actual Delivery",
+      "result_quotes": [
+        "he was like a difficult baby coming out. Um and he was at term though, he wasn't premature, but they had to use just um some tools to get him out.",
+        "it was forceps, yeah."
+      ]
+    },
+    {
+      "item": "Delayed Growth Milestones",
+      "result_quotes": [
+        "he's been growing well, um meeting all of his milestones."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

@@ -1,14 +1,94 @@
 {
   "medical_history_assessed": {
+    "arthritis_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diabetes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other medical conditions that you've been diagnosed with?",
+        "Um. Yeah I have a high blood pressure.",
+        "so my blood pressure is like OK right now."
+      ]
+    },
     "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "anxious": {
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -22,12 +102,8 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm now, uh, kind of producing more sputum. Kind of like a green yellowy sputum"
+        "I feel like I'm coughing more often and I'm now, uh, kind of producing more sputum. Kind of like a green yellowy sputum"
       ]
-    },
-    "complications_during_delivery": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "confusion": {
       "assessed": "Yes",
@@ -47,17 +123,7 @@
       "assessed": "Yes",
       "example_quotes": [
         "I feel like I'm coughing more often",
-        "I've been finding it like harder to breathe than usual"
-      ]
-    },
-    "decrease_interest_in_activities": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_physical_activity": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I normally like can walk around the block and I go for a walk, usually a couple times a day to walk my dog and it's been just it's been a little bit trickier to do that."
+        "the cough has been the thing that's been the most bothersome."
       ]
     },
     "diarrhoea": {
@@ -70,23 +136,18 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been finding it like harder to breathe than usual",
-        "So how's tbad, how bad is your shortness of breath?"
+        "But just in the last like 3 days I feel like it's gotten a lot worse.",
+        "I've been finding it like harder to breathe than usual.",
+        "how bad is your shortness of breath?",
+        "I normally like can walk around the block and I go for a walk, usually a couple times a day to walk my dog and it's been just it's been a little bit trickier to do that."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
         "And have you had any fevers or chills?",
-        "I feel like I may have had a fever last night. I felt really hot."
-      ]
-    },
-    "flu_like_symptom": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I feel like I maybe got sick or something this time",
-        "Any muscle aches in your body?",
-        "Uh no."
+        "I feel like I may have had a fever last night. I felt really hot.",
+        "Here by the bed. I would say had a fever."
       ]
     },
     "fussy_feeling": {
@@ -109,45 +170,16 @@
         "I even notice that there is like a little bit of blood a couple times when I was like, really coughing hard."
       ]
     },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah I have a high blood pressure."
-      ]
-    },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I feel like I maybe got sick or something this time",
-        "And have you had any exposures to anyone who could potentially be sick?"
-      ]
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "more_quiet": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had like a runny nose or stuffy nose?",
-        "I think I think I have a I've had a bit of a like this pressure in the sinus area"
-      ]
-    },
-    "nause": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK. And any nausea or vomiting?",
-        "No."
+        "So have you had like a runny nose or stuffy nose?"
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. And any nausea or vomiting?",
+        "any nausea or vomiting?",
         "No."
       ]
     },
@@ -155,45 +187,20 @@
       "assessed": "Yes",
       "example_quotes": [
         "Any pain in your sinus?",
-        "I think I think I have a I've had a bit of a like this pressure in the sinus area",
-        "Abdominal pain.",
-        "No."
+        "I think I have a I've had a bit of a like this pressure in the sinus area,"
       ]
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "pressure": {
       "assessed": "Yes",
       "example_quotes": [
-        "I think I think I have a I've had a bit of a like this pressure in the sinus area"
+        "I think I have a I've had a bit of a like this pressure in the sinus area,"
       ]
-    },
-    "pressure_in_around_face": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I think I think I have a I've had a bit of a like this pressure in the sinus area"
-      ]
-    },
-    "redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness_in_throat": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had like a runny nose or stuffy nose?",
-        "I think I think I have a I've had a bit of a like this pressure in the sinus area"
+        "So have you had like a runny nose or stuffy nose?"
       ]
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
@@ -205,15 +212,8 @@
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you noticed any change in your sense of smell?",
+        "You, I guess I should have asked you earlier, but have you noticed any change in your sense of smell?",
         "Uh no, I don't think so."
-      ]
-    },
-    "sore": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I see and have you had a sore throat at all?",
-        "Oh no."
       ]
     },
     "sore_throat": {
@@ -221,24 +221,6 @@
       "example_quotes": [
         "I see and have you had a sore throat at all?",
         "Oh no."
-      ]
-    },
-    "soreness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any muscle aches in your body?",
-        "Uh no."
-      ]
-    },
-    "stunning": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sweaty": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any night sweats where you feel like you're drenched in sweat at night?",
-        "Uh, no, nothing like that."
       ]
     },
     "taste_loss": {
@@ -255,14 +237,10 @@
         "No no, I wish but no."
       ]
     },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. And any nausea or vomiting?",
+        "any nausea or vomiting?",
         "No."
       ]
     }

@@ -1,5 +1,9 @@
 {
   "medical_history_assessed": {
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "stiffness": {
       "assessed": "Yes",
       "example_quotes": [
@@ -10,7 +14,7 @@
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, alright, excellent. So you're eating well, doing well, any changes to your bowel movements recently?",
+        "any changes to your bowel movements recently?",
         "Uh no, no."
       ]
     },
@@ -21,41 +25,31 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Excellent. OK, you've had a cough at all?",
+        "you've had a cough at all?",
         "No cough."
       ]
     },
-    "diabetes": {
+    "decreased_fluid_intake": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm pre diabetic, so I've been checking my glucose levels"
+        "have you been able to eat and drink during this time period?",
+        "Yes."
       ]
+    },
+    "difficulty_sleeping": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
         "do you have any difficulty swallowing?",
         "Uh no, it just hurts.",
-        "OK, so you're still able to swallow food, swallow liquids?",
+        "so you're still able to swallow food, swallow liquids?",
         "Yes, that's right."
       ]
     },
     "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any trouble breathing?",
-        "No."
-      ]
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fatigue": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -63,13 +57,15 @@
       "assessed": "Yes",
       "example_quotes": [
         "I've had this terrible fever for the past three days",
-        "What about other changes in your body? Have you noticed any fevers or any rashes, any skin changes?",
-        "Uh no, nothing like that."
+        "that kinda progressed to a fever?",
+        "Yes, that's right."
       ]
     },
-    "foreign_body_intake": {
-      "assessed": "No",
-      "example_quotes": []
+    "flu_like_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "So it's also a possibility it might be influenza, just the seasonal flu. But until we, I suppose rule out covid, it'd be best just to keep to yourself just in case you are infectious for the meanwhile."
+      ]
     },
     "head_ache": {
       "assessed": "Yes",
@@ -78,53 +74,35 @@
         "Um no, no headaches."
       ]
     },
-    "hearing_problem": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "So no high blood pressure?",
-        "No."
-      ]
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "limp": {
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, and have you been able to eat and drink during this time period?",
-        "Yes."
-      ]
-    },
-    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_taste": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
     "muscle_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Oh, actually um not in my joints, but I've just, there there has been some muscle ache.",
-        "OK, how long has that been going on for?",
-        "Uh for the past two three days."
+        "what about other changes in your body? Have you noticed any fevers or any rashes, any skin changes?",
+        "No, nothing like that.",
+        "What about any pain in any of your joints and your knees, hips?",
+        "Oh, actually um not in my joints, but I've just, there there has been some muscle ache."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "it started with a stuffy nose?",
-        "Yes."
+        "just before that I had a stuffy nose"
       ]
     },
     "nausea": {
@@ -138,22 +116,10 @@
       "assessed": "Yes",
       "example_quotes": [
         "Any pain anywhere else in your body?",
-        "Uh, no.",
-        "OK and then how about abdominal pain, any pain in your tummy?",
-        "Um no.",
-        "What about any pain in any of your joints and your knees, hips?",
-        "Oh, actually um not in my joints, but I've just, there there has been some muscle ache."
+        "Uh, no."
       ]
     },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
+    "redness_in_throat": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -161,10 +127,14 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "I had a sore throat, well I still do",
+        "I had a sore throat, well I still do, um and it's just not going away, so I thought I should just come in and see if I have covid or what it is.",
         "So you have some muscle aches, little bit of fever, stuffy nose, sore throat, do you have any difficulty swallowing?"
       ]
     },
@@ -175,7 +145,19 @@
         "No."
       ]
     },
-    "urination": {
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -185,6 +167,14 @@
         "have you had any nausea, any vomiting at all in the last little while?",
         "No."
       ]
+    },
+    "weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheez": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

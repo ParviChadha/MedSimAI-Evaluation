@@ -1,71 +1,37 @@
 {
-  "precision": 0.7567567567567568,
+  "precision": 0.875,
   "recall": 1.0,
-  "f1_score": 0.8615384615384616,
+  "f1_score": 0.9333333333333333,
   "true_positives": 28,
-  "false_positives": 9,
+  "false_positives": 4,
   "false_negatives": 0,
-  "total_items": 56,
+  "total_items": 45,
   "false_positive_details": [
     {
-      "item": "Sleep Issue",
+      "item": "Pregnancy",
       "result_quotes": [
-        "Medical Student: OK, um, how has your sleep been?",
-        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
+        "we don't use protection. But I'm on the birth control pill."
       ]
     },
     {
-      "item": "Sleeping Issues",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "Medical Student: OK, um, how has your sleep been?",
-        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
+        "I've been feeling kinda hot for the past couple of days and I have this terrible, terrible headache.",
+        "so we will do a PCR COVID swab as well as order some general lab work to look for signs of infection, such as a CBC and a white blood cell count."
       ]
     },
     {
-      "item": "Infection",
+      "item": "Sexually Transmitted Infection",
       "result_quotes": [
-        "Medical Student: So with the acuity of your symptoms, starting with the last few days and getting worse, especially with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection"
-      ]
-    },
-    {
-      "item": "Sleep",
-      "result_quotes": [
-        "Medical Student: OK, um, how has your sleep been?",
-        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
-      ]
-    },
-    {
-      "item": "Difficulty Breathing",
-      "result_quotes": [
-        "Medical Student: Alright, how about shortness of breath?",
-        "Patient: No shortness of breath either."
-      ]
-    },
-    {
-      "item": "Tired",
-      "result_quotes": [
-        "Medical Student: I see, OK, and how has your energy been? Have you had uh significant fatigue?",
-        "Patient: Yes, I would say I am significantly more tired than I used to be."
+        "and have you had a sexually transmitted infection before?",
+        "No."
       ]
     },
     {
       "item": "Diabetes",
       "result_quotes": [
-        "Medical Student: OK, so no diabetes, high blood pressure, anything like that?",
-        "Patient: No."
-      ]
-    },
-    {
-      "item": "Pregnancy",
-      "result_quotes": [
-        "Patient: Sure, I I just my husband, um we we don't use protection. But I'm on the birth control pill."
-      ]
-    },
-    {
-      "item": "Malaise",
-      "result_quotes": [
-        "Medical Student: OK, with this fatigue, have you had any aches and pains?",
-        "Patient: Some muscle aches, I would say mostly in my arms and just my legs, yeah."
+        "OK, so no diabetes, high blood pressure, anything like that?",
+        "No."
       ]
     }
   ],

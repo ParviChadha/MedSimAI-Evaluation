@@ -1,11 +1,39 @@
 {
-  "precision": 1.0,
+  "precision": 0.875,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9333333333333333,
   "true_positives": 28,
-  "false_positives": 0,
+  "false_positives": 4,
   "false_negatives": 0,
   "total_items": 56,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Lethargic",
+      "result_quotes": [
+        "He just said that I was, I was just extremely drowsy yesterday and I was very hard to wake up."
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "Have you had any allergic reactions before?",
+        "Have you ever had any allergies to any pets or animals?"
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "Okay, you're not bringing up any sputum or any other material?",
+        "No."
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "And is this, are your symptoms constant? Or do they come and go?",
+        "They're constant for the past two days."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

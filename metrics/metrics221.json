@@ -1,30 +1,23 @@
 {
-  "precision": 0.85,
+  "precision": 0.8947368421052632,
   "recall": 1.0,
-  "f1_score": 0.9189189189189189,
+  "f1_score": 0.9444444444444444,
   "true_positives": 17,
-  "false_positives": 3,
+  "false_positives": 2,
   "false_negatives": 0,
   "total_items": 34,
   "false_positive_details": [
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "apart from the pain, are you having any other symptoms like a cough or shortness of breath and anything like that?"
+      ]
+    },
     {
       "item": "Phlegm",
       "result_quotes": [
         "OK, and has there been any kind of green slimy mucus in your cough at all?",
         "No, it's been a dry cough."
-      ]
-    },
-    {
-      "item": "Nasal Congestion",
-      "result_quotes": [
-        "I had a runny nose and sore throat and a little bit of a headache but. I feel better from that now."
-      ]
-    },
-    {
-      "item": "Pregnancy",
-      "result_quotes": [
-        "do you take any birth control or multi vitamins?",
-        "Yeah, I take a daily birth control pill and also a daily multi vitamin."
       ]
     }
   ],

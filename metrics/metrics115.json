@@ -1,19 +1,16 @@
 {
-  "precision": 0.9545454545454546,
-  "recall": 1.0,
-  "f1_score": 0.9767441860465117,
-  "true_positives": 21,
-  "false_positives": 1,
-  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 0.9523809523809523,
+  "f1_score": 0.975609756097561,
+  "true_positives": 20,
+  "false_positives": 0,
+  "false_negatives": 1,
   "total_items": 42,
-  "false_positive_details": [
+  "false_positive_details": [],
+  "false_negative_details": [
     {
-      "item": "Redness",
-      "result_quotes": [
-        "Any rashes?",
-        "Nope."
-      ]
+      "item": "Speech Volume",
+      "truth_quotes": []
     }
-  ],
-  "false_negative_details": []
+  ]
 }

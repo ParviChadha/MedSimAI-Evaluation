@@ -1,11 +1,51 @@
 {
   "medical_history_assessed": {
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "injury": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "numbness": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, OK. Numbness or tingling?",
+        "Numbness or tingling?",
         "No."
       ]
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "aches": {
       "assessed": "Yes",
@@ -17,13 +57,10 @@
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in his bowel movements?",
-        "No diarrhea."
+        "any changes in his bowel movements?",
+        "No diarrhea.",
+        "No, OK."
       ]
-    },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
@@ -35,35 +72,25 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "and had some chills as well last night. Kept saying that, like he was just cold, even though he had a had blankets on."
+        "then he kind of had some fever and had some chills as well last night. Kept saying that, like he was just cold, even though he had a had blankets on."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "So no sputum, no blood?",
+        "OK. Alright, so the cough is it a productive cough or is it a dry cough?",
+        "It's dry.",
+        "Dry, OK. So no sputum, no blood?",
         "No no no sputum or blood."
       ]
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "constipation": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's had a fever and and a cough and a runny nose",
-        "Alright, so the cough is it a productive cough or is it a dry cough?",
+        "I because he's had a fever and and a cough and a runny nose.",
+        "OK. Alright, so the cough is it a productive cough or is it a dry cough?",
         "It's dry."
       ]
-    },
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "delayed_growth_milestones": {
       "assessed": "Yes",
@@ -72,31 +99,19 @@
         "He has yeah, he's been meeting all of his milestones for that, for that."
       ]
     },
-    "diabetes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in his bowel movements?",
+        "any changes in his bowel movements?",
         "No diarrhea."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "And how about dizziness or fainting spells?",
+        "how about dizziness or fainting spells?",
         "No."
       ]
-    },
-    "drowsiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
@@ -105,109 +120,70 @@
         "No, his breathing has been been good."
       ]
     },
-    "dysuria": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And ah, are there any changes to his urine?",
-        "No, there there hasn't been any any changes to his hearing."
-      ]
-    },
     "eye_discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Any symptoms like redness, any discharge?",
+        "Any symptoms like redness, any discharge?",
         "Uh, no, yeah, uh, he hasn't had any any eye symptoms."
       ]
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Any symptoms like redness, any discharge?",
+        "Any symptoms like redness, any discharge?",
         "Uh, no, yeah, uh, he hasn't had any any eye symptoms."
       ]
     },
     "fainting_spells": {
       "assessed": "Yes",
       "example_quotes": [
-        "And how about dizziness or fainting spells?",
+        "how about dizziness or fainting spells?",
         "No."
       ]
-    },
-    "fatigue": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's had a fever",
+        "because he's had a fever and and a cough and a runny nose.",
         "The fever, did you measure it yourself?",
         "I did. Yeah it was 38 point, ah point 8."
       ]
     },
-    "headache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, how about hearing wise?",
+        "how about hearing wise?",
         "Uh, hearing has been been normal."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "So no sputum, no blood?",
+        "Dry, OK. So no sputum, no blood?",
         "No no no sputum or blood."
-      ]
-    },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "his grandfather had high blood pressure and like high cholesterol, but that's that's it."
       ]
     },
     "hospitalizaiton": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any hospitalizations or surgeries?",
+        "any hospitalizations or surgeries?",
         "Uh, no, he's been healthy."
       ]
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "limp": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Eating is that hasn't been eating as much, but he's got a poor appetite",
-        "OK, uhm how about changes to his appetite?",
+        "he hasn't he's just kind of mentioned it. He said it wasn't too bad. He's still been been eating. Eating is that hasn't been eating as much, but he's got a poor appetite, but he, so this sore throat isn't bugging him that much that much.",
+        "how about changes to his appetite?",
         "Yeah, his appetite's been a bit down, yeah."
       ]
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "malaise": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright and does he feel like he also has a stuffy nose or is it just a runny nose?",
+        "and the runny nose is it clear? Or does it have like a colour to it like yellow or green?",
+        "It's pretty, yeah it's more clear.",
+        "Clear, OK. Alright and does he feel like he also has a stuffy nose or is it just a runny nose?",
         "More just runny. Yeah he doesn't mention anything about feeling stuffy."
       ]
     },
@@ -232,23 +208,7 @@
         "Ah, nope, no ear pain or, or discharge."
       ]
     },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "passing_gas": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -266,12 +226,16 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's had a fever and and a cough and a runny nose",
-        "OK, and the runny nose is it clear? Or does it have like a colour to it like yellow or green?",
+        "because he's had a fever and and a cough and a runny nose.",
+        "and the runny nose is it clear? Or does it have like a colour to it like yellow or green?",
         "It's pretty, yeah it's more clear."
       ]
     },
     "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -282,52 +246,70 @@
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, how about a change in smell or taste?",
+        "how about a change in smell or taste?",
         "No."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "No. Sore throat?",
+        "Sore throat?",
         "Yeah, yeah, he's had a bit of a sore throat."
       ]
     },
-    "swelling": {
+    "speech_volume": {
       "assessed": "No",
       "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, how about a change in smell or taste?",
+        "how about a change in smell or taste?",
         "No."
       ]
-    },
-    "tightness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "tingling": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, OK. Numbness or tingling?",
+        "Numbness or tingling?",
         "No."
+      ]
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "it was to term and it was a C-section delivery but that went well and he was a normal weight."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, OK. Weight loss?",
+        "Weight loss?",
         "He he's been gaining weight, hasn't had any weight loss."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "And ah, are there any changes to his urine?",
+        "are there any changes to his urine?",
         "No, there there hasn't been any any changes to his hearing."
       ]
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
@@ -339,14 +321,7 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Natural vomiting?",
         "No, he hasn't had any nausea or vomiting."
-      ]
-    },
-    "weight_gain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "He he's been gaining weight, hasn't had any weight loss."
       ]
     },
     "wheez": {

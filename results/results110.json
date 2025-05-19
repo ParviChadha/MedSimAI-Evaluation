@@ -1,15 +1,19 @@
 {
   "medical_history_assessed": {
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "loss_of_consciousness_due_to_alcohol": {
       "assessed": "Yes",
       "example_quotes": [
         "Did you, were you, were you drunk and did you pass out?",
         "Yeah, I think so. My, my friends, uh yeah, that's what my friends were, were saying anyway."
       ]
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
@@ -23,9 +27,9 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "It's wet, I've been bringing up, uh, sputum that's uh, It's just, it leaves a really bad taste in my mouth when bringing it up.",
         "What color is the sputum?",
-        "It's kind of, uh, like, yellowish green, type color.",
-        "Yeah, it's been, it's been getting worse, uhm, and the phlegm, also smells really bad."
+        "It's kind of, uh, like, yellowish green, type color."
       ]
     },
     "constipation": {
@@ -38,10 +42,13 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, so I've had this cough that started within the last day",
-        "Can you tell me about the, the cough, how, is it dry cough or wet cough?",
-        "It's wet, I've been bringing up, uh, sputum"
+        "I've had this cough that started within the last day",
+        "Can you tell me about the, the cough, how, is it dry cough or wet cough?"
       ]
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -50,28 +57,19 @@
         "Uhm no, I haven't anything like that."
       ]
     },
-    "difficulty_sleeping": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
         "I've also been particularly short of breath as well.",
-        "And what about the difficulties breathing, when did that start?",
-        "Yeah, that started really within the last twelve hours or so."
+        "What about the difficulties breathing, when did that start?",
+        "Yeah, that started really within the last twelve hours or so.",
+        "When do you have difficult, like, is there anything that makes the, shortness of breath, worse?",
+        "Yeah, if I, uhm, when I was having a cigarette earlier today, it got a bit worse and when I went out to get the Mail today I, I just couldn't do it. I, I had to just sit down."
       ]
     },
-    "fainting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Did you, were you, were you drunk and did you pass out?",
-        "Yeah, I think so. My, my friends, uh yeah, that's what my friends were, were saying anyway."
-      ]
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
@@ -87,19 +85,15 @@
         "No, I haven't seen any blood."
       ]
     },
-    "hyperhidrosis": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "irritable": {
+    "loss_of_smell": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itchiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "motor_weakness": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -110,13 +104,6 @@
         "No."
       ]
     },
-    "nasal_discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any, uh, runny nose?",
-        "No, it's really, no."
-      ]
-    },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
@@ -124,9 +111,17 @@
         "Uh no, but, well I guess I have felt a little nauseous with the, uhm, bad taste in my mouth."
       ]
     },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "Have you had any pain in your chest?",
+        "Uh, no pain.",
+        "When you're breathing in or breathing out any pain at that time? or deep breathing?",
+        "No, I haven't had any pain.",
         "And any pain in your belly?",
         "No."
       ]
@@ -138,11 +133,11 @@
         "Uh, yeah, I do. I feel like my heart has been beating a little bit faster."
       ]
     },
-    "pregnancy": {
+    "paralysis_limb_or_face": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pressure_in_around_face": {
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -153,11 +148,11 @@
         "No, it's really, no."
       ]
     },
-    "sleep_changes": {
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
-    "smell_problem": {
+    "sexually_transmitted_infection": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -168,17 +163,15 @@
         "Uhm, no."
       ]
     },
-    "taste_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "It's wet, I've been bringing up, uh, sputum that's uh, It's just, it leaves a really bad taste in my mouth when bringing it up."
-      ]
-    },
-    "tingling": {
+    "stunning": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaccine_related_reaction": {
+    "urination": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -188,6 +181,10 @@
         "Nausea or vomiting?",
         "Uh no, but, well I guess I have felt a little nauseous with the, uhm, bad taste in my mouth."
       ]
+    },
+    "wheez": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

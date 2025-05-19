@@ -1,24 +1,35 @@
 {
-  "precision": 0.9285714285714286,
+  "precision": 0.8666666666666667,
   "recall": 0.9629629629629629,
-  "f1_score": 0.9454545454545454,
+  "f1_score": 0.912280701754386,
   "true_positives": 26,
-  "false_positives": 2,
+  "false_positives": 4,
   "false_negatives": 1,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Fainting",
+      "item": "Lethargic",
       "result_quotes": [
-        "Medical Student: Alright, so how about any dizziness or lightheadedness?",
-        "Patient: Nope."
+        "Yesterday I felt a bit drained. I just kind of like stayed in bed the whole day."
       ]
     },
     {
-      "item": "Phlegm",
+      "item": "Photophobia",
       "result_quotes": [
-        "It's a dry cough",
-        "Medical Student: OK, and so you had a cough as well, when did this start, and is it a dry or wet cough?"
+        "have you had any sensitivity to light or sound that, that's made the headache a lot worse?"
+      ]
+    },
+    {
+      "item": "Hyperacusis",
+      "result_quotes": [
+        "have you had any sensitivity to light or sound that, that's made the headache a lot worse?"
+      ]
+    },
+    {
+      "item": "Lightheadedness",
+      "result_quotes": [
+        "how about any dizziness or lightheadedness?",
+        "Nope."
       ]
     }
   ],

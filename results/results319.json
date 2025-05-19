@@ -8,7 +8,9 @@
       "assessed": "Yes",
       "example_quotes": [
         "Have you been sick at all recently with fever? Chills, like runny nose? Any cold like symptoms?",
-        "Any fevers or chills recently?"
+        "No, nothing like that?",
+        "Any fevers or chills recently?",
+        "I have a mild fever."
       ]
     },
     "constipation": {
@@ -18,7 +20,7 @@
         "No."
       ]
     },
-    "hyperacusis": {
+    "itching": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -26,30 +28,21 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "allergic_rhinitis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you been sick at all recently with fever? Chills, like runny nose? Any cold like symptoms?",
         "Do you have any allergies at all to medications or environmental allergies?",
         "I'm allergic to cats."
       ]
     },
-    "arthritis_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bad_smell": {
+    "brain_fog": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any any changes or do you get any chest pain at all?",
+        "Any changes or do you get any chest pain at all?",
         "Uhm, sometimes when I breathe in very deep."
       ]
     },
@@ -64,7 +57,8 @@
       "assessed": "Yes",
       "example_quotes": [
         "Are you bringing up any sputum at all with your cough?",
-        "OK and is is there any color to it or is it clear?",
+        "Yeah I do.",
+        "Is is there any color to it or is it clear?",
         "it's pink in color"
       ]
     },
@@ -75,19 +69,11 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Hi I am having difficulties breathing and I've just had this cough and it's, It's been two months now.",
-        "I've had a cough for a couple years now. I'm a smoker.",
-        "OK, and is is this cough different at all?",
+        "I've just had this cough and it's, It's been two months now.",
+        "I've had a cough for a couple years now.",
+        "is this cough different at all?",
         "It's just, it just doesn't go away."
       ]
-    },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_fluid_intake": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "delayed_growth_milestones": {
       "assessed": "No",
@@ -100,10 +86,6 @@
         "No."
       ]
     },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "dizziness": {
       "assessed": "Yes",
       "example_quotes": [
@@ -111,7 +93,7 @@
         "Oh no, no no."
       ]
     },
-    "drowsiness": {
+    "dysphagia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -119,18 +101,17 @@
       "assessed": "Yes",
       "example_quotes": [
         "Hi I am having difficulties breathing",
-        "OK, and when did the shortness of breath start?",
-        "About two months ago.",
-        "OK, and is it getting worse?",
-        "oh yeah",
+        "Two months of difficulty breathing",
         "Shortness of breath just kind of stays.",
-        "OK, and is there anything that helps with your shortness of breath, like taking a rest or any positions in particular?",
-        "Yeah, sometimes resting does help. I find that it's worse when I'm moving around, I'm huffing and puffing more."
+        "Is it worse at all when you lay down?",
+        "No.",
+        "Do you find yourself ever having to wake up at night and gasp gasping for air?",
+        "No.",
+        "Do you feel like tired throughout the day or increased fatigue?",
+        "Oh my God. So tired I can, you know, with the difficulty breathing I feel like all my energy spent just trying to, trying to get to the bathroom.",
+        "Is there like? How much do you walk or move around that you get short of breath? Or are you short of breath at rest as well?",
+        "I'm short of breath all the time. Yeah, it's just, It's it's worse when I am moving."
       ]
-    },
-    "ear_problem": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fainting_spells": {
       "assessed": "Yes",
@@ -142,21 +123,22 @@
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "And so are you having, do you feel like tired throughout the day or increased fatigue?",
+        "Do you feel like tired throughout the day or increased fatigue?",
         "Oh my God. So tired I can, you know, with the difficulty breathing I feel like all my energy spent just trying to, trying to get to the bathroom."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you been sick at all recently with fever?",
+        "Have you been sick at all recently with fever? Chills, like runny nose? Any cold like symptoms?",
+        "No.",
         "Any fevers or chills recently?",
-        "I have a mild fever. It just, it's been there.",
+        "I have a mild fever.",
         "When did you notice?",
-        "Uhm I was just checking my temperature about a month ago and noticed that I had a fever."
+        "I was just checking my temperature about a month ago and noticed that I had a fever."
       ]
     },
-    "foreign_body_intake": {
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -172,18 +154,16 @@
       "example_quotes": [
         "Have you coughed up any blood at all?",
         "Sometimes",
-        "Streaks of blood here and there."
+        "Streaks of blood here and there.",
+        "Little streaks of blood? OK, and have you ever coughed up any just without without it being in the sputum, just onto a tissue or anything like that? Just coughing up any blood?",
+        "No."
       ]
-    },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "infection": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you been sick at all recently with fever? Chills, like runny nose? Any cold like symptoms?",
-        "No.",
+        "Did they tell you you had pneumonia at all at any point?",
+        "I don't think so.",
         "Have you been in contact with anyone that's been sick?",
         "Oh no. I've been staying at home. I've been very careful these days."
       ]
@@ -192,7 +172,11 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "limp": {
+    "itching_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -200,12 +184,23 @@
       "assessed": "Yes",
       "example_quotes": [
         "Any kind of issues with your sleep or appetite?",
-        "Umm. Well, no, not really. It's just the difficulty breathing sometimes it's been hard to sleep."
+        "no, not really. It's just the difficulty breathing sometimes it's been hard to sleep.",
+        "And any kind of significant weight loss?",
+        "No.",
+        "No, then your weight's been fine?",
+        "It's been the same. Although I have been eating quite a lot more now with the pandemic and being home, you know that might be still in the same."
       ]
     },
-    "more_quiet": {
-      "assessed": "No",
-      "example_quotes": []
+    "lung_complications": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Oh, I have COPD.",
+        "And have you, when you in hospital, did they give you antibiotics or when you went home?",
+        "Yeah. Yeah they did. they did.",
+        "Did they tell you you had pneumonia at all at any point?",
+        "I don't think so.",
+        "My dad had COPD as well."
+      ]
     },
     "nausea": {
       "assessed": "Yes",
@@ -221,11 +216,11 @@
         "No."
       ]
     },
-    "paralysis_limb_or_face": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
+    "runny_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -239,14 +234,14 @@
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "No? And do you find yourself ever having to wake up at night and gasp gasping for air?",
-        "No, it hasn't gotten that far but seeing how bad it's been over the past two months and how fast is progressing, I won't be surprised if I can't even sleep."
+        "Do you find yourself ever having to wake up at night and gasp gasping for air?",
+        "No, it hasn't gotten that far but seeing how bad it's been over the past two months and how fast is progressing, I won't be surprised if I can't even sleep. It's been quite difficult"
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, are you getting night sweats at all?",
+        "are you getting night sweats at all?",
         "Sometimes."
       ]
     },
@@ -254,34 +249,57 @@
       "assessed": "Yes",
       "example_quotes": [
         "Any kind of issues with your sleep or appetite?",
-        "Umm. Well, no, not really. It's just the difficulty breathing sometimes it's been hard to sleep."
+        "no, not really. It's just the difficulty breathing sometimes it's been hard to sleep."
       ]
     },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "straining_and_chest_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
       "assessed": "No",
       "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "No? OK, any kind of swelling in your legs or hands that you've notice?",
+        "Any kind of swelling in your legs or hands that you've notice?",
         "No"
       ]
     },
-    "symptoms_stress": {
+    "symptom_speedup": {
       "assessed": "Yes",
       "example_quotes": [
-        "No. Well, sometimes I do. But it's not been severe. It's been there for the past uhm always when I'm stressed out I get these headaches. It's nothing new."
+        "It's been quite difficult I I don't even know why I waited so long. I should have come in earlier.",
+        "how fast is progressing"
       ]
+    },
+    "tearing_or_or_itchiness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "And are you getting any kind of significant weight loss?",
-        "No.",
-        "No, then your weight's been fine?",
-        "It's been the same. Although I have been eating quite a lot more now with the pandemic and being home, you know that might be still in the same."
+        "And any kind of significant weight loss?",
+        "No."
       ]
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
@@ -290,7 +308,7 @@
         "No."
       ]
     },
-    "widespread_pain": {
+    "wheez_inhale": {
       "assessed": "No",
       "example_quotes": []
     }

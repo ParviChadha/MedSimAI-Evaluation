@@ -1,36 +1,56 @@
 {
   "medical_history_assessed": {
-    "asthma": {
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "injury": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any bowel problems like diarrhea?",
-        "Patient: No, it's pretty regular."
+        "Any bowel problems like diarrhea?",
+        "No, it's pretty regular."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Alright, have you had any chest pain?",
-        "Patient: No, no chest pain."
+        "Alright, have you had any chest pain?",
+        "No, no chest pain."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've just been having this this cough over the last few days and I also notice that I'm getting like these headaches and chills as well at night.",
-        "Patient: No, I haven't I I just had like chills over the last two nights. Just had to put on like 3 three blankets just to get to sleep, but I haven't really checked my temperature."
+        "I've just been having this this cough over the last few days and I also notice that I'm getting like these headaches and chills as well at night.",
+        "I just had like chills over the last two nights. Just had to put on like 3 three blankets just to get to sleep, but I haven't really checked my temperature."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, so the cough started a few days ago. Have you been bringing up any phlegm?",
-        "Patient: No, not really. It's been pretty much like a dry cough. I did feel like a tickle in my throat before it started, but no, I'm not producing any phlegm."
+        "Have you been bringing up any phlegm?",
+        "No, not really. It's been pretty much like a dry cough."
       ]
+    },
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "confusion": {
       "assessed": "No",
@@ -43,101 +63,84 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've just been having this this cough over the last few days",
-        "Medical Student: OK, so um and are you coughing all throughout the day?",
-        "Patient: Pretty much, at least for the last few days. Just it's been pretty nonstop."
+        "I've just been having this this cough over the last few days",
+        "so the cough started a few days ago",
+        "and are you coughing all throughout the day?",
+        "Pretty much, at least for the last few days. Just it's been pretty nonstop."
       ]
     },
     "dehydration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "depression": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any bowel problems like diarrhea?",
-        "Patient: No, it's pretty regular."
+        "Any bowel problems like diarrhea?",
+        "No, it's pretty regular."
       ]
     },
-    "discharge": {
+    "difficulty_feeding": {
       "assessed": "No",
       "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any feeling, any episodes where you feel like you were gonna faint?",
-        "Patient: No."
+        "Any feeling, any episodes where you feel like you were gonna faint?",
+        "No."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Um, I did just just last night, actually. I thought that I had some shortness of breath as well.",
-        "Medical Student: Alright, and shortness of breath, were you at rest when that that happened or were you exercising or exerting yourself? What, how did the shortness of breath come on?",
-        "Patient: I was actually just laying down and I was sleeping and I just noticed that I couldn't really take deep breaths, so I kind of just got back up and it was just during last night."
+        "I did just just last night, actually. I thought that I had some shortness of breath as well.",
+        "Alright, and shortness of breath, were you at rest when that that happened or were you exercising or exerting yourself? What, how did the shortness of breath come on?",
+        "I was actually just laying down and I was sleeping and I just noticed that I couldn't really take deep breaths..."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and how has your energy been the last few days, have you have you had a lot of fatigue?",
-        "Patient: Yeah, I just feel completely just sick like what it feels like I have the flu or something and I just feel really tired too."
+        "how has your energy been the last few days, have you have you had a lot of fatigue?",
+        "Yeah, I just feel completely just sick like what it feels like I have the flu or something and I just feel really tired too.",
+        "just feeling tired."
       ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Ok, and yeah, you mentioned you had a fever but did have you checked your temperature?",
-        "Patient: No, I haven't I I just had like chills over the last two nights."
-      ]
-    },
-    "food_allergy": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've just been having this this cough over the last few days and I also notice that I'm getting like these headaches and chills as well at night."
+        "I've just been having this this cough over the last few days and I also notice that I'm getting like these headaches and chills as well at night."
       ]
     },
-    "high_blood_pressure": {
+    "hemoptysis": {
       "assessed": "No",
       "example_quotes": []
     },
     "hoarse_tone": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any changes to your voice, like it sounds more hoarse to you or?",
-        "Patient: No, not really."
+        "Any changes to your voice, like it sounds more hoarse to you or?",
+        "No, not really."
       ]
     },
-    "injury": {
+    "injury_in_chest": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching": {
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lymphadenitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
+    "lethargic": {
       "assessed": "No",
       "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Oh, OK, and any nausea or vomiting?",
-        "Patient: I did feel a bit nauseous over the last two days, but I haven't vomited."
+        "Oh, OK, and any nausea or vomiting?",
+        "I did feel a bit nauseous over the last two days, but I haven't vomited."
       ]
     },
     "numbness": {
@@ -147,131 +150,131 @@
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Alright, um, have you been having any abdominal pains?",
-        "Patient: No abdominal pains."
+        "Alright, have you had any chest pain?",
+        "No, no chest pain.",
+        "Alright, um, have you been having any abdominal pains?",
+        "No abdominal pains.",
+        "how about like muscle aches or or joint aches?",
+        "No, nothing like that, just feeling tired."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Feeling like your heart's racing?",
-        "Patient: No."
+        "Feeling like your heart's racing?",
+        "No."
       ]
     },
-    "photophobia": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rash": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, have you noticed any rashes anywhere?",
-        "Patient: No."
-      ]
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, have you had a runny nose or sore throat?",
-        "Patient: No, not really. I did have like a I don't know if it was soreness, but just like a tickle in my throat just a few days back before the coughing started."
+        "have you had a runny nose or sore throat?",
+        "No, not really."
       ]
     },
-    "self_harm_thoughts": {
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "and have you had a sexually transmitted infection before?",
+        "Nope."
+      ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, I have you had night sweats?",
-        "Patient: No, not really, just mostly chills."
+        "I have you had night sweats?",
+        "No, not really, just mostly chills."
       ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, yeah. And have you had any loss of smell or or loss of taste?",
-        "Patient: Yeah, now that I think of it, I I I I can't I can barely taste taste the food that I'm eating. I don't know about smell I I'm pretty stuff stuff stuffy right now so that might just be because of that."
+        "have you had any loss of smell or or loss of taste?",
+        "Yeah, now that I think of it, I I I can't I can barely taste taste the food that I'm eating. I don't know about smell I I'm pretty stuff stuff stuffy right now so that might just be because of that."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, have you had a runny nose or sore throat?",
-        "Patient: No, not really. I did have like a I don't know if it was soreness, but just like a tickle in my throat just a few days back before the coughing started."
+        "have you had a runny nose or sore throat?",
+        "No, not really. I did have like a I don't know if it was soreness, but just like a tickle in my throat just a few days back before the coughing started."
       ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you noticed any swelling in your feet or ankles?",
-        "Patient: No, nothing like that."
+        "Have you noticed any swelling in your feet or ankles?",
+        "No, nothing like that."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, yeah. And have you had any loss of smell or or loss of taste?",
-        "Patient: Yeah, now that I think of it, I I I I can't I can barely taste taste the food that I'm eating."
+        "have you had any loss of smell or or loss of taste?",
+        "Yeah, now that I think of it, I I I can't I can barely taste taste the food that I'm eating."
       ]
     },
-    "tearing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
+    "tonsilitis": {
       "assessed": "No",
       "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Alright, how about urinary problems?",
-        "Patient: No, nothing like that."
+        "Alright, how about urinary problems?",
+        "No, nothing like that."
       ]
     },
     "vaccine_related_reaction": {
       "assessed": "No",
       "example_quotes": []
     },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK and then have you had any changes to your vision?",
-        "Patient: No.",
-        "Medical Student: Like blurred vision or things like that?",
-        "Patient: No, nothing like that."
+        "OK and then have you had any changes to your vision?",
+        "No.",
+        "Like blurred vision or things like that?",
+        "No, nothing like that."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Oh, OK, and any nausea or vomiting?",
-        "Patient: I did feel a bit nauseous over the last two days, but I haven't vomited."
+        "Oh, OK, and any nausea or vomiting?",
+        "I did feel a bit nauseous over the last two days, but I haven't vomited."
       ]
-    },
-    "weight_changes": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Alright. Uh, and uh, have you been having any wheezing?",
-        "Patient: No, no wheezing."
+        "Alright. Uh, and uh, have you been having any wheezing?",
+        "No, no wheezing."
       ]
+    },
+    "wheez_inhale": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

@@ -1,38 +1,30 @@
 {
-  "precision": 0.8787878787878788,
+  "precision": 0.90625,
   "recall": 1.0,
-  "f1_score": 0.9354838709677419,
+  "f1_score": 0.9508196721311475,
   "true_positives": 29,
-  "false_positives": 4,
+  "false_positives": 3,
   "false_negatives": 0,
-  "total_items": 58,
+  "total_items": 42,
   "false_positive_details": [
     {
       "item": "Weight Gain",
       "result_quotes": [
-        "has your weight been stable over the last several months",
+        "so has your weight been stable over the last several months.",
         "Yeah, weight has been stable."
       ]
     },
     {
-      "item": "Redness",
+      "item": "Injury",
       "result_quotes": [
-        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
+        "did you get in a car accident maybe? Or any trauma to the chest or anything you can think of?"
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Sexually Transmitted Infection",
       "result_quotes": [
-        "in the past have you been diagnosed with any medical conditions?",
-        "No, I've been pretty healthy."
-      ]
-    },
-    {
-      "item": "Diabetes",
-      "result_quotes": [
-        "in the past have you been diagnosed with any medical conditions?",
-        "No, I've been pretty healthy."
+        "have you had a sexually transmitted infection before?",
+        "No, never."
       ]
     }
   ],

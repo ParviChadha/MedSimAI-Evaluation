@@ -1,31 +1,24 @@
 {
   "medical_history_assessed": {
-    "changes_inappetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms."
+        "Have you had any other symptoms, such as... Sneezing, any of those symptoms.",
+        "Um, no nothing like that."
       ]
     },
     "aches": {
       "assessed": "Yes",
       "example_quotes": [
         "And do you have any fatigue or muscle aches?",
-        "No muscle aches, but yeah, I have been fatigued last a couple of days."
+        "No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
       ]
     },
-    "behavior_changes": {
+    "changes_in_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "changes_in_memory": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -39,18 +32,29 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, is it a wet cough or dry cough?",
+        "It's been dry.",
         "I've been bringing up any blood or any mucus or anything like that.",
         "No, and I haven't had a cough before either. This is new."
       ]
     },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
+        "I I've been having uh, this fever, the last couple of days and I've had a cough as well...",
         "And your cough, when did that start?",
         "Cough started four days ago.",
         "OK, is it a wet cough or dry cough?",
         "It's been dry."
       ]
+    },
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -66,35 +70,24 @@
         "No."
       ]
     },
-    "difficulty_feeding": {
+    "dizziness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any difficulties breathing?",
-        "No."
-      ]
-    },
-    "ear_problem": {
+    "dysphagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "eye_pain": {
+    "dysuria": {
       "assessed": "No",
       "example_quotes": []
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Have you had any other symptoms, such as... red eyes?",
         "Um, no nothing like that."
       ]
-    },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
@@ -106,15 +99,12 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I've been having uh, this fever, the last couple of days",
-        "And when did the fevers start?",
+        "I I've been having uh, this fever, the last couple of days...",
+        "When did the fevers start?",
         "I think the fever started two days ago.",
+        "Did you measure your magic temperature?",
         "Yeah, it was 38 point .5 when I when I checked it."
       ]
-    },
-    "foreign_body_intake": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "grunting": {
       "assessed": "No",
@@ -129,6 +119,10 @@
         "It's pretty mild. Something pretty simple like it, so I've had headaches like like this before. It's not, it's not a big deal."
       ]
     },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
@@ -136,43 +130,20 @@
         "No, and I haven't had a cough before either. This is new."
       ]
     },
-    "injury_in_chest": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_sense": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your sense of smell?",
-        "No.",
-        "Changes in your sense of taste?",
-        "No."
-      ]
-    },
-    "loss_of_smell": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your sense of smell?",
-        "No."
-      ]
-    },
-    "mucus_discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've been bringing up any blood or any mucus or anything like that.",
-        "No, and I haven't had a cough before either. This is new."
-      ]
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses...",
         "Um, no nothing like that."
       ]
-    },
-    "nause": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
@@ -183,33 +154,44 @@
         "Nothing like that."
       ]
     },
-    "redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
-        "Um, no nothing like that."
-      ]
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running.",
-        "OK, and the runny nose, what kind of discharge, or what like what's coming out of your nose?",
+        "my nose is, keeps running.",
+        "and the runny nose, what kind of discharge, or what like what's coming out of your nose?",
         "It's pretty pretty watery and clear.",
-        "OK, alright, and when did that start?",
-        "Yeah, yeah, sorry that started about four days ago as well, so about the same time as the cough."
+        "and when did that start?",
+        "that started about four days ago as well, so about the same time as the cough."
+      ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you feel safe at home?",
+        "I do, yeah. We have a good a good relationship.",
+        "Do you feel safe at school?",
+        "Yes, I do. I enjoy school. It's been fun.",
+        "anything that we discuss will see confidential between you and me, unless there's something that you could be talk about that could harm you or harm anyone else."
       ]
     },
     "sinus_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses...",
         "Um, no nothing like that."
       ]
-    },
-    "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -221,13 +203,9 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Have you had any other symptoms, such as... sore throat?",
         "Um, no nothing like that."
       ]
-    },
-    "stunning": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
@@ -239,11 +217,27 @@
     "teary_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Have you had any other symptoms, such as... Watery, teary eyes?",
         "Um, no nothing like that."
       ]
     },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "urination": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
       "assessed": "No",
       "example_quotes": []
     }

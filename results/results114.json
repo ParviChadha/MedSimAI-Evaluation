@@ -1,5 +1,15 @@
 {
   "medical_history_assessed": {
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "injury": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "did you get in a car accident maybe? Or any trauma to the chest or anything you can think of?"
+      ]
+    },
     "lightheadedness": {
       "assessed": "Yes",
       "example_quotes": [
@@ -7,10 +17,60 @@
         "No."
       ]
     },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had a sexually transmitted infection before?",
+        "No, never."
+      ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "so has your weight been stable over the last several months.",
+        "Yeah, weight has been stable."
+      ]
+    },
     "aches": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any muscle aches, joint pains or skin changes?",
+        "have you had any muscle aches, joint pains or skin changes?",
         "No."
       ]
     },
@@ -21,16 +81,10 @@
         "No, nothing like that."
       ]
     },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I just started having this chest pain when I'm breathing",
-        "When did the chest pain start?",
-        "it feels like a stabbing pain"
+        "just randomly like 2 days ago I just started having this chest pain when I'm breathing"
       ]
     },
     "chills": {
@@ -47,10 +101,6 @@
         "It is dry."
       ]
     },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
@@ -61,27 +111,7 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have been having a little bit of a cough",
-        "it kind of started today, but it's nothing too significant"
-      ]
-    },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_focus": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "diabetes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "in the past have you been diagnosed with any medical conditions?",
-        "No, I've been pretty healthy."
+        "I have been having a little bit of a cough, but that's it, like, it kind of started today"
       ]
     },
     "diarrhoea": {
@@ -98,36 +128,18 @@
         "No."
       ]
     },
-    "drowsiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm finding that I'm very short of breath as well",
-        "you mentioned you had shortness of breath as well. When does this come on?",
-        "Since yesterday it's been pretty constant"
+        "I'm very short of breath as well",
+        "so I feel like I'm having to just breathe faster and more shallow."
       ]
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?"
       ]
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fatigue": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "feeling_tired": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
@@ -135,10 +147,6 @@
         "have you had any fevers, chills, or night sweats?",
         "Uhm, Nope."
       ]
-    },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
@@ -150,56 +158,27 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "with the cough, have you brought up any blood?",
+        "have you brought up any blood?",
         "No."
       ]
-    },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "in the past have you been diagnosed with any medical conditions?",
-        "No, I've been pretty healthy."
-      ]
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "How has your appetite been?",
-        "My appetite's been pretty good. It's like, definitely with the pain, I don't really feel like eating today, but I don't think it's changed."
+        "how has your appetite been?",
+        "My appetite's been pretty good."
       ]
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "malaise": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?"
       ]
     },
     "nasal_discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?"
       ]
     },
     "nausea": {
@@ -209,17 +188,10 @@
         "No."
       ]
     },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I just started having this chest pain when I'm breathing",
-        "it feels like a stabbing pain",
-        "And any abdominal pain?",
-        "No."
+        "just randomly like 2 days ago I just started having this chest pain when I'm breathing"
       ]
     },
     "palpitation": {
@@ -229,43 +201,12 @@
         "No, I don't think so."
       ]
     },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
-      ]
-    },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
         "have you had any fevers, chills, or night sweats?",
         "Uhm, Nope."
       ]
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -281,10 +222,6 @@
         "Uh, no."
       ]
     },
-    "swelling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
@@ -292,14 +229,10 @@
         "No."
       ]
     },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "has your weight been stable over the last several months",
+        "so has your weight been stable over the last several months.",
         "Yeah, weight has been stable."
       ]
     },
@@ -310,22 +243,11 @@
         "No."
       ]
     },
-    "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
         "Have you had any nausea or vomiting?",
         "No."
-      ]
-    },
-    "weight_gain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "has your weight been stable over the last several months",
-        "Yeah, weight has been stable."
       ]
     },
     "wheez": {

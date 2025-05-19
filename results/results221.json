@@ -1,6 +1,10 @@
 {
   "medical_history_assessed": {
-    "itching": {
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -11,41 +15,39 @@
         "No, it's been a dry cough."
       ]
     },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
         "Yeah, my chest is really hurting.",
         "It's hard to say the exact location, but more on the left side of my chest.",
-        "The pain is. It's stabbing, but also it feels really really tight in my chest."
+        "It's stabbing, but also it feels really really tight in my chest.",
+        "The pain is just in my chest.",
+        "It's getting worse, OK. And have you had any similar sort of pain in the past before?"
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been experiencing any kind of nausea or vomiting, or fever or chills?",
-        "I've been having chills the last few days."
+        "And have you been experiencing any kind of nausea or vomiting, or fever or chills?",
+        "No nausea or vomiting. I did take my temperature, no. Sorry I did not take my temperature, but I've been having chills the last few days."
       ]
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you noticed any cough, coughing at all?",
-        "I've had a cough since last week, but it feels much worse today."
+        "apart from the pain, are you having any other symptoms like a cough or shortness of breath and anything like that?",
+        "I've had a cough since last week, but it feels much worse today.",
+        "OK, and has there been any kind of green slimy mucus in your cough at all?",
+        "No, it's been a dry cough.",
+        "OK. And have you noticed at all coughing up blood?",
+        "No blood."
       ]
     },
-    "difficulty_talking": {
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diarrhoea": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -55,10 +57,6 @@
         "Have you been feeling any kind of dizziness at all?",
         "I have a little bit of yeah, um dizziness when I when the pain gets really bad."
       ]
-    },
-    "drowsiness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dysphagia": {
       "assessed": "No",
@@ -71,38 +69,30 @@
         "Yeah, with the pain, I'm having a hard time breathing."
       ]
     },
-    "ear_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you been feeling at all fatigued at all?",
+        "have you been feeling at all fatigued at all?",
         "I've been really tired with all of the traveling, so I think maybe I'm just jet lagged."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been experiencing any kind of nausea or vomiting, or fever or chills?",
-        "No. No nausea or vomiting. I did take my temperature, no. Sorry I did not take my temperature, but I've been having chills the last few days."
+        "And have you been experiencing any kind of nausea or vomiting, or fever or chills?",
+        "No nausea or vomiting. I did take my temperature, no. Sorry I did not take my temperature, but I've been having chills the last few days."
       ]
+    },
+    "food_allergy": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "and have you noticed at all coughing up blood?",
+        "OK. And have you noticed at all coughing up blood?",
         "No blood."
       ]
-    },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "injury_in_chest": {
       "assessed": "Yes",
@@ -111,30 +101,35 @@
         "Um no."
       ]
     },
-    "lymphadenitis": {
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "nasal_congestion": {
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lung_complications": {
       "assessed": "Yes",
       "example_quotes": [
-        "I had a runny nose and sore throat and a little bit of a headache but. I feel better from that now."
+        "apart from the pain, are you having any other symptoms like a cough or shortness of breath and anything like that?"
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been experiencing any kind of nausea or vomiting, or fever or chills?",
-        "No. No nausea or vomiting."
+        "And have you been experiencing any kind of nausea or vomiting, or fever or chills?",
+        "No nausea or vomiting."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and where where does it hurt exactly?",
+        "Yeah, my chest is really hurting.",
         "It's hard to say the exact location, but more on the left side of my chest.",
-        "OK, and is it like what kind of pain is it? Is it like a dull aching pain, or is it as sharp or stabbing pain?",
-        "The pain is. It's stabbing, but also it feels really really tight in my chest."
+        "It's stabbing, but also it feels really really tight in my chest.",
+        "The pain is just in my chest.",
+        "My left leg hurts really bad right now, but my entire body has been achy these past few days."
       ]
     },
     "palpitation": {
@@ -144,18 +139,19 @@
         "Yeah, since this morning it's felt like my heart is is racing."
       ]
     },
-    "paralysis_general": {
+    "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "do you take any birth control or multi vitamins?",
-        "Yeah, I take a daily birth control pill and also a daily multi vitamin."
-      ]
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "stuffy_nose": {
+    "redness_in_throat": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensitive_to_allergies": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -163,17 +159,19 @@
       "assessed": "Yes",
       "example_quotes": [
         "have you been having any kind of swelling at all in your feet or ankles?",
-        "Ah, my legs felt a bit swollen on the way back on the airplane, but they tend to swell so I didn't think anything of it."
+        "Ah, my legs felt a bit swollen on the way back on the airplane, but they tend to swell so I didn't think anything of it.",
+        "OK so they have swollen up before but you saw them swollen this time as well?",
+        "Yeah."
       ]
     },
     "tightness": {
       "assessed": "Yes",
       "example_quotes": [
-        "The pain is. It's stabbing, but also it feels really really tight in my chest.",
-        "I got this tightness and and stabbing pain on the left side of my chest."
+        "It's stabbing, but also it feels really really tight in my chest.",
+        "I was just trying to get dressed and all of a sudden I got this tightness and and stabbing pain on the left side of my chest."
       ]
     },
-    "tingling": {
+    "tonsilitis": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -187,9 +185,17 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been experiencing any kind of nausea or vomiting, or fever or chills?",
-        "No. No nausea or vomiting."
+        "And have you been experiencing any kind of nausea or vomiting, or fever or chills?",
+        "No nausea or vomiting."
       ]
+    },
+    "weight_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "widespread_pain": {
       "assessed": "Yes",

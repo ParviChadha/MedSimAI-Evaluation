@@ -1,19 +1,15 @@
 {
   "medical_history_assessed": {
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "anxious": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, did you feel anxious or sweaty or the feeling of impending doom at all?",
+        "Did you feel anxious or sweaty or the feeling of impending doom at all?",
         "Uh, no I can't say that I did."
       ]
-    },
-    "apnea_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bad_smell": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "No",
@@ -22,7 +18,7 @@
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, now when you're walking, you say you have some chest tightness, do you have any chest pain?",
+        "Now when you're walking, you say you have some chest tightness, do you have any chest pain?",
         "No, there's not there's not pain, it just feels like, when I breathe in it feels tight."
       ]
     },
@@ -30,7 +26,9 @@
       "assessed": "Yes",
       "example_quotes": [
         "So I understand you're having some chest tightness?",
-        "Yeah, it's uh, for the last maybe three days, um it's not really pain, not in any specific spot, it just feels a bit tight in my chest area when I breathe in especially"
+        "Yeah, it's uh, for the last maybe three days... it just feels a bit tight in my chest area when I breathe in especially, and it just gets a bit harder to breathe and it feels more tight...",
+        "OK, now when you're walking, you say you have some chest tightness, do you have any chest pain?",
+        "No, there's not there's not pain, it just feels like, when I breathe in it feels tight."
       ]
     },
     "chills": {
@@ -40,6 +38,10 @@
         "No."
       ]
     },
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
@@ -47,25 +49,29 @@
         "Uh no like I feel a little more hoarse and like there's maybe some more phlegm, like I'm clearing my throat more, but I haven't actually been coughing."
       ]
     },
-    "diabetes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_feeding": {
+    "delayed_growth_milestones": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nothing like that, OK, and did you feel yourself becoming out of breath at all?",
+        "Did you feel yourself becoming out of breath at all?",
         "Uh I I feel like it was kind of harder to get a whole breath, um so yeah, yeah, I guess."
       ]
+    },
+    "ear_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any fevers?",
+        "Any fevers?",
         "No, can't say that, no."
       ]
     },
@@ -78,41 +84,40 @@
     "impending_doom_anxiety": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, did you feel anxious or sweaty or the feeling of impending doom at all?",
+        "Did you feel anxious or sweaty or the feeling of impending doom at all?",
         "Uh, no I can't say that I did."
       ]
     },
-    "memory_loss": {
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
+    "pregnancy": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any night sweats, so waking up and the sheets are soaked?",
+        "Any night sweats, so waking up and the sheets are soaked?",
         "No."
       ]
     },
     "sweaty": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, did you feel anxious or sweaty or the feeling of impending doom at all?",
+        "Did you feel anxious or sweaty or the feeling of impending doom at all?",
         "Uh, no I can't say that I did."
       ]
     },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you noticed it's been getting better, worse or about staying the same?",
+        "I think it's staying the same."
+      ]
     },
-    "tonsilitis": {
+    "tingling": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -127,7 +132,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "wheez": {
+    "wheez_inhale": {
       "assessed": "No",
       "example_quotes": []
     }

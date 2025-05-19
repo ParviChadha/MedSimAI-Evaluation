@@ -1,9 +1,116 @@
 {
   "medical_history_assessed": {
+    "discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "what um, can you describe the discharge?",
+        "Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge."
+      ]
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "he's just had this cough and uh stuffy nose",
+        "has he been diagnosed with any medical conditions before?",
+        "So it sounds like um he's had a cough, um a runny nose, um some red eye red eyes that, with some tearing as well as a rash that that started and and a fever."
+      ]
+    },
+    "injury": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensation_of_chest": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensitive_to_allergies": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "are there any exposures that um could've possibly caused a skin rash like changes in like laundry detergent, or um like coming into contact with with anything on his skin or or taking um, or any anything that he was allergic to that he's been around?",
+        "and any allergies to medications or uh environment that you're aware of?",
+        "Any allergies to the dog or to pets at all?"
+      ]
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Has he mentioned anything about chest pain?",
+        "has he mentioned anything about chest pain?",
         "Uh no."
       ]
     },
@@ -17,28 +124,16 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Um and is the cough uh productive, is he bringing up sputum?",
+        "is the cough uh productive, is he bringing up sputum?",
         "No."
       ]
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "He's just had this cough",
-        "Yeah, so the cough started about a week ago"
+        "Patient: Hi, um my son has just been sick over the past uh couple of days. He's just had this cough",
+        "can you tell me a bit more about the cough, so it started um?"
       ]
-    },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "delayed_growth_milestones": {
       "assessed": "Yes",
@@ -49,13 +144,6 @@
         "Yeah."
       ]
     },
-    "diabetes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "were there any complications during the pregnancy like gestational diabetes",
-        "Uh I did have gestational diabetes."
-      ]
-    },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
@@ -63,93 +151,33 @@
         "Uh no."
       ]
     },
-    "dizziness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "drowsiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysuria": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Or or any urinary problems?",
-        "No, no."
-      ]
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, um has he had any fevers or chills?",
-        "Uh yeah, he does have a fever, um 39.5 I checked yesterday."
+        "has he had any fevers or chills?",
+        "Uh yeah, he does have a fever, um 39.5 I checked yesterday.",
+        "Um he has had a fever for the past few days. Um it was around, it was less, between 37.5 to 38.5, um but then yesterday was just uh it just kept going up"
       ]
-    },
-    "food_allergy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and any allergies to medications or uh environment that you're aware of?",
-        "Um no."
-      ]
-    },
-    "headache": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, um has he brought up um any blood?",
+        "has he brought up um any blood?",
         "No."
       ]
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "limp": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um how about any like changes to his appetite?",
-        "Um he's just been eating less since he's been feeling unwell."
+        "how about any like changes to his appetite?",
+        "Um he's just been eating less since he's been feeling unwell.",
+        "Yeah, but he still he still he manages to eat about um half the plate. So I guess it's not too bad."
       ]
-    },
-    "loss_of_consciousness_due_to_alcohol": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lymphadenitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "He's just had this cough and uh stuffy nose",
+        "he's just had this cough and uh stuffy nose",
         "he's sort of had a stuffy nose since around the same time"
       ]
     },
@@ -165,17 +193,9 @@
       "example_quotes": [
         "has he had any muscle aches or body pains?",
         "Uh, no, not really.",
-        "OK, and any abdominal pain?",
+        "any abdominal pain?",
         "Um nope."
       ]
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "physical_or_emotional_abuse_at_home": {
       "assessed": "Yes",
@@ -184,60 +204,46 @@
         "No."
       ]
     },
-    "pregnancy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "in terms of the pregnancy, uh were there any complications during the pregnancy like gestational diabetes or or um high blood pressure?",
-        "Uh I did have gestational diabetes."
-      ]
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "you told me about the the runny nose, what um, can you describe the discharge?",
-        "Yeah it's just uh it's just uh watery discharge."
+        "he's just had this cough and uh stuffy nose",
+        "he's sort of had a stuffy nose since around the same time",
+        "and you told me about the the runny nose"
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um has he been having any night sweats?",
+        "has he been having any night sweats?",
         "No."
       ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, um how about any changes to his sense of smell or or taste?",
+        "how about any changes to his sense of smell or or taste?",
         "Uhm he, uh, he hasn't really, uh yeah, he hasn't said anything about that."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um has he had a sore throat?",
+        "has he had a sore throat?",
         "Um no."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, um how about any changes to his sense of smell or or taste?",
+        "how about any changes to his sense of smell or or taste?",
         "Uhm he, uh, he hasn't really, uh yeah, he hasn't said anything about that."
       ]
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "trouble_breathing": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright and has he had any problems with breathing.",
+        "has he had any problems with breathing.",
         "No."
       ]
     },
@@ -247,10 +253,6 @@
         "Or or any urinary problems?",
         "No, no."
       ]
-    },
-    "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
@@ -262,14 +264,14 @@
     "weight_gain": {
       "assessed": "Yes",
       "example_quotes": [
-        "And um how has his weight been over the last several months, has he been gaining weight OK still?",
+        "how has his weight been over the last several months, has he been gaining weight OK still?",
         "Oh yeah."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, that's great. Um and has he had any any any wheezing?",
+        "has he had any any any wheezing?",
         "No."
       ]
     },

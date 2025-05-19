@@ -1,86 +1,24 @@
 {
-  "precision": 0.7380952380952381,
-  "recall": 1.0,
-  "f1_score": 0.8493150684931507,
-  "true_positives": 31,
-  "false_positives": 11,
-  "false_negatives": 0,
-  "total_items": 62,
+  "precision": 0.967741935483871,
+  "recall": 0.967741935483871,
+  "f1_score": 0.967741935483871,
+  "true_positives": 30,
+  "false_positives": 1,
+  "false_negatives": 1,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Decrease Interest In Activities",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "I do find it difficult getting out of the house recently just because of my shortness of breath",
-        "I actually worked at just the hospital I used to volunteer, but now I just can't get out of the house."
-      ]
-    },
-    {
-      "item": "Tired",
-      "result_quotes": [
-        "Um, how about uh like feeling you're like you're tired?",
-        "Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older."
-      ]
-    },
-    {
-      "item": "Diabetes",
-      "result_quotes": [
-        "my dad had quite a few problems. He had type 2 diabetes",
-        "my mom is alive, but she suffered from Type 2 diabetes"
-      ]
-    },
-    {
-      "item": "Bad Smell",
-      "result_quotes": [
-        "Any changes to your smell?",
-        "No."
-      ]
-    },
-    {
-      "item": "Loss Of Smell",
-      "result_quotes": [
-        "Any changes to your smell?",
-        "No."
-      ]
-    },
-    {
-      "item": "Mucous Building",
-      "result_quotes": [
-        "No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood."
-      ]
-    },
-    {
-      "item": "Allergic Rhinitis",
-      "result_quotes": [
-        "Runny nose or stuffy nose?",
-        "Nope, not that I know of."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood."
-      ]
-    },
-    {
-      "item": "Asthma",
-      "result_quotes": [
-        "OK. OK. Um, and do you feel like you're wheezy?",
-        "No, I haven't heard any kind of wheeziness at all."
-      ]
-    },
-    {
-      "item": "Redness",
-      "result_quotes": [
-        "OK, any rashes on your body?",
-        "Not that I know, no."
-      ]
-    },
-    {
-      "item": "Chest Tightness",
-      "result_quotes": [
-        "It's I think it's more so just I can't catch my breath and sometimes I just have trouble being able to take like a full breath."
+        "Medical Student: OK, good, um, any allergies?",
+        "Patient: No. No allergies."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

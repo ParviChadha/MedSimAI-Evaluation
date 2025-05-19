@@ -1,30 +1,137 @@
 {
   "medical_history_assessed": {
+    "changes_in_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any fevers or chills?",
+        "Have you had contact with anyone who might be sick?",
+        "Any medical conditions that run in your family, anything related to the lungs, or otherwise?"
+      ]
+    },
+    "injury": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, any alcohol?",
+        "No."
+      ]
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you feel safe at home?",
+        "I do, yes."
+      ]
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "are you so sexually active?",
+        "No, I'm not."
+      ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "speech_volume": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Were you born prematurely? Were there any complications at birth?",
+        "Uh, I did have a couple of ear infections when I was, when I was younger, but I haven't had any since."
+      ]
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "achy": {
       "assessed": "Yes",
       "example_quotes": [
         "Yeah, and I've been really like achy and and tired as well."
       ]
     },
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "No."
+        "any changes in your bowel movements"
       ]
-    },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, alright, and any chest pain?",
+        "any chest pain?",
         "No, I haven't had any chest pain."
       ]
     },
@@ -32,46 +139,28 @@
       "assessed": "Yes",
       "example_quotes": [
         "Have you had any fevers or chills?",
-        "Yeah, I've, I've felt feverish these last two days. No chills."
-      ]
-    },
-    "constipation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "No."
+        "No chills."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I've had a sore throat that's been really bugging me the past four days and I've had a cough as well.",
-        "Mhmm. Uhm, when did the cough start?",
-        "OK, and is it a dry cough or wet cough?",
+        "I've had a sore throat that's been really bugging me the past four days and I've had a cough as well.",
+        "when did the cough start?",
+        "Is it a dry cough or wet cough?",
         "It's dry."
-      ]
-    },
-    "diarrhoea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "No."
       ]
     },
     "discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears?"
+        "any discharge from your eyes"
       ]
-    },
-    "drowsiness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and the sore throat started four days ago, are you having any difficulties swallowing at all?",
+        "are you having any difficulties swallowing at all?",
         "Yeah, it's, it's, it's really sore."
       ]
     },
@@ -85,7 +174,7 @@
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears?"
+        "any discharge from your eyes, red eyes"
       ]
     },
     "fatigue_extended": {
@@ -98,123 +187,61 @@
       "assessed": "Yes",
       "example_quotes": [
         "Have you had any fevers or chills?",
-        "Yeah, I've, I've felt feverish these last two days. No chills.",
-        "I didn't check it last week, but I checked it yesterday and it was 38.2, I think."
+        "Yeah, I've, I've felt feverish these last two days.",
+        "I checked it yesterday and it was 38.2"
       ]
     },
     "fevers": {
       "assessed": "Yes",
       "example_quotes": [
         "Have you had any fevers or chills?",
-        "Yeah, I've, I've felt feverish these last two days. No chills."
+        "Yeah, I've, I've felt feverish these last two days."
       ]
     },
     "headaches": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears?",
-        "Any, uhm, I guess headache or any pressure in your cheeks or your head when you bend down or squat down?",
+        "any other symptoms like headaches",
+        "any headache or any pressure in your cheeks or your head when you bend down or squat down?",
         "No, I haven't felt anything like that."
       ]
-    },
-    "high_blood_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "itching_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, but that you mention that yeah, I I have had like some itchy eyes, that and a runny nose."
+        "I have had like some itchy eyes"
       ]
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "limp": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears?"
+        "any other symptoms like ... stuffy nose"
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "No."
+        "any belly pain, nausea or vomiting"
       ]
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears?",
-        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "No."
+        "any pain in your ears?"
       ]
-    },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, and is it a dry cough or wet cough?",
-        "It's dry."
-      ]
-    },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "pressure": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any, uhm, I guess headache or any pressure in your cheeks or your head when you bend down or squat down?",
-        "No, I haven't felt anything like that."
+        "any headache or any pressure in your cheeks or your head when you bend down or squat down?"
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears?",
-        "Yeah, but that you mention that yeah, I I have had like some itchy eyes, that and a runny nose."
+        "any other symptoms like ... runny nose",
+        "I have had like some itchy eyes, that and a runny nose."
       ]
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK. And are you so sexually active?",
-        "No, I'm not."
-      ]
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_problem": {
       "assessed": "Yes",
@@ -223,33 +250,21 @@
         "No, I haven't."
       ]
     },
-    "sneezing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I was sneezing quite a bit last week, but that has kind of ah, gone away now."
-      ]
-    },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I've had a sore throat that's been really bugging me the past four days and I've had a cough as well.",
-        "OK, and the sore throat started four days ago, are you having any difficulties swallowing at all?",
-        "Yeah, it's, it's, it's really sore."
+        "I've had a sore throat that's been really bugging me the past four days",
+        "the sore throat started four days ago",
+        "this sore throat has just gotten worse over the past four days or has been kind of the same or better?",
+        "it's gotten a little, it's gotten a little bit worse over the last few days."
       ]
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "strep_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had uhm, like tonsillitis a few times in the, in the past. The last time happened about about six months ago, I'm wondering if I have strep throat."
+        "I'm wondering if I have strep throat.",
+        "if necessary we could do a rapid strep test."
       ]
-    },
-    "swelling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "taste_problem": {
       "assessed": "Yes",
@@ -258,35 +273,17 @@
         "No."
       ]
     },
-    "trauma": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "No."
+        "any urinary symptoms?"
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "No."
+        "any belly pain, nausea or vomiting"
       ]
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weight_gain": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

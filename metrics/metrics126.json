@@ -1,11 +1,19 @@
 {
-  "precision": 1.0,
+  "precision": 0.9230769230769231,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9600000000000001,
   "true_positives": 12,
-  "false_positives": 0,
+  "false_positives": 1,
   "false_negatives": 0,
   "total_items": 24,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "Have you noticed it's been getting better, worse or about staying the same?",
+        "I think it's staying the same."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

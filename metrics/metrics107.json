@@ -1,37 +1,52 @@
 {
-  "precision": 0.8571428571428571,
+  "precision": 0.8,
   "recall": 1.0,
-  "f1_score": 0.923076923076923,
+  "f1_score": 0.888888888888889,
   "true_positives": 24,
-  "false_positives": 4,
+  "false_positives": 6,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Decreased Activity",
+      "item": "Flu",
       "result_quotes": [
-        "I've been more fatigued over the last couple months",
-        "And any like fatigue or increased tiredness.",
-        "Yeah, I've had some fatigue for sure."
+        "were you sick at all recently? Like with a cold or any flu like symptoms?",
+        "No, I I uh, I guess I've been fatigued over the last couple of months, but I haven't had any flu like symptoms."
       ]
     },
     {
-      "item": "Low Mood",
+      "item": "Straining And Chest Discomfort",
       "result_quotes": [
-        "I've been diagnosed with depression before as well",
-        "I used to take a a citalopram, but I stopped and and things have been been stable."
+        "do you have any pain when breathing in or out?",
+        "I do, yeah it it gets worse if I if I'm taking a deep breath in, and even more so after I after I cough, if I'm trying to catch my breath, I'll feel it then too."
       ]
     },
     {
-      "item": "Asthma",
+      "item": "Sensation Of Chest",
       "result_quotes": [
-        "Do you have any past medical diagnosis like high blood pressure, diabetes, asthma, anything like that?"
+        "And is the blood just in like sputum that you're bringing up? Or are you coughing up blood into the tissue, for example?",
+        "Blood is, I'm coughing that up into the tissue."
       ]
     },
     {
-      "item": "Pregnancy",
+      "item": "Allergic Rhinitis",
       "result_quotes": [
-        "I had two C sections for my second daughter and and 3rd."
+        "I do have uh, two cats at home, but I've had them for seven years now and I've been tested for allergies and and I'm clear there."
+      ]
+    },
+    {
+      "item": "Complications Actual Delivery",
+      "result_quotes": [
+        "I had two C sections for my second daughter and and 3rd.",
+        "any complications at all with those C sections?",
+        "No, everything was was good."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "do you remember 2 weeks ago prior to that, were there any factors that might have caused this, like for example, did you travel anywhere or see or was in contact with anyone that was sick?",
+        "Do you know if anyone at the homeless shelter or anywhere else around your surrounding has had tuberculosis?"
       ]
     }
   ],

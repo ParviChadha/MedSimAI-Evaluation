@@ -1,31 +1,23 @@
 {
-  "precision": 0.88,
+  "precision": 0.9166666666666666,
   "recall": 1.0,
-  "f1_score": 0.9361702127659575,
+  "f1_score": 0.9565217391304348,
   "true_positives": 22,
-  "false_positives": 3,
+  "false_positives": 2,
   "false_negatives": 0,
   "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Dysuria",
+      "item": "Pregnancy",
       "result_quotes": [
-        "Medical Student: OK. Have you been having any kind of urinary issues?",
-        "Patient: Ummm only at night time I seem to have to get up a lot to use the bathroom."
+        "I did have a c-section for the birth of my daughter and I was in the hospital for a few days for that."
       ]
     },
     {
-      "item": "Infectious Symptom",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "Medical Student: OK and have you had any recent infections at all?",
-        "Patient: No recent infections."
-      ]
-    },
-    {
-      "item": "Diabetes",
-      "result_quotes": [
-        "Medical Student: OK. And have you been diagnosed with any medical conditions at all, like high blood pressure, diabetes?",
-        "Patient: Um my blood pressure has been high and that was diagnosed in the last few years."
+        "have you been diagnosed with any medical conditions at all, like high blood pressure, diabetes?",
+        "Um my blood pressure has been high and that was diagnosed in the last few years."
       ]
     }
   ],

@@ -1,59 +1,38 @@
 {
-  "precision": 0.75,
+  "precision": 0.84,
   "recall": 1.0,
-  "f1_score": 0.8571428571428571,
+  "f1_score": 0.9130434782608696,
   "true_positives": 21,
-  "false_positives": 7,
+  "false_positives": 4,
   "false_negatives": 0,
   "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Lymphadenitis",
+      "item": "Physical Or Emotional Abuse At Home",
       "result_quotes": [
-        "OK, OK and have you noticed that your that your glands are swollen?",
-        "I think so, um maybe that's what's swollen in my neck."
+        "So everything at home is OK then? No ones, no ones sick at home you mentioned, right?",
+        "Yeah, no ones, no ones sick at home."
       ]
     },
     {
-      "item": "Discharge",
+      "item": "Sexually Transmitted Infection",
       "result_quotes": [
-        "OK. OK, is it bleeding or oozing anything like pus?",
-        "No, nothing like crusting or pus coming out of your eyes? Red eye, anything like that?"
+        "Are you sexually active?",
+        "No, I'm not."
+      ]
+    },
+    {
+      "item": "Tonsilitis",
+      "result_quotes": [
+        "Yeah like a strep throat kind of thing, or or more viral?",
+        "Yeah, I do remember getting antibiotics when I was younger."
       ]
     },
     {
       "item": "Itching",
       "result_quotes": [
-        "OK. OK, is it itchy?",
-        "I haven't noticed any anything in terms of itchiness or um discharge."
-      ]
-    },
-    {
-      "item": "Dysuria",
-      "result_quotes": [
-        "OK how about urine?",
-        "Um, that's been OK."
-      ]
-    },
-    {
-      "item": "Swelling",
-      "result_quotes": [
-        "OK, OK and have you noticed that your that your glands are swollen?",
-        "I think so, um maybe that's what's swollen in my neck."
-      ]
-    },
-    {
-      "item": "Infection",
-      "result_quotes": [
-        "Have you been around anyone who may have been sick recently?",
-        "Yeah, actually I think a few of my friends or there was somebody in my gym class knew that I sounded like they had similar symptoms."
-      ]
-    },
-    {
-      "item": "Malaise",
-      "result_quotes": [
-        "I just kind of haven't been feeling so great",
-        "Um, I mean I've had sore throats in the past, but not while feeling like this though."
+        "OK, and is it itchy?",
+        "Uh, no, it's not itchy."
       ]
     }
   ],

@@ -1,65 +1,37 @@
 {
-  "precision": 0.7777777777777778,
+  "precision": 0.875,
   "recall": 1.0,
-  "f1_score": 0.8750000000000001,
+  "f1_score": 0.9333333333333333,
   "true_positives": 28,
-  "false_positives": 8,
+  "false_positives": 4,
   "false_negatives": 0,
-  "total_items": 56,
+  "total_items": 51,
   "false_positive_details": [
     {
-      "item": "Symptom Speedup",
+      "item": "Weakness",
       "result_quotes": [
-        "OK, and then in terms of the timeline, is it getting worse? His cough?",
-        "I think it has been to be honest."
+        "He's been a little bit slowed down these last couple of days",
+        "he's winded. He's weak after them."
       ]
     },
     {
-      "item": "Decreased Oral Intake",
+      "item": "Pain",
       "result_quotes": [
-        "Yeah, he's not eating as much but still, we're trying to force food into him to keep his energy up."
+        "He says his throat hurts, but I don't think it's his chest."
       ]
     },
     {
-      "item": "Diabetes",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "OK, and then he otherwise healthy? Does he have any longstanding medical conditions?",
-        "No longstanding medical conditions."
+        "We will do a COVID swap to rule that out because some symptoms do seem to overlap with COVID and we want to make sure to rule that out.",
+        "So those were all the questions that I had. Do you have any questions for me?"
       ]
     },
     {
-      "item": "Loss Of Sense",
+      "item": "Pregnancy",
       "result_quotes": [
-        "And his taste, any reason to believe there are any changes there?",
-        "Well, we've been kind of spoiling him a bit, just giving him ice cream. His throat hurts a little bit and he seems to still like it, so it's hard to tell."
-      ]
-    },
-    {
-      "item": "Fainting",
-      "result_quotes": [
-        "OK, and then any dizziness or fainting spells that you've noticed?",
-        "No fainting or dizzy spells"
-      ]
-    },
-    {
-      "item": "Dyspnea",
-      "result_quotes": [
-        "OK, does he have any shortness of breath with his cough?",
-        "I feel like when he has the coughing fits, he's winded."
-      ]
-    },
-    {
-      "item": "Tachypnea",
-      "result_quotes": [
-        "OK, does he have any shortness of breath with his cough?",
-        "I feel like when he has the coughing fits, he's winded. He's weak after them."
-      ]
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "result_quotes": [
-        "OK, and is it a dry cough or does he bring up sputum?",
-        "Sputum like phlegm,no he doesn't bring anything up really, so dry."
+        "And then his mother's pregnancy with him? Any complications at that point?",
+        "Yeah he's a little pre term. 34 weeks I think."
       ]
     }
   ],

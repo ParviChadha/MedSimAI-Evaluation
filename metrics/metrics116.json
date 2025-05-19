@@ -1,37 +1,24 @@
 {
-  "precision": 0.7894736842105263,
+  "precision": 0.8823529411764706,
   "recall": 0.9375,
-  "f1_score": 0.8571428571428572,
+  "f1_score": 0.9090909090909091,
   "true_positives": 15,
-  "false_positives": 4,
+  "false_positives": 2,
   "false_negatives": 1,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Appetite",
+      "item": "Tingling",
       "result_quotes": [
-        "Medical Student: OK, and how about your appetite?",
-        "Patient: I feel like I've been eating OK. Regular diet."
+        "Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
+        "I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
       ]
     },
     {
-      "item": "Diet",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "Patient: I feel like I've been eating OK. Regular diet."
-      ]
-    },
-    {
-      "item": "Motor Weakness",
-      "result_quotes": [
-        "Medical Student: Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
-        "Patient: I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
-      ]
-    },
-    {
-      "item": "Tired",
-      "result_quotes": [
-        "Medical Student: OK, and have you been feeling more more tired, more fatigued at all recently?",
-        "Patient: Yeah, my energy has just been really down. I've been really fatigued."
+        "Any allergies at all to any environmental exposures?",
+        "I don't think so, no."
       ]
     }
   ],

@@ -1,38 +1,26 @@
 {
-  "precision": 0.8888888888888888,
+  "precision": 0.9411764705882353,
   "recall": 1.0,
-  "f1_score": 0.9411764705882353,
+  "f1_score": 0.9696969696969697,
   "true_positives": 32,
-  "false_positives": 4,
+  "false_positives": 2,
   "false_negatives": 0,
-  "total_items": 51,
+  "total_items": 64,
   "false_positive_details": [
     {
-      "item": "Aches",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "Medical Student: OK, um how about muscle aches or joint pains?",
-        "Patient: No, nothing like that."
+        "Uh, so I do have diabetes and high blood pressure.",
+        "OK, do you take any medications for those conditions?",
+        "Yeah, so for diabetes I'm taking this medication called uh like I think metformin and then for the blood pressure, uh I think it's, I forgot the name, I think it's something like um ramipril or something like that.",
+        "Yeah, I've been taking that regularly and my blood pressure, I've been measuring, it's been pretty steady, no changes."
       ]
     },
     {
-      "item": "Weight Gain",
+      "item": "Change In Taste",
       "result_quotes": [
-        "Medical Student: OK, any weight loss over the past few weeks?",
-        "Patient: Uh no, probably weight gain."
-      ]
-    },
-    {
-      "item": "Joint Pain",
-      "result_quotes": [
-        "Medical Student: OK, um how about muscle aches or joint pains?",
-        "Patient: No, nothing like that."
-      ]
-    },
-    {
-      "item": "Rash",
-      "result_quotes": [
-        "Medical Student: OK, any changes in your hair, nails, or skin, like rashes?",
-        "Patient: Uh, no, I haven't noticed anything like that."
+        "How about um loss of smell or taste?",
+        "No, I haven't had uh, I think my taste and smell are still pretty good. No, no issues there."
       ]
     }
   ],

@@ -1,126 +1,56 @@
 {
-  "precision": 0.6222222222222222,
+  "precision": 0.8235294117647058,
   "recall": 1.0,
-  "f1_score": 0.7671232876712328,
+  "f1_score": 0.9032258064516129,
   "true_positives": 28,
-  "false_positives": 17,
+  "false_positives": 6,
   "false_negatives": 0,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Feeling Tired",
-      "result_quotes": [
-        "Patient: Um, I feel a little bit more tired, but other than that, no."
-      ]
-    },
-    {
-      "item": "Chest Discomfort",
-      "result_quotes": [
-        "Medical Student: Have you had any chest pain?",
-        "Patient: Ah no, no chest. Well my chest feels, I guess sometimes I, it feels painful because I'm coughing so much, but nothing more than that."
-      ]
-    },
-    {
-      "item": "Sleep Changes",
-      "result_quotes": [
-        "Medical Student: OK. So a bit more tired. How has your sleep been?",
-        "Patient: My sleep has been, um, pretty normal. It's been, yeah, it's been the same. I guess it's the coughing that's making me tired."
-      ]
-    },
-    {
-      "item": "Diarrhoea",
-      "result_quotes": [
-        "Medical Student: Any bowel problems?",
-        "Patient: No."
-      ]
-    },
-    {
-      "item": "Odynophagia",
-      "result_quotes": [
-        "Medical Student: Or any difficulty swallowing?",
-        "Patient: Uhm, no."
-      ]
-    },
-    {
-      "item": "Coughing Fit",
-      "result_quotes": [
-        "Patient: I've always had a cough. Well, I guess I've had a cough for the past five years, but over the past three days it's gotten a lot worse."
-      ]
-    },
-    {
-      "item": "Flu Like Symptom",
-      "result_quotes": [
-        "Medical Student: OK. And have you been experiencing any other symptoms besides the cough, wheeze and shortness of breath?",
-        "Patient: Um, I feel a little bit more tired, but other than that, no."
-      ]
-    },
-    {
-      "item": "Ear Problem",
-      "result_quotes": [
-        "Medical Student: OK, have you had any ear pain or eye pain?",
-        "Patient: Ear pain, or eye pain? No."
-      ]
-    },
-    {
-      "item": "Muscle Aches",
-      "result_quotes": [
-        "Medical Student: OK, and then any joint pains or muscle aches?",
-        "Patient: No, nothing like that."
-      ]
-    },
-    {
-      "item": "Malaise",
-      "result_quotes": [
-        "Patient: Um, I feel a little bit more tired, but other than that, no."
-      ]
-    },
-    {
-      "item": "Decreased Oral Intake",
-      "result_quotes": [
-        "Medical Student: OK, have you had any changes in appetite?",
-        "Patient: Uh, no, I don't think so."
-      ]
-    },
-    {
-      "item": "Lightheadness",
-      "result_quotes": [
-        "Medical Student: And how about any episodes where you felt like you were going to faint or, yeah, pass out?",
-        "Patient: No."
-      ]
-    },
-    {
       "item": "Fainting",
       "result_quotes": [
-        "Medical Student: And how about any episodes where you felt like you were going to faint or, yeah, pass out?",
-        "Patient: No."
+        "And how about any episodes where you felt like you were going to faint or, yeah, pass out?",
+        "No."
       ]
     },
     {
-      "item": "Sleep Issue",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "Medical Student: OK. So a bit more tired. How has your sleep been?",
-        "Patient: My sleep has been, um, pretty normal. It's been, yeah, it's been the same. I guess it's the coughing that's making me tired."
+        "In terms of your past medical history, have you been diagnosed with any conditions before?",
+        "Uhm, I have high blood pressure and diabetes.",
+        "Are you on any medications for those?",
+        "Um, for the blood pressure, the high blood pressure, I'm on a beta blocker."
       ]
     },
     {
-      "item": "Nause",
+      "item": "Eye Discharge",
       "result_quotes": [
-        "Medical Student: And then, sorry, have you had any nausea or vomiting?",
-        "Patient: Uh, no."
-      ]
-    },
-    {
-      "item": "Body Ache",
-      "result_quotes": [
-        "Medical Student: OK, and then any joint pains or muscle aches?",
-        "Patient: No, nothing like that."
+        "Any discharge from either, either your ears or eyes?",
+        "No."
       ]
     },
     {
       "item": "Diabetes",
       "result_quotes": [
-        "Patient: Uhm, I have high blood pressure and diabetes.",
-        "Patient: Um, for the blood pressure, the high blood pressure, I'm on a beta blocker and then for my diabetes I'm on metformin."
+        "In terms of your past medical history, have you been diagnosed with any conditions before?",
+        "Uhm, I have high blood pressure and diabetes.",
+        "Are you on any medications for those?",
+        "For my diabetes I'm on metformin."
+      ]
+    },
+    {
+      "item": "Ear Problem",
+      "result_quotes": [
+        "Have you had any ear pain or eye pain?",
+        "Ear pain, or eye pain? No."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "And then have you had any urinary problems?",
+        "Um, no."
       ]
     }
   ],

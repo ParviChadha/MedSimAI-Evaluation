@@ -1,39 +1,33 @@
 {
-  "precision": 0.8620689655172413,
+  "precision": 0.8928571428571429,
   "recall": 1.0,
-  "f1_score": 0.9259259259259259,
+  "f1_score": 0.9433962264150945,
   "true_positives": 25,
-  "false_positives": 4,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Mucus Discharge",
+      "item": "Diabetes",
       "result_quotes": [
-        "Medical Student: No, OK. Is it a dry cough or do you bring up any phlegm?",
-        "Patient: No, it's a dry cough."
+        "Are you otherwise healthy? Do you have any longstanding medical conditions?",
+        "I have diabetes.",
+        "OK, how long have you had diabetes?",
+        "It's about, it's been uh seven years now."
       ]
     },
     {
-      "item": "Sinus Congestion",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "Medical Student: Do you ever feel like your nose is stuffy or runny?",
-        "Patient: No."
+        "my family Doc started me on uh ramipril about two weeks ago, he told me that uh now that I'm 50, I need to I need to be on this pill as well, so now I have to take 2 pills instead of one.",
+        "Yeah because I think it's it's good for my heart or something.",
+        "So you started that two weeks ago, OK."
       ]
     },
     {
-      "item": "Loss Of Smell",
+      "item": "Itching",
       "result_quotes": [
-        "Medical Student: Um loss of smell or taste?",
-        "Patient: No."
-      ]
-    },
-    {
-      "item": "Allergy Medication",
-      "result_quotes": [
-        "Medical Student: OK and um how about medications? Are you on any?",
-        "Patient: Uh yeah, I've been taking uh metformin for the past uh, for the past five years, when, five or six years.",
-        "Patient: Um and uh my family Doc started me on uh ramipril about two weeks ago"
+        "I just get this itchy sort of uh like scratchy sensation in my throat."
       ]
     }
   ],

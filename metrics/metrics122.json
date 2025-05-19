@@ -1,91 +1,37 @@
 {
-  "precision": 0.6666666666666666,
+  "precision": 0.8571428571428571,
   "recall": 1.0,
-  "f1_score": 0.8,
+  "f1_score": 0.923076923076923,
   "true_positives": 24,
-  "false_positives": 12,
+  "false_positives": 4,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Sleep Issue",
+      "item": "Symptom Speedup",
       "result_quotes": [
-        "Uh any changes in your sleep or appetite?",
-        "Um no, that that's been pretty good."
+        "it's been there all day and it's been getting uh worse as well.",
+        "over these past five days I've had um worsening shortness of breath and uh some discomfort in my chest um and this cough that that's been getting worse as well."
       ]
     },
     {
-      "item": "Sleep Issues",
+      "item": "Asthma",
       "result_quotes": [
-        "Uh any changes in your sleep or appetite?",
-        "Um no, that that's been pretty good."
+        "I did try uh, using an inhaler. I have um a couple up those and um usually that that helps, but hasn't really been able to um help much this time."
       ]
     },
     {
-      "item": "Malaise",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "Any increased fatigue?",
+        "do you have any allergies to any medications?",
+        "Um, no."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "Um any increased fatigue?",
         "I, I mean, I haven't been able to do as much with uh being so short of breath, but my energy has been been OK."
-      ]
-    },
-    {
-      "item": "Bowel Movement",
-      "result_quotes": [
-        "Any kind of diarrhea or constipation?",
-        "No."
-      ]
-    },
-    {
-      "item": "Weight Gain",
-      "result_quotes": [
-        "any kind of uh significant weight change recently?",
-        "Um I I I might have, uh no, I think my weight's been about the same."
-      ]
-    },
-    {
-      "item": "Chest Pressure",
-      "result_quotes": [
-        "is it pain at all or is it like sharp stabbing or pressure like pain?",
-        "Um no, nothing like that."
-      ]
-    },
-    {
-      "item": "Mucus Discharge",
-      "result_quotes": [
-        "I'm bringing up sputum uh pretty much um like every time I'm coughing up I'm bringing up some yellowish or greenish uh sputum."
-      ]
-    },
-    {
-      "item": "Difficulty Sleeping",
-      "result_quotes": [
-        "Uh any changes in your sleep or appetite?",
-        "Um no, that that's been pretty good."
-      ]
-    },
-    {
-      "item": "Sinus Congestion",
-      "result_quotes": [
-        "I feel congested I guess."
-      ]
-    },
-    {
-      "item": "Ecercise",
-      "result_quotes": [
-        "at rest you're fine but like when you exert yourself, it gets worse",
-        "it's any type of exertion, I just can't catch my breath"
-      ]
-    },
-    {
-      "item": "Decreased Physical Activity",
-      "result_quotes": [
-        "I haven't been able to do as much with uh being so short of breath"
-      ]
-    },
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "I've been diagnosed with COPD uh as well as uh, high blood pressure",
-        "I take an ACE inhibitor I think for blood pressure"
       ]
     }
   ],

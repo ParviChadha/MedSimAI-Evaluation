@@ -1,24 +1,35 @@
 {
-  "precision": 0.9411764705882353,
+  "precision": 0.9142857142857143,
   "recall": 1.0,
-  "f1_score": 0.9696969696969697,
+  "f1_score": 0.955223880597015,
   "true_positives": 32,
-  "false_positives": 2,
+  "false_positives": 3,
   "false_negatives": 0,
-  "total_items": 54,
+  "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Dysuria",
+      "item": "Loss Of Consciousness Due To Alcohol",
       "result_quotes": [
-        "Medical Student: OK. How about any urinary problems?",
-        "Patient: Um, no, nothing like that."
+        "I know people around your age might experiment with drugs or alcohol. Have you used anything like that or your friends?",
+        "Oh no, no, nothing like that."
       ]
     },
     {
-      "item": "Lymphadenitis",
+      "item": "Vaginal Discomfort",
       "result_quotes": [
-        "Medical Student: OK. And have you noticed any like neck swelling?",
-        "Patient: No."
+        "Oh sorry, I forgot to ask her are you currently sexually active?",
+        "No.",
+        "Have you been sexually active before?",
+        "Uh, no."
+      ]
+    },
+    {
+      "item": "Vaginal Discharge",
+      "result_quotes": [
+        "Oh sorry, I forgot to ask her are you currently sexually active?",
+        "No.",
+        "Have you been sexually active before?",
+        "Uh, no."
       ]
     }
   ],

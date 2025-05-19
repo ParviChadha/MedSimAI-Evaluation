@@ -7,26 +7,31 @@
         "No."
       ]
     },
-    "itching": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
+    "infectious_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "So currently right now you're 16. This is an age where sometimes your peers or yourself might experiment with alcohol, smoking or recreational drugs. Have you have you tried anything at all?",
-        "No, I haven't."
+        "Have you traveled at all recently or been in touch with anyone who's been sick?",
+        "Uh no, nothing like that.",
+        "Are any of them sick at all?",
+        "No everyones pretty healthy."
       ]
     },
-    "memory_loss": {
+    "injury": {
       "assessed": "No",
       "example_quotes": []
     },
-    "anxious": {
-      "assessed": "No",
-      "example_quotes": []
+    "phlegm": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And how would you describe the cough? Is it wet or dry?",
+        "It's dry."
+      ]
     },
-    "behavior_changes": {
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -47,9 +52,11 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm also like consistently coughing all the time",
-        "OK, and how would you describe the cough? Is it wet or dry?",
-        "It's dry."
+        "I have been very wheezy for the past week um and I'm also like consistently coughing all the time",
+        "And how would you describe the cough? Is it wet or dry?",
+        "It's dry.",
+        "you're getting some wheezing and you say you're also getting a cough.",
+        "Yes, that's right,"
       ]
     },
     "dizzyness": {
@@ -59,18 +66,10 @@
         "No."
       ]
     },
-    "drooling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
+        "are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
         "No, nothing like that."
       ]
     },
@@ -78,7 +77,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "ear_problem": {
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -96,14 +103,6 @@
         "No."
       ]
     },
-    "food_allergy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Not to medication I'm allergic to like strawberries and Kiwis.",
-        "OK, and what kind of reaction do you get?",
-        "I just break out in hives."
-      ]
-    },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
@@ -114,20 +113,21 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any blood in your sputum at all?",
+        "Any blood in your sputum at all?",
         "No, no blood."
       ]
     },
-    "hyperhidrosis": {
+    "high_blood_pressure": {
       "assessed": "No",
       "example_quotes": []
     },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And have you traveled at all recently or been in touch with anyone who's been sick?",
-        "Uhm, no, nothing like that."
-      ]
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
@@ -136,71 +136,71 @@
         "He no, nothing like that."
       ]
     },
-    "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any sensation of chest pain or racing of your heart?",
-        "No."
-      ]
-    },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any sensation of chest pain or racing of your heart?",
+        "Any? Sensation of chest pain or racing of your heart?",
         "No."
       ]
     },
-    "passing_gas": {
+    "pregnancy": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
+    "rigor": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
+        "are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
         "No, nothing like that."
+      ]
+    },
+    "self_hurt": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you feel safe or do you find yourself feeling unsafe or having been bullied at all?",
+        "Oh, I'm pretty, I feel pretty safe."
       ]
     },
     "sensation_of_chest": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any sensation of chest pain or racing of your heart?",
+        "Any? Sensation of chest pain or racing of your heart?",
         "No."
       ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your sense of smell or taste?",
+        "No, any changes in your sense of smell or taste?",
         "No"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
+        "are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
         "No, nothing like that."
       ]
     },
     "symptom_speedup": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. And so how how long have you been symptoms worsening for?",
+        "how long have you been symptoms worsening for?",
         "For the past week I would say."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your sense of smell or taste?",
+        "No, any changes in your sense of smell or taste?",
         "No"
       ]
     },
@@ -231,7 +231,7 @@
       "example_quotes": [
         "I have been very wheezy for the past week",
         "And how about the wheezing? Are you getting it like frequently every time you have an episode, or just sometimes?",
-        "I I'm getting an on and off, but basically every time I cough after that I'll be wheezy for a little bit."
+        "I'm getting an on and off, but basically every time I cough after that I'll be wheezy for a little bit."
       ]
     },
     "widespread_pain": {

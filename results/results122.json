@@ -1,45 +1,33 @@
 {
   "medical_history_assessed": {
-    "sinus_congestion": {
+    "asthma": {
       "assessed": "Yes",
       "example_quotes": [
-        "I feel congested I guess."
-      ]
-    },
-    "allergy_medication": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any kind of diarrhea or constipation?",
-        "No."
+        "I did try uh, using an inhaler. I have um a couple up those and um usually that that helps, but hasn't really been able to um help much this time."
       ]
     },
     "change_in_sleep": {
       "assessed": "Yes",
       "example_quotes": [
+        "Uh, do you wake up at night gasping, gasping for air?",
         "Uh any changes in your sleep or appetite?",
         "Um no, that that's been pretty good."
       ]
     },
+    "changes_in_memory": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "chest_discomfort": {
       "assessed": "Yes",
       "example_quotes": [
-        "some discomfort in my chest",
-        "I still have this like uh chest discomfort",
-        "It's it's kind of just always, it's just kind of been there over these past uh like four or five days."
+        "I've had um worsening shortness of breath and uh some discomfort in my chest",
+        "so while while sitting here, it doesn't feel um like my breathing is normal.",
+        "It's it's kind of just always, it's just kind of been there over these past uh like four or five days.",
+        "I kind of I just I feel congested I guess."
       ]
     },
     "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "is it pain at all or is it like sharp stabbing or pressure like pain?",
-        "Um no, nothing like that."
-      ]
-    },
-    "chest_pressure": {
       "assessed": "Yes",
       "example_quotes": [
         "is it pain at all or is it like sharp stabbing or pressure like pain?",
@@ -56,70 +44,73 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm bringing up sputum uh pretty much um like every time I'm coughing up I'm bringing up some yellowish or greenish uh sputum."
+        "I'm bringing up sputum uh pretty much um like every time I'm coughing up I'm bringing up some yellowish or greenish uh sputum.",
+        "how much sputum are you bringing up like uh every time you cough?",
+        "I I would say its um would would be the like just the little inside of my uh palm each time."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any kind of diarrhea or constipation?",
+        "any kind of diarrhea or constipation?",
         "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "this cough that that's been getting worse as well",
-        "I've had um a cough and uh in the in the in the past"
+        "over this past five days I've had um worsening shortness of breath and uh some discomfort in my chest um and this cough that that's been getting worse",
+        "I've had um a cough and uh in the in the in the past, and and and shortness of breath in the past."
       ]
     },
-    "decreased_physical_activity": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I haven't been able to do as much with uh being so short of breath"
-      ]
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diabetes": {
       "assessed": "No",
       "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any kind of diarrhea or constipation?",
+        "any kind of diarrhea or constipation?",
         "No."
       ]
     },
-    "difficulty_sleeping": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh any changes in your sleep or appetite?",
-        "Um no, that that's been pretty good."
-      ]
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "worsening shortness of breath",
-        "I just can't catch my breath even with um some small things around the apartment",
-        "it's any type of exertion, I just can't catch my breath"
+        "over this past five days I've had um worsening shortness of breath",
+        "But yeah, just over these past five days it's been there um at all, like it's been there all day and it's been getting uh worse as well.",
+        "and then what about the shortness of breath, is it uh are you having trouble taking deep breaths or do you find yourself breathing faster?",
+        "It's um yeah, I'm just really feeling like I just can't, uh catch my breath even with um some small things around the apartment  that normally I can do, it's any type of exertion, I just can't catch my breath. I'm OK right now just sitting here though.",
+        "OK yeah, so at rest you're fine but like when you exert yourself, it gets worse."
       ]
     },
-    "ecercise": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "at rest you're fine but like when you exert yourself, it gets worse",
-        "it's any type of exertion, I just can't catch my breath"
-      ]
-    },
-    "facial_pressure": {
+    "fainting": {
       "assessed": "No",
       "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any increased fatigue?",
+        "Um any increased fatigue?",
+        "I, I mean, I haven't been able to do as much with uh being so short of breath, but my energy has been been OK."
+      ]
+    },
+    "feeling_tired": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um any increased fatigue?",
         "I, I mean, I haven't been able to do as much with uh being so short of breath, but my energy has been been OK."
       ]
     },
@@ -130,7 +121,7 @@
         "Yeah, uh now that you mentioned, I do think I I feel a bit feverish."
       ]
     },
-    "food_allergy": {
+    "foreign_body_intake": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -148,18 +139,11 @@
         "No, no, no blood."
       ]
     },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've been diagnosed with COPD uh as well as uh, high blood pressure",
-        "I take an ACE inhibitor I think for blood pressure"
-      ]
-    },
-    "impending_doom_anxiety": {
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "irritable": {
+    "lethargic": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -170,22 +154,13 @@
         "Um no, that that's been pretty good."
       ]
     },
-    "malaise": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any increased fatigue?",
-        "I, I mean, I haven't been able to do as much with uh being so short of breath, but my energy has been been OK."
-      ]
-    },
-    "more_quiet": {
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "mucus_discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I'm bringing up sputum uh pretty much um like every time I'm coughing up I'm bringing up some yellowish or greenish uh sputum."
-      ]
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
@@ -201,7 +176,15 @@
         "No, I haven't felt anything like that."
       ]
     },
-    "paralysis_general": {
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -212,14 +195,21 @@
         "No, I don't."
       ]
     },
-    "self_hurt": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "sensitive_to_allergies": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "do you have any allergies to any medications?",
+        "Um, no."
+      ]
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you wake up at night gasping, gasping for air?",
+        "Uh, do you wake up at night gasping, gasping for air?",
         "No, I haven't done that before."
       ]
     },
@@ -230,24 +220,6 @@
         "Uh no, I haven't had any night sweats."
       ]
     },
-    "sleep_issue": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh any changes in your sleep or appetite?",
-        "Um no, that that's been pretty good."
-      ]
-    },
-    "sleep_issues": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh any changes in your sleep or appetite?",
-        "Um no, that that's been pretty good."
-      ]
-    },
-    "sore": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
@@ -255,7 +227,18 @@
         "No, I don't."
       ]
     },
-    "taste_loss": {
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "it's been there all day and it's been getting uh worse as well.",
+        "over these past five days I've had um worsening shortness of breath and uh some discomfort in my chest um and this cough that that's been getting worse as well."
+      ]
+    },
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -272,6 +255,14 @@
         "Any issues with urination?",
         "No, uh no problems there."
       ]
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
@@ -290,13 +281,6 @@
     "watery_eyes": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "weight_gain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any kind of uh significant weight change recently?",
-        "Um I I I might have, uh no, I think my weight's been about the same."
-      ]
     }
   }
 }

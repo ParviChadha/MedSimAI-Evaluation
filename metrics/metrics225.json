@@ -1,31 +1,17 @@
 {
-  "precision": 0.8888888888888888,
+  "precision": 0.96,
   "recall": 0.96,
-  "f1_score": 0.923076923076923,
+  "f1_score": 0.96,
   "true_positives": 24,
-  "false_positives": 3,
+  "false_positives": 1,
   "false_negatives": 1,
-  "total_items": 45,
+  "total_items": 44,
   "false_positive_details": [
-    {
-      "item": "Rash",
-      "result_quotes": [
-        "Medical Student: Okay. Um, any rashes?",
-        "Patient: No, I haven't noticed any rashes."
-      ]
-    },
     {
       "item": "Tingling",
       "result_quotes": [
-        "Medical Student: Uh, numbness or tingling?",
-        "Patient: No."
-      ]
-    },
-    {
-      "item": "Numbness",
-      "result_quotes": [
-        "Medical Student: Uh, numbness or tingling?",
-        "Patient: No."
+        "Uh, numbness or tingling?",
+        "No."
       ]
     }
   ],

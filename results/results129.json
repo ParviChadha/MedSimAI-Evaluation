@@ -1,64 +1,22 @@
 {
   "medical_history_assessed": {
-    "anxiety": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "brain_fog": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dehydration": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "depression": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "diabetes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about things like diabetes or or high blood pressure?",
-        "Uhm, I don't think so."
-      ]
-    },
-    "drooling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about things like diabetes or or high blood pressure?",
-        "Uhm, I don't think so."
-      ]
-    },
-    "injury": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
+    "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -66,34 +24,22 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any eye redness or or any eye pain?",
-        "No."
+        "can you tell me about where you're living currently and who you're living with?",
+        "Uhm, I live by myself right now. I live in an apartment downtown."
       ]
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
     "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "swelling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tearing": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -105,21 +51,29 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "weight_gain": {
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheez_inhale": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any chest pain?",
+        "OK, and have you had any chest pain?",
         "No."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any fevers or chills?",
+        "OK, have you had any fevers or chills?",
         "No."
       ]
     },
@@ -154,9 +108,8 @@
     "discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, it's a. It's mostly clear, it doesn't, it doesn't have a color to it.",
-        "OK, so no yellow, green or or red to indicate any blood?",
-        "No."
+        "could you describe the discharge?",
+        "Yeah, it's a. It's mostly clear, it doesn't, it doesn't have a color to it."
       ]
     },
     "dizzyness": {
@@ -169,6 +122,8 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
+        "have you had difficulties breathing?",
+        "Um a little bit, I just need to, and is mostly at night. I just need to shift to one side or the other to like unblock my airways.",
         "Have you had any shortness of breath",
         "Uh, no."
       ]
@@ -183,28 +138,28 @@
     "facial_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I see OK and have you been having any pain on your face? Like I like kind of over your cheeks or over your forehead?",
+        "have you been having any pain on your face? Like I like kind of over your cheeks or over your forehead?",
         "No."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and how has your energy been? Have you had fatigue or malaise?",
+        "how has your energy been? Have you had fatigue or malaise?",
         "No, nothing like that."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any fevers or chills?",
+        "OK, have you had any fevers or chills?",
         "No."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, how about any headaches?",
+        "how about any headaches?",
         "No headaches."
       ]
     },
@@ -218,7 +173,7 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. And have you coughed up any blood?",
+        "have you coughed up any blood?",
         "No."
       ]
     },
@@ -239,7 +194,7 @@
     "malaise": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and how has your energy been? Have you had fatigue or malaise?",
+        "how has your energy been? Have you had fatigue or malaise?",
         "No, nothing like that."
       ]
     },
@@ -253,7 +208,7 @@
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Hi I'm, I have been having this nasal obstruction and discharge for the past week and it doesn't seem to be going away and it's bothering me so I thought I would get it checked out by you."
+        "I have been having this nasal obstruction and discharge for the past week"
       ]
     },
     "nausea": {
@@ -266,7 +221,9 @@
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any muscle aches or joint pains?",
+        "have you been having any pain on your face? Like I like kind of over your cheeks or over your forehead?",
+        "No.",
+        "Have you had any abdominal pain?",
         "No."
       ]
     },
@@ -280,13 +237,13 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Hi I'm, I have been having this nasal obstruction and discharge for the past week and it doesn't seem to be going away and it's bothering me so I thought I would get it checked out by you."
+        "I have been having this nasal obstruction and discharge for the past week"
       ]
     },
     "sexually_transmitted_infection": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Uhm, and any concern for a sexually transmitted infection?",
+        "any concern for a sexually transmitted infection?",
         "No."
       ]
     },
@@ -300,28 +257,28 @@
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "All right, have you had any changes or to your sense of smell or any loss of smell?",
+        "have you had any changes or to your sense of smell or any loss of smell?",
         "Uhm no, maybe a little bit, but no, not really. I can still eat. I can still smell like candles and things like that so, maybe go with no."
       ]
     },
     "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Uhm, and have you had any sneezing?",
+        "have you had any sneezing?",
         "No."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had a sore throat?",
+        "Have you had a sore throat?",
         "No."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Have you had any changes to your sense of taste?",
+        "Have you had any changes to your sense of taste?",
         "No."
       ]
     },

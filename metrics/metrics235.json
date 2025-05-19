@@ -1,37 +1,39 @@
 {
-  "precision": 0.8846153846153846,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.9199999999999999,
-  "true_positives": 23,
-  "false_positives": 3,
-  "false_negatives": 1,
-  "total_items": 48,
+  "precision": 0.8571428571428571,
+  "recall": 1.0,
+  "f1_score": 0.923076923076923,
+  "true_positives": 24,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Chills",
+      "item": "Injury",
       "result_quotes": [
-        "This you mentioned, no fevers, no chills."
+        "do, did anything trigger this a week back? Any trauma to the chest area? Anything like that?"
       ]
     },
     {
-      "item": "Trauma",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "OK um do, did anything trigger this a week back? Any trauma to the chest area? Anything like that?",
-        "Uh, No, no one else has been sick."
+        "I had a cough about a week ago so I thought it might be a chest infection, but I'm not feverish, so I'm not sure.",
+        "OK, you mentioned, no fevers, no chills. And no night sweats too I guess?",
+        "Yeah, no night sweats."
       ]
     },
     {
-      "item": "Fainting",
+      "item": "Pregnancy",
       "result_quotes": [
-        "OK, how about dizziness or fainting spells?",
-        "Um, No fainting spells."
+        "I guess I did have a hysterectomy a few weeks ago."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "any allergies?",
+        "Um no allergies to medications ."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sore",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

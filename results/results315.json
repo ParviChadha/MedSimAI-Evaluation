@@ -1,13 +1,10 @@
 {
   "medical_history_assessed": {
-    "changes_in_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, little fatigue and and how has your appetite been?",
-        "Appetite's been OK, I'm still eating."
-      ]
-    },
     "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "injury": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -19,16 +16,13 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "stiffness": {
+    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "throat_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, have you had a sore throat?",
-        "Uhm, no sore throat."
-      ]
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "ache": {
       "assessed": "Yes",
@@ -37,28 +31,22 @@
         "Oh, no."
       ]
     },
-    "aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And how about any muscle aches or or body pains?",
-        "Oh, no."
-      ]
-    },
-    "brain_fog": {
+    "allergic_rhinitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "changes_in_his_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, little fatigue and and how has your appetite been?",
-        "Appetite's been OK, I'm still eating."
-      ]
+    "bad_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behavior_changes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and have you had any chest pain?",
+        "and have you had any chest pain?",
         "No."
       ]
     },
@@ -69,35 +57,37 @@
         "Uh, no."
       ]
     },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
         "Have you had a cough?",
         "No.",
-        "Ah no cough like now, uhm, I I did have a slight cough last week."
+        "Ah no cough like now, uhm, I I did have a slight cough last week.",
+        "Was it dry or did you were bringing up any sputum or phlegm?",
+        "No, it's pretty dry."
       ]
-    },
-    "coughing_fit": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore."
+        "Uhm, I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore.",
+        "OK, when did you have diarrhea?",
+        "Last week as well."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore."
+        "Uhm, I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore.",
+        "OK, when did you have diarrhea?",
+        "Last week as well."
       ]
     },
-    "difficulty_sleeping": {
+    "difficulty_talking": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -105,12 +95,10 @@
       "assessed": "Yes",
       "example_quotes": [
         "OK, and ah, with the runny nose, could you describe the discharge?",
-        "Yeah, it's, it's pretty clear."
+        "Yeah, it's, it's pretty clear.",
+        "have you had any discharge from your eyes or eye redness or any eye pain?",
+        "No."
       ]
-    },
-    "discomfort": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
@@ -119,6 +107,10 @@
         "No, nothing like that."
       ]
     },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
@@ -126,17 +118,10 @@
         "No."
       ]
     },
-    "eye_discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
-        "No."
-      ]
-    },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
+        "have you had any discharge from your eyes or eye redness or any eye pain?",
         "No."
       ]
     },
@@ -161,44 +146,56 @@
         "Uh, no."
       ]
     },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
         "OK. Have you had any headaches?",
-        "Ah, just a slight headache."
+        "Ah, just a slight headache.",
+        "OK, I mean, have you experienced headaches like this in the past?",
+        "Yeah, usually when I get sick, I get get a headache.",
+        "OK. OK, can you describe where you feel the headache the most and is it pulsating or kind of always there?",
+        "It's kind of always there and it's just on the sides of my head."
       ]
     },
-    "hyperhidrosis": {
+    "hemoptysis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury_in_chest": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadness": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, little fatigue and and how has your appetite been?",
+        "and how has your appetite been?",
         "Appetite's been OK, I'm still eating."
       ]
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "malaise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and have you had any nasal obstruction or feeling as though like one of your nostrils is plugged when you're breathing in?",
+        "have you had any nasal obstruction or feeling as though like one of your nostrils is plugged when you're breathing in?",
         "Uh yeah, I have that feeling."
       ]
     },
@@ -212,22 +209,21 @@
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had any pain on your face?",
-        "Pain? Ah no, nothing like that."
+        "have you had any pain on your face?",
+        "Pain? Ah no, nothing like that.",
+        "And how about any muscle aches or or body pains?",
+        "Oh, no.",
+        "I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had any heart palpitations or feeling like your heart's racing?",
+        "have you had any heart palpitations or feeling like your heart's racing?",
         "No."
       ]
     },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -241,8 +237,12 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Hi there, umm, so I've had this runny nose for the past five days and it doesn't seem to be going away so I thought I should get some help."
+        "I've had this runny nose for the past five days and it doesn't seem to be going away so I thought I should get some help."
       ]
+    },
+    "sensation_of_chest": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
@@ -251,37 +251,35 @@
         "Uh, no, nothing like that."
       ]
     },
-    "sleep_issue": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, how about a change to your sense of smell? Like loss of smell?",
+        "how about a change to your sense of smell? Like loss of smell?",
         "No, I haven't had that."
       ]
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, have you had a sore throat?",
-        "Uhm, no sore throat."
+        "have you had a sore throat?",
+        "Uhm, no sore throat.",
+        "do you have a sore throat?",
+        "No."
       ]
     },
     "swelling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing": {
+    "symptom_speedup": {
       "assessed": "No",
       "example_quotes": []
     },
-    "teary_eyes": {
+    "tightness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -289,23 +287,23 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I see, OK. And have you had any weight loss recently?",
+        "And have you had any weight loss recently?",
         "No."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had any changes to your urinary habits? Like any pain or frequency?",
+        "have you had any changes to your urinary habits? Like any pain or frequency?",
         "No."
       ]
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
@@ -317,9 +315,13 @@
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and have you had any wheezing or shortness of breath?",
+        "and have you had any wheezing or shortness of breath?",
         "No."
       ]
+    },
+    "wheez_inhale": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

@@ -1,45 +1,37 @@
 {
-  "precision": 0.868421052631579,
+  "precision": 0.8918918918918919,
   "recall": 1.0,
-  "f1_score": 0.9295774647887324,
+  "f1_score": 0.9428571428571428,
   "true_positives": 33,
-  "false_positives": 5,
+  "false_positives": 4,
   "false_negatives": 0,
-  "total_items": 64,
+  "total_items": 66,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
+      "item": "Feeling Tired",
       "result_quotes": [
-        "Medical Student: OK. Do you have any allergies?",
-        "Patient: Um, sometimes in the fall like I get a bit sniffly and, but other than that, I don't know of any allergies to any foods or medications."
-      ]
-    },
-    {
-      "item": "Vaccine Related Reaction",
-      "result_quotes": [
-        "Medical Student: OK. And how about immunizations? Are you up to date?",
-        "Patient: Yeah, they're all up to date."
-      ]
-    },
-    {
-      "item": "Eye Redness",
-      "result_quotes": [
-        "Medical Student: Any pain or discharge in the eyes or ears?",
-        "Patient: No."
-      ]
-    },
-    {
-      "item": "Redness In Throat",
-      "result_quotes": [
-        "Medical Student: No, ok. Any I do have a sore throat?",
-        "Patient: No."
+        "I have been a bit tired in the last few days. The fevers at night and morning. Just feeling a little bit crummy, just not really energetic, energetic to do anything."
       ]
     },
     {
       "item": "Redness",
       "result_quotes": [
-        "Medical Student: OK. Any changes to your hair, nails, or skin, like rashes?",
-        "Patient: No, I haven't noticed anything like that."
+        "Any changes to your hair, nails, or skin, like rashes?",
+        "No, I haven't noticed anything like that."
+      ]
+    },
+    {
+      "item": "Changes In His Appetite",
+      "result_quotes": [
+        "Any changes to your appetite?",
+        "just maybe in like a little bit with the loss of smell and taste, the food is not really the same in the last day, last few days?"
+      ]
+    },
+    {
+      "item": "Eye Pain",
+      "result_quotes": [
+        "Any pain or discharge in the eyes or ears?",
+        "No."
       ]
     }
   ],
