@@ -1,0 +1,950 @@
+{
+  "325": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "runny nose",
+        "status": "Yes",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sneezing",
+        "status": "Yes",
+        "frequency": "a lot",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "runny nose,sneezing",
+        "when check": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "runny nose,sneezing",
+        "status": "Yes",
+        "when": "years back",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "runny nose,sneezing",
+        "status": "Yes",
+        "ana factors": "spring season",
+        "ana factors status": "yes aggravating",
+        "other": "Patients symptoms worsen during the spring time",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "all",
+        "ana factors": "dust",
+        "ana factors check": true,
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "all",
+        "status": "Yes",
+        "ana factors": "dust",
+        "ana factors status": "yes aggravating",
+        "other": "when the patient is exposed to dust the symptoms persist for a couple of days",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "sore throat,cough",
+        "status": "The patient still suffers from the condition.",
+        "other": "these symptoms happen in the morning",
+        "uid": "9"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "nasal congestion,eye redness,itching eyes,nasal itching",
+        "status": "The patient still suffers from the condition.",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough,sore throat",
+        "frequency": "every morning",
+        "frequency check": true,
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough,sore throat",
+        "status": "Yes",
+        "frequency": "every morning",
+        "other": "the symptoms get worse during springtime",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "other": "cough to clear throat but then not otherwise",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "status": "Yes",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "frequency": "just morning",
+        "frequency check": true,
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "status": "Yes",
+        "frequency": "just morning",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "post nasal drip",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "post nasal drip",
+        "status": "Yes",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever,chills,sore throat",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever,chills",
+        "status": "No",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "No",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "response to": "all",
+        "response to check": true,
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Reactin ",
+        "status": "currently taking",
+        "impact": "Yes",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "Reactin ",
+        "status": "currently taking",
+        "other": "taking Reactin right now?",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Reactin",
+        "status": "currently taking",
+        "other": "didn't take it today, tried it a couple days ago",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "travel",
+        "status check": true,
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "No",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "head ache",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "No",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "status": "No",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever,chills",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever,chills",
+        "status": "No",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "status": "Yes",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever,chills,sleep hydrosis",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever,chills,sleep hydrosis",
+        "status": "No",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "status": "No",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "urination",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "urination",
+        "status": "No",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "loss of appetite,unexplained weight loss",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "status": "No",
+        "uid": "49"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "No",
+        "other": "patient have been losing weight, but patient have been dieting and working out more",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "how much weight would patient have lost over the last few months?",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "lost about four pounds in the past four, five months. It's been hard to lose weight.",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "No",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "fumes,dust,pets",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "dust",
+        "status": "Yes",
+        "when": "a couple of days ago",
+        "uid": "57"
+      },
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "fumes,pets",
+        "status": "No",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "asthma,eczema",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "asthma,eczema",
+        "status": "No",
+        "uid": "59"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "dyspnea",
+        "status": "The patient sufferred from the condition in the past.",
+        "when": "in childhood",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "dyspnea",
+        "status": "The patient sufferred from the condition in the past.",
+        "when check": true,
+        "other": "have patient had shortness of breath after that",
+        "other check": true,
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "dyspnea",
+        "status": "The patient sufferred from the condition in the past.",
+        "when": "when patient was 8 or 9 years old",
+        "other": "patient have had it before that as well ",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "Have patient ever seen an allergist before?",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "No, patient never seen an allergist before",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "status": "No",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "status": "no",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton,surgery",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton,surgery",
+        "status": "No",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "asthma,eczema,allergic rhinitis",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "asthma,eczema,allergic rhinitis",
+        "status": "No",
+        "uid": "73"
+      },
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "runny nose,sneezing",
+        "status": "Yes",
+        "relation": "mother,brother",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "occupation",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "occupation",
+        "other": "doing it virtually",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "value check": true,
+        "other": "living situation",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "other": "lives with mom, dad and younger brother",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "Do patient feel safe at home?",
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "patient feel safe at home.",
+        "uid": "81"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "uid": "82"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "No",
+        "uid": "83"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "recreational drugs,marijuana",
+        "uid": "84"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "recreational drugs,marijuana",
+        "status": "No",
+        "uid": "85"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "uid": "86"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "No",
+        "uid": "87"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "sexual activity",
+        "uid": "88"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "sexual activity",
+        "status": "No",
+        "uid": "89"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "do patient faced any kind of bullying or anything like that?",
+        "uid": "90"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "patient have not faced any kind of bullying or anything like that.",
+        "uid": "91"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "smell loss,taste loss",
+        "uid": "92"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "smell loss",
+        "status": "Yes",
+        "uid": "93"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "taste loss",
+        "status": "No",
+        "uid": "93"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "94"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "95"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "Reactin ",
+        "uid": "96"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Reactin ",
+        "status": "currently taking",
+        "uid": "97"
+      }
+    ],
+    [
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "allergic rhinitis",
+        "status": "Maybe",
+        "uid": "98"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "99"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "antihistamine medications",
+        "other": "future",
+        "uid": "100"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "COVID swab test",
+        "other": "future",
+        "uid": "100"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "COVID ",
+        "status": "Maybe",
+        "uid": "100"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "101"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "allergic rhinitis",
+        "ddx 2": "COVID ",
+        "ddx 3": "hypersentivity pneumonitis",
+        "ddx 4": "acute rhinosinusitis",
+        "ddx 5": "influenza",
+        "uid": "102"
+      }
+    ]
+  ]
+}

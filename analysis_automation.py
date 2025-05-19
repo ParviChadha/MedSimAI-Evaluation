@@ -20,7 +20,8 @@ def create_directory_structure():
         "annotations", 
         "criteria", 
         "results", 
-        "metrics"
+        "metrics",
+        "token_metrics"  # New directory for token metrics
     ]
     
     for directory in directories:
@@ -202,6 +203,144 @@ def calculate_aggregated_metrics(metrics_dir: str, conversation_ids: List[str]):
     
     return aggregated_metrics
 
+def summarize_token_metrics(token_metrics_dir: str, conversation_ids: List[str]):
+    """Analyze and summarize token metrics across all processed conversations."""
+    print("\nSummarizing token usage metrics...")
+    
+    # Check if token metrics directory exists
+    if not os.path.exists(token_metrics_dir):
+        print(f"Token metrics directory {token_metrics_dir} not found. Skipping token analysis.")
+        return
+    
+    # Check for aggregated token metrics file
+    aggregated_file = os.path.join(token_metrics_dir, "aggregated_token_metrics.json")
+    if os.path.exists(aggregated_file):
+        try:
+            with open(aggregated_file, 'r', encoding='utf-8') as file:
+                metrics = json.load(file)
+            
+            # Display token usage summary
+            print("\nToken Usage Summary:")
+            print(f"Total Conversations Analyzed: {metrics['total_conversations']}")
+            print(f"Total Input Tokens:  {metrics['total_input_tokens']:,}")
+            print(f"Total Output Tokens: {metrics['total_output_tokens']:,}")
+            print(f"Total Tokens Used:   {metrics['total_tokens']:,}")
+            
+            # Check which key is available for average tokens
+            if 'average_input_tokens_per_operation' in metrics:
+                avg_input_key = 'average_input_tokens_per_operation'
+                avg_output_key = 'average_output_tokens_per_operation'
+                print(f"Average Input Tokens Per Operation:  {metrics[avg_input_key]:.1f}")
+                print(f"Average Output Tokens Per Operation: {metrics[avg_output_key]:.1f}")
+            elif 'average_input_tokens_per_conversation' in metrics:
+                avg_input_key = 'average_input_tokens_per_conversation' 
+                avg_output_key = 'average_output_tokens_per_conversation'
+                print(f"Average Input Tokens Per Conversation:  {metrics[avg_input_key]:.1f}")
+                print(f"Average Output Tokens Per Conversation: {metrics[avg_output_key]:.1f}")
+            
+            # Display operation-specific totals if available
+            if "operation_totals" in metrics:
+                print("\nToken Usage by Operation:")
+                
+                # Results metrics
+                results = metrics["operation_totals"].get("results", {})
+                if results:
+                    print(f"\nMedical History Assessment (Results):")
+                    print(f"  Input Tokens:  {results.get('input_tokens', 0):,}")
+                    print(f"  Output Tokens: {results.get('output_tokens', 0):,}")
+                    print(f"  Total Tokens:  {results.get('total_tokens', 0):,}")
+                    print(f"  Operations:    {results.get('count', 0):,}")
+                    if "avg_total_tokens" in results:
+                        print(f"  Avg. Tokens per Operation: {results.get('avg_total_tokens', 0):,.1f}")
+                
+                # Criteria metrics
+                criteria = metrics["operation_totals"].get("filter_similar_symptoms", {})
+                if criteria:
+                    print(f"\nSymptom Filtering (Criteria):")
+                    print(f"  Input Tokens:  {criteria.get('input_tokens', 0):,}")
+                    print(f"  Output Tokens: {criteria.get('output_tokens', 0):,}")
+                    print(f"  Total Tokens:  {criteria.get('total_tokens', 0):,}")
+                    print(f"  Operations:    {criteria.get('count', 0):,}")
+                    if "avg_total_tokens" in criteria:
+                        print(f"  Avg. Tokens per Operation: {criteria.get('avg_total_tokens', 0):,.1f}")
+            
+            # Display model-specific statistics
+            if metrics.get("model_statistics"):
+                print("\nToken Usage by Model:")
+                for model, stats in metrics["model_statistics"].items():
+                    print(f"\n{model.upper()} ({stats['conversations']} operations):")
+                    print(f"  Input Tokens:  {stats['input_tokens']:,}")
+                    print(f"  Output Tokens: {stats['output_tokens']:,}")
+                    print(f"  Total Tokens:  {stats['total_tokens']:,}")
+                    
+                    # Show operation breakdowns if available
+                    if "operations" in stats:
+                        for op_name, op_stats in stats["operations"].items():
+                            if op_stats.get("count", 0) > 0:
+                                op_display_name = "Medical History Assessment" if op_name == "results" else "Symptom Filtering"
+                                print(f"    {op_display_name}: {op_stats.get('input_tokens', 0):,} input + {op_stats.get('output_tokens', 0):,} output = {op_stats.get('input_tokens', 0) + op_stats.get('output_tokens', 0):,} tokens")
+            
+            return metrics
+            
+        except (json.JSONDecodeError, FileNotFoundError) as e:
+            print(f"Error reading aggregated token metrics: {e}")
+    
+    # If we couldn't read the aggregated file, try to gather metrics from individual files
+    print("No aggregated token metrics found. Analyzing individual metrics files...")
+    
+    # Read individual metrics files
+    all_tokens = {
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "files_processed": 0
+    }
+    
+    for conv_id in conversation_ids:
+        # Check both regular and criteria metrics files
+        metrics_files = [
+            os.path.join(token_metrics_dir, f"token_metrics_{conv_id}.json"),
+            os.path.join(token_metrics_dir, f"token_metrics_criteria_{conv_id}.json")
+        ]
+        
+        for metrics_file in metrics_files:
+            if os.path.exists(metrics_file):
+                try:
+                    with open(metrics_file, 'r', encoding='utf-8') as file:
+                        metrics = json.load(file)
+                    
+                    # Add to totals
+                    metrics_data = metrics.get("metrics", {})
+                    
+                    # Handle different input token formats
+                    input_tokens = 0
+                    if isinstance(metrics_data.get("input_tokens"), dict):
+                        input_tokens = metrics_data.get("input_tokens", {}).get("total", 0)
+                    else:
+                        input_tokens = metrics_data.get("input_tokens", 0)
+                    
+                    output_tokens = metrics_data.get("output_tokens", 0)
+                    
+                    all_tokens["input"] += input_tokens
+                    all_tokens["output"] += output_tokens
+                    all_tokens["total"] += (input_tokens + output_tokens)
+                    all_tokens["files_processed"] += 1
+                    
+                except (json.JSONDecodeError, FileNotFoundError) as e:
+                    print(f"Error reading token metrics file {metrics_file}: {e}")
+    
+    # Display summary
+    if all_tokens["files_processed"] > 0:
+        print(f"\nToken Usage from {all_tokens['files_processed']} operations:")
+        print(f"Total Input Tokens:  {all_tokens['input']:,}")
+        print(f"Total Output Tokens: {all_tokens['output']:,}")
+        print(f"Total Tokens Used:   {all_tokens['total']:,}")
+        print(f"Average Tokens Per Operation: {all_tokens['total'] / all_tokens['files_processed']:.1f}")
+    else:
+        print("No token metrics files found.")
+    
+    return all_tokens
+
 def main():
     """Main function to run the entire pipeline with proper multiprocessing."""
     parser = argparse.ArgumentParser(description="Automate medical dialogue analysis pipeline")
@@ -214,6 +353,7 @@ def main():
     parser.add_argument("--force", action="store_true", help="Force reprocessing of all conversations")
     parser.add_argument("--api-key", help="API key for the selected model")
     parser.add_argument("--model", help="Pre-select model (openai/claude/gemini/fireworks) to skip interactive selection")
+    parser.add_argument("--skip-token-summary", action="store_true", help="Skip token usage summary")
     
     args = parser.parse_args()
     
@@ -297,6 +437,10 @@ def main():
     # Calculate aggregated metrics
     if successful_conversations:
         calculate_aggregated_metrics(directories[5], successful_conversations)
+        
+        # Summarize token metrics unless explicitly skipped
+        if not args.skip_token_summary:
+            summarize_token_metrics("token_metrics", successful_conversations)
     else:
         print("No conversations were successfully processed. Cannot calculate aggregated metrics.")
 

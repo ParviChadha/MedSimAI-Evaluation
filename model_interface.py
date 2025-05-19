@@ -105,44 +105,34 @@ class ModelInterface:
         self.initialized = True
     
     def _init_openai_client(self, api_key: str):
-        """Initialize OpenAI client with special handling to avoid proxies issue"""
+        """Initialize OpenAI client with improved error handling"""
         print("Initializing OpenAI client...")
         
-        # Method 1: Direct approach with minimal parameters
+        # Try the standard initialization without any proxy configuration
         try:
             # Import at function level to avoid any global monkey-patching
             from openai import OpenAI
-            self.client = OpenAI(api_key=api_key, timeout=120.0)  # Increase timeout to 5 minutes
+            self.client = OpenAI(api_key=api_key)
             self.openai_client_type = "new"
             print("Successfully initialized OpenAI client using standard method")
             return
-        except TypeError as e:
+        except Exception as e:
             print(f"Error initializing OpenAI client: {e}")
-            if "unexpected keyword argument 'proxies'" in str(e) or "unexpected keyword argument 'timeout'" in str(e):
-                print("Detected configuration issue, trying alternative methods...")
-            else:
-                raise
         
-        # Method 2: Recreate the client class
+        # If standard method fails, try creating a client with explicit timeout
         try:
-            print("Trying Method 2: Manual client creation...")
-            from openai._client import OpenAI as OpenAIBase
-            
-            # Create a clean class that only takes api_key
-            class CleanOpenAI(OpenAIBase):
-                def __init__(self, api_key=None):
-                    super().__init__(api_key=api_key)
-            
-            self.client = CleanOpenAI(api_key=api_key)
-            self.openai_client_type = "custom_clean"
-            print("Successfully initialized OpenAI client using custom clean class")
+            print("Trying with explicit timeout...")
+            from openai import OpenAI
+            self.client = OpenAI(api_key=api_key, timeout=120.0)
+            self.openai_client_type = "new_with_timeout"
+            print("Successfully initialized OpenAI client with explicit timeout")
             return
         except Exception as e:
-            print(f"Error with Method 2: {e}")
+            print(f"Error initializing with timeout: {e}")
         
-        # Method 3: Direct HTTPX client with increased timeout
+        # If both standard methods fail, try our minimal custom implementation
         try:
-            print("Trying Method 3: Direct HTTPX client...")
+            print("Trying minimal custom client implementation...")
             import httpx
             
             class MinimalOpenAI:
@@ -152,7 +142,7 @@ class ModelInterface:
                     self.http_client = httpx.Client(
                         base_url=self.base_url,
                         headers={"Authorization": f"Bearer {api_key}"},
-                        timeout=180.0  # 5 minute timeout
+                        timeout=120.0  # 3 minute timeout
                     )
                     # Create a chat namespace with completions method
                     self.chat = type('ChatNamespace', (), {})()
@@ -182,7 +172,7 @@ class ModelInterface:
                             response = self.http_client.post(
                                 "/chat/completions",
                                 json=data,
-                                timeout=180.0  # Ensure timeout is set here too
+                                timeout=120.0  # Ensure timeout is set here too
                             )
                             
                             if response.status_code != 200:
@@ -227,7 +217,7 @@ class ModelInterface:
             print("Successfully initialized OpenAI client using minimal custom implementation")
             return
         except Exception as e:
-            print(f"Error with Method 3: {e}")
+            print(f"Error with minimal client: {e}")
         
         # If all methods fail, raise an error
         raise ValueError("All methods to initialize OpenAI client failed. Please try a different model.")
@@ -276,7 +266,7 @@ class ModelInterface:
         print(f"Using OpenAI client type: {client_type}")
         print(f"System prompt length: {len(system_prompt)} characters")
         print(f"User message length: {len(user_message)} characters")
-        print(f"Using model: gpt-4o-mini-2024-07-18")
+        print(f"Using model: gpt-4o-2024-08-06")
         
         # Retry mechanism (only for non-minimal client types)
         max_retries = 3
@@ -288,17 +278,17 @@ class ModelInterface:
                     
                     # Try with a smaller, faster model first to avoid timeouts
                     response = self.client.chat.completions.create(
-                        model="gpt-4o-mini-2024-07-18",
+                        model="gpt-4o-2024-08-06",
                         messages=messages,
                         # No JSON mode for more compatibility
-                        timeout=180  # 3 minute timeout
+                        timeout=120  # 3 minute timeout
                     )
                     content = response.choices[0].message.content
                     
                 elif client_type == "minimal":
                     # Our minimal custom implementation (already has retries)
                     response = self.client.chat.completions.create(
-                        model="gpt-4o-mini-2024-07-18",
+                        model="gpt-4o-2024-08-06",
                         messages=messages,
                         # No JSON mode for more compatibility
                     )

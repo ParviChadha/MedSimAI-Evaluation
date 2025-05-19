@@ -1,0 +1,53 @@
+{
+  "precision": 0.84,
+  "recall": 0.875,
+  "f1_score": 0.8571428571428572,
+  "true_positives": 21,
+  "false_positives": 4,
+  "false_negatives": 3,
+  "total_items": 48,
+  "false_positive_details": [
+    {
+      "item": "Dehydration",
+      "result_quotes": [
+        "Medical Student: Okay, how many diapers is she, how many wet diapers per day?",
+        "Patient: Uh, about five.",
+        "Medical Student: Okay, so yeah, still been to maintain hydration, it sounds like."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Medical Student: Okay. Then any changes to um, like urinary habits as well?",
+        "Patient: Uh no, no changes there."
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "Patient: ...she sounds really wheezy now."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Medical Student: On feeds or anything like that, did you notice like any redness in her, in the back of her throat?",
+        "Patient: Um, I noticed some, um, yeah, I noticed some redness, but I just thought it was because of her coughing a lot."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    }
+  ]
+}

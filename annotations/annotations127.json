@@ -1,0 +1,823 @@
+{
+  "127": [
+    [
+      {
+        "intent": "inform",
+        "slot": "basic information",
+        "name": "Rob ",
+        "uid": "0"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "other": "can't catch breath",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "basic information",
+        "age": true,
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "basic information",
+        "age": "gonna be 50 soon",
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "when check": true,
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "location": "side of the chest(L)",
+        "when": "last night ",
+        "ana factors": "deep breathing",
+        "ana factors status": "yes aggravating",
+        "progression": "gradually getting worse over time",
+        "uid": "4"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Tylenol",
+        "status": "currently taking",
+        "response to": "dyspnea,chest pain",
+        "impact": "No",
+        "uid": "4"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "progression": "gradually getting worse over time",
+        "other": " can't get a good breath in",
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "how check": true,
+        "uid": "5"
+      },
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "uid": "5"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "vitals, airway, breathing, circulation examination",
+        "other": "future",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "characteristics": "little sharp",
+        "characteristics status": "yes",
+        "ana factors": "deep breathing",
+        "ana factors status": "yes aggravating",
+        "other": "if breathe really deep it feels like a little sharp",
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "past experience",
+        "status": "No",
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "severity": true,
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "other": " can't get like a deep breath",
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "severity": "6",
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "ana factors": "deep breathing",
+        "ana factors check": true,
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "ana factors": "deep breathing",
+        "ana factors status": "yes aggravating",
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "characteristics": "sharp",
+        "characteristics status": "yes",
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "characteristics": "pleuritic ",
+        "characteristics status": "yes",
+        "uid": "17"
+      },
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "No",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "status": "No",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "swelling",
+        "location": "legs",
+        "location check": true,
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "swelling",
+        "status": "No",
+        "location": "legs",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "ana factors": "physical exertion",
+        "ana factors check": true,
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "ana factors": "physical exertion",
+        "ana factors status": "yes aggravating",
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "ana factors": "lying down",
+        "ana factors check": true,
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "ana factors": "lying down",
+        "ana factors status": "no alleviating",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez",
+        "status": "No",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever,chills",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever,chills",
+        "status": "No",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "abdomen",
+        "location check": true,
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "back",
+        "other": "a little bit",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "ana factors check": true,
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "other": "patient don't know about any triggers",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "past experience",
+        "status": "No",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea,chest pain",
+        "ana factors": "sitting forward",
+        "ana factors check": true,
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea,chest pain",
+        "status": "Yes",
+        "ana factors": "sitting forward",
+        "ana factors status": "no alleviating",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "vision problem,hearing problem",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "vision problem,hearing problem",
+        "status": "No",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "other": "rashes",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "No",
+        "other": "rashes",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "No",
+        "other": "patient have been trying to lose weight",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "high bp",
+        "status": "The patient still suffers from the condition.",
+        "when": "a year ago",
+        "other": "patient have been cutting out like salt and trying to walk more",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "lost 15 pounds intentionally",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dizzyness,fainting",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dizzyness,fainting",
+        "status": "No",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "status": "No",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical test",
+        "name": "pulmonary function tests,ECG's,chest X-rays",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "pulmonary function tests,ECG's,chest X-rays",
+        "status": "No",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Tylenol",
+        "status": "currently taking",
+        "frequency": "sometimes ",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "Yes",
+        "frquency": "a pack a week",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "when check": true,
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "Yes",
+        "when": "since college",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "marijuana",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "marijuana",
+        "status": "No",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "status": "No",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "No",
+        "frquency": "a beer on the weekend",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "status": "Yes",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "other": "flu vaccine every year",
+        "other check": true,
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "status": "Yes",
+        "other": "gets flu vaccine every year",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "lung disease,heart disease",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "lung disease,heart disease",
+        "status": "No",
+        "uid": "72"
+      },
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "high blood pressure",
+        "status": "Yes",
+        "relation": "mother, father",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea,chest pain",
+        "how check": true,
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea,chest pain",
+        "status": "Yes",
+        "how": "abruptly",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "COPD ",
+        "status": "Maybe",
+        "uid": "77"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "blood work",
+        "other": "future",
+        "uid": "77"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "chest X-ray",
+        "other": "future",
+        "uid": "77"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "pulmonary function test",
+        "other": "future",
+        "uid": "77"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "lung cancer",
+        "status": "Maybe",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "oxygen",
+        "other": "future",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "COPD ",
+        "ddx 2": "pneumonia",
+        "ddx 3": "cardiac ischemia",
+        "ddx 4": "bronchiectasis",
+        "ddx 5": "lung cancer",
+        "uid": "81"
+      }
+    ]
+  ]
+}

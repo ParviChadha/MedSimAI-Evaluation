@@ -1,0 +1,31 @@
+{
+  "precision": 0.9259259259259259,
+  "recall": 0.9615384615384616,
+  "f1_score": 0.9433962264150944,
+  "true_positives": 25,
+  "false_positives": 2,
+  "false_negatives": 1,
+  "total_items": 35,
+  "false_positive_details": [
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "OK, good and have you been in contact with anyone who's been sick recently?",
+        "Not that I know of."
+      ]
+    },
+    {
+      "item": "Change In Taste",
+      "result_quotes": [
+        "how about changes in smell or taste?",
+        "it was just kind of a funky like, different taste. I couldn't really tell, uh, everything was kind of a bit bland."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    }
+  ]
+}

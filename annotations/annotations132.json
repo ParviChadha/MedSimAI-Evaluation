@@ -1,0 +1,884 @@
+{
+  "132": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "ana factors": "deep breathing",
+        "ana factors status": "yes aggravating",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "wet cough",
+        "characteristics status": "yes",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "status": "Yes",
+        "color": "greenish yellowish",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "when check": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "when": "4 days ago",
+        "uid": "3"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "when": "yesterday",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "past experience",
+        "status": "No",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "status": "No",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "ana factors": "physical exertion",
+        "ana factors check": true,
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "ana factors": "physical exertion",
+        "ana factors status": "no aggravating",
+        "other": "at rest also, even right now having trouble taking deep breaths",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "No",
+        "uid": "11"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "straining and chest discomfort",
+        "status": "Yes",
+        "ana factors": "deep breathing",
+        "ana factors status": "yes aggravating",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "straining and chest discomfort",
+        "ana factors": "deep breathing",
+        "ana factors check": true,
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "straining and chest discomfort",
+        "status": "Yes",
+        "ana factors": "deep breathing",
+        "ana factors status": "yes aggravating",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez",
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez",
+        "status": "No",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "ana factors": "lying flat",
+        "ana factors check": true,
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "ana factors": "lying flat",
+        "ana factors status": "no aggravating",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sleep dyspnea",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sleep dyspnea",
+        "status": "No",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever,chills",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "Yes",
+        "when": "yesterday",
+        "other": "today fever was 38.5",
+        "uid": "21"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chills",
+        "status": "Yes",
+        "when": "Yesterday",
+        "uid": "21"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Temperature",
+        "status": "Yes",
+        "when": "today",
+        "other": "Temperature: 38.5",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sleep hydrosis",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sleep hydrosis",
+        "status": "Yes",
+        "when": "Last night",
+        "other": "sheets were a bit drenched",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sore throat",
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sore throat",
+        "status": "No",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "smell loss,taste loss",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "smell loss,taste loss",
+        "status": "No",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nasal congestion,runny nose",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nasal congestion,runny nose",
+        "status": "No",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "eye redness,itching eyes,eye pain",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "eye redness,itching eyes,eye pain",
+        "status": "No",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fainting,dizzyness",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fainting,dizzyness",
+        "status": "No",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "abdomen",
+        "location check": true,
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "No",
+        "location": "abdomen",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nausea,vomiting",
+        "status": "No",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "diarrhoea",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "diarrhoea",
+        "status": "No",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "other": "rashes",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "No",
+        "other": "No rashes",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "muscle,body",
+        "location check": true,
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "No",
+        "location": "muscle,body",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fatigue extended,malaise ",
+        "when": "last several days",
+        "when check": true,
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "malaise ",
+        "status": "No",
+        "uid": "45"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "status": "Yes",
+        "other": "just been needing more rest",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "head ache",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "No",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "status": "No",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "high bp,high cholesterol",
+        "status": "The patient still suffers from the condition.",
+        "uid": "51"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "status": "currently taking",
+        "response to": "high bp,high cholesterol",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "vitamin D,calcium,multi vitamins",
+        "status": "currently taking",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "status": "No",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "surgery,recent hospitalizaiton",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery,recent hospitalizaiton",
+        "status": "No",
+        "uid": "57"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "C-section",
+        "status": "The patient still suffers from the condition.",
+        "when": "when patient was in twenties",
+        "uid": "57"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "gallbladder removal",
+        "status": "The patient still suffers from the condition.",
+        "when": "five years ago",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "value check": true,
+        "other": "living situation",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "value": "apartment",
+        "status": "Yes",
+        "other": "living alone right now",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "other": "did see just grandkids last week",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "other": "do grandkids had a runny nose?",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "other": "grandkids not had a runny nose",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "travel",
+        "status check": true,
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "No",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "No",
+        "uid": "67"
+      },
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "former smoker",
+        "status": "Yes",
+        "when": "When patient was in her 20s",
+        "other": "smoked for five years ",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "marijuana",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "marijuana",
+        "status": "No",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "status": "No",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "lung disease,heart disease",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "lung disease",
+        "status": "No",
+        "uid": "73"
+      },
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "heart disease",
+        "status": "Yes",
+        "relation": "father ",
+        "other": "father passed away from a heart attack in his 50s.",
+        "uid": "73"
+      },
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "high blood pressure,diabetes",
+        "status": "Yes",
+        "relation": "brother",
+        "uid": "73"
+      },
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "osteoarthritis",
+        "status": "Yes",
+        "relation": "mother's side",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "cancer",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "cancer",
+        "status": "Yes",
+        "relation": "father's side",
+        "other": " skin cancer",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "antibiotics ",
+        "since when": "within the last six months ",
+        "since when check": true,
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "antibiotics ",
+        "status": "no",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "pneumonia",
+        "status": "Maybe",
+        "uid": "80"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "viral pneumonia",
+        "status": "Maybe",
+        "uid": "80"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "Covid",
+        "status": "Maybe",
+        "uid": "80"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "swab",
+        "other": "future",
+        "uid": "80"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "chest X-ray",
+        "other": "future",
+        "uid": "80"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "antibiotics ",
+        "other": "future",
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "pneumonia",
+        "ddx 2": "viral pneumonia",
+        "ddx 3": "Covid",
+        "ddx 4": "tuberculosis",
+        "ddx 5": "lung abscess",
+        "uid": "81"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,889 @@
+{
+  "216": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough,fever,Tachypnea",
+        "status": "Yes",
+        "when": "2 days ago ",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "basic information",
+        "age": "2 1/2 months",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical test",
+        "name": "vitals",
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Vitals",
+        "status": "Yes",
+        "other": "Stable",
+        "uid": "3"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Oxygen",
+        "status": "currently taking",
+        "other": "On 2 liters of oxygen",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough,fever,Tachypnea",
+        "when check": true,
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough,fever,Tachypnea",
+        "status": "Yes",
+        "when": "2 days ago ",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough,fever,Tachypnea",
+        "other": "Confirmation for the order of the symptoms",
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "Yes",
+        "other": "Order of the symptom first ",
+        "uid": "7"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Temprature",
+        "status": "Yes",
+        "other": "38",
+        "uid": "7"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "Tachypnea",
+        "status": "Yes",
+        "other": "Order of symptom second",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "status": "Yes",
+        "color": "Yellow sputum",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "status": "No",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical test",
+        "name": "Temprature",
+        "status": "Yes",
+        "when": "38",
+        "other": "confirmation for the way of temperature check.",
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Temprature",
+        "status": "Yes",
+        "when": "38",
+        "other": "did a rectal ",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever",
+        "duration check": true,
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "Yes",
+        "duration": "few days",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez",
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez",
+        "status": "Yes",
+        "other": "slightly wheezy",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez inhale",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez inhale",
+        "status": "No",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "general",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "constipation",
+        "status": "Yes",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "status": "Yes",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "Changes in appetite",
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "Changes in appetite",
+        "status": "Yes",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "behavior changes",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "behavior changes",
+        "status": "Yes",
+        "other": "very fussy",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "inconsolable",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "inconsolable",
+        "status": "Yes",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "status": "No",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "vomiting",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "vomiting",
+        "status": "No",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "travel",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "No",
+        "other": "his grandma had traveled recently",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "Confirmation about his grandma's travel history ",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "abonfirmed about his grandma's travel history  : Mexico",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "confirmation about his grandma's health",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "his grandma is fine",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "Yes",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "viral infection",
+        "status": "Yes",
+        "uid": "45"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Puffers",
+        "status": "took in the past",
+        "response to": "viral infection",
+        "impact": "Yes",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "viral infection",
+        "when check": true,
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "bronchiolitis, viral infection",
+        "status": "The patient is not sure about the status of the condition.",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton",
+        "other": "reasons for hospitalizations",
+        "other check": true,
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton",
+        "status": "The patient sufferred from the condition in the past.",
+        "other": "hospitalized for two days to help with his breathing",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "response to": "bronchiolitis, viral infection",
+        "frequency": "regularly",
+        "frequency check": true,
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "status": "no",
+        "response to": "bronchiolitis, viral infection",
+        "frequency": "regularly ",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "status": "No",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "complications During pregnancy",
+        "relation": "mother",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "complications during pregnancy",
+        "status": "No",
+        "other": "he was a healthy baby",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "complications with any prior pregnancies",
+        "relation": "mother",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "complications with any prior pregnancies",
+        "status": "No",
+        "other": "He is the first one",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "infectious symptoms",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "infectious symptoms",
+        "status": "No",
+        "other": "during pregnancy",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "delayed growth milestones",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "delayed growth milestones",
+        "status": "No",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "vision problem,hearing problem",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "vision problem,hearing problem",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "vaccinations",
+        "status": "Yes",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "other": "living situation",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "value": "House",
+        "other": "live with parents",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "pets",
+        "where": "at home",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "pets",
+        "status": "No",
+        "other": "a goldfish at home",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "topic": "any verbal abuse in the home",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "topic": "no verbal abuse in the home",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "topic": "any physical abuse in the home",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "topic": "no physical abuse in the home",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "secondhand cigarette",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "secondhand cigarette",
+        "status": "No",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "alcohol usage",
+        "relation": "mother,father",
+        "other": "Confirmation for drink alcohol",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "alcohol usage",
+        "status": "Yes",
+        "relation": "mother,father",
+        "other": "glass of wine once a week",
+        "uid": "77"
+      },
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "Maybe",
+        "frquency": "glass of wine once a week",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "topic": "confirmation for primary caregiver for him",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "topic": "both are the caregiver",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "lung disease,heart disease,asthma",
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "Asthma",
+        "status": "Yes",
+        "relation": "aunt",
+        "uid": "81"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "congenital diseases",
+        "uid": "82"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "congenital diseases",
+        "status": "No",
+        "uid": "83"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "genetic disease",
+        "uid": "84"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "genetic disease",
+        "status": "No",
+        "uid": "85"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Blood test",
+        "other": "planning for the test",
+        "uid": "86"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "cerebrospinal fluid",
+        "other": "planning for the test",
+        "uid": "86"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "brain infection",
+        "status": "Maybe",
+        "uid": "86"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "87"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "inhalers",
+        "since when": "will be started",
+        "uid": "88"
+      }
+    ],
+    [
+      {
+        "intent": "salutations",
+        "uid": "89"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "general",
+        "uid": "90"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "general",
+        "status": "No",
+        "uid": "91"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "92"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "bronchitis",
+        "ddx 2": "pneumonia",
+        "ddx 3": "gerd",
+        "ddx 4": "Pertusis",
+        "uid": "93"
+      }
+    ]
+  ]
+}

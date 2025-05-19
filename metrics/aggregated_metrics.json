@@ -1,22 +1,913 @@
 {
   "aggregated": {
-    "precision": 0.7142857142857143,
-    "recall": 0.35714285714285715,
-    "f1_score": 0.4761904761904762,
-    "true_positives": 10,
-    "false_positives": 4,
-    "false_negatives": 18,
-    "total_conversations": 1
+    "precision": 0.9557894736842105,
+    "recall": 0.9493935591802594,
+    "f1_score": 0.9525807805287453,
+    "true_positives": 2270,
+    "false_positives": 105,
+    "false_negatives": 121,
+    "total_conversations": 100
   },
   "individual_metrics": [
     {
       "conversation_id": "101",
-      "precision": 0.7142857142857143,
-      "recall": 0.35714285714285715,
-      "f1_score": 0.4761904761904762,
-      "true_positives": 10,
+      "precision": 0.9642857142857143,
+      "recall": 0.9642857142857143,
+      "f1_score": 0.9642857142857143,
+      "true_positives": 27,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "102",
+      "precision": 0.9615384615384616,
+      "recall": 1.0,
+      "f1_score": 0.9803921568627451,
+      "true_positives": 25,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "103",
+      "precision": 0.96,
+      "recall": 1.0,
+      "f1_score": 0.9795918367346939,
+      "true_positives": 24,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "104",
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1_score": 0.9787234042553191,
+      "true_positives": 23,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "105",
+      "precision": 0.96875,
+      "recall": 0.96875,
+      "f1_score": 0.96875,
+      "true_positives": 31,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "106",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 17,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "107",
+      "precision": 0.9565217391304348,
+      "recall": 0.9166666666666666,
+      "f1_score": 0.9361702127659574,
+      "true_positives": 22,
+      "false_positives": 1,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "108",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 25,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "109",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 27,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "110",
+      "precision": 0.9411764705882353,
+      "recall": 1.0,
+      "f1_score": 0.9696969696969697,
+      "true_positives": 16,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "111",
+      "precision": 0.8571428571428571,
+      "recall": 0.9230769230769231,
+      "f1_score": 0.888888888888889,
+      "true_positives": 12,
+      "false_positives": 2,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "112",
+      "precision": 0.9642857142857143,
+      "recall": 0.9642857142857143,
+      "f1_score": 0.9642857142857143,
+      "true_positives": 27,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "113",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 20,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "114",
+      "precision": 0.9642857142857143,
+      "recall": 0.9310344827586207,
+      "f1_score": 0.9473684210526316,
+      "true_positives": 27,
+      "false_positives": 1,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "115",
+      "precision": 0.9545454545454546,
+      "recall": 1.0,
+      "f1_score": 0.9767441860465117,
+      "true_positives": 21,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "116",
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1_score": 0.9333333333333333,
+      "true_positives": 14,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "117",
+      "precision": 0.9393939393939394,
+      "recall": 0.9117647058823529,
+      "f1_score": 0.9253731343283583,
+      "true_positives": 31,
+      "false_positives": 2,
+      "false_negatives": 3
+    },
+    {
+      "conversation_id": "118",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 24,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "119",
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1_score": 0.9411764705882353,
+      "true_positives": 16,
+      "false_positives": 2,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "120",
+      "precision": 1.0,
+      "recall": 0.896551724137931,
+      "f1_score": 0.9454545454545454,
+      "true_positives": 26,
+      "false_positives": 0,
+      "false_negatives": 3
+    },
+    {
+      "conversation_id": "121",
+      "precision": 0.9032258064516129,
+      "recall": 1.0,
+      "f1_score": 0.9491525423728813,
+      "true_positives": 28,
+      "false_positives": 3,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "122",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 24,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "123",
+      "precision": 1.0,
+      "recall": 0.9696969696969697,
+      "f1_score": 0.9846153846153847,
+      "true_positives": 32,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "124",
+      "precision": 1.0,
+      "recall": 0.9696969696969697,
+      "f1_score": 0.9846153846153847,
+      "true_positives": 32,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "125",
+      "precision": 1.0,
+      "recall": 0.9642857142857143,
+      "f1_score": 0.9818181818181818,
+      "true_positives": 27,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "126",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 12,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "127",
+      "precision": 0.9285714285714286,
+      "recall": 0.9285714285714286,
+      "f1_score": 0.9285714285714286,
+      "true_positives": 13,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "128",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 23,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "129",
+      "precision": 0.8974358974358975,
+      "recall": 0.9722222222222222,
+      "f1_score": 0.9333333333333333,
+      "true_positives": 35,
       "false_positives": 4,
-      "false_negatives": 18
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "130",
+      "precision": 1.0,
+      "recall": 0.9615384615384616,
+      "f1_score": 0.9803921568627451,
+      "true_positives": 25,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "131",
+      "precision": 0.9259259259259259,
+      "recall": 0.9615384615384616,
+      "f1_score": 0.9433962264150944,
+      "true_positives": 25,
+      "false_positives": 2,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "132",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 28,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "133",
+      "precision": 1.0,
+      "recall": 0.96875,
+      "f1_score": 0.9841269841269841,
+      "true_positives": 31,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "134",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 24,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "135",
+      "precision": 1.0,
+      "recall": 0.9090909090909091,
+      "f1_score": 0.9523809523809523,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "136",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 32,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "201",
+      "precision": 0.96,
+      "recall": 0.96,
+      "f1_score": 0.96,
+      "true_positives": 24,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "202",
+      "precision": 0.896551724137931,
+      "recall": 0.9629629629629629,
+      "f1_score": 0.9285714285714286,
+      "true_positives": 26,
+      "false_positives": 3,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "203",
+      "precision": 1.0,
+      "recall": 0.9259259259259259,
+      "f1_score": 0.9615384615384615,
+      "true_positives": 25,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "204",
+      "precision": 0.9230769230769231,
+      "recall": 0.96,
+      "f1_score": 0.9411764705882353,
+      "true_positives": 24,
+      "false_positives": 2,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "205",
+      "precision": 0.9230769230769231,
+      "recall": 0.8571428571428571,
+      "f1_score": 0.888888888888889,
+      "true_positives": 12,
+      "false_positives": 1,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "206",
+      "precision": 0.9411764705882353,
+      "recall": 1.0,
+      "f1_score": 0.9696969696969697,
+      "true_positives": 16,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "207",
+      "precision": 0.9230769230769231,
+      "recall": 0.8888888888888888,
+      "f1_score": 0.9056603773584906,
+      "true_positives": 24,
+      "false_positives": 2,
+      "false_negatives": 3
+    },
+    {
+      "conversation_id": "208",
+      "precision": 0.9655172413793104,
+      "recall": 1.0,
+      "f1_score": 0.9824561403508771,
+      "true_positives": 28,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "209",
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1_score": 0.9411764705882353,
+      "true_positives": 16,
+      "false_positives": 2,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "210",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 17,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "211",
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 14
+    },
+    {
+      "conversation_id": "212",
+      "precision": 0.967741935483871,
+      "recall": 1.0,
+      "f1_score": 0.9836065573770492,
+      "true_positives": 30,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "213",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 27,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "214",
+      "precision": 0.9523809523809523,
+      "recall": 0.9523809523809523,
+      "f1_score": 0.9523809523809523,
+      "true_positives": 20,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "215",
+      "precision": 0.9565217391304348,
+      "recall": 0.9565217391304348,
+      "f1_score": 0.9565217391304348,
+      "true_positives": 22,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "216",
+      "precision": 0.8823529411764706,
+      "recall": 0.9375,
+      "f1_score": 0.9090909090909091,
+      "true_positives": 15,
+      "false_positives": 2,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "217",
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1_score": 0.9787234042553191,
+      "true_positives": 23,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "218",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 22,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "219",
+      "precision": 0.9565217391304348,
+      "recall": 0.9166666666666666,
+      "f1_score": 0.9361702127659574,
+      "true_positives": 22,
+      "false_positives": 1,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "220",
+      "precision": 0.9642857142857143,
+      "recall": 0.9642857142857143,
+      "f1_score": 0.9642857142857143,
+      "true_positives": 27,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "221",
+      "precision": 1.0,
+      "recall": 0.9411764705882353,
+      "f1_score": 0.9696969696969697,
+      "true_positives": 16,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "222",
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1_score": 0.975609756097561,
+      "true_positives": 20,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "223",
+      "precision": 1.0,
+      "recall": 0.9629629629629629,
+      "f1_score": 0.9811320754716981,
+      "true_positives": 26,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "224",
+      "precision": 0.8333333333333334,
+      "recall": 0.967741935483871,
+      "f1_score": 0.8955223880597015,
+      "true_positives": 30,
+      "false_positives": 6,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "225",
+      "precision": 0.8518518518518519,
+      "recall": 0.92,
+      "f1_score": 0.8846153846153846,
+      "true_positives": 23,
+      "false_positives": 4,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "226",
+      "precision": 1.0,
+      "recall": 0.9166666666666666,
+      "f1_score": 0.9565217391304348,
+      "true_positives": 22,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "227",
+      "precision": 0.7692307692307693,
+      "recall": 0.9090909090909091,
+      "f1_score": 0.8333333333333333,
+      "true_positives": 10,
+      "false_positives": 3,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "228",
+      "precision": 1.0,
+      "recall": 0.9090909090909091,
+      "f1_score": 0.9523809523809523,
+      "true_positives": 10,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "229",
+      "precision": 0.8846153846153846,
+      "recall": 0.9583333333333334,
+      "f1_score": 0.9199999999999999,
+      "true_positives": 23,
+      "false_positives": 3,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "230",
+      "precision": 0.9047619047619048,
+      "recall": 0.95,
+      "f1_score": 0.9268292682926829,
+      "true_positives": 19,
+      "false_positives": 2,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "231",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 25,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "232",
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "f1_score": 0.9787234042553191,
+      "true_positives": 23,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "233",
+      "precision": 1.0,
+      "recall": 0.9629629629629629,
+      "f1_score": 0.9811320754716981,
+      "true_positives": 26,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "234",
+      "precision": 0.9285714285714286,
+      "recall": 0.8125,
+      "f1_score": 0.8666666666666666,
+      "true_positives": 13,
+      "false_positives": 1,
+      "false_negatives": 3
+    },
+    {
+      "conversation_id": "235",
+      "precision": 0.96,
+      "recall": 1.0,
+      "f1_score": 0.9795918367346939,
+      "true_positives": 24,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "236",
+      "precision": 1.0,
+      "recall": 0.96,
+      "f1_score": 0.9795918367346939,
+      "true_positives": 24,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "301",
+      "precision": 1.0,
+      "recall": 0.9565217391304348,
+      "f1_score": 0.9777777777777777,
+      "true_positives": 22,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "302",
+      "precision": 0.88,
+      "recall": 1.0,
+      "f1_score": 0.9361702127659575,
+      "true_positives": 22,
+      "false_positives": 3,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "303",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 28,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "304",
+      "precision": 0.8181818181818182,
+      "recall": 0.9473684210526315,
+      "f1_score": 0.8780487804878049,
+      "true_positives": 18,
+      "false_positives": 4,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "305",
+      "precision": 0,
+      "recall": 0.0,
+      "f1_score": 0,
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 27
+    },
+    {
+      "conversation_id": "306",
+      "precision": 0.9565217391304348,
+      "recall": 1.0,
+      "f1_score": 0.9777777777777777,
+      "true_positives": 22,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "307",
+      "precision": 0.9428571428571428,
+      "recall": 1.0,
+      "f1_score": 0.9705882352941176,
+      "true_positives": 33,
+      "false_positives": 2,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "308",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 17,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "309",
+      "precision": 0.8787878787878788,
+      "recall": 0.9354838709677419,
+      "f1_score": 0.90625,
+      "true_positives": 29,
+      "false_positives": 4,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "310",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 33,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "311",
+      "precision": 0.95,
+      "recall": 1.0,
+      "f1_score": 0.9743589743589743,
+      "true_positives": 19,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "312",
+      "precision": 0.8571428571428571,
+      "recall": 0.96,
+      "f1_score": 0.9056603773584904,
+      "true_positives": 24,
+      "false_positives": 4,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "313",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 28,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "314",
+      "precision": 0.9615384615384616,
+      "recall": 1.0,
+      "f1_score": 0.9803921568627451,
+      "true_positives": 25,
+      "false_positives": 1,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "315",
+      "precision": 0.9032258064516129,
+      "recall": 1.0,
+      "f1_score": 0.9491525423728813,
+      "true_positives": 28,
+      "false_positives": 3,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "316",
+      "precision": 1.0,
+      "recall": 0.9285714285714286,
+      "f1_score": 0.962962962962963,
+      "true_positives": 26,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "317",
+      "precision": 1.0,
+      "recall": 0.9655172413793104,
+      "f1_score": 0.9824561403508771,
+      "true_positives": 28,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "318",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 27,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "319",
+      "precision": 1.0,
+      "recall": 0.9583333333333334,
+      "f1_score": 0.9787234042553191,
+      "true_positives": 23,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "320",
+      "precision": 0.9696969696969697,
+      "recall": 0.9696969696969697,
+      "f1_score": 0.9696969696969697,
+      "true_positives": 32,
+      "false_positives": 1,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "321",
+      "precision": 0.9130434782608695,
+      "recall": 1.0,
+      "f1_score": 0.9545454545454545,
+      "true_positives": 21,
+      "false_positives": 2,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "322",
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1_score": 0.888888888888889,
+      "true_positives": 12,
+      "false_positives": 0,
+      "false_negatives": 3
+    },
+    {
+      "conversation_id": "323",
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "true_positives": 22,
+      "false_positives": 0,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "324",
+      "precision": 1.0,
+      "recall": 0.9354838709677419,
+      "f1_score": 0.9666666666666666,
+      "true_positives": 29,
+      "false_positives": 0,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "325",
+      "precision": 0.75,
+      "recall": 0.9,
+      "f1_score": 0.8181818181818182,
+      "true_positives": 18,
+      "false_positives": 6,
+      "false_negatives": 2
+    },
+    {
+      "conversation_id": "326",
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1_score": 0.9655172413793104,
+      "true_positives": 28,
+      "false_positives": 2,
+      "false_negatives": 0
+    },
+    {
+      "conversation_id": "327",
+      "precision": 1.0,
+      "recall": 0.9615384615384616,
+      "f1_score": 0.9803921568627451,
+      "true_positives": 25,
+      "false_positives": 0,
+      "false_negatives": 1
+    },
+    {
+      "conversation_id": "328",
+      "precision": 0.84,
+      "recall": 0.875,
+      "f1_score": 0.8571428571428572,
+      "true_positives": 21,
+      "false_positives": 4,
+      "false_negatives": 3
     }
   ]
 }

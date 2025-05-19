@@ -1,0 +1,757 @@
+{
+  "222": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "when": "past week",
+        "progression": "gradually getting worse over time",
+        "frequency": "All the time ",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez",
+        "status": "Yes",
+        "when": "past week",
+        "frequency": "All the time ",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "asthma",
+        "status": "The patient still suffers from the condition.",
+        "when check": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "asthma",
+        "status": "The patient still suffers from the condition.",
+        "when": "since patient was 5",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "puffers",
+        "response to": "asthma",
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "cortico steroid,short acting",
+        "status": "currently taking",
+        "response to": "Asthma",
+        "frequency": "when patient have the symptoms",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "symptom speedup",
+        "when check": true,
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "symptom speedup",
+        "status": "Yes",
+        "when": "Past week ",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "ventilin",
+        "frequency check": true,
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "ventilin ",
+        "status": "currently taking",
+        "frequency": "couple times a day",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "ventilin",
+        "status": "currently taking",
+        "other": "Confirmation for medicine time count",
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "ventilin",
+        "status": "currently taking",
+        "other": "medicine time count : 10",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez,cough",
+        "ana factors": "night,day",
+        "ana factors check": true,
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez,cough",
+        "status": "Yes",
+        "ana factors": "night",
+        "ana factors status": "yes aggravating",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez,cough",
+        "ana factors check": true,
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez,cough",
+        "status": "Yes",
+        "ana factors": "physical exertion,cold air",
+        "ana factors status": "yes aggravating",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "dusty carpets,mold,new animals",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "dusty carpets,mold,new animals",
+        "status": "No",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "characteristics check": true,
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "Dry cough ",
+        "characteristics status": "yes",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "wheez",
+        "frequency check": true,
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "wheez",
+        "status": "Yes",
+        "frequency": "On and off",
+        "other": "every time the patient  coughs after that patient feels wheezy for a little bit",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sore throat,runny nose,dyspnea",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sore throat,runny nose,dyspnea",
+        "status": "No",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "status": "No",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "ventilin ",
+        "status": "currently taking",
+        "impact check": true,
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "ventilin ",
+        "status": "currently taking",
+        "impact": "Maybe",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "head ache,nausea,vomiting",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache,nausea,vomiting",
+        "status": "No",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dizzyness",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dizzyness",
+        "status": "No",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever,chills",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever,chills",
+        "status": "No",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "status": "No",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "palpitation,sensation of chest",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "palpitation,sensation of chest",
+        "status": "No",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "bowel movement",
+        "status": "No",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "Changes inappetite",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "Changes inappetite",
+        "status": "No",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "smell problem,taste loss",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "smell problem,taste loss",
+        "status": "No",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "general",
+        "uid": "50"
+      },
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "ventilin,cortico steroid puffer",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "ventilin,cortico steroid puffer",
+        "status": "currently taking",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "ventilin,cortico steroid puffer",
+        "status": "currently taking",
+        "frequency check": true,
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "ventilin,cortico steroid puffer",
+        "status": "currently taking",
+        "frequency": "Daily",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "other": "confirmation for any other medication",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Multivitamins",
+        "status": "currently taking",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "status": "No",
+        "uid": "57"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "food allergy",
+        "status": "Yes",
+        "other": "strawberries and Kiwis",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "other": "Confirmation for the allergic reaction ",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "Hives",
+        "status": "Yes",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton",
+        "status": "No",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "status": "Yes",
+        "other": "live with parents and two siblings",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "other": "Confirmation for the sick",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "other": "everyones pretty healthy",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism,smoking,recreational drugs",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism,smoking,recreational drugs",
+        "status": "No",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "smoke",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "smoke",
+        "status": "No",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "heart disease,lung disease",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "heart disease,lung disease",
+        "status": "No",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "Confirmation for the other symptoms ",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "ventilin ",
+        "status": "currently taking",
+        "other": "future",
+        "uid": "78"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Physical exam ",
+        "other": "future ",
+        "uid": "78"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "oxygen saturation",
+        "other": "future",
+        "uid": "78"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "cortico steroids ",
+        "other": "future",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "salutations",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "bronchospasm / acute asthma exacerbation",
+        "ddx 2": "eosinophilia",
+        "ddx 3": "bronchiolitis",
+        "uid": "80"
+      }
+    ]
+  ]
+}

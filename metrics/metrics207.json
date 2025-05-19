@@ -1,0 +1,39 @@
+{
+  "precision": 0.9230769230769231,
+  "recall": 0.8888888888888888,
+  "f1_score": 0.9056603773584906,
+  "true_positives": 24,
+  "false_positives": 2,
+  "false_negatives": 3,
+  "total_items": 38,
+  "false_positive_details": [
+    {
+      "item": "Tingling",
+      "result_quotes": [
+        "Any numbness or tingling in your arms or feet?",
+        "Nope."
+      ]
+    },
+    {
+      "item": "Numbness",
+      "result_quotes": [
+        "Any numbness or tingling in your arms or feet?",
+        "Nope."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Sensitive To Allergies",
+      "truth_quotes": []
+    },
+    {
+      "item": "Paralysis General",
+      "truth_quotes": []
+    },
+    {
+      "item": "Allergy Medication",
+      "truth_quotes": []
+    }
+  ]
+}

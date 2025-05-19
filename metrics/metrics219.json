@@ -1,0 +1,27 @@
+{
+  "precision": 0.9565217391304348,
+  "recall": 0.9166666666666666,
+  "f1_score": 0.9361702127659574,
+  "true_positives": 22,
+  "false_positives": 1,
+  "false_negatives": 2,
+  "total_items": 36,
+  "false_positive_details": [
+    {
+      "item": "Lightheadedness",
+      "result_quotes": [
+        "Any feeling, any episodes where you feel like you were gonna faint?"
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    }
+  ]
+}

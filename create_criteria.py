@@ -4,12 +4,16 @@ import sys
 from typing import Dict, Any, List, Set
 import random
 from model_interface import ModelInterface, select_model
+from tiktoken import encoding_for_model  # Import for token counting
 
 # Configuration - Change this to set the conversation number
 CONVERSATION_NUMBER = "102"  # Edit this line to change conversation number
 
 # Path to the comprehensive symptoms file
 ALL_SYMPTOMS_FILE = "all_symptoms.json"  # Edit if your file is named differently
+
+# Token metrics directory
+TOKEN_METRICS_DIR = "token_metrics"  # Directory to store token metrics
 
 # Symptoms to always exclude (hardcoded)
 EXCLUDED_SYMPTOMS = {"general", "surgery", "recent hospitalizaiton", "past experience"} #made a big choice
@@ -121,6 +125,13 @@ Example response:
 }
 """
 
+    # Count tokens in the input
+    enc = encoding_for_model("gpt-4")
+    tokens_existing_symptoms = len(enc.encode(str(existing_list)))
+    tokens_additional_symptoms = len(enc.encode(str(additional_symptoms)))
+    tokens_prompt = len(enc.encode(prompt))
+    total_input_tokens = tokens_prompt + tokens_existing_symptoms + tokens_additional_symptoms
+    
     try:
         # Make API call
         response = model_interface.call_model(
@@ -128,6 +139,22 @@ Example response:
             user_message=prompt,
             response_type="json_object"
         )
+        
+        # Count tokens in the output
+        response_text = json.dumps(response)
+        output_tokens = len(enc.encode(response_text))
+        
+        # Save token metrics
+        save_token_metrics(CONVERSATION_NUMBER, model_interface.model_name, "filter_similar_symptoms", {
+            "input_tokens": {
+                "existing_symptoms": tokens_existing_symptoms,
+                "additional_symptoms": tokens_additional_symptoms,
+                "prompt": tokens_prompt,
+                "total": total_input_tokens
+            },
+            "output_tokens": output_tokens,
+            "total_tokens": total_input_tokens + output_tokens
+        })
         
         # Extract the filtered symptoms
         kept_symptoms = response.get("keep", [])
@@ -149,6 +176,195 @@ Example response:
         print("Continuing with unfiltered additional symptoms...")
         # As a fallback, just return the additional symptoms
         return additional_symptoms
+
+def save_token_metrics(conversation_id: str, model_name: str, operation: str, metrics: Dict[str, Any]) -> None:
+    """Save token metrics to a JSON file."""
+    # Create token metrics directory if it doesn't exist
+    os.makedirs(TOKEN_METRICS_DIR, exist_ok=True)
+    
+    # File path for token metrics
+    metrics_file = os.path.join(TOKEN_METRICS_DIR, f"token_metrics_criteria_{conversation_id}.json")
+    
+    # Add timestamp and model info
+    from datetime import datetime
+    metrics_data = {
+        "conversation_id": conversation_id,
+        "model": model_name,
+        "operation": operation,
+        "timestamp": datetime.now().isoformat(),
+        "metrics": metrics
+    }
+    
+    # Save metrics to file
+    with open(metrics_file, 'w', encoding='utf-8') as file:
+        json.dump(metrics_data, file, indent=2)
+    
+    print(f"Token metrics for criteria generation saved to {metrics_file}")
+    
+    # Update aggregated metrics file
+    update_aggregated_metrics()
+
+def update_aggregated_metrics() -> None:
+    """Update the aggregated token metrics file with data from all individual metrics files."""
+    aggregated_file = os.path.join(TOKEN_METRICS_DIR, "aggregated_token_metrics.json")
+    
+    # Check if aggregated file exists
+    if os.path.exists(aggregated_file):
+        try:
+            with open(aggregated_file, 'r', encoding='utf-8') as file:
+                aggregated_metrics = json.load(file)
+        except Exception as e:
+            print(f"Error reading aggregated metrics: {e}")
+            aggregated_metrics = {"conversation_metrics": []}
+    else:
+        aggregated_metrics = {"conversation_metrics": []}
+    
+    # Read all individual metrics files
+    all_metrics = aggregated_metrics.get("conversation_metrics", [])
+    
+    # Initialize counters for overall totals
+    total_input_tokens = 0
+    total_output_tokens = 0
+    
+    # Initialize counters for operation-specific totals
+    operation_totals = {
+        "results": {
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "total_tokens": 0,
+            "count": 0
+        },
+        "filter_similar_symptoms": {
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "total_tokens": 0,
+            "count": 0
+        }
+    }
+    
+    # Initialize model statistics
+    model_stats = {}
+    
+    # Get existing metrics from aggregated file
+    existing_ids = set()
+    for metric in all_metrics:
+        if "conversation_id" in metric and "operation" in metric:
+            existing_ids.add(f"{metric['conversation_id']}_{metric['operation']}")
+    
+    # Process all metrics files
+    new_metrics = []
+    for filename in os.listdir(TOKEN_METRICS_DIR):
+        # Check both results and criteria metrics files
+        if (filename.startswith("token_metrics_") and filename.endswith(".json") and 
+            not filename == "aggregated_token_metrics.json"):
+            
+            file_path = os.path.join(TOKEN_METRICS_DIR, filename)
+            try:
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    metrics_data = json.load(file)
+                    
+                    # Only add metrics if they aren't already in the aggregated file
+                    metric_id = f"{metrics_data.get('conversation_id', '')}_{metrics_data.get('operation', '')}"
+                    if metric_id not in existing_ids:
+                        new_metrics.append(metrics_data)
+                        existing_ids.add(metric_id)
+            except Exception as e:
+                print(f"Error reading metrics file {filename}: {e}")
+    
+    # Add new metrics to existing ones
+    all_metrics.extend(new_metrics)
+    
+    # Recalculate totals
+    for metrics_data in all_metrics:
+        metrics = metrics_data.get("metrics", {})
+        operation = metrics_data.get("operation", "results")  # Default to results if not specified
+        
+        # Normalize operation names for consistency
+        if "criteria" in operation.lower():
+            operation = "filter_similar_symptoms"
+        elif operation == "":
+            operation = "results"
+        
+        # Extract input tokens - handle different formats
+        input_tokens = 0
+        if isinstance(metrics.get("input_tokens"), dict):
+            input_tokens = metrics.get("input_tokens", {}).get("total", 0)
+        elif isinstance(metrics.get("input_tokens"), (int, float)):
+            input_tokens = metrics.get("input_tokens", 0)
+        
+        output_tokens = metrics.get("output_tokens", 0)
+        
+        # Update total counters
+        total_input_tokens += input_tokens
+        total_output_tokens += output_tokens
+        
+        # Update operation-specific counters
+        if operation in operation_totals:
+            operation_totals[operation]["input_tokens"] += input_tokens
+            operation_totals[operation]["output_tokens"] += output_tokens
+            operation_totals[operation]["total_tokens"] += (input_tokens + output_tokens)
+            operation_totals[operation]["count"] += 1
+        
+        # Update model-specific stats
+        model_name = metrics_data.get("model", "unknown")
+        if model_name not in model_stats:
+            model_stats[model_name] = {
+                "conversations": 0,
+                "input_tokens": 0,
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "operations": {
+                    "results": {"input_tokens": 0, "output_tokens": 0, "count": 0},
+                    "filter_similar_symptoms": {"input_tokens": 0, "output_tokens": 0, "count": 0}
+                }
+            }
+        
+        # Update model totals
+        model_stats[model_name]["conversations"] += 1
+        model_stats[model_name]["input_tokens"] += input_tokens
+        model_stats[model_name]["output_tokens"] += output_tokens
+        model_stats[model_name]["total_tokens"] += input_tokens + output_tokens
+        
+        # Update model operation-specific counters
+        if operation in model_stats[model_name]["operations"]:
+            model_stats[model_name]["operations"][operation]["input_tokens"] += input_tokens
+            model_stats[model_name]["operations"][operation]["output_tokens"] += output_tokens
+            model_stats[model_name]["operations"][operation]["count"] += 1
+    
+    # Calculate averages for operations
+    for op, totals in operation_totals.items():
+        if totals["count"] > 0:
+            totals["avg_input_tokens"] = totals["input_tokens"] / totals["count"]
+            totals["avg_output_tokens"] = totals["output_tokens"] / totals["count"]
+            totals["avg_total_tokens"] = totals["total_tokens"] / totals["count"]
+    
+    # Create aggregated metrics
+    from datetime import datetime
+    aggregated_metrics = {
+        "updated_at": datetime.now().isoformat(),
+        "total_conversations": len(set(m.get("conversation_id", "") for m in all_metrics)),
+        "total_operations": len(all_metrics),
+        "total_input_tokens": total_input_tokens,
+        "total_output_tokens": total_output_tokens,
+        "total_tokens": total_input_tokens + total_output_tokens,
+        "average_input_tokens_per_operation": total_input_tokens / len(all_metrics) if all_metrics else 0,
+        "average_output_tokens_per_operation": total_output_tokens / len(all_metrics) if all_metrics else 0,
+        
+        # Add operation-specific totals
+        "operation_totals": operation_totals,
+        
+        # Model statistics with operation breakdowns
+        "model_statistics": model_stats,
+        
+        # Individual metrics
+        "conversation_metrics": all_metrics
+    }
+    
+    # Save aggregated metrics
+    with open(aggregated_file, 'w', encoding='utf-8') as file:
+        json.dump(aggregated_metrics, file, indent=2)
+    
+    print(f"Updated aggregated token metrics in {aggregated_file}")
 
 def generate_criteria_from_annotations(annotations_file: str, output_file: str, model_interface: ModelInterface, all_symptoms_file: str = ALL_SYMPTOMS_FILE) -> List[str]:
     """Generate criteria list from annotations file and add symptoms from all_symptoms."""
@@ -239,8 +455,14 @@ def main():
         if api_key_index + 1 < len(sys.argv):
             api_key = sys.argv[api_key_index + 1]
     
-    # Select model interactively
-    selected_model = select_model()
+    # Select model interactively or from environment
+    model_from_env = os.environ.get('SELECTED_MODEL')
+    if model_from_env:
+        selected_model = model_from_env
+        print(f"Using model specified in environment: {selected_model}")
+    else:
+        # Select model interactively
+        selected_model = select_model()
     
     # Initialize model interface
     try:

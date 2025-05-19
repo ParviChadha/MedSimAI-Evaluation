@@ -1,0 +1,58 @@
+{
+  "precision": 0.8333333333333334,
+  "recall": 0.967741935483871,
+  "f1_score": 0.8955223880597015,
+  "true_positives": 30,
+  "false_positives": 6,
+  "false_negatives": 1,
+  "total_items": 62,
+  "false_positive_details": [
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Patient: Uh, so yeah, my dad had quite a few problems. He had type 2 diabetes then he suffered from 2 strokes and then he also had a heart attack uh, in I think when he was like 56.",
+        "Medical Student: OK. How about your mother? Is she alive? Is she healthy?",
+        "Patient: Um, my mom is alive, but she suffered from Type 2 diabetes and high blood pressure as well."
+      ]
+    },
+    {
+      "item": "Eye Pain",
+      "result_quotes": [
+        "Medical Student: Changes in your vision or eye pain?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Vaccine Related Reaction",
+      "result_quotes": [
+        "Medical Student: Are you up to date with all of your immunizations?",
+        "Patient: Yeah I got my shingles and my pneumonia vaccination everything like that."
+      ]
+    },
+    {
+      "item": "Impending Doom Anxiety",
+      "result_quotes": [
+        "Patient: Uh, no, I just it's been going on for two years and I feel like it's getting worse and worse. And yeah, I'm just scared of having to, you know, go on oxygen or like just not being able to breathe at one point."
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "Patient: It's I think it's more so just I can't catch my breath and sometimes I just have trouble being able to take like a full breath."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "Medical Student: Runny nose or stuffy nose?",
+        "Patient: Nope, not that I know of."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    }
+  ]
+}

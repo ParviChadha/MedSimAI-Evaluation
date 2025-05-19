@@ -1,0 +1,59 @@
+{
+  "precision": 0.75,
+  "recall": 0.9,
+  "f1_score": 0.8181818181818182,
+  "true_positives": 18,
+  "false_positives": 6,
+  "false_negatives": 2,
+  "total_items": 40,
+  "false_positive_details": [
+    {
+      "item": "Tearing",
+      "result_quotes": [
+        "my eyes get like red and teary sometimes."
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "do you have any past medical conditions that you have been diagnosed with like asthma, eczema, anything like that?",
+        "you might have something called like allergic rhinitis"
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "OK, and are there any besides during the spring time, any kind of allergens or any anything in the house or around you that triggers it, like dust or anything like that?",
+        "Yeah, dust makes it a lot worse."
+      ]
+    },
+    {
+      "item": "Teary Eyes",
+      "result_quotes": [
+        "my eyes get like red and teary sometimes."
+      ]
+    },
+    {
+      "item": "Itching",
+      "result_quotes": [
+        "sometimes it's just like my eyes and my nose are just itchy"
+      ]
+    },
+    {
+      "item": "Sexually Transmitted Infection",
+      "result_quotes": [
+        "no OK, and are you sexually active?"
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    }
+  ]
+}

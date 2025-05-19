@@ -1,0 +1,41 @@
+{
+  "precision": 0.8181818181818182,
+  "recall": 0.9473684210526315,
+  "f1_score": 0.8780487804878049,
+  "true_positives": 18,
+  "false_positives": 4,
+  "false_negatives": 1,
+  "total_items": 38,
+  "false_positive_details": [
+    {
+      "item": "Redness",
+      "result_quotes": [
+        "Any redness in the eyes?"
+      ]
+    },
+    {
+      "item": "Dehydration",
+      "result_quotes": [
+        "I usually get them when I'm dehydrated."
+      ]
+    },
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "Yeah, I've been really tired."
+      ]
+    },
+    {
+      "item": "Respiratory Distress Syndrome",
+      "result_quotes": [
+        "I've been having this cough that's been going on for the last few days and I have had difficulty breathing."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    }
+  ]
+}

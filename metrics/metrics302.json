@@ -1,0 +1,32 @@
+{
+  "precision": 0.88,
+  "recall": 1.0,
+  "f1_score": 0.9361702127659575,
+  "true_positives": 22,
+  "false_positives": 3,
+  "false_negatives": 0,
+  "total_items": 44,
+  "false_positive_details": [
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "**Patient: **But just in the last like 3 days I feel like it's gotten a lot worse. You know, I, I feel like I'm coughing more often and I'm now, uh, kind of producing more sputum."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "**Medical Student: **No OK, any muscle aches in your body?",
+        "**Patient: **Uh no."
+      ]
+    },
+    {
+      "item": "Hyperhidrosis",
+      "result_quotes": [
+        "**Medical Student: **Have you had any night sweats where you feel like you're drenched in sweat at night?",
+        "**Patient: **Uh, no, nothing like that."
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

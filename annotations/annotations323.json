@@ -1,0 +1,896 @@
+{
+  "323": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "characteristics check": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "some gunk",
+        "characteristics status": "yes",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "color check": true,
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "color": "gunk is green, sometimes yellowish",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "status": "No",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "volume check": true,
+        "frequency check": true,
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "volume": "not much",
+        "frequency": "couple of kleenexes",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "when check": true,
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "when": "past few years",
+        "ana factors": "cough getting worse",
+        "ana factors status": "yes aggravating",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "frequency check": true,
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "ana factors": "worse in the morning",
+        "ana factors status": "yes aggravating",
+        "frequency": "throughout the day",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "ana factors check": true,
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "ana factors": "worse in the morning",
+        "ana factors status": "yes aggravating",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "ana factors check": true,
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "when": "last few years",
+        "ana factors": "getting worse",
+        "ana factors status": "yes aggravating",
+        "other": "coughs is getting worse Slowly ",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "past experience",
+        "status": "Yes",
+        "when": "last few years",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "ana factors check": true,
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "ana factors": "deep breathing",
+        "ana factors status": "yes aggravating",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "runny nose, sore throat, dyspnea",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "runny nose, sore throat, dyspnea",
+        "status": "No",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "travel",
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "No",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever, chills",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever, chills",
+        "status": "No",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sleep hydrosis",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sleep hydrosis",
+        "status": "No",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "status": "Yes",
+        "when": "last few months",
+        "other": "patient feel low energy from last few month",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "swelling",
+        "location": "hand, feet, ankles",
+        "location check": true,
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "weight gain",
+        "status": "Yes",
+        "other": "a few pounds over the years",
+        "uid": "33"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "swelling",
+        "status": "Yes",
+        "location": "hand, feet, ankles",
+        "other": "a little swollen",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "palpitation, chest pain",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "palpitation, chest pain",
+        "status": "No",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "other": "if patient walk a few blocks or go up a few flights of stairs ",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "urination",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "urination",
+        "status": "Yes",
+        "frequency": "a lot to use the bathroom only at night time",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "constipation,bowel movement,diarrhoea",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "constipation,bowel movement,diarrhoea",
+        "status": "No",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fatigue sleep",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fatigue sleep",
+        "status": "Yes",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sleep dyspnea",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sleep dyspnea",
+        "status": "No",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "other",
+        "other information": "use a multiple pillows",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "other",
+        "other information": "patient use one pillow",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "unexplained weight loss,weight gain",
+        "when": "last few months",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "Yes",
+        "when": "last few months",
+        "other": "maybe lost 5 pounds",
+        "uid": "49"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "weight gain",
+        "status": "No",
+        "when": "last few months",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "loss of appetite",
+        "status": "No",
+        "other": "patient eating normally",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "recent infections",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "recent infections",
+        "status": "No",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "runny nose,sore throat,viral symptom",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "runny nose,sore throat,viral symptom",
+        "status": "No",
+        "other": "patient feeling good",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "other": "tuberculosis in the past",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "other": "tuberculosis in the past",
+        "uid": "57"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "tuberculosis test ",
+        "status": "Yes",
+        "other": "tuberculosis test was normal",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "high bp,diabetes",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "high bp",
+        "status": "The patient still suffers from the condition.",
+        "when": "last few years",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "response to": "high blood pressure",
+        "response to check": true,
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Lisinopril",
+        "status": "currently taking",
+        "response to": "high blood pressure",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton",
+        "status": "No",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "other": "sick person",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "other": "sick person",
+        "uid": "67"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton",
+        "status": "No",
+        "uid": "67"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "c-section",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "hospitalizaiton",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "hospitalizaiton",
+        "status": "No",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "surgery",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery",
+        "status": "No",
+        "other": "no other surgery",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "cardiovascular disease,cancer",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "heart attack",
+        "status": "Yes",
+        "relation": "father",
+        "other": "at the age of 78",
+        "uid": "73"
+      },
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "cancer",
+        "status": "No",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "asthma",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "asthma",
+        "status": "No",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "value": "apartment",
+        "status": "Yes",
+        "other": "patient live with husband and daughter",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "occupation",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "occupation",
+        "value": "work at the local grocery store",
+        "status": "Yes",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "discussion about  diet and exercise",
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "discussion about  diet and exercise",
+        "uid": "81"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "recreational drugs,marijuana",
+        "uid": "82"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "recreational drugs,marijuana",
+        "status": "No",
+        "uid": "83"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "uid": "84"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "Yes",
+        "frquency": "three or four nights a week",
+        "other": "A glass of wine",
+        "uid": "85"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "other": "inquire about quantity of wine",
+        "uid": "86"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "Yes",
+        "other": "5 or 6 ounces in a glass of wine",
+        "uid": "87"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "uid": "88"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "other": "smoke cigarettes",
+        "uid": "89",
+        "status": "Yes"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "frquency check": true,
+        "other": "how much smoking in a day",
+        "uid": "90"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "Yes",
+        "frquency": "one to two packs of cigarettes per day",
+        "other": "patient smoking cigarettes for the last nearly 40 years",
+        "uid": "91"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "acute copd exacerbation / infection",
+        "ddx 2": "pneumonia",
+        "ddx 3": "bronchiolitis",
+        "ddx 4": "bronchiectasis",
+        "ddx 5": "bronchitis",
+        "uid": "92"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "precision": 0.8571428571428571,
+  "recall": 0.9230769230769231,
+  "f1_score": 0.888888888888889,
+  "true_positives": 12,
+  "false_positives": 2,
+  "false_negatives": 1,
+  "total_items": 26,
+  "false_positive_details": [
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "I first noticed that my throat was kind of scratchy and then I started coughing, but it's really like dry."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "My throat feels really scratchy."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Aches",
+      "truth_quotes": []
+    }
+  ]
+}

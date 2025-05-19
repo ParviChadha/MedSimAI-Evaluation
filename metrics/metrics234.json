@@ -1,0 +1,32 @@
+{
+  "precision": 0.9285714285714286,
+  "recall": 0.8125,
+  "f1_score": 0.8666666666666666,
+  "true_positives": 13,
+  "false_positives": 1,
+  "false_negatives": 3,
+  "total_items": 32,
+  "false_positive_details": [
+    {
+      "item": "Dehydration",
+      "result_quotes": [
+        "OK, and have you been able to eat and drink during this time period?",
+        "So you're still able to swallow food, swallow liquids?"
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    }
+  ]
+}

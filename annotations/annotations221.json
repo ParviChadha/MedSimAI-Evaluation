@@ -1,0 +1,858 @@
+{
+  "221": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "other": "Confirmation for the location",
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "location": "side of the chest(L)",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "characteristics check": true,
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "characteristics": "stabbing ",
+        "characteristics status": "yes",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "severity": true,
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "severity": "6",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "when check": true,
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "when": "morning",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain,tightness",
+        "status": "Yes",
+        "location": "side of the chest(L)",
+        "when": "morning",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "location": "side of the chest(L)",
+        "when check": true,
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "location": "side of the chest(L)",
+        "when": "6 hours ago ",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "location": "side of the chest(L)",
+        "progression check": true,
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "location": "side of the chest(L)",
+        "progression": "rapidly getting worse over time",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "past experience",
+        "status": "No",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "other": "confirmation for radiating of the pain",
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "other": "confirmation for radiating of the pain : no",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "location": "side of the chest(L)",
+        "ana factors check": true,
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "location": "side of the chest(L)",
+        "ana factors": "Sitting up",
+        "ana factors status": "yes alleviating",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "location": "side of the chest(L)",
+        "ana factors check": true,
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "ana factors": "breathe in",
+        "ana factors status": "yes aggravating",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "characteristics check": true,
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "Yes",
+        "characteristics": "stabbing",
+        "characteristics status": "yes",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea,cough",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "trauma,injury in chest",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "trauma,injury in chest",
+        "status": "No",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "travel",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "Yes",
+        "destination": "Italy",
+        "when": "for the past three weeks ",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "nausea,vomiting,fever,chills",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nausea,vomiting,fever",
+        "status": "No",
+        "uid": "33"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chills",
+        "status": "Yes",
+        "when": "last few days",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "swelling",
+        "location": "feet,ankles",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "swelling",
+        "status": "Yes",
+        "location": "legs",
+        "uid": "35"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "swelling",
+        "status": "No",
+        "location": "feet,ankles",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "status": "Yes",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "palpitation",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "palpitation",
+        "status": "Yes",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "other": "confirmation for the rashes.",
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "No",
+        "other": "No rashes ",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "when": "since last week ",
+        "progression": "gradually getting worse over time",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "color check": true,
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "Dry cough",
+        "characteristics status": "yes",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hemoptysis",
+        "status": "No",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "infections",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "runny nose,sore throat,head ache",
+        "status": "The patient sufferred from the condition in the past.",
+        "when": "2 weeks ago ",
+        "other": "patient feel better now",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "runny nose,sore throat,head ache",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "runny nose,sore throat,head ache",
+        "status": "no",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dizzyness",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dizzyness",
+        "status": "Yes",
+        "ana factors": "pain",
+        "ana factors status": "yes aggravating",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "legs",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "leg(L)",
+        "when": "past few days",
+        "other": "past few days",
+        "uid": "57"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "widespread pain",
+        "status": "Yes",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "widespread pain",
+        "other": "confirmation for the location of the pain ",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain ",
+        "status": "Yes",
+        "location": "calf",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "hypertension,diabetes",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "hypertension,diabetes",
+        "status": "No",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy medication",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "birth control,multi vitamins",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "birth control,multi vitamins",
+        "status": "currently taking",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "birth control",
+        "status": "currently taking",
+        "since when check": true,
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "birth control",
+        "status": "currently taking",
+        "since when": "for two years",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "recent hospitalizaiton",
+        "status": "No",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "No",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "surgery",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery",
+        "status": "No",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "value": "heart attack,cancers",
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "cancers",
+        "status": "Yes",
+        "relation": "Mother",
+        "other": "when she was 43",
+        "uid": "75"
+      },
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "heart attack ",
+        "status": "Yes",
+        "relation": "Grand mother  ",
+        "other": "in her 50s",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "residence",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "residence",
+        "value": "apartment",
+        "status": "Yes",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "occupation",
+        "uid": "78"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "occupation",
+        "value": "retail store as a manager",
+        "status": "Yes",
+        "uid": "79"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "uid": "80"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "Maybe",
+        "uid": "81"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "marijuana",
+        "uid": "82"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "marijuana",
+        "status": "No",
+        "uid": "83"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "uid": "84"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "Yes",
+        "frquency": "2 packs of cigarettes per day",
+        "when": "smoking since I was 12",
+        "uid": "85"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "86"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "no exercises ",
+        "uid": "87"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "Confirmation about daily diet ",
+        "uid": "88"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "A lot of fast food,  A lot of fatty food in the diet ",
+        "uid": "89"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "acute copd exacerbation / infection",
+        "ddx 2": "pneumonia",
+        "ddx 3": "bronchiolitis",
+        "ddx 4": "COVID",
+        "ddx 5": "Chronic heart failure",
+        "uid": "90"
+      }
+    ]
+  ]
+}

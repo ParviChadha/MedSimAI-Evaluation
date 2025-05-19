@@ -1,0 +1,804 @@
+{
+  "304": [
+    [
+      {
+        "intent": "salutations",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "when": "few days ago",
+        "uid": "1"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "when check": true,
+        "uid": "2"
+      },
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "when check": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "when": "3 days ago",
+        "uid": "3"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "when": "3 days ago",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "ana factors check": true,
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "ana factors": "cough weight lift bowel movement",
+        "ana factors status": "yes aggravating",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "ana factors": "physical exertion",
+        "ana factors check": true,
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "ana factors": "physical exertion",
+        "ana factors status": "no aggravating",
+        "other": "able to do the same amounts of of activity",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "severity": true,
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "severity": "1",
+        "severity criterion": "mMRC",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "characteristics": "dry cough or wet cough",
+        "characteristics check": true,
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "Yes",
+        "characteristics": "dry cough",
+        "characteristics status": "yes",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "colored/excess sputum",
+        "status": "No",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "response to": "cough",
+        "response to check": true,
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "over the counter",
+        "status": "took in the past",
+        "impact": "No",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fatigue extended",
+        "status": "Yes",
+        "uid": "17"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "Yes",
+        "when": "few days ago",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "head ache",
+        "characteristics check": true,
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "Yes",
+        "location": "top of the head,sides of the head",
+        "characteristics": "squeezing headache",
+        "characteristics status": "yes",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "head ache",
+        "status": "The patient still suffers from the condition.",
+        "when": "2-3 days ago",
+        "other": " when dehydrated or haven't slept well",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "pain medication",
+        "response to": "headache",
+        "response to check": true,
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Advil",
+        "status": "currently taking",
+        "impact": "Yes",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "all",
+        "progression": "gradually getting worse over time",
+        "progression check": true,
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough,dyspnea",
+        "status": "Yes",
+        "progression": "gradually getting worse over time",
+        "other": "getting worse over these last few days",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chills",
+        "uid": "26"
+      },
+      {
+        "intent": "inquire",
+        "slot": "medical test",
+        "name": "temperature check",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "temperature check",
+        "status": "No",
+        "uid": "27"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "Yes",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "temperature check",
+        "other": "can check the temperature",
+        "uid": "28"
+      },
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "pain",
+        "location": "muscle",
+        "location check": true,
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "pain",
+        "status": "Yes",
+        "location": "muscle",
+        "other": "felt a bit achy",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "eye redness",
+        "uid": "30"
+      },
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "runny nose,sore throat,flu-like symptoms",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "nasal congestion,runny nose",
+        "status": "Not sure",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "smell problem",
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "smell problem",
+        "status": "No",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "taste loss",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "taste loss",
+        "status": "Yes",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom (dermatology)",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom (dermatology)",
+        "status": "No",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "bowel movement,diarrhoea,constipation",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "bowel movement,diarrhoea,constipation",
+        "status": "No",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "No",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "when": "past three days",
+        "when check": true,
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "head ache",
+        "status": "Yes",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "asthma, GERD",
+        "status": "Yes",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "characteristics": "feel similar to the asthma attacks",
+        "characteristics check": true,
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "characteristics": "feel similar to the asthma attacks",
+        "characteristics status": "no",
+        "other": "haven't had any issues with like asthma attacks in a long time",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "inhaler",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "inhaler",
+        "status": "currently taking",
+        "other": "not uses it very often",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "inhaler",
+        "other": "use it over the past three days at all?",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "inhaler",
+        "status": "currently taking",
+        "impact": "No",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "surgery",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "surgery",
+        "status": "No",
+        "uid": "53"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "colonoscopy",
+        "status": "Yes",
+        "other": "two years ago",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "colonoscopy",
+        "other": "reason for colonoscopy",
+        "other check": true,
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "value": "colon cancer",
+        "status": "Yes",
+        "relation": "father",
+        "other": "had a colon cancer when he was in his 60s",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "hospitalizaiton",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "hospitalizaiton",
+        "status": "No",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "over the counter pills",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": " Zantac,Tums",
+        "status": "currently taking",
+        "response to": "reflux",
+        "frequency": "sometimes ",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "food allergy,allergy medication,environmental allergies",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "environmental allergies",
+        "status": "Yes",
+        "other": " usually come on in the springtime",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "family history",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "family history",
+        "status": "No",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "No",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "marijuana",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "marijuana",
+        "status": "No",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "alcoholism",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "Maybe",
+        "status criterion": "CAGE",
+        "other": "wine on the weekends, maybe a glass or two with dinner",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "status": "No",
+        "frquency": "once or twice ",
+        "other": "when the patient was in college",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "person",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "occupation",
+        "other": "working from home",
+        "uid": "73"
+      },
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "person",
+        "status": "Maybe",
+        "other": "patient went to a few stores",
+        "uid": "73"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "travel",
+        "status check": true,
+        "uid": "74"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "travel",
+        "status": "No",
+        "uid": "75"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": " physical exam",
+        "other": "will be performed in this visit",
+        "uid": "76"
+      },
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "management ",
+        "uid": "76"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "": "undefined",
+        "uid": "77"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "bronchospasm / acute asthma exacerbation",
+        "ddx 2": "GERD exacerbation",
+        "ddx 3": "Upper respiratory tract infection",
+        "ddx 4": "Covid",
+        "ddx 5": "Allergic rhinitis",
+        "uid": "78"
+      }
+    ]
+  ]
+}

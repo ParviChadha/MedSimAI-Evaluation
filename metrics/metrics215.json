@@ -1,0 +1,24 @@
+{
+  "precision": 0.9565217391304348,
+  "recall": 0.9565217391304348,
+  "f1_score": 0.9565217391304348,
+  "true_positives": 22,
+  "false_positives": 1,
+  "false_negatives": 1,
+  "total_items": 32,
+  "false_positive_details": [
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "OK. And so it's been a wet cough. Do you release any kind of like phlegm or sputum?",
+        "Um, yeah, it's usually clear, but sometimes it can look yellow or green."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Coughing Fit",
+      "truth_quotes": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "precision": 0.8787878787878788,
+  "recall": 0.9354838709677419,
+  "f1_score": 0.90625,
+  "true_positives": 29,
+  "false_positives": 4,
+  "false_negatives": 2,
+  "total_items": 53,
+  "false_positive_details": [
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "we will check that for sure.... possible pneumonia or, maybe a viral infection as well, which could include something like COVID-19"
+      ]
+    },
+    {
+      "item": "Respiratory Distress Syndrome",
+      "result_quotes": [
+        "I'm also having a hard time breathing so thought I should check it out."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Alright, and so you haven't been bringing up any sputum or or any blood?"
+      ]
+    },
+    {
+      "item": "Lethargic",
+      "result_quotes": [
+        "Just just some fatigue, some tiredness."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Rapid Breathing",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    }
+  ]
+}

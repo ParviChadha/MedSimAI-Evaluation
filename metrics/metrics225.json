@@ -1,0 +1,48 @@
+{
+  "precision": 0.8518518518518519,
+  "recall": 0.92,
+  "f1_score": 0.8846153846153846,
+  "true_positives": 23,
+  "false_positives": 4,
+  "false_negatives": 2,
+  "total_items": 37,
+  "false_positive_details": [
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "Patient: Yeah, it's been there for about two, yeah about two or three days. I wake up in the morning and I've been feeling like really fatigued and achy."
+      ]
+    },
+    {
+      "item": "Lightheadedness",
+      "result_quotes": [
+        "Medical Student: Okay. Um, any dizziness or fainting spells?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Medical Student: Sore throat?",
+        "Patient: Um, yeah, now that you mention it, I have had a little bit of a sore throat as well."
+      ]
+    },
+    {
+      "item": "Tingling",
+      "result_quotes": [
+        "Medical Student: Uh, numbness or tingling?",
+        "Patient: No."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Paralysis General",
+      "truth_quotes": []
+    }
+  ]
+}
