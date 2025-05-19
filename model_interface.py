@@ -3,11 +3,50 @@ import sys
 import json
 import importlib
 import time
+import re
 from typing import Dict, Any, List, Optional
 
 # Add these imports for proper multiprocessing support
 import multiprocessing
 from functools import partial
+
+def parse_json(response):
+    """
+    Parse JSON from a response that might include markdown formatting.
+    
+    Parameters:
+        response (str): The response text, potentially containing markdown code blocks
+        
+    Returns:
+        dict: The parsed JSON object, or an error object if parsing fails
+    """
+    try:
+        # First, check if the response contains a markdown JSON code block
+        if "```json" in response:
+            # Extract the JSON from the markdown code block
+            match = re.search(r'```json\n([\s\S]*?)\n```', response)
+            if match:
+                json_content = match.group(1).strip()
+                return json.loads(json_content)
+        
+        # If no markdown block or couldn't extract, try to find JSON object directly
+        json_match = re.search(r'(\{[\s\S]*\})', response)
+        if json_match:
+            json_content = json_match.group(1)
+            return json.loads(json_content)
+        
+        # If all else fails, try to parse the entire response
+        return json.loads(response)
+    
+    except (json.JSONDecodeError, ValueError) as e:
+        print(f"JSON parsing error: {e}")
+        print(f"Response excerpt: {response[:200]}...")
+        # Return a valid but empty structure to avoid null reference errors
+        return {
+            "medical_history_assessed": {},
+            "error": "Failed to parse JSON response",
+            "raw_content": response[:1000]  # Include truncated content for debugging
+        }
 
 # Dynamically import libraries if available
 def safe_import(module_name):
@@ -371,7 +410,7 @@ class ModelInterface:
             full_prompt += "\n\nRespond with valid JSON only."
         
         response = self.client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-pro-exp-03-25",
             contents=full_prompt,
         )
         
@@ -396,15 +435,68 @@ class ModelInterface:
         if response_type == "json_object":
             messages[0]["content"] += "\n\nYou must respond with valid JSON only."
         
-        response = self.client.chat.completions.create(
-            model="accounts/fireworks/models/llama-v3p3-70b-instruct",
-            messages=messages,
-        )
+        try:
+            response = self.client.chat.completions.create(
+                model="accounts/fireworks/models/llama4-scout-instruct-basic",
+                messages=messages,
+                max_tokens=4096
+            )
         
-        content = response.choices[0].message.content
-        if response_type == "json_object":
-            return json.loads(content)
-        return content
+            content = response.choices[0].message.content
+        
+            # Log the content for debugging
+            with open("fireworks_content.log", "a") as log_file:
+                log_file.write(f"Raw Fireworks content: {content}\n\n")
+            
+            if response_type == "json_object":
+                # Parse the JSON content
+                parsed_content = parse_json(content)
+                
+                # Log the parsed content for debugging
+                with open("fireworks_parsed.log", "a") as log_file:
+                    log_file.write(f"Parsed content: {parsed_content}\n\n")
+                
+                return parsed_content
+            
+            return content
+    
+        except Exception as e:
+            print(f"Error in Fireworks API call: {e}")
+            with open("fireworks_error.log", "a") as log_file:
+                log_file.write(f"Error: {e}\n\n")
+            
+            # Return an empty structure to avoid downstream errors
+            if response_type == "json_object":
+                return {
+                    "medical_history_assessed": {},
+                    "error": f"API error: {str(e)}"
+                }
+            
+            return f"Error: {str(e)}"
+
+    
+        # create log file if it doesn't exist
+        # if not os.path.exists("fireworks_response.log"):
+        #     with open("fireworks_response.log", "w") as log_file:
+        #         log_file.write("Fireworks response log\n")
+        # # send response to a log file
+        # with open("fireworks_response.log", "a") as log_file:
+        #     log_file.write(f"Fireworks response: {response}\n")
+
+        
+        #content = response.choices[0].message.content
+        #content = parse_json(response.choices[0].message.content)
+        # #create log file if it doesn't exist
+        # if not os.path.exists("fireworks_content.log"):
+        #     with open("fireworks_content.log", "w") as log_file:
+        #         log_file.write("Fireworks content log\n")
+        # # send content to a log file
+        # with open("fireworks_content.log", "a") as log_file:
+        #     log_file.write(f"Fireworks content: {content}\n")
+
+        # if response_type == "json_object":
+        #     return json.loads(content)
+        # return content
 
 # Helper function for process_conversation that creates its own ModelInterface
 def process_conversation_worker(conv_id, model_name, api_key=None):

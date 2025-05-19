@@ -73,16 +73,33 @@ def evaluate_medical_history(transcript: str, symptoms: List[str], model_interfa
     enc = encoding_for_model("gpt-4")
     num_tokens = len(enc.encode(transcript))
     num_tokens_prompt = len(enc.encode(prompt))
-    print(f"Number of tokens in transcript: {num_tokens}")
-    print(f"Number of tokens in prompt: {num_tokens_prompt}")
+    # create a log file if it does not exist
+    if not os.path.exists("log.txt"):
+        with open("log.txt", "w") as log_file:
+            log_file.write("Model\tNum Tokens\tNum Tokens Prompt\n")
+    # append the number of tokens to the log file
+    with open("log.txt", "a") as log_file:
+        log_file.write(f"{model_interface.model_name}\t{num_tokens}\t{num_tokens_prompt}\n")
+
     # Make API call
     response = model_interface.call_model(
         system_prompt=prompt,
         user_message=transcript,
         response_type="json_object"
     )
-    
+
+    #log the response in the log file
+    with open("log.txt", "a") as log_file:
+        log_file.write(f"{model_interface.model_name}\t{response}\n")
+
+    num_tokens_response = len(enc.encode(json.dumps(response)))
+    # append the number of tokens to the log file
+    with open("log.txt", "a") as log_file:  
+        log_file.write(f"{model_interface.model_name}\t{num_tokens_response}\n")
+
     return response
+   
+
 
 def save_results(results: Dict[str, Any], output_file: str) -> None:
     """Save evaluation results to a JSON file."""

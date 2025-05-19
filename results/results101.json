@@ -1,5 +1,9 @@
 {
   "medical_history_assessed": {
+    "change_in_taste": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
@@ -7,7 +11,8 @@
     "discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, so I mean sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color."
+        "sometimes I produce sputum and sometimes I don't.",
+        "It's uh, white and whiteish clear in color."
       ]
     },
     "grunting": {
@@ -18,11 +23,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "itching": {
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lightheadedness": {
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -33,15 +42,14 @@
     "odynophagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And do you have any difficulty, uh, swallowing at all?",
-        "Patient: It's a little sore, but, uh, it's been OK, to eat and drink."
+        "It's a little sore, but, uh, it's been OK, to eat and drink."
       ]
     },
     "phlegm": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and it's been going on for more than a week. Has it been getting worse?",
-        "Patient: It got a little bit worse at first, but then it's been kind of the same."
+        "I produce sputum and sometimes I don't.",
+        "maybe a little yellowish."
       ]
     },
     "respiratory_distress_syndrome": {
@@ -63,8 +71,16 @@
     "throat_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've had, um, a sore throat."
+        "I've had, um, a sore throat."
       ]
+    },
+    "vomiting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "No",
@@ -73,20 +89,19 @@
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, It does feel sore, kind of, uh, the center of my chest."
+        "Yeah, It does feel sore, kind of, uh, the center of my chest."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, I've felt chills."
+        "I've felt chills."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, have you noticed at all, um, like green or yellow color of your sputum?",
-        "Patient: Uh, No blood, and maybe a little yellowish."
+        "maybe a little yellowish."
       ]
     },
     "constipation": {
@@ -96,7 +111,7 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've had this cough for over a week now, and it just hasn't gone away."
+        "I've had this cough for over a week now, and it just hasn't gone away."
       ]
     },
     "diarrhoea": {
@@ -111,19 +126,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "fatigue_extended": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fatigue_sleep": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've been really tired, I've been needing naps and not feeling rested in the morning."
+        "I've been really tired, I've been been needing naps and not feeling rested in the morning."
       ]
+    },
+    "fatigue_sleep": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "No",
@@ -132,7 +143,7 @@
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: So it's been, uh, kind of off and on over the past, uh, week or so. Um, feels like a like a pressure sensation..."
+        "it's been, uh, kind of off and on over the past, uh, week or so."
       ]
     },
     "hemoptysis": {
@@ -143,15 +154,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "motor_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "nasal_congestion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "nause": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -159,44 +162,17 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "redness_in_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And have you noticed any kind of redness in your throat or any swelling around your neck?",
-        "Patient: No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."
+        "I couldn't really notice anything that looked red."
       ]
     },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensitivity_to_allergies": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "maybe like a month ago I had like a runny nose for a couple of days."
+      ]
     },
     "sleep_hydrosis": {
       "assessed": "No",
@@ -209,7 +185,7 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've had, um, a sore throat."
+        "I've had, um, a sore throat."
       ]
     },
     "swelling": {
@@ -217,22 +193,6 @@
       "example_quotes": []
     },
     "taste_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "teary_eyes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tightness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -244,14 +204,10 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: I forgot to ask you this earlier. Have you been experiencing any wheezing?"
+        "Yeah I have noticed a bit of a wheeze, yes."
       ]
     }
   }

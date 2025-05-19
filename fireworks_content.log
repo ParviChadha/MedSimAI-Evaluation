@@ -1,0 +1,1410 @@
+Fireworks content log
+Fireworks content: ```json
+{
+  "keep": [
+    "Hyperacusis",
+    "Injury",
+    "Itching",
+    "Lightheadedness",
+    "Memory loss",
+    "Odynophagia",
+    "Phlegm",
+    "Respiratory distress syndrome",
+    "Stiffness",
+    "Tachypnea",
+    "Trauma",
+    "Allergic rhinitis",
+    "Asthma",
+    "Diabetes",
+    "High blood pressure",
+    "Hyperhidrosis",
+    "Lymphadenitis",
+    "Motor weakness",
+    "Numbness",
+    "Paralysis general",
+    "Paralysis limb or face",
+    "Pregnancy",
+    "Rectal bleeding",
+    "Sexually transmitted infection",
+    "Vaccine related reaction",
+    "Vision problem"
+  ],
+  "exclude": [
+    {"symptom": "Aches", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "Body ache", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "Change in taste", "reason": "Synonym for existing symptom 'taste loss'"},
+    {"symptom": "Changes in appetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "Changes inappetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "Discharge", "reason": "More specific version of existing symptom 'nasal congestion'"},
+    {"symptom": "Grunting", "reason": "More specific version of existing symptom 'respiratory distress'"},
+    {"symptom": "Infectious symptom", "reason": "Too broad and overlaps with multiple existing symptoms"},
+    {"symptom": "Loss of consciousness due to alcohol", "reason": "More specific version of existing symptom 'loss of consciousness'"},
+    {"symptom": "Muscle ache", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "ache", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "aches", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "allergy medication", "reason": "Not a symptom, but a treatment"},
+    {"symptom": "anxious", "reason": "More specific version of existing symptom 'feeling tired' or 'fatigue'"},
+    {"symptom": "apnea at birth", "reason": "More specific version of existing symptom 'respiratory distress'"},
+    {"symptom": "appetite", "reason": "More specific version of existing symptom 'loss of appetite'"},
+    {"symptom": "arthritis pain", "reason": "More specific version of existing symptom 'head ache' or 'pain'"},
+    {"symptom": "bad smell", "reason": "More specific version of existing symptom 'nasal congestion' or ' sinus congestion'"},
+    {"symptom": "behavior changes", "reason": "Too broad and overlaps with multiple existing symptoms"},
+    {"symptom": "behaviour change", "reason": "Too broad and overlaps with multiple existing symptoms"},
+    {"symptom": "brain fog", "reason": "More specific version of existing symptom 'fatigue' or 'feeling tired'"},
+    {"symptom": "change in sleep", "reason": "More specific version of existing symptom 'sleep hydrosis' or 'sleep issues'"},
+    {"symptom": "changes in his appetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "changes in memory", "reason": "More specific version of existing symptom 'memory loss'"},
+    {"symptom": "chest discomfort", "reason": "Synonym for existing symptom 'chest pain'"},
+    {"symptom": "chest pressure", "reason": "Synonym for existing symptom 'chest pain'"},
+    {"symptom": "chest tightness", "reason": "Synonym for existing symptom 'chest pain'"},
+    {"symptom": "cold", "reason": "More specific version of existing symptom 'nasal congestion' or ' sinus congestion'"},
+    {"symptom": "complications actual delivery", "reason": "Too broad and overlaps with multiple existing symptoms"},
+    {"symptom": "complications during delivery", "reason": "Too broad and overlaps with multiple existing symptoms"},
+    {"symptom": "confusion", "reason": "More specific version of existing symptom 'feeling tired' or 'fatigue'"},
+    {"symptom": "coughing fit", "reason": "More specific version of existing symptom 'cough'"},
+    {"symptom": "decrease interest in activities", "reason": "More specific version of existing symptom 'fatigue' or 'feeling tired'"},
+    {"symptom": "decreased activity", "reason": "More specific version of existing symptom 'fatigue' or 'feeling tired'"},
+    {"symptom": "decreased concentration", "reason": "More specific version of existing symptom 'fatigue' or 'feeling tired'"},
+    {"symptom": "decreased fluid intake", "reason": "More specific version of existing symptom 'dehydration'"},
+    {"symptom": "decreased focus", "reason": "More specific version of existing symptom 'fatigue' or 'feeling tired'"},
+    {"symptom": "decreased oral intake", "reason": "More specific version of existing symptom 'dehydration'"},
+    {"symptom": "decreased physical activity", "reason": "More specific version of existing symptom 'fatigue' or 'feeling tired'"},
+    {"symptom": "delayed growth milestones", "reason": "Too broad and overlaps with multiple existing symptoms"},
+    {"symptom": "diet", "reason": "Not a symptom, but a treatment or lifestyle choice"},
+    {"symptom": "difficulty breathing", "reason": "Synonym for existing symptom 'dyspnea'"},
+    {"symptom": "difficulty feeding", "reason": "More specific version of existing symptom 'loss of appetite'"},
+    {"symptom": "difficulty sleeping", "reason": "More specific version of existing symptom 'sleep issues'"},
+    {"symptom": "difficulty talking", "reason": "More specific version of existing symptom 'speech volume'"},
+    {"symptom": "dizzyness", "reason": "Synonym for existing symptom 'lightheadedness'"},
+    {"symptom": "drooling", "reason": "More specific version of existing symptom 'nasal congestion' or 'sinus congestion'"},
+    {"symptom": "drowsiness", "reason": "More specific version of existing symptom 'fatigue' or 'feeling tired'"},
+    {"symptom": "dysuria", "reason": "More specific version of existing symptom 'urination'"},
+    {"symptom": "ear problem", "reason": "Too broad and overlaps with multiple existing symptoms"},
+    {"symptom": "ecercise", "reason": "Not a symptom, but a lifestyle choice"},
+    {"symptom": "extended sleep", "reason": "More specific version of existing symptom 'sleep hydrosis' or 'sleep issues'"},
+    {"symptom": "eye discharge", "reason": "More specific version of existing symptom 'nasal congestion' or 'sinus congestion'"},
+    {"symptom": "eye pain", "reason": "More specific version of existing symptom 'head ache'"},
+    {"symptom": "eye redness", "reason": "More specific version of existing symptom 'redness in throat'"},
+    {"symptom": "facial pain", "reason": "More specific version of existing symptom 'head ache'"},
+    {"symptom": "facial pressure", "reason": "More specific version of existing symptom 'head ache' or 'sinus congestion'"},
+    {"symptom": "fainting", "reason": "More specific version of existing symptom 'loss of consciousness'"},
+    {"symptom": "fatigue", "reason": "Synonym for existing symptom 'fatigue extended' or 'fatigue sleep'"},
+    {"symptom": "feeling tired", "reason": "Synonym for existing symptom 'fatigue extended' or 'fatigue sleep'"},
+    {"symptom": "flu", "reason": "More specific version of existing symptom 'nasal congestion' or 'sinus congestion'"},
+    {"symptom": "flu like symptom", "reason": "More specific version of existing symptom 'nasal congestion' or 'sinus congestion'"},
+    {"symptom": "food allergy", "reason": "More specific version of existing symptom 'allergic rhinitis'"},
+    {"symptom": "foreign body intake", "reason": "Too broad and overlaps with multiple existing symptoms"},
+    {"symptom": "general weakness", "reason": "More specific version of existing symptom 'fatigue' or 'feeling tired'"},
+    {"symptom": "greenish/yellowish nasal discharge", "reason": "More specific version of existing symptom 'nasal congestion'"},
+    {"symptom": "grunting noise", "reason": "More specific version of existing symptom 'respiratory distress'"},
+    {"symptom": "guilt feeling", "reason": "More specific version of existing symptom 'feeling tired' or 'fatigue'"},
+    {"symptom": "headache", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "hearing problem", "reason": "Too broad and overlaps with
+Fireworks content: ```json
+{
+  "medical_history_assessed": {
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sinus_congestion": {
+      "assessed": "Yes",
+      "example_quotes": ["I had like a runny nose for a couple of days and it just went away."]
+    },
+    "throat_pain": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well."]
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes to your bowel movements, like any Constipation or diarrhea?", "No."]
+    },
+    "chest_discomfort": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, It does feel sore, kind of, uh, the center of my chest.", "I feel it, like more, like it does hurt when when I'm coughing, that's kind of what I'm feeling it."]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, It does feel sore, kind of, uh, the center of my chest."]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, I've felt chills."]
+    },
+    "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, so I mean sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color.", "OK, um, and it's been going on for more than a week.Has it been getting worse?", "Uh, No blood, and maybe a little yellowish."]
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes to your bowel movements, like any Constipation or diarrhea?", "No."]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": ["I've had this cough for over a week now, and it just hasn't gone away.", "It comes and goes, uh, throughout the day. No particular time of the day it's worse."]
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_oral_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes to your bowel movements, like any Constipation or diarrhea?", "No."]
+    },
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "discomfort": {
+      "assessed": "Yes",
+      "example_quotes": ["It's a little sore, but, uh, it's been OK, to eat and drink."]
+    },
+    "dysphagia": {
+      "assessed": "Yes",
+      "example_quotes": ["And do you have any difficulty, uh, swallowing at all?", "It's a little sore, but, uh, it's been OK, to eat and drink."]
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": ["Any nausea or vomiting?", "No.", "are you having any, uh, other symptoms besides the cough, um, like shortness of breath,sore throat, um, runny nose, congestion, anything like that?"]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": ["Yes.", "Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "fatigue_sleep": {
+      "assessed": "Yes",
+      "example_quotes": ["Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": ["other than that, have you been having any fevers or chills?", "No.", "Have you taken your temperature at all?"]
+    },
+    "food_allergy": {
+      "assessed": "Yes",
+      "example_quotes": ["Do you have any allergies?", "No."]
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well."]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": ["OK, have you noticed at all, um, like green or yellow color of your sputum or any blood tinged sputum?", "Uh, No blood, and maybe a little yellowish."]
+    },
+    "hoarse_tone": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lung_complications": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucus_discharge": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, so I mean sometimes I produce sputum and sometimes I don't."]
+    },
+    "muscle_ache": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nasal_congestion": {
+      "assessed": "Yes",
+      "example_quotes": ["I had like a runny nose for a couple of days and it just went away."]
+    },
+    "nausea": {
+      "assessed": "Yes",
+      "example_quotes": ["Any nausea or vomiting?", "No."]
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "redness": {
+      "assessed": "Yes",
+      "example_quotes": ["And have you noticed any kind of redness in your throat or any swelling around your neck?", "No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."]
+    },
+    "redness_in_throat": {
+      "assessed": "Yes",
+      "example_quotes": ["And have you noticed any kind of redness in your throat or any swelling around your neck?", "No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."]
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": ["I had like a runny nose for a couple of days and it just went away."]
+    },
+    "sleep_changes": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes with your sleeping or your appetite?", "No."]
+    },
+    "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Any loss of sense of taste or smell?", "No."]
+    },
+    "sore_throat": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well."]
+    },
+    "swelling": {
+      "assessed": "Yes",
+      "example_quotes": ["And have you noticed any kind of redness in your throat or any swelling around your neck?", "No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."]
+    },
+    "taste_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Any loss of sense of taste or smell?", "No."]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing_or_or_itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Have you noticed any significant weight loss in the last few weeks?", "No, it's been the same."]
+    },
+    "urination": {
+      "assessed": "Yes",
+      "example_quotes": ["Any urinary
+Fireworks content: ```json
+{
+  "keep": [
+    "Hyperacusis",
+    "Injury",
+    "Lightheadedness",
+    "Loss of consciousness due to alcohol",
+    "Memory loss",
+    "Odynophagia",
+    "Respiratory distress syndrome",
+    "Tachypnea",
+    "Trauma",
+    "Allergic rhinitis",
+    "Asthma",
+    "Brain fog",
+    "Dehydration",
+    "Diabetes",
+    "Facial pain",
+    "Foreign body intake",
+    "Guilt feeling",
+    "Impending doom anxiety",
+    "Infection",
+    "Lymphadenitis",
+    "Malaise",
+    "Motor weakness",
+    "Numbness",
+    "Palpitation",
+    "Paralysis general",
+    "Paralysis limb or face",
+    "Photophobia",
+    "Pregnancy",
+    "Self-harm thoughts",
+    "Sexually transmitted infection",
+    "Stunning",
+    "Tonsilitis",
+    "Vaccine related reaction",
+    "Vision problem"
+  ],
+  "exclude": [
+    {"symptom": "Aches", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "Body ache", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "Change in taste", "reason": "Synonym for existing symptom 'taste loss'"},
+    {"symptom": "Changes in appetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "Changes inappetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "Discharge", "reason": "Overlaps with existing symptom 'colored/excess sputum'"},
+    {"symptom": "Grunting", "reason": "More specific version of existing symptom 'wheez'"},
+    {"symptom": "Infectious symptom", "reason": "Too general and overlaps with multiple existing symptoms"},
+    {"symptom": "Itching", "reason": "Synonym for existing symptom 'itching eyes'"},
+    {"symptom": "Ache", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "Allergy medication", "reason": "Not a symptom, but a treatment"},
+    {"symptom": "Anxious", "reason": "Synonym for existing symptom 'impending doom anxiety'"},
+    {"symptom": "Apnea at birth", "reason": "More specific version of existing symptom 'respiratory distress'"},
+    {"symptom": "Appetite", "reason": "Not a symptom, but a normal bodily function"},
+    {"symptom": "Arthritis pain", "reason": "More specific version of existing symptom 'head ache' or 'general weakness'"},
+    {"symptom": "Bad smell", "reason": "Synonym for existing symptom 'loss of smell'"},
+    {"symptom": "Behavior changes", "reason": "Too general and overlaps with multiple existing symptoms"},
+    {"symptom": "Behaviour change", "reason": "Too general and overlaps with multiple existing symptoms"},
+    {"symptom": "Change in sleep", "reason": "Synonym for existing symptom 'fatigue sleep' or 'sleep hydrosis'"},
+    {"symptom": "Changes in his appetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "Changes in memory", "reason": "Synonym for existing symptom 'memory loss'"},
+    {"symptom": "Chest discomfort", "reason": "Synonym for existing symptom 'chest pain'"},
+    {"symptom": "Chest pressure", "reason": "Synonym for existing symptom 'chest pain'"},
+    {"symptom": "Chest tightness", "reason": "Synonym for existing symptom 'chest pain'"},
+    {"symptom": "Cold", "reason": "Too general and overlaps with multiple existing symptoms"},
+    {"symptom": "Complications actual delivery", "reason": "More specific version of existing symptom 'infection' or 'trauma'"},
+    {"symptom": "Complications during delivery", "reason": "More specific version of existing symptom 'infection' or 'trauma'"},
+    {"symptom": "Confusion", "reason": "Synonym for existing symptom 'dizziness' or 'lightheadedness'"},
+    {"symptom": "Coughing fit", "reason": "More specific version of existing symptom 'cough'"},
+    {"symptom": "Decrease interest in activities", "reason": "Synonym for existing symptom 'fatigue' or 'loss of appetite'"},
+    {"symptom": "Decreased activity", "reason": "Synonym for existing symptom 'fatigue' or 'general weakness'"},
+    {"symptom": "Decreased concentration", "reason": "Synonym for existing symptom 'fatigue' or 'brain fog'"},
+    {"symptom": "Decreased fluid intake", "reason": "More specific version of existing symptom 'dehydration'"},
+    {"symptom": "Decreased focus", "reason": "Synonym for existing symptom 'fatigue' or 'brain fog'"},
+    {"symptom": "Decreased oral intake", "reason": "More specific version of existing symptom 'dehydration' or 'loss of appetite'"},
+    {"symptom": "Decreased physical activity", "reason": "Synonym for existing symptom 'fatigue' or 'general weakness'"},
+    {"symptom": "Delayed growth milestones", "reason": "More specific version of existing symptom 'general weakness' or 'malaise'"},
+    {"symptom": "Diet", "reason": "Not a symptom, but a normal bodily function"},
+    {"symptom": "Difficulty breathing", "reason": "Synonym for existing symptom 'dyspnea' or 'trouble breathing'"},
+    {"symptom": "Difficulty feeding", "reason": "More specific version of existing symptom 'loss of appetite' or 'dehydration'"},
+    {"symptom": "Difficulty sleeping", "reason": "Synonym for existing symptom 'fatigue sleep' or 'sleep hydrosis'"},
+    {"symptom": "Difficulty talking", "reason": "More specific version of existing symptom 'dysphagia' or 'slurred speech'"},
+    {"symptom": "Discomfort", "reason": "Too general and overlaps with multiple existing symptoms"},
+    {"symptom": "Dizzyness", "reason": "Synonym for existing symptom 'lightheadedness'"},
+    {"symptom": "Drooling", "reason": "More specific version of existing symptom 'saliva or mucus' or 'nausea'"},
+    {"symptom": "Drowsiness", "reason": "Synonym for existing symptom 'fatigue' or 'sleepiness'"},
+    {"symptom": "Dysuria", "reason": "More specific version of existing symptom 'painful urination'"},
+    {"symptom": "Ear problem", "reason": "Too general and overlaps with multiple existing symptoms"},
+    {"symptom": "Ecercise", "reason": "Not a symptom, but a normal bodily activity"},
+    {"symptom": "Extended sleep", "reason": "Synonym for existing symptom 'fatigue sleep' or 'sleep hydrosis'"},
+    {"symptom": "Eye discharge", "reason": "More specific version of existing symptom 'runny eyes'"},
+    {"symptom": "Eye pain", "reason": "More specific version of existing symptom 'head ache'"},
+    {"symptom": "Eye redness", "reason": "More specific version of existing symptom 'redness in throat' or 'runny eyes'"},
+    {"symptom": "Facial pressure", "reason": "Synonym for existing symptom 'facial pain'"},
+    {"symptom": "Fainting", "reason": "Synonym for existing symptom 'loss of consciousness'"},
+    {"symptom": "Fatigue", "reason": "Synonym for existing symptom 'fatigue extended' or 'general weakness'"},
+    {"symptom": "Feeling tired", "reason": "Synonym for existing symptom 'fatigue extended' or 'general weakness'"},
+    {"symptom": "Flu", "reason": "Too general and overlaps with multiple existing symptoms"},
+    {"symptom": "Flu like symptom", "reason": "Too general and overlaps with multiple existing symptoms"},
+    {"symptom": "Food allergy", "reason": "More specific version of existing symptom 'allergic rhinitis'"},
+    {"symptom": "General weakness", "reason": "Synonym for existing symptom 'fatigue extended' or 'malaise'"},
+    {"symptom": "Greenish/yellowish nasal discharge", "reason": "More specific version of existing symptom 'nasal congestion' or 'colored/excess sputum'"},
+    {"symptom": "Grunting noise", "reason": "More specific version of existing symptom 'wheez'"},
+    {"symptom": "High blood pressure", "reason": "More specific version of existing symptom 'chest pain' or 'general weakness'"},
+    {"symptom": "Hoarse tone", "reason": "More specific version of existing symptom 'sore throat'"},
+    {"symptom": "Hyperhidrosis", "reason": "Synonym for existing symptom 'sweaty'"},
+    {"symptom": "Inconsolable", "reason": "More specific version of existing symptom 'anxiety' or 'guilt feeling'"},
+    {"symptom": "Injury in chest", "reason": "More specific version of existing symptom 'chest pain' or 'trauma'"},
+    {"symptom": "Irritable", "reason": "Synonym for existing symptom 'anxiety' or 'guilt feeling'"},
+    {"symptom": "Itchiness", "reason": "Synonym for existing symptom 'itching eyes' or 'itching'"},
+    {"symptom": "Itching eyes", "reason": "More specific version of existing symptom 'runny eyes' or 'itching'"},
+    {"symptom": "Lethargic", "reason": "Synonym for existing symptom 'fatigue extended' or 'general weakness'"},
+    {"symptom": "Lightheadness", "reason": "Synonym for existing symptom 'lightheadedness'"},
+    {"symptom": "Limp", "reason": "More specific version of existing symptom 'general weakness'"},
+    {"symptom": "Loss of sense", "reason": "Too general and overlaps with multiple existing symptoms"},
+    {"symptom": "Low mood", "reason": "Synonym for existing symptom 'guilt feeling' or 'anxiety'"},
+    {"symptom": "Lumps", "reason": "More specific version of existing symptom 'general weakness'"},
+    {"symptom": "Lung complications", "reason": "More specific version of existing symptom 'respiratory distress syndrome'"},
+    {"symptom": "More quiet", "reason": "More specific version of existing symptom 'loss of appetite' or 'fatigue'"},
+    {"symptom": "Mucous building", "reason": "More specific version of existing symptom 'colored/excess sputum'"},
+    {"symptom": "Mucus discharge", "reason": "More specific version of existing symptom 'colored/excess sputum' or 'nasal congestion'"},
+    {"symptom": "Muscle aches", "reason": "Synonym for existing symptom 'head ache' or 'general weakness'"},
+    {"symptom": "Nasal discharge", "reason": "More specific version of existing symptom 'nasal congestion'"},
+    {"symptom": "Nause", "reason": "Synonym for existing symptom 'nausea'"},
+    {"symptom": "Not crying", "reason": "More specific version of existing symptom 'loss of appetite' or 'dehydration'"},
+    {"symptom": "Passing gas", "reason": "More specific version of existing symptom 'nausea' or 'abdominal pain'"},
+    {"symptom": "Phlegm", "reason": "More specific version of existing symptom 'colored/excess sputum'"},
+    {"symptom": "Physical or emotional abuse at home", "reason": "Not a symptom, but a social issue"},
+    {"symptom": "Pressure in around face", "reason": "More specific version of existing symptom 'facial pain'"},
+    {"symptom": "Rectal bleeding", "reason": "More specific version of existing symptom 'bowel movement'"},
+    {"symptom": "Redness", "reason": "More specific version of existing symptom 'redness in throat'"},
+    {"symptom": "Rigor", "reason": "More specific version of existing symptom 'chills'"},
+    {"symptom": "Runny eyes", "reason": "More specific version of existing symptom 'itching eyes' or 'runny nose'"},
+    {"symptom": "Self hurt", "reason": "More specific version of existing symptom 'self-harm thoughts'"},
+    {"symptom": "Sensation of chest", "reason": "More specific version of existing symptom 'chest pain'"},
+    {"symptom": "Sensitive to allergies", "reason": "More specific version of existing symptom 'allergic rhinitis'"},
+    {"symptom": "Sinus headaches", "reason": "More specific version of existing symptom 'head ache'"},
+    {"symptom": "Sleep", "reason": "Not a symptom, but a normal bodily function"},
+    {"symptom": "Sleep changes", "reason": "Synonym for existing symptom 'fatigue sleep' or 'sleep hydrosis'"},
+    {"symptom": "Sleep dyspnea", "reason": "More specific version of existing symptom 'dyspnea' or 'sleep hydrosis'"},
+    {"symptom": "Sleep issue", "reason": "Synonym for existing symptom 'fatigue sleep' or 'sleep hydrosis'"},
+    {"symptom": "Sleep issues", "reason": "Synonym for existing symptom 'fatigue sleep' or 'sleep hydrosis'"},
+    {"symptom": "Sleep problem", "reason": "Synonym for existing symptom 'fatigue sleep' or 'sleep hydrosis'"},
+    {"symptom": "Sleeping issues", "reason": "Synonym for existing symptom 'fatigue sleep' or 'sleep hydrosis'"},
+    {"symptom": "Slow motion feeling", "reason": "More specific version of existing symptom 'fatigue' or 'brain fog'"},
+    {"symptom": "Slurred speech", "reason": "More specific version of existing symptom 'dysphagia'"},
+    {"symptom": "Smell problem", "reason": "Synonym for existing symptom 'loss of smell'"},
+    {"symptom": "Sneezing", "reason": "More specific version of existing symptom 'runny nose' or 'nasal congestion'"},
+    {"symptom": "Sore", "reason": "Synonym for existing symptom 'pain' or 'sore throat'"},
+    {"symptom": "Soreness", "reason": "Synonym for existing symptom 'pain' or 'sore throat'"},
+    {"symptom": "Speech volume", "reason": "More specific version of existing symptom 'dysphagia'"},
+    {"symptom": "Straining and chest discomfort", "reason": "More specific version of existing symptom 'chest pain' or 'dyspnea'"},
+    {"symptom": "Stuffy nose", "reason": "More specific version of existing symptom 'nasal congestion'"},
+    {"symptom": "Sweaty", "reason": "Synonym for existing symptom 'hyperhidrosis'"},
+    {"symptom": "Symptom speedup", "reason": "Not a symptom, but a descriptor"},
+    {"symptom": "Symptoms stress", "reason": "Not a symptom, but a descriptor"},
+    {"symptom": "Taste problem", "reason": "Synonym for existing symptom 'taste loss'"},
+    {"symptom": "Tearing", "reason": "More specific version of existing symptom 'runny eyes'"},
+    {"symptom": "Tearing or or itchiness", "reason": "More specific version of existing symptom 'runny eyes' or 'itching eyes'"},
+    {"symptom": "Teary eyes", "reason": "More specific version of existing symptom 'runny eyes'"},
+    {"symptom": "Throat pain", "reason": "Synonym for existing symptom 'sore throat'"},
+    {"symptom": "Tightness", "reason": "More specific version of existing symptom 'chest pain'"},
+    {"symptom": "Tingling", "reason": "More specific version of existing symptom 'numbness'"},
+    {"symptom": "Tired", "reason": "Synonym for existing symptom 'fatigue extended' or 'general weakness'"},
+    {"symptom": "Trouble breathing", "reason": "Synonym for existing symptom 'dyspnea'"},
+    {"symptom": "Underweight at birth", "reason": "More specific version of existing symptom 'general weakness'"},
+    {"symptom": "Vaginal discharge", "reason": "More specific version of existing symptom 'nasal discharge'"},
+    {"symptom": "Vaginal discomfort", "reason": "More specific version of existing symptom 'general weakness' or 'pain'"},
+    {"symptom": "Watery eyes", "reason": "More specific version of existing symptom 'runny eyes'"},
+    {"symptom": "Weakness", "reason": "Synonym for existing symptom 'general weakness'"},
+    {"symptom": "Weight changes", "reason": "More specific version of existing symptom 'unexplained weight loss'"},
+    {"symptom": "Weight gain", "reason": "More specific version of existing symptom 'unexplained weight loss'"},
+    {"symptom": "Wheez inhale", "reason": "More specific version of existing symptom 'wheez'"},
+    {"symptom": "Widespread pain", "reason": "More specific version of existing symptom 'general weakness' or 'pain"}
+  ]
+}
+```
+Fireworks content: ```json
+{
+  "medical_history_assessed": {
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sinus_congestion": {
+      "assessed": "Yes",
+      "example_quotes": ["I had like a runny nose for a couple of days and it just went away"]
+    },
+    "throat_pain": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh, yeah, I've had, um, a sore throat, uh, and a headache, as well.", "It's a little sore, but, uh, it's been OK, to eat and drink."]
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": ["No changes to your bowel movements, like any Constipation or diarrhea?", "No."]
+    },
+    "chest_discomfort": {
+      "assessed": "Yes",
+      "example_quotes": ["It does feel sore, kind of, uh, the center of my chest.", "I feel it, like more, like it does hurt when when I'm coughing, that's kind of what I'm feeling it."]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, It does feel sore, kind of, uh, the center of my chest.", "I feel it, like more, like it does hurt when when I'm coughing, that's kind of what I'm feeling it."]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, I've felt chills.", "I've been feeling chills throughout the day and at night, I just feel like I can't get warm even with a blanket on."]
+    },
+    "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": ["sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color.", "maybe a little yellowish."]
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": ["No changes to your bowel movements, like any Constipation or diarrhea?", "No."]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": ["I've had this cough for over a week now, and it just hasn't gone away.", "It comes and goes, uh, throughout the day. No particular time of the day it's worse."]
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_oral_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": ["No changes to your bowel movements, like any Constipation or diarrhea?", "No."]
+    },
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "discomfort": {
+      "assessed": "Yes",
+      "example_quotes": ["It does feel sore, kind of, uh, the center of my chest."]
+    },
+    "dysphagia": {
+      "assessed": "Yes",
+      "example_quotes": ["And do you have any difficulty, uh, swallowing at all?", "It's a little sore, but, uh, it's been OK, to eat and drink."]
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": ["are you having any, uh, other symptoms besides the cough, um, like shortness of breath"]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": ["Yes.", "Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "fatigue_sleep": {
+      "assessed": "Yes",
+      "example_quotes": ["Yes.", "Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": ["other than that, have you been having any fevers or chills?", "No."]
+    },
+    "food_allergy": {
+      "assessed": "Yes",
+      "example_quotes": ["Do you have any allergies?", "No."]
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh, yeah, I've had, um, a sore throat, uh, and a headache, as well.", "So it's been, uh, kind of off and on over the past, uh, week or so. Um, feels like a like a pressure sensation and my head is just really squeezing."]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": ["OK, um, and it's been going on for more than a week.Has it been getting worse?", "No blood, and maybe a little yellowish."]
+    },
+    "hoarse_tone": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_appetite": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes with your sleeping or your appetite?", "No."]
+    },
+    "lung_complications": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucus_discharge": {
+      "assessed": "Yes",
+      "example_quotes": ["sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color."]
+    },
+    "muscle_ache": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nasal_congestion": {
+      "assessed": "Yes",
+      "example_quotes": ["I had like a runny nose for a couple of days and it just went away"]
+    },
+    "nausea": {
+      "assessed": "Yes",
+      "example_quotes": ["Any nausea or vomiting?", "No."]
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "redness": {
+      "assessed": "Yes",
+      "example_quotes": ["have you noticed any kind of redness in your throat or any swelling around your neck?", "No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."]
+    },
+    "redness_in_throat": {
+      "assessed": "Yes",
+      "example_quotes": ["have you noticed any kind of redness in your throat or any swelling around your neck?", "No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."]
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": ["I had like a runny nose for a couple of days and it just went away"]
+    },
+    "sleep_changes": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes with your sleeping or your appetite?", "No.", "Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Any loss of sense of taste or smell?", "No."]
+    },
+    "sore_throat": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh, yeah, I've had, um, a sore throat, uh, and a headache, as well.", "It's a little sore, but, uh, it's been OK, to eat and drink."]
+    },
+    "swelling": {
+      "assessed": "Yes",
+      "example_quotes": ["have you noticed any kind of redness in your throat or any swelling around your neck?", "No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."]
+    },
+    "taste_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Any loss of sense of taste or smell?", "No."]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing_or_or_itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Have you noticed any significant weight loss in the last few weeks?", "No, it's been the same."]
+    },
+    "urination": {
+      "assessed": "Yes",
+      "example_quotes": ["Any urinary issues?", "No."]
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vomiting": {
+      "assessed": "Yes",
+      "example_quotes": ["Any nausea or vomiting?", "No."]
+    },
+    "wheez": {
+      "assessed": "Yes",
+      "example_quotes": ["I forgot to ask you this earlier. Have you been experiencing any wheezing?", "Yeah I have noticed a bit of a wheeze, yes."]
+    },
+    "wheez_inhale": {
+      "assessed": "No",
+      "example_quotes": []
+    }
+  }
+}
+```
+Raw Fireworks content: ```json
+{
+  "keep": [
+    "Hyperacusis",
+    "Injury",
+    "Lightheadedness",
+    "Loss of consciousness due to alcohol",
+    "Memory loss",
+    "Odynophagia",
+    "Respiratory distress syndrome",
+    "Trauma",
+    "Allergic rhinitis",
+    "Asthma",
+    "Diabetes",
+    "High blood pressure",
+    "Lymphadenitis",
+    "Pregnancy",
+    "Sexually transmitted infection",
+    "Vaccine related reaction"
+  ],
+  "exclude": [
+    {"symptom": "Aches", "reason": "Synonym for existing symptom 'head ache' or more specific version of 'fatigue'"},
+    {"symptom": "Body ache", "reason": "More specific version of existing symptom 'head ache' or 'fatigue'"},
+    {"symptom": "Change in taste", "reason": "Synonym for existing symptom 'taste loss'"},
+    {"symptom": "Changes in appetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "Changes inappetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "Discharge", "reason": "Overlaps with existing symptoms 'runny nose', 'nasal congestion', or 'colored/excess sputum'"},
+    {"symptom": "Grunting", "reason": "Similar manifestation to existing symptom 'wheez' or 'dyspnea'"},
+    {"symptom": "Infectious symptom", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Itching", "reason": "Could be related to 'allergic rhinitis' or 'itching eyes', but too general"},
+    {"symptom": "Muscle ache", "reason": "More specific version of existing symptom 'head ache' or 'fatigue'"},
+    {"symptom": "Phlegm", "reason": "Overlaps with existing symptom 'colored/excess sputum'"},
+    {"symptom": "Sinus congestion", "reason": "Overlaps significantly with existing symptom 'nasal congestion'"},
+    {"symptom": "Sneezing", "reason": "Often assessed with 'nasal congestion' or 'runny nose'"},
+    {"symptom": "Stiffness", "reason": "Could be related to 'fatigue' or 'muscle ache', too general"},
+    {"symptom": "Tachypnea", "reason": "Synonym for existing symptom 'wheez' or 'dyspnea'"},
+    {"symptom": "Throat pain", "reason": "Synonym for existing symptom 'sore throat'"},
+    {"symptom": "Ache", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "Aches", "reason": "Synonym for existing symptom 'head ache' or more specific version of 'fatigue'"},
+    {"symptom": "Allergy medication", "reason": "Not a symptom"},
+    {"symptom": "Anxious", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Apnea at birth", "reason": "Specific condition, not directly comparable to existing symptoms"},
+    {"symptom": "Appetite", "reason": "Not a symptom, but a normal bodily function"},
+    {"symptom": "Arthritis pain", "reason": "More specific version of existing symptom 'head ache' or 'fatigue'"},
+    {"symptom": "Bad smell", "reason": "Could be related to 'loss of smell' or 'bad taste', too general"},
+    {"symptom": "Behavior changes", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Behaviour change", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Brain fog", "reason": "Could be related to 'fatigue' or 'headache', too general"},
+    {"symptom": "Change in sleep", "reason": "Related to 'fatigue sleep' or 'sleep hydrosis', too general"},
+    {"symptom": "Changes in his appetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "Changes in memory", "reason": "Related to 'memory loss', too general"},
+    {"symptom": "Chest discomfort", "reason": "More specific version of existing symptom 'chest pain'"},
+    {"symptom": "Chest pressure", "reason": "More specific version of existing symptom 'chest pain'"},
+    {"symptom": "Chest tightness", "reason": "More specific version of existing symptom 'chest pain'"},
+    {"symptom": "Cold", "reason": "Not a distinct symptom, often associated with 'runny nose', 'cough', etc."},
+    {"symptom": "Complications actual delivery", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Complications during delivery", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Confusion", "reason": "Could be related to 'fatigue' or 'headache', too general"},
+    {"symptom": "Coughing fit", "reason": "More specific version of existing symptom 'cough'"},
+    {"symptom": "Decrease interest in activities", "reason": "Could be related to 'fatigue' or 'loss of appetite', too general"},
+    {"symptom": "Decreased activity", "reason": "Related to 'fatigue' or 'loss of appetite', too general"},
+    {"symptom": "Decreased concentration", "reason": "Could be related to 'fatigue' or 'headache', too general"},
+    {"symptom": "Decreased fluid intake", "reason": "Not directly a symptom, could lead to 'dehydration'"},
+    {"symptom": "Decreased focus", "reason": "Could be related to 'fatigue' or 'headache', too general"},
+    {"symptom": "Decreased oral intake", "reason": "Related to 'loss of appetite', too general"},
+    {"symptom": "Decreased physical activity", "reason": "Related to 'fatigue', too general"},
+    {"symptom": "Dehydration", "reason": "Could be a result of 'loss of appetite' or 'vomiting', too general"},
+    {"symptom": "Delayed growth milestones", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Diet", "reason": "Not a symptom, but a normal bodily function"},
+    {"symptom": "Difficulty breathing", "reason": "Synonym for existing symptom 'dyspnea'"},
+    {"symptom": "Difficulty feeding", "reason": "Could be related to 'loss of appetite', too general"},
+    {"symptom": "Difficulty sleeping", "reason": "Related to 'fatigue sleep' or 'sleep hydrosis', too general"},
+    {"symptom": "Difficulty talking", "reason": "Could be related to 'sore throat', too general"},
+    {"symptom": "Discomfort", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Dizzyness", "reason": "Synonym for existing symptom 'lightheadedness'"},
+    {"symptom": "Drooling", "reason": "Could be related to 'sore throat' or 'nasal congestion', too general"},
+    {"symptom": "Drowsiness", "reason": "Related to 'fatigue', too general"},
+    {"symptom": "Dysuria", "reason": "More specific version of existing symptom 'urination'"},
+    {"symptom": "Ear problem", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Ecercise", "reason": "Not a symptom, but a normal bodily function"},
+    {"symptom": "Extended sleep", "reason": "Related to 'fatigue sleep', too general"},
+    {"symptom": "Eye discharge", "reason": "Could be related to 'nasal congestion' or 'allergic rhinitis', too general"},
+    {"symptom": "Eye pain", "reason": "More specific version of existing symptom 'head ache'"},
+    {"symptom": "Eye redness", "reason": "Could be related to 'nasal congestion' or 'allergic rhinitis', too general"},
+    {"symptom": "Facial pain", "reason": "More specific version of existing symptom 'head ache'"},
+    {"symptom": "Facial pressure", "reason": "More specific version of existing symptom 'head ache'"},
+    {"symptom": "Fainting", "reason": "Synonym for existing symptom 'loss of consciousness'"},
+    {"symptom": "Fatigue", "reason": "Synonym for existing symptoms 'fatigue extended' or 'fatigue sleep'"},
+    {"symptom": "Feeling tired", "reason": "Synonym for existing symptom 'fatigue'"},
+    {"symptom": "Flu", "reason": "Not a distinct symptom, often associated with 'fever', 'cough', etc."},
+    {"symptom": "Flu like symptom", "reason": "Not a distinct symptom, often associated with 'fever', 'cough', etc."},
+    {"symptom": "Food allergy", "reason": "More specific version of existing symptom 'allergic rhinitis'"},
+    {"symptom": "Foreign body intake", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "General weakness", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Greenish/yellowish nasal discharge", "reason": "More specific version of existing symptom 'nasal congestion' or 'colored/excess sputum'"},
+    {"symptom": "Grunting noise", "reason": "Similar manifestation to existing symptom 'wheez' or 'dyspnea'"},
+    {"symptom": "Guilt feeling", "reason": "Not a physical symptom"},
+    {"symptom": "Headache", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "Hearing problem", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Hoarse tone", "reason": "More specific version of existing symptom 'sore throat'"},
+    {"symptom": "Hyperhidrosis", "reason": "More specific version of existing symptom 'sleep hydrosis'"},
+    {"symptom": "Impending doom anxiety", "reason": "Not a physical symptom"},
+    {"symptom": "Inconsolable", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Infection", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Injury in chest", "reason": "More specific version of existing symptom 'chest pain' or 'trauma'"},
+    {"symptom": "Irritable", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Itchiness", "reason": "Could be related to 'allergic rhinitis' or 'itching eyes', too general"},
+    {"symptom": "Itching eyes", "reason": "Could be related to 'allergic rhinitis' or 'nasal congestion', too general"},
+    {"symptom": "Lethargic", "reason": "Synonym for existing symptom 'fatigue'"},
+    {"symptom": "Lightheadness", "reason": "Synonym for existing symptom 'lightheadedness'"},
+    {"symptom": "Limp", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Loss of sense", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Low mood", "reason": "Not a physical symptom"},
+    {"symptom": "Lumps", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Lung complications", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Malaise", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "More quiet", "reason": "Not a physical symptom"},
+    {"symptom": "Motor weakness", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Mucous building", "reason": "Could be related to 'nasal congestion' or 'colored/excess sputum', too general"},
+    {"symptom": "Mucus discharge", "reason": "More specific version of existing symptom 'colored/excess sputum' or 'nasal congestion'"},
+    {"symptom": "Muscle aches", "reason": "More specific version of existing symptom 'head ache' or 'fatigue'"},
+    {"symptom": "Nasal discharge", "reason": "More specific version of existing symptom 'runny nose' or 'nasal congestion'"},
+    {"symptom": "Nause", "reason": "Synonym for existing symptom 'nausea'"},
+    {"symptom": "Not crying", "reason": "Not a physical symptom"},
+    {"symptom": "Numbness", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Pain", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Palpitation", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Paralysis general", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Paralysis limb or face", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Passing gas", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Photophobia", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Physical or emotional abuse at home", "reason": "Not a physical symptom"},
+    {"symptom": "Pressure in around face", "reason": "More specific version of existing symptom 'head ache' or 'sinus congestion'"},
+    {"symptom": "Rectal bleeding", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Redness", "reason": "Could be related to 'redness in throat' or 'nasal congestion', too general"},
+    {"symptom": "Rigor", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Runny eyes", "reason": "Could be related to 'nasal congestion' or 'allergic rhinitis', too general"},
+    {"symptom": "Self hurt", "reason": "Not a physical symptom"},
+    {"symptom": "Self-harm thoughts", "reason": "Not a physical symptom"},
+    {"symptom": "Sensation of chest", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Sensitive to allergies", "reason": "More specific version of existing symptom 'allergic rhinitis'"},
+    {"symptom": "Sinus headaches", "reason": "More specific version of existing symptom 'head ache' or 'sinus congestion'"},
+    {"symptom": "Sleep", "reason": "Not a symptom, but a normal bodily function"},
+    {"symptom": "Sleep changes", "reason": "Related to 'fatigue sleep' or 'sleep hydrosis', too general"},
+    {"symptom": "Sleep dyspnea", "reason": "More specific version of existing symptom 'dyspnea' or 'sleep hydrosis'"},
+    {"symptom": "Sleep issue", "reason": "Related to 'fatigue sleep' or 'sleep hydrosis', too general"},
+    {"symptom": "Sleep issues", "reason": "Related to 'fatigue sleep' or 'sleep hydrosis', too general"},
+    {"symptom": "Sleep problem", "reason": "Related to 'fatigue sleep' or 'sleep hydrosis', too general"},
+    {"symptom": "Sleeping issues", "reason": "Related to 'fatigue sleep' or 'sleep hydrosis', too general"},
+    {"symptom": "Slow motion feeling", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Slurred speech", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Smell problem", "reason": "Synonym for existing symptom 'smell loss'"},
+    {"symptom": "Sore", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Soreness", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Speech volume", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Straining and chest discomfort", "reason": "More specific version of existing symptom 'chest pain'"},
+    {"symptom": "Stuffy nose", "reason": "Synonym for existing symptom 'nasal congestion'"},
+    {"symptom": "Stunning", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Sweaty", "reason": "Could be related to 'sleep hydrosis', too general"},
+    {"symptom": "Symptom speedup", "reason": "Not a physical symptom"},
+    {"symptom": "Symptoms stress", "reason": "Not a physical symptom"},
+    {"symptom": "Taste problem", "reason": "Synonym for existing symptom 'taste loss'"},
+    {"symptom": "Tearing", "reason": "Could be related to 'nasal congestion' or 'allergic rhinitis', too general"},
+    {"symptom": "Tearing or or itchiness", "reason": "Could be related to 'allergic rhinitis' or 'itching eyes', too general"},
+    {"symptom": "Teary eyes", "reason": "Could be related to 'nasal congestion' or 'allergic rhinitis', too general"},
+    {"symptom": "Tightness", "reason": "Too general, could relate to several existing symptoms"},
+    {"symptom": "Tingling", "reason": "Not directly comparable to existing symptoms, too specific"},
+    {"symptom": "Tired", "reason": "Synonym for existing symptom 'fatigue'"},
+    {"symptom": "Tonsilitis", "reason": "More specific version of existing symptom 'sore throat'"},
+    {"symptom": "Trouble breathing", "reason": "Synonym for existing symptom 'dyspnea
+
+Raw Fireworks content: ```json
+{
+  "medical_history_assessed": {
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes to your bowel movements, like any Constipation or diarrhea?", "No."]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": ["Any chest pain at all?", "Yeah, It does feel sore, kind of, uh, the center of my chest."]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": ["other than that, have you been having any fevers or chills?", "Yeah, I've felt chills."]
+    },
+    "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": ["OK, um, and it's been going on for more than a week.Has it been getting worse?", "sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color.", "OK, have you noticed at all, um, like green or yellow color of your sputum or any blood tinged sputum?", "Uh, No blood, and maybe a little yellowish."]
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes to your bowel movements, like any Constipation or diarrhea?", "No."]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": ["What brings you in here?", "I've had this cough for over a week now, and it just hasn't gone away."]
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes to your bowel movements, like any Constipation or diarrhea?", "No."]
+    },
+    "dysphagia": {
+      "assessed": "Yes",
+      "example_quotes": ["And do you have any difficulty, uh, swallowing at all?", "It's a little sore, but, uh, it's been OK, to eat and drink."]
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": ["are you having any, uh, other symptoms besides the cough, um, like shortness of breath", "No mention of current dyspnea, but patient is asked to return if it develops"]
+    },
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": ["Any fatigue?", "Yes.", "When did that start?", "Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "fatigue_sleep": {
+      "assessed": "Yes",
+      "example_quotes": ["Any fatigue?", "Yes.", "When did that start?", "Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": ["other than that, have you been having any fevers or chills?", "No fever mentioned, but patient has taken no temperature readings"]
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well.", "So it's been, uh, kind of off and on over the past, uh, week or so."]
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": ["OK, have you noticed at all, um, like green or yellow color of your sputum or any blood tinged sputum?", "Uh, No blood"]
+    },
+    "loss_of_appetite": {
+      "assessed": "Yes",
+      "example_quotes": ["Any changes with your sleeping or your appetite?", "No."]
+    },
+    "nasal_congestion": {
+      "assessed": "Yes",
+      "example_quotes": ["are you having any, uh, other symptoms besides the cough, um, like shortness of breath,sore throat, um, runny nose, congestion, anything like that?", "Yeah, now that I think about it, I mean, maybe like a month ago I had like a runny nose for a couple of days and it just went away."]
+    },
+    "nausea": {
+      "assessed": "Yes",
+      "example_quotes": ["Any nausea or vomiting?", "No."]
+    },
+    "redness_in_throat": {
+      "assessed": "Yes",
+      "example_quotes": ["And have you noticed any kind of redness in your throat or any swelling around your neck?", "No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."]
+    },
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": ["are you having any, uh, other symptoms besides the cough, um, like shortness of breath,sore throat, um, runny nose, congestion, anything like that?", "Yeah, now that I think about it, I mean, maybe like a month ago I had like a runny nose for a couple of days and it just went away."]
+    },
+    "sleep_hydrosis": {
+      "assessed": "Yes",
+      "example_quotes": ["Any night sweats?", "No"]
+    },
+    "smell_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Any loss of sense of taste or smell?", "No."]
+    },
+    "sore_throat": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well.", "And when did the sore throat start?", "Um, that started about five days ago."]
+    },
+    "swelling": {
+      "assessed": "Yes",
+      "example_quotes": ["And have you noticed any kind of redness in your throat or any swelling around your neck?", "No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."]
+    },
+    "taste_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Any loss of sense of taste or smell?", "No."]
+    },
+    "unexplained_weight_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Have you noticed any significant weight loss in the last few weeks?", "No, it's been the same."]
+    },
+    "urination": {
+      "assessed": "Yes",
+      "example_quotes": ["Any urinary issues?", "No."]
+    },
+    "vomiting": {
+      "assessed": "Yes",
+      "example_quotes": ["Any nausea or vomiting?", "No."]
+    },
+    "wheez": {
+      "assessed": "Yes",
+      "example_quotes": ["I forgot to ask you this earlier. Have you been experiencing any wheezing?", "Yeah I have noticed a bit of a wheeze, yes."]
+    }
+  }
+}
+```
+
+Raw Fireworks content: After carefully evaluating the provided symptoms, I have made the following determinations:
+
+```json
+{
+  "keep": [
+    "Aches",
+    "Body ache",
+    "Discharge",
+    "Grunting",
+    "Hyperacusis",
+    "Infectious symptom",
+    "Injury",
+    "Itching",
+    "Lightheadedness",
+    "Loss of consciousness due to alcohol",
+    "Memory loss",
+    "Muscle ache",
+    "Odynophagia",
+    "Phlegm",
+    "Respiratory distress syndrome",
+    "Sinus congestion",
+    "Sneezing",
+    "Stiffness",
+    "Tachypnea",
+    "Throat pain",
+    "Trauma",
+    "allergic rhinitis",
+    "anxious",
+    "apnea at birth",
+    "arthritis pain",
+    "asthma",
+    "bad smell",
+    "behavior changes",
+    "behaviour change",
+    "brain fog",
+    "change in sleep",
+    "changes in memory",
+    "chest discomfort",
+    "chest pressure",
+    "chest tightness",
+    "cold",
+    "complications actual delivery",
+    "complications during delivery",
+    "confusion",
+    "coughing fit",
+    "decrease interest in activities",
+    "decreased activity",
+    "decreased concentration",
+    "decreased fluid intake",
+    "decreased focus",
+    "decreased oral intake",
+    "decreased physical activity",
+    "dehydration",
+    "delayed growth milestones",
+    "diabetes",
+    "diet",
+    "difficulty breathing",
+    "difficulty feeding",
+    "difficulty sleeping",
+    "difficulty talking",
+    "discomfort",
+    "dizzyness",
+    "drooling",
+    "drowsiness",
+    "dysuria",
+    "ear problem",
+    "ecercise",
+    "extended sleep",
+    "eye discharge",
+    "eye pain",
+    "eye redness",
+    "facial pain",
+    "facial pressure",
+    "fainting",
+    "feeling tired",
+    "flu",
+    "flu like symptom",
+    "food allergy",
+    "foreign body intake",
+    "general weakness",
+    "greenish/yellowish nasal discharge",
+    "guilt feeling",
+    "hearing problem",
+    "high blood pressure",
+    "hoarse tone",
+    "hyperhidrosis",
+    "impending doom anxiety",
+    "inconsolable",
+    "infection",
+    "irritable",
+    "itchiness",
+    "itching eyes",
+    "lethargic",
+    "limp",
+    "loss of consciousness",
+    "loss of sense",
+    "low mood",
+    "lumps",
+    "lung complications",
+    "lymphadenitis",
+    "malaise",
+    "more quiet",
+    "motor weakness",
+    "mucous building",
+    "mucus discharge",
+    "numbness",
+    "pain",
+    "palpitation",
+    "paralysis general",
+    "paralysis limb or face",
+    "passing gas",
+    "photophobia",
+    "physical or emotional abuse at home",
+    "pregnancy",
+    "pressure in around face",
+    "rectal bleeding",
+    "redness",
+    "rigor",
+    "runny eyes",
+    "self hurt",
+    "self-harm thoughts",
+    "sensation of chest",
+    "sensitive to allergies",
+    "sexually transmitted infection",
+    "sleep changes",
+    "sleep dyspnea",
+    "sleep issue",
+    "sleep problems",
+    "slow motion feeling",
+    "slurred speech",
+    "smell problem",
+    "straining and chest discomfort",
+    "stuffy nose",
+    "stunning",
+    "sweaty",
+    "symptom speedup",
+    "symptoms stress",
+    "tearing",
+    "tearing or or itchiness",
+    "teary eyes",
+    "tightness",
+    "tingling",
+    "tonsilitis",
+    "trouble breathing",
+    "underweight at birth",
+    "vaccine related reaction",
+    "vaginal discharge",
+    "vaginal discomfort",
+    "vision problem",
+    "watery eyes",
+    "weakness",
+    "weight changes",
+    "widespread pain"
+  ],
+  "exclude": [
+    {"symptom": "ache", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "aches", "reason": "Synonym for existing symptom 'head ache'"},
+    {"symptom": "Change in taste", "reason": "Synonym for existing symptom 'taste loss'"},
+    {"symptom": "Changes in appetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "Changes inappetite", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "coughing", "reason": "Synonym for existing symptom 'cough'"},
+    {"symptom": "dizziness", "reason": "Synonym for existing symptom 'lightheadedness'"},
+    {"symptom": "fatigue", "reason": "Synonym for existing symptom 'fatigue sleep'"},
+    {"symptom": "feeling unwell", "reason": "Synonym for existing symptom 'malaise'"},
+    {"symptom": "nause", "reason": "Synonym for existing symptom 'nausea'"},
+    {"symptom": "not eating", "reason": "Synonym for existing symptom 'loss of appetite'"},
+    {"symptom": "sore", "reason": "Synonym for existing symptom 'sore throat'"}
+  ]
+}
+```
+
+Raw Fireworks content: ```json
+{
+  "medical_history_assessed": {
+    "odynophagia": {
+      "assessed": "Yes",
+      "example_quotes": ["It's a little sore, but, uh, it's been OK, to eat and drink."]
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "anxious": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": ["No changes to bowel movements, like any Constipation or diarrhea?"]
+    },
+    "change_in_sleep": {
+      "assessed": "Yes",
+      "example_quotes": ["I've been really tired, I've been been needing naps and not feeling rested in the morning.", "used some Advil for the headaches and over the counter medicine at night time to help sleep"]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, It does feel sore, kind of, uh, the center of my chest.", "I kind of feel it there in the center."]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, I've felt chills.", "I've been feeling chills throughout the day and at night, I just feel like I can't get warm even with a blanket on."]
+    },
+    "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, so I mean sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color.", "Uh, No blood, and maybe a little yellowish."]
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": ["No changes to bowel movements, like any Constipation or diarrhea?"]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": ["I've had this cough for over a week now, and it just hasn't gone away.", "It comes and goes, uh, throughout the day."]
+    },
+    "decreased_activity": {
+      "assessed": "Yes",
+      "example_quotes": ["Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": ["Do you have any past medical conditions, like high blood pressure, diabetes, anything like that?", "No, I don't, I'm healthy."]
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": ["No changes to bowel movements, like any Constipation or diarrhea?"]
+    },
+    "difficulty_breathing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "Yes",
+      "example_quotes": ["It's a little sore, but, uh, it's been OK, to eat and drink."]
+    },
+    "dyspnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "ear_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": ["Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "fatigue_sleep": {
+      "assessed": "Yes",
+      "example_quotes": ["Just over this past week I've been really tired, I've been been needing naps and not feeling rested in the morning."]
+    },
+    "fever": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": ["Um, that started about five days ago.", "So it's been, uh, kind of off and on over the past, uh, week or so."]
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh, No blood, and maybe a little yellowish."]
+    },
+    "impending_doom_anxiety": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lung_complications": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nasal_congestion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nausea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": ["Yeah, It does feel sore, kind of, uh, the center of my chest."]
+    },
+    "redness_in_throat": {
+      "assessed": "Yes",
+      "example_quotes": ["No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."]
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": ["Well, I'm a nursing student and I've been on rotations in the hospital recently.", "Yeah, now that I think about it, I mean, maybe like a month ago I had like a runny nose for a couple of days and it just went away."]
+    },
+    "sleep_changes": {
+      "assessed": "Yes",
+      "example_quotes": ["used some Advil for the headaches and over the counter medicine at night time to help sleep"]
+    },
+    "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Any loss of sense of taste or smell?", "No."]
+    },
+    "sore_throat": {
+      "assessed": "Yes",
+      "example_quotes": ["Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well.", "It started about five days ago."]
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptoms_stress": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "taste_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Any loss of sense of taste or smell?", "No."]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "trouble_breathing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "Yes",
+      "example_quotes": ["Have you noticed any significant weight loss in the last few weeks?", "No, it's been the same."]
+    },
+    "urination": {
+      "assessed": "Yes",
+      "example_quotes": ["Any urinary issues?", "No."]
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vomiting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheez": {
+      "assessed": "Yes",
+      "example_quotes": ["Have you been experiencing any wheezing?", "Yeah I have noticed a bit of a wheeze, yes."]
+    },
+    "widespread_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    }
+  }
+}
+```
+
