@@ -1,12 +1,5 @@
 {
   "medical_history_assessed": {
-    "tmj_issues": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And do you grind your teeth at all at night? or have you had, TMJ issues before?",
-        "No nothing like that."
-      ]
-    },
     "aches": {
       "assessed": "Yes",
       "example_quotes": [
@@ -14,10 +7,61 @@
         "Uh, no."
       ]
     },
+    "changes_inappetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, I'm still getting some discharge",
+        "OK, and could you describe the discharge? Is it clear, yellow, greenish?",
+        "Uh, it's fairly clear and sometimes, like a bit white, but like, it's not like green or yellow."
+      ]
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tmj_issues": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, And do you grind your teeth at all at night? or have you had, TMJ issues before?",
+        "No nothing like that."
+      ]
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bad_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any diarrhea?",
+        "No diarrhea."
+      ]
+    },
+    "change_in_sleep": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "just maybe sometimes difficult to get to sleep with all the all the congestion"
+      ]
+    },
+    "chest_discomfort": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "and have you had any chest pain?",
+        "No, no chest pain."
+      ]
+    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had any chest pain?",
+        "and have you had any chest pain?",
         "No, no chest pain."
       ]
     },
@@ -31,16 +75,31 @@
     "congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "It turned into just a lot of congestion, like around my nose and like my throat.",
-        "Yeah, I do have some obstruction."
+        "it turned into just a lot of congestion, like around my nose and like my throat",
+        "Yeah, so at night sometimes I have to like turn because one side of my nose gets difficult to breathe from"
       ]
+    },
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any cough or sore throat?",
+        "OK, and have you had any cough or sore throat?",
         "Uh, no. No cough or sore throat."
       ]
+    },
+    "coughing_fit": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and have you had any cough or sore throat?",
+        "Uh, no. No cough or sore throat."
+      ]
+    },
+    "decreased_oral_intake": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -49,31 +108,24 @@
         "No diarrhea."
       ]
     },
-    "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I'm still getting some discharge and I also feel like I'm getting some dripping at the back of my throat.",
-        "Could you describe the discharge? Is it clear, yellow, greenish?"
-      ]
-    },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright and any lightheadedness or feeling dizzy?",
+        "Alright, and any lightheadedness or feeling dizzy?",
         "No."
       ]
     },
     "dripping": {
       "assessed": "Yes",
       "example_quotes": [
-        "I also feel like I'm getting some dripping at the back of my throat too."
+        "I also feel like I'm getting some dripping at the back of my throat too, especially when I wake up."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
         "How about any shortness of breath?",
-        "Uh, not shortness of breath. Just sometimes when my nose gets really congested, I just turn into like a mouth breather."
+        "Uh, not shortness of breath. Just sometimes when my nose gets like really congested, I just turn into like a mouth breather, but that's about it."
       ]
     },
     "eye_redness": {
@@ -87,7 +139,7 @@
       "assessed": "Yes",
       "example_quotes": [
         "And how has your energy been? Any fatigue?",
-        "I don't think my energy has been affected too much, no."
+        "Uhm, it's been mainly OK, just maybe sometimes difficult to get to sleep with all the all the congestion, but I don't think my energy has been affected too much, no."
       ]
     },
     "fever": {
@@ -97,17 +149,60 @@
         "Uhm, I Don't think I've had a fever."
       ]
     },
+    "food_allergy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting_noise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "injury": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "itching_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have your eyes been itchy?",
+        "OK, have your eyes been itchy?",
         "Uhm Yeah, a little bit. I would say they have been a bit itchy."
+      ]
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "motor_weakness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and have you had any muscle weakness?",
+        "No."
+      ]
+    },
+    "mucus_discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, I'm still getting some discharge",
+        "Uh, it's fairly clear and sometimes, like a bit white, but like, it's not like green or yellow."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "It turned into just a lot of congestion, like around my nose."
+        "it turned into just a lot of congestion, like around my nose and like my throat",
+        "Yeah, so at night sometimes I have to like turn because one side of my nose gets difficult to breathe from"
       ]
     },
     "nausea": {
@@ -117,52 +212,85 @@
         "Nope."
       ]
     },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Over the last two days I've been just feeling so much pressure around my nose and around my jaw so I've been getting a lot of pain there as well.",
-        "You have pain. Do you feel it in your jaw or do you feel it in the in the front of your nose?",
-        "Yes, I would say mainly over the cheeks. It can kind of go near the front of my teeth as well."
+        "I've been just feeling so much pressure around my nose and around my jaw so I've been getting a lot of pain there as well",
+        "OK, and you have pain. Do you feel it in your jaw or do you feel it in the in the front of your nose?",
+        "Yes, I would say mainly over the cheeks. It can kind of go near the front of my teeth as well"
       ]
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pressure": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been just feeling so much pressure around my nose and around my jaw."
+        "I've been just feeling so much pressure around my nose and around my jaw"
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "It kind of first started with, like a runny nose.",
-        "I did kind of have a runny nose last week as well."
+        "It kind of first started with, like a runny nose",
+        "OK, is your nose still running?",
+        "Yeah, I'm still getting some discharge"
+      ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sinus_congestion": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "it turned into just a lot of congestion, like around my nose and like my throat",
+        "Yeah, so at night sometimes I have to like turn because one side of my nose gets difficult to breathe from"
       ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any changes to your sense of smell?",
-        "I started losing the ability to smell."
+        "OK, and have you had any changes to your sense of smell?",
+        "Yeah, so just in the last three days when the congestion got really bad I started losing the ability to smell."
+      ]
+    },
+    "smell_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and have you had any changes to your sense of smell?",
+        "Yeah, so just in the last three days when the congestion got really bad I started losing the ability to smell."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any cough or sore throat?",
+        "OK, and have you had any cough or sore throat?",
         "Uh, no. No cough or sore throat."
+      ]
+    },
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I did kind of have a runny nose last week as well, so probably like 8 days ago but then the runny nose discontinued a little bit but really got worse 5 days ago, but all these other symptoms just happened in the last few days."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any changes to your sense of taste?",
+        "OK, have you had any changes to your sense of taste?",
         "No, taste is fine."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "And over the last few weeks have you had any weight loss?",
+        "OK, and over the last few weeks have you had any weight loss?",
         "No."
       ]
     },
@@ -176,7 +304,7 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any nausea or vomiting?",
+        "OK, have you had any nausea or vomiting?",
         "Nope."
       ]
     },
@@ -187,10 +315,14 @@
         "No."
       ]
     },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "but have you had any wheezing?",
+        "OK, and you said you didn't have a cough or a sore throat, but have you had any wheezing?",
         "No wheezing."
       ]
     }

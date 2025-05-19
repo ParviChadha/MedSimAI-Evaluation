@@ -1,31 +1,45 @@
 {
-  "precision": 0.9032258064516129,
+  "precision": 0.8484848484848485,
   "recall": 1.0,
-  "f1_score": 0.9491525423728813,
+  "f1_score": 0.9180327868852458,
   "true_positives": 28,
-  "false_positives": 3,
+  "false_positives": 5,
   "false_negatives": 0,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Aches",
       "result_quotes": [
-        "Was it dry or did you were bringing up any sputum or phlegm?",
-        "No, it's pretty dry."
+        "And how about any muscle aches or or body pains?",
+        "Oh, no."
       ]
     },
     {
-      "item": "Pressure In Around Face",
+      "item": "Throat Pain",
       "result_quotes": [
-        "OK, have you had any pain on your face?",
-        "Pain? Ah no, nothing like that."
+        "Alright, have you had a sore throat?",
+        "Uhm, no sore throat."
       ]
     },
     {
-      "item": "Redness",
+      "item": "Eye Discharge",
       "result_quotes": [
         "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
         "No."
+      ]
+    },
+    {
+      "item": "Changes In His Appetite",
+      "result_quotes": [
+        "OK, little fatigue and and how has your appetite been?",
+        "Appetite's been OK, I'm still eating."
+      ]
+    },
+    {
+      "item": "Changes In Appetite",
+      "result_quotes": [
+        "OK, little fatigue and and how has your appetite been?",
+        "Appetite's been OK, I'm still eating."
       ]
     }
   ],

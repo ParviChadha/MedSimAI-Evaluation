@@ -1,19 +1,43 @@
 {
-  "precision": 1.0,
-  "recall": 0.875,
-  "f1_score": 0.9333333333333333,
-  "true_positives": 14,
-  "false_positives": 0,
-  "false_negatives": 2,
-  "total_items": 27,
-  "false_positive_details": [],
+  "precision": 0.7894736842105263,
+  "recall": 0.9375,
+  "f1_score": 0.8571428571428572,
+  "true_positives": 15,
+  "false_positives": 4,
+  "false_negatives": 1,
+  "total_items": 32,
+  "false_positive_details": [
+    {
+      "item": "Appetite",
+      "result_quotes": [
+        "Medical Student: OK, and how about your appetite?",
+        "Patient: I feel like I've been eating OK. Regular diet."
+      ]
+    },
+    {
+      "item": "Diet",
+      "result_quotes": [
+        "Patient: I feel like I've been eating OK. Regular diet."
+      ]
+    },
+    {
+      "item": "Motor Weakness",
+      "result_quotes": [
+        "Medical Student: Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
+        "Patient: I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "Medical Student: OK, and have you been feeling more more tired, more fatigued at all recently?",
+        "Patient: Yeah, my energy has just been really down. I've been really fatigued."
+      ]
+    }
+  ],
   "false_negative_details": [
     {
       "item": "Paralysis Limb Or Face",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
       "truth_quotes": []
     }
   ]

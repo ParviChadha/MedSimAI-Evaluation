@@ -1,28 +1,40 @@
 {
-  "precision": 0.9642857142857143,
-  "recall": 0.9310344827586207,
-  "f1_score": 0.9473684210526316,
-  "true_positives": 27,
-  "false_positives": 1,
-  "false_negatives": 2,
-  "total_items": 50,
+  "precision": 0.8787878787878788,
+  "recall": 1.0,
+  "f1_score": 0.9354838709677419,
+  "true_positives": 29,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 58,
   "false_positive_details": [
     {
-      "item": "Trauma",
+      "item": "Weight Gain",
       "result_quotes": [
-        "Medical Student: OK, and were you doing anything at the time when the chest pain started? Like did you get in a car accident maybe? Or any trauma to the chest or anything you can think of?",
-        "Patient: No, not really. I was just at home and then I noticed that when, I like, take a deep breath in, it's just, like, a very sharp pain."
+        "has your weight been stable over the last several months",
+        "Yeah, weight has been stable."
+      ]
+    },
+    {
+      "item": "Redness",
+      "result_quotes": [
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
+        "I have been having a little bit of a cough, but that's it"
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "in the past have you been diagnosed with any medical conditions?",
+        "No, I've been pretty healthy."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "in the past have you been diagnosed with any medical conditions?",
+        "No, I've been pretty healthy."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,11 +1,67 @@
 {
-  "precision": 1.0,
+  "precision": 0.7575757575757576,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.8620689655172413,
   "true_positives": 25,
-  "false_positives": 0,
+  "false_positives": 8,
   "false_negatives": 0,
-  "total_items": 36,
-  "false_positive_details": [],
+  "total_items": 49,
+  "false_positive_details": [
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Medical Student: OK, do you have any other symptoms? like a runny nose, sore throat? Anything like that?",
+        "Patient: Uhm, nothing like that."
+      ]
+    },
+    {
+      "item": "Ear Problem",
+      "result_quotes": [
+        "Medical Student: OK, and have you had any surgeries or have been hospitalized before?",
+        "Patient: I did have tubes in my ears when I was little, but that's it though."
+      ]
+    },
+    {
+      "item": "Hyperhidrosis",
+      "result_quotes": [
+        "Medical Student: OK, were you having night sweats?",
+        "Patient: My bed wasn't drenched or anything but I was sweating."
+      ]
+    },
+    {
+      "item": "Fatigue Sleep",
+      "result_quotes": [
+        "Medical Student: OK. Has your sleep or appetite changed at all?",
+        "Patient: I didn't sleep very good last night. I just don't feel very rested this morning."
+      ]
+    },
+    {
+      "item": "Allergy Medication",
+      "result_quotes": [
+        "Medical Student: OK, and do you have any allergies?",
+        "Patient: Uhm, just environmental stuff I think, just, like in the springtime, I'll get itchy eyes or a runny nose."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "Medical Student: Have you been in contact with anyone that's been sick recently?",
+        "Patient: I don't think so. I work at the Toyota factory and there have been a few people that have been sick who worked there? But I don't think I've been in contact with them."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "Patient: Yeah, probably like last night, this morning when I was laying down and just felt a bit tired and achy?"
+      ]
+    },
+    {
+      "item": "Pressure In Around Face",
+      "result_quotes": [
+        "Medical Student: OK, and is it kind of like a pressure like pain? Is it pulsating pain? How would you describe it?",
+        "Patient: I would say it's more of a pressure, yeah."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

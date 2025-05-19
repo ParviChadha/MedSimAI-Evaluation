@@ -1,23 +1,26 @@
 {
-  "precision": 0.9642857142857143,
-  "recall": 0.9642857142857143,
-  "f1_score": 0.9642857142857143,
-  "true_positives": 27,
-  "false_positives": 1,
-  "false_negatives": 1,
-  "total_items": 43,
+  "precision": 0.9333333333333333,
+  "recall": 1.0,
+  "f1_score": 0.9655172413793104,
+  "true_positives": 28,
+  "false_positives": 2,
+  "false_negatives": 0,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Odynophagia",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "It's a little sore, but, uh, it's been OK, to eat and drink."
+        "Medical Student: Alright, do you have any past medical conditions, like high blood pressure, diabetes, anything like that?",
+        "Patient: No, I don't, I'm healthy."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Medical Student: Alright, do you have any past medical conditions, like high blood pressure, diabetes, anything like that?",
+        "Patient: No, I don't, I'm healthy."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

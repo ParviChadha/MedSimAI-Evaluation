@@ -7,38 +7,26 @@
         "No."
       ]
     },
-    "fainting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any dizziness or fainting?",
-        "No."
-      ]
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "itching": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "So currently right now you're 16. This is an age where sometimes your peers or yourself might experiment with alcohol, smoking or recreational drugs. Have you have you tried anything at all?",
+        "No, I haven't."
+      ]
     },
     "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -59,8 +47,8 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm also like consistently coughing all the time and it's not getting any better.",
-        "And how would you describe the cough? Is it wet or dry?",
+        "I'm also like consistently coughing all the time",
+        "OK, and how would you describe the cough? Is it wet or dry?",
         "It's dry."
       ]
     },
@@ -71,12 +59,28 @@
         "No."
       ]
     },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
+        "Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
         "No, nothing like that."
       ]
+    },
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "ear_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
@@ -92,25 +96,51 @@
         "No."
       ]
     },
+    "food_allergy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Not to medication I'm allergic to like strawberries and Kiwis.",
+        "OK, and what kind of reaction do you get?",
+        "I just break out in hives."
+      ]
+    },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "And, and any headaches?",
-        "No, nothing like that."
+        "And, and any headaches? Nausea or vomiting?",
+        "He no, nothing like that."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any blood in your sputum at all?",
+        "OK, and any blood in your sputum at all?",
         "No, no blood."
+      ]
+    },
+    "hyperhidrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you traveled at all recently or been in touch with anyone who's been sick?",
+        "Uhm, no, nothing like that."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nausea or vomiting?",
-        "No, nothing like that."
+        "And, and any headaches? Nausea or vomiting?",
+        "He no, nothing like that."
+      ]
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any sensation of chest pain or racing of your heart?",
+        "No."
       ]
     },
     "palpitation": {
@@ -120,10 +150,22 @@
         "No."
       ]
     },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
+        "Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
         "No, nothing like that."
       ]
     },
@@ -144,14 +186,14 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
+        "Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
         "No, nothing like that."
       ]
     },
     "symptom_speedup": {
       "assessed": "Yes",
       "example_quotes": [
-        "how long have you been symptoms worsening for?",
+        "OK. And so how how long have you been symptoms worsening for?",
         "For the past week I would say."
       ]
     },
@@ -162,19 +204,39 @@
         "No"
       ]
     },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your appetite or weight?",
+        "No."
+      ]
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nausea or vomiting?",
-        "No, nothing like that."
+        "And, and any headaches? Nausea or vomiting?",
+        "He no, nothing like that."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have been very wheezy for the past week.",
-        "OK, and are you getting some wheezing and you say you're also getting a cough."
+        "I have been very wheezy for the past week",
+        "And how about the wheezing? Are you getting it like frequently every time you have an episode, or just sometimes?",
+        "I I'm getting an on and off, but basically every time I cough after that I'll be wheezy for a little bit."
       ]
+    },
+    "widespread_pain": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

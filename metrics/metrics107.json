@@ -1,27 +1,39 @@
 {
-  "precision": 0.9565217391304348,
-  "recall": 0.9166666666666666,
-  "f1_score": 0.9361702127659574,
-  "true_positives": 22,
-  "false_positives": 1,
-  "false_negatives": 2,
-  "total_items": 36,
+  "precision": 0.8571428571428571,
+  "recall": 1.0,
+  "f1_score": 0.923076923076923,
+  "true_positives": 24,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Tachypnea",
+      "item": "Decreased Activity",
       "result_quotes": [
-        "Patient: I do, yeah it gets worse if I if I'm taking a deep breath in, and even more so after I after I cough, if I'm trying to catch my breath, I'll feel it then too."
+        "I've been more fatigued over the last couple months",
+        "And any like fatigue or increased tiredness.",
+        "Yeah, I've had some fatigue for sure."
+      ]
+    },
+    {
+      "item": "Low Mood",
+      "result_quotes": [
+        "I've been diagnosed with depression before as well",
+        "I used to take a a citalopram, but I stopped and and things have been been stable."
+      ]
+    },
+    {
+      "item": "Asthma",
+      "result_quotes": [
+        "Do you have any past medical diagnosis like high blood pressure, diabetes, asthma, anything like that?"
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "I had two C sections for my second daughter and and 3rd."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hyperhidrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

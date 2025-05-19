@@ -1,11 +1,70 @@
 {
-  "precision": 1.0,
+  "precision": 0.7352941176470589,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.8474576271186441,
   "true_positives": 25,
-  "false_positives": 0,
+  "false_positives": 9,
   "false_negatives": 0,
-  "total_items": 25,
-  "false_positive_details": [],
+  "total_items": 49,
+  "false_positive_details": [
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "I thought it was maybe just plugged up, but I haven't really been able to smell these last few days."
+      ]
+    },
+    {
+      "item": "Motor Weakness",
+      "result_quotes": [
+        "I felt pretty, uh, well, yeah, I guess achy and weak."
+      ]
+    },
+    {
+      "item": "Widespread Pain",
+      "result_quotes": [
+        "Um, how about muscle aches or pains?",
+        "I felt pretty, uh, well, yeah, I guess achy and weak."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "I felt pretty, uh, well, yeah, I guess achy and weak."
+      ]
+    },
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "I felt pretty, uh, well, yeah, I guess achy and weak."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "And so you said seasonal allergies. Any other allergies?",
+        "Umm, no, just usually like in the springtime."
+      ]
+    },
+    {
+      "item": "Flu Like Symptom",
+      "result_quotes": [
+        "I remember getting the flu. I had a cough and that sort of thing, but I haven't been sick for several years now."
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "since you started having this cough too, now has anything changed? How are you feeling worse? Or do you feel kind of the same as when it started?",
+        "I would say I feel a bit worse."
+      ]
+    },
+    {
+      "item": "Ear Problem",
+      "result_quotes": [
+        "any ear pain?",
+        "No ear pain, no."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

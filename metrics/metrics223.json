@@ -1,16 +1,34 @@
 {
-  "precision": 1.0,
-  "recall": 0.9629629629629629,
-  "f1_score": 0.9811320754716981,
-  "true_positives": 26,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 42,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.9,
+  "recall": 1.0,
+  "f1_score": 0.9473684210526316,
+  "true_positives": 27,
+  "false_positives": 3,
+  "false_negatives": 0,
+  "total_items": 54,
+  "false_positive_details": [
     {
-      "item": "Discharge",
-      "truth_quotes": []
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "OK, uhm, and have you had any, uh, instances where you've woke up in the middle of the night extremely short of breath?",
+        "Yeah, that happened last night, couldn't fall asleep.",
+        "OK, and do you, uh, typically have problems with shortness of breath if you lie flat?",
+        "I do, I have to, uh, started using two pillows."
+      ]
+    },
+    {
+      "item": "Fainting",
+      "result_quotes": [
+        "Alright, have you had any fainting or dizziness?",
+        "Uh, no."
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "Yeah, I have uh, heart, heart failure and uh, had two heart attacks and have high cholesterol, high blood pressure and, uh, I'm also overweight."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

@@ -364,7 +364,7 @@ class ModelInterface:
         
         try:
             response = self.client.messages.create(
-                model="claude-3-haiku-20240307",  # Using a verified stable Claude model
+                model="claude-3-7-sonnet-20250219",  # Using a verified stable Claude model
                 max_tokens=4096,
                 temperature=0,
                 system=system_prompt,

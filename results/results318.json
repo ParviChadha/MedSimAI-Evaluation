@@ -1,46 +1,16 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "aches": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I would say it's a, uh, it's a tightness in my chest. And it feels, I guess throbbing or achy?"
+      ]
+    },
+    "body_ache": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "injury": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "throat_pain": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -48,228 +18,313 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
+    "chest_discomfort": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And are you feeling at all any kind of, uh, chest tightness or pain?",
+        "Uh, yeah, some chest tightness."
+      ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And are you feeling at all any kind of, uh, chest tightness or pain?",
-        "Patient: Uh, yeah, some chest tightness."
+        "And are you feeling at all any kind of, uh, chest tightness or pain?",
+        "can you describe your chest pain a little bit? Is it kind of a pressure pain or is it a sharp pain, aching pain?"
       ]
     },
     "chest_tightness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And are you feeling at all any kind of, uh, chest tightness or pain?",
-        "Patient: Uh, yeah, some chest tightness."
+        "And are you feeling at all any kind of, uh, chest tightness or pain?",
+        "Uh, yeah, some chest tightness.",
+        "it's a tightness in my chest"
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and any fevers or chills.",
-        "Patient: Ah, nope, nothing like that."
+        "OK, and any fevers or chills.",
+        "Ah, nope, nothing like that."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and what kind of cough are you having? Is it a wet cough or a dry cough?",
-        "Patient: It's definitely wet. My phlegm looks green."
+        "My phlegm looks green.",
+        "OK, and how much sputum are you bringing up in an average day now?",
+        "Uhm, I'm bringing up about, I'd say it would fill like two, two of my palms, like the inside of my palm."
       ]
     },
     "confusion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you been feeling increased sweating and confusion? Anything like that?",
-        "Patient: No."
+        "Have you been feeling increased sweating and confusion? Anything like that?",
+        "No."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And , uh, do you have any kind of diarrhea or constipation?",
-        "Patient: Uhm, no nothing like that."
+        "And , uh, do you have any kind of diarrhea or constipation?",
+        "Uhm, no nothing like that."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and you're also coughing?",
-        "Patient: Yeah."
+        "I can't stop coughing",
+        "OK, and what kind of cough are you having? Is it a wet cough or a dry cough?",
+        "It's definitely wet."
       ]
     },
-    "decrease_interest_in_activities": {
-      "assessed": "No",
-      "example_quotes": []
+    "decreased_activity": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uhm, I guess activity makes it worse",
+        "I'm coughing and feeling short of breath."
+      ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And , uh, do you have any kind of diarrhea or constipation?",
-        "Patient: Uhm, no nothing like that."
+        "And , uh, do you have any kind of diarrhea or constipation?",
+        "Uhm, no nothing like that."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, have you been feeling dizzy or have you fainted at all?",
-        "Patient: Uh, no."
+        "OK, have you been feeling dizzy or have you fainted at all?",
+        "Uh, no."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've been feeling very short of breath for the past, uh, two weeks, but even before that, I started feeling a little bit short of breath and I can't stop coughing and it just feels like it's really hard for me to breathe."
+        "I've been feeling very short of breath",
+        "it feels like it's really hard for me to breathe",
+        "right now even at rest, I'm coughing and feeling short of breath"
       ]
     },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, have you been feeling dizzy or have you fainted at all?",
-        "Patient: Uh, no."
+        "OK, have you been feeling dizzy or have you fainted at all?",
+        "Uh, no."
+      ]
+    },
+    "fatigue": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, how about fatigue?",
+        "Yeah, I feel fatigued."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about fatigue?",
-        "Patient: Yeah, I feel fatigued."
+        "OK, and is that just about today or is it, do you think it's because of your shortness of breath?",
+        "Yeah, it's probably cause of my shortness of breath."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any kind of fevers at all?",
-        "Patient: No, no fevers."
+        "OK, any kind of fevers at all?",
+        "No, no fevers."
       ]
     },
-    "flush": {
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
     "headaches": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and any kind of headaches or nausea or vomiting.",
-        "Patient: No, nothing like that."
+        "OK. And any kind of headaches or nausea or vomiting.",
+        "No, nothing like that."
       ]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Have you noticed any kind of, uh, coughing up blood or blood tinged sputum at all?",
-        "Patient: Uhm no not that, no blood."
+        "OK. Have you noticed any kind of, uh, coughing up blood or blood tinged sputum at all?",
+        "Uhm no not that, no blood."
       ]
     },
     "hyperhidrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you been feeling increased sweating and confusion? Anything like that?",
-        "Patient: No."
+        "Have you been feeling increased sweating and confusion? Anything like that?",
+        "No."
       ]
+    },
+    "infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "did you get sick at all recently, or were you in contact with anyone who was sick?",
+        "No, not that I know of."
+      ]
+    },
+    "lethargic": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and have you at all had any changes in your appetite or anything like that?",
-        "Patient: No, no change in appetite."
+        "OK, and have you at all had any changes in your appetite or anything like that?",
+        "No, no change in appetite."
       ]
     },
-    "malaise": {
+    "loss_of_sense": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lung_complications": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "just COPD",
+        "COPD I've been, I got diagnosed about seven years ago"
+      ]
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucous_building": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "My phlegm looks green.",
+        "Uhm, I'm bringing up about, I'd say it would fill like two, two of my palms, like the inside of my palm."
+      ]
+    },
+    "nasal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and any kind of headaches or nausea or vomiting.",
-        "Patient: No, nothing like that."
+        "OK. And any kind of headaches or nausea or vomiting.",
+        "No, nothing like that."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And are you feeling at all any kind of, uh, chest tightness or pain?",
-        "Patient: Uh, yeah, some chest tightness."
+        "And are you feeling at all any kind of, uh, chest tightness or pain?",
+        "can you describe your chest pain a little bit?"
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, have you felt your heart racing and anything like that?",
-        "Patient: No."
+        "OK, have you felt your heart racing and anything like that?",
+        "No."
       ]
     },
     "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Are you having any of these symptoms when you're trying to sleep?",
-        "Patient: uh yeah, I think its, yeah when I'm laying down sometimes I feel more short of breath than usual, but once I shift positions it goes back to it's normal."
+        "Are you having any of these symptoms when you're trying to sleep?",
+        "uh yeah, I think its, yeah when I'm laying down sometimes I feel more short of breath than usual",
+        "OK, and do you have any kind of shortness of breath when you're lying down, at all?",
+        "Uh, a little bit. Yeah, a little bit I would say."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any night sweats?",
-        "Patient: Ah, sometimes I feel sweaty, but that's just with the shortness of breath."
+        "Any night sweats?",
+        "Ah, sometimes I feel sweaty, but that's just with the shortness of breath."
       ]
+    },
+    "sore_throat": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stuffy_nose": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and uh, right now do you have any symptoms of any swelling in your extremities like legs, hands or anything like that?",
-        "Patient: Some swelling in, some swelling in my legs, yeah?"
+        "right now do you have any symptoms of any swelling in your extremities like legs, hands or anything like that?",
+        "Some swelling in, some swelling in my legs, yeah?"
       ]
+    },
+    "symptoms_stress": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "taste_loss": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "tightness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And are you feeling at all any kind of, uh, chest tightness or pain?",
-        "Patient: Uh, yeah, some chest tightness."
+        "And are you feeling at all any kind of, uh, chest tightness or pain?",
+        "Uh, yeah, some chest tightness.",
+        "it's a tightness in my chest"
       ]
     },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
+    "trouble_breathing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've been feeling very short of breath",
+        "it feels like it's really hard for me to breathe"
+      ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And have you noticed any kind of, uh, significant weight loss or anything like that recently?",
-        "Patient: No."
+        "And have you noticed any kind of, uh, significant weight loss or anything like that recently?",
+        "No."
       ]
     },
-    "vaccine_related_reaction": {
+    "vision_problem": {
       "assessed": "No",
       "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and any kind of headaches or nausea or vomiting.",
-        "Patient: No, nothing like that."
+        "OK. And any kind of headaches or nausea or vomiting.",
+        "No, nothing like that."
       ]
+    },
+    "watery_eyes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And have you recently at all traveled outside of the country or outside of the province?",
-        "Patient: Uh, no. No, not recently."
+        "now are you having any wheezing at all?",
+        "Uhm, some wheezing, yeah."
       ]
     }
   }

@@ -1,11 +1,73 @@
 {
-  "precision": 1.0,
+  "precision": 0.7567567567567568,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.8615384615384616,
   "true_positives": 28,
-  "false_positives": 0,
+  "false_positives": 9,
   "false_negatives": 0,
-  "total_items": 28,
-  "false_positive_details": [],
+  "total_items": 54,
+  "false_positive_details": [
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "it turned into just a lot of congestion, like around my nose and like my throat",
+        "Yeah, so at night sometimes I have to like turn because one side of my nose gets difficult to breathe from"
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "and have you had any chest pain?",
+        "No, no chest pain."
+      ]
+    },
+    {
+      "item": "Coughing Fit",
+      "result_quotes": [
+        "OK, and have you had any cough or sore throat?",
+        "Uh, no. No cough or sore throat."
+      ]
+    },
+    {
+      "item": "Motor Weakness",
+      "result_quotes": [
+        "OK, and have you had any muscle weakness?",
+        "No."
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "Yeah, I'm still getting some discharge",
+        "Uh, it's fairly clear and sometimes, like a bit white, but like, it's not like green or yellow."
+      ]
+    },
+    {
+      "item": "Bowel Movement",
+      "result_quotes": [
+        "Have you had any diarrhea?",
+        "No diarrhea."
+      ]
+    },
+    {
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "just maybe sometimes difficult to get to sleep with all the all the congestion"
+      ]
+    },
+    {
+      "item": "Smell Problem",
+      "result_quotes": [
+        "OK, and have you had any changes to your sense of smell?",
+        "Yeah, so just in the last three days when the congestion got really bad I started losing the ability to smell."
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "I did kind of have a runny nose last week as well, so probably like 8 days ago but then the runny nose discontinued a little bit but really got worse 5 days ago, but all these other symptoms just happened in the last few days."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

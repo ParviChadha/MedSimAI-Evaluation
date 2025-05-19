@@ -1,23 +1,59 @@
 {
-  "precision": 0.9333333333333333,
+  "precision": 0.8,
   "recall": 1.0,
-  "f1_score": 0.9655172413793104,
+  "f1_score": 0.888888888888889,
   "true_positives": 28,
-  "false_positives": 2,
+  "false_positives": 7,
   "false_negatives": 0,
-  "total_items": 37,
+  "total_items": 55,
   "false_positive_details": [
     {
-      "item": "Tachypnea",
+      "item": "Ache",
       "result_quotes": [
-        "Um, sometimes I also feel more breathless on when I'm exerting myself more."
+        "Any joint pains or or muscle pains?",
+        "No."
       ]
     },
     {
-      "item": "Infectious Symptom",
+      "item": "Ecercise",
+      "result_quotes": [
+        "Um, it definitely gets worse when I'm doing more activities",
+        "I used to be able to walk at least 400 meters around the block, but now I can barely even go to the kitchen."
+      ]
+    },
+    {
+      "item": "Flu",
       "result_quotes": [
         "Um, it definitely gets worse when I'm doing more activities and then also when I get like some viral infections.",
         "Yeah, like in the last two years, I've probably had two or three viral infections, just just just cold cold symptoms."
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "OK. And how much sputum are you bringing up an in a day?",
+        "Probably like a, a couple teaspoons."
+      ]
+    },
+    {
+      "item": "Motor Weakness",
+      "result_quotes": [
+        "Any weakness?",
+        "Not weakness, I'll just say more fatigue."
+      ]
+    },
+    {
+      "item": "Muscle Aches",
+      "result_quotes": [
+        "Any joint pains or or muscle pains?",
+        "No."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "Any joint pains or or muscle pains?",
+        "No."
       ]
     }
   ],

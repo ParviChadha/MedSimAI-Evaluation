@@ -1,4 +1,168 @@
 {
-  "error": "Failed to parse JSON",
-  "raw_content": "```json\n{\n  \"medical_history_assessed\": {\n    \"changes_in_appetite\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"respiratory_distress_syndrome\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"I've had a shortness of breath, and even at at rest. Really, feeling like it's difficult to breathe\"\n      ]\n    },\n    \"anxious\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Um, yeah, yeah and I have a high BMI. Type 2 diabetes and anxiety.\"\n      ]\n    },\n    \"bowel_movement\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"do you have any belly pain or any changes in your bowel movements?\",\n        \"No belly pain or changes to bowel movements\"\n      ]\n    },\n    \"chest_pain\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"when I take a deep breath I get a chest pain\",\n        \"And the chest pain, does it only occur when you take a deep breath, or are there other times as well?\"\n      ]\n    },\n    \"confusion\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"constipation\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"cough\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Any cough?\",\n        \"Yeah, I, I've had a cough as well over that the same same time period.\",\n        \"Is it a dry cough? Are you bringing something up?\",\n        \"It's dry, yeah, I haven't brought up any sputum or any any any blood.\"\n      ]\n    },\n    \"dehydration\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"diarrhoea\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"difficulty_sleeping\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"dysphagia\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"dyspnea\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"I've had a shortness of breath, and even at at rest.\",\n        \"I mean if I exert myself at all, there's no way I would be able to.\",\n        \"it's hard to breathe.\",\n        \"just had um, yeah, the shortness of breath\"\n      ]\n    },\n    \"dysuria\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"fever\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Any other symptoms that you've had? A fever or headache?\",\n        \"No, nothing like that.\"\n      ]\n    },\n    \"flu_like_symptom\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Any other flu like symptoms, runny nose, stuffy nose, sore throat?\",\n        \"No, I just had um, yeah, the shortness of breath and chest pain.\"\n      ]\n    },\n    \"head_ache\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"headache\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Any other symptoms that you've had? A fever or headache?\",\n        \"No, nothing like that.\"\n      ]\n    },\n    \"hemoptysis\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"I haven't brought up any sputum or any any any blood.\"\n      ]\n    },\n    \"nausea\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"numbness\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"pain\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"when I take a deep breath I get a chest pain\",\n        \"I have had actually, yeah my right my right calf is pretty sore.\"\n      ]\n    },\n    \"palpitation\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"do you feel like your heart is racing or do you feel like you have, uhm\": [\n        \"I do feel like my heart is beating really fast really fast though.\"\n      ]\n    },\n    \"paralysis_general\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"pregnancy\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"sore_throat\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Any other flu like symptoms, runny nose, stuffy nose, sore throat?\",\n        \"No, I just had um, yeah, the shortness of breath and chest pain.\"\n      ]\n    },\n    \"stuffy_nose\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Any other flu like symptoms, runny nose, stuffy nose, sore throat?\",\n        \"No, I just had um, yeah, the shortness of breath and chest pain.\"\n      ]\n    },\n    \"swelling\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Or swelling in your leg?\",\n        \"No, I don't notice anything like that, just I, just really hurts.\"\n      ]\n    }\n  }\n}\n```"
+  "medical_history_assessed": {
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any belly pain or any changes in your bowel movements?",
+        "No belly pain or changes to bowel movements"
+      ]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "when I take a deep breath I get a chest pain",
+        "And the chest pain, does it only occur when you take a deep breath, or are there other times as well?",
+        "I pretty much yeah only when I'm taking a deep breath"
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any cough?",
+        "Yeah, I, I've had a cough as well over that the same same time period",
+        "Is it a dry cough? Are you bringing something up?",
+        "It's dry, yeah, I haven't brought up any sputum or any any any blood"
+      ]
+    },
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Type 2 diabetes and anxiety",
+        "Yeah, so uh insulin, well metformin. And then that's it"
+      ]
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've had a shortness of breath, and even at at rest",
+        "How bad is your shortness of breath?",
+        "I just feel like even at rest it's hard to breathe",
+        "Are you able to talk in full sentences or do you need to take a deep like stop to take a breath?"
+      ]
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "feeling_tired": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms that you've had? A fever or headache?",
+        "No, nothing like that"
+      ]
+    },
+    "flu_like_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK any other flu like symptoms, runny nose, stuffy nose, sore throat? Anything like that?",
+        "No, I just had um, yeah, the shortness of breath and chest pain"
+      ]
+    },
+    "general_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms that you've had? A fever or headache?",
+        "No, nothing like that"
+      ]
+    },
+    "headache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms that you've had? A fever or headache?",
+        "No, nothing like that"
+      ]
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I haven't brought up any sputum or any any any blood"
+      ]
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "when I take a deep breath I get a chest pain",
+        "I've had a lot of pain so I just haven't been doing as much activity",
+        "my right my right calf is pretty sore",
+        "just I, just really hurts"
+      ]
+    },
+    "palpitation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you feel like your heart is racing",
+        "I do feel like my heart is beating really fast really fast though"
+      ]
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "redness_in_throat": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sore_throat": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK any other flu like symptoms, runny nose, stuffy nose, sore throat? Anything like that?",
+        "No, I just had um, yeah, the shortness of breath and chest pain"
+      ]
+    },
+    "stuffy_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK any other flu like symptoms, runny nose, stuffy nose, sore throat? Anything like that?",
+        "No, I just had um, yeah, the shortness of breath and chest pain"
+      ]
+    },
+    "sweaty": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "swelling": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any, I guess any pain in your legs. Or swelling in your leg?",
+        "Have you noticed that it's been bigger or more red or warm?",
+        "Um, no, I don't notice anything like that, just I, just really hurts"
+      ]
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    }
+  }
 }

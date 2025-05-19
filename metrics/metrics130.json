@@ -1,16 +1,19 @@
 {
-  "precision": 1.0,
-  "recall": 0.9615384615384616,
-  "f1_score": 0.9803921568627451,
-  "true_positives": 25,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 32,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.9629629629629629,
+  "recall": 1.0,
+  "f1_score": 0.9811320754716981,
+  "true_positives": 26,
+  "false_positives": 1,
+  "false_negatives": 0,
+  "total_items": 52,
+  "false_positive_details": [
     {
-      "item": "Discomfort",
-      "truth_quotes": []
+      "item": "Widespread Pain",
+      "result_quotes": [
+        "Have you had any muscle aches or joint pains?",
+        "Um no, nothing like that."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

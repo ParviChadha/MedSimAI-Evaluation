@@ -1,11 +1,31 @@
 {
-  "precision": 1.0,
+  "precision": 0.9032258064516129,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9491525423728813,
   "true_positives": 28,
-  "false_positives": 0,
+  "false_positives": 3,
   "false_negatives": 0,
-  "total_items": 36,
-  "false_positive_details": [],
+  "total_items": 55,
+  "false_positive_details": [
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "My brother has um high blood pressure, diabetes."
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "I do have, uh I take medications for high blood pressure."
+      ]
+    },
+    {
+      "item": "Redness",
+      "result_quotes": [
+        "Any rashes?",
+        "No rashes."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

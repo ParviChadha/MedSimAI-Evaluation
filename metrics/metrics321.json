@@ -1,23 +1,59 @@
 {
-  "precision": 0.9130434782608695,
+  "precision": 0.75,
   "recall": 1.0,
-  "f1_score": 0.9545454545454545,
+  "f1_score": 0.8571428571428571,
   "true_positives": 21,
-  "false_positives": 2,
+  "false_positives": 7,
   "false_negatives": 0,
   "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Infection",
+      "item": "Lymphadenitis",
       "result_quotes": [
-        "yeah, any issues with your eyes?"
+        "OK, OK and have you noticed that your that your glands are swollen?",
+        "I think so, um maybe that's what's swollen in my neck."
       ]
     },
     {
-      "item": "Sleep Issue",
+      "item": "Discharge",
       "result_quotes": [
-        "so it's not preventing you from sleeping, going to school, playing, things like that?",
-        "No, it's more so the sore throat when swallowing."
+        "OK. OK, is it bleeding or oozing anything like pus?",
+        "No, nothing like crusting or pus coming out of your eyes? Red eye, anything like that?"
+      ]
+    },
+    {
+      "item": "Itching",
+      "result_quotes": [
+        "OK. OK, is it itchy?",
+        "I haven't noticed any anything in terms of itchiness or um discharge."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "OK how about urine?",
+        "Um, that's been OK."
+      ]
+    },
+    {
+      "item": "Swelling",
+      "result_quotes": [
+        "OK, OK and have you noticed that your that your glands are swollen?",
+        "I think so, um maybe that's what's swollen in my neck."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "Have you been around anyone who may have been sick recently?",
+        "Yeah, actually I think a few of my friends or there was somebody in my gym class knew that I sounded like they had similar symptoms."
+      ]
+    },
+    {
+      "item": "Malaise",
+      "result_quotes": [
+        "I just kind of haven't been feeling so great",
+        "Um, I mean I've had sore throats in the past, but not while feeling like this though."
       ]
     }
   ],

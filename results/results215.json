@@ -1,18 +1,10 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "injury": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -20,181 +12,270 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "phlegm": {
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "allergic_rhinitis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. And so it's been a wet cough. Do you release any kind of like phlegm or sputum?",
-        "Um, yeah, it's usually clear, but sometimes it can look yellow or green."
+        "Medical Student: OK. And do you have any other symptoms besides the difficulty breathing and the cough? Do you have a sore throat, runny nose, dizziness, anything like that?",
+        "Patient: No."
       ]
     },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
     "appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any issues with your sleep or appetite?",
-        "Uh, no."
+        "Medical Student: Any issues with your sleep or appetite?",
+        "Patient: Uh, no."
       ]
+    },
+    "bad_smell": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your bowel movements, any constipation or diarrhea?",
-        "No."
+        "Medical Student: Any changes in your bowel movements, any constipation or diarrhea?",
+        "Patient: No."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you get any chest pain at all?",
-        "No chest pain."
+        "Medical Student: Do you get any chest pain at all?",
+        "Patient: No chest pain.",
+        "Medical Student: OK, do you ever feel that your heart is racing or you have any kind of chest pain?",
+        "Patient: No."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any fever, chills or night sweats?",
-        "No."
+        "Medical Student: Any fever, chills or night sweats?",
+        "Patient: No."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, yeah, it's usually clear, but sometimes it can look yellow or green."
+        "Medical Student: OK. And so it's been a wet cough. Do you release any kind of like phlegm or sputum?",
+        "Patient: Um, yeah, it's usually clear, but sometimes it can look yellow or green.",
+        "Medical Student: OK, and how, how much would you say you produce every day?",
+        "Patient: Every time I cough maybe like the size of my thumbprint."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your bowel movements, any constipation or diarrhea?",
-        "No."
+        "Medical Student: Any changes in your bowel movements, any constipation or diarrhea?",
+        "Patient: No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "May I just begin with asking you what brought you in here today?",
-        "Sure, um, I've been experiencing some issues breathing, um and just a lot of coughing over the past year or so."
+        "Patient: Sure, um, I've been experiencing some issues breathing, um and just a lot of coughing over the past year or so.",
+        "Medical Student: OK. And is your cough, has it been a wet cough or a dry cough?",
+        "Patient: Uh, but it's been a wet cough."
       ]
     },
     "coughing_fit": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK. And uh, has it been constant coughing? Or does it come and go over the last eight months?",
+        "Patient: Um, it comes and goes, but there, there it's always like I have a tickle in my throat or something."
+      ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your bowel movements, any constipation or diarrhea?",
-        "No."
+        "Medical Student: Any changes in your bowel movements, any constipation or diarrhea?",
+        "Patient: No."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you have any other symptoms besides the difficulty breathing and the cough? Do you have a sore throat, runny nose, dizziness, anything like that?",
-        "No."
+        "Medical Student: OK. And do you have any other symptoms besides the difficulty breathing and the cough? Do you have a sore throat, runny nose, dizziness, anything like that?",
+        "Patient: No."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Is there anything you do that makes the coughing or shortness of breath worse?",
-        "Um, I guess walking."
+        "Patient: Sure, um, I've been experiencing some issues breathing, um and just a lot of coughing over the past year or so.",
+        "Medical Student: Is there anything you do that makes the coughing or shortness of breath worse?",
+        "Patient: Um, I guess walking.",
+        "Medical Student: How much can you walk or run until you feel the coughing or shortness of breath?",
+        "Patient: About like 200 meters."
       ]
+    },
+    "dysuria": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Have you noticed any issues urinating?",
+        "Patient: No."
+      ]
+    },
+    "eye_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fainting": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you feel increasingly fatigued throughout the day?",
-        "Yeah, I guess coughing a lot makes me tired."
+        "Medical Student: Do you feel increasingly fatigued throughout the day?",
+        "Patient: Yeah, I guess coughing a lot makes me tired."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any fever, chills or night sweats?",
-        "No."
+        "Medical Student: Any fever, chills or night sweats?",
+        "Patient: No."
       ]
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any headaches, nausea or vomiting?",
-        "No."
+        "Medical Student: Any headaches, nausea or vomiting?",
+        "Patient: No."
       ]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and have you notice at all coughing up any blood?",
-        "No."
+        "Medical Student: OK, and have you notice at all coughing up any blood?",
+        "Patient: No.",
+        "Medical Student: Is the blood ever mixed into the phlegm?",
+        "Patient: No."
       ]
+    },
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK. In terms of your overall health, do you have any past medical conditions? You mentioned asthma, but anything else like diabetes, high blood pressure?",
+        "Patient: I have type 2 diabetes and high blood pressure."
+      ]
+    },
+    "impending_doom_anxiety": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Have you had any recent infections that you know of?",
+        "Patient: Not that I know of.",
+        "Medical Student: Any antibiotics that you've had to use for any infections?",
+        "Patient: No."
+      ]
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you ever feel that your heart is racing or you have any kind of chest pain?",
-        "No."
+        "Medical Student: OK, do you ever feel that your heart is racing or you have any kind of chest pain?",
+        "Patient: No."
       ]
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you have any other symptoms besides the difficulty breathing and the cough? Do you have a sore throat, runny nose, dizziness, anything like that?",
-        "No."
+        "Medical Student: OK. And do you have any other symptoms besides the difficulty breathing and the cough? Do you have a sore throat, runny nose, dizziness, anything like that?",
+        "Patient: No."
       ]
     },
     "sleep": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any issues with your sleep or appetite?",
-        "Uh, no."
+        "Medical Student: Any issues with your sleep or appetite?",
+        "Patient: Uh, no."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any fever, chills or night sweats?",
-        "No."
+        "Medical Student: Any fever, chills or night sweats?",
+        "Patient: No."
       ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you have any other symptoms besides the difficulty breathing and the cough? Do you have a sore throat, runny nose, dizziness, anything like that?",
-        "No."
+        "Medical Student: OK. And do you have any other symptoms besides the difficulty breathing and the cough? Do you have a sore throat, runny nose, dizziness, anything like that?",
+        "Patient: No."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any significant changes in your weight?",
-        "No."
+        "Medical Student: Any significant changes in your weight?",
+        "Patient: No."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you noticed any issues urinating?",
-        "No."
+        "Medical Student: Have you noticed any issues urinating?",
+        "Patient: No."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any headaches, nausea or vomiting?",
-        "No."
+        "Medical Student: Any headaches, nausea or vomiting?",
+        "Patient: No."
       ]
+    },
+    "widespread_pain": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

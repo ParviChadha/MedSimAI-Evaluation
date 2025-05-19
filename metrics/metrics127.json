@@ -1,23 +1,49 @@
 {
-  "precision": 0.9285714285714286,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.9285714285714286,
-  "true_positives": 13,
-  "false_positives": 1,
-  "false_negatives": 1,
-  "total_items": 24,
+  "precision": 0.7368421052631579,
+  "recall": 1.0,
+  "f1_score": 0.8484848484848484,
+  "true_positives": 14,
+  "false_positives": 5,
+  "false_negatives": 0,
+  "total_items": 28,
   "false_positive_details": [
     {
-      "item": "Injury",
+      "item": "Decreased Physical Activity",
       "result_quotes": [
-        "You mentioned there weren't any triggers like no trauma to the area."
+        "how about on exertion? Like when you walk or run, or you know, does it hurt more or does I mean sorry, does your shortness of breath get worse?",
+        "Oh yeah, it was like going up the stairs, can't really breathe in after."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "I kinda had like an ache on my chest",
+        "And then if I breathe really deep it feels like a little sharp.",
+        "it aches kind of it, but it's all up here and like kind of in my back a little bit."
+      ]
+    },
+    {
+      "item": "Lightheadedness",
+      "result_quotes": [
+        "Are you experiencing any dizziness or you feeling faint?",
+        "No, just like a I can't get like a good breath."
+      ]
+    },
+    {
+      "item": "Redness",
+      "result_quotes": [
+        "Any rashes?",
+        "No."
+      ]
+    },
+    {
+      "item": "Injury In Chest",
+      "result_quotes": [
+        "do you think anything triggered this?",
+        "I don't know.",
+        "And then, other things could be like COPD because you which is a chronic obstructive pulmonary disease because you have been smoking since college and that's basically just inflammation in your lungs that causes your airways to narrow, and so you may have a hard time breathing."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Fainting",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

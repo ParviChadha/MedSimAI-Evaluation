@@ -1,29 +1,40 @@
 {
-  "precision": 0.9047619047619048,
-  "recall": 0.95,
-  "f1_score": 0.9268292682926829,
-  "true_positives": 19,
-  "false_positives": 2,
-  "false_negatives": 1,
-  "total_items": 35,
+  "precision": 0.8333333333333334,
+  "recall": 1.0,
+  "f1_score": 0.9090909090909091,
+  "true_positives": 20,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Itching",
+      "item": "Taste Problem",
       "result_quotes": [
-        "Medical Student: OK, have you had a sore throat? Patient: Uh, it's felt a little itchy I guess but no pain with swallowing."
+        "Any changes in your sense of taste?",
+        "No."
       ]
     },
     {
-      "item": "Redness",
+      "item": "Discomfort",
       "result_quotes": [
-        "Medical Student: OK. What about, any redness in your eyes or any congestion in your nose? Patient: Uh, I haven't noticed anything like that."
+        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain.",
+        "I would say, maybe six. It feels pretty sharp when it happens and it goes away after a few minutes."
+      ]
+    },
+    {
+      "item": "Widespread Pain",
+      "result_quotes": [
+        "No, OK. What about fatigue or muscle aches?",
+        "I've been fatigued. No muscle aches."
+      ]
+    },
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "OK, have you had a sore throat?",
+        "Uh, it's felt a little itchy I guess but no pain with swallowing."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Dysphagia",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

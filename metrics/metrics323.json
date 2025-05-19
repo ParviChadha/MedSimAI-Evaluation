@@ -1,11 +1,33 @@
 {
-  "precision": 1.0,
+  "precision": 0.88,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9361702127659575,
   "true_positives": 22,
-  "false_positives": 0,
+  "false_positives": 3,
   "false_negatives": 0,
-  "total_items": 42,
-  "false_positive_details": [],
+  "total_items": 44,
+  "false_positive_details": [
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Medical Student: OK. Have you been having any kind of urinary issues?",
+        "Patient: Ummm only at night time I seem to have to get up a lot to use the bathroom."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Medical Student: OK and have you had any recent infections at all?",
+        "Patient: No recent infections."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Medical Student: OK. And have you been diagnosed with any medical conditions at all, like high blood pressure, diabetes?",
+        "Patient: Um my blood pressure has been high and that was diagnosed in the last few years."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

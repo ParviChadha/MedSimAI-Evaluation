@@ -1,17 +1,30 @@
 {
-  "precision": 0.9615384615384616,
+  "precision": 0.8928571428571429,
   "recall": 1.0,
-  "f1_score": 0.9803921568627451,
+  "f1_score": 0.9433962264150945,
   "true_positives": 25,
-  "false_positives": 1,
+  "false_positives": 3,
   "false_negatives": 0,
-  "total_items": 31,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Malaise",
       "result_quotes": [
-        "is she at all, coughing up any green or yellow material or any blood at all?",
-        "No, nothing like that."
+        "Patient: They've been pretty constant, and they've gotten a little bit worse since they started. Three or four days ago, I I think now yeah, her symptoms are at her, at the worst right now. Just not feeling very well."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "Medical Student: OK and were there any complications at all during your pregnancy with her or after the pregnancy?",
+        "Patient: No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications. So yeah, things were good."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "Medical Student: OK, any exposure to any allergens or like fumes, dust animals?",
+        "Patient: No, I can't think of anything like that. We don't have any pets at Home and she's she's been hasn't been going anywhere else."
       ]
     }
   ],

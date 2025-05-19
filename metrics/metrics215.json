@@ -1,24 +1,42 @@
 {
-  "precision": 0.9565217391304348,
-  "recall": 0.9565217391304348,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 22,
-  "false_positives": 1,
-  "false_negatives": 1,
-  "total_items": 32,
+  "precision": 0.8518518518518519,
+  "recall": 1.0,
+  "f1_score": 0.92,
+  "true_positives": 23,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Allergic Rhinitis",
       "result_quotes": [
-        "OK. And so it's been a wet cough. Do you release any kind of like phlegm or sputum?",
-        "Um, yeah, it's usually clear, but sometimes it can look yellow or green."
+        "Medical Student: OK. And do you have any other symptoms besides the difficulty breathing and the cough? Do you have a sore throat, runny nose, dizziness, anything like that?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Medical Student: Have you noticed any issues urinating?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "Medical Student: OK. In terms of your overall health, do you have any past medical conditions? You mentioned asthma, but anything else like diabetes, high blood pressure?",
+        "Patient: I have type 2 diabetes and high blood pressure."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "Medical Student: Have you had any recent infections that you know of?",
+        "Patient: Not that I know of.",
+        "Medical Student: Any antibiotics that you've had to use for any infections?",
+        "Patient: No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Coughing Fit",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

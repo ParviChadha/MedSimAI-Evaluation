@@ -1,16 +1,40 @@
 {
-  "precision": 1.0,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.9787234042553191,
-  "true_positives": 23,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 30,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.8571428571428571,
+  "recall": 1.0,
+  "f1_score": 0.923076923076923,
+  "true_positives": 24,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 48,
+  "false_positive_details": [
     {
-      "item": "Widespread Pain",
-      "truth_quotes": []
+      "item": "Pregnancy",
+      "result_quotes": [
+        "in terms of the pregnancy, uh were there any complications during the pregnancy like gestational diabetes or or um high blood pressure?",
+        "Uh I did have gestational diabetes."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Or or any urinary problems?",
+        "No, no."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "were there any complications during the pregnancy like gestational diabetes",
+        "Uh I did have gestational diabetes."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "Alright, and any allergies to medications or uh environment that you're aware of?",
+        "Um no."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

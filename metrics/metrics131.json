@@ -1,31 +1,65 @@
 {
-  "precision": 0.9259259259259259,
-  "recall": 0.9615384615384616,
-  "f1_score": 0.9433962264150944,
-  "true_positives": 25,
-  "false_positives": 2,
-  "false_negatives": 1,
-  "total_items": 35,
+  "precision": 0.7647058823529411,
+  "recall": 1.0,
+  "f1_score": 0.8666666666666666,
+  "true_positives": 26,
+  "false_positives": 8,
+  "false_negatives": 0,
+  "total_items": 51,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Infection",
       "result_quotes": [
-        "OK, good and have you been in contact with anyone who's been sick recently?",
-        "Not that I know of."
+        "Medical Student: Yeah, it sounds like you have some sort of infection, so the first thing we need to rule out is covid, of course."
       ]
     },
     {
-      "item": "Change In Taste",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "how about changes in smell or taste?",
-        "it was just kind of a funky like, different taste. I couldn't really tell, uh, everything was kind of a bit bland."
+        "Medical Student: OK, good. Do you have any allergies?",
+        "Patient: No, no allergies."
+      ]
+    },
+    {
+      "item": "Decreased Activity",
+      "result_quotes": [
+        "Patient: I haven't even gone to work this whole week, just kind of laying in bed honestly with all the pain and the fever and headaches"
+      ]
+    },
+    {
+      "item": "Fatigue",
+      "result_quotes": [
+        "Medical Student: Any excessive fatigue?",
+        "Patient: Yeah, I have been feeling pretty tired and just, uh, I haven't even gone to work this whole week, just kind of laying in bed honestly with all the pain and the fever and headaches, just yeah, it's exhausting."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "Patient: And three days ago, like my body just started aching all over the place",
+        "Patient: Yeah, the headache has improved a bit, the body aches are still there"
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "Medical Student: How about family history of lung conditions or heart conditions?",
+        "Patient: Yes, I have a pretty significant family history for heart conditions."
+      ]
+    },
+    {
+      "item": "Nause",
+      "result_quotes": [
+        "Medical Student: OK, how about nausea or vomiting?",
+        "Patient: uh no, no nausea or vomiting."
+      ]
+    },
+    {
+      "item": "Decreased Physical Activity",
+      "result_quotes": [
+        "Patient: I haven't even gone to work this whole week, just kind of laying in bed honestly with all the pain and the fever and headaches"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

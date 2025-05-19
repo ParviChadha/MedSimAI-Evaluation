@@ -1,16 +1,45 @@
 {
-  "precision": 0.9565217391304348,
+  "precision": 0.8148148148148148,
   "recall": 1.0,
-  "f1_score": 0.9777777777777777,
+  "f1_score": 0.8979591836734693,
   "true_positives": 22,
-  "false_positives": 1,
+  "false_positives": 5,
   "false_negatives": 0,
-  "total_items": 34,
+  "total_items": 44,
   "false_positive_details": [
+    {
+      "item": "Sleep Issue",
+      "result_quotes": [
+        "And does it ever wake you up at night?",
+        "No. Well, it kind of happens all throughout the day. Yeah, no, no, it hasn't woken me up at night."
+      ]
+    },
+    {
+      "item": "Loss Of Smell",
+      "result_quotes": [
+        "Have you felt that you've lost your sense of smell or sense of taste?",
+        "Yeah, I said some actually now that you mention it right sense of smell has been different"
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "I tried some to take Tylenol cold and sinus or something like that",
+        "What about a runny nose or stuffy nose?",
+        "Uh, no, nothing like that."
+      ]
+    },
     {
       "item": "Injury",
       "result_quotes": [
         "I had surgery on my knee when I was a teenager. I uh tore my ACL but it's been good since then."
+      ]
+    },
+    {
+      "item": "Sleep Dyspnea",
+      "result_quotes": [
+        "And does it ever wake you up at night?",
+        "No. Well, it kind of happens all throughout the day. Yeah, no, no, it hasn't woken me up at night."
       ]
     }
   ],

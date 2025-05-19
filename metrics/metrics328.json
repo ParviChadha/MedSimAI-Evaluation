@@ -1,53 +1,55 @@
 {
-  "precision": 0.84,
-  "recall": 0.875,
-  "f1_score": 0.8571428571428572,
-  "true_positives": 21,
-  "false_positives": 4,
-  "false_negatives": 3,
+  "precision": 0.8,
+  "recall": 1.0,
+  "f1_score": 0.888888888888889,
+  "true_positives": 24,
+  "false_positives": 6,
+  "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Dehydration",
+      "item": "Hearing Problem",
       "result_quotes": [
-        "Medical Student: Okay, how many diapers is she, how many wet diapers per day?",
-        "Patient: Uh, about five.",
-        "Medical Student: Okay, so yeah, still been to maintain hydration, it sounds like."
+        "Any suggestion that she might have um, like any ear pain or, or any ear discharge?",
+        "No."
+      ]
+    },
+    {
+      "item": "Behavior Changes",
+      "result_quotes": [
+        "And how has her mood been?",
+        "She's been pretty fussy, um, yeah, she's been pretty fussy over the past few days",
+        "Um just yeah, she's been a little bit more, um, irritable as well."
+      ]
+    },
+    {
+      "item": "Tonsilitis",
+      "result_quotes": [
+        "On feeds or anything like that, did you notice like any redness in her, in the back of her throat?",
+        "Um, I noticed some, um, yeah, I noticed some redness, but I just thought it was because of her coughing a lot."
       ]
     },
     {
       "item": "Dysuria",
       "result_quotes": [
-        "Medical Student: Okay. Then any changes to um, like urinary habits as well?",
-        "Patient: Uh no, no changes there."
+        "Then any changes to um, like urinary habits as well?",
+        "Uh no, no changes there."
       ]
     },
     {
-      "item": "Tachypnea",
+      "item": "Malaise",
       "result_quotes": [
-        "Patient: ...she sounds really wheezy now."
+        "And how has her mood been?",
+        "She's been pretty fussy, um, yeah, she's been pretty fussy over the past few days, but I just thought it was because of how she was feeling um, like her symptoms."
       ]
     },
     {
-      "item": "Throat Pain",
+      "item": "Constipation",
       "result_quotes": [
-        "Medical Student: On feeds or anything like that, did you notice like any redness in her, in the back of her throat?",
-        "Patient: Um, I noticed some, um, yeah, I noticed some redness, but I just thought it was because of her coughing a lot."
+        "Alright, and any changes to bowel habits like diarrhea?",
+        "Uh no, no changes there."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Watery Eyes",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

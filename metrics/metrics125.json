@@ -1,12 +1,91 @@
 {
-  "precision": 1.0,
+  "precision": 0.7105263157894737,
   "recall": 0.9642857142857143,
-  "f1_score": 0.9818181818181818,
+  "f1_score": 0.8181818181818182,
   "true_positives": 27,
-  "false_positives": 0,
+  "false_positives": 11,
   "false_negatives": 1,
-  "total_items": 37,
-  "false_positive_details": [],
+  "total_items": 56,
+  "false_positive_details": [
+    {
+      "item": "Nause",
+      "result_quotes": [
+        "Medical Student: OK, um and have you had any nausea or vomiting?",
+        "Patient: Uhm no, nothing like that."
+      ]
+    },
+    {
+      "item": "Straining And Chest Discomfort",
+      "result_quotes": [
+        "Medical Student: OK, and how about um any chest pain?",
+        "Patient: Um no chest pain."
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "Medical Student: OK, so you're, you are, are you feeling um like mucus drain from your nose like into the back of your uh mouth?",
+        "Patient: Uh yeah, sometimes I feel like that over the last week."
+      ]
+    },
+    {
+      "item": "Body Ache",
+      "result_quotes": [
+        "Medical Student: Alright, any muscle aches or body pains?",
+        "Patient: Uhm no, nothing like that."
+      ]
+    },
+    {
+      "item": "Eye Discharge",
+      "result_quotes": [
+        "Medical Student: OK, um and have you had any eye redness or um eye discharge?",
+        "Patient: No, I don't think so."
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "Medical Student: OK. And um could you, is your nose uh like, could you describe the discharge from your nose?",
+        "Patient: Yeah, it's more like kind of a clear to maybe whitish discharge."
+      ]
+    },
+    {
+      "item": "Soreness",
+      "result_quotes": [
+        "Medical Student: Alright, and how about a sore throat?",
+        "Patient: Uhm, maybe a little bit of a tickle in my throat, but not sore."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "Patient: Hi yes I'm just coming in, uh over the last week, I've been having um like a cough, runny nose and a lot of congestion as well.",
+        "Medical Student: OK, and have you felt like your nose um is obstructed, like you're not able to breathe in through either one of your nostrils?",
+        "Patient: Yeah, that happens and sometimes the nostrils keep switching."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "Medical Student: OK, do you have any allergies?",
+        "Patient: Uh no."
+      ]
+    },
+    {
+      "item": "Facial Pressure",
+      "result_quotes": [
+        "Medical Student: I see, OK. And have you had any uh like facial pain like over your over your cheeks or or forehead?",
+        "Patient: Uh no, nothing like that."
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "Medical Student: OK, do you have any allergies?",
+        "Patient: Uh no."
+      ]
+    }
+  ],
   "false_negative_details": [
     {
       "item": "Watery Eyes",

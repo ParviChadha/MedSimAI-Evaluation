@@ -1,28 +1,33 @@
 {
-  "precision": 0.9230769230769231,
-  "recall": 0.8571428571428571,
-  "f1_score": 0.888888888888889,
-  "true_positives": 12,
-  "false_positives": 1,
-  "false_negatives": 2,
+  "precision": 0.8235294117647058,
+  "recall": 1.0,
+  "f1_score": 0.9032258064516129,
+  "true_positives": 14,
+  "false_positives": 3,
+  "false_negatives": 0,
   "total_items": 28,
   "false_positive_details": [
     {
       "item": "Muscle Ache",
       "result_quotes": [
-        "Medical Student: OK, any muscle ache or general weakness?",
-        "Patient: Uh no."
+        "any muscle ache or general weakness?",
+        "Uh no."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "any muscle ache or general weakness?",
+        "Uh no."
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "Do you have any family history of respiratory problems, cancers or heart problems?",
+        "No, nothing like that."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,48 +1,30 @@
 {
   "medical_history_assessed": {
-    "dehydration": {
+    "abdominal_pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching": {
+    "aches": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, um how about muscle aches or joint pains?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    "anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tonsilitis": {
+    "back_pain": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
+        "Patient: Um and I also noticed uh my bowel movements have changed a little bit as well over the last week.",
         "Patient: Yes, I think it also started in like, I would say, for the last three days I've been getting uh diarrhea.",
-        "Medical Student: No, constipation?",
-        "Patient: No, diarrhea.",
-        "Medical Student: Diarrhea, right. Um how often are you having a bowel movement right now?",
+        "Medical Student: How often are you having a bowel movement right now?",
         "Patient: I would say uh like I've been going, probably more than eight times a day, probably in the last few days like 10 times a day."
       ]
     },
@@ -70,7 +52,7 @@
     "confusion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: No, OK, um any confusion or memory loss?",
+        "Medical Student: OK, um any confusion or memory loss?",
         "Patient: No, not that I know of."
       ]
     },
@@ -84,18 +66,26 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, so I just came in because I've been having this cough that's getting worse over the last uh one and a half week and uh...",
-        "Medical Student: OK, so yeah, let's break this down. The cough, when did that start?",
+        "Patient: Yeah, so I just came in because I've been having this cough that's getting worse over the last uh one and a half week",
+        "Medical Student: The cough, when did that start?",
         "Patient: The cough, I think it started uh probably like around 10 days ago."
       ]
+    },
+    "depression": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
         "Patient: Yes, I think it also started in like, I would say, for the last three days I've been getting uh diarrhea.",
-        "Medical Student: Diarrhea, right. Um how often are you having a bowel movement right now?",
-        "Patient: I would say uh like I've been going, probably more than eight times a day, probably in the last few days like 10 times a day."
+        "Patient: Like a little bit, but it's mostly liquidy.",
+        "Patient: Um maybe a little bit, but mostly it's just liquid."
       ]
+    },
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
@@ -114,10 +104,16 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ...I've also just recently in the last few days been getting some shortness of breath.",
-        "Medical Student: OK, and how about the shortness of breath?",
-        "Patient: That just started in the last uh I think 3 days."
+        "Patient: I've also just recently in the last few days been getting some shortness of breath.",
+        "Medical Student: OK, so yeah, let's break this down. The cough, when did that start?",
+        "Patient: That just started in the last uh I think 3 days.",
+        "Medical Student: OK. Um the shortness of breath, 1 to 10, 10 being the worst, how bad is it?",
+        "Patient: Uh probably like a five. It kind of just started out with uh, three days ago, was kind of like I just couldn't take deep breaths like I noticed that my breathing was getting a little bit more more shallow and now it's, especially when I'm coughing, it's like I really have to sit down and catch my breath."
       ]
+    },
+    "ear_pain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fainting": {
       "assessed": "Yes",
@@ -126,13 +122,20 @@
         "Patient: Uh no, not really, I I thought maybe with the shortness of breath that would happen, but like so far that hasn't happened to me."
       ]
     },
+    "fatigue": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ...I think I caught the flu or something and got really sick with a fever...",
         "Medical Student: OK, any fevers or chills?",
         "Patient: Uh no I, maybe like a few chills, like I'm not sure actually, it was hard to tell, but I haven't had any fevers."
       ]
+    },
+    "headache": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "Yes",
@@ -144,9 +147,24 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Um, is it a dry cough then, or are you producing a little bit of sputum or blood or anything like that?",
+        "Medical Student: OK. Um, is it a dry cough then, or are you producing a little bit of sputum or blood or anything like that?",
         "Patient: No, no, I haven't seen any blood at all and rarely do I bring like up some sputum, but like most of the time it's just a dry cough."
       ]
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "joint_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, um how about muscle aches or joint pains?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
@@ -158,9 +176,13 @@
     "memory_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: No, OK, um any confusion or memory loss?",
+        "Medical Student: OK, um any confusion or memory loss?",
         "Patient: No, not that I know of."
       ]
+    },
+    "muscle_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
@@ -176,13 +198,17 @@
         "Patient: No, nothing like that."
       ]
     },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, any chest pain?",
         "Patient: Um, maybe from all the coughing, sometimes I feel like there's some pain there, but it's not not anything that's too painful.",
-        "Medical Student: OK, um how about muscle aches or joint pains?",
-        "Patient: No, nothing like that."
+        "Medical Student: OK, how about um pain in your calves when you walk a few blocks?",
+        "Patient: No, I've been fine that way."
       ]
     },
     "palpitation": {
@@ -192,12 +218,23 @@
         "Patient: Uh no, not really."
       ]
     },
+    "rash": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, any changes in your hair, nails, or skin, like rashes?",
+        "Patient: Uh, no, I haven't noticed anything like that."
+      ]
+    },
     "rectal_bleeding": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any blood in the stool?",
+        "Medical Student: OK, um any blood in the stool?",
         "Patient: No, I've been checking uh no, I didn't notice any blood or change in colour. It's mainly just um liquid diarrhea."
       ]
+    },
+    "redness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
@@ -205,6 +242,10 @@
         "Medical Student: OK, um have you had a runny nose or stuffy nose?",
         "Patient: No, no, no no congestion really."
       ]
+    },
+    "sleep_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -234,6 +275,10 @@
         "Patient: No, I haven't had uh, I think my taste and smell are still pretty good. No, no issues there."
       ]
     },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
@@ -244,7 +289,7 @@
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any changes in your urine?",
+        "Medical Student: OK, any changes in your urine?",
         "Patient: No."
       ]
     },
@@ -260,6 +305,13 @@
       "example_quotes": [
         "Medical Student: OK. How about nausea or vomiting?",
         "Patient: No, nothing like that."
+      ]
+    },
+    "weight_gain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, any weight loss over the past few weeks?",
+        "Patient: Uh no, probably weight gain."
       ]
     },
     "wheez": {

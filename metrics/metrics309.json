@@ -1,45 +1,110 @@
 {
-  "precision": 0.8787878787878788,
-  "recall": 0.9354838709677419,
-  "f1_score": 0.90625,
-  "true_positives": 29,
-  "false_positives": 4,
-  "false_negatives": 2,
-  "total_items": 53,
+  "precision": 0.6888888888888889,
+  "recall": 1.0,
+  "f1_score": 0.8157894736842105,
+  "true_positives": 31,
+  "false_positives": 14,
+  "false_negatives": 0,
+  "total_items": 61,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Weight Gain",
       "result_quotes": [
-        "we will check that for sure.... possible pneumonia or, maybe a viral infection as well, which could include something like COVID-19"
+        "I see, ok and have you had any changes to your weight in the last several months?",
+        "No."
       ]
     },
     {
-      "item": "Respiratory Distress Syndrome",
+      "item": "Soreness",
       "result_quotes": [
-        "I'm also having a hard time breathing so thought I should check it out."
+        "Any muscle aches or pains?",
+        "Maybe slight muscle aches."
       ]
     },
     {
       "item": "Phlegm",
       "result_quotes": [
-        "Alright, and so you haven't been bringing up any sputum or or any blood?"
+        "Alright, and so you haven't been bringing up any sputum or or any blood?",
+        "No."
       ]
     },
     {
-      "item": "Lethargic",
+      "item": "Body Ache",
       "result_quotes": [
+        "Any muscle aches or pains?",
+        "Maybe slight muscle aches."
+      ]
+    },
+    {
+      "item": "Chest Pressure",
+      "result_quotes": [
+        "I felt this crampy pain in my chest"
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Ok and, have you had a sore throat?",
+        "No sore throat."
+      ]
+    },
+    {
+      "item": "Flu Like Symptom",
+      "result_quotes": [
+        "Maybe slight muscle aches.",
         "Just just some fatigue, some tiredness."
+      ]
+    },
+    {
+      "item": "Difficulty Sleeping",
+      "result_quotes": [
+        "has there been any change to your sleep or any stressful events happen that might be tiring you out?",
+        "No."
+      ]
+    },
+    {
+      "item": "Straining And Chest Discomfort",
+      "result_quotes": [
+        "I guess taking in a deep breath.",
+        "Ok, and how about changing positions, does the pain get worse if you lie flat or or if you lean forward?",
+        "No."
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "Ok, and and has the pain get been getting worse, getting better, staying the same?",
+        "It's been the same."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "Any muscle aches or pains?",
+        "Maybe slight muscle aches."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "I'm also having a hard time breathing",
+        "the shortness of breath you mentioned, uh, when did that start?",
+        "Around the same time."
+      ]
+    },
+    {
+      "item": "Discomfort",
+      "result_quotes": [
+        "I felt this crampy pain in my chest"
+      ]
+    },
+    {
+      "item": "Sleep Issues",
+      "result_quotes": [
+        "has there been any change to your sleep or any stressful events happen that might be tiring you out?",
+        "No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Rapid Breathing",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

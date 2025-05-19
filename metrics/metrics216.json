@@ -1,29 +1,33 @@
 {
-  "precision": 0.8823529411764706,
-  "recall": 0.9375,
-  "f1_score": 0.9090909090909091,
-  "true_positives": 15,
-  "false_positives": 2,
-  "false_negatives": 1,
+  "precision": 0.8421052631578947,
+  "recall": 1.0,
+  "f1_score": 0.9142857142857143,
+  "true_positives": 16,
+  "false_positives": 3,
+  "false_negatives": 0,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Dyspnea",
+      "item": "Diarrhoea",
       "result_quotes": [
-        "Patient: ...seems like he's having a hard time breathing."
+        "And any bowel problems?",
+        "No, not that we noticed."
       ]
     },
     {
-      "item": "Dehydration",
+      "item": "Mucous Building",
       "result_quotes": [
-        "Patient: Um, no. He actually. He hasn't gone through as many wet diapers as he normally does."
+        "OK, so with this cough has there has there been any sputum come up?",
+        "Um yes yeah yellow sputum yeah"
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "any allergies to medications that you're aware of?",
+        "No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

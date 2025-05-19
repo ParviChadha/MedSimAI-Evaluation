@@ -17,8 +17,8 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ... I've also been feeling chilly, so uhm, I wonder if I have a fever...",
-        "Patient: And I have been feeling chilly over the last few days, just, I have been wearing like multiple layers having to put on an extra blanket..."
+        "Patient: I've also been feeling chilly",
+        "Patient: And I have been feeling chilly over the last few days, just, I have been wearing like multiple layers having to put on an extra blanket so I might have been having a fever."
       ]
     },
     "colored_excess_sputum": {
@@ -37,12 +37,26 @@
         "Patient: No."
       ]
     },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, any changes to your bowel movements?",
+        "Patient: Uhm, no."
+      ]
+    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ... just been having this cough for the last few days as well.",
-        "Medical Student: The cough, is it a dry cough or like productive cough? Are you bringing up phlegm?",
-        "Patient: It's a dry cough."
+        "Patient: I've also just been having this cough for the last few days as well.",
+        "Medical Student: Four days, OK, and the cough started when?",
+        "Patient: Cough started three days ago."
+      ]
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, any changes to your bowel movements?",
+        "Patient: Uhm, no."
       ]
     },
     "dizzyness": {
@@ -52,12 +66,35 @@
         "Patient: No."
       ]
     },
+    "drowsiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Shortness of breath?",
         "Patient: No."
       ]
+    },
+    "dysuria": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any changes in your urine?",
+        "Patient: No."
+      ]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fainting": {
       "assessed": "Yes",
@@ -76,8 +113,7 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ... I wonder if I have a fever...",
-        "Patient: ... since yesterday I think I might have a fever as well.",
+        "Patient: I wonder if I have a fever",
         "Medical Student: OK, any fevers?",
         "Patient: And I have been feeling chilly over the last few days, just, I have been wearing like multiple layers having to put on an extra blanket so I might have been having a fever."
       ]
@@ -85,7 +121,7 @@
     "general_weakness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ... I can walk and there's no issues, but I I do feel like just overall general weakness."
+        "Patient: Uhm, it's not, I I can walk and there's no issues, but I I do feel like just overall general weakness. I don't know if that's to do with the pain or just feeling unwell."
       ]
     },
     "head_ache": {
@@ -109,12 +145,24 @@
         "Patient: No."
       ]
     },
+    "hyperhidrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Appetite changes?",
+        "Medical Student: OK, uh how about appetite changes?",
         "Patient: Uhm, appetites been the same."
       ]
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "memory_loss": {
       "assessed": "Yes",
@@ -126,7 +174,7 @@
     "motor_weakness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And is it hard for you to walk like use your arms? Do you have any sort of like motor weakness?",
+        "Medical Student: OK. And is it hard for you to walk like use your arms? Do you have any sort of like motor weakness?",
         "Patient: Uhm, it's not, I I can walk and there's no issues, but I I do feel like just overall general weakness."
       ]
     },
@@ -144,17 +192,25 @@
         "Patient: No, no nausea or vomiting."
       ]
     },
+    "numbness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK. Any numbness or tingling?",
+        "Patient: No."
+      ]
+    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ... really bad muscle pains all throughout my body...",
-        "Patient: ... more so like upper back, my thighs, then my arms, yeah, kind of just all over."
+        "Patient: I started getting these like really bad muscle pains all throughout my body",
+        "Medical Student: OK, and where specifically like wha, which muscles ache?",
+        "Patient: Pretty much like throughout my body, but I would say more so like upper back, my thighs, then my arms, yeah, kind of just all over."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any feelings of like feel like feeling like your heart's racing?",
+        "Medical Student: OK. Any feelings of like feel like feeling like your heart's racing?",
         "Patient: No."
       ]
     },
@@ -162,12 +218,31 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "redness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Changes in your hair, nails or skin like rashes?",
+        "Patient: Not that I've noticed."
+      ]
+    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, and you have a runny nose or stuffy nose?",
         "Patient: Uh, no."
       ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -183,20 +258,28 @@
         "Patient: No."
       ]
     },
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Taste or smell?",
-        "Patient: No.",
-        "Patient: ... I realized I was I wasn't really able to taste my breakfast.",
-        "Medical Student: OK. So a little bit of change there?",
-        "Patient: Mhmm."
+        "Patient: Oh sorry. Now that you mention I, I think taste a little bit today, I realized I was I wasn't really able to taste my breakfast."
+      ]
+    },
+    "tingling": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK. Any numbness or tingling?",
+        "Patient: No."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any weight loss?",
+        "Medical Student: OK. Any weight loss?",
         "Patient: No."
       ]
     },
@@ -221,18 +304,22 @@
         "Patient: No, no nausea or vomiting."
       ]
     },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Wheeziness?",
+        "Medical Student: No, OK. Wheeziness?",
         "Patient: No."
       ]
     },
     "widespread_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ... really bad muscle pains all throughout my body...",
-        "Patient: ... more so like upper back, my thighs, then my arms, yeah, kind of just all over."
+        "Patient: I started getting these like really bad muscle pains all throughout my body",
+        "Patient: Pretty much like throughout my body, but I would say more so like upper back, my thighs, then my arms, yeah, kind of just all over."
       ]
     }
   }

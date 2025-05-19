@@ -1,5 +1,21 @@
 {
   "medical_history_assessed": {
+    "aches": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "respiratory_distress_syndrome": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behaviour_change": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "changes_in_memory": {
       "assessed": "Yes",
       "example_quotes": [
@@ -38,9 +54,18 @@
     "coughing_fit": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah hi, um, I have been coughing nonstop for the past three days, and today I have been feeling very short of breath.",
-        "Medical Student: Okay, uh, has the cough gotten any better, or stayed the same, or gotten worse these past three days?",
-        "Patient: Uh, it seems like it's getting worse."
+        "Patient: Um, and once I ran all these errands, like, I just started having this coughing fit that hasn't stopped."
+      ]
+    },
+    "decreased_physical_activity": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Um, I have diabetes, I have high blood pressure and I have high cholesterol.",
+        "Patient: Yes, so I am on ramipril for the high blood pressure, rosuvastatin for the cholesterol, and insulin for the diabetes."
       ]
     },
     "diarrhoea": {
@@ -50,19 +75,23 @@
         "Patient: No."
       ]
     },
-    "dizzyness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Have you had any lightheadedness or, or feeling dizzy?",
-        "Patient: No."
-      ]
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
         "Patient: Yeah hi, um, I have been coughing nonstop for the past three days, and today I have been feeling very short of breath.",
-        "Medical Student: And you mentioned you've been short of breath as well. Uh, how has that come on?",
+        "Medical Student: Okay. Um, and you mentioned you've been short of breath as well. Uh, how has that come on?",
         "Patient: Um, it was, I, I don't know if it's because of all the coughing that I've been doing, but it just started this morning."
+      ]
+    },
+    "ecercise": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Okay, um, and have you been experiencing uh shortness of breath um, on exertion otherwise, like prior to this?",
+        "Patient: Um no, no."
       ]
     },
     "eye_redness": {
@@ -79,6 +108,10 @@
         "Patient: No, not that I've noticed."
       ]
     },
+    "flu": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
@@ -86,21 +119,38 @@
         "Patient: No, no blood."
       ]
     },
-    "hyperacusis": {
+    "lightheadness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Have you had any lightheadedness or, or feeling dizzy?",
+        "Patient: No."
+      ]
+    },
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
-    "impending_doom_anxiety": {
+    "more_quiet": {
       "assessed": "No",
       "example_quotes": []
     },
-    "inconsolable": {
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
+    "mucous_building": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Okay, are you bringing up any uh, sputum or phlegm?",
+        "Patient: Um yes, it's yellow."
+      ]
+    },
+    "mucus_discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Okay, are you bringing up any uh, sputum or phlegm?",
+        "Patient: Um yes, it's yellow."
+      ]
     },
     "nausea": {
       "assessed": "Yes",
@@ -109,14 +159,12 @@
         "Patient: No."
       ]
     },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Okay. Um, and have you had any abdominal pain?",
+        "Medical Student: Okay, um, have you had any, any chest pain?",
+        "Patient: Nope, nothing like that.",
+        "Medical Student: Um, and have you had any abdominal pain?",
         "Patient: Um, no."
       ]
     },
@@ -127,7 +175,11 @@
         "Patient: No."
       ]
     },
-    "photophobia": {
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -149,7 +201,11 @@
         "Patient: No."
       ]
     },
-    "slurred_speech": {
+    "sleep_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -171,10 +227,6 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "symptoms_stress": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
@@ -182,7 +234,19 @@
         "Patient: Uh no."
       ]
     },
+    "tearing_or_or_itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -205,6 +269,13 @@
       "example_quotes": [
         "Medical Student: Okay. Um, and in the past um, oh sorry, before that, have you had any nausea or, or vomiting?",
         "Patient: No."
+      ]
+    },
+    "weight_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: And how has your weight been over the last several months? Have you had any weight loss or gain?",
+        "Patient: Uh no, it's been pretty stable."
       ]
     },
     "weight_gain": {

@@ -1,83 +1,45 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "changes_in_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_smell": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "muscle_ache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I first noticed that my throat was kind of scratchy and then I started coughing, but it's really like dry."
-      ]
-    },
     "phlegm": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, so you haven't been bringing anything up with it?",
         "Any flem?",
-        "Any phlegm?"
-      ]
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "throat_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "My throat feels really scratchy."
+        "no nothing."
       ]
     },
     "aches": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any aches in your joints anywhere?",
+        "No. I mean, I'm I'm tired, but I don't think they're not like hurting."
+      ]
+    },
+    "anxious": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "brain_fog": {
       "assessed": "No",
       "example_quotes": []
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, so you haven't been bringing anything up with it?"
+        "OK, so you haven't been bringing anything up with it?",
+        "No,"
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I just like for I don't know like three or four days I\u2019ve been having this really dry cough."
+        "I've been having this really dry cough",
+        "I started coughing, but it's really like dry."
       ]
+    },
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -86,57 +48,107 @@
         "No no."
       ]
     },
+    "difficulty_breathing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Now do any of these allergies can't make it difficult to breathe or you feel like your face is swelling up?",
+        "I don't really feel like I can't breathe."
+      ]
+    },
+    "drowsiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "You haven't been noticing been running a temperature at home. Have you hot fevers?",
-        "I have felt really hot."
+        "OK, you haven't been noticing been running a temperature at home. Have you hot fevers?",
+        "I have felt really hot.",
+        "I honestly I felt hot like all the time"
       ]
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "So I just feel kinda crappy overall. And my head\u2019s pounding.",
-        "Your heads pounding. You have a headache right now?"
+        "And my head's pounding",
+        "Your heads pounding. You have a headache right now?",
+        "Yeah, little bit."
       ]
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "malaise": {
       "assessed": "Yes",
       "example_quotes": [
         "I just feel kinda crappy overall.",
-        "Oh no, no, it's perfectly valid. We called that Malays in general. Just feeling a little bit off."
+        "I just kind of feel just icky.",
+        "We called that Malays in general. Just feeling a little bit off."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea? Any vomiting?",
+        "any nausea? Any vomiting?",
         "No, not that. No, nothing like that."
       ]
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
         "You noticed any night sweats by night sweats. I mean you wake up sheets are soaked.",
-        "I honestly I felt hot like all the time like yeah yeah night. I feel hot but during the day too."
+        "I honestly I felt hot like all the time like yeah yeah night."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "My throat feels really scratchy."
+        "my throat feels really scratchy",
+        "I first noticed that my throat was kind of scratchy"
+      ]
+    },
+    "swelling": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Now do any of these allergies can't make it difficult to breathe or you feel like your face is swelling up?",
+        "You notice, skin changes anything in your arms or legs it looks weird? New rashes?"
       ]
     },
     "tired": {
       "assessed": "Yes",
       "example_quotes": [
-        "I mean, I'm I'm tired, but I don't think they're not like hurting."
+        "I'm I'm tired, but I don't think they're not like hurting."
       ]
+    },
+    "urination": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea? Any vomiting?",
+        "any nausea? Any vomiting?",
         "No, not that. No, nothing like that."
       ]
     }

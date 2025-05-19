@@ -1,27 +1,26 @@
 {
-  "precision": 0.9565217391304348,
-  "recall": 0.9166666666666666,
-  "f1_score": 0.9361702127659574,
-  "true_positives": 22,
-  "false_positives": 1,
-  "false_negatives": 2,
-  "total_items": 36,
+  "precision": 0.9230769230769231,
+  "recall": 1.0,
+  "f1_score": 0.9600000000000001,
+  "true_positives": 24,
+  "false_positives": 2,
+  "false_negatives": 0,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Lightheadedness",
+      "item": "Fever",
       "result_quotes": [
-        "Any feeling, any episodes where you feel like you were gonna faint?"
+        "Medical Student: Ok, and yeah, you mentioned you had a fever but did have you checked your temperature?",
+        "Patient: No, I haven't I I just had like chills over the last two nights."
+      ]
+    },
+    {
+      "item": "Rash",
+      "result_quotes": [
+        "Medical Student: OK, have you noticed any rashes anywhere?",
+        "Patient: No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

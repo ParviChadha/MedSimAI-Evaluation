@@ -1,17 +1,17 @@
 {
-  "precision": 0.9230769230769231,
-  "recall": 0.8888888888888888,
-  "f1_score": 0.9056603773584906,
-  "true_positives": 24,
-  "false_positives": 2,
-  "false_negatives": 3,
-  "total_items": 38,
+  "precision": 0.8125,
+  "recall": 0.9629629629629629,
+  "f1_score": 0.8813559322033898,
+  "true_positives": 26,
+  "false_positives": 6,
+  "false_negatives": 1,
+  "total_items": 53,
   "false_positive_details": [
     {
-      "item": "Tingling",
+      "item": "Teary Eyes",
       "result_quotes": [
-        "Any numbness or tingling in your arms or feet?",
-        "Nope."
+        "And uh, have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
+        "Uh no, nothing like that."
       ]
     },
     {
@@ -20,19 +20,37 @@
         "Any numbness or tingling in your arms or feet?",
         "Nope."
       ]
+    },
+    {
+      "item": "Muscle Aches",
+      "result_quotes": [
+        "Any aches in your, any muscle aches?",
+        "No."
+      ]
+    },
+    {
+      "item": "Tearing Or Or Itchiness",
+      "result_quotes": [
+        "And uh, have you had any um, changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
+        "Uh no, nothing like that."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "So, it's more of just like a dry cough. I'm not really bringing anything up."
+      ]
+    },
+    {
+      "item": "Greenish Yellowish Nasal Discharge",
+      "result_quotes": [
+        "Uh it's, it's pretty clear. It might be light, but it's not like green or yellow or anything like that."
+      ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Sensitive To Allergies",
-      "truth_quotes": []
-    },
-    {
       "item": "Paralysis General",
-      "truth_quotes": []
-    },
-    {
-      "item": "Allergy Medication",
       "truth_quotes": []
     }
   ]

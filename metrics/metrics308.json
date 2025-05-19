@@ -1,11 +1,26 @@
 {
-  "precision": 1.0,
+  "precision": 0.8947368421052632,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9444444444444444,
   "true_positives": 17,
-  "false_positives": 0,
+  "false_positives": 2,
   "false_negatives": 0,
-  "total_items": 17,
-  "false_positive_details": [],
+  "total_items": 34,
+  "false_positive_details": [
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "Medical Student: What allergies do you have?",
+        "Patient: I have allergies to dust and some environmental things, like pollen or ragweed I think maybe."
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "Medical Student: do you have any family history of any medical conditions?",
+        "Patient: Uh, I think my dad has high blood pressure. He takes a medication for that, uhm nothing serious though that I know of."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

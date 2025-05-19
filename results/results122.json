@@ -1,171 +1,301 @@
 {
   "medical_history_assessed": {
+    "sinus_congestion": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I feel congested I guess."
+      ]
+    },
+    "allergy_medication": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any kind of diarrhea or constipation?",
+        "No."
+      ]
+    },
     "change_in_sleep": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any changes in your sleep or appetite?",
-        "Patient: Um no, that that's been pretty good."
+        "Uh any changes in your sleep or appetite?",
+        "Um no, that that's been pretty good."
       ]
     },
     "chest_discomfort": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, so over this past five days I've had um worsening shortness of breath and uh some discomfort in my chest um and this cough that's been getting worse as well."
+        "some discomfort in my chest",
+        "I still have this like uh chest discomfort",
+        "It's it's kind of just always, it's just kind of been there over these past uh like four or five days."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and how would you describe uh, is it pain at all or is it like sharp stabbing or pressure like pain?",
-        "Patient: Um no, nothing like that. I kind of I just I feel congested I guess."
+        "is it pain at all or is it like sharp stabbing or pressure like pain?",
+        "Um no, nothing like that."
+      ]
+    },
+    "chest_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "is it pain at all or is it like sharp stabbing or pressure like pain?",
+        "Um no, nothing like that."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, um have you had any fevers or chills?",
-        "Patient: Yeah, uh now that you mentioned, I do think I I feel a bit feverish."
+        "have you had any fevers or chills?",
+        "Yeah, uh now that you mentioned, I do think I I feel a bit feverish."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and uh what is the cough like? Is it wet or dry?",
-        "Patient: Yeah, I'm bringing up sputum uh pretty much um like every time I'm coughing up I'm bringing up some yellowish or greenish uh sputum."
+        "I'm bringing up sputum uh pretty much um like every time I'm coughing up I'm bringing up some yellowish or greenish uh sputum."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Um and any kind of diarrhea or constipation?",
-        "Patient: No."
+        "Any kind of diarrhea or constipation?",
+        "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, so over this past five days I've had um worsening shortness of breath and uh some discomfort in my chest um and this cough that's been getting worse as well.",
-        "Medical Student: OK, and uh what is the cough like? Is it wet or dry?"
+        "this cough that that's been getting worse as well",
+        "I've had um a cough and uh in the in the in the past"
       ]
+    },
+    "decreased_physical_activity": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I haven't been able to do as much with uh being so short of breath"
+      ]
+    },
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Um and any kind of diarrhea or constipation?",
-        "Patient: No."
+        "Any kind of diarrhea or constipation?",
+        "No."
+      ]
+    },
+    "difficulty_sleeping": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh any changes in your sleep or appetite?",
+        "Um no, that that's been pretty good."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, so over this past five days I've had um worsening shortness of breath and uh some discomfort in my chest um and this cough that's been getting worse as well."
+        "worsening shortness of breath",
+        "I just can't catch my breath even with um some small things around the apartment",
+        "it's any type of exertion, I just can't catch my breath"
       ]
+    },
+    "ecercise": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "at rest you're fine but like when you exert yourself, it gets worse",
+        "it's any type of exertion, I just can't catch my breath"
+      ]
+    },
+    "facial_pressure": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Um any increased fatigue?",
-        "Patient: I, I mean, I haven't been able to do as much with uh being so short of breath, but my energy has been been OK."
+        "Any increased fatigue?",
+        "I, I mean, I haven't been able to do as much with uh being so short of breath, but my energy has been been OK."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, um have you had any fevers or chills?",
-        "Patient: Yeah, uh now that you mentioned, I do think I I feel a bit feverish."
+        "have you had any fevers or chills?",
+        "Yeah, uh now that you mentioned, I do think I I feel a bit feverish."
       ]
+    },
+    "food_allergy": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Um have you had any headaches or changes in your vision or anything like that?",
-        "Patient: No, I haven't noticed anything like that."
+        "have you had any headaches or changes in your vision or anything like that?",
+        "No, I haven't noticed anything like that."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and have you noticed at all any blood?",
-        "Patient: No, no, no blood."
+        "have you noticed at all any blood?",
+        "No, no, no blood."
       ]
+    },
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've been diagnosed with COPD uh as well as uh, high blood pressure",
+        "I take an ACE inhibitor I think for blood pressure"
+      ]
+    },
+    "impending_doom_anxiety": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any changes in your sleep or appetite?",
-        "Patient: Um no, that that's been pretty good."
+        "Uh any changes in your sleep or appetite?",
+        "Um no, that that's been pretty good."
+      ]
+    },
+    "malaise": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any increased fatigue?",
+        "I, I mean, I haven't been able to do as much with uh being so short of breath, but my energy has been been OK."
+      ]
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucus_discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I'm bringing up sputum uh pretty much um like every time I'm coughing up I'm bringing up some yellowish or greenish uh sputum."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any nausea or vomiting?",
-        "Patient: No."
+        "Any nausea or vomiting?",
+        "No."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and how about um, do you have any sensation of palpitations or your heart is racing at all?",
-        "Patient: No, I haven't felt anything like that."
+        "do you have any sensation of palpitations or your heart is racing at all?",
+        "No, I haven't felt anything like that."
       ]
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, um do you have any other symptoms like um sore throat, runny nose, anything like that?",
-        "Patient: No, I don't."
+        "do you have any other symptoms like um sore throat, runny nose, anything like that?",
+        "No, I don't."
       ]
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, um so just discomfort. Do you do your symptoms get worse at all when you're laying down flat?",
-        "Patient: No.",
-        "Medical Student: No, OK. Uh, do you wake up at night gasping, gasping for air?",
-        "Patient: No, I haven't done that before."
+        "do you wake up at night gasping, gasping for air?",
+        "No, I haven't done that before."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any night sweats?",
-        "Patient: Uh no, I haven't had any night sweats."
+        "any night sweats?",
+        "Uh no, I haven't had any night sweats."
       ]
+    },
+    "sleep_issue": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh any changes in your sleep or appetite?",
+        "Um no, that that's been pretty good."
+      ]
+    },
+    "sleep_issues": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh any changes in your sleep or appetite?",
+        "Um no, that that's been pretty good."
+      ]
+    },
+    "sore": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, um do you have any other symptoms like um sore throat, runny nose, anything like that?",
-        "Patient: No, I don't."
+        "do you have any other symptoms like um sore throat, runny nose, anything like that?",
+        "No, I don't."
       ]
+    },
+    "taste_loss": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Um any kind of uh significant weight change recently?",
-        "Patient: Um I I I might have, uh no, I think my weight's been about the same."
+        "any kind of uh significant weight change recently?",
+        "Um I I I might have, uh no, I think my weight's been about the same."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any issues with urination?",
-        "Patient: No, uh no problems there."
+        "Any issues with urination?",
+        "No, uh no problems there."
       ]
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Um have you had any headaches or changes in your vision or anything like that?",
-        "Patient: No, I haven't noticed anything like that."
+        "have you had any headaches or changes in your vision or anything like that?",
+        "No, I haven't noticed anything like that."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any nausea or vomiting?",
-        "Patient: No."
+        "Any nausea or vomiting?",
+        "No."
+      ]
+    },
+    "watery_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "any kind of uh significant weight change recently?",
+        "Um I I I might have, uh no, I think my weight's been about the same."
       ]
     }
   }

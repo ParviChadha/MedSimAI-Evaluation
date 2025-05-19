@@ -1,11 +1,38 @@
 {
-  "precision": 1.0,
+  "precision": 0.8918918918918919,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9428571428571428,
   "true_positives": 33,
-  "false_positives": 0,
+  "false_positives": 4,
   "false_negatives": 0,
-  "total_items": 33,
-  "false_positive_details": [],
+  "total_items": 61,
+  "false_positive_details": [
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "And ah, are there any changes to his urine?",
+        "No, there there hasn't been any any changes to his hearing."
+      ]
+    },
+    {
+      "item": "Weight Gain",
+      "result_quotes": [
+        "He he's been gaining weight, hasn't had any weight loss."
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "his grandfather had high blood pressure and like high cholesterol, but that's that's it."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "Any complications with his mother's pregnancy with him?",
+        "No, it's been ah it was normal pregnancy throughout it was to term and it was a C-section delivery but that went well and he was a normal weight."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

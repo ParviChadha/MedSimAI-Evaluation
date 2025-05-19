@@ -3,70 +3,113 @@
     "injury": {
       "assessed": "Yes",
       "example_quotes": [
-        "I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest and since then it's been really painful."
+        "I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest",
+        "I know you mentioned the few scratches on your hands, but any other injuries?",
+        "Oh no, I I think I got a pretty lucky."
       ]
     },
     "trauma": {
       "assessed": "Yes",
       "example_quotes": [
-        "I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side."
+        "I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest"
       ]
+    },
+    "bowel_movement": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having pain in my chest.",
-        "I would say it's like the whole pretty much the left side of my chest.",
-        "I think it's more like someone is just stabbing me and then whole left side area."
+        "I came to the emergency Department because I've been having pain in my chest",
+        "I would say it's like the whole pretty much the left side of my chest",
+        "I think it's more like someone is just stabbing me and then whole left side area"
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, how about any fever chills?",
+        "How about any fever chills?",
         "No, I feel I'm fine."
       ]
+    },
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and do you have a cough?",
+        "do you have a cough?",
         "Nope."
       ]
+    },
+    "diarrhoea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and uh, any dizziness?",
+        "any dizziness?",
         "Um no."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I feel like I can't catch my breath."
+        "I think I I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath",
+        "If I try to take a deep breath it just really hurts like taking those small, smaller breaths helps"
       ]
+    },
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, how about any fever chills?",
+        "How about any fever chills?",
         "No, I feel I'm fine."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, excellent and any headache right now?",
+        "and any headache right now?",
         "No."
       ]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_consciousness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK are you, did you have a loss of consciousness when you fell off your bike?",
-        "No, I got right back up."
+        "did you have a loss of consciousness when you fell off your bike?",
+        "No, I got right back up. I just just had the pain."
       ]
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
@@ -78,15 +121,17 @@
     "numbness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any weakness or numbness or tingling that you noticed?",
+        "any weakness or numbness or tingling that you noticed?",
         "Um no nothing like that."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having pain in my chest.",
-        "I think it's more like someone is just stabbing me and then whole left side area."
+        "I came to the emergency Department because I've been having pain in my chest",
+        "I think it's more like someone is just stabbing me and then whole left side area",
+        "has the pain been getting worse, staying the same or getting better?",
+        "I'd say over the last two hours it's been getting worse."
       ]
     },
     "palpitation": {
@@ -96,10 +141,41 @@
         "I would say like in the last hour a little bit more so than usual."
       ]
     },
+    "phlegm": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "redness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any skin changes or or rashes you've noticed?",
+        "Besides, just I got some scrapes here and there on my hands, but nothing else."
+      ]
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "tingling": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any weakness or numbness or tingling that you noticed?",
+        "any weakness or numbness or tingling that you noticed?",
         "Um no nothing like that."
       ]
     },
@@ -113,9 +189,17 @@
     "weakness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any weakness or numbness or tingling that you noticed?",
+        "any weakness or numbness or tingling that you noticed?",
         "Um no nothing like that."
       ]
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

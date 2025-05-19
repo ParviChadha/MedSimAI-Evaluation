@@ -1,16 +1,44 @@
 {
-  "precision": 1.0,
-  "recall": 0.9629629629629629,
-  "f1_score": 0.9811320754716981,
-  "true_positives": 26,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 35,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.8709677419354839,
+  "recall": 1.0,
+  "f1_score": 0.9310344827586207,
+  "true_positives": 27,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 54,
+  "false_positive_details": [
     {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
+      "item": "Throat Pain",
+      "result_quotes": [
+        "I have a sore throat",
+        "OK, um, are you having any pain with swallowing either liquids or food?",
+        "Um, mostly with foods.",
+        "OK, and when did the sore throat start?",
+        "It started up around the same time as my cough."
+      ]
+    },
+    {
+      "item": "Nasal Discharge",
+      "result_quotes": [
+        "Any mucous or pain or discharge from either your ears or nose?",
+        "No."
+      ]
+    },
+    {
+      "item": "Soreness",
+      "result_quotes": [
+        "I have a sore throat",
+        "OK, and when did the sore throat start?",
+        "It started up around the same time as my cough."
+      ]
+    },
+    {
+      "item": "Muscle Aches",
+      "result_quotes": [
+        "OK, and any muscle aches or or body pains?",
+        "No."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

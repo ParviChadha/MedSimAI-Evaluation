@@ -1,11 +1,67 @@
 {
-  "precision": 1.0,
+  "precision": 0.7714285714285715,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.870967741935484,
   "true_positives": 27,
-  "false_positives": 0,
+  "false_positives": 8,
   "false_negatives": 0,
-  "total_items": 48,
-  "false_positive_details": [],
+  "total_items": 54,
+  "false_positive_details": [
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "did you get sick at all recently, or were you in contact with anyone who was sick?",
+        "No, not that I know of."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "And are you feeling at all any kind of, uh, chest tightness or pain?",
+        "Uh, yeah, some chest tightness."
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "I've been feeling very short of breath",
+        "it feels like it's really hard for me to breathe"
+      ]
+    },
+    {
+      "item": "Fatigue",
+      "result_quotes": [
+        "OK, how about fatigue?",
+        "Yeah, I feel fatigued."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "I would say it's a, uh, it's a tightness in my chest. And it feels, I guess throbbing or achy?"
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "just COPD",
+        "COPD I've been, I got diagnosed about seven years ago"
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "My phlegm looks green.",
+        "Uhm, I'm bringing up about, I'd say it would fill like two, two of my palms, like the inside of my palm."
+      ]
+    },
+    {
+      "item": "Decreased Activity",
+      "result_quotes": [
+        "Uhm, I guess activity makes it worse",
+        "I'm coughing and feeling short of breath."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

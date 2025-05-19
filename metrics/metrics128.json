@@ -1,11 +1,26 @@
 {
-  "precision": 1.0,
+  "precision": 0.92,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9583333333333334,
   "true_positives": 23,
-  "false_positives": 0,
+  "false_positives": 2,
   "false_negatives": 0,
-  "total_items": 23,
-  "false_positive_details": [],
+  "total_items": 46,
+  "false_positive_details": [
+    {
+      "item": "Rash",
+      "result_quotes": [
+        "Medical Student: OK, and then any rashes on your skin?",
+        "Patient: Like I have eczema, but nothing new."
+      ]
+    },
+    {
+      "item": "Weight Gain",
+      "result_quotes": [
+        "Medical Student: And recently, over the last several months, have you had any changes to your weight?",
+        "Patient: Uh, no."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

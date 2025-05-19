@@ -1,11 +1,40 @@
 {
-  "precision": 1.0,
+  "precision": 0.8888888888888888,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9411764705882353,
   "true_positives": 32,
-  "false_positives": 0,
+  "false_positives": 4,
   "false_negatives": 0,
-  "total_items": 41,
-  "false_positive_details": [],
+  "total_items": 51,
+  "false_positive_details": [
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "Medical Student: OK, um how about muscle aches or joint pains?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Weight Gain",
+      "result_quotes": [
+        "Medical Student: OK, any weight loss over the past few weeks?",
+        "Patient: Uh no, probably weight gain."
+      ]
+    },
+    {
+      "item": "Joint Pain",
+      "result_quotes": [
+        "Medical Student: OK, um how about muscle aches or joint pains?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Rash",
+      "result_quotes": [
+        "Medical Student: OK, any changes in your hair, nails, or skin, like rashes?",
+        "Patient: Uh, no, I haven't noticed anything like that."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

@@ -1,160 +1,168 @@
 {
   "medical_history_assessed": {
-    "anxious": {
+    "aches": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "any muscle ache or general weakness?",
+        "Uh no."
+      ]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any chest pain?",
+        "No no chest pain."
+      ]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "any chills or night sweats?",
+        "No."
+      ]
+    },
+    "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "do you feel like it's a dry cough or you producing any sputum? Any blood?",
+        "It's dry."
+      ]
+    },
+    "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "changes_in_appetite": {
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And I have this mild dry cough.",
+        "And did this dry cough that start at the same time?",
+        "Yes."
+      ]
+    },
+    "coughing_fit": {
       "assessed": "No",
       "example_quotes": []
     },
-    "confusion": {
+    "decreased_physical_activity": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any fevers?",
+        "Fevers, no fevers."
+      ]
+    },
+    "general_weakness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "any muscle ache or general weakness?",
+        "Uh no."
+      ]
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "any headaches?",
+        "Um no, no headaches."
+      ]
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "do you feel like it's a dry cough or you producing any sputum? Any blood?",
+        "It's dry."
+      ]
+    },
+    "limp": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
+    "lung_complications": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any family history of respiratory problems, cancers or heart problems?",
+        "No, nothing like that."
+      ]
     },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness_due_to_alcohol": {
+    "more_quiet": {
       "assessed": "No",
       "example_quotes": []
     },
     "muscle_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any muscle ache or general weakness?",
-        "Patient: Uh no."
+        "any muscle ache or general weakness?",
+        "Uh no."
       ]
     },
     "nausea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sinus_congestion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weight_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK. Have you had any chest pain?",
-        "Patient: No no chest pain."
-      ]
-    },
-    "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, any chills or night sweats?",
-        "Patient: No."
-      ]
-    },
-    "colored_excess_sputum": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: And when you say sorry, you said mild cough, and I my next question was do you feel like it's a dry cough or you producing any sputum? Any blood? Or is it to not, not bringing up anything?",
-        "Patient: It's dry."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Yeah, so for the past two days I I've I've noticed that I can't smell things as well, as I used to be able to smell them and I seem to have lost my sense of taste as well. And I have this mild dry cough. I'm just worried it's covid.",
-        "Medical Student: OK. And did this dry cough that start at the same time?",
-        "Patient: Yes.",
-        "Medical Student: And when you say sorry, you said mild cough, and I my next question was do you feel like it's a dry cough or you producing any sputum? Any blood? Or is it to not, not bringing up anything?",
-        "Patient: It's dry."
-      ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, have you had, in addition to these symptoms, have you had any fevers?",
-        "Patient: Fevers, no fevers."
-      ]
-    },
-    "general_weakness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, any muscle ache or general weakness?",
-        "Patient: Uh no."
-      ]
-    },
-    "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, any headaches?",
-        "Patient: Um no, no headaches."
-      ]
-    },
-    "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: And when you say sorry, you said mild cough, and I my next question was do you feel like it's a dry cough or you producing any sputum? Any blood? Or is it to not, not bringing up anything?",
-        "Patient: It's dry."
-      ]
-    },
     "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any chest pain?",
+        "No no chest pain."
+      ]
+    },
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "any chills or night sweats?",
+        "No."
+      ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, so for the past two days I I've I've noticed that I can't smell things as well, as I used to be able to smell them and I seem to have lost my sense of taste as well.",
-        "Medical Student: OK, when you say you feel like you've lost sense of taste and smell, is it totally gone or do you taste a little bit? Or how? How is that working for you?",
-        "Patient: The smell isn't totally gone I can still smell something if it smells really really bad and and then and then I can taste really, really salty foods, but I can taste normal things like I can't taste of banana."
+        "I can't smell things as well, as I used to be able to smell them",
+        "The smell isn't totally gone I can still smell something if it smells really really bad"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any sore throat?",
-        "Patient: No."
+        "any sore throat?",
+        "No."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, so for the past two days I I've I've noticed that I can't smell things as well, as I used to be able to smell them and I seem to have lost my sense of taste as well.",
-        "Medical Student: OK, when you say you feel like you've lost sense of taste and smell, is it totally gone or do you taste a little bit? Or how? How is that working for you?",
-        "Patient: The smell isn't totally gone I can still smell something if it smells really really bad and and then and then I can taste really, really salty foods, but I can taste normal things like I can't taste of banana."
+        "I seem to have lost my sense of taste as well",
+        "I can taste really, really salty foods, but I can taste normal things like I can't taste of banana."
       ]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tired": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "trouble_breathing": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any difficulty breathing?",
-        "Patient: No."
+        "any difficulty breathing?",
+        "No."
       ]
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

@@ -1,16 +1,26 @@
 {
-  "precision": 1.0,
-  "recall": 0.96875,
-  "f1_score": 0.9841269841269841,
-  "true_positives": 31,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 44,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.9411764705882353,
+  "recall": 1.0,
+  "f1_score": 0.9696969696969697,
+  "true_positives": 32,
+  "false_positives": 2,
+  "false_negatives": 0,
+  "total_items": 54,
+  "false_positive_details": [
     {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
+      "item": "Dysuria",
+      "result_quotes": [
+        "Medical Student: OK. How about any urinary problems?",
+        "Patient: Um, no, nothing like that."
+      ]
+    },
+    {
+      "item": "Lymphadenitis",
+      "result_quotes": [
+        "Medical Student: OK. And have you noticed any like neck swelling?",
+        "Patient: No."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

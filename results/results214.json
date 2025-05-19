@@ -1,43 +1,13 @@
 {
   "medical_history_assessed": {
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: No, I haven't noticed any."
-      ]
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
+    "anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: No, ok. Any changes to your bowel movements?",
+        "Medical Student: No, OK. Any changes to your bowel movements?",
         "Patient: No."
       ]
     },
@@ -48,11 +18,33 @@
         "Patient: No."
       ]
     },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Hi, I've just had a runny nose and a cough for the past uh week."
+        "Patient: Hi, I've just had a runny nose and a cough for the past uh week.",
+        "Medical Student: With the cough, is it a dry cough or are you bringing up some phlegm?",
+        "Patient: Um it's mostly a dry cough"
       ]
+    },
+    "depression": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Um I don't know does depression count? I do have depression.",
+        "Medical Student: OK, yeah, for sure. How, when were you diagnosed with depression?",
+        "Patient: Uh when I was 15 years old."
+      ]
+    },
+    "diarrhoea": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
@@ -61,12 +53,20 @@
         "Patient: No."
       ]
     },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Um and any shortness of breath?",
+        "Medical Student: OK yeah, that makes sense. Um and any shortness of breath?",
         "Patient: Um no, no I don't think so."
       ]
+    },
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
@@ -86,10 +86,17 @@
         "Patient: Uh no."
       ]
     },
+    "food_allergy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK good good, any allergies?",
+        "Patient: Uhm, no."
+      ]
+    },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Uhm how about headaches?",
+        "Medical Student: No, OK. Uhm how about headaches?",
         "Patient: Uhm, no."
       ]
     },
@@ -99,6 +106,14 @@
         "Medical Student: OK, any changes in your vision or hearing?",
         "Patient: No."
       ]
+    },
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
@@ -114,9 +129,15 @@
         "Patient: Uhm, no."
       ]
     },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "Medical Student: Joint pain?",
+        "Patient: Um no.",
         "Patient: Just my body feels a little achy, but.",
         "Patient: No like specific joint pains."
       ]
@@ -124,29 +145,65 @@
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: No rashes, OK. Um any uh, sorry, I asked you if you had chest pain, uh do you ever feel like your heart's racing?",
+        "Medical Student: No, OK. Um any uh, sorry, I asked you if you had chest pain, uh do you ever feel like your heart's racing?",
         "Patient: No."
       ]
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Hi, I've just had a runny nose and a cough for the past uh week."
+        "Patient: Hi, I've just had a runny nose and a cough for the past uh week.",
+        "Medical Student: OK, when your nose does run, do you notice that it's like uh yellow in colour or red?",
+        "Patient: No, no.",
+        "Medical Student: No, OK, so it's clear?",
+        "Patient: It's clear, yeah."
       ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Smell or taste?",
-        "Patient: Um I can't smell as as much, but I think maybe it's just because my nose is so stuffy, but also that made me a little bit concerned about Covid, but no problems with taste."
+        "Patient: Um I I can't smell as as much, but I think maybe it's just because my nose is so stuffy, but also that made me a little bit concerned about Covid, but no problems with taste."
       ]
+    },
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Smell or taste?",
-        "Patient: Um I can't smell as as much, but I think maybe it's just because my nose is so stuffy, but also that made me a little bit concerned about Covid, but no problems with taste."
+        "Patient: Um I I can't smell as as much, but I think maybe it's just because my nose is so stuffy, but also that made me a little bit concerned about Covid, but no problems with taste."
       ]
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -154,6 +211,10 @@
         "Medical Student: OK, good any weight loss recently?",
         "Patient: Um I've been trying to lose weight, but nothing unintentional I guess."
       ]
+    },
+    "urination": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
@@ -168,6 +229,10 @@
         "Medical Student: No, um nausea or vomiting?",
         "Patient: Uhm, no."
       ]
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",

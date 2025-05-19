@@ -1,19 +1,31 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 0.96,
-  "f1_score": 0.9056603773584904,
-  "true_positives": 24,
-  "false_positives": 4,
-  "false_negatives": 1,
-  "total_items": 48,
+  "precision": 0.8333333333333334,
+  "recall": 1.0,
+  "f1_score": 0.9090909090909091,
+  "true_positives": 25,
+  "false_positives": 5,
+  "false_negatives": 0,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
+      "item": "Phlegm",
       "result_quotes": [
-        "Right and uh, do you have allergies to food or environmental allergies or allergies to any medications?",
-        "Yeah I, I have allergies to peanuts.",
-        "Yes, yeah.",
-        "Yeah, I do get anaphylaxis from it. I've uhm, or I'll get yeah like hives and throat swelling. And so I do carry an EpiPen, I haven't had to use it though."
+        "OK, and is it a dry cough or wet cough?",
+        "It's dry."
+      ]
+    },
+    {
+      "item": "Diarrhoea",
+      "result_quotes": [
+        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
+        "No."
+      ]
+    },
+    {
+      "item": "Sexually Transmitted Infection",
+      "result_quotes": [
+        "OK. And are you so sexually active?",
+        "No, I'm not."
       ]
     },
     {
@@ -23,23 +35,12 @@
       ]
     },
     {
-      "item": "Flulike Symptom",
+      "item": "Constipation",
       "result_quotes": [
-        "it could be potentially that you had a viral infection initially"
-      ]
-    },
-    {
-      "item": "Self Harm Thoughts",
-      "result_quotes": [
-        "Do you feel safe at home?",
-        "I do, yes."
+        "Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
+        "No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

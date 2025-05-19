@@ -1,11 +1,33 @@
 {
-  "precision": 1.0,
+  "precision": 0.88,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9361702127659575,
   "true_positives": 22,
-  "false_positives": 0,
+  "false_positives": 3,
   "false_negatives": 0,
-  "total_items": 30,
-  "false_positive_details": [],
+  "total_items": 44,
+  "false_positive_details": [
+    {
+      "item": "Allergy Medication",
+      "result_quotes": [
+        "Medical Student: OK. Any allergies?",
+        "Patient: Uh, nope.",
+        "Medical Student: OK, and are you taking any medications regularly?",
+        "Patient: No, no, I'm not. It's not bad. I sometimes just take like, Advil whenever my headache's coming on."
+      ]
+    },
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
+      ]
+    },
+    {
+      "item": "Malaise",
+      "result_quotes": [
+        "Patient: I'd say this morning as well, yesterday was just like a little tickle in my throat and I thought it would just go away you know, and I woke up this morning and I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

@@ -1,29 +1,26 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 0.9230769230769231,
-  "f1_score": 0.888888888888889,
-  "true_positives": 12,
+  "precision": 0.8666666666666667,
+  "recall": 1.0,
+  "f1_score": 0.9285714285714286,
+  "true_positives": 13,
   "false_positives": 2,
-  "false_negatives": 1,
+  "false_negatives": 0,
   "total_items": 26,
   "false_positive_details": [
     {
-      "item": "Odynophagia",
+      "item": "Difficulty Breathing",
       "result_quotes": [
-        "I first noticed that my throat was kind of scratchy and then I started coughing, but it's really like dry."
+        "Now do any of these allergies can't make it difficult to breathe or you feel like your face is swelling up?",
+        "I don't really feel like I can't breathe."
       ]
     },
     {
-      "item": "Throat Pain",
+      "item": "Swelling",
       "result_quotes": [
-        "My throat feels really scratchy."
+        "Now do any of these allergies can't make it difficult to breathe or you feel like your face is swelling up?",
+        "You notice, skin changes anything in your arms or legs it looks weird? New rashes?"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Aches",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

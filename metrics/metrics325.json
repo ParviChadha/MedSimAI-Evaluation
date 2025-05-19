@@ -1,59 +1,45 @@
 {
-  "precision": 0.75,
-  "recall": 0.9,
-  "f1_score": 0.8181818181818182,
-  "true_positives": 18,
-  "false_positives": 6,
-  "false_negatives": 2,
+  "precision": 0.8,
+  "recall": 1.0,
+  "f1_score": 0.888888888888889,
+  "true_positives": 20,
+  "false_positives": 5,
+  "false_negatives": 0,
   "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Tearing",
+      "item": "Vision Problem",
       "result_quotes": [
-        "my eyes get like red and teary sometimes."
+        "Patient: Yeah, let my nose so stuffy and sometimes it's just like my eyes and my nose are just itchy and my eyes get like red and teary sometimes."
       ]
     },
     {
-      "item": "Allergic Rhinitis",
+      "item": "Itchiness",
       "result_quotes": [
-        "do you have any past medical conditions that you have been diagnosed with like asthma, eczema, anything like that?",
-        "you might have something called like allergic rhinitis"
+        "Patient: Yeah, let my nose so stuffy and sometimes it's just like my eyes and my nose are just itchy and my eyes get like red and teary sometimes."
       ]
     },
     {
-      "item": "Sensitive To Allergies",
+      "item": "Weight Gain",
       "result_quotes": [
-        "OK, and are there any besides during the spring time, any kind of allergens or any anything in the house or around you that triggers it, like dust or anything like that?",
-        "Yeah, dust makes it a lot worse."
+        "Medical Student: Any changes to your appetite or weight?",
+        "Patient: I've been losing weight, but I've been dieting and working out more."
       ]
     },
     {
-      "item": "Teary Eyes",
+      "item": "Constipation",
       "result_quotes": [
-        "my eyes get like red and teary sometimes."
+        "Medical Student: Any changes in your bowel movements at all?",
+        "Patient: No."
       ]
     },
     {
-      "item": "Itching",
+      "item": "Diarrhoea",
       "result_quotes": [
-        "sometimes it's just like my eyes and my nose are just itchy"
-      ]
-    },
-    {
-      "item": "Sexually Transmitted Infection",
-      "result_quotes": [
-        "no OK, and are you sexually active?"
+        "Medical Student: Any changes in your bowel movements at all?",
+        "Patient: No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

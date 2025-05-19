@@ -1,17 +1,65 @@
 {
-  "precision": 0.9655172413793104,
+  "precision": 0.7777777777777778,
   "recall": 1.0,
-  "f1_score": 0.9824561403508771,
+  "f1_score": 0.8750000000000001,
   "true_positives": 28,
-  "false_positives": 1,
+  "false_positives": 8,
   "false_negatives": 0,
-  "total_items": 39,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Odynophagia",
+      "item": "Symptom Speedup",
       "result_quotes": [
-        "He says his throat hurts, but I don't think it's his chest.",
-        "No. We haven't been really feeding him solid meals, it's because he's been sick, we've been trying to give him soup and liquids for the most part because his throat hurts, but he's able to keep them down."
+        "OK, and then in terms of the timeline, is it getting worse? His cough?",
+        "I think it has been to be honest."
+      ]
+    },
+    {
+      "item": "Decreased Oral Intake",
+      "result_quotes": [
+        "Yeah, he's not eating as much but still, we're trying to force food into him to keep his energy up."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "OK, and then he otherwise healthy? Does he have any longstanding medical conditions?",
+        "No longstanding medical conditions."
+      ]
+    },
+    {
+      "item": "Loss Of Sense",
+      "result_quotes": [
+        "And his taste, any reason to believe there are any changes there?",
+        "Well, we've been kind of spoiling him a bit, just giving him ice cream. His throat hurts a little bit and he seems to still like it, so it's hard to tell."
+      ]
+    },
+    {
+      "item": "Fainting",
+      "result_quotes": [
+        "OK, and then any dizziness or fainting spells that you've noticed?",
+        "No fainting or dizzy spells"
+      ]
+    },
+    {
+      "item": "Dyspnea",
+      "result_quotes": [
+        "OK, does he have any shortness of breath with his cough?",
+        "I feel like when he has the coughing fits, he's winded."
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "OK, does he have any shortness of breath with his cough?",
+        "I feel like when he has the coughing fits, he's winded. He's weak after them."
+      ]
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "result_quotes": [
+        "OK, and is it a dry cough or does he bring up sputum?",
+        "Sputum like phlegm,no he doesn't bring anything up really, so dry."
       ]
     }
   ],

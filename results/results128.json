@@ -1,9 +1,13 @@
 {
   "medical_history_assessed": {
+    "anxiety": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK and have you had any chest pain?",
+        "Medical Student: OK, and have you had any chest pain?",
         "Patient: No."
       ]
     },
@@ -17,9 +21,14 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "Medical Student: OK. So no cough have you felt a like short of breath at all?",
         "Medical Student: OK, and have you brought up any like, sputum or any blood?",
         "Patient: No."
       ]
+    },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
@@ -31,8 +40,8 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I guess maybe I felt like a little dry, but I haven't actually been coughing.",
-        "Medical Student: OK. So no cough"
+        "Patient: I mean, I may be even a bit tired, but really. Otherwise no. I guess maybe I felt like a little dry, but I haven't actually been coughing.",
+        "Medical Student: OK. So no cough have you felt a like short of breath at all?"
       ]
     },
     "diarrhoea": {
@@ -42,12 +51,28 @@
         "Patient: No."
       ]
     },
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dizziness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drowsiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK. So no cough have you felt a like short of breath at all?",
         "Patient: No."
       ]
+    },
+    "fainting": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
@@ -76,6 +101,22 @@
         "Patient: No."
       ]
     },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
@@ -86,9 +127,13 @@
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Alright um, any nausea or vomiting.",
+        "Medical Student: Alright, um, any nausea or vomiting.",
         "Patient: No."
       ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
@@ -104,6 +149,25 @@
         "Patient: No."
       ]
     },
+    "paralysis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rash": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, and then any rashes on your skin?",
+        "Patient: Like I have eczema, but nothing new."
+      ]
+    },
+    "redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
@@ -111,17 +175,25 @@
         "Patient: No."
       ]
     },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and have you had any night sweats?",
+        "Medical Student: Alright, or how about any night sweats?",
         "Patient: No."
       ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: So like I don't really feel sick. I just I lost. I can't. I for the past two days I can't smell anything."
+        "Patient: So like I don't really feel sick. I just I lost. I can't. I for the past two days I can't smell anything. I can't taste any of my food."
       ]
     },
     "sore_throat": {
@@ -131,11 +203,27 @@
         "Patient: Like I said, it felt like dry, but I don't think it's been sore."
       ]
     },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I can't taste any of my food. It's super weird I like live with my boyfriend and he was like here take a bite of this onion and I like bit into it and I literally didn't taste anything."
+        "Patient: So like I don't really feel sick. I just I lost. I can't. I for the past two days I can't smell anything. I can't taste any of my food."
       ]
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -151,11 +239,22 @@
         "Patient: No."
       ]
     },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Alright um, any nausea or vomiting.",
+        "Medical Student: Alright, um, any nausea or vomiting.",
         "Patient: No."
+      ]
+    },
+    "weight_gain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: And recently, over the last several months, have you had any changes to your weight?",
+        "Patient: Uh, no."
       ]
     }
   }

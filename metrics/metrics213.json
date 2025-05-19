@@ -1,11 +1,39 @@
 {
-  "precision": 1.0,
+  "precision": 0.8709677419354839,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9310344827586207,
   "true_positives": 27,
-  "false_positives": 0,
+  "false_positives": 4,
   "false_negatives": 0,
-  "total_items": 40,
-  "false_positive_details": [],
+  "total_items": 53,
+  "false_positive_details": [
+    {
+      "item": "Chills",
+      "result_quotes": [
+        "Patient: I don't know about a fever, I haven't checked, but some nights I do, especially in the last week I have woken up feeling a bit chilly."
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "Medical Student: OK and like no pus or liquid's coming out of your ear or anything like that, right?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Rash",
+      "result_quotes": [
+        "Medical Student: How about changes in your skin? Like have you noticed a rash anywhere?",
+        "Patient: Uh, not that I've really noticed no, no rashes."
+      ]
+    },
+    {
+      "item": "Confusion",
+      "result_quotes": [
+        "Medical Student: Confusion, memory loss?",
+        "Patient: No, nothing like that."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

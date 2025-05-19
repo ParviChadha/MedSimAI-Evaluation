@@ -1,11 +1,49 @@
 {
-  "precision": 1.0,
+  "precision": 0.8484848484848485,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9180327868852458,
   "true_positives": 28,
-  "false_positives": 0,
+  "false_positives": 5,
   "false_negatives": 0,
-  "total_items": 37,
-  "false_positive_details": [],
+  "total_items": 56,
+  "false_positive_details": [
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "I just came in today uh a bit concerned. Uh I've been just having this nasty cough for like the last week and then today morning uh, like I thought the cough would just go away, but today morning I also noticed I'm coughing up some blood.",
+        "Any sick contacts recently?",
+        "Um not uh, I don't think so like we um, maybe in the Philippines, we do provide a, so I go on like these mission trips with the Church and um we do sometimes go to the hospital as well.",
+        "Sometimes yeah, we we do see some sick people."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "OK, are you short of breath at all?",
+        "No, I'm not short of breath. Um just, it's just the cough."
+      ]
+    },
+    {
+      "item": "Changes In Memory",
+      "result_quotes": [
+        "Confusion or memory loss?",
+        "No."
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "Um any runny nose or stuffy nose?",
+        "No, no uh runny or stuffy nose."
+      ]
+    },
+    {
+      "item": "Arthritis Pain",
+      "result_quotes": [
+        "Uh, joint pain?",
+        "No."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

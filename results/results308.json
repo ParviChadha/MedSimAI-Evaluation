@@ -1,5 +1,13 @@
 {
   "medical_history_assessed": {
+    "anxious": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behavior_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
@@ -14,10 +22,14 @@
         "Patient: No, I don't think so."
       ]
     },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any other symptoms, anything related to your belly, say, diarrhea or Constipation...?",
+        "Medical Student: Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
         "Patient: No, nothing like that."
       ]
     },
@@ -31,15 +43,19 @@
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any other symptoms, anything related to your belly, say, diarrhea or Constipation...?",
+        "Medical Student: Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
         "Patient: No, nothing like that."
       ]
+    },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "drowsy": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, OK, are you feeling fatigued, tired? Have any muscle aches?",
-        "Patient: I, I have felt a little bit more drowsy these last few days..."
+        "Patient: I, I have felt a little bit more drowsy these last few days and, uhm, yeah my, uhm, I have had some muscle aches as well."
       ]
     },
     "dysphagia": {
@@ -52,15 +68,23 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any difficulties breathing?",
+        "Medical Student: OK. Any difficulties breathing?",
         "Patient: No."
       ]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, OK, are you feeling fatigued, tired? Have any muscle aches?",
-        "Patient: I, I have felt a little bit more drowsy these last few days..."
+        "Patient: I, I have felt a little bit more drowsy these last few days and, uhm, yeah my, uhm, I have had some muscle aches as well."
       ]
     },
     "fever": {
@@ -70,12 +94,26 @@
         "Patient: No, I don't think so."
       ]
     },
+    "food_allergy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: What allergies do you have?",
+        "Patient: I have allergies to dust and some environmental things, like pollen or ragweed I think maybe."
+      ]
+    },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I did use, uh, some uhm, like cold medication to help because I was having a headache as well...",
+        "Patient: I did use, uh, some uhm, like cold medication to help because I was having a headache as well",
         "Medical Student: And how's your headache now?",
         "Patient: It's not too bad. It's pretty mild, but it's there."
+      ]
+    },
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: do you have any family history of any medical conditions?",
+        "Patient: Uh, I think my dad has high blood pressure. He takes a medication for that, uhm nothing serious though that I know of."
       ]
     },
     "hoarse_tone": {
@@ -85,27 +123,55 @@
         "Patient: No."
       ]
     },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And do you have any nasal congestion? Does your nose feel stuffy?",
+        "Medical Student: No, OK. And do you have any nasal congestion? Does your nose feel stuffy?",
         "Patient: Yeah it does, yes."
       ]
+    },
+    "nausea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
-        "Patient: No, nothing like that."
+        "Medical Student: OK, uhm any, uh, pain in your chest?",
+        "Patient: No."
       ]
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've, uh, had a runny nose over the last few days...",
+        "Patient: I've, uh, had a runny nose over the last few days",
         "Medical Student: OK. Have you, uh, with the, the runny nose, do you have any, what's the discharge like?",
         "Patient: Uh, it's been kind of watery, it's clear."
       ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
@@ -115,12 +181,20 @@
         "Patient: Uh, it did get a little bit worse initially and since then it's been kind of stable."
       ]
     },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
         "Patient: No, nothing like that."
       ]
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

@@ -1,14 +1,6 @@
 {
   "medical_history_assessed": {
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -16,269 +8,390 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "lymphadenitis": {
+    "pus": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Uhm, I think there might be like a few lumps near his neck, so I don't know if that's swelling, but definitely there is."
+        "Have you taken a look into his throat? Is it red? Do you see any yellow streaking white stuff, anything like that?",
+        "I don't know if I saw any white or yellow streaks, but definitely looks very red in there."
       ]
     },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pus": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
+    "throat_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "My child has been having a sore throat and chills yesterday as well.",
+        "Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods."
+      ]
     },
     "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "allergic_rhinitis": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about his bowel movements? Have those been normal?",
-        "Patient: Yeah, they've been normal. No diarrhea or constipation."
+        "OK, how about his bowel movements? Have those been normal?",
+        "Yeah, they've been normal. No diarrhea or constipation."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Chest pain?",
-        "Patient: No."
+        "Chest pain?",
+        "No."
       ]
+    },
+    "chest_tightness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: My child has been having a sore throat and chills yesterday as well."
+        "My child has been having a sore throat and chills yesterday as well.",
+        "OK, so you mentioned the sore throat started three to four days ago and the chills started yesterday."
       ]
+    },
+    "complications_during_delivery": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "confusion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have any confusion or memory loss?",
-        "Patient: No, not that I know."
+        "Have any confusion or memory loss?",
+        "No, not that I know."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about his bowel movements? Have those been normal?",
-        "Patient: Yeah, they've been normal. No diarrhea or constipation."
+        "Yeah, they've been normal. No diarrhea or constipation."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, coughing?",
-        "Patient: No, hasn't been coughing at all"
+        "OK, coughing?",
+        "No, hasn't been coughing at all"
+      ]
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_oral_intake": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods.",
+        "Yeah, just with the trouble swallowing I'm trying to make sure that he gets like liquids because over the last few days he can't tolerate like solid foods at all."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about his bowel movements? Have those been normal?",
-        "Patient: Yeah, they've been normal. No diarrhea or constipation."
+        "Yeah, they've been normal. No diarrhea or constipation."
+      ]
+    },
+    "difficulty_breathing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, um, and how about shortness of breath or wheezing?",
+        "No, nothing like that."
+      ]
+    },
+    "difficulty_feeding": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And is he having any issues swallowing food or fluids?",
+        "Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods."
+      ]
+    },
+    "discomfort": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, dizziness or fainting spells?",
-        "Patient: No."
+        "OK, dizziness or fainting spells?",
+        "No."
       ]
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And is he having any issues swallowing food or fluids?",
-        "Patient: Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods."
+        "And is he having any issues swallowing food or fluids?",
+        "Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, um, and how about shortness of breath or wheezing?",
-        "Patient: No, nothing like that."
+        "OK, um, and how about shortness of breath or wheezing?",
+        "No, nothing like that."
+      ]
+    },
+    "ear_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, how about changes in vision or hearing?",
+        "No, no rashes."
       ]
     },
     "enlarged_tonsils": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, do his tonsils look enlarged?",
-        "Patient: Uh, everything looks swollen in there, I don't know what's what, but it does look very angry in there."
+        "OK, do his tonsils look enlarged?",
+        "Uh, everything looks swollen in there, I don't know what's what, but it does look very angry in there."
       ]
     },
     "erythema": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you taken a look into his throat? Is it red?",
-        "Patient: I definitely did take a look yesterday and definitely saw a lot of redness."
+        "Have you taken a look into his throat? Is it red?",
+        "I definitely did take a look yesterday and definitely saw a lot of redness."
       ]
     },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, dizziness or fainting spells?",
-        "Patient: No."
+        "OK, dizziness or fainting spells?",
+        "No."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And, any fatigue or exhaustion?",
-        "Patient: Energy's pretty much the same, just really complaining a lot about the throat."
+        "OK. And, any fatigue or exhaustion?",
+        "Energy's pretty much the same, just really complaining a lot about the throat."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you taken his temperature at home?",
-        "Patient: No, I think he might have had a fever yesterday, but we didn't really take a temperature."
+        "OK. Have you taken his temperature at home?",
+        "No, I think he might have had a fever yesterday, but we didn't really take a temperature."
+      ]
+    },
+    "food_allergy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, any allergies?",
+        "No, not that I know."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Headaches?",
-        "Patient: He was complaining of a headache a few days ago, but it kind of went away on its own."
+        "Headaches?",
+        "He was complaining of a headache a few days ago, but it kind of went away on its own."
       ]
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about changes in vision or hearing?",
-        "Patient: No, no rashes."
+        "OK, how about changes in vision or hearing?",
+        "No, no rashes."
       ]
+    },
+    "high_blood_pressure": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperhidrosis": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods."
+        "Any appetite changes?",
+        "Yeah, just with the trouble swallowing I'm trying to make sure that he gets like liquids because over the last few days he can't tolerate like solid foods at all."
+      ]
+    },
+    "loss_of_smell": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any loss of taste or smell?",
+        "No, nothing like that."
+      ]
+    },
+    "lymphadenitis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, OK, have you noticed any swelling in in the neck area?",
+        "Uhm, I think there might be like a few lumps near his neck, so I don't know if that's swelling, but definitely there is. There's a few that I felt over the last few days."
       ]
     },
     "memory_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have any confusion or memory loss?",
-        "Patient: No, not that I know."
+        "Have any confusion or memory loss?",
+        "No, not that I know."
       ]
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and has he had a stuffy nose or runny nose?",
-        "Patient: No, not really, no."
+        "OK, OK. And has he had a stuffy nose or runny nose?",
+        "No, not really, no."
+      ]
+    },
+    "nause": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, how about in nausea or vomiting?",
+        "No, no, he hasn't told me anything about that."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about in nausea or vomiting?",
-        "Patient: No, no, he hasn't told me anything about that."
+        "OK, how about in nausea or vomiting?",
+        "No, no, he hasn't told me anything about that."
       ]
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ...like a lot of pain in his throat, especially when swallowing solid foods."
+        "Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Feeling like his heart is racing?",
-        "Patient: No."
+        "Feeling like his heart is racing?",
+        "No."
       ]
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pressure_in_around_face": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and has he had a stuffy nose or runny nose?",
-        "Patient: No, not really, no."
+        "OK, OK. And has he had a stuffy nose or runny nose?",
+        "No, not really, no."
       ]
+    },
+    "sensation_of_chest": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sinus_congestion": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any loss of taste or smell?",
-        "Patient: No, nothing like that."
+        "Any loss of taste or smell?",
+        "No, nothing like that."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: My child has been having a sore throat and chills yesterday as well."
+        "My child has been having a sore throat and chills yesterday as well.",
+        "OK, so you mentioned the sore throat started three to four days ago and the chills started yesterday."
       ]
+    },
+    "straining_and_chest_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Uh, everything looks swollen in there, I don't know what's what, but it does look very angry in there."
+        "OK, OK, have you noticed any swelling in in the neck area?",
+        "Uhm, I think there might be like a few lumps near his neck, so I don't know if that's swelling, but definitely there is. There's a few that I felt over the last few days.",
+        "Swelling in his limbs?",
+        "No. I haven't noticed anything like that."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any loss of taste or smell?",
-        "Patient: No, nothing like that."
+        "Any loss of taste or smell?",
+        "No, nothing like that."
+      ]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tonsilitis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, do his tonsils look enlarged?",
+        "Uh, everything looks swollen in there, I don't know what's what, but it does look very angry in there."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Yeah, how about a weight loss over the past few weeks?",
-        "Patient: No, not really. It's just been over the last few days that he hasn't been eating like himself."
+        "Yeah, how about a weight loss over the past few weeks?",
+        "No, not really. t's just been over the last few days that he hasn't been eating like himself."
       ]
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about changes in vision or hearing?",
-        "Patient: No, no rashes."
+        "OK, how about changes in vision or hearing?",
+        "No, no rashes."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about in nausea or vomiting?",
-        "Patient: No, no, he hasn't told me anything about that."
+        "OK, how about in nausea or vomiting?",
+        "No, no, he hasn't told me anything about that."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, um, and how about shortness of breath or wheezing?",
-        "Patient: No, nothing like that."
+        "OK, um, and how about shortness of breath or wheezing?",
+        "No, nothing like that."
       ]
     }
   }

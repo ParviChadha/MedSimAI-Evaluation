@@ -1,17 +1,46 @@
 {
-  "precision": 0.9523809523809523,
+  "precision": 0.8,
   "recall": 1.0,
-  "f1_score": 0.975609756097561,
+  "f1_score": 0.888888888888889,
   "true_positives": 20,
-  "false_positives": 1,
+  "false_positives": 5,
   "false_negatives": 0,
-  "total_items": 28,
+  "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Fainting",
+      "item": "Food Allergy",
       "result_quotes": [
-        "Any dizziness or fainting?",
+        "Not to medication I'm allergic to like strawberries and Kiwis.",
+        "OK, and what kind of reaction do you get?",
+        "I just break out in hives."
+      ]
+    },
+    {
+      "item": "Pain",
+      "result_quotes": [
+        "Any sensation of chest pain or racing of your heart?",
         "No."
+      ]
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "result_quotes": [
+        "Any changes in your appetite or weight?",
+        "No."
+      ]
+    },
+    {
+      "item": "Loss Of Consciousness Due To Alcohol",
+      "result_quotes": [
+        "So currently right now you're 16. This is an age where sometimes your peers or yourself might experiment with alcohol, smoking or recreational drugs. Have you have you tried anything at all?",
+        "No, I haven't."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "And have you traveled at all recently or been in touch with anyone who's been sick?",
+        "Uhm, no, nothing like that."
       ]
     }
   ],

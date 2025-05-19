@@ -1,11 +1,71 @@
 {
-  "precision": 1.0,
+  "precision": 0.7272727272727273,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.8421052631578948,
   "true_positives": 24,
-  "false_positives": 0,
+  "false_positives": 9,
   "false_negatives": 0,
-  "total_items": 41,
-  "false_positive_details": [],
+  "total_items": 48,
+  "false_positive_details": [
+    {
+      "item": "Flu Like Symptom",
+      "result_quotes": [
+        "Patient: I woke up this morning and I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
+      ]
+    },
+    {
+      "item": "Body Ache",
+      "result_quotes": [
+        "Medical Student: Alright, and then how about any muscle aches or, or body aches?",
+        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
+      ]
+    },
+    {
+      "item": "General Weakness",
+      "result_quotes": [
+        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
+      ]
+    },
+    {
+      "item": "Headache",
+      "result_quotes": [
+        "Medical Student: OK, have you had a headache?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "Medical Student: OK, uh, and have you had any shortness of breath?",
+        "Patient: I don't think so."
+      ]
+    },
+    {
+      "item": "Cold",
+      "result_quotes": [
+        "Patient: Well yeah, I usually get a cold once a year in the fall. It does feel similar to that."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "Medical Student: Alright, and then how about any muscle aches or, or body aches?",
+        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
+      ]
+    },
+    {
+      "item": "Changes Inappetite",
+      "result_quotes": [
+        "Medical Student: OK, uh, and how has your appetite been?",
+        "Patient: It's alright."
+      ]
+    },
+    {
+      "item": "Soreness",
+      "result_quotes": [
+        "Patient: Yeah, absolutely. Uhm, I don't know, I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

@@ -1,17 +1,52 @@
 {
-  "precision": 0.96,
+  "precision": 0.8,
   "recall": 0.96,
-  "f1_score": 0.96,
+  "f1_score": 0.8727272727272728,
   "true_positives": 24,
-  "false_positives": 1,
+  "false_positives": 6,
   "false_negatives": 1,
-  "total_items": 36,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Dizzyness",
+      "item": "Lightheadness",
       "result_quotes": [
         "Medical Student: Have you had any lightheadedness or, or feeling dizzy?",
         "Patient: No."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Patient: Um, I have diabetes, I have high blood pressure and I have high cholesterol.",
+        "Patient: Yes, so I am on ramipril for the high blood pressure, rosuvastatin for the cholesterol, and insulin for the diabetes."
+      ]
+    },
+    {
+      "item": "Ecercise",
+      "result_quotes": [
+        "Medical Student: Okay, um, and have you been experiencing uh shortness of breath um, on exertion otherwise, like prior to this?",
+        "Patient: Um no, no."
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "Medical Student: And how has your weight been over the last several months? Have you had any weight loss or gain?",
+        "Patient: Uh no, it's been pretty stable."
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "Medical Student: Okay, are you bringing up any uh, sputum or phlegm?",
+        "Patient: Um yes, it's yellow."
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "Medical Student: Okay, are you bringing up any uh, sputum or phlegm?",
+        "Patient: Um yes, it's yellow."
       ]
     }
   ],

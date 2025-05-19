@@ -1,16 +1,72 @@
 {
-  "precision": 1.0,
-  "recall": 0.9565217391304348,
-  "f1_score": 0.9777777777777777,
-  "true_positives": 22,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 23,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.71875,
+  "recall": 1.0,
+  "f1_score": 0.8363636363636363,
+  "true_positives": 23,
+  "false_positives": 9,
+  "false_negatives": 0,
+  "total_items": 46,
+  "false_positive_details": [
     {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
+      "item": "Lung Complications",
+      "result_quotes": [
+        "I'm having some trouble breathing",
+        "I just feel like yeah, I'm I'm short of breath"
+      ]
+    },
+    {
+      "item": "Pain",
+      "result_quotes": [
+        "Feels a little like it hurts a little bit, like when I when I breathe in"
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "I've just had a real like a real bad cough",
+        "I'm coughing up like gunky green stuff",
+        "I feel like I've I've probably had a fever the last couple nights"
+      ]
+    },
+    {
+      "item": "Diarrhoea",
+      "result_quotes": [
+        "Medical Student: Alright, And any changes in your bowel movements? Patient: No, no, that's all the same."
+      ]
+    },
+    {
+      "item": "Ache",
+      "result_quotes": [
+        "Feels a little like it hurts a little bit, like when I when I breathe in"
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "I'm having some trouble breathing",
+        "I feel like I can't, can't quite like breathe fully",
+        "I just feel like yeah, I'm I'm short of breath"
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "I'm coughing up like gunky green stuff",
+        "I feel like I've I've probably had a fever the last couple nights"
+      ]
+    },
+    {
+      "item": "Loss Of Taste",
+      "result_quotes": [
+        "Medical Student: How about changes in your taste or smell? Patient: No, none of those."
+      ]
+    },
+    {
+      "item": "Appetite",
+      "result_quotes": [
+        "I haven't been eating as much as I normally do"
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

@@ -1,46 +1,6 @@
 {
   "medical_history_assessed": {
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "constipation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "muscle_ache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "throat_pain": {
+    "appetite": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -54,23 +14,34 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "Is your cough and a dry cough?",
+        "Yeah.",
         "Have you been bringing up gunk OK. Dry cough?"
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "so I have been coughing a lot over the past week or so.",
-        "Last two weeks. Is your cough and a dry cough?",
-        "Yeah."
+        "I have been coughing a lot over the past week or so. And it's been pretty dry, but I've been coughing like almost nonstop throughout the day",
+        "so you say you've had more coughing lately, is that right? You said the last two weeks. Or the last week",
+        "Last two weeks."
       ]
+    },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm feeling very short of breath, and my bronchodilator helps, but I found I'm using it a lot now.",
-        "Do you feel like you're having a hard time breathing?"
+        "I'm feeling very short of breath",
+        "And when you have these so when you have these episodes, you're copping your wheezy. Do you feel like you're having a hard time breathing?",
+        "Yep, that's right."
       ]
+    },
+    "ear_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
@@ -79,22 +50,66 @@
         "Uh no."
       ]
     },
+    "grunting_noise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "malaise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
+        "Any any? Nausea or vomiting?",
         "No."
       ]
     },
     "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any belly pain?",
+        "No."
+      ]
+    },
+    "rigor": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "sleep_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you having any symptoms at night time?",
+        "Yeah, how they don't happen as much as my daytime symptoms, but I been having it maybe like every other day or like you know, every two days or so."
+      ]
+    },
+    "sleep_issues": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you having any symptoms at night time?",
+        "Yeah, how they don't happen as much as my daytime symptoms, but I been having it maybe like every other day or like you know, every two days or so."
+      ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
         "Have you lost any of your sense of taste or smell?",
         "No."
+      ]
+    },
+    "sore": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and you're using it more than normal, so how often were you normally using it?",
+        "Um I was only using it like I don't know. Maybe once every two weeks or so. Not very often. But now I'm using it like almost everyday like five six times a week."
       ]
     },
     "taste_loss": {
@@ -107,7 +122,7 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
+        "Any any? Nausea or vomiting?",
         "No."
       ]
     },

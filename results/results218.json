@@ -1,42 +1,32 @@
 {
   "medical_history_assessed": {
-    "hyperacusis": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
+    "allergy_medication": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK. Any allergies?",
+        "Patient: Uh, nope.",
+        "Medical Student: OK, and are you taking any medications regularly?",
+        "Patient: No, no, I'm not. It's not bad. I sometimes just take like, Advil whenever my headache's coming on."
+      ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And have you had any chest pain?"
+        "Medical Student: OK. And have you had any chest pain?",
+        "Patient: No."
       ]
+    },
+    "colored_excess_sputum": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
@@ -52,10 +42,22 @@
         "Patient: No."
       ]
     },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Have you been dizzy or lightheaded?",
+        "Medical Student: OK, have you been dizzy or lightheaded?",
         "Patient: No."
       ]
     },
@@ -63,7 +65,7 @@
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: And uhm, have you had any, uhm, problems with swallowing, like food or liquids?",
-        "Patient: No, I don't think so."
+        "Patient: No, I don't think so. I just had breakfast this morning and no problems there."
       ]
     },
     "dyspnea": {
@@ -72,6 +74,10 @@
         "Medical Student: OK, uh, and have you had any shortness of breath?",
         "Patient: I don't think so."
       ]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "eye_redness": {
       "assessed": "Yes",
@@ -85,17 +91,30 @@
       "example_quotes": [
         "Medical Student: OK. How has your energy been? Have you been, like really fatigued?",
         "Patient: Yeah.",
-        "Medical Student: OK, and when did, uh, you said the muscle ache started this morning, uhm, how, when did the fatigue start?",
-        "Patient: I'd say this morning as well..."
+        "Patient: I'd say this morning as well, yesterday was just like a little tickle in my throat and I thought it would just go away you know, and I woke up this morning and I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Uhm, I don't know, I've just been feeling a little feverish...",
+        "Patient: Yeah, I'm just feeling a little feverish.",
         "Medical Student: OK, and when did that start?",
-        "Patient: This morning."
+        "Patient: This morning.",
+        "Medical Student: OK, did you take your temperature?",
+        "Patient: No, I don't have a thermometer at home."
       ]
+    },
+    "flu": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "greenish_yellowish_nasal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
@@ -111,6 +130,16 @@
         "Patient: It's alright."
       ]
     },
+    "malaise": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: I'd say this morning as well, yesterday was just like a little tickle in my throat and I thought it would just go away you know, and I woke up this morning and I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
+      ]
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
@@ -125,6 +154,10 @@
         "Patient: No."
       ]
     },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
@@ -137,7 +170,7 @@
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you felt as though your heart's been racing at all or, or beating out of your chest?",
+        "Medical Student: Have you felt as though your hearts's been racing at all or, or beating out of your chest?",
         "Patient: No."
       ]
     },
@@ -148,6 +181,14 @@
         "Patient: No, neither of those."
       ]
     },
+    "sleep": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
@@ -155,13 +196,21 @@
         "Patient: Yeah, I don't, uh, yes, I said I was eating breakfast this morning, but it just tasted really bland."
       ]
     },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Uhm, I don't know, I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat.",
+        "Patient: Yeah, absolutely. Uhm, I don't know, I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat.",
         "Medical Student: Certainly, when did the, the sore throat start?",
         "Patient: Last night actually."
       ]
+    },
+    "symptoms_stress": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
@@ -169,6 +218,14 @@
         "Medical Student: OK, and how about any loss of taste or loss of smell?",
         "Patient: Yeah, I don't, uh, yes, I said I was eating breakfast this morning, but it just tasted really bland."
       ]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
@@ -182,6 +239,16 @@
       "example_quotes": [
         "Medical Student: OK. Have you had any nausea or vomiting?",
         "Patient: No."
+      ]
+    },
+    "watery_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weakness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
       ]
     },
     "wheez": {

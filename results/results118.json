@@ -1,70 +1,31 @@
 {
   "medical_history_assessed": {
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
+    "body_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Alright, and then how about any muscle aches or, or body aches?",
+        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
+      ]
     },
-    "eating_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
+    "changes_inappetite": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, uh, and how has your appetite been?",
+        "Patient: It's alright."
+      ]
     },
     "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "high_blood_pressure": {
-      "assessed": "No",
-      "example_quotes": []
+    "aches": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Alright, and then how about any muscle aches or, or body aches?",
+        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
+      ]
     },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lymphadenitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
+    "brain_fog": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -73,6 +34,12 @@
       "example_quotes": [
         "Medical Student: OK. And have you had any chest pain?",
         "Patient: No."
+      ]
+    },
+    "cold": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Well yeah, I usually get a cold once a year in the fall. It does feel similar to that."
       ]
     },
     "constipation": {
@@ -88,6 +55,10 @@
         "Medical Student: OK, and have you had any, any cough?",
         "Patient: No."
       ]
+    },
+    "decreased_activity": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -107,7 +78,7 @@
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: And uhm, have you had any, uhm, problems with swallowing, like food or liquids?",
-        "Patient: No, I don't think so."
+        "Patient: No, I don't think so. I just had breakfast this morning and no problems there."
       ]
     },
     "dyspnea": {
@@ -117,6 +88,10 @@
         "Patient: I don't think so."
       ]
     },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
@@ -124,21 +99,49 @@
         "Patient: No, neither of those."
       ]
     },
+    "facial_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fainting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: How has your energy been? Have you been, like really fatigued?",
+        "Medical Student: OK. How has your energy been? Have you been, like really fatigued?",
         "Patient: Yeah."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, absolutely. Uhm, I don't know, I've just been feeling a little feverish.",
-        "Patient: Yeah, I'm just feeling a little feverish."
+        "Patient: Yeah, I'm just feeling a little feverish.",
+        "Medical Student: OK, did you take your temperature?",
+        "Patient: No, I don't have a thermometer at home."
+      ]
+    },
+    "flu_like_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: I woke up this morning and I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
+      ]
+    },
+    "general_weakness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
       ]
     },
     "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, have you had a headache?",
+        "Patient: No."
+      ]
+    },
+    "headache": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, have you had a headache?",
@@ -173,6 +176,10 @@
         "Patient: No."
       ]
     },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
@@ -187,12 +194,36 @@
         "Patient: No."
       ]
     },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, how about any, like red eyes or runny nose?",
         "Patient: No, neither of those."
       ]
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleeping_issues": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -204,9 +235,15 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I also have a, a bit of a sore throat.",
-        "Medical Student: And uhm, have you had any other symptoms besides the sore throat?",
-        "Patient: Yeah, I'm just feeling a little feverish."
+        "Patient: Yeah, absolutely. Uhm, I don't know, I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat.",
+        "Medical Student: Certainly, when did the, the sore throat start?",
+        "Patient: Last night actually."
+      ]
+    },
+    "soreness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Yeah, absolutely. Uhm, I don't know, I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat."
       ]
     },
     "taste_loss": {
@@ -215,6 +252,21 @@
         "Medical Student: OK, and how about any loss of taste or loss of smell?",
         "Patient: Yeah, I don't, uh, yes, I said I was eating breakfast this morning, but it just tasted really bland."
       ]
+    },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "trouble_breathing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, uh, and have you had any shortness of breath?",
+        "Patient: I don't think so."
+      ]
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
@@ -233,7 +285,7 @@
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, so you haven't had any cough or shortness of breath, but have you noticed any wheezing?",
+        "Medical Student: OK, and so you haven't had any cough or shortness of breath, but have you noticed any wheezing?",
         "Patient: No."
       ]
     }

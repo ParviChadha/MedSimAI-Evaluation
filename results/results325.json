@@ -1,34 +1,14 @@
 {
   "medical_history_assessed": {
-    "itching": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "sometimes it's just like my eyes and my nose are just itchy"
-      ]
-    },
-    "allergic_rhinitis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "do you have any past medical conditions that you have been diagnosed with like asthma, eczema, anything like that?",
-        "you might have something called like allergic rhinitis"
-      ]
-    },
-    "anxious": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bad_smell": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "behavior_changes": {
+    "aches": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your bowel movements at all?"
+        "Medical Student: Any changes in your bowel movements at all?",
+        "Patient: No."
       ]
     },
     "brain_fog": {
@@ -38,192 +18,232 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Ok. And besides that, have you been having any symptoms of fevers, chills, sore throat?",
-        "Any night sweats, fevers, or chills?"
+        "Medical Student: Ok. And besides that, have you been having any symptoms of fevers, chills, sore throat?",
+        "Medical Student: Any fevers or chills?",
+        "Medical Student: OK, any night sweats, fevers, or chills?",
+        "Patient: no."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any headaches?",
-        "Any nausea or vomiting?",
-        "Any fevers or chills?"
+        "Medical Student: OK, and are you bringing up any sputum?",
+        "Patient: Yeah, that yeah I do.",
+        "Medical Student: Like, uh, how much would you say? Do you just bring it up in the morning, or like throughout the day,",
+        "Patient: just in the morning"
       ]
     },
-    "complications_actual_delivery": {
+    "confusion": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any changes in your bowel movements at all?",
+        "Patient: No."
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I also wake up in the morning with this like sore throat and have just cough and clear out my, you know clear my throat.",
-        "OK, and are you coughing at all?",
-        "Well, I have to like cough to clear my throat but then not otherwise."
+        "Medical Student: OK. and are you coughing at all?",
+        "Patient: Well, I have to like cough to clear my throat but then not otherwise."
       ]
     },
-    "delayed_growth_milestones": {
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any changes in your bowel movements at all?",
+        "Patient: No."
+      ]
+    },
+    "dizziness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drowsiness": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I know that I would sometimes get kind of short of breath as a child."
+        "Patient: I did have like I know that I would sometimes get kind of short of breath as a child.",
+        "Medical Student: OK, have you had shortness of breath after that, like when like as a child, how old were you?",
+        "Medical Student: Oh OK, do you have that at all now?",
+        "Patient: No, no, I don't."
       ]
     },
-    "ear_problem": {
+    "eye_pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "ecercise": {
+    "fainting": {
       "assessed": "No",
       "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any kind of fatigue or tiredness throughout the day?",
-        "I do feel more fatigued when I have these symptoms."
+        "Medical Student: Any kind of fatigue or tiredness throughout the day?",
+        "Patient: I do feel more fatigued when I have these symptoms."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Ok. And besides that, have you been having any symptoms of fevers, chills, sore throat?",
-        "But no fevers.",
-        "Any night sweats, fevers, or chills?"
+        "Medical Student: Ok. And besides that, have you been having any symptoms of fevers, chills, sore throat?",
+        "Patient: But no fevers.",
+        "Medical Student: Any fevers or chills?",
+        "Patient: no."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any headaches?"
+        "Medical Student: OK, any headaches?",
+        "Patient: No."
       ]
     },
-    "injury_in_chest": {
+    "itchiness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Yeah, let my nose so stuffy and sometimes it's just like my eyes and my nose are just itchy and my eyes get like red and teary sometimes."
+      ]
+    },
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any changes to your appetite or weight?",
+        "Patient: I've been losing weight, but I've been dieting and working out more."
+      ]
+    },
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?"
+        "Medical Student: Any nausea or vomiting?",
+        "Patient: no."
       ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "post_nasal_drip": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up?",
-        "Yeah yeah I do."
+        "Medical Student: Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up?",
+        "Patient: Yeah yeah I do."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been sneezing a lot and I have this runny nose.",
-        "Oh years, OK and years like just sneezing and the runny nose has been going on for the last few years."
-      ]
-    },
-    "sensation_of_chest": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensitive_to_allergies": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, and are there any besides during the spring time, any kind of allergens or any anything in the house or around you that triggers it, like dust or anything like that?",
-        "Yeah, dust makes it a lot worse."
-      ]
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "no OK, and are you sexually active?"
+        "Patient: Hi, I've I've just been. I've been sneezing a lot and I have this runny nose.",
+        "Medical Student: Oh years, OK and years like just sneezing and the runny nose has been going on for the last few years.",
+        "Patient: I just wanna get some medications to help with this. I'm just sick and tired of my runny nose."
       ]
     },
     "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, any night sweats, fevers, or chills?",
+        "Patient: no."
+      ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "any loss of sense of taste or smell?",
-        "Yeah, it's hard to smell and my nose is stuffy, but no loss of taste."
+        "Medical Student: OK, alright. Yeah, so those are kind of all the questions that I had for you. Sorry just one more question, any loss of sense of taste or smell?",
+        "Patient: Yeah, it's hard to smell and my nose is stuffy, but no loss of taste."
       ]
     },
     "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been sneezing a lot and I have this runny nose.",
-        "Oh years, OK and years like just sneezing and the runny nose has been going on for the last few years."
+        "Patient: Hi, I've I've just been. I've been sneezing a lot and I have this runny nose.",
+        "Medical Student: Oh years, OK and years like just sneezing and the runny nose has been going on for the last few years."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "I also wake up in the morning with this like sore throat...",
-        "Ok. And besides that, have you been having any symptoms of fevers, chills, sore throat?",
-        "I get a bit of a sore throat, I guess in the morning, but it just goes away after."
+        "Medical Student: Ok. And besides that, have you been having any symptoms of fevers, chills, sore throat?",
+        "Patient: I get a bit of a sore throat, I guess in the morning, but it just goes away after."
       ]
     },
-    "speech_volume": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stunning": {
+    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "any loss of sense of taste or smell?",
-        "but no loss of taste."
+        "Medical Student: OK, alright. Yeah, so those are kind of all the questions that I had for you. Sorry just one more question, any loss of sense of taste or smell?",
+        "Patient: Yeah, it's hard to smell and my nose is stuffy, but no loss of taste."
       ]
     },
-    "tearing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "my eyes get like red and teary sometimes."
-      ]
-    },
-    "teary_eyes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "my eyes get like red and teary sometimes."
-      ]
-    },
-    "tightness": {
+    "trauma": {
       "assessed": "No",
       "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes to your appetite or weight?",
-        "I've been losing weight, but I've been dieting and working out more."
+        "Medical Student: Any changes to your appetite or weight?",
+        "Patient: I've been losing weight, but I've been dieting and working out more.",
+        "Medical Student: OK, and how much weight would you say you've lost over the last few months?",
+        "Patient: I've lost about four pounds in the past four, five months. It's been hard to lose weight.",
+        "Medical Student: And so no, no sudden like loss of weight or anything like that right now?",
+        "Patient: No, no, no"
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any trouble urinating?"
+        "Medical Student: Any trouble urinating?",
+        "Patient: no."
       ]
     },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
+    "vision_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Yeah, let my nose so stuffy and sometimes it's just like my eyes and my nose are just itchy and my eyes get like red and teary sometimes."
+      ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?"
+        "Medical Student: Any nausea or vomiting?",
+        "Patient: no."
+      ]
+    },
+    "weight_gain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any changes to your appetite or weight?",
+        "Patient: I've been losing weight, but I've been dieting and working out more."
       ]
     }
   }

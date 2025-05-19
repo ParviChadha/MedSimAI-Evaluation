@@ -1,16 +1,25 @@
 {
-  "precision": 0.9523809523809523,
+  "precision": 0.9090909090909091,
   "recall": 0.9523809523809523,
-  "f1_score": 0.9523809523809523,
+  "f1_score": 0.9302325581395349,
   "true_positives": 20,
-  "false_positives": 1,
+  "false_positives": 2,
   "false_negatives": 1,
-  "total_items": 29,
+  "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Itching",
+      "item": "Depression",
       "result_quotes": [
-        "Patient: No, I haven't noticed any."
+        "Patient: Um I don't know does depression count? I do have depression.",
+        "Medical Student: OK, yeah, for sure. How, when were you diagnosed with depression?",
+        "Patient: Uh when I was 15 years old."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "Medical Student: OK good good, any allergies?",
+        "Patient: Uhm, no."
       ]
     }
   ],

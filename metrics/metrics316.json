@@ -1,19 +1,104 @@
 {
-  "precision": 1.0,
+  "precision": 0.6842105263157895,
   "recall": 0.9285714285714286,
-  "f1_score": 0.962962962962963,
+  "f1_score": 0.7878787878787878,
   "true_positives": 26,
-  "false_positives": 0,
+  "false_positives": 12,
   "false_negatives": 2,
-  "total_items": 28,
-  "false_positive_details": [],
+  "total_items": 56,
+  "false_positive_details": [
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Medical Student: OK. Uhm so no sputum or blood.",
+        "Patient: No sputum or blood in the coughing."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "Patient: I've been having this uhm, cough that's been ongoing for the past two days, and I've started to become short of breath as well.",
+        "Medical Student: OK, so that's sort of two days ago and then when do the shortness of breath start?",
+        "Patient: Uh, the shortness of breath has been within the last day within the last day."
+      ]
+    },
+    {
+      "item": "Passing Gas",
+      "result_quotes": [
+        "Medical Student: OK yeah alright uhm and you don't feel gassy or, or bloated?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Patient: I have diabetes, type 2 diabetes, and I have high blood pressure as well."
+      ]
+    },
+    {
+      "item": "Changes In Appetite",
+      "result_quotes": [
+        "Medical Student: OK, no worries and any appetite changes?",
+        "Patient: Yeah, I haven't. I've had a loss of appetite."
+      ]
+    },
+    {
+      "item": "Nause",
+      "result_quotes": [
+        "Medical Student: OK. Uhm, and no nausea or vomiting?",
+        "Patient: No, I haven't had any. Ah, actually I have been a bit, I've had some nausea as well like that's what I feel like with that with the abdominal pain."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "Medical Student: OK. And any have you noticed, like a runny nose or a stuffy nose?",
+        "Patient: No, I haven't really had a runny nose, no runny nose."
+      ]
+    },
+    {
+      "item": "Changes In His Appetite",
+      "result_quotes": [
+        "Medical Student: OK, no worries and any appetite changes?",
+        "Patient: Yeah, I haven't. I've had a loss of appetite."
+      ]
+    },
+    {
+      "item": "Nasal Discharge",
+      "result_quotes": [
+        "Medical Student: OK. And any have you noticed, like a runny nose or a stuffy nose?",
+        "Patient: No, I haven't really had a runny nose, no runny nose."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "Medical Student: Yeah. OK. And how about allergies? Do you have any?",
+        "Patient: No, I don't think no, no allergies."
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "Medical Student: Been normal, OK, that's good. And how about of, how about weight loss?",
+        "Patient: No, I haven't had any, uh, any weight loss."
+      ]
+    },
+    {
+      "item": "Change In Taste",
+      "result_quotes": [
+        "Medical Student: How about changes to your smell or taste?",
+        "Patient: No changes to smell or taste. That's been been normal."
+      ]
+    }
+  ],
   "false_negative_details": [
     {
-      "item": "Weight Gain",
+      "item": "Constipation",
       "truth_quotes": []
     },
     {
-      "item": "Constipation",
+      "item": "Weight Gain",
       "truth_quotes": []
     }
   ]

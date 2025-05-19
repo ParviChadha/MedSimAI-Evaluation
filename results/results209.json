@@ -1,24 +1,17 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
+    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
     "infectious_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any infectious symptoms overall?"
+        "Medical Student: OK. Any infectious symptoms overall?",
+        "Patient: Ahh, I don't I don't think so."
       ]
     },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -26,145 +19,164 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "throat_pain": {
+    "sneezing": {
       "assessed": "No",
       "example_quotes": []
     },
-    "apnea_at_birth": {
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Bowel problems?"
+        "Medical Student: OK. Bowel problems?",
+        "Patient: uh no, no. No, that's all good."
+      ]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Oh, like sometimes when it's really cold outside, I'll go out and like it. My chest feels tight and just feel like I can't breathe"
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK um. And, uh, any fevers or chills?"
+        "Medical Student: OK um. And, uh, any fevers or chills?",
+        "Patient: No."
       ]
     },
     "confusion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Well, I'm a little confused now because..."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and have you had a cough?"
+        "Medical Student: OK, and have you had a cough?",
+        "Patient: Uh, no, I don't think so."
       ]
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diarrhoea": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: do you get short of breath or do you find that you have difficulty breathing?",
-        "Patient: Yeah, yeah, like I will if I if I try to run fast."
+        "Medical Student: OK, and uh, when you're exercising or in gym class, do you get short of breath or do you find that you have difficulty breathing?",
+        "Patient: Yeah, yeah, like I will if I if I try to run fast. Like I, kinda can't breathe anymore. So I kind of stop or go slower."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK um. And, uh, any fevers or chills?"
+        "Medical Student: OK um. And, uh, any fevers or chills?",
+        "Patient: No."
       ]
     },
-    "guilt_feeling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "impending_doom_anxiety": {
+    "food_allergy": {
       "assessed": "No",
       "example_quotes": []
     },
     "itching_eyes": {
       "assessed": "Yes",
       "example_quotes": [
+        "Medical Student: Um, so anything like like allergies like runny nose or really itchy eyes with maybe some like um tearing?",
         "Patient: When I was around the cats, yeah. But not the other times."
       ]
+    },
+    "loss_of_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and how about any nausea or vomiting?"
+        "Medical Student: OK, and how about any nausea or vomiting?",
+        "Patient: No."
       ]
     },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: any symptoms... runny nose or really itchy eyes with maybe some like um tearing?",
-        "Patient: When I was around the cats, yeah."
+        "Medical Student: Um, so anything like like allergies like runny nose or really itchy eyes with maybe some like um tearing?",
+        "Patient: When I was around the cats, yeah. But not the other times."
       ]
     },
     "self_hurt": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any thoughts of hurting or harming yourself?"
-      ]
-    },
-    "self_harm_thoughts": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Have you had any thoughts of hurting or harming yourself?"
+        "Medical Student: OK, and I know this question might seem a little bit invasive, but it's important to ask everybody. Have you had any thoughts of hurting or harming yourself?",
+        "Patient: No."
       ]
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you been having any episodes of shortness of breath at night time?"
+        "Medical Student: OK, well um we can definitely clarify the confusion about the medications today. Sometimes, for steroid medications, those ones are required to be used daily in order to get the maximal benefit, and so will take a look at your medications and see if one of those has a steroid component in it and say and how often you're needing it. Have you been having any episodes of shortness of breath at night time?",
+        "Patient: Oh no. No, mostly like gym class like I said."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and then how about, uh, have you been having any night sweats?"
+        "Medical Student: OK, and then how about, uh, have you been having any night sweats?",
+        "Patient: What's that?",
+        "Medical Student: So, uh, overnight when you're sleeping you wake up with either your like pajamas drenched, or your your sheets drenched drenched from sweating.",
+        "Patient: Oh no."
       ]
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tonsillitis": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any urinary problems?"
+        "Medical Student: OK. Any urinary problems?",
+        "Patient: Uh, like. No, no."
       ]
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and how about any nausea or vomiting?"
+        "Medical Student: OK, and how about any nausea or vomiting?",
+        "Patient: No."
       ]
     },
     "watery_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: any symptoms... runny nose or really itchy eyes with maybe some like um tearing?",
-        "Patient: When I was around the cats, yeah."
+        "Medical Student: Um, so anything like like allergies like runny nose or really itchy eyes with maybe some like um tearing?",
+        "Patient: When I was around the cats, yeah. But not the other times."
       ]
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I felt like I got wheezy sound and I felt like that time..."
+        "Patient: Oh, like sometimes when it's really cold outside, I'll go out and like it. My chest feels tight and just feel like I can't breathe and kind of sucks like my girlfriend wanted to build a snowman and do snow Angels and stuff and I couldn't do it. Oh, another time, like I went to my friends house and they had like a bunch of cats I I felt like I got wheezy sound and I felt like that time it took longer for for the breathing to get easier like I had to leave."
       ]
     }
   }

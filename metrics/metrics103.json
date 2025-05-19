@@ -1,17 +1,44 @@
 {
-  "precision": 0.96,
+  "precision": 0.8275862068965517,
   "recall": 1.0,
-  "f1_score": 0.9795918367346939,
+  "f1_score": 0.9056603773584906,
   "true_positives": 24,
-  "false_positives": 1,
+  "false_positives": 5,
   "false_negatives": 0,
-  "total_items": 33,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Odynophagia",
+      "item": "Lightheadedness",
       "result_quotes": [
-        "Medical Student: And the sore throat are you having trouble or pain while swallowing any food?",
-        "Patient: It's not that bad."
+        "Do you have any other symptoms like. Shortness of breath, chest pain, dizziness, or anything like that?"
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "Okay. Are you symptom getting any better or worse?",
+        "Uhm? Maybe a little worse."
+      ]
+    },
+    {
+      "item": "Appetite",
+      "result_quotes": [
+        "Any changes in your appetite?"
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "Any muscle aches at all?",
+        "Uhm? Yeah, little bit.",
+        "OK, and is it just all over your body or in certain locations?",
+        "It's all over."
+      ]
+    },
+    {
+      "item": "Pain",
+      "result_quotes": [
+        "And the sore throat are you having trouble or pain while swallowing any food?"
       ]
     }
   ],

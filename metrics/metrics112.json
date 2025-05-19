@@ -1,23 +1,73 @@
 {
-  "precision": 0.9642857142857143,
-  "recall": 0.9642857142857143,
-  "f1_score": 0.9642857142857143,
-  "true_positives": 27,
-  "false_positives": 1,
-  "false_negatives": 1,
-  "total_items": 49,
+  "precision": 0.7567567567567568,
+  "recall": 1.0,
+  "f1_score": 0.8615384615384616,
+  "true_positives": 28,
+  "false_positives": 9,
+  "false_negatives": 0,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Sleep Issue",
       "result_quotes": [
-        "So with the acuity of your symptoms, starting with the last few days and getting worse, especially with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection."
+        "Medical Student: OK, um, how has your sleep been?",
+        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
+      ]
+    },
+    {
+      "item": "Sleeping Issues",
+      "result_quotes": [
+        "Medical Student: OK, um, how has your sleep been?",
+        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "Medical Student: So with the acuity of your symptoms, starting with the last few days and getting worse, especially with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection"
+      ]
+    },
+    {
+      "item": "Sleep",
+      "result_quotes": [
+        "Medical Student: OK, um, how has your sleep been?",
+        "Patient: My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "Medical Student: Alright, how about shortness of breath?",
+        "Patient: No shortness of breath either."
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "Medical Student: I see, OK, and how has your energy been? Have you had uh significant fatigue?",
+        "Patient: Yes, I would say I am significantly more tired than I used to be."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Medical Student: OK, so no diabetes, high blood pressure, anything like that?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "Patient: Sure, I I just my husband, um we we don't use protection. But I'm on the birth control pill."
+      ]
+    },
+    {
+      "item": "Malaise",
+      "result_quotes": [
+        "Medical Student: OK, with this fatigue, have you had any aches and pains?",
+        "Patient: Some muscle aches, I would say mostly in my arms and just my legs, yeah."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Hyperacusis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

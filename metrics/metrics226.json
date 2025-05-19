@@ -1,20 +1,89 @@
 {
-  "precision": 1.0,
-  "recall": 0.9166666666666666,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 22,
-  "false_positives": 0,
-  "false_negatives": 2,
-  "total_items": 41,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.6857142857142857,
+  "recall": 1.0,
+  "f1_score": 0.8135593220338984,
+  "true_positives": 24,
+  "false_positives": 11,
+  "false_negatives": 0,
+  "total_items": 48,
+  "false_positive_details": [
     {
-      "item": "Taste Loss",
-      "truth_quotes": []
+      "item": "Sleep Problem",
+      "result_quotes": [
+        "Medical Student: Any changes in your sleep or appetite?",
+        "Patient: Well, I guess sleeping is a little bit harder now because of the pressure in my face, but other than that, no."
+      ]
     },
     {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "Patient: So I've had this stuffy nose for the past three days.",
+        "Patient: So first, my nose was kind of stuffy."
+      ]
+    },
+    {
+      "item": "Sleep",
+      "result_quotes": [
+        "Medical Student: Any changes in your sleep or appetite?",
+        "Patient: Well, I guess sleeping is a little bit harder now because of the pressure in my face, but other than that, no."
+      ]
+    },
+    {
+      "item": "Changes Inappetite",
+      "result_quotes": [
+        "Medical Student: Any changes in your sleep or appetite?",
+        "Patient: Well, I guess sleeping is a little bit harder now because of the pressure in my face, but other than that, no."
+      ]
+    },
+    {
+      "item": "Nasal Discharge",
+      "result_quotes": [
+        "Patient: I'm getting some yellow discharge from the nose.",
+        "Medical Student: OK. Alright, have you noticed...so you said like the discharge is yellow, how much of the discharge are you having like in a day?",
+        "Patient: Like probably enough to fill the inside of my palm."
+      ]
+    },
+    {
+      "item": "Runny Nose",
+      "result_quotes": [
+        "Patient: I'm getting some yellow discharge from the nose."
+      ]
+    },
+    {
+      "item": "Cold",
+      "result_quotes": [
+        "Medical Student: OK, so it was just, you just had some cold-like symptoms?",
+        "Patient: Yeah, that's right."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Medical Student: OK, any sore throat?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Headache",
+      "result_quotes": [
+        "Patient: And I have had this terrible headache for the past two days as well."
+      ]
+    },
+    {
+      "item": "Weight Gain",
+      "result_quotes": [
+        "Medical Student: OK. Alright, so have you noticed at all any weight changes?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Patient: I did have what they thought was a viral infection a week back.",
+        "Medical Student: Any recent contact with anyone who's been ill or any recent travel?",
+        "Patient: Uh, no."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

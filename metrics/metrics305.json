@@ -1,119 +1,64 @@
 {
-  "precision": 0,
-  "recall": 0.0,
-  "f1_score": 0,
-  "true_positives": 0,
-  "false_positives": 0,
-  "false_negatives": 27,
-  "total_items": 27,
-  "false_positive_details": [],
+  "precision": 0.7878787878787878,
+  "recall": 0.9629629629629629,
+  "f1_score": 0.8666666666666665,
+  "true_positives": 26,
+  "false_positives": 7,
+  "false_negatives": 1,
+  "total_items": 54,
+  "false_positive_details": [
+    {
+      "item": "Eye Redness",
+      "result_quotes": [
+        "Medical Student: And um, have you ever had allergic rhinitis, which is basically sort of having um, red or teary eyes, itchiness on the face, a runny nose at certain times of the year",
+        "Patient: Uh, not that I know of, no."
+      ]
+    },
+    {
+      "item": "Muscle Aches",
+      "result_quotes": [
+        "Medical Student: Okay, um, and any certain muscle aches or joint pains?",
+        "Patient: Um no, nothing like that."
+      ]
+    },
+    {
+      "item": "Sexually Transmitted Infection",
+      "result_quotes": [
+        "Medical Student: Um, okay, and um, are you sexually active?",
+        "Patient: No, no."
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "Patient: Yeah, like a couple of times it got really bad where I had to um like, it was difficult get, it was, it was like I was trying to take deep breaths for air, but uh it was, it just felt like I couldn't."
+      ]
+    },
+    {
+      "item": "Sleeping Issues",
+      "result_quotes": [
+        "Medical Student: Does it wake you up at night?",
+        "Patient: No, so far no. I, I like, I get pretty good sleep."
+      ]
+    },
+    {
+      "item": "Teary Eyes",
+      "result_quotes": [
+        "Medical Student: And um, have you ever had allergic rhinitis, which is basically sort of having um, red or teary eyes, itchiness on the face, a runny nose at certain times of the year",
+        "Patient: Uh, not that I know of, no."
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "Medical Student: Um alright, and do you have any family history of any um, lung-related problems?",
+        "Patient: Um, my older sister has asthma, and uh, I don't know if anyone else in the family has asthma."
+      ]
+    }
+  ],
   "false_negative_details": [
     {
-      "item": "Sinus Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Coughing Fit",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
       "item": "Hearing Problem\"",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Tingling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Paroxysmal Coughing",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Acid Reflux",
-      "truth_quotes": []
-    },
-    {
-      "item": "Psychological Wellbeing",
-      "truth_quotes": []
-    },
-    {
-      "item": "Numbness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Trouble Breathing With Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
       "truth_quotes": []
     }
   ]

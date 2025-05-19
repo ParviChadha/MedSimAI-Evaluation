@@ -1,30 +1,17 @@
 {
-  "precision": 0.8518518518518519,
-  "recall": 0.92,
-  "f1_score": 0.8846153846153846,
-  "true_positives": 23,
-  "false_positives": 4,
-  "false_negatives": 2,
-  "total_items": 37,
+  "precision": 0.8888888888888888,
+  "recall": 0.96,
+  "f1_score": 0.923076923076923,
+  "true_positives": 24,
+  "false_positives": 3,
+  "false_negatives": 1,
+  "total_items": 45,
   "false_positive_details": [
     {
-      "item": "Weakness",
+      "item": "Rash",
       "result_quotes": [
-        "Patient: Yeah, it's been there for about two, yeah about two or three days. I wake up in the morning and I've been feeling like really fatigued and achy."
-      ]
-    },
-    {
-      "item": "Lightheadedness",
-      "result_quotes": [
-        "Medical Student: Okay. Um, any dizziness or fainting spells?",
-        "Patient: No."
-      ]
-    },
-    {
-      "item": "Throat Pain",
-      "result_quotes": [
-        "Medical Student: Sore throat?",
-        "Patient: Um, yeah, now that you mention it, I have had a little bit of a sore throat as well."
+        "Medical Student: Okay. Um, any rashes?",
+        "Patient: No, I haven't noticed any rashes."
       ]
     },
     {
@@ -33,13 +20,16 @@
         "Medical Student: Uh, numbness or tingling?",
         "Patient: No."
       ]
+    },
+    {
+      "item": "Numbness",
+      "result_quotes": [
+        "Medical Student: Uh, numbness or tingling?",
+        "Patient: No."
+      ]
     }
   ],
   "false_negative_details": [
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
     {
       "item": "Paralysis General",
       "truth_quotes": []
