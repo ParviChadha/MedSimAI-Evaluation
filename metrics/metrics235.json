@@ -1,51 +1,49 @@
 {
-  "precision": 0.8695652173913043,
-  "recall": 0.8333333333333334,
-  "f1_score": 0.851063829787234,
-  "true_positives": 20,
-  "false_positives": 3,
-  "false_negatives": 4,
+  "precision": 0.8214285714285714,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.8846153846153847,
+  "true_positives": 23,
+  "false_positives": 5,
+  "false_negatives": 1,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Injury In Chest",
-      "result_quotes": [
-        "\"Medical Student: do, did anything trigger this a week back? Any trauma to the chest area? Anything like that?\"",
-        "\"Patient: Uh, No, no one else has been sick.\""
-      ]
-    },
-    {
-      "item": "Trauma",
-      "result_quotes": [
-        "\"Medical Student: do, did anything trigger this a week back? Any trauma to the chest area? Anything like that?\"",
-        "\"Patient: Uh, No, no one else has been sick.\"",
-        "\"Medical Student: OK, so you haven't been moving around as much. I guess since the hysterectomy?\"",
-        "\"Patient: yeah exactly it's starting to it was starting to get, the pain was starting to improve but it was keeping me on the couch a lot of days.\""
-      ]
-    },
-    {
       "item": "Fainting",
       "result_quotes": [
-        "\"Medical Student: how about dizziness or fainting spells?\"",
-        "\"Patient: Um, No fainting spells.\""
+        "No fainting spells."
+      ]
+    },
+    {
+      "item": "Sleep Dyspnea",
+      "result_quotes": [
+        "And, and you mentioned shortness some shortness of breath on exertion, how about when you're laying down?",
+        "Not when I'm laying down."
+      ]
+    },
+    {
+      "item": "Injury",
+      "result_quotes": [
+        "Did anything trigger this a week back? Any trauma to the chest area? Anything like that?"
+      ]
+    },
+    {
+      "item": "Vaginal Discomfort",
+      "result_quotes": [
+        "I guess I did have a hysterectomy a few weeks ago. I know it was, I I didn't bring it up before 'cause it's just a day procedure, but I was definitely spending a lot more time um relaxing at home after that, a few weeks ago.",
+        "OK, so were they thinking it was like a cancer or something?",
+        "Um I think it was um. It was from Fibroids."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore",
+      "item": "Decreased Physical Activity",
       "truth_quotes": []
     }
   ]

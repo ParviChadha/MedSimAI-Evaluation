@@ -1,11 +1,51 @@
 {
-  "precision": 1.0,
-  "recall": 1.0,
-  "f1_score": 1.0,
-  "true_positives": 36,
-  "false_positives": 0,
-  "false_negatives": 0,
-  "total_items": 36,
-  "false_positive_details": [],
-  "false_negative_details": []
+  "precision": 0.8717948717948718,
+  "recall": 0.9444444444444444,
+  "f1_score": 0.9066666666666667,
+  "true_positives": 34,
+  "false_positives": 5,
+  "false_negatives": 2,
+  "total_items": 73,
+  "false_positive_details": [
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "Have you had a night sweats?"
+      ]
+    },
+    {
+      "item": "Cook",
+      "result_quotes": [
+        "Have you had a cough?"
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Have you had any painful urination or urinary frequency?"
+      ]
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "result_quotes": [
+        "OK, so no yellow, green or or red to indicate any blood?"
+      ]
+    },
+    {
+      "item": "Eye Pain",
+      "result_quotes": [
+        "Any eye redness or or any eye pain?"
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    }
+  ]
 }

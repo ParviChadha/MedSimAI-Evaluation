@@ -1,47 +1,75 @@
 {
-  "precision": 0.9473684210526315,
-  "recall": 0.72,
-  "f1_score": 0.8181818181818181,
-  "true_positives": 18,
-  "false_positives": 1,
-  "false_negatives": 7,
-  "total_items": 38,
+  "precision": 0.7352941176470589,
+  "recall": 1.0,
+  "f1_score": 0.8474576271186441,
+  "true_positives": 25,
+  "false_positives": 9,
+  "false_negatives": 0,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Sneezing",
+      "item": "Asthma",
       "result_quotes": [
-        "Yeah, I have had like some itchy eyes, that and a runny nose. I was sneezing quite a bit last week, but that has kind of ah, gone away now."
+        "Any history of asthma or eczema or allergic rhinitis?",
+        "No, I haven't heard of those before."
+      ]
+    },
+    {
+      "item": "Head Ache",
+      "result_quotes": [
+        "Do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?",
+        "Yeah, but that you mention that yeah, I I have had like some itchy eyes, that and a runny nose. I was sneezing quite a bit last week, but that has kind of ah, gone away now."
+      ]
+    },
+    {
+      "item": "Body Ache",
+      "result_quotes": [
+        "Yeah, and I've been really like achy and and tired as well."
+      ]
+    },
+    {
+      "item": "Facial Pain",
+      "result_quotes": [
+        "Any, uhm, I guess headache or any pressure in your cheeks or your head when you bend down or squat down?",
+        "No, I haven't felt anything like that."
+      ]
+    },
+    {
+      "item": "Complications During Delivery",
+      "result_quotes": [
+        "Any when you were younger would you have a lot of infections uhm, when you were a child or when you were born? Were you born prematurely? Were there any complications at birth?",
+        "Uh, I did have a couple of ear infections when I was, when I was younger, but I haven't had any since."
+      ]
+    },
+    {
+      "item": "Flu Like Symptom",
+      "result_quotes": [
+        "Yeah, I've had a sore throat that's been really bugging me the past four days and I've had a cough as well.",
+        "Yeah, so the the the cough started last week actually, and then and then I I got this sore throat afterwards.",
+        "Yeah, and I've been really like achy and and tired as well.",
+        "Yeah, I've, I've felt feverish these last two days. No chills."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "Yeah I, I have allergies to peanuts.",
+        "Yeah, I do get anaphylaxis from it. I've uhm, or I'll get yeah like hives and throat swelling. And so I do carry an EpiPen, I haven't had to use it though."
+      ]
+    },
+    {
+      "item": "Itchiness",
+      "result_quotes": [
+        "Do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?",
+        "Yeah, but that you mention that yeah, I I have had like some itchy eyes, that and a runny nose. I was sneezing quite a bit last week, but that has kind of ah, gone away now."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "Uh, I did have a couple of ear infections when I was, when I was younger, but I haven't had any since."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pressure",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

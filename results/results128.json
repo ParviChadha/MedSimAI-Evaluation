@@ -1,10 +1,21 @@
 {
   "medical_history_assessed": {
-    "aches": {
+    "change_in_taste": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I can't taste any of my food.",
+        "I like bit into it and I literally didn't taste anything."
+      ]
+    },
+    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
-    "change_in_appetite": {
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dehydration": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -12,7 +23,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting": {
+    "dizzyness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -20,11 +31,9 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "infectious_symptom": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I lost. I can't. I for the past two days I can't smell anything. I can't taste any of my food."
-      ]
+    "injury": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "itching": {
       "assessed": "No",
@@ -34,11 +43,11 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -50,15 +59,15 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sinus_congestion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sneezing": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -70,150 +79,178 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "throat_pain": {
+    "tearing": {
       "assessed": "No",
-      "example_quotes": [
-        "Like I said, it felt like dry, but I don't think it's been sore."
-      ]
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "any chest pain?",
         "No."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
+        "any chills?",
         "Uh, no."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "have you brought up any like, sputum or any blood?",
         "No."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
+        "any diarrhea or constipation?",
         "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "No.",
-        "I guess maybe I felt like a little dry, but I haven't actually been coughing."
+        "no cough",
+        "I haven't actually been coughing."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
+        "any diarrhea or constipation?",
         "No."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
+        "have you felt a like short of breath at all?",
         "No."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "I mean, I may be even a bit tired, but really."
+        "I may be even a bit tired"
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
+        "how about any fevers?",
         "I don't, like I don't have a thermometer, I like maybe felt a little hot, but like like I don't really know."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
+        "and have you had any headaches?",
         "Mmm no."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
+        "have you brought up any like, sputum or any blood?",
         "No."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
+        "or felt congested at all?",
         "No."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
+        "any nausea or vomiting.",
         "No."
       ]
     },
     "pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "any eye pain or ear pain?",
+        "No."
+      ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
+        "any feeling like your heart is ready racing?",
         "No."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
+        "have you had a runny nose?",
         "No."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
+        "or how about any night sweats?",
         "No."
       ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I lost. I can't. I for the past two days I can't smell anything."
+        "I can't smell anything."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
+        "have you had a sore throat?",
         "Like I said, it felt like dry, but I don't think it's been sore."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I lost. I can't. I for the past two days I can't taste any of my food."
+        "I can't taste any of my food.",
+        "I like bit into it and I literally didn't taste anything."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
+        "recently, over the last several months, have you had any changes to your weight?",
         "Uh, no."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
+        "any changes to urinary habits. Any painful urination or needing to go more often?",
         "No."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
+        "any nausea or vomiting.",
         "No."
       ]
     }

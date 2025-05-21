@@ -1,44 +1,6 @@
 {
   "medical_history_assessed": {
-    "aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "head ache for the past two days",
-        "facial pressure"
-      ]
-    },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "changes_in_memory": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "infectious_symptom": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "viral infection a week back",
-        "yellow discharge from the nose"
-      ]
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -46,157 +8,284 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "asthma": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I know that there's some asthma that runs in the family.",
+        "And have you ever been diagnosed with asthma?",
+        "No."
+      ]
+    },
     "bad_smell": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you noticed at all or has someone told you that your breath might smell bad? Or have you noticed it yourself?",
+        "Oh gosh, I hope not, no. No one said that."
+      ]
+    },
+    "changes_in_memory": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any chest pain at all?",
         "No, no chest pain."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, no,  nothing like that.",
+        "Any fevers or chills?",
         "No."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
+        "Constipation or diarrhea?",
         "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, no.",
-        "No."
+        "Have you been coughing at all?",
+        "Uh, no."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
+        "Constipation or diarrhea?",
         "No."
+      ]
+    },
+    "discomfort": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And right now what would you say is the most troubling symptom for you? Is it that pressure in your face or is it the congestion?",
+        "It's the...it's the pressure in my face. It hurts."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "No trouble breathing?"
+        "Any trouble breathing?",
+        "No."
       ]
+    },
+    "ecercise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "facial_pressure": {
       "assessed": "Yes",
       "example_quotes": [
-        "facial pressure"
+        "And right now what would you say is the most troubling symptom for you? Is it that pressure in your face or is it the congestion?",
+        "It's the...it's the pressure in my face. It hurts."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I've been feeling tired.",
-        "for the past three days"
+        "Any fatigue?",
+        "Yeah, I've been feeling tired."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, no,  nothing like that.",
-        "No.",
-        "Have you measured your temperature?"
+        "Any fevers or chills?",
+        "No."
       ]
+    },
+    "food_allergy": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "greenish_yellowish_nasal_discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "yellow discharge from the nose"
+        "So I've had this stuffy nose for the past three days. I'm getting some yellow discharge from the nose.",
+        "OK. And have you had any of these symptoms before?",
+        "No, never."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "head ache for the past two days"
+        "So I've had this stuffy nose for the past three days. I'm getting some yellow discharge from the nose. I can't seem to smell well. And I have had this terrible headache for the past two days as well.",
+        "And then now my head hurts. It's not even like, it's not like a headache, it's like a facial pressure"
+      ]
+    },
+    "infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I did have what they thought was a viral infection a week back.",
+        "Yeah, from the symptoms that you're describing, it does seem more like sinus issues. There's a sinus behind your face and what can happen is if you get an infection, like all the the mucous and everything can build up and increase the pressure."
       ]
     },
     "loss_of_appetite": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your sleep or appetite?",
+        "Well, I guess sleeping is a little bit harder now because of the pressure in my face, but other than that, no."
+      ]
+    },
+    "lung_complications": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
     "mucous_building": {
       "assessed": "Yes",
       "example_quotes": [
-        "mucous building up and dripping down your throat"
+        "OK, and do you feel that, you know you're having some discharge, but do you feel that there is mucous building up and dripping down your throat or anything like that?",
+        "Yeah, now that you mention it, it does feel like that."
+      ]
+    },
+    "mucus_discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "So I've had this stuffy nose for the past three days. I'm getting some yellow discharge from the nose.",
+        "OK. And have you had any of these symptoms before?",
+        "No, never."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "stuffy nose for the past three days"
+        "So I've had this stuffy nose for the past three days.",
+        "I did have what they thought was a viral infection a week back.",
+        "Yeah, it went away on its own."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any nausea or vomiting?",
         "Uh, no."
       ]
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleeping_issues": {
       "assessed": "Yes",
       "example_quotes": [
-        "sleeping is a little bit harder now because of the pressure in my face"
+        "Any changes in your sleep or appetite?",
+        "Well, I guess sleeping is a little bit harder now because of the pressure in my face, but other than that, no."
       ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "can't seem to smell well",
-        "loss of smell"
+        "So I've had this stuffy nose for the past three days. I'm getting some yellow discharge from the nose. I can't seem to smell well.",
+        "Any loss of sense of taste or smell?",
+        "I guess loss of smell.",
+        "OK, and did that come after the congestion or was it present before?",
+        "The loss of smell came after the congestion."
       ]
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "can't seem to smell well"
+        "So I've had this stuffy nose for the past three days. I'm getting some yellow discharge from the nose. I can't seem to smell well.",
+        "Any loss of sense of taste or smell?",
+        "I guess loss of smell."
       ]
+    },
+    "sore": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "No sore throat?"
+        "Any sore throat?",
+        "No."
+      ]
+    },
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And has it been getting worse would you say? Or do you feel that it's getting better?",
+        "Um, I would say it's getting worse."
       ]
     },
     "taste_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "No."
+        "Any loss of sense of taste or smell?",
+        "I guess loss of smell."
       ]
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "No issues there."
+        "Any issues with urinating?",
+        "No, no issues there."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any nausea or vomiting?",
         "Uh, no."
       ]
+    },
+    "weight_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you noticed at all any weight changes?",
+        "No."
+      ]
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

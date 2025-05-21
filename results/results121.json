@@ -1,180 +1,220 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
     "tachypnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I'm getting out of breath really easily, just like um, walking even, walking to the kitchen from my bedroom, I'm getting short of breath"
-      ]
-    },
-    "throat_pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "anxious": {
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
     "arthritis_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "The, the arthritis pain was just killing me last night"
+        "The, the arthritis pain was just killing me last night and I thought taking an extra pill would help.",
+        "I um, I just have the osteoarthritis."
       ]
+    },
+    "asthma": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "behaviour_change": {
       "assessed": "Yes",
       "example_quotes": [
-        "He just said that I was, I was just extremely drowsy yesterday and I was very hard to wake up"
+        "He just said that I was, I was just extremely drowsy yesterday and I was very hard to wake up."
       ]
     },
     "bowel_movement": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your bowel movements like constipation, diarrhea?",
+        "No."
+      ]
     },
     "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any chest pain?",
+        "No, I don't."
+      ]
     },
     "chills": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any other symptoms like any fevers or chills?",
+        "I checked my fever last night, it was um, 37.2."
+      ]
     },
     "colored_excess_sputum": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "You're not bringing up any sputum or any other material?",
+        "No."
+      ]
     },
     "constipation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about, do you have any changes in your bowel movements like constipation, diarrhea?",
+        "No."
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I just started having, um, difficulty with breathing um, starting yesterday. And I also developed this cough um, yesterday morning."
+        "I just started having, um, difficulty with breathing um, starting yesterday. And I also developed this cough um, yesterday morning.",
+        "Can you describe your cough a little bit? Is it wet or is it dry?",
+        "Um, it's just um, it's just a dry cough."
       ]
     },
-    "diarrhoea": {
+    "decrease_interest_in_activities": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dizzyness": {
+    "dehydration": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "diabetes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about, do you have any changes in your bowel movements like constipation, diarrhea?",
+        "No."
+      ]
+    },
+    "dizzyness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any other symptoms like dizziness uh, any fainting spells?",
+        "No."
+      ]
     },
     "drowsiness": {
       "assessed": "Yes",
       "example_quotes": [
-        "I was just very drowsy and uh, I think I, I think I might have taken a bit too much, I don't know."
+        "I, I slept in a bit more than usual, um, and I was feeling quite um, drowsy.",
+        "He just said that I was, I was just extremely drowsy yesterday and I was very hard to wake up."
       ]
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm getting out of breath really easily, just like um, walking even, walking to the kitchen from my bedroom, I'm getting short of breath"
+        "I just started having, um, difficulty with breathing um, starting yesterday.",
+        "For the shortness of breath, can you describe it a little bit?"
       ]
     },
-    "dysuria": {
+    "extended_sleep": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I, I slept in a bit more than usual, um, and I was feeling quite um, drowsy.",
+        "I ended up waking up at 1:00 PM or 2:00 PM, I was just very drowsy."
+      ]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
     },
     "fainting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any other symptoms like dizziness uh, any fainting spells?",
+        "No."
+      ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any fatigue? Just feeling more tired today?",
+        "Maybe a little bit."
+      ]
+    },
+    "feeling_tired": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fatigue? Just feeling more tired today?",
         "Maybe a little bit."
       ]
     },
     "fever": {
-      "assessed": "No",
+      "assessed": "Yes",
       "example_quotes": [
+        "Do you have any other symptoms like any fevers or chills?",
         "I checked my fever last night, it was um, 37.2."
       ]
     },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about sore throat, headaches, muscle pain, anything like that?",
+        "No."
+      ]
     },
     "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you coughing up any blood by any chance?",
+        "No."
+      ]
+    },
+    "itching_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "inconsolable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "irritable": {
+    "limp": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any sleep or appetite issues?",
+        "No."
+      ]
+    },
+    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness": {
+    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "malaise": {
+    "more_quiet": {
       "assessed": "No",
       "example_quotes": []
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?",
+        "No."
+      ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "The, the arthritis pain was just killing me last night"
+        "The, the arthritis pain was just killing me last night and I thought taking an extra pill would help.",
+        "I um, I just have the osteoarthritis."
       ]
     },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -182,63 +222,99 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
+    "sensitive_to_allergies": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any allergic reactions before?",
+        "No."
+      ]
+    },
     "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And did it wake you up from sleep at all? Like did you wake up trying to catch a breath or anything?",
+        "No."
+      ]
     },
     "sleep_hydrosis": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_issues": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any sleep or appetite issues?",
+        "No."
+      ]
+    },
+    "smell_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slow_motion_feeling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
+    "smell_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've also noticed that I have, my breath just smells really bad. I don't know why.",
+        "Is that something you noticed recently or in the last two days?",
+        "Yeah, since yesterday. Actually, not even yesterday, this morning I would say."
+      ]
     },
     "sore_throat": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about sore throat, headaches, muscle pain, anything like that?",
+        "No."
+      ]
     },
-    "stunning": {
+    "straining_and_chest_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
     "swelling": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any swelling in your legs or arms, hands?",
+        "No. No, I haven't noticed any of that."
+      ]
+    },
+    "tearing_or_or_itchiness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "symptom_speedup": {
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
     "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you lost uh, significant weight in the last few months?",
+        "No."
+      ]
     },
     "urination": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any trouble with urinating?",
+        "No."
+      ]
+    },
+    "vomiting": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?",
+        "No."
+      ]
+    },
+    "weight_gain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vomiting": {
+    "wheez_inhale": {
       "assessed": "No",
       "example_quotes": []
     }

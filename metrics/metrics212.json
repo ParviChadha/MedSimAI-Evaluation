@@ -1,51 +1,30 @@
 {
-  "precision": 0.9565217391304348,
-  "recall": 0.7333333333333333,
-  "f1_score": 0.8301886792452831,
-  "true_positives": 22,
-  "false_positives": 1,
-  "false_negatives": 8,
-  "total_items": 44,
+  "precision": 0.9090909090909091,
+  "recall": 1.0,
+  "f1_score": 0.9523809523809523,
+  "true_positives": 30,
+  "false_positives": 3,
+  "false_negatives": 0,
+  "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Aches",
+      "item": "Vision Problem",
       "result_quotes": [
-        "Some muscle aches, I would say mostly in my arms and just my legs, yeah."
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Behavior Changes",
+      "result_quotes": [
+        "I just feel like I'm really slow at doing things."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "No changes."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Tearing",
-      "truth_quotes": []
-    },
-    {
-      "item": "Itchiness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hyperacusis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Photophobia",
-      "truth_quotes": []
-    },
-    {
-      "item": "Tearing Or Or Itchiness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Memory Loss",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,93 +1,70 @@
 {
   "medical_history_assessed": {
-    "aches": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "change_in_taste": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "changes_in_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sinus_congestion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "throat_pain": {
+    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
     "anxious": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, no I can't say that I did."
+        "Did you feel anxious or sweaty or the feeling of impending doom at all?"
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, there's not there's not pain, it just feels like, when I breathe in it feels tight."
+        "Now when you're walking, you say you have some chest tightness, do you have any chest pain?"
       ]
     },
     "chest_tightness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, it's uh, for the last maybe three days, um it's not really pain, not in any specific spot, it just feels a bit tight in my chest area when I breathe in especially, and it just gets a bit harder to breathe and it feels more tight like especially when I go for my walks."
+        "So I understand you're having some chest tightness?",
+        "Yeah, it's uh, for the last maybe three days, um it's not really pain, not in any specific spot, it just feels a bit tight in my chest area when I breathe in especially"
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "No."
+        "Any chills?"
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh no like I feel a little more hoarse and like there's maybe some more phlegm, like I'm clearing my throat more, but I haven't actually been coughing."
+        "Have you had any cough at all in the last little while?"
       ]
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I suppose just, has this kind of chest tightness stopped you from doing activities that you normally would do, any missed time from work?",
+        "I haven't missed any work, but I'm not I'm not doing a ton of work right now. I don't think it would stop me, it just would make me uncomfortable um during work and it keeps me, maybe this, the last few days, it's kept me from, I usually go on a couple of walks a day, the last couple days I've just gone on one usually so yeah, it's a little bit, yeah."
+      ]
+    },
+    "decreased_focus": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh I feel like it was kind of harder to get a whole breath, um so yeah, yeah, I guess."
+        "And did you feel yourself becoming out of breath at all?",
+        "Uh I I feel like it was kind of harder to get a whole breath, um so yeah, yeah, I guess."
       ]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, can't say that, no."
+        "Any fevers?"
       ]
     },
     "hoarse_tone": {
@@ -99,24 +76,57 @@
     "impending_doom_anxiety": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, no I can't say that I did."
+        "Did you feel anxious or sweaty or the feeling of impending doom at all?"
       ]
     },
-    "sleep_hydrosis": {
+    "pregnancy": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "redness_in_throat": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_hydrosis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any night sweats, so waking up and the sheets are soaked?"
+      ]
     },
     "sweaty": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, no I can't say that I did."
+        "Did you feel anxious or sweaty or the feeling of impending doom at all?"
       ]
+    },
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "So you said it started about 3 days ago. Have you noticed it's been getting better, worse or about staying the same?",
+        "I think it's staying the same."
+      ]
+    },
+    "symptoms_stress": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "teary_eyes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nope."
+        "Any unexplained weight loss at all?"
       ]
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

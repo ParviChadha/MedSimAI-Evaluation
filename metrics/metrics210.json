@@ -1,11 +1,44 @@
 {
-  "precision": 1.0,
+  "precision": 0.7727272727272727,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.8717948717948718,
   "true_positives": 17,
-  "false_positives": 0,
+  "false_positives": 5,
   "false_negatives": 0,
-  "total_items": 31,
-  "false_positive_details": [],
+  "total_items": 36,
+  "false_positive_details": [
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "So I came to the emergency Department because I've been having pain in my chest.",
+        "I would say it's like the whole pretty much the left side of my chest."
+      ]
+    },
+    {
+      "item": "Paralysis Limb Or Face",
+      "result_quotes": [
+        "Um no nothing like that."
+      ]
+    },
+    {
+      "item": "Chest Tightness",
+      "result_quotes": [
+        "If I. Think I have to take really really slow and shallow breaths. If I try to take a deep breath it just really hurts like taking those small, smaller breaths helps.",
+        "Uh, like I think I I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "No, I've been pretty pretty healthy recently. No, no cough or no infections."
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "I'd say over the last two hours it's been getting worse."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

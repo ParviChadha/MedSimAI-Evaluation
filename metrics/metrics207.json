@@ -1,67 +1,33 @@
 {
-  "precision": 0.7931034482758621,
-  "recall": 0.8518518518518519,
-  "f1_score": 0.8214285714285715,
-  "true_positives": 23,
-  "false_positives": 6,
-  "false_negatives": 4,
-  "total_items": 44,
+  "precision": 0.9259259259259259,
+  "recall": 0.9259259259259259,
+  "f1_score": 0.9259259259259259,
+  "true_positives": 25,
+  "false_positives": 2,
+  "false_negatives": 2,
+  "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Infection",
       "result_quotes": [
-        "So, it's more of just like a dry cough. I'm not really bringing anything up."
+        "I've been having this cough for um, the last two weeks and it just, is not going away.",
+        "Last week I maybe had a, uh, two nights, I was a bit chilly, but since then I've been fine."
       ]
     },
     {
-      "item": "Infectious Symptom",
+      "item": "Cold",
       "result_quotes": [
-        "My mom had the sniffles like last week, but she pretty much got over it."
-      ]
-    },
-    {
-      "item": "Discharge",
-      "result_quotes": [
-        "And the runny nose, what, what's the discharge like?",
-        "Uh it's, it's pretty clear. It might be light, but it's not like green or yellow or anything like that."
-      ]
-    },
-    {
-      "item": "Aches",
-      "result_quotes": [
-        "Any aches in your, any muscle aches?",
-        "No."
-      ]
-    },
-    {
-      "item": "Sinus Congestion",
-      "result_quotes": [
-        "Sometimes I feel a bit congested."
-      ]
-    },
-    {
-      "item": "Throat Pain",
-      "result_quotes": [
-        "Alright, and what about sore throat?",
-        "No, no. No, sore throat."
+        "I've been having this cough for um, the last two weeks and it just, is not going away. I've also been getting like, just a runny nose for the last couple, I would take the whole week, all of last week."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Watery Eyes",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
+      "item": "Paralysis General",
       "truth_quotes": []
     },
     {
       "item": "Allergy Medication",
-      "truth_quotes": []
-    },
-    {
-      "item": "Paralysis General",
       "truth_quotes": []
     }
   ]

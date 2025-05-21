@@ -1,14 +1,13 @@
 {
   "medical_history_assessed": {
-    "grunting": {
-      "assessed": "No",
-      "example_quotes": []
+    "phlegm": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, it's usually always, uh, produces like the sputum, and it's usually white or yellowish in colour.",
+        "I would say every time I cough like a teaspoon I probably have like. I don't know. Maybe 5 to 10 teaspoons a day."
+      ]
     },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
+    "trauma": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -16,20 +15,17 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "asthma": {
+    "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Just throughout my life I've had asthma so when I am exercising too much or get exposed to like dust, sometimes get shortness of breath."
+        "Any bowel problems?",
+        "No."
       ]
-    },
-    "bowel_movement": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, just sometimes when I'm like coughing a lot it gets a little bit uncomfortable."
+        "No, just sometimes when I'm like coughing a lot it gets a little bit uncomfortable. But other than that, no."
       ]
     },
     "chills": {
@@ -41,8 +37,13 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, it's usually always, uh, produces like the sputum, and it's usually white or yellowish in colour."
+        "Uh, it's usually always, uh, produces like the sputum, and it's usually white or yellowish in colour.",
+        "I would say every time I cough like a teaspoon I probably have like. I don't know. Maybe 5 to 10 teaspoons a day."
       ]
+    },
+    "complications_during_delivery": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "confusion": {
       "assessed": "No",
@@ -51,11 +52,27 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "So I've just been having this cough that I feel has just been getting worse, and I've also been feeling a bit short of breath for the last few months.",
-        "Uh, it's usually always, uh, produces like the sputum, and it's usually white or yellowish in colour."
+        "So I've just been having this cough that I feel has just been getting worse.",
+        "So I would say it started around two months ago."
       ]
     },
-    "dysphagia": {
+    "diabetes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diarrhoea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drowsiness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -63,14 +80,18 @@
       "assessed": "Yes",
       "example_quotes": [
         "So I've just been having this cough that I feel has just been getting worse, and I've also been feeling a bit short of breath for the last few months.",
-        "Uh, it's it can happen like at anytime, but worse when I am exerting myself."
+        "It's around two months ago, around the same time."
       ]
     },
-    "fatigue_extended": {
+    "dysuria": {
       "assessed": "No",
       "example_quotes": []
     },
-    "feeling_tired": {
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
         "Um, when it gets really bad then I can't really step out of the house, but other than that I feel like my energy's still there."
@@ -79,7 +100,15 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, I I don't feel like I have a fever and no other symptoms, just the shortness of breath and cough."
+        "No, I I don't feel like I have a fever and no other symptoms, just the shortness of breath and cough.",
+        "No."
+      ]
+    },
+    "flu": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Did you get the flu shot this year?",
+        "Yep."
       ]
     },
     "guilt_feeling": {
@@ -95,10 +124,11 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
+        "And have you noticed any blood?",
         "No, um I haven't noticed any blood."
       ]
     },
-    "irritable": {
+    "lethargic": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -108,23 +138,21 @@
         "No."
       ]
     },
-    "malaise": {
+    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "not_crying": {
       "assessed": "No",
       "example_quotes": []
     },
-    "motor_weakness": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
     "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, just sometimes when I'm like coughing a lot it gets a little bit uncomfortable."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "palpitation": {
       "assessed": "Yes",
@@ -132,33 +160,13 @@
         "No."
       ]
     },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
         "Nope."
       ]
     },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
+    "sleep_problem": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -178,29 +186,30 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "symptom_speedup": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
         "Nope."
       ]
     },
-    "underweight_at_birth": {
+    "teary_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
       "assessed": "No",
       "example_quotes": []
     },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaccine_related_reaction": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yep."
+        "Any urinary problems?",
+        "Nope."
       ]
+    },
+    "weight_changes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",

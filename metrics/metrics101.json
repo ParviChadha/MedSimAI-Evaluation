@@ -1,115 +1,28 @@
 {
-  "precision": 0.64,
-  "recall": 0.5714285714285714,
-  "f1_score": 0.6037735849056605,
-  "true_positives": 16,
-  "false_positives": 9,
-  "false_negatives": 12,
-  "total_items": 47,
+  "precision": 0.9310344827586207,
+  "recall": 0.9642857142857143,
+  "f1_score": 0.9473684210526316,
+  "true_positives": 27,
+  "false_positives": 2,
+  "false_negatives": 1,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Odynophagia",
+      "item": "Symptom Speedup",
       "result_quotes": [
-        "It's a little sore, but, uh, it's been OK, to eat and drink."
+        "It got a little bit worse at first, but then it's been kind of the same, um, since."
       ]
     },
     {
-      "item": "Change In Taste",
+      "item": "Change In Sleep",
       "result_quotes": [
-        "No loss of sense of taste."
-      ]
-    },
-    {
-      "item": "Body Ache",
-      "result_quotes": [
-        "It does feel sore, kind of, uh, the center of my chest."
-      ]
-    },
-    {
-      "item": "Throat Pain",
-      "result_quotes": [
-        "I've had, um, a sore throat, uh, and a headache, as well."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "Sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color."
-      ]
-    },
-    {
-      "item": "Sinus Congestion",
-      "result_quotes": [
-        "I've had, um, a sore throat, uh, and a headache, as well."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "I did see some people who had, like, infectious symptoms."
-      ]
-    },
-    {
-      "item": "Aches",
-      "result_quotes": [
-        "I've had this cough for over a week now, and it just hasn't gone away.",
-        "I've been really tired, I've been been needing naps and not feeling rested in the morning."
-      ]
-    },
-    {
-      "item": "Discharge",
-      "result_quotes": [
-        "I've had, um, a sore throat, uh, and a headache, as well."
+        "Any changes with your sleeping or your appetite?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
       "truth_quotes": []
     }
   ]

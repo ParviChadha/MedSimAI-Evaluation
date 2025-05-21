@@ -1,30 +1,15 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 0.75,
-  "f1_score": 0.7999999999999999,
-  "true_positives": 12,
-  "false_positives": 2,
-  "false_negatives": 4,
-  "total_items": 28,
-  "false_positive_details": [
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "I've had this terrible fever for the past three days",
-        "stuffy nose",
-        "sore throat"
-      ]
-    },
-    {
-      "item": "Odynophagia",
-      "result_quotes": [
-        "it just hurts"
-      ]
-    }
-  ],
+  "precision": 1.0,
+  "recall": 0.8125,
+  "f1_score": 0.896551724137931,
+  "true_positives": 13,
+  "false_positives": 0,
+  "false_negatives": 3,
+  "total_items": 32,
+  "false_positive_details": [],
   "false_negative_details": [
     {
-      "item": "Runny Nose",
+      "item": "Dyspnea",
       "truth_quotes": []
     },
     {
@@ -32,11 +17,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Stiffness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
+      "item": "Runny Nose",
       "truth_quotes": []
     }
   ]

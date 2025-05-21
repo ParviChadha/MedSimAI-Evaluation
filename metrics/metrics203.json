@@ -1,70 +1,15 @@
 {
-  "precision": 0.7857142857142857,
-  "recall": 0.8148148148148148,
-  "f1_score": 0.7999999999999999,
-  "true_positives": 22,
-  "false_positives": 6,
-  "false_negatives": 5,
-  "total_items": 55,
-  "false_positive_details": [
-    {
-      "item": "Urination",
-      "result_quotes": [
-        "Probably around the same like usually has like five to six weight diapers and it's around the same."
-      ]
-    },
-    {
-      "item": "Complications During Delivery",
-      "result_quotes": [
-        "Pregnancy was uh, OK, no complications, but he was premature by two weeks, so I think he was born at 35 and four days.",
-        "Yeah, so when he was born there was they needed to do, I forgot what it was, but they told me that initially he wasn't breathing, but then right afterwards after like within 5 minutes, he was fine."
-      ]
-    },
-    {
-      "item": "Trouble Breathing",
-      "result_quotes": [
-        "It seems like that like this really trying to breathe more. And also I like he's like the chest I see moving a lot more.",
-        "Was it when, did you hear this sound when your baby is trying to breathe?"
-      ]
-    },
-    {
-      "item": "Chest Discomfort",
-      "result_quotes": [
-        "And also I like he's like the chest I see moving a lot more."
-      ]
-    },
-    {
-      "item": "Straining And Chest Discomfort",
-      "result_quotes": [
-        "And also I like he's like the chest I see moving a lot more."
-      ]
-    },
-    {
-      "item": "Pregnancy",
-      "result_quotes": [
-        "Pregnancy was uh, OK, no complications, but he was premature by two weeks, so I think he was born at 35 and four days."
-      ]
-    }
-  ],
+  "precision": 1.0,
+  "recall": 0.9629629629629629,
+  "f1_score": 0.9811320754716981,
+  "true_positives": 26,
+  "false_positives": 0,
+  "false_negatives": 1,
+  "total_items": 27,
+  "false_positive_details": [],
   "false_negative_details": [
     {
-      "item": "Delayed Growth Milestones",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vaccine Related Reaction",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
+      "item": "Tachypnea",
       "truth_quotes": []
     }
   ]

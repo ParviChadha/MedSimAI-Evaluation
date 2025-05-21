@@ -1,61 +1,33 @@
 {
-  "precision": 0.8421052631578947,
-  "recall": 0.6956521739130435,
-  "f1_score": 0.761904761904762,
-  "true_positives": 16,
-  "false_positives": 3,
-  "false_negatives": 7,
-  "total_items": 39,
+  "precision": 0.9130434782608695,
+  "recall": 0.9130434782608695,
+  "f1_score": 0.9130434782608695,
+  "true_positives": 21,
+  "false_positives": 2,
+  "false_negatives": 2,
+  "total_items": 46,
   "false_positive_details": [
-    {
-      "item": "Respiratory Distress Syndrome",
-      "result_quotes": [
-        "I've been experiencing some issues breathing, um and just a lot of coughing over the past year or so.",
-        "About like 200 meters."
-      ]
-    },
-    {
-      "item": "Tachypnea",
-      "result_quotes": [
-        "I've been experiencing some issues breathing, um and just a lot of coughing over the past year or so.",
-        "Um, it's just kind of always there, um throughout the day."
-      ]
-    },
     {
       "item": "Phlegm",
       "result_quotes": [
-        "Um, yeah, it's usually clear, but sometimes it can look yellow or green.",
-        "Every time I cough maybe like the size of my thumbprint."
+        "Um, yeah, it's usually clear, but sometimes it can look yellow or green."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "Any allergies, environmental or to medications?",
+        "No."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Coughing Fit",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
+      "item": "Coughing Fit",
       "truth_quotes": []
     }
   ]

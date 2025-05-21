@@ -1,49 +1,46 @@
 {
-  "precision": 0.8695652173913043,
-  "recall": 0.8333333333333334,
-  "f1_score": 0.851063829787234,
-  "true_positives": 20,
-  "false_positives": 3,
-  "false_negatives": 4,
-  "total_items": 45,
+  "precision": 0.8214285714285714,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.8846153846153847,
+  "true_positives": 23,
+  "false_positives": 5,
+  "false_negatives": 1,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Throat Pain",
       "result_quotes": [
-        "Patient: Yeah, I was just down in a, I went to Haiti on a on a trip for a, for a volunteer program with my school and I don't know I definitely notice there is a lot of people down there coughing.",
-        "Medical Student: OK, and did you notice, uh, at all any potential exposures to tuberculosis? Anyone there that had tuberculosis? Or found out later?",
-        "Patient: Yeah, there were definitely some people around that I heard of who who mentioned tuberculosis, but I don't know if anybody specifically who had it."
+        "Uhm, nothing like like that. I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
       ]
     },
     {
-      "item": "Phlegm",
+      "item": "Decreased Concentration",
       "result_quotes": [
-        "Patient: this morning I read after I woke up by I coughed up some phlegm and there was some blood in it",
-        "Patient: Uhm, I have been producing some phlegm, um, but it's been just kind of white, yellowish."
+        "Yeah, but I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
       ]
     },
     {
-      "item": "Itching",
+      "item": "Feeling Tired",
       "result_quotes": [
-        "Patient: Uhm, nothing like like that. I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
+        "Yeah, but I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
+      ]
+    },
+    {
+      "item": "Sleep Problem",
+      "result_quotes": [
+        "Uhm, just been, well, I haven't been sleeping as well, waking up all sweaty and the cough is kept me up a little bit too."
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "Yeah, but I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
+      "item": "Smell Loss",
       "truth_quotes": []
     }
   ]

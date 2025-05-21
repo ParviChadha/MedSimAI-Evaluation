@@ -1,6 +1,12 @@
 {
   "medical_history_assessed": {
-    "itching": {
+    "injury": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Did anything trigger this a week back? Any trauma to the chest area? Anything like that?"
+      ]
+    },
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -8,66 +14,54 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "\"Medical Student: do, did anything trigger this a week back? Any trauma to the chest area? Anything like that?\"",
-        "\"Patient: Uh, No, no one else has been sick.\"",
-        "\"Medical Student: OK, so you haven't been moving around as much. I guess since the hysterectomy?\"",
-        "\"Patient: yeah exactly it's starting to it was starting to get, the pain was starting to improve but it was keeping me on the couch a lot of days.\""
-      ]
-    },
     "allergic_rhinitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "arthritis_pain": {
+    "bad_smell": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: alright and in terms of like your stool, so bowel movements and urination. Like all of that's normal?\"",
-        "\"Patient: Yeah, all that's been normal.\""
+        "In terms of like your stool, so bowel movements and urination. Like all of that's normal?"
       ]
     },
     "brain_fog": {
       "assessed": "No",
       "example_quotes": []
     },
+    "change_in_sleep": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "chest_discomfort": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing."
+      ]
+    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Patient: I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.\"",
-        "\"Medical Student: OK, and is it a constant pain? Is it always there?\"",
-        "\"Patient: Ahh it it is, but it's definitely worse that um, it's the breathing that's been bothering me a lot more.\"",
-        "\"Medical Student: OK, and the shortness of breath 1 to 10, 10 being the worst, the most severe. How bad is your shortness of breath?\"",
-        "\"Patient: I would say when I'm exerting myself, it could get up to like a 7 or 8.\""
+        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.",
+        "Is it a constant pain? Is it always there?",
+        "And when you do get that, get that pain. How long does it last?",
+        "And the chest pain. Is it sharp or is a dull crampy? What does it feel like?"
       ]
-    },
-    "chest_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "cold": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: and are you coughing up any blood?\"",
-        "\"Patient: No, I haven't. I haven't noticed any any blood.\"",
-        "\"Medical Student: OK, how about sputum?\"",
-        "\"Patient: Um, no sputum.\""
+        "How about sputum?",
+        "Um, no sputum."
       ]
     },
     "confusion": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: no, no confusion?\"",
-        "\"Patient: No confusion.\""
+        "No confusion."
       ]
     },
     "constipation": {
@@ -77,203 +71,219 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Patient: I had a cough about a week ago so I thought it might be a chest infection, but I'm not feverish, so I'm not sure.\"",
-        "\"Medical Student: OK, the cough is it still there?\"",
-        "\"Patient: Yeah, it's um. I still have a cough.\""
+        "I had a cough about a week ago so I thought it might be a chest infection, but I'm not feverish, so I'm not sure.",
+        "The cough is it still there?",
+        "Yeah, it's um. I still have a cough.",
+        "Any changes in your skin like rashes?",
+        "No, it's just that the dry cough."
       ]
-    },
-    "coughing_fit": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "decreased_physical_activity": {
-      "assessed": "Yes",
+      "assected": "Yes",
       "example_quotes": [
-        "\"Medical Student: OK, so you haven't been moving around as much. I guess since the hysterectomy?\"",
-        "\"Patient: yeah exactly it's starting to it was starting to get, the pain was starting to improve but it was keeping me on the couch a lot of days.\""
+        "Yeah exactly it's starting to it was starting to get, the pain was starting to improve but it was keeping me on the couch a lot of days."
       ]
     },
-    "difficulty_feeding": {
+    "dehydration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_sleeping": {
+    "diarrhoea": {
       "assessed": "No",
       "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: how about dizziness or fainting spells?\"",
-        "\"Patient: Um, No fainting spells.\""
+        "How about dizziness or fainting spells?"
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Patient: I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.\"",
-        "\"Medical Student: OK, and the shortness of breath 1 to 10, 10 being the worst, the most severe. How bad is your shortness of breath?\"",
-        "\"Patient: I would say when I'm exerting myself, it could get up to like a 7 or 8.\""
+        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.",
+        "And the shortness of breath do you have that at rest as well?",
+        "But if even if I'm doing a little bit of exertion like walking a few a few blocks or something like that I'm finding it, I'm I'm short of breath.",
+        "The shortness of breath 1 to 10, 10 being the worst, the most severe. How bad is your shortness of breath?",
+        "When I'm exerting myself, it could get up to like a 7 or 8.",
+        "I I would say maybe 100 meters. But before I was able to run uh like I was running a few days per week so. So this is not like me.",
+        "And, and you mentioned shortness some shortness of breath on exertion, how about when you're laying down?"
       ]
-    },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: how about dizziness or fainting spells?\"",
-        "\"Patient: Um, No fainting spells.\""
+        "No fainting spells."
       ]
+    },
+    "fatigue": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Patient: I had a cough about a week ago so I thought it might be a chest infection, but I'm not feverish, so I'm not sure.\"",
-        "\"Medical Student: OK, no fevers, no chills. And no night sweats too I guess?\"",
-        "\"Patient: Yeah, no night sweats.\""
+        "I had a cough about a week ago so I thought it might be a chest infection, but I'm not feverish, so I'm not sure.",
+        "This you mentioned, no fevers, no chills. And no night sweats too I guess?"
       ]
+    },
+    "food_allergy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting_noise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: Any headaches?\"",
-        "\"Patient: Um no headaches.\""
+        "Any headaches?",
+        "Um no headaches."
       ]
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: OK hearing?\"",
-        "\"Patient: Hearing has been OK.\""
+        "OK hearing?",
+        "Hearing has been OK."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: and are you coughing up any blood?\"",
-        "\"Patient: No, I haven't. I haven't noticed any any blood.\""
+        "And are you coughing up any blood?",
+        "No, I haven't. I haven't noticed any any blood."
       ]
-    },
-    "hyperhidrosis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "injury_in_chest": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "\"Medical Student: do, did anything trigger this a week back? Any trauma to the chest area? Anything like that?\"",
-        "\"Patient: Uh, No, no one else has been sick.\""
-      ]
-    },
-    "loss_of_consciousness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had a stuffy nose or runny nose in the past week or so.",
+        "No, it's just that the dry cough."
+      ]
+    },
+    "not_crying": {
       "assessed": "No",
       "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Patient: I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.\"",
-        "\"Medical Student: OK, and is it a constant pain? Is it always there?\"",
-        "\"Patient: Ahh it it is, but it's definitely worse that um, it's the breathing that's been bothering me a lot more.\"",
-        "\"Medical Student: OK, and you mentioned some chest pain. Any palpitations like you feel like your hearts racing?\"",
-        "\"Patient: Uh, actually I did feel like that a little bit. Especially when I was moving a little bit more, I felt like my heart was racing.\""
+        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.",
+        "Is it a constant pain? Is it always there?",
+        "And when you do get that, get that pain. How long does it last?",
+        "And the chest pain. Is it sharp or is a dull crampy? What does it feel like?",
+        "Um yeah my left, my left leg's actually a little bit sore."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: OK, and you mentioned some chest pain. Any palpitations like you feel like your hearts racing?\"",
-        "\"Patient: Uh, actually I did feel like that a little bit. Especially when I was moving a little bit more, I felt like my heart was racing.\""
+        "And you mentioned some chest pain. Any palpitations like you feel like your hearts racing?",
+        "Uh, actually I did feel like that a little bit. Especially when I was moving a little bit more, I felt like my heart was racing."
       ]
     },
     "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had a stuffy nose or runny nose in the past week or so.",
+        "No, it's just that the dry cough."
+      ]
+    },
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sleep_changes": {
+    "sensitive_to_allergies": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And, and you mentioned shortness some shortness of breath on exertion, how about when you're laying down?",
+        "Not when I'm laying down."
+      ]
     },
     "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "This you mentioned, no fevers, no chills. And no night sweats too I guess?",
+        "Yeah, no night sweats."
+      ]
     },
-    "sleep_issue": {
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: OK, how about smell?\"",
-        "\"Patient: No changes in smell.\""
+        "How about smell?",
+        "No changes in smell."
       ]
     },
     "sore": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any calf pain.",
+        "Um yeah my left, my left leg's actually a little bit sore."
+      ]
     },
-    "stunning": {
+    "speech_volume": {
       "assessed": "No",
       "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: OK, any swelling in the area?\"",
-        "\"Patient: um uh nope, I don't see any swelling there.\"",
-        "\"Medical Student: OK, no?\"",
-        "\"Patient: Um, Yeah, we'll say that there is swelling.\""
+        "Any swelling in the area?",
+        "Um, Yeah, we'll say that there is swelling."
       ]
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: how about weight loss? Any weight loss?\"",
-        "\"Patient: No weight loss\""
+        "And how about weight loss? Any weight loss?",
+        "No weight loss"
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: alright and in terms of like your stool, so bowel movements and urination. Like all of that's normal?\"",
-        "\"Patient: Yeah, all that's been normal.\""
+        "In terms of like your stool, so bowel movements and urination. Like all of that's normal?",
+        "Yeah, all that's been normal."
+      ]
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I guess I did have a hysterectomy a few weeks ago. I know it was, I I didn't bring it up before 'cause it's just a day procedure, but I was definitely spending a lot more time um relaxing at home after that, a few weeks ago.",
+        "OK, so were they thinking it was like a cancer or something?",
+        "Um I think it was um. It was from Fibroids."
       ]
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: have you experienced any changes in your vision?\"",
-        "\"Patient: Yeah no, my visions been been, been fine.\""
+        "Have you experienced any changes in your vision?",
+        "Yeah no, my visions been been, been fine."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Medical Student: No, OK. And do you feel like you're wheezing?\"",
-        "\"Patient: Oh no wheezing.\""
+        "And do you feel like you're wheezing?",
+        "Oh no wheezing."
       ]
     }
   }

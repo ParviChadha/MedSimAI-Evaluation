@@ -1,49 +1,6 @@
 {
   "medical_history_assessed": {
-    "grunting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lymphadenitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "ache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "anaphylaxis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "angioedema": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "back_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: \"Any changes in your bowel movements at all?\"",
-        "Patient: \"No.\""
-      ]
-    },
-    "bronchitis": {
+    "chest_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -51,44 +8,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: \"Besides that, have you been having any symptoms of fevers, chills, sore throat?\"",
-        "Patient: \"no.\""
-      ]
-    },
-    "colored_excess_sputum": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: \"...are you bringing up any sputum?\"",
-        "Patient: \"Yeah, that yeah I do.\""
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: \"Do you get any other symptoms besides the, uh, sneezing and runny nose?\"",
-        "Patient: \"...I also wake up in the morning with this like sore throat and have just cough and clear out my, you know clear my throat.\""
-      ]
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "delayed_growth_milestones": {
       "assessed": "No",
       "example_quotes": []
     },
-    "double_vision": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: \"I must have been like 8 years old or 9 years old that I remember, but I think I've had it before that as well as my mom tells me.\"",
-        "Medical Student: \"Do you have that at all now?\"",
-        "Patient: \"No, no, I don't.\""
-      ]
-    },
-    "eye_swelling": {
+    "discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -96,29 +24,119 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "facial_pressure": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching_eyes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "my eyes and my nose are just itchy",
+        "my eyes get like red and teary sometimes"
+      ]
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "redness_in_throat": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensitive_to_allergies": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "dust makes it a lot worse",
+        "any kind of allergens or any anything in the house or around you that triggers it, like dust or anything like that?"
+      ]
+    },
+    "sleep_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "watery_eyes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "my eyes get like red and teary sometimes"
+      ]
+    },
+    "weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your bowel movements at all?"
+      ]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills?"
+      ]
+    },
+    "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "are you bringing up any sputum?",
+        "just in the morning"
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I have to like cough to clear my throat",
+        "and are you coughing at all?"
+      ]
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I would sometimes get kind of short of breath as a child",
+        "do you have that at all now?"
+      ]
+    },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: \"Any kind of fatigue or tiredness throughout the day?\"",
-        "Patient: \"I do feel more fatigued when I have these symptoms.\""
+        "I do feel more fatigued when I have these symptoms"
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: \"Besides that, have you been having any symptoms of fevers, chills, sore throat?\"",
-        "Patient: \"no.\""
+        "Any fevers or chills?"
       ]
-    },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: \"Any headaches?\"",
-        "Patient: \"No.\""
+        "Any headaches?"
       ]
     },
     "loss_of_appetite": {
@@ -128,29 +146,20 @@
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: \"Any nausea or vomiting?\"",
-        "Patient: \"no.\""
+        "Any nausea or vomiting?"
       ]
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "post_nasal_drip": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: \"Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up?\"",
-        "Patient: \"Yeah yeah I do.\""
+        "Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up?"
       ]
-    },
-    "rash": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: \"Hi, I've I've just been. I've been sneezing a lot and I have this runny nose.\""
+        "I've been sneezing a lot and I have this runny nose",
+        "years like just sneezing and the runny nose has been going on for the last few years"
       ]
     },
     "sleep_hydrosis": {
@@ -160,56 +169,44 @@
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: \"Sorry just one more question, any loss of sense of taste or smell?\"",
-        "Patient: \"Yeah, it's hard to smell and my nose is stuffy, but no loss of taste.\""
+        "it's hard to smell and my nose is stuffy, but no loss of taste"
       ]
     },
     "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: \"Hi, I've I've just been. I've been sneezing a lot and I have this runny nose.\""
+        "I've been sneezing a lot",
+        "years like just sneezing and the runny nose has been going on for the last few years"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: \"...I also wake up in the morning with this like sore throat and have just cough and clear out my, you know clear my throat.\""
+        "I also wake up in the morning with this like sore throat",
+        "I get a bit of a sore throat, I guess in the morning, but it just goes away after"
       ]
-    },
-    "straining_and_chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "taste_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: \"Any changes to your appetite or weight?\"",
-        "Patient: \"I've been losing weight, but I've been dieting and working out more.\"",
-        "Medical Student: \"How much weight would you say you've lost over the last few months?\"",
-        "Patient: \"I've lost about four pounds in the past four, five months.\""
+        "it's hard to smell and my nose is stuffy, but no loss of taste"
       ]
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: \"Any trouble urinating?\"",
-        "Patient: \"no.\""
+        "Any trouble urinating?"
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: \"Any nausea or vomiting?\"",
-        "Patient: \"no.\""
+        "Any nausea or vomiting?"
       ]
-    },
-    "wheez_inhale": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

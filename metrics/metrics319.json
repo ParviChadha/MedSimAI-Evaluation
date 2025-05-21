@@ -1,35 +1,20 @@
 {
-  "precision": 0.9166666666666666,
-  "recall": 0.9166666666666666,
-  "f1_score": 0.9166666666666666,
-  "true_positives": 22,
-  "false_positives": 2,
-  "false_negatives": 2,
-  "total_items": 37,
+  "precision": 0.9583333333333334,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.9583333333333334,
+  "true_positives": 23,
+  "false_positives": 1,
+  "false_negatives": 1,
+  "total_items": 46,
   "false_positive_details": [
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "Medical Student: Have you been sick at all recently with fever? Chills, like runny nose?",
-        "Patient: No.",
-        "Medical Student: Have you been in contact with anyone that's been sick?"
-      ]
-    },
     {
       "item": "Phlegm",
       "result_quotes": [
-        "Medical Student: Are you bringing up any sputum at all with your cough?",
-        "Patient: Uhm? I sometimes uhm, yeah I do.",
-        "Medical Student: OK and is is there any color to it or is it clear?",
-        "Patient: it's pink in color"
+        "Are you bringing up any sputum at all with your cough?"
       ]
     }
   ],
   "false_negative_details": [
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
     {
       "item": "Loss Of Appetite",
       "truth_quotes": []

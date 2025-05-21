@@ -1,26 +1,28 @@
 {
-  "precision": 0.9615384615384616,
-  "recall": 0.9259259259259259,
-  "f1_score": 0.9433962264150944,
-  "true_positives": 25,
-  "false_positives": 1,
-  "false_negatives": 2,
-  "total_items": 43,
+  "precision": 0.9285714285714286,
+  "recall": 0.9629629629629629,
+  "f1_score": 0.9454545454545454,
+  "true_positives": 26,
+  "false_positives": 2,
+  "false_negatives": 1,
+  "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Sensation Of Chest",
       "result_quotes": [
-        "Not recently, I had that about two months ago, but that got better."
+        "Have you been having any, uh, instances feeling as though your heart's racing or beating out of your chest?"
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Any urinary problems?"
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
       "truth_quotes": []
     }
   ]

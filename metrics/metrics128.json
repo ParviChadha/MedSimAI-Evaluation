@@ -1,23 +1,19 @@
 {
-  "precision": 0.9565217391304348,
-  "recall": 0.9565217391304348,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 22,
+  "precision": 0.9583333333333334,
+  "recall": 1.0,
+  "f1_score": 0.9787234042553191,
+  "true_positives": 23,
   "false_positives": 1,
-  "false_negatives": 1,
-  "total_items": 42,
+  "false_negatives": 0,
+  "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Change In Taste",
       "result_quotes": [
-        "I lost. I can't. I for the past two days I can't smell anything. I can't taste any of my food."
+        "I can't taste any of my food.",
+        "I like bit into it and I literally didn't taste anything."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

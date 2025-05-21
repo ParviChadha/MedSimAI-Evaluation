@@ -1,35 +1,76 @@
 {
-  "precision": 0.9583333333333334,
-  "recall": 0.8214285714285714,
-  "f1_score": 0.8846153846153847,
-  "true_positives": 23,
-  "false_positives": 1,
-  "false_negatives": 5,
-  "total_items": 38,
+  "precision": 0.7222222222222222,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.8125000000000001,
+  "true_positives": 26,
+  "false_positives": 10,
+  "false_negatives": 2,
+  "total_items": 56,
   "false_positive_details": [
+    {
+      "item": "Bowel Movement",
+      "result_quotes": [
+        "Uhm, I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore."
+      ]
+    },
+    {
+      "item": "Loss Of Sense",
+      "result_quotes": [
+        "OK, how about a change to your sense of smell? Like loss of smell?"
+      ]
+    },
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "Have you had any night sweats?"
+      ]
+    },
+    {
+      "item": "Redness",
+      "result_quotes": [
+        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?"
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "Alright and how has your energy been? Have you had fatigue?"
+      ]
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "result_quotes": [
+        "Was it dry or did you were bringing up any sputum or phlegm?"
+      ]
+    },
+    {
+      "item": "Greenish Yellowish Nasal Discharge",
+      "result_quotes": [
+        "OK, and ah, with the runny nose, could you describe the discharge?"
+      ]
+    },
     {
       "item": "Phlegm",
       "result_quotes": [
-        "Was it dry or did you were bringing up any sputum or phlegm?",
-        "No, it's pretty dry."
+        "Was it dry or did you were bringing up any sputum or phlegm?"
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "Alright, have you had any weight loss recently?"
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "OK, have you had any changes to your urinary habits? Like any pain or frequency?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
+      "item": "Ache",
       "truth_quotes": []
     },
     {

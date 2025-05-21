@@ -1,24 +1,31 @@
 {
-  "precision": 0.9130434782608695,
-  "recall": 0.84,
-  "f1_score": 0.8749999999999999,
-  "true_positives": 21,
-  "false_positives": 2,
-  "false_negatives": 4,
-  "total_items": 44,
+  "precision": 0.8846153846153846,
+  "recall": 0.92,
+  "f1_score": 0.9019607843137256,
+  "true_positives": 23,
+  "false_positives": 3,
+  "false_negatives": 2,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Complications Actual Delivery",
       "result_quotes": [
-        "cough",
-        "runny nose",
-        "sneezing"
+        "OK and were there any complications at all during your pregnancy with her or after the pregnancy?",
+        "No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications. So yeah, things were good."
       ]
     },
     {
-      "item": "Discharge",
+      "item": "Lethargic",
       "result_quotes": [
-        "runny nose"
+        "Does she behave like herself Like is she more tired at all? More irritable, anything like that?",
+        "Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad. She, she missed school today but went yesterday."
+      ]
+    },
+    {
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "Any issues with their sleep or appetite?",
+        "She has been a bit a bit fussy, but she's been sleeping OK."
       ]
     }
   ],
@@ -28,15 +35,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
+      "item": "Fatigue Sleep",
       "truth_quotes": []
     }
   ]

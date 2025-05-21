@@ -1,35 +1,18 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 0.9473684210526315,
-  "f1_score": 0.9,
-  "true_positives": 18,
-  "false_positives": 3,
-  "false_negatives": 1,
-  "total_items": 37,
+  "precision": 0.95,
+  "recall": 1.0,
+  "f1_score": 0.9743589743589743,
+  "true_positives": 19,
+  "false_positives": 1,
+  "false_negatives": 0,
+  "total_items": 38,
   "false_positive_details": [
     {
-      "item": "Aches",
+      "item": "Symptom Speedup",
       "result_quotes": [
-        "Yeah, I guess I felt a bit achy."
-      ]
-    },
-    {
-      "item": "Sinus Congestion",
-      "result_quotes": [
-        "I have, I don't know maybe my nose is a little bit congested, but not really running."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "I felt like I've had a fever or might be getting a fever."
+        "Yes, I would say, but both the cough and the shortness of breath has been getting worse over these last few days."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

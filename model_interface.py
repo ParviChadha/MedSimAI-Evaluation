@@ -427,7 +427,7 @@ class ModelInterface:
         
         try:
             response = self.client.chat.completions.create(
-                model="accounts/fireworks/models/llama4-scout-instruct-basic",
+                model="accounts/fireworks/models/deepseek-v3",
                 messages=messages,
                 max_tokens=4096
             )

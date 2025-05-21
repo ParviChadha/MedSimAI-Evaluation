@@ -1,55 +1,130 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "changes_in_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "infectious_symptom": {
+    "aches": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, I had a sore throat and a little bit of a headache as well, uhm, and, and some aches and fatigue.",
-        "Medical Student: Alright, what about any other symptoms over the past two weeks? Have you had, have you had any fevers or chills?"
+        "and, and some aches and fatigue."
       ]
     },
-    "itching": {
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lightheadedness": {
+    "bad_smell": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
+    "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Uh, yeah it's been, uhm, mix, it's been dry sometimes and I have had a little bit of sputum production recently, uh, it's been mostly clear though."
+        "Have you had any chest pain?"
       ]
     },
-    "respiratory_distress_syndrome": {
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any fevers or chills?"
+      ]
+    },
+    "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I have had a little bit of sputum production recently, uh, it's been mostly clear though."
+      ]
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?"
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, so I've had this cough now, it's been going on for about two weeks, just, just hasn't gone away."
+      ]
+    },
+    "decreased_focus": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sinus_congestion": {
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?"
+      ]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "and, and some aches and fatigue."
+      ]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any fevers or chills?"
+      ]
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, I had a sore throat and a little bit of a headache as well"
+      ]
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any blood that came up with the sputum?"
+      ]
+    },
+    "itching_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?"
+      ]
+    },
+    "palpitation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any palpitations? Do you feel like your heart's racing?"
+      ]
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, my nose was a bit runny last week, but it's, that's better now."
+      ]
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_loss": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -57,121 +132,33 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trauma": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Yeah, I had a sore throat and a little bit of a headache as well, uhm, and, and some aches and fatigue."
-      ]
-    },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, have you had any chest pain?",
-        "Patient: No."
-      ]
-    },
-    "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Alright, what about any other symptoms over the past two weeks? Have you had, have you had any fevers or chills?",
-        "Patient: Not, no."
-      ]
-    },
-    "colored_excess_sputum": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Uh, yeah it's been, uhm, mix, it's been dry sometimes and I have had a little bit of sputum production recently, uh, it's been mostly clear though."
-      ]
-    },
-    "constipation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?",
-        "Patient: No, I haven't had anything like, like that."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: I understand that you've had a cough, can you tell me a little bit more about that?",
-        "Patient: Yeah, so I've had this cough now, it's been going on for about two weeks, just, just hasn't gone away."
-      ]
-    },
-    "diarrhoea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?",
-        "Patient: No, I haven't had anything like, like that."
-      ]
-    },
-    "fatigue_extended": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Yeah, I had a sore throat and a little bit of a headache as well, uhm, and, and some aches and fatigue."
-      ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Alright, what about any other symptoms over the past two weeks? Have you had, have you had any fevers or chills?",
-        "Patient: Not, no."
-      ]
-    },
-    "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Yeah, I had a sore throat and a little bit of a headache as well, uhm, and, and some aches and fatigue."
-      ]
-    },
-    "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Uhm, and have you had any blood that came up with the sputum?",
-        "Patient: No, I haven't noticed any blood."
-      ]
-    },
-    "pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any palpitations? Do you feel like your heart's racing?",
-        "Patient: Uhm, no. Nothing like that."
-      ]
-    },
-    "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: No. OK. And any uhm, I guess, any runny nose?",
-        "Patient: Yeah, my nose was a bit runny last week, but it's, that's better now."
-      ]
-    },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, I had a sore throat and a little bit of a headache as well, uhm, and, and some aches and fatigue."
+        "Yeah, I had a sore throat and a little bit of a headache as well"
       ]
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?",
-        "Patient: No, I haven't had anything like, like that."
+        "Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?"
       ]
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vomiting": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

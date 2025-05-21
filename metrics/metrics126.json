@@ -1,16 +1,26 @@
 {
-  "precision": 1.0,
-  "recall": 0.9166666666666666,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 11,
-  "false_positives": 0,
-  "false_negatives": 1,
+  "precision": 0.8571428571428571,
+  "recall": 1.0,
+  "f1_score": 0.923076923076923,
+  "true_positives": 12,
+  "false_positives": 2,
+  "false_negatives": 0,
   "total_items": 24,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "false_positive_details": [
     {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
+      "item": "Decrease Interest In Activities",
+      "result_quotes": [
+        "I suppose just, has this kind of chest tightness stopped you from doing activities that you normally would do, any missed time from work?",
+        "I haven't missed any work, but I'm not I'm not doing a ton of work right now. I don't think it would stop me, it just would make me uncomfortable um during work and it keeps me, maybe this, the last few days, it's kept me from, I usually go on a couple of walks a day, the last couple days I've just gone on one usually so yeah, it's a little bit, yeah."
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "So you said it started about 3 days ago. Have you noticed it's been getting better, worse or about staying the same?",
+        "I think it's staying the same."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

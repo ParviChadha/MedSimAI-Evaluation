@@ -1,38 +1,60 @@
 {
-  "precision": 0.9130434782608695,
-  "recall": 0.875,
-  "f1_score": 0.8936170212765957,
-  "true_positives": 21,
-  "false_positives": 2,
-  "false_negatives": 3,
-  "total_items": 36,
+  "precision": 0.7931034482758621,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.8679245283018867,
+  "true_positives": 23,
+  "false_positives": 6,
+  "false_negatives": 1,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Infection",
       "result_quotes": [
-        "viral infection a week back",
-        "yellow discharge from the nose"
+        "I did have what they thought was a viral infection a week back.",
+        "Yeah, from the symptoms that you're describing, it does seem more like sinus issues. There's a sinus behind your face and what can happen is if you get an infection, like all the the mucous and everything can build up and increase the pressure."
       ]
     },
     {
-      "item": "Aches",
+      "item": "Mucus Discharge",
       "result_quotes": [
-        "head ache for the past two days",
-        "facial pressure"
+        "So I've had this stuffy nose for the past three days. I'm getting some yellow discharge from the nose.",
+        "OK. And have you had any of these symptoms before?",
+        "No, never."
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "And has it been getting worse would you say? Or do you feel that it's getting better?",
+        "Um, I would say it's getting worse."
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "Have you noticed at all any weight changes?",
+        "No."
+      ]
+    },
+    {
+      "item": "Asthma",
+      "result_quotes": [
+        "I know that there's some asthma that runs in the family.",
+        "And have you ever been diagnosed with asthma?",
+        "No."
+      ]
+    },
+    {
+      "item": "Discomfort",
+      "result_quotes": [
+        "And right now what would you say is the most troubling symptom for you? Is it that pressure in your face or is it the congestion?",
+        "It's the...it's the pressure in my face. It hurts."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Bad Smell",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
+      "item": "Unexplained Weight Loss",
       "truth_quotes": []
     }
   ]

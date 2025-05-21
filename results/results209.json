@@ -1,103 +1,182 @@
 {
   "medical_history_assessed": {
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "infectious_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "Ahh, I don't I don't think so."
+        "**Medical Student: **Any infectious symptoms overall?",
+        "**Patient: **Ahh, I don't I don't think so."
       ]
+    },
+    "throat_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "appetite": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "uh no, no. No, that's all good."
+        "**Medical Student: **Bowel problems?",
+        "**Patient: **uh no, no. No, that's all good."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "No."
+        "**Medical Student: **Any fevers or chills?",
+        "**Patient: **No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, no, I don't think so."
+        "**Medical Student: **Have you had a cough?",
+        "**Patient: **Uh, no, I don't think so."
       ]
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_activity": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_focus": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, yeah, like I will if I if I try to run fast. Like I, kinda can't breathe anymore.",
-        "When I was around the cats, yeah.",
-        "Oh, like sometimes when it's really cold outside, I'll go out and like it. My chest feels tight and just feel like I can't breathe"
+        "**Medical Student: **OK, and uh, when you're exercising or in gym class, do you get short of breath or do you find that you have difficulty breathing?",
+        "**Patient: **Yeah, yeah, like I will if I if I try to run fast. Like I, kinda can't breathe anymore. So I kind of stop or go slower."
       ]
+    },
+    "fatigue_sleep": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "No."
+        "**Medical Student: **Any fevers or chills?",
+        "**Patient: **No."
       ]
+    },
+    "grunting_noise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "itching_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "When I was around the cats, yeah.",
-        "Yeah, I just thought like I had a cold, but I guess like I usually feel like that in the springtime."
+        "**Medical Student: **Um, so anything like like allergies like runny nose or really itchy eyes with maybe some like um tearing?",
+        "**Patient: **When I was around the cats, yeah. But not the other times."
       ]
+    },
+    "malaise": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "No."
+        "**Medical Student: **And how about any nausea or vomiting?",
+        "**Patient: **No."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I just thought like I had a cold, but I guess like I usually feel like that in the springtime.",
-        "Mmmm, like my dad also really. Dad gets like a runny nose in the spring."
+        "**Medical Student: **Um, so anything like like allergies like runny nose or really itchy eyes with maybe some like um tearing?",
+        "**Patient: **When I was around the cats, yeah. But not the other times."
       ]
     },
     "self_hurt": {
       "assessed": "Yes",
       "example_quotes": [
-        "No."
+        "**Medical Student: **I know this question might seem a little bit invasive, but it's important to ask everybody. Have you had any thoughts of hurting or harming yourself?",
+        "**Patient: **No."
       ]
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Oh no. No, mostly like gym class like I said."
+        "**Medical Student: **Have you been having any episodes of shortness of breath at night time?",
+        "**Patient: **Oh no. No, mostly like gym class like I said."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Oh no."
+        "**Medical Student: **So, uh, overnight when you're sleeping you wake up with either your like pajamas drenched, or your your sheets drenched drenched from sweating.",
+        "**Patient: **Oh no.",
+        "**Medical Student: **OK.",
+        "**Patient: **Um not that."
       ]
+    },
+    "smell_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "speech_volume": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, like. No, no."
+        "**Medical Student: **Any urinary problems?",
+        "**Patient: **Uh, like. No, no."
       ]
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "No."
+        "**Medical Student: **And how about any nausea or vomiting?",
+        "**Patient: **No."
       ]
     },
     "watery_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "When I was around the cats, yeah."
+        "**Medical Student: **Um, so anything like like allergies like runny nose or really itchy eyes with maybe some like um tearing?",
+        "**Patient: **When I was around the cats, yeah. But not the other times."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, mostly just with the cat."
+        "**Medical Student: **OK, you've noticed changes to to your breathing sounds? Like you've had noisy breathing before?",
+        "**Patient: **Yeah, mostly just with the cat.",
+        "**Patient: **Then at that time, I could actually hear it."
       ]
     }
   }

@@ -1,50 +1,13 @@
 {
   "medical_history_assessed": {
-    "aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh maybe these past couple of days, yeah."
-      ]
-    },
-    "changes_in_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "infectious_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh yeah, I've had a fever um or I felt hot anyway.",
-        "I've been feeling pretty sweaty from how hot I've been."
+        "I've had a cough that started like 4 days ago, um and it's just been getting worse, so I I wanted to come in.",
+        "Yeah, so that's definitely top on the list right now for things that we have to rule you out for. Um so we'll take a swab today, we'll send it off um for those PCR results, you should hear back in 24 to 48 hours."
       ]
     },
     "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness_due_to_alcohol": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, I've definitely noticed some difficulty breathing, um yeah.",
-        "I'm having a hard time catching up and catching my breath afterwards."
-      ]
-    },
-    "sinus_congestion": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -52,151 +15,337 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "tachypnea": {
+    "allergic_rhinitis": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm coughing so much throughout the day that I'm having a hard time catching up and catching my breath afterwards."
+        "Uh yeah, I'm allergic to um cats."
       ]
     },
-    "trauma": {
+    "asthma": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes to your bowel habits?",
+        "Uh, no."
+      ]
     },
     "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any chest pain?",
+        "No chest pain."
+      ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
+        "Have you had a fever or chills in the past few days?",
         "Uh yeah, I've had a fever um or I felt hot anyway."
       ]
     },
     "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Is it a dry cough or are you producing sputum?",
+        "It's it's mostly dry.",
+        "OK, so no sputum, no blood?",
+        "No blood."
+      ]
+    },
+    "complications_during_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
     "confusion": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh confusion or memory loss?",
+        "No."
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a cough that started like 4 days ago, um and it's just been getting worse",
-        "It's mostly dry."
+        "I've had a cough that started like 4 days ago, um and it's just been getting worse, so I I wanted to come in.",
+        "OK yeah, it's good that you've come in. Um, so the cough started four days ago, has it been constant since?",
+        "Yes it has."
+      ]
+    },
+    "decreased_physical_activity": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "discomfort": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And if you were to rate your symptoms 1 to 10, 10 being the worst, how bad is it?",
+        "Uh, 6."
       ]
     },
     "dizzyness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fainting spells or dizziness?",
+        "Uh, no."
+      ]
+    },
+    "drowsiness": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I've definitely noticed some difficulty breathing, um yeah."
+        "OK, and uh, when when did, when did your shortness of breath start?",
+        "Right around the same time as the cough or maybe shortly after, um yeah, shortly after."
       ]
     },
-    "fainting": {
+    "ear_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your vision or hearing?",
+        "No."
+      ]
+    },
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "facial_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fainting": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fainting spells or dizziness?",
+        "Uh, no."
+      ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
+        "How about fatigue or muscle aches?",
+        "Uh maybe these past couple of days, yeah."
+      ]
+    },
+    "feeling_tired": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about fatigue or muscle aches?",
         "Uh maybe these past couple of days, yeah."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh yeah, I've had a fever um or I felt hot anyway.",
-        "I've been feeling pretty sweaty from how hot I've been."
+        "Have you had a fever or chills in the past few days?",
+        "Uh yeah, I've had a fever um or I felt hot anyway."
       ]
     },
-    "hearing_problem": {
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
+    "hearing_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your vision or hearing?",
+        "No."
+      ]
+    },
     "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, so no sputum, no blood?",
+        "No blood."
+      ]
+    },
+    "high_blood_pressure": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperhidrosis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I haven't checked it, but um like I've been feeling pretty sweaty from how hot I've been."
+      ]
+    },
+    "limp": {
       "assessed": "No",
       "example_quotes": []
     },
     "memory_loss": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh confusion or memory loss?",
+        "No."
+      ]
+    },
+    "mucous_building": {
       "assessed": "No",
       "example_quotes": []
     },
     "nasal_congestion": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Runny nose or stuffy nose?",
+        "Not, no, but I've definitely, I feel like I've maybe noticed a change in my smell."
+      ]
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?",
+        "Um, no, no."
+      ]
     },
     "pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any chest pain?",
+        "No chest pain.",
+        "Do you ever feel like you have uh pain in your calves after walking um a few blocks?",
+        "No."
+      ]
     },
     "palpitation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about feeling like your heart's racing?",
+        "No, nothing like that."
+      ]
+    },
+    "pressure_in_around_face": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Runny nose or stuffy nose?",
+        "Not, no, but I've definitely, I feel like I've maybe noticed a change in my smell."
+      ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_issues": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I um, I'd say a few times an hour now. Uh when it first started, it was a bit more intermittent, but now it's happening um all day long and throughout the night as well, it interrupted my sleep last night."
+      ]
+    },
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I feel like I've maybe noticed a change in my smell.",
-        "The, really, these last like 2 days."
+        "Not, no, but I've definitely, I feel like I've maybe noticed a change in my smell.",
+        "I just uh, I feel like I haven't been able to smell as well."
       ]
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "I feel like I've maybe noticed a change in my smell.",
-        "The, really, these last like 2 days."
+        "Not, no, but I've definitely, I feel like I've maybe noticed a change in my smell.",
+        "I just uh, I feel like I haven't been able to smell as well."
       ]
     },
     "sore_throat": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had a sore throat?",
+        "No."
+      ]
+    },
+    "speech_volume": {
       "assessed": "No",
       "example_quotes": []
     },
+    "sweaty": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I haven't checked it, but um like I've been feeling pretty sweaty from how hot I've been."
+      ]
+    },
     "swelling": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any swelling in your legs or arms?",
+        "No."
+      ]
+    },
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you found that your symptoms are getting worse, staying the same, or getting better over the past four days?",
+        "Getting worse."
+      ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh I haven't really I, I thought, well, I wasn't really able to taste my food, but I thought that was because I couldn't, I wasn't smelling, um so I thought that was just going to go away"
+        "Any changes in your taste?",
+        "Uh I haven't really I, I thought, well, I wasn't really able to taste my food, but I thought that was because I couldn't, I wasn't smelling, um so I thought that was just going to go away, but the symptoms have gotten worse."
       ]
     },
-    "unexplained_weight_loss": {
+    "tearing": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "tearing_or_or_itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you noticed any weight loss over the past few weeks?",
+        "No."
+      ]
     },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes to your urine?",
+        "No."
+      ]
     },
     "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your vision or hearing?",
+        "No."
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?",
+        "Um, no, no."
+      ]
     },
     "wheez": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you feel wheezy at all?",
+        "No, I haven't heard any any wheezes."
+      ]
     }
   }
 }

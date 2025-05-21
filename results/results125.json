@@ -1,40 +1,48 @@
 {
   "medical_history_assessed": {
-    "odynophagia": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No pain with swallowing food or liquids."
-      ]
-    },
-    "allergic_rhinitis": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "brain_fog": {
+    "odynophagia": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any pain with swallowing food or liquids?",
+        "No."
+      ]
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "arthritis_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behaviour_change": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "How about um any chest pain?",
         "Um no chest pain."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any fevers or chills?",
         "No, nothing like that."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "And are you bringing up any uh sputum with the cough?",
         "No, it's mainly like a dry cough, but I am getting like a lot of drainage and uh just congestion in my nose."
       ]
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "constipation": {
       "assessed": "No",
@@ -43,118 +51,129 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having um like a cough, runny nose and a lot of congestion as well."
+        "Hi yes I'm just coming in, uh over the last week, I've been having um like a cough, runny nose and a lot of congestion as well.",
+        "OK, um and has the cough been getting any better or any worse or staying the same?",
+        "Um it's kind of the same."
       ]
     },
-    "diabetes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh no, I've been pretty healthy."
-      ]
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
+        "Have you had any diarrhea?",
         "Uh no, no diarrhea."
       ]
     },
-    "dizziness": {
+    "discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
-    "drooling": {
+    "dysphagia": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
+        "Um and have you had any shortness of breath with the cough?",
         "Uh no."
       ]
     },
     "dysuria": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, and have you had any urinary problems like painful urination or or frequency?",
         "Nope."
       ]
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
+        "Alright, and how about any eye redness or um eye discharge?",
         "No, I don't think so."
       ]
     },
     "facial_pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "And have you had any uh like facial pain like over your over your cheeks or or forehead?",
         "Uh no, nothing like that."
       ]
     },
-    "fatigue": {
+    "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
+        "Alright, and how has your energy been over this past week? Have you had fatigue?",
         "Uh no, I've been, I haven't been tired or like, it's just been like these symptoms that don't seem to go away."
       ]
-    },
-    "fatigue_extended": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "feeling_tired": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any fevers or chills?",
         "No, nothing like that."
       ]
     },
-    "guilt_feeling": {
+    "flu": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "food_allergy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, uhm do you have any allergies?",
+        "Uh no."
+      ]
+    },
+    "foreign_body_intake": {
       "assessed": "No",
       "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any headaches?",
         "No."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK. And you you haven't caught up any any sputum, but have you brought up any any blood?",
         "Uh no, no blood."
       ]
     },
-    "hyperhidrosis": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "malaise": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "motor_weakness": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having um like a cough, runny nose and a lot of congestion as well."
+        "Hi yes I'm just coming in, uh over the last week, I've been having um like a cough, runny nose and a lot of congestion as well.",
+        "OK, and have you felt like your nose um is obstructed, like you're not able to breathe in through either one of your nostrils?",
+        "Yeah, that happens and sometimes the nostrils keep switching."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, um and have you had any nausea or vomiting?",
         "Uhm no, nothing like that."
       ]
     },
@@ -163,96 +182,105 @@
       "example_quotes": []
     },
     "pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, no, I don't think so."
+        "Have you had any pain with swallowing food or liquids?",
+        "No."
       ]
     },
-    "rectal_bleeding": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rigor": {
+    "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having um like a cough, runny nose and a lot of congestion as well."
+        "Hi yes I'm just coming in, uh over the last week, I've been having um like a cough, runny nose and a lot of congestion as well."
       ]
     },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sinus_headaches": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, and have you had a loss or a change in your sense of smell?",
         "Um just when I'm congested like I feel like I can't really smell."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
+        "Alright, and how about a sore throat?",
         "Uhm, maybe a little bit of a tickle in my throat, but not sore."
       ]
+    },
+    "soreness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "speech_volume": {
       "assessed": "No",
       "example_quotes": []
     },
-    "swelling": {
+    "stunning": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "swelling": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Or any any neck swelling?",
+        "No."
+      ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK. Um and have you had any loss or a change in your sense of taste?",
         "No."
       ]
-    },
-    "tearing_or_itchiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
+        "And how was your weight been recently? Any changes?",
         "No, no changes."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, and have you had any urinary problems like painful urination or or frequency?",
         "Nope."
       ]
     },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -263,6 +291,7 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, um and have you had any nausea or vomiting?",
         "Uhm no, nothing like that."
       ]
     },
@@ -273,6 +302,7 @@
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, have you had any wheezing?",
         "No, no wheezing."
       ]
     }

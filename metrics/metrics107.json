@@ -1,75 +1,24 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 0.5,
-  "f1_score": 0.631578947368421,
-  "true_positives": 12,
+  "precision": 0.9230769230769231,
+  "recall": 1.0,
+  "f1_score": 0.9600000000000001,
+  "true_positives": 24,
   "false_positives": 2,
-  "false_negatives": 12,
-  "total_items": 43,
+  "false_negatives": 0,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Feeling Tired",
       "result_quotes": [
-        "Patient: Uh, no.",
-        "Medical Student:  Can you just describe your cough currently? Is it more of a wet cough or dry cough?",
-        "Patient:  Uh it, yeah, it's it's dry mostly with the exception of bringing up some of the blood."
+        "I've been more fatigued over the last couple months."
       ]
     },
     {
-      "item": "Infectious Symptom",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "Patient: There are certainly some people around that that had some that would have a cough, or were not feeling very well"
+        "Yeah I do have uh, type 2 diabetes, as well as high blood pressure."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Issue",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fainting",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,99 +1,30 @@
 {
   "medical_history_assessed": {
-    "aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, nothing like that.",
-        "Muscle aches, joint pain?"
-      ]
-    },
-    "change_in_taste": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "changes_in_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "grunting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "infectious_symptom": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, none of those, but I did it, initially I used to get just an irritation in my throat.",
-        "itching eyes"
-      ]
-    },
-    "itching_eyes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "itching eyes"
-      ]
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness_due_to_alcohol": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
+    "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
-        "It's usually, it's usually a dry cough and sometimes I do bring up like this light material"
+        "I do generally have umm, get allergies during the spring time when I go outside."
       ]
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I do find that it's harder to take a breath at those times."
-      ]
-    },
-    "trauma": {
       "assessed": "No",
       "example_quotes": []
     },
     "allergic_rhinitis": {
       "assessed": "Yes",
       "example_quotes": [
-        "I do generally have umm, get allergies during the spring time when I go outside."
+        "I do generally have umm, get allergies during the spring time when I go outside.",
+        "I didn't have a, I didn't have any like exam or rashes, but I do generally have umm, get allergies during the spring time when I go outside."
       ]
     },
     "anxious": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you feel like you're particularly anxious when these episodes are occurring?"
+        "Do you feel that you're particularly anxious when these episodes are occurring? Do you have any new stressors in life?"
       ]
     },
     "bowel_movement": {
@@ -102,10 +33,20 @@
         "Any changes in your bowel movements or any urinary symptoms?"
       ]
     },
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
         "Do you get any pain in your chest at all?",
+        "Uh, when I'm usually it goes away in 10-15 minutes but when I'm coughing a lot I do get some tightness."
+      ]
+    },
+    "chest_tightness": {
+      "assessed": "Yes",
+      "example_quotes": [
         "Uh, when I'm usually it goes away in 10-15 minutes but when I'm coughing a lot I do get some tightness."
       ]
     },
@@ -118,21 +59,52 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "for the last couple of months but I've been having this, these coughing fits",
-        "It's usually, it's usually a dry cough and sometimes I do bring up like this light material"
+        "Hi, I am just coming in because for the last couple of months but I've been having this, these coughing fits.",
+        "It's usually, it's usually a dry cough and sometimes I do bring up like this light material, but usually it's mostly a dry cough."
       ]
     },
     "coughing_fit": {
       "assessed": "Yes",
       "example_quotes": [
-        "for the last couple of months but I've been having this, these coughing fits"
+        "Hi, I am just coming in because for the last couple of months but I've been having this, these coughing fits."
       ]
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
+        "Do you ever feel like you're short of breath when you're coughing or otherwise?",
         "I do find that it's harder to take a breath at those times."
       ]
+    },
+    "dysuria": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your bowel movements or any urinary symptoms?"
+      ]
+    },
+    "ear_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "facial_pressure": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
@@ -140,11 +112,19 @@
         "Any headaches or fevers or chills?"
       ]
     },
+    "greenish_yellowish_nasal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
         "Any headaches or fevers or chills?"
       ]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
@@ -157,48 +137,100 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "nasal_congestion": {
+    "itching_eyes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Other than the the cough, have you noticed any other symptoms like a sore throat or itchy eyes? Itchy nose? Stuffy nose or runny nose? Anything like that?"
+      ]
+    },
+    "loss_of_smell": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "nasal_congestion": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Other than the the cough, have you noticed any other symptoms like a sore throat or itchy eyes? Itchy nose? Stuffy nose or runny nose? Anything like that?"
+      ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any pain in your belly or any nausea or vomiting?"
+        "Have you had any other symptoms so anything, any pain in your belly or any nausea or vomiting?"
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you get any pain in your chest at all?",
-        "Uh, when I'm usually it goes away in 10-15 minutes but when I'm coughing a lot I do get some tightness."
+        "Do you get any pain in your chest at all?"
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you feel like your hearts beating really fast when that happens or you're sweating?"
+        "Do you feel like your hearts beating really fast when that happens or you're sweating?",
+        "Yeah, yeah, I I feel like it's usually, I don't know if it's because of the exercise, but I have like a Fitbit and it's my my heart rate is much faster."
       ]
     },
     "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Other than the the cough, have you noticed any other symptoms like a sore throat or itchy eyes? Itchy nose? Stuffy nose or runny nose? Anything like that?"
+      ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_dyspnea": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any night sweats?"
+      ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, none of those, but I did it, initially I used to get just an irritation in my throat."
+        "Other than the the cough, have you noticed any other symptoms like a sore throat or itchy eyes? Itchy nose? Stuffy nose or runny nose? Anything like that?"
       ]
+    },
+    "soreness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sweaty": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you feel like your hearts beating really fast when that happens or you're sweating?"
+      ]
+    },
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "symptoms_stress": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you feel like you're particularly anxious when these episodes are occurring? Do you have any new stressors in life?"
+        "Do you feel that you're particularly anxious when these episodes are occurring? Do you have any new stressors in life?"
       ]
+    },
+    "taste_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing_or_or_itchiness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Other than the the cough, have you noticed any other symptoms like a sore throat or itchy eyes? Itchy nose? Stuffy nose or runny nose? Anything like that?"
+      ]
+    },
+    "teary_eyes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -215,7 +247,13 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any pain in your belly or any nausea or vomiting?"
+        "Have you had any other symptoms so anything, any pain in your belly or any nausea or vomiting?"
+      ]
+    },
+    "widespread_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Muscle aches, joint pain?"
       ]
     }
   }

@@ -1,36 +1,83 @@
 {
-  "precision": 0.9,
-  "recall": 0.75,
-  "f1_score": 0.8181818181818182,
-  "true_positives": 18,
-  "false_positives": 2,
-  "false_negatives": 6,
-  "total_items": 38,
+  "precision": 0.6666666666666666,
+  "recall": 0.8333333333333334,
+  "f1_score": 0.7407407407407408,
+  "true_positives": 20,
+  "false_positives": 10,
+  "false_negatives": 4,
+  "total_items": 49,
   "false_positive_details": [
     {
-      "item": "Tachypnea",
+      "item": "Sweaty",
       "result_quotes": [
-        "now she sounds pretty wheezy",
-        "she sounds really wheezy now"
+        "Medical Student: Um, and, yeah so she's had a fever, has she had any like, chills or night sweats, like where she's shaking?",
+        "Patient: Oh no, no."
       ]
     },
     {
-      "item": "Phlegm",
+      "item": "Eye Discharge",
       "result_quotes": [
-        "Um, she's bringing up some, um, she's, she actually, she used to bring up some phlegm, but now it's, it's pretty dry.",
-        "It was clear."
+        "Medical Student: Okay, and has she had any like, eye redness or eye discharge?",
+        "Patient: Uh no, nothing like that."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "Medical Student: Have you noticed, uh, any chest pain, if she's like pointing to her chest or anything?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "F Fever",
+      "result_quotes": [
+        "Patient: Hi um, I'm bringing my one year old daughter in because she's had this fever um, this runny nose and this cough, for the past three, four days.",
+        "Patient: Yeah, I would say so like it's come and gone, but every time I checked her temperature, I tried to check her twice a day, it would be pretty high, like 38 or uh, 39."
+      ]
+    },
+    {
+      "item": "Underweight At Birth",
+      "result_quotes": [
+        "Medical Student: Okay. Any concerns at birth, like jaundice or, or any types of distress?",
+        "Patient: Uh no, nothing like that."
+      ]
+    },
+    {
+      "item": "Low Mood",
+      "result_quotes": [
+        "Patient: She's been pretty fussy, um, yeah, she's been pretty fussy over the past few days, but I just thought it was because of how she was feeling um, like her symptoms."
+      ]
+    },
+    {
+      "item": "Behaviour Change",
+      "result_quotes": [
+        "Patient: Um just yeah, she's been a little bit more, um, irritable as well.",
+        "Patient: She's been pretty fussy, um, yeah, she's been pretty fussy over the past few days, but I just thought it was because of how she was feeling um, like her symptoms."
+      ]
+    },
+    {
+      "item": "Vaccine Related Reaction",
+      "result_quotes": [
+        "Medical Student: Are the immunizations up to date?",
+        "Patient: Yeah, everything's up to date."
+      ]
+    },
+    {
+      "item": "Sore",
+      "result_quotes": [
+        "Medical Student: Has she had any nausea or vomiting?",
+        "Patient: No, not that I've noticed."
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "Medical Student: Okay, uh, is she bringing up any, any phlegm or sputum?",
+        "Patient: Um, she's bringing up some, um, she's, she actually, she used to bring up some phlegm, but now it's, it's pretty dry."
       ]
     }
   ],
   "false_negative_details": [
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
     {
       "item": "Swelling",
       "truth_quotes": []
@@ -40,11 +87,11 @@
       "truth_quotes": []
     },
     {
-      "item": "Erythema",
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
-      "item": "Sleep Hydrosis",
+      "item": "Fever",
       "truth_quotes": []
     }
   ]

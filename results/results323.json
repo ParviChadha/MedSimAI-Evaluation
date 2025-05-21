@@ -1,18 +1,10 @@
 {
   "medical_history_assessed": {
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "arthritis_pain": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -34,10 +26,6 @@
         "No fever and no chills."
       ]
     },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
@@ -48,13 +36,21 @@
       "assessed": "Yes",
       "example_quotes": [
         "Yeah, I I have a cough.",
-        "I always seem to bring up some gunk on my when I cough.",
-        "It's green, sometimes yellowish.",
-        "No blood.",
-        "Uh a couple of kleenexes. Um, I'll use, but so not that much.",
-        "It's really hard to say I've had a cough for the past few years now, but I feel like it's getting worse.",
-        "I do cough throughout the day, but I find it's worse in the morning.",
-        "If I take a deep breath, then it seems to make the cough worse and uh nothing really helps the cough go away though."
+        "I always seem to bring up some gunk on my when I cough."
+      ]
+    },
+    "decreased_fluid_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you been diagnosed with any medical conditions at all, like high blood pressure, diabetes?"
       ]
     },
     "diarrhoea": {
@@ -63,25 +59,13 @@
         "Um no bowel issues."
       ]
     },
-    "drowsiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
         "Um. I only have trouble breathing if I walk a few blocks or go up a few flights of stairs into my apartment."
       ]
     },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -92,10 +76,8 @@
       ]
     },
     "fatigue_sleep": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh yeah I would say or sorry no my sleep has been has been poor"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
@@ -103,43 +85,45 @@
         "No fever and no chills."
       ]
     },
-    "foreign_body_intake": {
+    "food_allergy": {
       "assessed": "No",
       "example_quotes": []
     },
-    "guilt_feeling": {
+    "foreign_body_intake": {
       "assessed": "No",
       "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "No blood."
+        "Well, no blood."
       ]
     },
-    "hoarse_tone": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "inconsolable": {
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
-      "assessed": "No",
+      "assessed": "Yes",
       "example_quotes": [
         "Uh appetite's been good I feel like I've been eating normally."
       ]
     },
-    "loss_of_consciousness": {
+    "malaise": {
       "assessed": "No",
       "example_quotes": []
     },
-    "motor_weakness": {
+    "more_quiet": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pain": {
+    "mucous_building": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I always seem to bring up some gunk on my when I cough."
+      ]
+    },
+    "nause": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -149,11 +133,13 @@
         "Um, no chest pain."
       ]
     },
-    "pressure_in_around_face": {
-      "assessed": "No",
-      "example_quotes": []
+    "pregnancy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And sorry I for hospitalizations I I did have a c-section for the birth of my daughter and I was in the hospital for a few days for that."
+      ]
     },
-    "rectal_bleeding": {
+    "redness_in_throat": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -162,6 +148,10 @@
       "example_quotes": [
         "Um, no runny nose, no sore throat, been feeling good."
       ]
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_changes": {
       "assessed": "Yes",
@@ -176,8 +166,16 @@
       ]
     },
     "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No night sweats."
+      ]
+    },
+    "sleeping_issues": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh yeah I would say or sorry no my sleep has been has been poor"
+      ]
     },
     "sore_throat": {
       "assessed": "Yes",
@@ -185,11 +183,7 @@
         "Um, no runny nose, no sore throat, been feeling good."
       ]
     },
-    "speech_volume": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "straining_and_chest_discomfort": {
+    "soreness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -199,6 +193,14 @@
         "Uh, I think they're always a little swollen, but I might have just gained a few pounds over the years."
       ]
     },
+    "symptoms_stress": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "teary_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "tonsilitis": {
       "assessed": "No",
       "example_quotes": []
@@ -206,7 +208,7 @@
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um I maybe lost 5 pounds in the last few months."
+        "Um I maybe lost 5 pounds in the last few months. I wasn't even, I haven't been trying to lose weight but doesn't hurt though as I've I've gained a few pounds over the years so I don't mind."
       ]
     },
     "urination": {

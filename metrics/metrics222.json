@@ -1,24 +1,87 @@
 {
-  "precision": 0.9047619047619048,
+  "precision": 0.6333333333333333,
   "recall": 0.95,
-  "f1_score": 0.9268292682926829,
+  "f1_score": 0.7599999999999999,
   "true_positives": 19,
-  "false_positives": 2,
+  "false_positives": 11,
   "false_negatives": 1,
-  "total_items": 35,
+  "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Lightheadedness",
+      "item": "Fainting",
       "result_quotes": [
-        "\"Nothing like that OK, any dizziness or fainting?\"",
-        "\"No.\""
+        "Any dizziness or fainting?",
+        "No."
       ]
     },
     {
-      "item": "Throat Pain",
+      "item": "Tired",
       "result_quotes": [
-        "\"Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?\"",
-        "\"No, nothing like that.\""
+        "Any fatigue?",
+        "Um a little bit because I haven't been sleeping too well."
+      ]
+    },
+    {
+      "item": "Lightheadedness",
+      "result_quotes": [
+        "Any dizziness or fainting?",
+        "No."
+      ]
+    },
+    {
+      "item": "Sleep Issues",
+      "result_quotes": [
+        "And are you just getting daytime symptoms or are you waking up from sleep or not being able to sleep because of your symptoms?",
+        "I woke up twice last week."
+      ]
+    },
+    {
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "And are you just getting daytime symptoms or are you waking up from sleep or not being able to sleep because of your symptoms?",
+        "I woke up twice last week."
+      ]
+    },
+    {
+      "item": "Sleep Issue",
+      "result_quotes": [
+        "And are you just getting daytime symptoms or are you waking up from sleep or not being able to sleep because of your symptoms?",
+        "I woke up twice last week."
+      ]
+    },
+    {
+      "item": "Sleeping Issues",
+      "result_quotes": [
+        "And are you just getting daytime symptoms or are you waking up from sleep or not being able to sleep because of your symptoms?",
+        "I woke up twice last week."
+      ]
+    },
+    {
+      "item": "Allergy Medication",
+      "result_quotes": [
+        "Any allergies to any medications that you know?",
+        "Not to medication I\u2019m allergic to like strawberries and Kiwis."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "Any allergies to any medications that you know?",
+        "Not to medication I\u2019m allergic to like strawberries and Kiwis."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Have you traveled at all recently or been in touch with anyone who's been sick?",
+        "Uhm, no, nothing like that."
+      ]
+    },
+    {
+      "item": "Loss Of Consciousness Due To Alcohol",
+      "result_quotes": [
+        "This is an age where sometimes your peers or yourself might experiment with alcohol, smoking or recreational drugs. Have you have you tried anything at all?",
+        "No, I haven\u2019t."
       ]
     }
   ],

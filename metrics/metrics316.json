@@ -8,30 +8,31 @@
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Chest Discomfort",
+      "item": "Infection",
       "result_quotes": [
-        "Alright any chest pain?",
-        "No, I haven't had any chest pain."
+        "Hi there, I've been having this uhm, cough that's been ongoing for the past two days, and I've started to become short of breath as well. Even with just a little bit of exertion. I've also been feeling feverish and I checked my temperature and it was 38 point, uh, point 5.",
+        "No, I was just worried that maybe I could have Covid."
       ]
     },
     {
-      "item": "Diabetes",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "I have diabetes, type 2 diabetes, and I have high blood pressure as well."
+        "Hi there, I've been having this uhm, cough that's been ongoing for the past two days, and I've started to become short of breath as well. Even with just a little bit of exertion. I've also been feeling feverish and I checked my temperature and it was 38 point, uh, point 5.",
+        "No, I was just worried that maybe I could have Covid."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Weight Gain",
+      "truth_quotes": []
+    },
+    {
       "item": "Constipation",
       "truth_quotes": []
     },
     {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Weight Gain",
+      "item": "Bloated",
       "truth_quotes": []
     }
   ]

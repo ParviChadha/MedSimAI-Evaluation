@@ -1,85 +1,35 @@
 {
-  "precision": 0.5454545454545454,
-  "recall": 0.375,
-  "f1_score": 0.4444444444444444,
-  "true_positives": 6,
-  "false_positives": 5,
-  "false_negatives": 10,
+  "precision": 0.8333333333333334,
+  "recall": 0.9375,
+  "f1_score": 0.8823529411764706,
+  "true_positives": 15,
+  "false_positives": 3,
+  "false_negatives": 1,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Decreased Activity",
       "result_quotes": [
-        "cough",
-        "sputum",
-        "shortness of breath"
+        "When I went out to get the Mail today I, I just couldn't do it. I, I had to just sit down."
       ]
     },
     {
-      "item": "Change In Taste",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "it leaves a really bad taste in my mouth when bringing it up"
+        "Uh yeah, I have uhm, high blood pressure."
       ]
     },
     {
-      "item": "Respiratory Distress Syndrome",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "difficulties breathing",
-        "short of breath"
-      ]
-    },
-    {
-      "item": "Tachypnea",
-      "result_quotes": [
-        "my heart has been beating a little bit faster"
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "I've been bringing up, uh, sputum that's uh, It's just, it leaves a really bad taste in my mouth when bringing it up"
+        "Do you have any allergies?",
+        "No."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
       "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
       "truth_quotes": []
     }
   ]

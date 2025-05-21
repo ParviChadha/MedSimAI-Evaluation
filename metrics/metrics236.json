@@ -1,65 +1,18 @@
 {
-  "precision": 0.7666666666666667,
-  "recall": 0.92,
-  "f1_score": 0.8363636363636363,
-  "true_positives": 23,
-  "false_positives": 7,
-  "false_negatives": 2,
-  "total_items": 50,
+  "precision": 0.9615384615384616,
+  "recall": 1.0,
+  "f1_score": 0.9803921568627451,
+  "true_positives": 25,
+  "false_positives": 1,
+  "false_negatives": 0,
+  "total_items": 38,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Changes In Appetite",
       "result_quotes": [
-        "Patient: Yeah, so I have like a really sore throat, started last night.",
-        "Patient: I think I had chills like yesterday."
-      ]
-    },
-    {
-      "item": "Facial Pain",
-      "result_quotes": [
-        "Medical Student: Any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over? Patient: Uh, no."
-      ]
-    },
-    {
-      "item": "Throat Pain",
-      "result_quotes": [
-        "Patient: Yeah, so I have like a really sore throat, started last night.",
-        "Patient: It's at the back of my throat and it's kind of burning."
-      ]
-    },
-    {
-      "item": "Lethargic",
-      "result_quotes": [
-        "Patient: I definitely feel like really tired."
-      ]
-    },
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "Medical Student: Um, have you had any muscle aches or pains? Patient: No, not not that."
-      ]
-    },
-    {
-      "item": "Head Ache",
-      "result_quotes": [
-        "Medical Student: Any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over? Patient: Uh, no."
-      ]
-    },
-    {
-      "item": "Cold",
-      "result_quotes": [
-        "Patient: I had a cold like 2 weeks ago, but it wasn't like this though."
+        "I haven't been eating a lot 'cause it just hurts to eat. I don't know if I'm just hungry. Like I've just been eating like ice cream 'cause it feels nice."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Watery Eyes",
-      "truth_quotes": []
-    },
-    {
-      "item": "Speech Volume",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

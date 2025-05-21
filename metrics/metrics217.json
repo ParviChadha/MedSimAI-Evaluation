@@ -1,54 +1,52 @@
 {
-  "precision": 0.8333333333333334,
-  "recall": 0.8333333333333334,
-  "f1_score": 0.8333333333333334,
-  "true_positives": 20,
-  "false_positives": 4,
-  "false_negatives": 4,
-  "total_items": 41,
+  "precision": 0.7931034482758621,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.8679245283018867,
+  "true_positives": 23,
+  "false_positives": 6,
+  "false_negatives": 1,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Itching",
+      "item": "Widespread Pain",
       "result_quotes": [
-        "No, none of those, but I did it, initially I used to get just an irritation in my throat.",
-        "itching eyes"
-      ]
-    },
-    {
-      "item": "Tachypnea",
-      "result_quotes": [
-        "I do find that it's harder to take a breath at those times."
-      ]
-    },
-    {
-      "item": "Aches",
-      "result_quotes": [
-        "No, nothing like that.",
         "Muscle aches, joint pain?"
       ]
     },
     {
-      "item": "Phlegm",
+      "item": "Chest Tightness",
       "result_quotes": [
-        "It's usually, it's usually a dry cough and sometimes I do bring up like this light material"
+        "Uh, when I'm usually it goes away in 10-15 minutes but when I'm coughing a lot I do get some tightness."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Any changes in your bowel movements or any urinary symptoms?"
+      ]
+    },
+    {
+      "item": "Sneezing",
+      "result_quotes": [
+        "I do generally have umm, get allergies during the spring time when I go outside."
+      ]
+    },
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "Do you feel like your hearts beating really fast when that happens or you're sweating?"
+      ]
+    },
+    {
+      "item": "Tearing Or Or Itchiness",
+      "result_quotes": [
+        "Other than the the cough, have you noticed any other symptoms like a sore throat or itchy eyes? Itchy nose? Stuffy nose or runny nose? Anything like that?"
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Irritable",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
       "truth_quotes": []
     }
   ]

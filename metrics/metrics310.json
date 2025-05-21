@@ -1,16 +1,33 @@
 {
-  "precision": 1.0,
-  "recall": 0.9696969696969697,
-  "f1_score": 0.9846153846153847,
-  "true_positives": 32,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 65,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.9166666666666666,
+  "recall": 1.0,
+  "f1_score": 0.9565217391304348,
+  "true_positives": 33,
+  "false_positives": 3,
+  "false_negatives": 0,
+  "total_items": 66,
+  "false_positive_details": [
     {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
+      "item": "Greenish Yellowish Nasal Discharge",
+      "result_quotes": [
+        "The runny nose is it clear? Or does it have like a colour to it like yellow or green?",
+        "It's pretty, yeah it's more clear."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "He's had a fever and and a cough and a runny nose.",
+        "It could be another viral infection that's going around at this time of year."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "Does he have any allergies?",
+        "Uh, no, no allergies."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

@@ -1,12 +1,68 @@
 {
-  "precision": 1.0,
+  "precision": 0.7804878048780488,
   "recall": 0.9696969696969697,
-  "f1_score": 0.9846153846153847,
+  "f1_score": 0.8648648648648648,
   "true_positives": 32,
-  "false_positives": 0,
+  "false_positives": 9,
   "false_negatives": 1,
-  "total_items": 33,
-  "false_positive_details": [],
+  "total_items": 66,
+  "false_positive_details": [
+    {
+      "item": "Loss Of Consciousness",
+      "result_quotes": [
+        "No dizziness and I haven't fainted or anything like that."
+      ]
+    },
+    {
+      "item": "Soreness",
+      "result_quotes": [
+        "Oh yeah, I don't know why, yeah, my belly's been a bit achy maybe."
+      ]
+    },
+    {
+      "item": "Motor Weakness",
+      "result_quotes": [
+        "As soon as I breath, well, I just haven't felt good like, tired, kind of weakish."
+      ]
+    },
+    {
+      "item": "Widespread Pain",
+      "result_quotes": [
+        "Alright, yeah, maybe a bit, kind of, and weak."
+      ]
+    },
+    {
+      "item": "Greenish Yellowish Nasal Discharge",
+      "result_quotes": [
+        "Well, I've been bringing up some yellowish green, kind of like phlegm, so um I guess a wet cough."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "Alright, yeah, maybe a bit, kind of, and weak."
+      ]
+    },
+    {
+      "item": "Wheez Inhale",
+      "result_quotes": [
+        "No, well, maybe I guess when I'm really short of breath, yeah, wheezing, yeah."
+      ]
+    },
+    {
+      "item": "Sleep Issue",
+      "result_quotes": [
+        "Uh, well I can't tell if it's that or the cough. I mean between those two things it's been definitely interrupting my sleep.",
+        "It helps me sleep."
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "Uh, the shortness of breath has come on, I don't know within the last day or so. It's come on after that, the cough started first."
+      ]
+    }
+  ],
   "false_negative_details": [
     {
       "item": "Sleep Hydrosis",

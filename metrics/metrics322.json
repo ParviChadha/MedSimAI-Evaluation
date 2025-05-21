@@ -1,35 +1,41 @@
 {
-  "precision": 0.8235294117647058,
-  "recall": 0.9333333333333333,
-  "f1_score": 0.8749999999999999,
-  "true_positives": 14,
+  "precision": 0.8125,
+  "recall": 0.8666666666666667,
+  "f1_score": 0.8387096774193549,
+  "true_positives": 13,
   "false_positives": 3,
-  "false_negatives": 1,
+  "false_negatives": 2,
   "total_items": 30,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Diet",
       "result_quotes": [
-        "he had like a runny nose and a cough, but that went away.",
-        "he had this temperature of like 38.5"
+        "How much has he had to eat or drink in the past day or two?",
+        "He's had about like maybe a bottle of his milk."
       ]
     },
     {
-      "item": "Odynophagia",
+      "item": "Fatigue",
       "result_quotes": [
-        "he's not swallowing his food, like we've been feeding him some mashed up food but he's not swallowing it."
+        "Do you feel like he's been drowsy and lethargic?",
+        "Yeah, I feel like he's been a little bit lethargic."
       ]
     },
     {
-      "item": "Tachypnea",
+      "item": "Urination",
       "result_quotes": [
-        "he's been very short of breath."
+        "We've been keeping an eye on his diapers.",
+        "Usually like about 5, 6, but yesterday it was like 2."
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
       "truth_quotes": []
     }
   ]

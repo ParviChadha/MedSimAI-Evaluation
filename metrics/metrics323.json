@@ -1,26 +1,46 @@
 {
-  "precision": 0.9523809523809523,
-  "recall": 0.9090909090909091,
-  "f1_score": 0.9302325581395349,
-  "true_positives": 20,
-  "false_positives": 1,
-  "false_negatives": 2,
+  "precision": 0.8076923076923077,
+  "recall": 0.9545454545454546,
+  "f1_score": 0.875,
+  "true_positives": 21,
+  "false_positives": 5,
+  "false_negatives": 1,
   "total_items": 44,
   "false_positive_details": [
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "And sorry I for hospitalizations I I did have a c-section for the birth of my daughter and I was in the hospital for a few days for that."
+      ]
+    },
+    {
+      "item": "Sleeping Issues",
+      "result_quotes": [
+        "Uh yeah I would say or sorry no my sleep has been has been poor"
+      ]
+    },
     {
       "item": "Sleep Changes",
       "result_quotes": [
         "Uh yeah I would say or sorry no my sleep has been has been poor"
       ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "And have you been diagnosed with any medical conditions at all, like high blood pressure, diabetes?"
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "I always seem to bring up some gunk on my when I cough."
+      ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
+      "item": "Fatigue Sleep",
       "truth_quotes": []
     }
   ]

@@ -1,89 +1,58 @@
 {
-  "precision": 0.7894736842105263,
-  "recall": 0.5357142857142857,
-  "f1_score": 0.6382978723404255,
-  "true_positives": 15,
-  "false_positives": 4,
-  "false_negatives": 13,
-  "total_items": 47,
+  "precision": 0.7941176470588235,
+  "recall": 0.9642857142857143,
+  "f1_score": 0.8709677419354839,
+  "true_positives": 27,
+  "false_positives": 7,
+  "false_negatives": 1,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Feeling Tired",
       "result_quotes": [
-        "He had a runny nose a couple of days ago",
-        "He's had a cough for the last couple of days"
+        "He's been a little bit slowed down these last couple of days, but in regards to consistency, I'd say it's a little bit worse at night."
       ]
     },
     {
-      "item": "Odynophagia",
+      "item": "General Weakness",
       "result_quotes": [
-        "His throat hurts"
+        "I feel like when he has the coughing fits, he's winded. He's weak after them."
       ]
     },
     {
-      "item": "Tachypnea",
+      "item": "Decrease Interest In Activities",
       "result_quotes": [
-        "Sometimes at night after a bad cough he'll be really winded"
+        "He's been a little bit slowed down these last couple of days, but in regards to consistency, I'd say it's a little bit worse at night."
       ]
     },
     {
-      "item": "Phlegm",
+      "item": "Colored Excess Sputum",
       "result_quotes": [
-        "Sputum like phlegm,no he doesn't bring anything up really, so dry"
+        "Sputum like phlegm,no he doesn't bring anything up really, so dry."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "Yeah he's a little pre term. 34 weeks I think."
+      ]
+    },
+    {
+      "item": "Fatigue",
+      "result_quotes": [
+        "He's been a little bit slowed down these last couple of days, but in regards to consistency, I'd say it's a little bit worse at night."
+      ]
+    },
+    {
+      "item": "Taste Problem",
+      "result_quotes": [
+        "Well, we've been kind of spoiling him a bit, just giving him ice cream. His throat hurts a little bit and he seems to still like it, so it's hard to tell."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
       "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Memory Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Rectal Bleeding",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
       "truth_quotes": []
     }
   ]

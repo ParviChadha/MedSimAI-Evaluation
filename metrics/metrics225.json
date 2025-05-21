@@ -1,44 +1,49 @@
 {
-  "precision": 0.8518518518518519,
-  "recall": 0.92,
-  "f1_score": 0.8846153846153846,
-  "true_positives": 23,
-  "false_positives": 4,
-  "false_negatives": 2,
-  "total_items": 50,
+  "precision": 0.8275862068965517,
+  "recall": 0.96,
+  "f1_score": 0.888888888888889,
+  "true_positives": 24,
+  "false_positives": 5,
+  "false_negatives": 1,
+  "total_items": 51,
   "false_positive_details": [
     {
-      "item": "Malaise",
+      "item": "Infection",
       "result_quotes": [
-        "Yeah, it's been there for about two, yeah about two or three days. I wake up in the morning and I've been feeling like really fatigued and achy."
+        "Patient: Yeah, so I live in an apartment downtown here um, just with uh one of, one of my friends who's a roommate.",
+        "Medical Student: Okay, and is everyone at home healthy?",
+        "Patient: Yeah, she hasn't had any any symptoms, any symptoms either."
       ]
     },
     {
-      "item": "Coughing Fit",
+      "item": "Lethargic",
       "result_quotes": [
-        "Uh, a little bit after, um, if I have like a coughing fit that's bad enough, but um, for the most part, I've been okay."
+        "Patient: Yeah, it's been there for about two, yeah about two or three days. I wake up in the morning and I've been feeling like really fatigued and achy."
       ]
     },
     {
-      "item": "Allergic Rhinitis",
+      "item": "Tingling",
       "result_quotes": [
-        "Uh yeah, to cats and um, like, I think environmental triggers."
+        "Medical Student: Uh numbness or tingling?",
+        "Patient: No."
       ]
     },
     {
       "item": "Widespread Pain",
       "result_quotes": [
-        "Yeah, it's been there for about two, yeah about two or three days. I wake up in the morning and I've been feeling like really fatigued and achy."
+        "Patient: Hi there, I, I've had this cough that started um, three days ago, and over these past couple of days, I've just been really achy all over and so, I've had a headache as well."
+      ]
+    },
+    {
+      "item": "Tonsilitis",
+      "result_quotes": [
+        "Patient: No, well I, I've had my, my wisdom teeth taken out and, actually yeah I had my tonsils out as well when I was 12."
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Paralysis General",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
       "truth_quotes": []
     }
   ]

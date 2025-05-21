@@ -1,23 +1,41 @@
 {
-  "precision": 0.95,
+  "precision": 0.8260869565217391,
   "recall": 0.95,
-  "f1_score": 0.9500000000000001,
+  "f1_score": 0.8837209302325583,
   "true_positives": 19,
-  "false_positives": 1,
+  "false_positives": 4,
   "false_negatives": 1,
   "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Smell Problem",
+      "item": "Malaise",
       "result_quotes": [
-        "Any changes in your sense of smell?",
-        "Patient: No."
+        "No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "OK, OK. So yeah, it sounds like you might have some sort of viral infection which could potentially be covid, but could also be another sort of another viral illness, just like the common cold or the flu."
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "It's pretty pretty watery and clear."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "And allergies to food or medications, or environmental allergies?",
+        "I think I have an allergy to penicillin. I got it, I had a rash when I was I younger when I had that."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Eye Redness",
+      "item": "Aches",
       "truth_quotes": []
     }
   ]

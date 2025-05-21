@@ -1,50 +1,38 @@
 {
-  "precision": 0.8421052631578947,
-  "recall": 0.7619047619047619,
-  "f1_score": 0.8,
-  "true_positives": 16,
-  "false_positives": 3,
-  "false_negatives": 5,
+  "precision": 0.9,
+  "recall": 0.8571428571428571,
+  "f1_score": 0.8780487804878048,
+  "true_positives": 18,
+  "false_positives": 2,
+  "false_negatives": 3,
   "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Feeling Tired",
+      "item": "Flu",
       "result_quotes": [
-        "Um, when it gets really bad then I can't really step out of the house, but other than that I feel like my energy's still there."
-      ]
-    },
-    {
-      "item": "Asthma",
-      "result_quotes": [
-        "Just throughout my life I've had asthma so when I am exercising too much or get exposed to like dust, sometimes get shortness of breath."
-      ]
-    },
-    {
-      "item": "Vaccine Related Reaction",
-      "result_quotes": [
+        "Did you get the flu shot this year?",
         "Yep."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Uh, it's usually always, uh, produces like the sputum, and it's usually white or yellowish in colour.",
+        "I would say every time I cough like a teaspoon I probably have like. I don't know. Maybe 5 to 10 teaspoons a day."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fatigue Extended",
-      "truth_quotes": []
-    },
-    {
       "item": "Speech Volume",
       "truth_quotes": []
     },
     {
-      "item": "Bowel Movement",
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Ache",
       "truth_quotes": []
     }
   ]

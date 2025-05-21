@@ -1,266 +1,230 @@
 {
   "medical_history_assessed": {
-    "infectious_symptom": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Yeah, so I have like a really sore throat, started last night.",
-        "Patient: I think I had chills like yesterday."
-      ]
-    },
-    "muscle_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Um, have you had any muscle aches or pains? Patient: No, not not that."
-      ]
-    },
-    "throat_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Yeah, so I have like a really sore throat, started last night.",
-        "Patient: It's at the back of my throat and it's kind of burning."
-      ]
-    },
-    "anxious": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any changes in your bowel movements? Any diarrhea, any constipation? Patient: Uh, no."
+        "Um have you have you had any changes in your bowel movements? Any diarrhea, any constipation?",
+        "Uh, no."
+      ]
+    },
+    "changes_in_appetite": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I haven't been eating a lot 'cause it just hurts to eat. I don't know if I'm just hungry. Like I've just been eating like ice cream 'cause it feels nice."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any pain in your chest? Patient: No."
+        "Have you had any pain in your chest?",
+        "No."
       ]
-    },
-    "chest_pressure": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I think I had chills like yesterday."
+        "Have you experienced any malaise, or do you feel feverish? Or do you have any chills?",
+        "I think I had chills like yesterday."
       ]
-    },
-    "cold": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: I had a cold like 2 weeks ago, but it wasn't like this though."
-      ]
-    },
-    "complications_during_delivery": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any changes in your bowel movements? Any diarrhea, any constipation? Patient: Uh, no."
+        "Um have you have you had any changes in your bowel movements? Any diarrhea, any constipation?",
+        "Uh, no."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any cough? Patient: No."
+        "Any cough?",
+        "No."
       ]
     },
-    "decreased_activity": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "delayed_growth_milestones": {
+    "dehydration": {
       "assessed": "No",
       "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any changes in your bowel movements? Any diarrhea, any constipation? Patient: Uh, no."
+        "Um have you have you had any changes in your bowel movements? Any diarrhea, any constipation?",
+        "Uh, no."
       ]
-    },
-    "difficulty_sleeping": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "difficulty_talking": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Your throat feels swollen, have you have you noticed any changes in, have you found that it's difficult for you to talk? Is your speech slurred? Patient: Uh, no, it's not slurred."
+        "Have you have you noticed any changes in, have you found that it's difficult for you to talk? Is your speech slurred?",
+        "Uh, no, it's not slurred. It's just like sore because it's kind of like when I'm swallowing. You know."
       ]
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: It hurts when I swallow."
+        "I said it hurts when I swallow, right."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any difficulties breathing? Patient: No."
+        "Any difficulties breathing?",
+        "No."
       ]
+    },
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you noticed that your eyes have been more runny, more red? Anything like that? Patient: No."
-      ]
-    },
-    "facial_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over? Patient: Uh, no."
+        "OK, have you noticed that your eyes have been more runny, more red? Anything like that?",
+        "No. No, nothing in my eyes."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I definitely feel like really tired."
+        "I definitely feel like really tired."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: The nurse when I first got here, they took my temperature and said it was like it was like pretty high."
+        "Have you experienced any malaise, or do you feel feverish? Or do you have any chills?",
+        "I think when I first got here, they took my temperature and said it was like it was like pretty high. The nurse when I first got here."
       ]
     },
-    "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over? Patient: Uh, no."
-      ]
-    },
-    "itching_eyes": {
+    "hemoptysis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lethargic": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: I definitely feel like really tired."
-      ]
-    },
-    "limp": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
+    "high_blood_pressure": {
       "assessed": "No",
       "example_quotes": []
     },
     "malaise": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you experienced any malaise, or do you feel feverish? Or do you have any chills? Patient: I definitely feel like really tired."
+        "Have you experienced any malaise, or do you feel feverish? Or do you have any chills?",
+        "I definitely feel like really tired."
       ]
     },
-    "more_quiet": {
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Alright alright, any nausea or vomiting? Patient: Uh, no vomiting."
+        "Alright alright, any nausea or vomiting?",
+        "Uh, no vomiting. I feel like my throat. It just feels so like swollen but when I'm trying to talk with makes me feel a little bit nauseated."
       ]
     },
-    "not_crying": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, so I have like a really sore throat, started last night."
+        "It's at the back of my throat and it's kind of burning.",
+        "Any any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over?",
+        "Uh, no. No headache."
       ]
     },
-    "redness_in_throat": {
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you noticed that your eyes have been more runny, more red? Anything like that? Patient: No."
+        "OK, have you noticed that your eyes have been more runny, more red? Anything like that?",
+        "No. No, nothing in my eyes."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Do you have a runny nose? Patient: No, not that I've noticed."
+        "Do you have a runny nose?",
+        "No, not that I've noticed. I said it hurts when I swallow, right. I don't have a runny nose."
       ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sinus_headaches": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over? Patient: Uh, no."
+        "Any any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over?",
+        "Uh, no. No headache."
       ]
-    },
-    "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slow_motion_feeling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "slurred_speech": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Your throat feels swollen, have you have you noticed any changes in, have you found that it's difficult for you to talk? Is your speech slurred? Patient: Uh, no, it's not slurred."
+        "Have you have you noticed any changes in, have you found that it's difficult for you to talk? Is your speech slurred?",
+        "Uh, no, it's not slurred. It's just like sore because it's kind of like when I'm swallowing. You know."
       ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you noticed any changes in your sense of smell? Do you feel like you can smell less? Patient: I think that's pretty normal."
+        "Have you noticed any changes in your sense of smell? Do you feel like you can smell less?",
+        "I think that's pretty normal."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, so I have like a really sore throat, started last night."
+        "Yeah, so I have like a really sore throat, started last night."
       ]
     },
     "speech_volume": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stuffy_nose": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, like I think my voice is kind of like raspy. I feel like I might be losing my voice."
+      ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: What about taste? I know that you're not eating much 'cause you can't swallow, but do you feel like you can taste, your sense of taste is decreased? Patient: Uh, uh, no."
+        "OK, what about taste? I know that you're not eating much 'cause you can't swallow, but do you feel like you can taste, your sense of taste is decreased?",
+        "Uh, uh, no. I think that's good. Yeah, yeah, I think, I mean mostly eating like really cold stuff, but I can taste it all."
       ]
     },
-    "tearing_or_or_itchiness": {
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
       "assessed": "No",
       "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Alright alright, any nausea or vomiting? Patient: Uh, no vomiting."
+        "Alright alright, any nausea or vomiting?",
+        "Uh, no vomiting. I feel like my throat. It just feels so like swollen but when I'm trying to talk with makes me feel a little bit nauseated."
       ]
     },
     "watery_eyes": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, have you noticed that your eyes have been more runny, more red? Anything like that?",
+        "No. No, nothing in my eyes."
+      ]
     }
   }
 }

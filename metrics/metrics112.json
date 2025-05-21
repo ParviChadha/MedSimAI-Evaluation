@@ -1,117 +1,53 @@
 {
-  "precision": 0.7142857142857143,
-  "recall": 0.17857142857142858,
-  "f1_score": 0.2857142857142857,
-  "true_positives": 5,
-  "false_positives": 2,
-  "false_negatives": 23,
-  "total_items": 43,
+  "precision": 0.8235294117647058,
+  "recall": 1.0,
+  "f1_score": 0.9032258064516129,
+  "true_positives": 28,
+  "false_positives": 6,
+  "false_negatives": 0,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Pregnancy",
       "result_quotes": [
-        "I feel hot."
+        "I just my husband, um we we don't use protection. But I'm on the birth control pill."
       ]
     },
     {
-      "item": "Aches",
+      "item": "Decreased Concentration",
       "result_quotes": [
-        "Some muscle aches, I would say mostly in my arms and just my legs, yeah."
+        "I just don't remember, I remember things, but it's it's like I'm doing everything underwater.",
+        "It just feels like I'm really slow at doing things."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Alright, and then how about any urinary problems such as painful urination or going frequently?",
+        "No, no changes."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "OK, so no diabetes, high blood pressure, anything like that?",
+        "No."
+      ]
+    },
+    {
+      "item": "Itching Eyes",
+      "result_quotes": [
+        "OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Sexually Transmitted Infection",
+      "result_quotes": [
+        "OK, and have you had a sexually transmitted infection before?",
+        "No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Memory Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hyperacusis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Tearing",
-      "truth_quotes": []
-    },
-    {
-      "item": "Itchiness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vaginal Discharge",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Discharge",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vaginal Discomfort",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Tearing Or Or Itchiness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Photophobia",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

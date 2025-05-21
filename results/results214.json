@@ -1,89 +1,50 @@
 {
   "medical_history_assessed": {
-    "loss_of_consciousness_due_to_alcohol": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "muscle_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Just my body feels a little achy, but."
-      ]
-    },
-    "phlegm": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um it's mostly a dry cough",
-        "With the cough, is it a dry cough or are you bringing up some phlegm?"
-      ]
-    },
-    "allergic_rhinitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "No changes to your bowel movements?"
+        "Any changes to your bowel movements?",
+        "No."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Chest pain?"
+        "Chest pain?",
+        "No."
       ]
-    },
-    "constipation": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just had a runny nose and a cough for the past uh week.",
-        "Um it's mostly a dry cough"
+        "OK, um so for the past week you said, did the cough start first, or the runny nose?",
+        "Uh it started with the cough.",
+        "Um With the cough, is it a dry cough or are you bringing up some phlegm?",
+        "Um it's mostly a dry cough",
+        "Dry cough. OK, um and is it persistent or does it come and go?",
+        "It comes and goes. It does get better when I um take um like over the counter medications for for um like the antitussive pills.",
+        "OK yeah yeah. Um and does anything make it worse like the cold air or certain times of the day or like when you're laying down?",
+        "Um the cold air does make it a little bit uh worse."
       ]
-    },
-    "decreased_fluid_intake": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_sleeping": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Fainting spells or dizziness?"
+        "Fainting spells or dizziness?",
+        "No."
       ]
-    },
-    "drooling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um any shortness of breath?",
-        "No, no I don't think so."
+        "Um and any shortness of breath?",
+        "Um no, no I don't think so."
       ]
-    },
-    "extended_sleep": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any like excessive fatigue?",
         "I am tired but not, I guess it's not too bad."
       ]
     },
@@ -91,44 +52,26 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "feeling_tired": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I am tired but not, I guess it's not too bad."
-      ]
-    },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "And then any fevers?",
+        "OK, and then any fevers?",
         "Uh no."
       ]
-    },
-    "guilt_feeling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um how about headaches?",
+        "Uhm how about headaches?",
         "Uhm, no."
       ]
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your vision or hearing?",
+        "OK, any changes in your vision or hearing?",
         "No."
       ]
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
@@ -147,33 +90,23 @@
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "No like specific joint pains.",
+        "Joint pain?",
+        "Um no.",
         "Just my body feels a little achy, but."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, sorry, I asked you if you had chest pain, uh do you ever feel like your heart's racing?",
+        "Um any uh, sorry, I asked you if you had chest pain, uh do you ever feel like your heart's racing?",
         "No."
       ]
-    },
-    "passing_gas": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just had a runny nose and a cough for the past uh week."
+        "What brings you in?",
+        "Hi, I've just had a runny nose and a cough for the past uh week."
       ]
     },
     "smell_problem": {
@@ -190,25 +123,17 @@
         "Um I I can't smell as as much, but I think maybe it's just because my nose is so stuffy, but also that made me a little bit concerned about Covid, but no problems with taste."
       ]
     },
-    "tightness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Good any weight loss recently?",
+        "OK, good any weight loss recently?",
         "Um I've been trying to lose weight, but nothing unintentional I guess."
       ]
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your vision or hearing?",
+        "OK, any changes in your vision or hearing?",
         "No."
       ]
     },
@@ -219,14 +144,10 @@
         "Uhm, no."
       ]
     },
-    "watery_eyes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um any wheeziness?",
+        "No, any wheeziness?",
         "Um no."
       ]
     }

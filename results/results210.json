@@ -1,81 +1,56 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
+    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
     "infectious_symptom": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, I've been pretty pretty healthy recently. No, no cough or no infections."
+      ]
     },
     "injury": {
       "assessed": "Yes",
       "example_quotes": [
-        "So I think it started just around 2 hours ago. I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest",
-        "I got right back up. I just just had the pain.",
-        "I was wearing a helmet."
+        "Besides, just I got some scrapes here and there on my hands, but nothing else.",
+        "Oh no, I I think I got a pretty lucky."
       ]
     },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sinus_congestion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "throat_pain": {
       "assessed": "No",
       "example_quotes": []
     },
     "trauma": {
       "assessed": "Yes",
       "example_quotes": [
-        "So I think it started just around 2 hours ago. I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest"
+        "I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest and since then it's been really painful."
+      ]
+    },
+    "apnea_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "chest_discomfort": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "So I came to the emergency Department because I've been having pain in my chest.",
+        "I would say it's like the whole pretty much the left side of my chest."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
         "So I came to the emergency Department because I've been having pain in my chest.",
-        "I would say it's like the whole pretty much the left side of my chest.",
-        "I think it's more like someone is just stabbing me and then whole left side area."
+        "I think it's more like someone is just stabbing me and then whole left side area.",
+        "I'd say over the last two hours it's been getting worse."
+      ]
+    },
+    "chest_tightness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "If I. Think I have to take really really slow and shallow breaths. If I try to take a deep breath it just really hurts like taking those small, smaller breaths helps.",
+        "Uh, like I think I I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath."
       ]
     },
     "chills": {
@@ -84,11 +59,28 @@
         "No, I feel I'm fine."
       ]
     },
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "complications_during_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nope."
+        "Nope.",
+        "No, no cough or no infections."
       ]
+    },
+    "decreased_oral_intake": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
@@ -99,15 +91,22 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "If I try to take a deep breath it just really hurts like taking those small, smaller breaths helps.",
-        "I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath."
+        "Uh, like I think I I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath."
       ]
+    },
+    "ecercise": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
         "No, I feel I'm fine."
       ]
+    },
+    "grunting_noise": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
@@ -121,11 +120,19 @@
         "No, I got right back up. I just just had the pain."
       ]
     },
+    "malaise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
         "Nope."
       ]
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "numbness": {
       "assessed": "Yes",
@@ -137,13 +144,38 @@
       "assessed": "Yes",
       "example_quotes": [
         "So I came to the emergency Department because I've been having pain in my chest.",
-        "I think it's more like someone is just stabbing me and then whole left side area."
+        "I think it's more like someone is just stabbing me and then whole left side area.",
+        "I'd say over the last two hours it's been getting worse."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
         "I would say like in the last hour a little bit more so than usual."
+      ]
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um no nothing like that."
+      ]
+    },
+    "runny_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sweaty": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I'd say over the last two hours it's been getting worse."
       ]
     },
     "tingling": {

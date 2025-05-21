@@ -1,31 +1,19 @@
 {
-  "precision": 0.9,
-  "recall": 0.9473684210526315,
-  "f1_score": 0.9230769230769231,
-  "true_positives": 18,
-  "false_positives": 2,
-  "false_negatives": 1,
+  "precision": 0.95,
+  "recall": 1.0,
+  "f1_score": 0.9743589743589743,
+  "true_positives": 19,
+  "false_positives": 1,
+  "false_negatives": 0,
   "total_items": 38,
   "false_positive_details": [
     {
-      "item": "Trouble Breathing",
+      "item": "Feeling Tired",
       "result_quotes": [
-        "\"Trouble breathing?\"",
-        "\"Yeah, she just has these episodes where she just coughs and coughs and coughs, and then she'll either vomit or just turn blue, or just um, get better in a couple, couple minutes.\""
-      ]
-    },
-    {
-      "item": "Sleep Problems",
-      "result_quotes": [
-        "\"How's her sleeping like?\"",
-        "\"Uh, not great. It's just the cough keeps uh, waking her up and she just doesn't, can't fall asleep.\""
+        "Does she seem like uh, very tired or fatigued, or more irritable?",
+        "She does get tired, especially after, and then she's irritable and crying after, you know, she has these fits of coughs."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sleep Dyspnea",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

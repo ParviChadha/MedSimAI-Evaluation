@@ -1,77 +1,35 @@
 {
-  "precision": 0.7894736842105263,
-  "recall": 0.625,
-  "f1_score": 0.6976744186046512,
-  "true_positives": 15,
-  "false_positives": 4,
-  "false_negatives": 9,
-  "total_items": 43,
+  "precision": 0.9166666666666666,
+  "recall": 0.9166666666666666,
+  "f1_score": 0.9166666666666666,
+  "true_positives": 22,
+  "false_positives": 2,
+  "false_negatives": 2,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Complications During Delivery",
       "result_quotes": [
-        "\"fever\"",
-        "\"cough\"",
-        "\"stuffy nose\"",
-        "\"rash\""
-      ]
-    },
-    {
-      "item": "Sinus Congestion",
-      "result_quotes": [
-        "\"stuffy nose\""
+        "Patient: Uh yeah, I did have to take insulin. Um he was he was also a pretty big baby when he was born, um we had to, I had to give, get a C-section done.",
+        "Medical Student: OK, were there any complications with the with the procedure, with the surgery?",
+        "Patient: No no, no complications at all."
       ]
     },
     {
       "item": "Discharge",
       "result_quotes": [
-        "\"can you describe the discharge?\"",
-        "\"Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge.\""
-      ]
-    },
-    {
-      "item": "Aches",
-      "result_quotes": [
-        "\"has he had any muscle aches or body pains?\"",
-        "\"Uh, no, not really.\""
+        "Medical Student: OK. Um and uh, you told me about the the runny nose, what um, can you describe the discharge?",
+        "Patient: Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
       "item": "Widespread Pain",
       "truth_quotes": []
     },
     {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Delayed Growth Milestones",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     }
   ]

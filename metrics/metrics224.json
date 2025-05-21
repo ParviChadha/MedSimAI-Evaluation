@@ -1,65 +1,28 @@
 {
-  "precision": 0.7894736842105263,
+  "precision": 0.9375,
   "recall": 0.967741935483871,
-  "f1_score": 0.8695652173913043,
+  "f1_score": 0.9523809523809523,
   "true_positives": 30,
-  "false_positives": 8,
+  "false_positives": 2,
   "false_negatives": 1,
-  "total_items": 61,
+  "total_items": 62,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Eye Pain",
       "result_quotes": [
-        "\"No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood.\""
+        "No, nothing like that."
       ]
     },
     {
-      "item": "Lethargic",
+      "item": "Weight Changes",
       "result_quotes": [
-        "\"Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older.\""
-      ]
-    },
-    {
-      "item": "Stuffy Nose",
-      "result_quotes": [
-        "\"Nope.\" (referring to runny nose or stuffy nose)"
-      ]
-    },
-    {
-      "item": "Feeling Tired",
-      "result_quotes": [
-        "\"Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older.\""
-      ]
-    },
-    {
-      "item": "Decrease Interest In Activities",
-      "result_quotes": [
-        "\"I just can't get out of the house recently just because of my shortness of breath, but other than that I feel that I'm pretty independent.\""
-      ]
-    },
-    {
-      "item": "Weakness",
-      "result_quotes": [
-        "\"Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older.\""
-      ]
-    },
-    {
-      "item": "Diabetes",
-      "result_quotes": [
-        "\"My dad had quite a few problems. He had type 2 diabetes then he suffered from 2 strokes and then he also had a heart attack uh, in I think when he was like 56.\"",
-        "\"My mom is alive, but she suffered from Type 2 diabetes and high blood pressure as well.\""
-      ]
-    },
-    {
-      "item": "Change In Sleep",
-      "result_quotes": [
-        "\"No.\" (referring to breathlessness waking him up at night)"
+        "I think over the last few months I may have lost like around 3 three kilograms."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Nasal Congestion",
+      "item": "Pain",
       "truth_quotes": []
     }
   ]

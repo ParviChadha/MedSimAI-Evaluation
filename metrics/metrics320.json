@@ -1,41 +1,61 @@
 {
-  "precision": 0.8888888888888888,
-  "recall": 0.9696969696969697,
-  "f1_score": 0.927536231884058,
-  "true_positives": 32,
-  "false_positives": 4,
-  "false_negatives": 1,
-  "total_items": 66,
+  "precision": 0.825,
+  "recall": 1.0,
+  "f1_score": 0.9041095890410958,
+  "true_positives": 33,
+  "false_positives": 7,
+  "false_negatives": 0,
+  "total_items": 65,
   "false_positive_details": [
     {
-      "item": "Decreased Oral Intake",
+      "item": "Infection",
       "result_quotes": [
-        "Yeah, just with the trouble swallowing I'm trying to make sure that he gets like liquids because over the last few days he can't tolerate like solid foods at all."
+        "OK, do his tonsils look enlarged?",
+        "Uh, everything looks swollen in there, I don't know what's what, but it does look very angry in there."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "Chest pain?",
+        "No."
+      ]
+    },
+    {
+      "item": "Allergy Medication",
+      "result_quotes": [
+        "Any allergies?",
+        "No, not that I know."
+      ]
+    },
+    {
+      "item": "Lumps",
+      "result_quotes": [
+        "OK, have you noticed any swelling in in the neck area?",
+        "Uhm, I think there might be like a few lumps near his neck, so I don't know if that's swelling, but definitely there is. There's a few that I felt over the last few days."
+      ]
+    },
+    {
+      "item": "Diet",
+      "result_quotes": [
+        "And is he having any issues swallowing food or fluids?",
+        "Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods."
       ]
     },
     {
       "item": "Food Allergy",
       "result_quotes": [
+        "Any allergies?",
         "No, not that I know."
-      ]
-    },
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "No."
       ]
     },
     {
       "item": "Redness In Throat",
       "result_quotes": [
-        "I definitely did take a look yesterday and definitely saw a lot of redness."
+        "Have you taken a look into his throat? Is it red? Do you see any yellow streaking white stuff, anything like that?",
+        "I definitely did take a look yesterday and definitely saw a lot of redness. I don't know if I saw any white or yellow streaks, but definitely looks very red in there."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Pus",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

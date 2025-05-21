@@ -1,11 +1,24 @@
 {
-  "precision": 1.0,
+  "precision": 0.9285714285714286,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.962962962962963,
   "true_positives": 26,
-  "false_positives": 0,
+  "false_positives": 2,
   "false_negatives": 0,
-  "total_items": 26,
-  "false_positive_details": [],
+  "total_items": 52,
+  "false_positive_details": [
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "Have you had any um like night sweats?"
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?"
+      ]
+    }
+  ],
   "false_negative_details": []
 }

@@ -1,102 +1,45 @@
 {
-  "precision": 0.875,
-  "recall": 0.25,
-  "f1_score": 0.3888888888888889,
-  "true_positives": 7,
-  "false_positives": 1,
-  "false_negatives": 21,
+  "precision": 0.8709677419354839,
+  "recall": 0.9642857142857143,
+  "f1_score": 0.9152542372881356,
+  "true_positives": 27,
+  "false_positives": 4,
+  "false_negatives": 1,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Tachypnea",
+      "item": "Extended Sleep",
       "result_quotes": [
-        "I'm getting out of breath really easily, just like um, walking even, walking to the kitchen from my bedroom, I'm getting short of breath"
+        "I, I slept in a bit more than usual, um, and I was feeling quite um, drowsy.",
+        "I ended up waking up at 1:00 PM or 2:00 PM, I was just very drowsy."
+      ]
+    },
+    {
+      "item": "Smell Problem",
+      "result_quotes": [
+        "I've also noticed that I have, my breath just smells really bad. I don't know why.",
+        "Is that something you noticed recently or in the last two days?",
+        "Yeah, since yesterday. Actually, not even yesterday, this morning I would say."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "Any fatigue? Just feeling more tired today?",
+        "Maybe a little bit."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "Have you had any allergic reactions before?",
+        "No."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Issues",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
       "truth_quotes": []
     }
   ]

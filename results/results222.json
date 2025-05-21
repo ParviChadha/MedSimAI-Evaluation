@@ -1,207 +1,251 @@
 {
   "medical_history_assessed": {
-    "aches": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "changes_inappetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"No, any changes in your appetite or weight?\"",
-        "\"No.\""
+        "Any changes in your appetite or weight?",
+        "No."
       ]
     },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "injury": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you traveled at all recently or been in touch with anyone who's been sick?",
+        "Uhm, no, nothing like that."
+      ]
     },
     "lightheadedness": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Nothing like that OK, any dizziness or fainting?\"",
-        "\"No.\""
+        "Any dizziness or fainting?",
+        "No."
       ]
     },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sinus_congestion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "throat_pain": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?\"",
-        "\"No, nothing like that.\""
+        "This is an age where sometimes your peers or yourself might experiment with alcohol, smoking or recreational drugs. Have you have you tried anything at all?",
+        "No, I haven\u2019t."
       ]
     },
-    "trauma": {
+    "allergy_medication": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any allergies to any medications that you know?",
+        "Not to medication I\u2019m allergic to like strawberries and Kiwis."
+      ]
+    },
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"No, any changes in your bowel movements?\"",
-        "\"Uh no.\""
+        "Any changes in your bowel movements?",
+        "Uh no."
       ]
+    },
+    "change_in_sleep": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And are you just getting daytime symptoms or are you waking up from sleep or not being able to sleep because of your symptoms?",
+        "I woke up twice last week."
+      ]
+    },
+    "changes_in_memory": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"No. Any fevers or chills?\"",
-        "\"No.\""
+        "Any fevers or chills?",
+        "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Patient: **Yeah, hi, I'm so I have been very wheezy for the past week um and I'm also like consistently coughing all the time and it's not getting any better.\"",
-        "\"**Medical Student: **OK, and how would you describe the cough? Is it wet or dry?\"",
-        "\"**Patient: **It's dry.\""
+        "I have been very wheezy for the past week um and I'm also like consistently coughing all the time and it's not getting any better."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **Nothing like that OK, any dizziness or fainting?\"",
-        "\"**Patient: **No.\""
+        "Any dizziness or fainting?",
+        "No."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Patient: **Yeah, hi, I'm so I have been very wheezy for the past week um and I'm also like consistently coughing all the time and it's not getting any better.\"",
-        "\"**Medical Student: **OK, and are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?\"",
-        "\"**Patient: **No, nothing like that.\""
+        "Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
+        "No, nothing like that."
+      ]
+    },
+    "ear_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fainting": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any dizziness or fainting?",
+        "No."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **No. Any fatigue?\"",
-        "\"**Patient: **Um a little bit because I haven't been sleeping too well.\""
+        "Any fatigue?",
+        "Um a little bit because I haven't been sleeping too well."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **No. Any fevers or chills?\"",
-        "\"**Patient: **No.\""
+        "Any fevers or chills?",
+        "No."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **And, and any headaches? Nausea or vomiting?\"",
-        "\"**Patient: **He no, nothing like that.\""
+        "And any headaches? Nausea or vomiting?",
+        "He no, nothing like that."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **And any blood in your sputum at all?\"",
-        "\"**Patient: **No, no blood.\""
+        "Any blood in your sputum at all?",
+        "No, no blood."
       ]
+    },
+    "impending_doom_anxiety": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching_eyes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **And, and any headaches? Nausea or vomiting?\"",
-        "\"**Patient: **He no, nothing like that.\""
+        "And any headaches? Nausea or vomiting?",
+        "He no, nothing like that."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **Any sensation of chest pain or racing of your heart?\"",
-        "\"**Patient: **No.\""
+        "Any? Sensation of chest pain or racing of your heart?",
+        "No."
       ]
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **OK, and are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?\"",
-        "\"**Patient: **No, nothing like that.\""
+        "Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
+        "No, nothing like that."
       ]
     },
     "sensation_of_chest": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **Any sensation of chest pain or racing of your heart?\"",
-        "\"**Patient: **No.\""
+        "Any? Sensation of chest pain or racing of your heart?",
+        "No."
+      ]
+    },
+    "sensitive_to_allergies": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any allergies to any medications that you know?",
+        "Not to medication I\u2019m allergic to like strawberries and Kiwis."
+      ]
+    },
+    "sleep_issue": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And are you just getting daytime symptoms or are you waking up from sleep or not being able to sleep because of your symptoms?",
+        "I woke up twice last week."
+      ]
+    },
+    "sleep_issues": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And are you just getting daytime symptoms or are you waking up from sleep or not being able to sleep because of your symptoms?",
+        "I woke up twice last week."
+      ]
+    },
+    "sleeping_issues": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And are you just getting daytime symptoms or are you waking up from sleep or not being able to sleep because of your symptoms?",
+        "I woke up twice last week."
       ]
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **No, any changes in your sense of smell or taste?\"",
-        "\"**Patient: **No**"
+        "Any changes in your sense of smell or taste?",
+        "No"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **OK, and are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?\"",
-        "\"**Patient: **No, nothing like that.\""
+        "Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?",
+        "No, nothing like that."
       ]
     },
+    "sweaty": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "symptom_speedup": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptoms_stress": {
       "assessed": "No",
       "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **No, any changes in your sense of smell or taste?\"",
-        "\"**Patient: **No**"
+        "Any changes in your sense of smell or taste?",
+        "No"
+      ]
+    },
+    "tired": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fatigue?",
+        "Um a little bit because I haven't been sleeping too well."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Medical Student: **And, and any headaches? Nausea or vomiting?\"",
-        "\"**Patient: **He no, nothing like that.\""
+        "And any headaches? Nausea or vomiting?",
+        "He no, nothing like that."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "\"**Patient: **Yeah, hi, I'm so I have been very wheezy for the past week um and I'm also like consistently coughing all the time and it's not getting any better.\""
+        "I have been very wheezy for the past week um and I'm also like consistently coughing all the time and it's not getting any better."
       ]
     }
   }

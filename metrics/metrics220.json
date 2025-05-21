@@ -1,56 +1,11 @@
 {
-  "precision": 0.8387096774193549,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.8813559322033899,
-  "true_positives": 26,
-  "false_positives": 5,
-  "false_negatives": 2,
-  "total_items": 39,
-  "false_positive_details": [
-    {
-      "item": "Odynophagia",
-      "result_quotes": [
-        "Medical Student: Or any difficulty swallowing?",
-        "Patient: Uhm, no."
-      ]
-    },
-    {
-      "item": "Lightheadedness",
-      "result_quotes": [
-        "Medical Student: And have you had any episodes where you felt like you were going to faint or, yeah, pass out?",
-        "Patient: No."
-      ]
-    },
-    {
-      "item": "Aches",
-      "result_quotes": [
-        "Medical Student: OK, and then have you had any joint pains or muscle aches?",
-        "Patient: No, nothing like that."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "Medical Student: Have you had any fevers or chills?",
-        "Patient: Fevers or chills ah, no. No, nothing like that."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "Medical Student: OK, are you bringing up any sputum?",
-        "Patient: I am. Umm, and it looks yellow and sometimes even green."
-      ]
-    }
-  ],
-  "false_negative_details": [
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "true_positives": 28,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "total_items": 28,
+  "false_positive_details": [],
+  "false_negative_details": []
 }
