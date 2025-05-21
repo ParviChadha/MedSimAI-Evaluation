@@ -1,52 +1,43 @@
 {
-  "precision": 0.8064516129032258,
-  "recall": 1.0,
-  "f1_score": 0.8928571428571428,
-  "true_positives": 25,
-  "false_positives": 6,
-  "false_negatives": 0,
-  "total_items": 50,
+  "precision": 0.9130434782608695,
+  "recall": 0.84,
+  "f1_score": 0.8749999999999999,
+  "true_positives": 21,
+  "false_positives": 2,
+  "false_negatives": 4,
+  "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Underweight At Birth",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications. So yeah, things were good."
+        "cough",
+        "runny nose",
+        "sneezing"
       ]
     },
     {
-      "item": "Complications Actual Delivery",
+      "item": "Discharge",
       "result_quotes": [
-        "OK and were there any complications at all during your pregnancy with her or after the pregnancy?",
-        "No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications. So yeah, things were good."
-      ]
-    },
-    {
-      "item": "Behavior Changes",
-      "result_quotes": [
-        "Does she behave like herself Like is she more tired at all? More irritable, anything like that?",
-        "Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad."
-      ]
-    },
-    {
-      "item": "Irritable",
-      "result_quotes": [
-        "Does she behave like herself Like is she more tired at all? More irritable, anything like that?",
-        "Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad."
-      ]
-    },
-    {
-      "item": "Sensitive To Allergies",
-      "result_quotes": [
-        "OK, any exposure to any allergens or like fumes, dust animals?",
-        "No, I can't think of anything like that. We don't have any pets at Home and she's she's been hasn't been going anywhere else."
-      ]
-    },
-    {
-      "item": "Redness",
-      "result_quotes": [
-        "Uh, she did feel a bit warm to touch and has looked a bit flushed in her face. Just doesn't look like herself."
+        "runny nose"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    }
+  ]
 }

@@ -1,19 +1,73 @@
 {
-  "precision": 0.96,
-  "recall": 1.0,
-  "f1_score": 0.9795918367346939,
-  "true_positives": 24,
-  "false_positives": 1,
-  "false_negatives": 0,
+  "precision": 0.7241379310344828,
+  "recall": 0.875,
+  "f1_score": 0.7924528301886793,
+  "true_positives": 21,
+  "false_positives": 8,
+  "false_negatives": 3,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Sexually Transmitted Infection",
+      "item": "Phlegm",
       "result_quotes": [
-        "and have you had a sexually transmitted infection before?",
-        "Nope."
+        "No, not really. It's been pretty much like a dry cough. I did feel like a tickle in my throat before it started, but no, I'm not producing any phlegm."
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "I did just just last night, actually. I thought that I had some shortness of breath as well."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "No, I've been pretty lucky. No medical conditions. I don't even take any medications either."
+      ]
+    },
+    {
+      "item": "Rectal Bleeding",
+      "result_quotes": [
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "Just had to put on like 3 three blankets just to get to sleep, but I haven't really checked my temperature."
+      ]
+    },
+    {
+      "item": "Sleep Issue",
+      "result_quotes": [
+        "Just had to put on like 3 three blankets just to get to sleep, but I haven't really checked my temperature."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "I am concerned that you might might have COVID-19 or coronavirus. And so it could be COVID, or this could be another viral infection or possibly pneumonia going on."
+      ]
+    },
+    {
+      "item": "Decreased Activity",
+      "result_quotes": [
+        "Yeah, I actually didn't go to work yesterday, just felt terrible yesterday."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    }
+  ]
 }

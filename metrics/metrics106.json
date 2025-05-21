@@ -1,19 +1,37 @@
 {
-  "precision": 0.9444444444444444,
-  "recall": 1.0,
-  "f1_score": 0.9714285714285714,
-  "true_positives": 17,
-  "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 34,
+  "precision": 0.875,
+  "recall": 0.8235294117647058,
+  "f1_score": 0.8484848484848485,
+  "true_positives": 14,
+  "false_positives": 2,
+  "false_negatives": 3,
+  "total_items": 27,
   "false_positive_details": [
     {
-      "item": "Sensitive To Allergies",
+      "item": "Odynophagia",
       "result_quotes": [
-        "Any allergies?",
-        "No allergies."
+        "Patient: Um, yeah, I definitely feel like uh, I do get some pain ones following, but it may be just with the sore throat."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Patient: Hi um, yeah so I, I just came here today um, because I've just been feeling um, like I have this really sore throat for the last uh, week,"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Sinus Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    }
+  ]
 }

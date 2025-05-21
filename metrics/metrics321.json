@@ -1,40 +1,70 @@
 {
-  "precision": 0.84,
-  "recall": 1.0,
-  "f1_score": 0.9130434782608696,
-  "true_positives": 21,
-  "false_positives": 4,
-  "false_negatives": 0,
-  "total_items": 42,
+  "precision": 0.8333333333333334,
+  "recall": 0.47619047619047616,
+  "f1_score": 0.6060606060606061,
+  "true_positives": 10,
+  "false_positives": 2,
+  "false_negatives": 11,
+  "total_items": 33,
   "false_positive_details": [
     {
-      "item": "Physical Or Emotional Abuse At Home",
+      "item": "Stiffness",
       "result_quotes": [
-        "So everything at home is OK then? No ones, no ones sick at home you mentioned, right?",
-        "Yeah, no ones, no ones sick at home."
+        "I say I got a whole body, I just feel like my muscles and joints are sore."
       ]
     },
     {
-      "item": "Sexually Transmitted Infection",
+      "item": "Aches",
       "result_quotes": [
-        "Are you sexually active?",
-        "No, I'm not."
-      ]
-    },
-    {
-      "item": "Tonsilitis",
-      "result_quotes": [
-        "Yeah like a strep throat kind of thing, or or more viral?",
-        "Yeah, I do remember getting antibiotics when I was younger."
-      ]
-    },
-    {
-      "item": "Itching",
-      "result_quotes": [
-        "OK, and is it itchy?",
-        "Uh, no, it's not itchy."
+        "Yeah, I felt so some muscle aches for sure.",
+        "I say I got a whole body, I just feel like my muscles and joints are sore."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pus",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    }
+  ]
 }

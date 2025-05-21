@@ -1,11 +1,26 @@
 {
   "medical_history_assessed": {
+    "aches": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "body_ache": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "change_in_taste": {
       "assessed": "Yes",
       "example_quotes": [
-        "And his taste, any reason to believe there are any changes there?",
-        "His throat hurts a little bit and he seems to still like it, so it's hard to tell."
+        "Well, we've been kind of spoiling him a bit, just giving him ice cream. His throat hurts a little bit and he seems to still like it, so it's hard to tell."
       ]
+    },
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hyperacusis": {
       "assessed": "No",
@@ -14,8 +29,8 @@
     "infectious_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "We will do a COVID swap to rule that out because some symptoms do seem to overlap with COVID and we want to make sure to rule that out.",
-        "So those were all the questions that I had. Do you have any questions for me?"
+        "He had a runny nose a couple of days ago",
+        "He's had a cough for the last couple of days"
       ]
     },
     "injury": {
@@ -38,273 +53,179 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "pain": {
+    "odynophagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "He says his throat hurts, but I don't think it's his chest."
+        "His throat hurts"
       ]
     },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
+    "phlegm": {
       "assessed": "Yes",
       "example_quotes": [
-        "And then his mother's pregnancy with him? Any complications at that point?",
-        "Yeah he's a little pre term. 34 weeks I think."
+        "Sputum like phlegm,no he doesn't bring anything up really, so dry"
       ]
     },
-    "redness": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_harm_thoughts": {
+    "sinus_congestion": {
       "assessed": "No",
       "example_quotes": []
     },
-    "swelling": {
+    "sneezing": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Sometimes at night after a bad cough he'll be really winded"
+      ]
     },
     "throat_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "He says his throat hurts, but I don't think it's his chest.",
-        "so he has a little bit of a sore throat as well?",
-        "Yeah."
+        "His throat hurts"
       ]
     },
-    "urination": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weakness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "He's been a little bit slowed down these last couple of days",
-        "he's winded. He's weak after them."
-      ]
-    },
-    "weight_gain": {
+    "trauma": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "in terms of his bowel movements, have things been normal from that standpoint?",
-        "no, no real changes."
+        "Oh yeah, process of potty training him, but no, no real changes"
       ]
     },
     "changes_in_his_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "how about changes in his appetite?",
-        "Yeah, he's not eating as much but still, we're trying to force food into him to keep his energy up."
+        "Yeah, he's not eating as much but still, we're trying to force food into him to keep his energy up"
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "any reason for you to think he has chest pain?",
-        "He hasn't any sort of chest pain."
+        "He hasn't any sort of chest pain"
       ]
     },
     "complications_actual_delivery": {
       "assessed": "Yes",
       "example_quotes": [
-        "and any complications during the actual delivery?",
-        "not that I remember like she started going to labor early, like earlier than we expected."
+        "Yeah, not that I remember like she started going to labor early, like earlier than we expected"
       ]
     },
     "complications_during_delivery": {
       "assessed": "Yes",
       "example_quotes": [
-        "and any complications during the actual delivery?",
-        "not that I remember like she started going to labor early, like earlier than we expected."
+        "Yeah he's a little pre term. 34 weeks I think"
       ]
     },
     "confusion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any confusion or memory loss?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "constipation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, so no diarrhea, no constipation, no blood in the stool?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's just had cough for the last couple of days",
-        "So the cough, is it consistent? Or does it come and go?",
-        "It seems to be a little bit worse at night.",
-        "Would you say it's barky? Is it harsh?",
-        "Yeah, for sure. It's a good thing that you brought him in. So the cough, is it consistent? Or does it come and go?"
+        "He's had a cough for the last couple of days"
       ]
     },
     "diarrhoea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, so no diarrhea, no constipation, no blood in the stool?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "dizzyness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any dizziness or fainting spells that you've noticed?",
-        "No fainting or dizzy spells"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Has he had any fevers?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "hearing_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And his vision and hearing are normal?",
-        "I haven't noticed anything, and he can hear fine. I think he responds when I call."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "so no blood as well right?",
-        "No blood."
+        "No blood"
       ]
     },
     "irritable": {
       "assessed": "Yes",
       "example_quotes": [
-        "is he more irritable than usual?",
-        "Yeah after he has a bad coughing fit, he wants to be soothed and he'll be crying, but it's just more of because he's worn out, I believe he's tired."
+        "Yeah after he has a bad coughing fit, he wants to be soothed and he'll be crying"
       ]
     },
     "memory_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any confusion or memory loss?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "has he had a stuffy or runny nose?",
-        "Yeah yeah, that's kind of how it first started three days ago.",
-        "Does he still have a runny nose?",
-        "Umm, a little bit less now."
+        "He had a runny nose a couple of days ago"
       ]
     },
     "nausea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any nausea or vomiting?",
-        "No. We haven't been really feeding him solid meals, it's because he's been sick, we've been trying to give him soup and liquids for the most part because his throat hurts, but he's able to keep them down. So no, no nausea, no vomiting."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "passing_gas": {
       "assessed": "Yes",
       "example_quotes": [
-        "and he's passing gas?",
-        "OK yeah I'd say so."
+        "OK yeah I'd say so"
       ]
     },
     "rectal_bleeding": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, so no diarrhea, no constipation, no blood in the stool?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "has he had a stuffy or runny nose?",
-        "Yeah yeah, that's kind of how it first started three days ago."
+        "He had a runny nose a couple of days ago"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "so he has a little bit of a sore throat as well?",
-        "Yeah."
+        "His throat hurts"
       ]
     },
     "underweight_at_birth": {
       "assessed": "Yes",
       "example_quotes": [
-        "We had a little bit of stay in the NICU, just because he was a little bit underweight, but no, nothing really.",
-        "was he also underweight too? You mentioned just a little bit.",
-        "Yeah."
+        "We had a little bit of stay in the NICU, just because he was a little bit underweight"
       ]
     },
     "unexplained_weight_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about weight loss?",
-        "No weight loss, he's a fairly healthy kid."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vision_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And his vision and hearing are normal?",
-        "seems to be able to read pretty well from a distance."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any nausea or vomiting?",
-        "No. We haven't been really feeding him solid meals, it's because he's been sick, we've been trying to give him soup and liquids for the most part because his throat hurts, but he's able to keep them down. So no, no nausea, no vomiting."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any wheeziness?",
-        "No, not really. He's able to breathe. I can't really hear him breathing that much. Sometimes at night after a bad cough he'll be really winded. And yeah, it does sound like a little different when he's breathing, but just right now he sounds normal."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

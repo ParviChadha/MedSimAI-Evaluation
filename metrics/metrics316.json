@@ -1,36 +1,37 @@
 {
-  "precision": 0.9285714285714286,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.9285714285714286,
-  "true_positives": 26,
+  "precision": 0.9259259259259259,
+  "recall": 0.8928571428571429,
+  "f1_score": 0.9090909090909091,
+  "true_positives": 25,
   "false_positives": 2,
-  "false_negatives": 2,
+  "false_negatives": 3,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
+      "item": "Chest Discomfort",
       "result_quotes": [
-        "Yeah. OK. And how about allergies? Do you have any?",
-        "No, I don't think no, no allergies."
+        "Alright any chest pain?",
+        "No, I haven't had any chest pain."
       ]
     },
     {
-      "item": "Infection",
+      "item": "Diabetes",
       "result_quotes": [
-        "And anyone at home sick?",
-        "Uh, nobody's been sick at home.",
-        "OK, have you been in contact with anyone who has been sick?",
-        "Uh, I don't think so. I mean, I've been going out to do the essentials and uhm, I I do work out at a factory ah and so I mean, there might have been somebody there, but I'm not sure."
+        "I have diabetes, type 2 diabetes, and I have high blood pressure as well."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Weight Gain",
+      "item": "Constipation",
       "truth_quotes": []
     },
     {
-      "item": "Constipation",
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Weight Gain",
       "truth_quotes": []
     }
   ]

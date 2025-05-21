@@ -1,31 +1,17 @@
 {
-  "precision": 0.8888888888888888,
+  "precision": 0.96,
   "recall": 1.0,
-  "f1_score": 0.9411764705882353,
+  "f1_score": 0.9795918367346939,
   "true_positives": 24,
-  "false_positives": 3,
+  "false_positives": 1,
   "false_negatives": 0,
-  "total_items": 48,
+  "total_items": 30,
   "false_positive_details": [
-    {
-      "item": "Odynophagia",
-      "result_quotes": [
-        "And the sore throat are you having trouble or pain while swallowing any food?",
-        "It's not that bad. It's just irritation in my throat."
-      ]
-    },
-    {
-      "item": "Infection",
-      "result_quotes": [
-        "Have you had any recent exposure to anyone that's been sick recently at all?",
-        "I work at a hospital. Um, but I'm always maintaining, social distancing and I try to be very careful."
-      ]
-    },
     {
       "item": "Throat Pain",
       "result_quotes": [
-        "It started with a sore throat two nights ago",
-        "I've had a sore throat for the past two days"
+        "Patient: It's just irritation in my throat.",
+        "Medical Student: And the sore throat are you having trouble or pain while swallowing any food?"
       ]
     }
   ],

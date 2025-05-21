@@ -1,46 +1,38 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 1.0,
-  "f1_score": 0.923076923076923,
-  "true_positives": 24,
-  "false_positives": 4,
-  "false_negatives": 0,
-  "total_items": 49,
+  "precision": 0.9166666666666666,
+  "recall": 0.9166666666666666,
+  "f1_score": 0.9166666666666666,
+  "true_positives": 22,
+  "false_positives": 2,
+  "false_negatives": 2,
+  "total_items": 37,
   "false_positive_details": [
     {
-      "item": "Allergic Rhinitis",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "Do you have any allergies at all to medications or environmental allergies?",
-        "I'm allergic to cats."
+        "Medical Student: Have you been sick at all recently with fever? Chills, like runny nose?",
+        "Patient: No.",
+        "Medical Student: Have you been in contact with anyone that's been sick?"
       ]
     },
     {
-      "item": "Infection",
+      "item": "Phlegm",
       "result_quotes": [
-        "Did they tell you you had pneumonia at all at any point?",
-        "I don't think so.",
-        "Have you been in contact with anyone that's been sick?",
-        "Oh no. I've been staying at home. I've been very careful these days."
-      ]
-    },
-    {
-      "item": "Symptom Speedup",
-      "result_quotes": [
-        "It's been quite difficult I I don't even know why I waited so long. I should have come in earlier.",
-        "how fast is progressing"
-      ]
-    },
-    {
-      "item": "Lung Complications",
-      "result_quotes": [
-        "Oh, I have COPD.",
-        "And have you, when you in hospital, did they give you antibiotics or when you went home?",
-        "Yeah. Yeah they did. they did.",
-        "Did they tell you you had pneumonia at all at any point?",
-        "I don't think so.",
-        "My dad had COPD as well."
+        "Medical Student: Are you bringing up any sputum at all with your cough?",
+        "Patient: Uhm? I sometimes uhm, yeah I do.",
+        "Medical Student: OK and is is there any color to it or is it clear?",
+        "Patient: it's pink in color"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    }
+  ]
 }

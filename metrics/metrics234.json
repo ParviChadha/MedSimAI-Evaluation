@@ -1,23 +1,24 @@
 {
-  "precision": 0.8666666666666667,
-  "recall": 0.8125,
-  "f1_score": 0.8387096774193549,
-  "true_positives": 13,
+  "precision": 0.8571428571428571,
+  "recall": 0.75,
+  "f1_score": 0.7999999999999999,
+  "true_positives": 12,
   "false_positives": 2,
-  "false_negatives": 3,
-  "total_items": 32,
+  "false_negatives": 4,
+  "total_items": 28,
   "false_positive_details": [
     {
-      "item": "Decreased Fluid Intake",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "have you been able to eat and drink during this time period?",
-        "Yes."
+        "I've had this terrible fever for the past three days",
+        "stuffy nose",
+        "sore throat"
       ]
     },
     {
-      "item": "Flu Like Symptom",
+      "item": "Odynophagia",
       "result_quotes": [
-        "So it's also a possibility it might be influenza, just the seasonal flu. But until we, I suppose rule out covid, it'd be best just to keep to yourself just in case you are infectious for the meanwhile."
+        "it just hurts"
       ]
     }
   ],
@@ -27,11 +28,15 @@
       "truth_quotes": []
     },
     {
-      "item": "Dyspnea",
+      "item": "Loss Of Appetite",
       "truth_quotes": []
     },
     {
-      "item": "Loss Of Appetite",
+      "item": "Stiffness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
       "truth_quotes": []
     }
   ]

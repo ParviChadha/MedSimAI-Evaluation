@@ -1,25 +1,27 @@
 {
-  "precision": 0.9166666666666666,
-  "recall": 1.0,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 22,
-  "false_positives": 2,
-  "false_negatives": 0,
+  "precision": 0.9523809523809523,
+  "recall": 0.9090909090909091,
+  "f1_score": 0.9302325581395349,
+  "true_positives": 20,
+  "false_positives": 1,
+  "false_negatives": 2,
   "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Pregnancy",
+      "item": "Sleep Changes",
       "result_quotes": [
-        "I did have a c-section for the birth of my daughter and I was in the hospital for a few days for that."
-      ]
-    },
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "have you been diagnosed with any medical conditions at all, like high blood pressure, diabetes?",
-        "Um my blood pressure has been high and that was diagnosed in the last few years."
+        "Uh yeah I would say or sorry no my sleep has been has been poor"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    }
+  ]
 }

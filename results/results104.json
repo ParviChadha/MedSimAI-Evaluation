@@ -1,10 +1,21 @@
 {
   "medical_history_assessed": {
+    "aches": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"has he had any muscle aches or body pains?\"",
+        "\"Uh, no, not really.\""
+      ]
+    },
+    "change_in_taste": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "what um, can you describe the discharge?",
-        "Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge."
+        "\"can you describe the discharge?\"",
+        "\"Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge.\""
       ]
     },
     "grunting": {
@@ -18,9 +29,10 @@
     "infectious_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's just had this cough and uh stuffy nose",
-        "has he been diagnosed with any medical conditions before?",
-        "So it sounds like um he's had a cough, um a runny nose, um some red eye red eyes that, with some tearing as well as a rash that that started and and a fever."
+        "\"fever\"",
+        "\"cough\"",
+        "\"stuffy nose\"",
+        "\"rash\""
       ]
     },
     "injury": {
@@ -43,244 +55,183 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "palpitation": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
+    "phlegm": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rectal_bleeding": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensation_of_chest": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensitive_to_allergies": {
+    "sinus_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "are there any exposures that um could've possibly caused a skin rash like changes in like laundry detergent, or um like coming into contact with with anything on his skin or or taking um, or any anything that he was allergic to that he's been around?",
-        "and any allergies to medications or uh environment that you're aware of?",
-        "Any allergies to the dog or to pets at all?"
+        "\"stuffy nose\""
       ]
     },
-    "sexually_transmitted_infection": {
+    "sneezing": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slow_motion_feeling": {
+    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slurred_speech": {
+    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "stunning": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vision_problem": {
+    "trauma": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "has he mentioned anything about chest pain?",
-        "Uh no."
+        "\"Has he mentioned anything about chest pain?\"",
+        "\"Uh no.\""
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, um has he had any fevers or chills?",
-        "Uh yeah, he does have a fever, um 39.5 I checked yesterday."
+        "\"has he had any fevers or chills?\"",
+        "\"Uh yeah, he does have a fever, um 39.5 I checked yesterday.\""
       ]
     },
     "colored_excess_sputum": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "is the cough uh productive, is he bringing up sputum?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Hi, um my son has just been sick over the past uh couple of days. He's just had this cough",
-        "can you tell me a bit more about the cough, so it started um?"
+        "\"cough started about a week ago\"",
+        "\"is the cough uh productive, is he bringing up sputum?\"",
+        "\"No.\""
       ]
     },
     "delayed_growth_milestones": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "have there been any um concerns with his growth and or development?",
-        "No.",
-        "He's meeting all of the the milestones and doing well at school?",
-        "Yeah."
+        "\"have there been any um concerns with his growth and or development?\"",
+        "\"No.\""
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about any diarrhea?",
-        "Uh no."
+        "\"How about any diarrhea?\"",
+        "\"Uh no.\""
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "has he had any fevers or chills?",
-        "Uh yeah, he does have a fever, um 39.5 I checked yesterday.",
-        "Um he has had a fever for the past few days. Um it was around, it was less, between 37.5 to 38.5, um but then yesterday was just uh it just kept going up"
+        "\"has he had any fevers or chills?\"",
+        "\"Uh yeah, he does have a fever, um 39.5 I checked yesterday.\""
       ]
     },
     "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "has he brought up um any blood?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "how about any like changes to his appetite?",
-        "Um he's just been eating less since he's been feeling unwell.",
-        "Yeah, but he still he still he manages to eat about um half the plate. So I guess it's not too bad."
+        "\"Um how has his appetite been?\"",
+        "\"Um he's just been eating less since he's been feeling unwell.\""
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's just had this cough and uh stuffy nose",
-        "he's sort of had a stuffy nose since around the same time"
+        "\"stuffy nose\""
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Did he have uh, does he have any nausea or vomiting?",
-        "No."
+        "\"did he have uh, does he have any nausea or vomiting?\"",
+        "\"No.\""
       ]
     },
     "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "has he had any muscle aches or body pains?",
-        "Uh, no, not really.",
-        "any abdominal pain?",
-        "Um nope."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "physical_or_emotional_abuse_at_home": {
       "assessed": "Yes",
       "example_quotes": [
-        "any reasons or concerns for um uh physical or emotional abuse in the home?",
-        "No."
+        "\"any reasons or concerns for um uh physical or emotional abuse in the home?\"",
+        "\"No.\""
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's just had this cough and uh stuffy nose",
-        "he's sort of had a stuffy nose since around the same time",
-        "and you told me about the the runny nose"
+        "\"runny nose\"",
+        "\"Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge.\""
       ]
     },
     "sleep_hydrosis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "has he been having any night sweats?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "how about any changes to his sense of smell or or taste?",
-        "Uhm he, uh, he hasn't really, uh yeah, he hasn't said anything about that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "has he had a sore throat?",
-        "Um no."
+        "\"has he had a sore throat?\"",
+        "\"Um no.\""
       ]
     },
     "taste_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "how about any changes to his sense of smell or or taste?",
-        "Uhm he, uh, he hasn't really, uh yeah, he hasn't said anything about that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "trouble_breathing": {
       "assessed": "Yes",
       "example_quotes": [
-        "has he had any problems with breathing.",
-        "No."
+        "\"has he had any problems with breathing.\"",
+        "\"No.\""
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Or or any urinary problems?",
-        "No, no."
+        "\"Or or any urinary problems?\"",
+        "\"No, no.\""
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Did he have uh, does he have any nausea or vomiting?",
-        "No."
+        "\"did he have uh, does he have any nausea or vomiting?\"",
+        "\"No.\""
       ]
     },
     "weight_gain": {
       "assessed": "Yes",
       "example_quotes": [
-        "how has his weight been over the last several months, has he been gaining weight OK still?",
-        "Oh yeah."
+        "\"how has his weight been over the last several months, has he been gaining weight OK still?\"",
+        "\"Oh yeah.\""
       ]
     },
     "wheez": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "has he had any any any wheezing?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "widespread_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "has he had any muscle aches or body pains?",
-        "Uh, no, not really."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

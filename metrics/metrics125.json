@@ -1,60 +1,60 @@
 {
-  "precision": 0.8181818181818182,
-  "recall": 0.9642857142857143,
-  "f1_score": 0.8852459016393442,
-  "true_positives": 27,
-  "false_positives": 6,
-  "false_negatives": 1,
+  "precision": 0.8461538461538461,
+  "recall": 0.7857142857142857,
+  "f1_score": 0.8148148148148148,
+  "true_positives": 22,
+  "false_positives": 4,
+  "false_negatives": 6,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Pregnancy",
+      "item": "Dysuria",
       "result_quotes": [
-        "And is there any chance that uh you could be pregnant currently?",
-        "Uh, no, I don't think so."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "OK, and are you bringing up any uh sputum with the cough?",
-        "No, it's mainly like a dry cough, but I am getting like a lot of drainage and uh just congestion in my nose.",
-        "OK, so you're, you are, are you feeling um like mucus drain from your nose like into the back of your uh mouth?",
-        "Uh yeah, sometimes I feel like that over the last week."
-      ]
-    },
-    {
-      "item": "Hyperhidrosis",
-      "result_quotes": [
-        "Any uh night sweats?",
-        "No."
-      ]
-    },
-    {
-      "item": "Sensitive To Allergies",
-      "result_quotes": [
-        "OK, um do you have any allergies?",
-        "Uh no."
+        "Nope."
       ]
     },
     {
       "item": "Diabetes",
       "result_quotes": [
-        "And in the past have you been diagnosed with any medical conditions?",
         "Uh no, I've been pretty healthy."
       ]
     },
     {
-      "item": "Weight Gain",
+      "item": "Fatigue",
       "result_quotes": [
-        "And how was your weight been recently? Any changes?",
-        "No, no changes."
+        "Uh no, I've been, I haven't been tired or like, it's just been like these symptoms that don't seem to go away."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "Uh, no, I don't think so."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Speech Volume",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
       "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fatigue Extended",
       "truth_quotes": []
     }
   ]

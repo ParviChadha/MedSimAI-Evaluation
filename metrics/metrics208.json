@@ -1,39 +1,90 @@
 {
-  "precision": 0.875,
-  "recall": 1.0,
-  "f1_score": 0.9333333333333333,
-  "true_positives": 28,
+  "precision": 0.7894736842105263,
+  "recall": 0.5357142857142857,
+  "f1_score": 0.6382978723404255,
+  "true_positives": 15,
   "false_positives": 4,
-  "false_negatives": 0,
-  "total_items": 51,
+  "false_negatives": 13,
+  "total_items": 47,
   "false_positive_details": [
-    {
-      "item": "Weakness",
-      "result_quotes": [
-        "He's been a little bit slowed down these last couple of days",
-        "he's winded. He's weak after them."
-      ]
-    },
-    {
-      "item": "Pain",
-      "result_quotes": [
-        "He says his throat hurts, but I don't think it's his chest."
-      ]
-    },
     {
       "item": "Infectious Symptom",
       "result_quotes": [
-        "We will do a COVID swap to rule that out because some symptoms do seem to overlap with COVID and we want to make sure to rule that out.",
-        "So those were all the questions that I had. Do you have any questions for me?"
+        "He had a runny nose a couple of days ago",
+        "He's had a cough for the last couple of days"
       ]
     },
     {
-      "item": "Pregnancy",
+      "item": "Odynophagia",
       "result_quotes": [
-        "And then his mother's pregnancy with him? Any complications at that point?",
-        "Yeah he's a little pre term. 34 weeks I think."
+        "His throat hurts"
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "Sometimes at night after a bad cough he'll be really winded"
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Sputum like phlegm,no he doesn't bring anything up really, so dry"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Rectal Bleeding",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    }
+  ]
 }

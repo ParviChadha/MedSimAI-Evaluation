@@ -1,18 +1,38 @@
 {
   "medical_history_assessed": {
+    "aches": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, I guess I felt a bit achy."
+      ]
+    },
+    "changes_in_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I felt like I've had a fever or might be getting a fever."
+      ]
+    },
+    "itching": {
       "assessed": "No",
       "example_quotes": []
     },
     "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -24,34 +44,33 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "palpitation": {
+    "phlegm": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pressure_in_around_face": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensitive_to_allergies": {
+    "sinus_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "And, uh, any allergies to food, medications, or environmental allergies?",
-        "Yeah, I have environmental allergies. I think like usually they come on in the springtime."
+        "I have, I don't know maybe my nose is a little bit congested, but not really running."
       ]
     },
-    "sexually_transmitted_infection": {
+    "sneezing": {
       "assessed": "No",
       "example_quotes": []
     },
-    "swelling": {
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "throat_pain": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -59,90 +78,58 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in your bowel movement, diarrhea or constipation?",
         "No, no, nothing like that."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any chest pain?",
         "No, I haven't had any."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and have you had any chills or have you checked your temperature?",
-        "I haven't checked my temperature, but I felt like I've had a fever or might be getting a fever."
+        "Have you had any chills or have you checked your temperature?"
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and there's no sputum production with it? Anything coming up at all?",
         "No, I haven't noticed anything like that."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in your bowel movement, diarrhea or constipation?",
         "No, no, nothing like that."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having this cough that's been going on for the last few days",
-        "Yeah, the shortness of breath has come on since then.",
-        "Is it a dry cough or wet cough?",
-        "It's dry. It's a dry cough."
+        "I've been having this cough that's been going on for the last few days and I have had difficulty breathing."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in your bowel movement, diarrhea or constipation?",
         "No, no, nothing like that."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having this cough that's been going on for the last few days and I have had difficulty breathing.",
-        "So you noticed that you had difficulties with breathing sometime within the past three days. When do you find that it's difficult for you to breathe? Is there anything that makes breathing more difficult for you?",
-        "So say walking up the stairs or doing any exercise doesn't make it worse?",
-        "OK, so there's really no relationship with activity with your shortness of breath."
+        "I've been having this cough that's been going on for the last few days and I have had difficulty breathing."
       ]
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any redness in the eyes?"
+        "Any redness in the eyes? Or any runny nose or sore throat like flu-like symptoms?"
       ]
     },
     "fatigue_extended": {
@@ -154,62 +141,52 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and have you had any chills or have you checked your temperature?",
-        "I haven't checked my temperature, but I felt like I've had a fever or might be getting a fever."
+        "I felt like I've had a fever or might be getting a fever."
       ]
     },
     "flu_like_symptoms": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any redness in the eyes? Or any runny nose or sore throat like flu-like symptoms?",
-        "Umm, I have, I don't know maybe my nose is a little bit congested, but not really running."
+        "Any redness in the eyes? Or any runny nose or sore throat like flu-like symptoms?"
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a headache as well.",
-        "Can you tell me a bit more about your headache?",
-        "Yeah, it feels like somebody is just squeezing the top of or just squeezing the sides of my head."
+        "Yeah, I've been really tired. I guess I've just sort of been  resting the these last couple of days and I've had a headache as well."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Umm, I have, I don't know maybe my nose is a little bit congested, but not really running."
+        "I have, I don't know maybe my nose is a little bit congested, but not really running."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Can you tell me a bit more about your headache?",
-        "Yeah, it feels like somebody is just squeezing the top of or just squeezing the sides of my head."
+        "Yeah, I guess I felt a bit achy."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any redness in the eyes? Or any runny nose or sore throat like flu-like symptoms?",
-        "Umm, I have, I don't know maybe my nose is a little bit congested, but not really running."
+        "I have, I don't know maybe my nose is a little bit congested, but not really running."
       ]
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any change in your sense of smell?",
         "No, I haven't noticed that."
       ]
     },
     "sore_throat": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any redness in the eyes? Or any runny nose or sore throat like flu-like symptoms?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "What about your sense of taste? Are you able to taste things?",
         "Yeah, I think so."
       ]
     }

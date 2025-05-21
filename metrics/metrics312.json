@@ -1,48 +1,47 @@
 {
-  "precision": 0.8333333333333334,
-  "recall": 1.0,
-  "f1_score": 0.9090909090909091,
-  "true_positives": 25,
-  "false_positives": 5,
-  "false_negatives": 0,
-  "total_items": 50,
+  "precision": 0.9473684210526315,
+  "recall": 0.72,
+  "f1_score": 0.8181818181818181,
+  "true_positives": 18,
+  "false_positives": 1,
+  "false_negatives": 7,
+  "total_items": 38,
   "false_positive_details": [
     {
-      "item": "Sexually Transmitted Infection",
+      "item": "Sneezing",
       "result_quotes": [
-        "are you so sexually active?",
-        "No, I'm not."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "Have you had any fevers or chills?",
-        "Have you had contact with anyone who might be sick?",
-        "Any medical conditions that run in your family, anything related to the lungs, or otherwise?"
-      ]
-    },
-    {
-      "item": "Underweight At Birth",
-      "result_quotes": [
-        "Were you born prematurely? Were there any complications at birth?",
-        "Uh, I did have a couple of ear infections when I was, when I was younger, but I haven't had any since."
-      ]
-    },
-    {
-      "item": "Physical Or Emotional Abuse At Home",
-      "result_quotes": [
-        "Do you feel safe at home?",
-        "I do, yes."
-      ]
-    },
-    {
-      "item": "Loss Of Consciousness Due To Alcohol",
-      "result_quotes": [
-        "OK, any alcohol?",
-        "No."
+        "Yeah, I have had like some itchy eyes, that and a runny nose. I was sneezing quite a bit last week, but that has kind of ah, gone away now."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pressure",
+      "truth_quotes": []
+    }
+  ]
 }

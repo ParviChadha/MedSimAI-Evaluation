@@ -1,19 +1,108 @@
 {
-  "precision": 0.9583333333333334,
-  "recall": 1.0,
-  "f1_score": 0.9787234042553191,
-  "true_positives": 23,
-  "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 46,
+  "precision": 0.6,
+  "recall": 0.2608695652173913,
+  "f1_score": 0.36363636363636365,
+  "true_positives": 6,
+  "false_positives": 4,
+  "false_negatives": 17,
+  "total_items": 38,
   "false_positive_details": [
     {
-      "item": "Sensitive To Allergies",
+      "item": "Phlegm",
       "result_quotes": [
-        "And are you allergic to anything?",
-        "No, not that I know."
+        "Patient: Yes, I am producing a lot of sputum.",
+        "Medical Student: OK, what color is your sputum?"
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Patient: I've been having a couple of chills but like they would come and go.",
+        "Medical Student: OK, so this time around, have you had any fevers?"
+      ]
+    },
+    {
+      "item": "Respiratory Distress Syndrome",
+      "result_quotes": [
+        "Patient: I've been having trouble breathing as well.",
+        "Medical Student: OK, do you find you have any chest pain associated with the shortness of breath?"
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "Patient: Every time I'm moving around I like have to sit down and catch my breath,"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    }
+  ]
 }

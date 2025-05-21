@@ -1,52 +1,79 @@
 {
   "medical_history_assessed": {
+    "change_in_taste": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've had this terrible fever for the past three days",
+        "stuffy nose",
+        "sore throat"
+      ]
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "stiffness": {
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, do you have any neck stiffness?",
-        "No."
+        "it just hurts"
       ]
+    },
+    "phlegm": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "respiratory_distress_syndrome": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes to your bowel movements recently?",
-        "Uh no, no."
+        "no changes to your bowel movements recently?"
       ]
-    },
-    "constipation": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "you've had a cough at all?",
         "No cough."
       ]
-    },
-    "decreased_fluid_intake": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you been able to eat and drink during this time period?",
-        "Yes."
-      ]
-    },
-    "difficulty_sleeping": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you have any difficulty swallowing?",
-        "Uh no, it just hurts.",
-        "so you're still able to swallow food, swallow liquids?",
-        "Yes, that's right."
+        "I'm still able to swallow food, swallow liquids?"
       ]
     },
     "dyspnea": {
@@ -56,125 +83,64 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had this terrible fever for the past three days",
-        "that kinda progressed to a fever?",
-        "Yes, that's right."
-      ]
-    },
-    "flu_like_symptom": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "So it's also a possibility it might be influenza, just the seasonal flu. But until we, I suppose rule out covid, it'd be best just to keep to yourself just in case you are infectious for the meanwhile."
+        "I've had this terrible fever for the past three days"
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any headaches?",
         "Um no, no headaches."
       ]
     },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
     "muscle_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "what about other changes in your body? Have you noticed any fevers or any rashes, any skin changes?",
-        "No, nothing like that.",
-        "What about any pain in any of your joints and your knees, hips?",
-        "Oh, actually um not in my joints, but I've just, there there has been some muscle ache."
+        "there there has been some muscle ache."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "just before that I had a stuffy nose"
+        "stuffy nose"
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any nausea, any vomiting at all in the last little while?",
-        "No."
+        "Any nausea, any vomiting at all in the last little while?"
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any pain anywhere else in your body?",
-        "Uh, no."
+        "Any pain anywhere else in your body?"
       ]
     },
-    "redness_in_throat": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "I had a sore throat, well I still do, um and it's just not going away, so I thought I should just come in and see if I have covid or what it is.",
-        "So you have some muscle aches, little bit of fever, stuffy nose, sore throat, do you have any difficulty swallowing?"
+        "sore throat"
       ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you feel like you have any swelling around your neck? Does it feel inflamed or swollen?",
-        "No."
+        "do you feel like you have any swelling around your neck?"
       ]
-    },
-    "tonsilitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any nausea, any vomiting at all in the last little while?",
-        "No."
+        "Any nausea, any vomiting at all in the last little while?"
       ]
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "wheez": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

@@ -1,14 +1,83 @@
 {
   "medical_history_assessed": {
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um no bowel issues."
+      ]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, no chest pain."
+      ]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No fever and no chills."
+      ]
+    },
     "confusion": {
       "assessed": "No",
       "example_quotes": []
     },
-    "decrease_interest_in_activities": {
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um no bowel issues."
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, I I have a cough.",
+        "I always seem to bring up some gunk on my when I cough.",
+        "It's green, sometimes yellowish.",
+        "No blood.",
+        "Uh a couple of kleenexes. Um, I'll use, but so not that much.",
+        "It's really hard to say I've had a cough for the past few years now, but I feel like it's getting worse.",
+        "I do cough throughout the day, but I find it's worse in the morning.",
+        "If I take a deep breath, then it seems to make the cough worse and uh nothing really helps the cough go away though."
+      ]
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um no bowel issues."
+      ]
+    },
+    "drowsiness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dehydration": {
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um. I only have trouble breathing if I walk a few blocks or go up a few flights of stairs into my apartment."
+      ]
+    },
+    "dysuria": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -16,34 +85,53 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "high_blood_pressure": {
+    "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been diagnosed with any medical conditions at all, like high blood pressure, diabetes?",
-        "Um my blood pressure has been high and that was diagnosed in the last few years."
+        "Yeah, these last few months by energy has been low. I I've been feeling a lot more tired than usual."
       ]
     },
-    "hyperacusis": {
+    "fatigue_sleep": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh yeah I would say or sorry no my sleep has been has been poor"
+      ]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No fever and no chills."
+      ]
+    },
+    "foreign_body_intake": {
       "assessed": "No",
       "example_quotes": []
     },
-    "impending_doom_anxiety": {
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No blood."
+      ]
+    },
+    "hoarse_tone": {
       "assessed": "No",
       "example_quotes": []
     },
-    "low_mood": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "loss_of_appetite": {
+      "assessed": "No",
+      "example_quotes": [
+        "Uh appetite's been good I feel like I've been eating normally."
+      ]
+    },
+    "loss_of_consciousness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -51,210 +139,91 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "physical_or_emotional_abuse_at_home": {
+    "pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
+    "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "I did have a c-section for the birth of my daughter and I was in the hospital for a few days for that."
+        "Um, no chest pain."
       ]
+    },
+    "pressure_in_around_face": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tonsilitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "how about your bowel movements, any constipation or diarrhea?",
-        "Um no bowel issues."
-      ]
-    },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you been having any palpitations like a racing heart or any chest pain at all?",
-        "Um, no chest pain."
-      ]
-    },
-    "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you noticed any other symptoms like fevers or chills?",
-        "No fever and no chills."
-      ]
-    },
-    "constipation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "how about your bowel movements, any constipation or diarrhea?",
-        "Um no bowel issues."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I have a cough.",
-        "what kind of cough is it like a dry cough? Or is it more like productive cough?",
-        "I always seem to bring up some gunk on my when I cough.",
-        "when did this start?",
-        "I've had a cough for the past few years now, but I feel like it's getting worse."
-      ]
-    },
-    "diarrhoea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "how about your bowel movements, any constipation or diarrhea?",
-        "Um no bowel issues."
-      ]
-    },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you been having any other symptoms, like a runny nose, sore throat, difficulty breathing, anything like that?",
-        "Uh, no.",
-        "how about shortness of breath?",
-        "Um. I only have trouble breathing if I walk a few blocks or go up a few flights of stairs into my apartment."
-      ]
-    },
-    "fatigue_extended": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any increased fatigue or just feeling tired overall?",
-        "Yeah, these last few months by energy has been low. I I've been feeling a lot more tired than usual."
-      ]
-    },
-    "fatigue_sleep": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you been getting enough sleep?",
-        "Uh yeah I would say or sorry no my sleep has been has been poor"
-      ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you noticed any other symptoms like fevers or chills?",
-        "No fever and no chills."
-      ]
-    },
-    "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you noticed at all any kind of blood in the cough?",
-        "Well, no blood."
-      ]
-    },
-    "loss_of_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And how is your appetite been like?",
-        "Uh appetite's been good I feel like I've been eating normally."
-      ]
-    },
-    "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you been having any palpitations like a racing heart or any chest pain at all?",
-        "Um, no chest pain."
-      ]
-    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been having any other symptoms, like a runny nose, sore throat, difficulty breathing, anything like that?",
-        "Uh, no.",
-        "I think I mentioned this before, but any know any runny nose sore throat, any of those viral symptoms?",
         "Um, no runny nose, no sore throat, been feeling good."
+      ]
+    },
+    "sleep_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh yeah I would say or sorry no my sleep has been has been poor"
       ]
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you find that you wake up during the night to take a breath or anything like that?",
         "No, I haven't had to wake up in the middle of the night short of breath or anything like that."
       ]
     },
     "sleep_hydrosis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any night sweats?",
-        "No night sweats."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been having any other symptoms, like a runny nose, sore throat, difficulty breathing, anything like that?",
-        "Uh, no.",
-        "I think I mentioned this before, but any know any runny nose sore throat, any of those viral symptoms?",
         "Um, no runny nose, no sore throat, been feeling good."
       ]
+    },
+    "speech_volume": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "straining_and_chest_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you noticed at all any kind of swelling in your hands, feet, ankles?",
         "Uh, I think they're always a little swollen, but I might have just gained a few pounds over the years."
       ]
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you noticed you've had any significant weight loss or weight gain in the last few few months?",
-        "Um I maybe lost 5 pounds in the last few months. I wasn't even, I haven't been trying to lose weight but doesn't hurt though as I've I've gained a few pounds over the years so I don't mind."
+        "Um I maybe lost 5 pounds in the last few months."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you been having any kind of urinary issues?",
         "Ummm only at night time I seem to have to get up a lot to use the bathroom."
       ]
     },
     "viral_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been having any other symptoms, like a runny nose, sore throat, difficulty breathing, anything like that?",
-        "Uh, no.",
-        "I think I mentioned this before, but any know any runny nose sore throat, any of those viral symptoms?",
         "Um, no runny nose, no sore throat, been feeling good."
       ]
     },
     "weight_gain": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you noticed you've had any significant weight loss or weight gain in the last few few months?",
         "Um I maybe lost 5 pounds in the last few months. I wasn't even, I haven't been trying to lose weight but doesn't hurt though as I've I've gained a few pounds over the years so I don't mind."
       ]
     }

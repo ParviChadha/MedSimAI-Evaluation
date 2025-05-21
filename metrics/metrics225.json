@@ -1,23 +1,44 @@
 {
-  "precision": 0.96,
-  "recall": 0.96,
-  "f1_score": 0.96,
-  "true_positives": 24,
-  "false_positives": 1,
-  "false_negatives": 1,
-  "total_items": 44,
+  "precision": 0.8518518518518519,
+  "recall": 0.92,
+  "f1_score": 0.8846153846153846,
+  "true_positives": 23,
+  "false_positives": 4,
+  "false_negatives": 2,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Tingling",
+      "item": "Malaise",
       "result_quotes": [
-        "Uh, numbness or tingling?",
-        "No."
+        "Yeah, it's been there for about two, yeah about two or three days. I wake up in the morning and I've been feeling like really fatigued and achy."
+      ]
+    },
+    {
+      "item": "Coughing Fit",
+      "result_quotes": [
+        "Uh, a little bit after, um, if I have like a coughing fit that's bad enough, but um, for the most part, I've been okay."
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "Uh yeah, to cats and um, like, I think environmental triggers."
+      ]
+    },
+    {
+      "item": "Widespread Pain",
+      "result_quotes": [
+        "Yeah, it's been there for about two, yeah about two or three days. I wake up in the morning and I've been feeling like really fatigued and achy."
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Paralysis General",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
       "truth_quotes": []
     }
   ]

@@ -1,41 +1,58 @@
 {
-  "precision": 0.8666666666666667,
-  "recall": 0.9629629629629629,
-  "f1_score": 0.912280701754386,
-  "true_positives": 26,
-  "false_positives": 4,
-  "false_negatives": 1,
-  "total_items": 54,
+  "precision": 0.9444444444444444,
+  "recall": 0.6296296296296297,
+  "f1_score": 0.7555555555555556,
+  "true_positives": 17,
+  "false_positives": 1,
+  "false_negatives": 10,
+  "total_items": 38,
   "false_positive_details": [
-    {
-      "item": "Lethargic",
-      "result_quotes": [
-        "Yesterday I felt a bit drained. I just kind of like stayed in bed the whole day."
-      ]
-    },
-    {
-      "item": "Photophobia",
-      "result_quotes": [
-        "have you had any sensitivity to light or sound that, that's made the headache a lot worse?"
-      ]
-    },
-    {
-      "item": "Hyperacusis",
-      "result_quotes": [
-        "have you had any sensitivity to light or sound that, that's made the headache a lot worse?"
-      ]
-    },
     {
       "item": "Lightheadedness",
       "result_quotes": [
-        "how about any dizziness or lightheadedness?",
-        "Nope."
+        "No, nope."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
       "item": "Stunning",
+      "truth_quotes": []
+    },
+    {
+      "item": "Flu",
+      "truth_quotes": []
+    },
+    {
+      "item": "Infection",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nause",
+      "truth_quotes": []
+    },
+    {
+      "item": "Asthma",
       "truth_quotes": []
     }
   ]

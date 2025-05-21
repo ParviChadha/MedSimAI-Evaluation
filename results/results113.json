@@ -1,243 +1,222 @@
 {
   "medical_history_assessed": {
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as... Sneezing, any of those symptoms.",
-        "Um, no nothing like that."
+        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Patient: Um, no nothing like that."
       ]
+    },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "aches": {
       "assessed": "Yes",
       "example_quotes": [
         "And do you have any fatigue or muscle aches?",
-        "No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
+        "Patient: No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
       ]
-    },
-    "changes_in_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "changes_in_memory": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
         "Any pain in your chest?",
-        "No."
+        "Patient: No."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, is it a wet cough or dry cough?",
-        "It's been dry.",
         "I've been bringing up any blood or any mucus or anything like that.",
-        "No, and I haven't had a cough before either. This is new."
+        "Patient: No, and I haven't had a cough before either. This is new."
       ]
     },
-    "confusion": {
+    "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I've been having uh, this fever, the last couple of days and I've had a cough as well...",
         "And your cough, when did that start?",
-        "Cough started four days ago.",
-        "OK, is it a wet cough or dry cough?",
-        "It's been dry."
+        "Patient: Cough started four days ago."
       ]
-    },
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
         "Any pain in your belly or any diarrhea?",
-        "Nothing like that."
+        "Patient: Nothing like that."
       ]
     },
     "difficulty_breathing": {
       "assessed": "Yes",
       "example_quotes": [
         "Any difficulties breathing?",
-        "No."
+        "Patient: No."
       ]
     },
-    "dizziness": {
+    "difficulty_sleeping": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysuria": {
+    "eye_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
     "eye_redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any other symptoms, such as... red eyes?",
-        "Um, no nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
         "And do you have any fatigue or muscle aches?",
-        "No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
+        "Patient: No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I've been having uh, this fever, the last couple of days...",
-        "When did the fevers start?",
-        "I think the fever started two days ago.",
-        "Did you measure your magic temperature?",
-        "Yeah, it was 38 point .5 when I when I checked it."
+        "**Patient: **I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running."
       ]
     },
-    "grunting": {
+    "general_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any headaches?",
-        "Uh yeah I have had a bit of a headache, actually. Well, just just this morning.",
-        "How how bad is it?",
-        "It's pretty mild. Something pretty simple like it, so I've had headaches like like this before. It's not, it's not a big deal."
+        "Any headaches?",
+        "Patient: Uh yeah I have had a bit of a headache, actually. Well, just just this morning."
       ]
-    },
-    "hearing_problem": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
         "I've been bringing up any blood or any mucus or anything like that.",
-        "No, and I haven't had a cough before either. This is new."
+        "Patient: No, and I haven't had a cough before either. This is new."
       ]
+    },
+    "hyperhidrosis": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "motor_weakness": {
+    "loss_of_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses...",
-        "Um, no nothing like that."
+        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Patient: Um, no nothing like that."
       ]
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
         "Any pain in your chest?",
-        "No.",
-        "Any pain in your belly or any diarrhea?",
-        "Nothing like that."
+        "Patient: No."
       ]
-    },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
+    "rigor": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "my nose is, keeps running.",
-        "and the runny nose, what kind of discharge, or what like what's coming out of your nose?",
-        "It's pretty pretty watery and clear.",
-        "and when did that start?",
-        "that started about four days ago as well, so about the same time as the cough."
+        "**Patient: **I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running.",
+        "OK, and the runny nose, what kind of discharge, or what like what's coming out of your nose?",
+        "Patient: It's pretty pretty watery and clear."
       ]
     },
-    "self_harm_thoughts": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Do you feel safe at home?",
-        "I do, yeah. We have a good a good relationship.",
-        "Do you feel safe at school?",
-        "Yes, I do. I enjoy school. It's been fun.",
-        "anything that we discuss will see confidential between you and me, unless there's something that you could be talk about that could harm you or harm anyone else."
-      ]
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sinus_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses...",
-        "Um, no nothing like that."
+        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Patient: Um, no nothing like that."
       ]
+    },
+    "sleeping_issues": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
         "Any changes in your sense of smell?",
-        "No."
+        "Patient: No."
+      ]
+    },
+    "smell_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your sense of smell?",
+        "Patient: No."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as... sore throat?",
-        "Um, no nothing like that."
+        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Patient: Um, no nothing like that."
       ]
+    },
+    "straining_and_chest_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
         "Changes in your sense of taste?",
-        "No."
+        "Patient: No."
       ]
     },
     "teary_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as... Watery, teary eyes?",
-        "Um, no nothing like that."
+        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Patient: Um, no nothing like that."
       ]
     },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "urination": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weight_gain": {
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     }

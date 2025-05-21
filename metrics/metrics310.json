@@ -1,25 +1,16 @@
 {
-  "precision": 0.9428571428571428,
-  "recall": 1.0,
-  "f1_score": 0.9705882352941176,
-  "true_positives": 33,
-  "false_positives": 2,
-  "false_negatives": 0,
-  "total_items": 55,
-  "false_positive_details": [
+  "precision": 1.0,
+  "recall": 0.9696969696969697,
+  "f1_score": 0.9846153846153847,
+  "true_positives": 32,
+  "false_positives": 0,
+  "false_negatives": 1,
+  "total_items": 65,
+  "false_positive_details": [],
+  "false_negative_details": [
     {
-      "item": "Pregnancy",
-      "result_quotes": [
-        "Any complications with his mother's pregnancy with him?",
-        "No, it's been ah it was normal pregnancy throughout it was to term and it was a C-section delivery but that went well and he was a normal weight."
-      ]
-    },
-    {
-      "item": "Underweight At Birth",
-      "result_quotes": [
-        "it was to term and it was a C-section delivery but that went well and he was a normal weight."
-      ]
+      "item": "Nasal Congestion",
+      "truth_quotes": []
     }
-  ],
-  "false_negative_details": []
+  ]
 }

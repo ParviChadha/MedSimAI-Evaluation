@@ -1,30 +1,61 @@
 {
-  "precision": 0.9166666666666666,
-  "recall": 0.9565217391304348,
-  "f1_score": 0.9361702127659574,
-  "true_positives": 22,
-  "false_positives": 2,
-  "false_negatives": 1,
-  "total_items": 46,
+  "precision": 0.8421052631578947,
+  "recall": 0.6956521739130435,
+  "f1_score": 0.761904761904762,
+  "true_positives": 16,
+  "false_positives": 3,
+  "false_negatives": 7,
+  "total_items": 39,
   "false_positive_details": [
     {
-      "item": "Lung Complications",
+      "item": "Respiratory Distress Syndrome",
       "result_quotes": [
-        "do you have any family history of asthma or any other lung condition or any cancers?",
-        "No lung conditions or cancers."
+        "I've been experiencing some issues breathing, um and just a lot of coughing over the past year or so.",
+        "About like 200 meters."
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Tachypnea",
       "result_quotes": [
-        "In terms of your overall health, do you have any past medical conditions? You mentioned asthma, but anything else like diabetes, high blood pressure?",
-        "I have type 2 diabetes and high blood pressure."
+        "I've been experiencing some issues breathing, um and just a lot of coughing over the past year or so.",
+        "Um, it's just kind of always there, um throughout the day."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Um, yeah, it's usually clear, but sometimes it can look yellow or green.",
+        "Every time I cough maybe like the size of my thumbprint."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
       "item": "Coughing Fit",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
       "truth_quotes": []
     }
   ]

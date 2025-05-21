@@ -1,11 +1,37 @@
 {
-  "precision": 1.0,
-  "recall": 1.0,
-  "f1_score": 1.0,
-  "true_positives": 14,
-  "false_positives": 0,
-  "false_negatives": 0,
+  "precision": 0.9090909090909091,
+  "recall": 0.7142857142857143,
+  "f1_score": 0.8,
+  "true_positives": 10,
+  "false_positives": 1,
+  "false_negatives": 4,
   "total_items": 28,
-  "false_positive_details": [],
-  "false_negative_details": []
+  "false_positive_details": [
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "I kinda had like an ache on my chest, kind of like here like on the left.",
+        "And I feel like I can't like catch my breath like I can't get a good like a good breath in.",
+        "Like when I breathe in, I get like and it's like an ache."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    }
+  ]
 }

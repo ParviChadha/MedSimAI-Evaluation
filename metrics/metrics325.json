@@ -1,46 +1,24 @@
 {
-  "precision": 0.8,
-  "recall": 1.0,
-  "f1_score": 0.888888888888889,
-  "true_positives": 20,
-  "false_positives": 5,
-  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 0.85,
+  "f1_score": 0.9189189189189189,
+  "true_positives": 17,
+  "false_positives": 0,
+  "false_negatives": 3,
   "total_items": 40,
-  "false_positive_details": [
+  "false_positive_details": [],
+  "false_negative_details": [
     {
-      "item": "Itching",
-      "result_quotes": [
-        "sometimes it's just like my eyes and my nose are just itchy"
-      ]
+      "item": "Taste Loss",
+      "truth_quotes": []
     },
     {
-      "item": "Physical Or Emotional Abuse At Home",
-      "result_quotes": [
-        "Do you feel safe at home?",
-        "Oh yeah.",
-        "do you feel safe in your home and as well as outside of your home environment? Any kind of bullying or anything like that going on?",
-        "No, not at all."
-      ]
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
     },
     {
-      "item": "Itching Eyes",
-      "result_quotes": [
-        "sometimes it's just like my eyes and my nose are just itchy"
-      ]
-    },
-    {
-      "item": "Teary Eyes",
-      "result_quotes": [
-        "my eyes get like red and teary sometimes"
-      ]
-    },
-    {
-      "item": "Loss Of Consciousness Due To Alcohol",
-      "result_quotes": [
-        "do you drink alcohol at all? Or have you tried alcohol?",
-        "No, not at all."
-      ]
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
     }
-  ],
-  "false_negative_details": []
+  ]
 }

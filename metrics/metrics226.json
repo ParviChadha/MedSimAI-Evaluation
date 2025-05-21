@@ -1,21 +1,39 @@
 {
-  "precision": 0.96,
-  "recall": 1.0,
-  "f1_score": 0.9795918367346939,
-  "true_positives": 24,
-  "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 48,
+  "precision": 0.9130434782608695,
+  "recall": 0.875,
+  "f1_score": 0.8936170212765957,
+  "true_positives": 21,
+  "false_positives": 2,
+  "false_negatives": 3,
+  "total_items": 36,
   "false_positive_details": [
     {
-      "item": "Infection",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "I did have what they thought was a viral infection a week back.",
-        "Yeah, that's right.",
-        "I see, OK. Any recent contact with anyone who's been ill or any recent travel?",
-        "Uh, no."
+        "viral infection a week back",
+        "yellow discharge from the nose"
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "head ache for the past two days",
+        "facial pressure"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Bad Smell",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    }
+  ]
 }

@@ -1,25 +1,61 @@
 {
-  "precision": 0.8947368421052632,
-  "recall": 1.0,
-  "f1_score": 0.9444444444444444,
-  "true_positives": 17,
-  "false_positives": 2,
-  "false_negatives": 0,
+  "precision": 0.7333333333333333,
+  "recall": 0.6470588235294118,
+  "f1_score": 0.6875,
+  "true_positives": 11,
+  "false_positives": 4,
+  "false_negatives": 6,
   "total_items": 34,
   "false_positive_details": [
     {
-      "item": "Lung Complications",
+      "item": "Tachypnea",
       "result_quotes": [
-        "apart from the pain, are you having any other symptoms like a cough or shortness of breath and anything like that?"
+        "I'm having a hard time breathing"
       ]
     },
     {
-      "item": "Phlegm",
+      "item": "Throat Pain",
       "result_quotes": [
-        "OK, and has there been any kind of green slimy mucus in your cough at all?",
-        "No, it's been a dry cough."
+        "a couple of weeks ago I had a runny nose and sore throat and a little bit of a headache"
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "a couple of weeks ago I had a runny nose and sore throat and a little bit of a headache"
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "my entire body has been achy these past few days"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Trauma",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Injury In Chest",
+      "truth_quotes": []
+    }
+  ]
 }

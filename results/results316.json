@@ -1,69 +1,48 @@
 {
   "medical_history_assessed": {
-    "injury": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "throat_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trauma": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "aches": {
       "assessed": "Yes",
       "example_quotes": [
-        "No. Joint aches or muscle aches?",
         "Yeah, I've had like muscle aches. I guess I feel like we've been getting older, but no yeah, I've had muscle aches these last couple of days as well. Kind of generally achy."
       ]
-    },
-    "apnea_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "asthma": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "bloated": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK yeah alright uhm and you don't feel gassy or, or bloated?",
-        "No."
+        "No, I don't feel gassy or, or bloated?"
       ]
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
         "Changes to your bowel movements?",
-        "No, I I haven't had any. No diarrhea. I have had a little bit of uh like belly pain though."
+        "No, I I haven't had any. No diarrhea."
+      ]
+    },
+    "chest_discomfort": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Alright any chest pain?",
+        "No, I haven't had any chest pain."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, alright any chest pain?",
+        "Alright any chest pain?",
         "No, I haven't had any chest pain."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "And the coughing is that I dry cough or is it a wet cough?",
-        "It's a dry cough.",
-        "OK. Uhm so no sputum or blood.",
+        "Uhm so no sputum or blood.",
         "No sputum or blood in the coughing."
       ]
+    },
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "confusion": {
       "assessed": "Yes",
@@ -80,113 +59,125 @@
       "assessed": "Yes",
       "example_quotes": [
         "I've been having this uhm, cough that's been ongoing for the past two days",
-        "Can you tell me a little bit about when the coughing started?"
+        "It's a dry cough."
       ]
     },
-    "delayed_growth_milestones": {
+    "decrease_interest_in_activities": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "decreased_physical_activity": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I have diabetes, type 2 diabetes, and I have high blood pressure as well."
+      ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Changes to your bowel movements?",
         "No, I I haven't had any. No diarrhea."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah. Have you had any dizziness or fainting spells?",
+        "Yeah, Have you had any dizziness or fainting spells?",
         "No, I haven't."
       ]
+    },
+    "drowsiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've started to become short of breath as well. Even with just a little bit of exertion.",
-        "when do the shortness of breath start?",
-        "Uh, the shortness of breath has been within the last day within the last day."
+        "I've started to become short of breath as well. Even with just a little bit of exertion."
       ]
     },
-    "eye_redness": {
+    "dysuria": {
       "assessed": "No",
       "example_quotes": []
     },
-    "facial_pressure": {
+    "exercise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "extended_sleep": {
       "assessed": "No",
       "example_quotes": []
     },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah. Have you had any dizziness or fainting spells?",
+        "Yeah, Have you had any dizziness or fainting spells?",
         "No, I haven't."
       ]
+    },
+    "fatigue": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "feeling_tired": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've also been feeling feverish and I checked my temperature and it was 38 point, uh, point 5.",
-        "OK, Well that's definitely a fever."
+        "I've also been feeling feverish and I checked my temperature and it was 38 point, uh, point 5."
       ]
     },
-    "flu": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "food_allergy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah. OK. And how about allergies? Do you have any?",
-        "No, I don't think no, no allergies."
-      ]
-    },
-    "guilt_feeling": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "And any changes in your vision or hearing?",
         "No changes to vision or hearing."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Uhm so no sputum or blood.",
+        "Uhm so no sputum or blood.",
         "No sputum or blood in the coughing."
       ]
     },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And anyone at home sick?",
-        "Uh, nobody's been sick at home.",
-        "OK, have you been in contact with anyone who has been sick?",
-        "Uh, I don't think so. I mean, I've been going out to do the essentials and uhm, I I do work out at a factory ah and so I mean, there might have been somebody there, but I'm not sure."
-      ]
-    },
-    "irritable": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching_eyes": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "limp": {
+    "infectious_symptom": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, no worries and any appetite changes?",
         "Yeah, I haven't. I've had a loss of appetite."
       ]
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "memory_loss": {
       "assessed": "Yes",
@@ -195,28 +186,29 @@
         "No."
       ]
     },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nasal_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And any have you noticed, like a runny nose or a stuffy nose?",
-        "No, I haven't really had a runny nose, no runny nose."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, and no nausea or vomiting?",
-        "No, I haven't had any. Ah, actually I have been a bit, I've had some nausea as well like that's what I feel like with that with the abdominal pain."
+        "No nausea or vomiting?",
+        "Ah, actually I have been a bit, I've had some nausea as well like that's what I feel like with that with the abdominal pain."
       ]
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have had a little bit of uh like belly pain though.",
-        "When did the belly pain start?",
-        "That's just been uh, yeah, within the last day, uh, as well. It just feels a bit uncomfortable kind of all over.",
-        "Joint aches or muscle aches?",
-        "Yeah, I've had like muscle aches. I guess I feel like we've been getting older, but no yeah, I've had muscle aches these last couple of days as well. Kind of generally achy."
+        "I've had a little bit of uh like belly pain though."
       ]
     },
     "palpitation": {
@@ -226,26 +218,17 @@
         "No, no heart palpitations."
       ]
     },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "pregnancy": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rigor": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "And any have you noticed, like a runny nose or a stuffy nose?",
         "No, I haven't really had a runny nose, no runny nose."
       ]
     },
@@ -253,62 +236,53 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "sensitive_to_allergies": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about changes to your smell or taste?",
-        "No changes to smell or taste. That's been been normal.",
-        "And any changes in your smell or taste?",
-        "Uhm, so I, actually yeah, with the sense of smell like I haven't been able to smell as well. Now that you ask again, yeah, sorry."
+        "No changes to smell or taste?",
+        "Uhm, so I, actually yeah, with the sense of smell like I haven't been able to smell as well."
       ]
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptoms_stress": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about changes to your smell or taste?",
-        "No changes to smell or taste. That's been been normal.",
-        "And any changes in your smell or taste?",
-        "Uhm, so I, actually yeah, with the sense of smell like I haven't been able to smell as well. Now that you ask again, yeah, sorry."
+        "No changes to smell or taste?",
+        "No changes to smell or taste. That's been been normal."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about of, how about weight loss?",
+        "Been normal, OK, that's good. And how about of, how about weight loss?",
         "No, I haven't had any, uh, any weight loss."
       ]
     },
-    "urination": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discharge": {
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "And any changes in your vision or hearing?",
         "No changes to vision or hearing."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, and no nausea or vomiting?",
+        "No nausea or vomiting?",
         "No, I haven't had any."
       ]
     },

@@ -1,28 +1,127 @@
 {
-  "precision": 0.9411764705882353,
-  "recall": 1.0,
-  "f1_score": 0.9696969696969697,
-  "true_positives": 32,
-  "false_positives": 2,
-  "false_negatives": 0,
-  "total_items": 64,
+  "precision": 0.7272727272727273,
+  "recall": 0.25,
+  "f1_score": 0.37209302325581395,
+  "true_positives": 8,
+  "false_positives": 3,
+  "false_negatives": 24,
+  "total_items": 43,
   "false_positive_details": [
     {
-      "item": "High Blood Pressure",
+      "item": "Aches",
       "result_quotes": [
-        "Uh, so I do have diabetes and high blood pressure.",
-        "OK, do you take any medications for those conditions?",
-        "Yeah, so for diabetes I'm taking this medication called uh like I think metformin and then for the blood pressure, uh I think it's, I forgot the name, I think it's something like um ramipril or something like that.",
-        "Yeah, I've been taking that regularly and my blood pressure, I've been measuring, it's been pretty steady, no changes."
+        "No, nothing like that."
       ]
     },
     {
-      "item": "Change In Taste",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "How about um loss of smell or taste?",
-        "No, I haven't had uh, I think my taste and smell are still pretty good. No, no issues there."
+        "I've been having this cough that's getting worse over the last uh one and a half week"
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "I've also just recently in the last few days been getting some shortness of breath"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Rectal Bleeding",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dysphagia",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    }
+  ]
 }

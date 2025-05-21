@@ -1,42 +1,31 @@
 {
-  "precision": 0.8333333333333334,
-  "recall": 1.0,
-  "f1_score": 0.9090909090909091,
-  "true_positives": 20,
-  "false_positives": 4,
-  "false_negatives": 0,
-  "total_items": 40,
+  "precision": 0.9047619047619048,
+  "recall": 0.95,
+  "f1_score": 0.9268292682926829,
+  "true_positives": 19,
+  "false_positives": 2,
+  "false_negatives": 1,
+  "total_items": 35,
   "false_positive_details": [
     {
-      "item": "Self Hurt",
+      "item": "Lightheadedness",
       "result_quotes": [
-        "Do you feel safe or do you find yourself feeling unsafe or having been bullied at all?",
-        "Oh, I'm pretty, I feel pretty safe."
+        "\"Nothing like that OK, any dizziness or fainting?\"",
+        "\"No.\""
       ]
     },
     {
-      "item": "Infectious Symptom",
+      "item": "Throat Pain",
       "result_quotes": [
-        "Have you traveled at all recently or been in touch with anyone who's been sick?",
-        "Uh no, nothing like that.",
-        "Are any of them sick at all?",
-        "No everyones pretty healthy."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "And how would you describe the cough? Is it wet or dry?",
-        "It's dry."
-      ]
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "result_quotes": [
-        "Any changes in your appetite or weight?",
-        "No."
+        "\"Are you having any other symptoms like sore throat, runny nose, shortness of breath, anything like that?\"",
+        "\"No, nothing like that.\""
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Symptom Speedup",
+      "truth_quotes": []
+    }
+  ]
 }

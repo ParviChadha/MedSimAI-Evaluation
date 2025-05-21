@@ -1,39 +1,47 @@
 {
-  "precision": 0.8918918918918919,
-  "recall": 1.0,
-  "f1_score": 0.9428571428571428,
-  "true_positives": 33,
+  "precision": 0.8857142857142857,
+  "recall": 0.9393939393939394,
+  "f1_score": 0.9117647058823529,
+  "true_positives": 31,
   "false_positives": 4,
-  "false_negatives": 0,
+  "false_negatives": 2,
   "total_items": 66,
   "false_positive_details": [
     {
-      "item": "Feeling Tired",
+      "item": "Lethargic",
       "result_quotes": [
-        "I have been a bit tired in the last few days. The fevers at night and morning. Just feeling a little bit crummy, just not really energetic, energetic to do anything."
+        "I have been a bit tired in the last few days."
       ]
     },
     {
-      "item": "Redness",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "Any changes to your hair, nails, or skin, like rashes?",
-        "No, I haven't noticed anything like that."
+        "I've been having just over the last week my cough that's been getting worse and I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell",
+        "The fever I hasn't been constant, but I've like had some nights where I just feel really chilly and then during the day sometimes even getting these chills"
       ]
     },
     {
-      "item": "Changes In His Appetite",
+      "item": "Weight Changes",
       "result_quotes": [
-        "Any changes to your appetite?",
-        "just maybe in like a little bit with the loss of smell and taste, the food is not really the same in the last day, last few days?"
+        "Um, experienced any weight loss recently?",
+        "No, not that I know."
       ]
     },
     {
-      "item": "Eye Pain",
+      "item": "Flu Like Symptom",
       "result_quotes": [
-        "Any pain or discharge in the eyes or ears?",
-        "No."
+        "Not the loss of taste and smell, but like the other stuff when I just had a cold or flu like symptoms previously"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Discharge",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

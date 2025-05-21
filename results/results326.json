@@ -1,16 +1,14 @@
 {
   "medical_history_assessed": {
-    "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I see streaks of blood in the sputum that I'm producing.",
-        "Before it just used to be like white but now I'm seeing over the last, I would say two months occasionally some streaks of blood.",
-        "And how much sputum are you bringing up an in a day?",
-        "Probably like a, a couple teaspoons.",
-        "Is are you seeing like bright red blood when you're when you're coughing it up?"
-      ]
+    "aches": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -18,15 +16,14 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
+    "phlegm": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: ...I've been having this cough for around two years, which has been getting worse. But recently I've noticed that I see streaks of blood in the sputum that I'm producing.",
+        "Patient: ...Probably like a, a couple teaspoons."
+      ]
     },
     "sinus_congestion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -38,113 +35,94 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any bowel problems like diarrhea or constipation?",
-        "No, nothing like that."
-      ]
+    "asthma": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "brain_fog": {
+    "bowel_movement": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you been having any chest pain?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "chills": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "cold": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been having any fevers or chills?",
-        "No, no I haven't."
+        "Patient: ...like in the last two years, I've probably had two or three viral infections, just just just cold cold symptoms."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Before it just used to be like white but now I'm seeing over the last, I would say two months occasionally some streaks of blood."
+        "Patient: ...But recently I've noticed that I see streaks of blood in the sputum that I'm producing."
       ]
     },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "constipation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any bowel problems like diarrhea or constipation?",
-        "No, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having this cough for around two years, which has been getting worse.",
-        "And the cough started two years ago.",
-        "And, it's been gradually getting worse over that time?",
-        "It's getting more frequent and worse in nature.",
-        "is the cough worse, at any particular time of day?"
+        "Patient: ...I've been having this cough for around two years, which has been getting worse.",
+        "Medical Student: ...And, it's been gradually getting worse over that time?"
       ]
     },
-    "dehydration": {
+    "decreased_concentration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "delayed_growth_milestones": {
+    "decreased_focus": {
       "assessed": "No",
       "example_quotes": []
     },
-    "diarrhoea": {
+    "decreased_physical_activity": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any bowel problems like diarrhea or constipation?",
-        "No, nothing like that."
+        "Patient: ...I used to be able to walk at least 400 meters around the block, but now I can barely even go to the kitchen."
       ]
     },
-    "difficulty_feeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
+    "diarrhoea": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "sometimes I also feel more breathless on when I'm exerting myself more.",
-        "is this because of the shortness of breath when you are are exerting?",
-        "Yeah, that and I just start coughing so much that I just have to sit down."
+        "Patient: ...Um, sometimes I also feel more breathless on when I'm exerting myself more."
       ]
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fainting": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "sometimes I get like more tired than I used to throughout the day.",
-        "Not weakness, I'll just say more fatigue."
+        "Patient: ...Um, I do feel sometimes I get like more tired than I used to throughout the day."
       ]
     },
     "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you been having any fevers or chills?",
-        "No, no I haven't."
-      ]
-    },
-    "greenish_yellowish_nasal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
     "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you been having any headaches?",
-        "No headaches."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "No",
@@ -153,32 +131,14 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "I see streaks of blood in the sputum that I'm producing.",
-        "now I'm seeing over the last, I would say two months occasionally some streaks of blood.",
-        "is are you seeing like bright red blood when you're when you're coughing it up?",
-        "it's just like a little streaks. It's not really significant."
+        "Patient: ...But recently I've noticed that I see streaks of blood in the sputum that I'm producing."
       ]
     },
-    "inconsolable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "injury": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lethargic": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "and how is your appetite been?",
-        "Um, I think it's been pretty much the same. Sometimes when I'm coughing a lot, I don't feel like eating, but other than that it's been around the same."
-      ]
-    },
-    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -190,34 +150,25 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "nausea": {
+    "mucous_building": {
       "assessed": "Yes",
       "example_quotes": [
-        "any nausea or vomiting?",
-        "No."
+        "Patient: ...I've been having this cough for around two years, which has been getting worse."
       ]
+    },
+    "nausea": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
     "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any abdominal pain?",
-        "No.",
-        "Any joint pains or or muscle pains?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any heart palpitations?",
-        "Nope."
-      ]
-    },
-    "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -225,102 +176,78 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any runny nose or sore throat?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
-    "self_harm_thoughts": {
+    "sensitive_to_allergies": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you woken up at night extremely short of breath?",
-        "No, I'm pretty fine during the night."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_hydrosis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any night sweats?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_issue": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "how about a loss of smell or a loss of taste?",
-        "No, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any runny nose or sore throat?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "swelling": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you noticed any swelling in your feet or ankles?",
-        "No, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "how about a loss of smell or a loss of taste?",
-        "No, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you lost any weight?",
-        "Yeah, I've actually lost a significant amount of weight. I would say within the last 1 and a 1/2 months probably lost like 8 to 10 pounds.",
-        "have you been trying to lose weight?",
-        "No, not really I've just been sitting around like I can barely walk that much anymore too."
+        "Patient: ...Yeah, I've actually lost a significant amount of weight. I would say within the last 1 and a 1/2 months probably lost like 8 to 10 pounds."
       ]
     },
     "urination": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any urinary problems?",
-        "Uh no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any nausea or vomiting?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any weakness?",
-        "Not weakness, I'll just say more fatigue."
+        "Patient: ...Yeah, I've actually lost a significant amount of weight. I would say within the last 1 and a 1/2 months probably lost like 8 to 10 pounds."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any wheezing when you're breathing?",
-        "Sometimes I would say like when when, it gets worse when I'm exerting myself more, I I can get some wheezing."
+        "Patient: ...Sometimes I would say like when when, it gets worse when I'm exerting myself more, I I can get some wheezing."
       ]
     }
   }

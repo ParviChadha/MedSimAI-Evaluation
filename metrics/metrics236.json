@@ -1,28 +1,62 @@
 {
-  "precision": 0.9230769230769231,
-  "recall": 0.96,
-  "f1_score": 0.9411764705882353,
-  "true_positives": 24,
-  "false_positives": 2,
-  "false_negatives": 1,
-  "total_items": 46,
+  "precision": 0.7666666666666667,
+  "recall": 0.92,
+  "f1_score": 0.8363636363636363,
+  "true_positives": 23,
+  "false_positives": 7,
+  "false_negatives": 2,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Odynophagia",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "I said it hurts when I swallow, right.",
-        "you've had a sore throat with difficulty swallowing"
+        "Patient: Yeah, so I have like a really sore throat, started last night.",
+        "Patient: I think I had chills like yesterday."
       ]
     },
     {
-      "item": "Widespread Pain",
+      "item": "Facial Pain",
       "result_quotes": [
-        "have you had any muscle aches or pains?",
-        "No, not not that."
+        "Medical Student: Any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over? Patient: Uh, no."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Patient: Yeah, so I have like a really sore throat, started last night.",
+        "Patient: It's at the back of my throat and it's kind of burning."
+      ]
+    },
+    {
+      "item": "Lethargic",
+      "result_quotes": [
+        "Patient: I definitely feel like really tired."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "Medical Student: Um, have you had any muscle aches or pains? Patient: No, not not that."
+      ]
+    },
+    {
+      "item": "Head Ache",
+      "result_quotes": [
+        "Medical Student: Any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over? Patient: Uh, no."
+      ]
+    },
+    {
+      "item": "Cold",
+      "result_quotes": [
+        "Patient: I had a cold like 2 weeks ago, but it wasn't like this though."
       ]
     }
   ],
   "false_negative_details": [
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    },
     {
       "item": "Speech Volume",
       "truth_quotes": []

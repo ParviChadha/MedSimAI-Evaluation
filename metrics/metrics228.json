@@ -1,11 +1,27 @@
 {
-  "precision": 1.0,
-  "recall": 1.0,
-  "f1_score": 1.0,
-  "true_positives": 11,
-  "false_positives": 0,
-  "false_negatives": 0,
+  "precision": 0.9,
+  "recall": 0.8181818181818182,
+  "f1_score": 0.8571428571428572,
+  "true_positives": 9,
+  "false_positives": 1,
+  "false_negatives": 2,
   "total_items": 22,
-  "false_positive_details": [],
-  "false_negative_details": []
+  "false_positive_details": [
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "After an awful lot of coughing, yeah, it starts to feel a little raw."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Rigor",
+      "truth_quotes": []
+    }
+  ]
 }

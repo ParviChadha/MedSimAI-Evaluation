@@ -1,47 +1,47 @@
 {
-  "updated_at": "2025-05-19T17:27:05.839609",
+  "updated_at": "2025-05-21T00:39:37.209586",
   "total_conversations": 100,
   "total_operations": 200,
-  "total_input_tokens": 622620,
-  "total_output_tokens": 505738,
-  "total_tokens": 1128358,
-  "average_input_tokens_per_operation": 3113.1,
-  "average_output_tokens_per_operation": 2528.69,
+  "total_input_tokens": 607862,
+  "total_output_tokens": 372321,
+  "total_tokens": 980183,
+  "average_input_tokens_per_operation": 3039.31,
+  "average_output_tokens_per_operation": 1861.605,
   "operation_totals": {
     "results": {
-      "input_tokens": 363434,
-      "output_tokens": 158956,
-      "total_tokens": 522390,
+      "input_tokens": 348676,
+      "output_tokens": 114190,
+      "total_tokens": 462866,
       "count": 100,
-      "avg_input_tokens": 3634.34,
-      "avg_output_tokens": 1589.56,
-      "avg_total_tokens": 5223.9
+      "avg_input_tokens": 3486.76,
+      "avg_output_tokens": 1141.9,
+      "avg_total_tokens": 4628.66
     },
     "filter_similar_symptoms": {
       "input_tokens": 259186,
-      "output_tokens": 346782,
-      "total_tokens": 605968,
+      "output_tokens": 258131,
+      "total_tokens": 517317,
       "count": 100,
       "avg_input_tokens": 2591.86,
-      "avg_output_tokens": 3467.82,
-      "avg_total_tokens": 6059.68
+      "avg_output_tokens": 2581.31,
+      "avg_total_tokens": 5173.17
     }
   },
   "model_statistics": {
-    "openai": {
+    "fireworks": {
       "conversations": 200,
-      "input_tokens": 622620,
-      "output_tokens": 505738,
-      "total_tokens": 1128358,
+      "input_tokens": 607862,
+      "output_tokens": 372321,
+      "total_tokens": 980183,
       "operations": {
         "results": {
-          "input_tokens": 363434,
-          "output_tokens": 158956,
+          "input_tokens": 348676,
+          "output_tokens": 114190,
           "count": 100
         },
         "filter_similar_symptoms": {
           "input_tokens": 259186,
-          "output_tokens": 346782,
+          "output_tokens": 258131,
           "count": 100
         }
       }
@@ -49,267 +49,10 @@
   },
   "conversation_metrics": [
     {
-      "conversation_id": "101",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T16:58:27.922046",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2153,
-          "prompt": 1830,
-          "total": 3983
-        },
-        "output_tokens": 1910,
-        "total_tokens": 5893
-      }
-    },
-    {
-      "conversation_id": "102",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T16:57:56.480709",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1649,
-          "prompt": 1758,
-          "total": 3407
-        },
-        "output_tokens": 2062,
-        "total_tokens": 5469
-      }
-    },
-    {
       "conversation_id": "103",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T16:57:51.669494",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1565,
-          "prompt": 1662,
-          "total": 3227
-        },
-        "output_tokens": 1419,
-        "total_tokens": 4646
-      }
-    },
-    {
-      "conversation_id": "104",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T16:59:26.211287",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1894,
-          "prompt": 1699,
-          "total": 3593
-        },
-        "output_tokens": 1719,
-        "total_tokens": 5312
-      }
-    },
-    {
-      "conversation_id": "105",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T16:59:45.952369",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2179,
-          "prompt": 1859,
-          "total": 4038
-        },
-        "output_tokens": 1937,
-        "total_tokens": 5975
-      }
-    },
-    {
-      "conversation_id": "106",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T16:59:06.011388",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1346,
-          "prompt": 1239,
-          "total": 2585
-        },
-        "output_tokens": 1065,
-        "total_tokens": 3650
-      }
-    },
-    {
-      "conversation_id": "107",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T16:59:40.216414",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2953,
-          "prompt": 1683,
-          "total": 4636
-        },
-        "output_tokens": 2203,
-        "total_tokens": 6839
-      }
-    },
-    {
-      "conversation_id": "108",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:01:10.121700",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2499,
-          "prompt": 1742,
-          "total": 4241
-        },
-        "output_tokens": 1897,
-        "total_tokens": 6138
-      }
-    },
-    {
-      "conversation_id": "109",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:00:49.641477",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2530,
-          "prompt": 1900,
-          "total": 4430
-        },
-        "output_tokens": 1820,
-        "total_tokens": 6250
-      }
-    },
-    {
-      "conversation_id": "110",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:01:19.435560",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2502,
-          "prompt": 1181,
-          "total": 3683
-        },
-        "output_tokens": 1164,
-        "total_tokens": 4847
-      }
-    },
-    {
-      "conversation_id": "111",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:01:25.425403",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2253,
-          "prompt": 989,
-          "total": 3242
-        },
-        "output_tokens": 1006,
-        "total_tokens": 4248
-      }
-    },
-    {
-      "conversation_id": "112",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:02:28.475221",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2205,
-          "prompt": 1589,
-          "total": 3794
-        },
-        "output_tokens": 1619,
-        "total_tokens": 5413
-      }
-    },
-    {
-      "conversation_id": "113",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:02:29.780595",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1491,
-          "prompt": 1414,
-          "total": 2905
-        },
-        "output_tokens": 1453,
-        "total_tokens": 4358
-      }
-    },
-    {
-      "conversation_id": "114",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:02:58.055045",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1767,
-          "prompt": 1502,
-          "total": 3269
-        },
-        "output_tokens": 1348,
-        "total_tokens": 4617
-      }
-    },
-    {
-      "conversation_id": "115",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:02:16.851041",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2043,
-          "prompt": 1446,
-          "total": 3489
-        },
-        "output_tokens": 1254,
-        "total_tokens": 4743
-      }
-    },
-    {
-      "conversation_id": "101",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T16:57:53.770672",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 143,
-          "additional_symptoms": 935,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3920,
-        "total_tokens": 6506
-      }
-    },
-    {
-      "conversation_id": "102",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T16:57:33.408498",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 128,
-          "additional_symptoms": 950,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2160,
-        "total_tokens": 4746
-      }
-    },
-    {
-      "conversation_id": "103",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T16:57:30.169499",
+      "timestamp": "2025-05-19T17:34:16.286760",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 124,
@@ -317,95 +60,15 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 2480,
-        "total_tokens": 5066
+        "output_tokens": 3570,
+        "total_tokens": 6156
       }
     },
     {
-      "conversation_id": "104",
-      "model": "openai",
+      "conversation_id": "102",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T16:58:59.188169",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 123,
-          "additional_symptoms": 955,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4557,
-        "total_tokens": 7143
-      }
-    },
-    {
-      "conversation_id": "105",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T16:59:12.336461",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 155,
-          "additional_symptoms": 923,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3943,
-        "total_tokens": 6529
-      }
-    },
-    {
-      "conversation_id": "106",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T16:58:51.245431",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 79,
-          "additional_symptoms": 999,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2566,
-        "total_tokens": 5152
-      }
-    },
-    {
-      "conversation_id": "107",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T16:59:15.845312",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 119,
-          "additional_symptoms": 959,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2424,
-        "total_tokens": 5010
-      }
-    },
-    {
-      "conversation_id": "108",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:00:43.912301",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 123,
-          "additional_symptoms": 955,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4010,
-        "total_tokens": 6596
-      }
-    },
-    {
-      "conversation_id": "109",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:00:25.880470",
+      "timestamp": "2025-05-19T17:34:18.536406",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 128,
@@ -413,15 +76,247 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 3817,
-        "total_tokens": 6403
+        "output_tokens": 3596,
+        "total_tokens": 6182
+      }
+    },
+    {
+      "conversation_id": "101",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:34:18.587969",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 143,
+          "additional_symptoms": 935,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3281,
+        "total_tokens": 5867
+      }
+    },
+    {
+      "conversation_id": "104",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:34:19.772431",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 123,
+          "additional_symptoms": 955,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3258,
+        "total_tokens": 5844
+      }
+    },
+    {
+      "conversation_id": "103",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:34:32.334969",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1565,
+          "prompt": 1126,
+          "total": 2691
+        },
+        "output_tokens": 1207,
+        "total_tokens": 3898
+      }
+    },
+    {
+      "conversation_id": "102",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:34:34.723342",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1649,
+          "prompt": 1561,
+          "total": 3210
+        },
+        "output_tokens": 1200,
+        "total_tokens": 4410
+      }
+    },
+    {
+      "conversation_id": "101",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:34:36.354457",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2153,
+          "prompt": 1650,
+          "total": 3803
+        },
+        "output_tokens": 1319,
+        "total_tokens": 5122
+      }
+    },
+    {
+      "conversation_id": "104",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:34:36.945595",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1894,
+          "prompt": 1539,
+          "total": 3433
+        },
+        "output_tokens": 1277,
+        "total_tokens": 4710
+      }
+    },
+    {
+      "conversation_id": "105",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:34:55.608957",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 155,
+          "additional_symptoms": 923,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1828,
+        "total_tokens": 4414
+      }
+    },
+    {
+      "conversation_id": "107",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:35:12.397475",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 119,
+          "additional_symptoms": 959,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3166,
+        "total_tokens": 5752
+      }
+    },
+    {
+      "conversation_id": "106",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:35:15.165139",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 79,
+          "additional_symptoms": 999,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3736,
+        "total_tokens": 6322
+      }
+    },
+    {
+      "conversation_id": "105",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:35:35.543011",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2179,
+          "prompt": 2173,
+          "total": 4352
+        },
+        "output_tokens": 1525,
+        "total_tokens": 5877
+      }
+    },
+    {
+      "conversation_id": "106",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:35:42.620712",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1346,
+          "prompt": 1012,
+          "total": 2358
+        },
+        "output_tokens": 972,
+        "total_tokens": 3330
+      }
+    },
+    {
+      "conversation_id": "107",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:35:46.830616",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2953,
+          "prompt": 1512,
+          "total": 4465
+        },
+        "output_tokens": 1371,
+        "total_tokens": 5836
+      }
+    },
+    {
+      "conversation_id": "108",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:35:46.907306",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 123,
+          "additional_symptoms": 955,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3424,
+        "total_tokens": 6010
+      }
+    },
+    {
+      "conversation_id": "108",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:36:10.765687",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2499,
+          "prompt": 1486,
+          "total": 3985
+        },
+        "output_tokens": 1220,
+        "total_tokens": 5205
+      }
+    },
+    {
+      "conversation_id": "109",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:36:28.787193",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 128,
+          "additional_symptoms": 950,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3025,
+        "total_tokens": 5611
       }
     },
     {
       "conversation_id": "110",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:01:03.203844",
+      "timestamp": "2025-05-19T17:36:45.792869",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 83,
@@ -429,15 +324,15 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 3210,
-        "total_tokens": 5796
+        "output_tokens": 3287,
+        "total_tokens": 5873
       }
     },
     {
       "conversation_id": "111",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:01:06.649965",
+      "timestamp": "2025-05-19T17:37:00.538949",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 64,
@@ -445,15 +340,60 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 4829,
-        "total_tokens": 7415
+        "output_tokens": 3545,
+        "total_tokens": 6131
+      }
+    },
+    {
+      "conversation_id": "109",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:37:08.729891",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2530,
+          "prompt": 1903,
+          "total": 4433
+        },
+        "output_tokens": 1271,
+        "total_tokens": 5704
+      }
+    },
+    {
+      "conversation_id": "110",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:37:08.944876",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2502,
+          "prompt": 1191,
+          "total": 3693
+        },
+        "output_tokens": 778,
+        "total_tokens": 4471
+      }
+    },
+    {
+      "conversation_id": "111",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:37:16.833484",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2253,
+          "prompt": 923,
+          "total": 3176
+        },
+        "output_tokens": 815,
+        "total_tokens": 3991
       }
     },
     {
       "conversation_id": "112",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:02:08.090458",
+      "timestamp": "2025-05-19T17:37:27.255083",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 131,
@@ -461,31 +401,30 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 3957,
-        "total_tokens": 6543
+        "output_tokens": 3643,
+        "total_tokens": 6229
       }
     },
     {
-      "conversation_id": "113",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:02:15.613197",
+      "conversation_id": "112",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:37:48.456015",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 97,
-          "additional_symptoms": 981,
-          "prompt": 1508,
-          "total": 2586
+          "transcript": 2205,
+          "prompt": 1516,
+          "total": 3721
         },
-        "output_tokens": 3680,
-        "total_tokens": 6266
+        "output_tokens": 902,
+        "total_tokens": 4623
       }
     },
     {
       "conversation_id": "114",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:02:38.600549",
+      "timestamp": "2025-05-19T17:37:57.024532",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 145,
@@ -493,15 +432,15 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 4300,
-        "total_tokens": 6886
+        "output_tokens": 2805,
+        "total_tokens": 5391
       }
     },
     {
       "conversation_id": "115",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:02:01.013997",
+      "timestamp": "2025-05-19T17:38:01.872273",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 100,
@@ -509,46 +448,76 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 2458,
-        "total_tokens": 5044
+        "output_tokens": 2706,
+        "total_tokens": 5292
       }
     },
     {
-      "conversation_id": "118",
-      "model": "openai",
+      "conversation_id": "113",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:02:58.069109",
+      "timestamp": "2025-05-19T17:38:03.406411",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 118,
-          "additional_symptoms": 960,
+          "existing_symptoms": 97,
+          "additional_symptoms": 981,
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 2290,
-        "total_tokens": 4876
+        "output_tokens": 3192,
+        "total_tokens": 5778
       }
     },
     {
-      "conversation_id": "118",
-      "model": "openai",
+      "conversation_id": "115",
+      "model": "fireworks",
       "operation": "results",
-      "timestamp": "2025-05-19T17:03:15.460746",
+      "timestamp": "2025-05-19T17:38:24.034536",
       "metrics": {
         "input_tokens": {
-          "transcript": 1816,
-          "prompt": 1659,
-          "total": 3475
+          "transcript": 2043,
+          "prompt": 1469,
+          "total": 3512
         },
-        "output_tokens": 1486,
-        "total_tokens": 4961
+        "output_tokens": 1094,
+        "total_tokens": 4606
+      }
+    },
+    {
+      "conversation_id": "113",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:38:28.898658",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1491,
+          "prompt": 1418,
+          "total": 2909
+        },
+        "output_tokens": 1414,
+        "total_tokens": 4323
+      }
+    },
+    {
+      "conversation_id": "114",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:38:30.642124",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1767,
+          "prompt": 2005,
+          "total": 3772
+        },
+        "output_tokens": 1859,
+        "total_tokens": 5631
       }
     },
     {
       "conversation_id": "117",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:03:37.378219",
+      "timestamp": "2025-05-19T17:38:36.583597",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 171,
@@ -556,30 +525,15 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 3904,
-        "total_tokens": 6490
-      }
-    },
-    {
-      "conversation_id": "117",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:03:56.417133",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2508,
-          "prompt": 2008,
-          "total": 4516
-        },
-        "output_tokens": 1876,
-        "total_tokens": 6392
+        "output_tokens": 483,
+        "total_tokens": 3069
       }
     },
     {
       "conversation_id": "116",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:04:08.717237",
+      "timestamp": "2025-05-19T17:38:48.710367",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 83,
@@ -587,1333 +541,15 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 4759,
-        "total_tokens": 7345
+        "output_tokens": 3789,
+        "total_tokens": 6375
       }
     },
     {
-      "conversation_id": "120",
-      "model": "openai",
+      "conversation_id": "118",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:04:24.740522",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 145,
-          "additional_symptoms": 933,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4158,
-        "total_tokens": 6744
-      }
-    },
-    {
-      "conversation_id": "116",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:04:25.084656",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1870,
-          "prompt": 1171,
-          "total": 3041
-        },
-        "output_tokens": 1812,
-        "total_tokens": 4853
-      }
-    },
-    {
-      "conversation_id": "119",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:04:34.104655",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 74,
-          "additional_symptoms": 1004,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 5711,
-        "total_tokens": 8297
-      }
-    },
-    {
-      "conversation_id": "121",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:04:38.070461",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 138,
-          "additional_symptoms": 940,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2678,
-        "total_tokens": 5264
-      }
-    },
-    {
-      "conversation_id": "120",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:04:43.524203",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2265,
-          "prompt": 1592,
-          "total": 3857
-        },
-        "output_tokens": 1471,
-        "total_tokens": 5328
-      }
-    },
-    {
-      "conversation_id": "119",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:04:45.358632",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1319,
-          "prompt": 655,
-          "total": 1974
-        },
-        "output_tokens": 900,
-        "total_tokens": 2874
-      }
-    },
-    {
-      "conversation_id": "121",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:04:55.917727",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2192,
-          "prompt": 1929,
-          "total": 4121
-        },
-        "output_tokens": 1882,
-        "total_tokens": 6003
-      }
-    },
-    {
-      "conversation_id": "122",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:05:16.025618",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 120,
-          "additional_symptoms": 958,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2728,
-        "total_tokens": 5314
-      }
-    },
-    {
-      "conversation_id": "123",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:05:20.390373",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 159,
-          "additional_symptoms": 919,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2446,
-        "total_tokens": 5032
-      }
-    },
-    {
-      "conversation_id": "122",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:05:34.726014",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2266,
-          "prompt": 1682,
-          "total": 3948
-        },
-        "output_tokens": 1855,
-        "total_tokens": 5803
-      }
-    },
-    {
-      "conversation_id": "125",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:05:46.815050",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 140,
-          "additional_symptoms": 938,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2703,
-        "total_tokens": 5289
-      }
-    },
-    {
-      "conversation_id": "123",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:05:46.832857",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2528,
-          "prompt": 2232,
-          "total": 4760
-        },
-        "output_tokens": 1999,
-        "total_tokens": 6759
-      }
-    },
-    {
-      "conversation_id": "124",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:05:51.379663",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 159,
-          "additional_symptoms": 919,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 5422,
-        "total_tokens": 8008
-      }
-    },
-    {
-      "conversation_id": "125",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:06:04.223259",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1978,
-          "prompt": 1919,
-          "total": 3897
-        },
-        "output_tokens": 1995,
-        "total_tokens": 5892
-      }
-    },
-    {
-      "conversation_id": "124",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:06:26.055115",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2216,
-          "prompt": 1189,
-          "total": 3405
-        },
-        "output_tokens": 1402,
-        "total_tokens": 4807
-      }
-    },
-    {
-      "conversation_id": "126",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:06:42.487927",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 59,
-          "additional_symptoms": 1019,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2868,
-        "total_tokens": 5454
-      }
-    },
-    {
-      "conversation_id": "126",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:06:54.707416",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2264,
-          "prompt": 923,
-          "total": 3187
-        },
-        "output_tokens": 883,
-        "total_tokens": 4070
-      }
-    },
-    {
-      "conversation_id": "127",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:07:08.623517",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 64,
-          "additional_symptoms": 1014,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4831,
-        "total_tokens": 7417
-      }
-    },
-    {
-      "conversation_id": "128",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:07:14.749587",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 114,
-          "additional_symptoms": 964,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4565,
-        "total_tokens": 7151
-      }
-    },
-    {
-      "conversation_id": "127",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:07:20.613109",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2092,
-          "prompt": 1039,
-          "total": 3131
-        },
-        "output_tokens": 963,
-        "total_tokens": 4094
-      }
-    },
-    {
-      "conversation_id": "128",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:07:33.346698",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1696,
-          "prompt": 1628,
-          "total": 3324
-        },
-        "output_tokens": 1330,
-        "total_tokens": 4654
-      }
-    },
-    {
-      "conversation_id": "130",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:07:51.967448",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 130,
-          "additional_symptoms": 948,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2928,
-        "total_tokens": 5514
-      }
-    },
-    {
-      "conversation_id": "129",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:07:53.887416",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 174,
-          "additional_symptoms": 904,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4023,
-        "total_tokens": 6609
-      }
-    },
-    {
-      "conversation_id": "130",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:08:15.498394",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1738,
-          "prompt": 1801,
-          "total": 3539
-        },
-        "output_tokens": 1929,
-        "total_tokens": 5468
-      }
-    },
-    {
-      "conversation_id": "131",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:08:17.831135",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 120,
-          "additional_symptoms": 958,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3671,
-        "total_tokens": 6257
-      }
-    },
-    {
-      "conversation_id": "129",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:08:21.428509",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1724,
-          "prompt": 1774,
-          "total": 3498
-        },
-        "output_tokens": 1605,
-        "total_tokens": 5103
-      }
-    },
-    {
-      "conversation_id": "132",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:08:30.040071",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 141,
-          "additional_symptoms": 937,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3695,
-        "total_tokens": 6281
-      }
-    },
-    {
-      "conversation_id": "131",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:08:38.542939",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2426,
-          "prompt": 1788,
-          "total": 4214
-        },
-        "output_tokens": 1700,
-        "total_tokens": 5914
-      }
-    },
-    {
-      "conversation_id": "132",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:09:05.059064",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1638,
-          "prompt": 1945,
-          "total": 3583
-        },
-        "output_tokens": 1778,
-        "total_tokens": 5361
-      }
-    },
-    {
-      "conversation_id": "133",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:09:08.123236",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 155,
-          "additional_symptoms": 923,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4112,
-        "total_tokens": 6698
-      }
-    },
-    {
-      "conversation_id": "134",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:09:16.644179",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 116,
-          "additional_symptoms": 962,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2947,
-        "total_tokens": 5533
-      }
-    },
-    {
-      "conversation_id": "133",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:09:27.680798",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2050,
-          "prompt": 1618,
-          "total": 3668
-        },
-        "output_tokens": 1670,
-        "total_tokens": 5338
-      }
-    },
-    {
-      "conversation_id": "134",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:09:33.597635",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2286,
-          "prompt": 1675,
-          "total": 3961
-        },
-        "output_tokens": 1563,
-        "total_tokens": 5524
-      }
-    },
-    {
-      "conversation_id": "135",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:09:39.610349",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 56,
-          "additional_symptoms": 1022,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4383,
-        "total_tokens": 6969
-      }
-    },
-    {
-      "conversation_id": "135",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:09:47.350399",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1766,
-          "prompt": 855,
-          "total": 2621
-        },
-        "output_tokens": 587,
-        "total_tokens": 3208
-      }
-    },
-    {
-      "conversation_id": "136",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:09:54.420031",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 157,
-          "additional_symptoms": 921,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3178,
-        "total_tokens": 5764
-      }
-    },
-    {
-      "conversation_id": "136",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:10:19.018398",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2869,
-          "prompt": 2191,
-          "total": 5060
-        },
-        "output_tokens": 3000,
-        "total_tokens": 8060
-      }
-    },
-    {
-      "conversation_id": "206",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:11:34.879442",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 77,
-          "additional_symptoms": 1001,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2769,
-        "total_tokens": 5355
-      }
-    },
-    {
-      "conversation_id": "204",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:11:35.788783",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 120,
-          "additional_symptoms": 958,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2846,
-        "total_tokens": 5432
-      }
-    },
-    {
-      "conversation_id": "205",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:11:46.798631",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 67,
-          "additional_symptoms": 1011,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3782,
-        "total_tokens": 6368
-      }
-    },
-    {
-      "conversation_id": "203",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:11:49.216553",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 140,
-          "additional_symptoms": 938,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3653,
-        "total_tokens": 6239
-      }
-    },
-    {
-      "conversation_id": "206",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:11:50.079058",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1346,
-          "prompt": 1158,
-          "total": 2504
-        },
-        "output_tokens": 917,
-        "total_tokens": 3421
-      }
-    },
-    {
-      "conversation_id": "204",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:11:52.159566",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1743,
-          "prompt": 1728,
-          "total": 3471
-        },
-        "output_tokens": 1561,
-        "total_tokens": 5032
-      }
-    },
-    {
-      "conversation_id": "201",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:11:54.018036",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 125,
-          "additional_symptoms": 953,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4340,
-        "total_tokens": 6926
-      }
-    },
-    {
-      "conversation_id": "202",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:11:59.248251",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 122,
-          "additional_symptoms": 956,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3311,
-        "total_tokens": 5897
-      }
-    },
-    {
-      "conversation_id": "205",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:12:00.665184",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1499,
-          "prompt": 1033,
-          "total": 2532
-        },
-        "output_tokens": 961,
-        "total_tokens": 3493
-      }
-    },
-    {
-      "conversation_id": "203",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:12:10.883391",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1755,
-          "prompt": 1950,
-          "total": 3705
-        },
-        "output_tokens": 1900,
-        "total_tokens": 5605
-      }
-    },
-    {
-      "conversation_id": "202",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:12:15.913291",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2425,
-          "prompt": 1838,
-          "total": 4263
-        },
-        "output_tokens": 1742,
-        "total_tokens": 6005
-      }
-    },
-    {
-      "conversation_id": "201",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:12:27.196095",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2310,
-          "prompt": 1474,
-          "total": 3784
-        },
-        "output_tokens": 1350,
-        "total_tokens": 5134
-      }
-    },
-    {
-      "conversation_id": "207",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:12:50.358501",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 130,
-          "additional_symptoms": 948,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4343,
-        "total_tokens": 6929
-      }
-    },
-    {
-      "conversation_id": "208",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:12:59.734791",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 139,
-          "additional_symptoms": 939,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4770,
-        "total_tokens": 7356
-      }
-    },
-    {
-      "conversation_id": "212",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:13:00.100763",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 140,
-          "additional_symptoms": 938,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2268,
-        "total_tokens": 4854
-      }
-    },
-    {
-      "conversation_id": "210",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:13:08.668038",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 84,
-          "additional_symptoms": 994,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2744,
-        "total_tokens": 5330
-      }
-    },
-    {
-      "conversation_id": "207",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:13:09.994496",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1895,
-          "prompt": 1533,
-          "total": 3428
-        },
-        "output_tokens": 1656,
-        "total_tokens": 5084
-      }
-    },
-    {
-      "conversation_id": "208",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:13:17.576653",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2881,
-          "prompt": 1780,
-          "total": 4661
-        },
-        "output_tokens": 1932,
-        "total_tokens": 6593
-      }
-    },
-    {
-      "conversation_id": "210",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:13:21.665229",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1306,
-          "prompt": 1331,
-          "total": 2637
-        },
-        "output_tokens": 1054,
-        "total_tokens": 3691
-      }
-    },
-    {
-      "conversation_id": "212",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:13:22.863404",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2205,
-          "prompt": 2041,
-          "total": 4246
-        },
-        "output_tokens": 2067,
-        "total_tokens": 6313
-      }
-    },
-    {
-      "conversation_id": "209",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:13:23.634387",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 79,
-          "additional_symptoms": 999,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3335,
-        "total_tokens": 5921
-      }
-    },
-    {
-      "conversation_id": "211",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:13:35.910149",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 63,
-          "additional_symptoms": 1015,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4265,
-        "total_tokens": 6851
-      }
-    },
-    {
-      "conversation_id": "211",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:13:45.276069",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1946,
-          "prompt": 592,
-          "total": 2538
-        },
-        "output_tokens": 900,
-        "total_tokens": 3438
-      }
-    },
-    {
-      "conversation_id": "209",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:13:47.983968",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2694,
-          "prompt": 1169,
-          "total": 3863
-        },
-        "output_tokens": 1396,
-        "total_tokens": 5259
-      }
-    },
-    {
-      "conversation_id": "215",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:13:51.975938",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 116,
-          "additional_symptoms": 962,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2258,
-        "total_tokens": 4844
-      }
-    },
-    {
-      "conversation_id": "214",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:14:02.129604",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 101,
-          "additional_symptoms": 977,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2095,
-        "total_tokens": 4681
-      }
-    },
-    {
-      "conversation_id": "213",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:14:03.037762",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 128,
-          "additional_symptoms": 950,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2428,
-        "total_tokens": 5014
-      }
-    },
-    {
-      "conversation_id": "215",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:14:08.470602",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1752,
-          "prompt": 1614,
-          "total": 3366
-        },
-        "output_tokens": 1461,
-        "total_tokens": 4827
-      }
-    },
-    {
-      "conversation_id": "214",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:14:18.182751",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1531,
-          "prompt": 1472,
-          "total": 3003
-        },
-        "output_tokens": 1207,
-        "total_tokens": 4210
-      }
-    },
-    {
-      "conversation_id": "213",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:14:21.984035",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2328,
-          "prompt": 1847,
-          "total": 4175
-        },
-        "output_tokens": 1681,
-        "total_tokens": 5856
-      }
-    },
-    {
-      "conversation_id": "218",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:14:23.730925",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 106,
-          "additional_symptoms": 972,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2361,
-        "total_tokens": 4947
-      }
-    },
-    {
-      "conversation_id": "216",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:14:27.539447",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 83,
-          "additional_symptoms": 995,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4081,
-        "total_tokens": 6667
-      }
-    },
-    {
-      "conversation_id": "217",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:14:29.234186",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 116,
-          "additional_symptoms": 962,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2726,
-        "total_tokens": 5312
-      }
-    },
-    {
-      "conversation_id": "216",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:14:39.011432",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1803,
-          "prompt": 1183,
-          "total": 2986
-        },
-        "output_tokens": 1036,
-        "total_tokens": 4022
-      }
-    },
-    {
-      "conversation_id": "219",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:14:43.905217",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 119,
-          "additional_symptoms": 959,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2365,
-        "total_tokens": 4951
-      }
-    },
-    {
-      "conversation_id": "218",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:14:45.028065",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1816,
-          "prompt": 1554,
-          "total": 3370
-        },
-        "output_tokens": 1413,
-        "total_tokens": 4783
-      }
-    },
-    {
-      "conversation_id": "217",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:14:53.891507",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1847,
-          "prompt": 1676,
-          "total": 3523
-        },
-        "output_tokens": 1828,
-        "total_tokens": 5351
-      }
-    },
-    {
-      "conversation_id": "221",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:15:04.101845",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 80,
-          "additional_symptoms": 998,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2505,
-        "total_tokens": 5091
-      }
-    },
-    {
-      "conversation_id": "220",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:15:05.093387",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 141,
-          "additional_symptoms": 937,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3431,
-        "total_tokens": 6017
-      }
-    },
-    {
-      "conversation_id": "219",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:15:06.473794",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2097,
-          "prompt": 1683,
-          "total": 3780
-        },
-        "output_tokens": 1723,
-        "total_tokens": 5503
-      }
-    },
-    {
-      "conversation_id": "221",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:15:17.831475",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1811,
-          "prompt": 1217,
-          "total": 3028
-        },
-        "output_tokens": 1402,
-        "total_tokens": 4430
-      }
-    },
-    {
-      "conversation_id": "222",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:15:18.318589",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 102,
-          "additional_symptoms": 976,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2704,
-        "total_tokens": 5290
-      }
-    },
-    {
-      "conversation_id": "220",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:15:29.890916",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1913,
-          "prompt": 1918,
-          "total": 3831
-        },
-        "output_tokens": 2081,
-        "total_tokens": 5912
-      }
-    },
-    {
-      "conversation_id": "222",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:15:37.654893",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1571,
-          "prompt": 1424,
-          "total": 2995
-        },
-        "output_tokens": 1291,
-        "total_tokens": 4286
-      }
-    },
-    {
-      "conversation_id": "224",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:15:41.218807",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 151,
-          "additional_symptoms": 927,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4306,
-        "total_tokens": 6892
-      }
-    },
-    {
-      "conversation_id": "224",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:15:59.786400",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2162,
-          "prompt": 1744,
-          "total": 3906
-        },
-        "output_tokens": 1813,
-        "total_tokens": 5719
-      }
-    },
-    {
-      "conversation_id": "226",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:16:08.878785",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 120,
-          "additional_symptoms": 958,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3128,
-        "total_tokens": 5714
-      }
-    },
-    {
-      "conversation_id": "223",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:16:13.869163",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 125,
-          "additional_symptoms": 953,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2960,
-        "total_tokens": 5546
-      }
-    },
-    {
-      "conversation_id": "225",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:16:22.874162",
+      "timestamp": "2025-05-19T17:38:54.622173",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 118,
@@ -1921,1115 +557,107 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 4103,
-        "total_tokens": 6689
+        "output_tokens": 1340,
+        "total_tokens": 3926
       }
     },
     {
-      "conversation_id": "226",
-      "model": "openai",
+      "conversation_id": "117",
+      "model": "fireworks",
       "operation": "results",
-      "timestamp": "2025-05-19T17:16:26.748806",
+      "timestamp": "2025-05-19T17:39:00.750503",
       "metrics": {
         "input_tokens": {
-          "transcript": 1981,
-          "prompt": 1665,
-          "total": 3646
+          "transcript": 2508,
+          "prompt": 1875,
+          "total": 4383
         },
-        "output_tokens": 1523,
-        "total_tokens": 5169
+        "output_tokens": 1264,
+        "total_tokens": 5647
       }
     },
     {
-      "conversation_id": "227",
-      "model": "openai",
+      "conversation_id": "116",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:39:09.560943",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1870,
+          "prompt": 986,
+          "total": 2856
+        },
+        "output_tokens": 1190,
+        "total_tokens": 4046
+      }
+    },
+    {
+      "conversation_id": "118",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:39:21.463420",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1816,
+          "prompt": 1690,
+          "total": 3506
+        },
+        "output_tokens": 1339,
+        "total_tokens": 4845
+      }
+    },
+    {
+      "conversation_id": "119",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:16:29.445407",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 51,
-          "additional_symptoms": 1027,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3347,
-        "total_tokens": 5933
-      }
-    },
-    {
-      "conversation_id": "223",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:16:32.172550",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2421,
-          "prompt": 1826,
-          "total": 4247
-        },
-        "output_tokens": 1930,
-        "total_tokens": 6177
-      }
-    },
-    {
-      "conversation_id": "228",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:16:40.059955",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 56,
-          "additional_symptoms": 1022,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3237,
-        "total_tokens": 5823
-      }
-    },
-    {
-      "conversation_id": "225",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:16:40.940953",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2122,
-          "prompt": 1545,
-          "total": 3667
-        },
-        "output_tokens": 1379,
-        "total_tokens": 5046
-      }
-    },
-    {
-      "conversation_id": "229",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:16:41.052692",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 119,
-          "additional_symptoms": 959,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3763,
-        "total_tokens": 6349
-      }
-    },
-    {
-      "conversation_id": "227",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:16:46.394920",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1868,
-          "prompt": 846,
-          "total": 2714
-        },
-        "output_tokens": 1042,
-        "total_tokens": 3756
-      }
-    },
-    {
-      "conversation_id": "228",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:16:53.851312",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1759,
-          "prompt": 856,
-          "total": 2615
-        },
-        "output_tokens": 991,
-        "total_tokens": 3606
-      }
-    },
-    {
-      "conversation_id": "229",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:17:02.267571",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2589,
-          "prompt": 1694,
-          "total": 4283
-        },
-        "output_tokens": 1858,
-        "total_tokens": 6141
-      }
-    },
-    {
-      "conversation_id": "230",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:17:02.247754",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 98,
-          "additional_symptoms": 980,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2394,
-        "total_tokens": 4980
-      }
-    },
-    {
-      "conversation_id": "230",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:17:19.655471",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1923,
-          "prompt": 1429,
-          "total": 3352
-        },
-        "output_tokens": 1648,
-        "total_tokens": 5000
-      }
-    },
-    {
-      "conversation_id": "234",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:17:24.204891",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 77,
-          "additional_symptoms": 1001,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2108,
-        "total_tokens": 4694
-      }
-    },
-    {
-      "conversation_id": "233",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:17:30.105776",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 135,
-          "additional_symptoms": 943,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3005,
-        "total_tokens": 5591
-      }
-    },
-    {
-      "conversation_id": "232",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:17:35.638028",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 112,
-          "additional_symptoms": 966,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3607,
-        "total_tokens": 6193
-      }
-    },
-    {
-      "conversation_id": "231",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:17:39.020112",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 119,
-          "additional_symptoms": 959,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4302,
-        "total_tokens": 6888
-      }
-    },
-    {
-      "conversation_id": "234",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:17:40.332032",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1933,
-          "prompt": 1183,
-          "total": 3116
-        },
-        "output_tokens": 996,
-        "total_tokens": 4112
-      }
-    },
-    {
-      "conversation_id": "231",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:17:51.189184",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2209,
-          "prompt": 1507,
-          "total": 3716
-        },
-        "output_tokens": 1458,
-        "total_tokens": 5174
-      }
-    },
-    {
-      "conversation_id": "232",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:17:51.593170",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2159,
-          "prompt": 1617,
-          "total": 3776
-        },
-        "output_tokens": 1404,
-        "total_tokens": 5180
-      }
-    },
-    {
-      "conversation_id": "233",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:17:56.513016",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1728,
-          "prompt": 1884,
-          "total": 3612
-        },
-        "output_tokens": 1582,
-        "total_tokens": 5194
-      }
-    },
-    {
-      "conversation_id": "235",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:18:03.485899",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 119,
-          "additional_symptoms": 959,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4370,
-        "total_tokens": 6956
-      }
-    },
-    {
-      "conversation_id": "235",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:18:21.096444",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2473,
-          "prompt": 1566,
-          "total": 4039
-        },
-        "output_tokens": 1767,
-        "total_tokens": 5806
-      }
-    },
-    {
-      "conversation_id": "236",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:18:28.887189",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 119,
-          "additional_symptoms": 959,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4536,
-        "total_tokens": 7122
-      }
-    },
-    {
-      "conversation_id": "236",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:19:09.669316",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1703,
-          "prompt": 1606,
-          "total": 3309
-        },
-        "output_tokens": 1503,
-        "total_tokens": 4812
-      }
-    },
-    {
-      "conversation_id": "305",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:20:34.632159",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 137,
-          "additional_symptoms": 970,
-          "prompt": 1537,
-          "total": 2644
-        },
-        "output_tokens": 2266,
-        "total_tokens": 4910
-      }
-    },
-    {
-      "conversation_id": "306",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:20:52.855608",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 105,
-          "additional_symptoms": 983,
-          "prompt": 1518,
-          "total": 2606
-        },
-        "output_tokens": 2513,
-        "total_tokens": 5119
-      }
-    },
-    {
-      "conversation_id": "302",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:20:58.224797",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 108,
-          "additional_symptoms": 978,
-          "prompt": 1516,
-          "total": 2602
-        },
-        "output_tokens": 3750,
-        "total_tokens": 6352
-      }
-    },
-    {
-      "conversation_id": "305",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:20:58.288251",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2734,
-          "prompt": 1856,
-          "total": 4590
-        },
-        "output_tokens": 2110,
-        "total_tokens": 6700
-      }
-    },
-    {
-      "conversation_id": "304",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:21:02.145024",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 93,
-          "additional_symptoms": 990,
-          "prompt": 1513,
-          "total": 2596
-        },
-        "output_tokens": 4191,
-        "total_tokens": 6787
-      }
-    },
-    {
-      "conversation_id": "301",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:21:07.643977",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 114,
-          "additional_symptoms": 978,
-          "prompt": 1522,
-          "total": 2614
-        },
-        "output_tokens": 4895,
-        "total_tokens": 7509
-      }
-    },
-    {
-      "conversation_id": "303",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:21:10.874940",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 135,
-          "additional_symptoms": 943,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 4641,
-        "total_tokens": 7227
-      }
-    },
-    {
-      "conversation_id": "302",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:21:13.192542",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2056,
-          "prompt": 1550,
-          "total": 3606
-        },
-        "output_tokens": 1354,
-        "total_tokens": 4960
-      }
-    },
-    {
-      "conversation_id": "306",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:21:19.480834",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1744,
-          "prompt": 1547,
-          "total": 3291
-        },
-        "output_tokens": 1563,
-        "total_tokens": 4854
-      }
-    },
-    {
-      "conversation_id": "301",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:21:25.918832",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1923,
-          "prompt": 1544,
-          "total": 3467
-        },
-        "output_tokens": 1448,
-        "total_tokens": 4915
-      }
-    },
-    {
-      "conversation_id": "304",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:21:33.832833",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1873,
-          "prompt": 1378,
-          "total": 3251
-        },
-        "output_tokens": 1364,
-        "total_tokens": 4615
-      }
-    },
-    {
-      "conversation_id": "303",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:21:41.184935",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1687,
-          "prompt": 1916,
-          "total": 3603
-        },
-        "output_tokens": 1632,
-        "total_tokens": 5235
-      }
-    },
-    {
-      "conversation_id": "307",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:21:49.789559",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 162,
-          "additional_symptoms": 925,
-          "prompt": 1517,
-          "total": 2604
-        },
-        "output_tokens": 2755,
-        "total_tokens": 5359
-      }
-    },
-    {
-      "conversation_id": "309",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:22:19.552891",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 147,
-          "additional_symptoms": 939,
-          "prompt": 1516,
-          "total": 2602
-        },
-        "output_tokens": 4145,
-        "total_tokens": 6747
-      }
-    },
-    {
-      "conversation_id": "308",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:22:21.329243",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 80,
-          "additional_symptoms": 1003,
-          "prompt": 1513,
-          "total": 2596
-        },
-        "output_tokens": 4706,
-        "total_tokens": 7302
-      }
-    },
-    {
-      "conversation_id": "312",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:22:23.939983",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 115,
-          "additional_symptoms": 983,
-          "prompt": 1528,
-          "total": 2626
-        },
-        "output_tokens": 2565,
-        "total_tokens": 5191
-      }
-    },
-    {
-      "conversation_id": "307",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:22:34.872400",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 3055,
-          "prompt": 2241,
-          "total": 5296
-        },
-        "output_tokens": 2328,
-        "total_tokens": 7624
-      }
-    },
-    {
-      "conversation_id": "308",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:22:35.628537",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1316,
-          "prompt": 1229,
-          "total": 2545
-        },
-        "output_tokens": 1376,
-        "total_tokens": 3921
-      }
-    },
-    {
-      "conversation_id": "312",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:22:42.562336",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2090,
-          "prompt": 1737,
-          "total": 3827
-        },
-        "output_tokens": 1524,
-        "total_tokens": 5351
-      }
-    },
-    {
-      "conversation_id": "309",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:22:43.653007",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2395,
-          "prompt": 1816,
-          "total": 4211
-        },
-        "output_tokens": 1554,
-        "total_tokens": 5765
-      }
-    },
-    {
-      "conversation_id": "311",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:22:47.100400",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 98,
-          "additional_symptoms": 1005,
-          "prompt": 1533,
-          "total": 2636
-        },
-        "output_tokens": 4553,
-        "total_tokens": 7189
-      }
-    },
-    {
-      "conversation_id": "310",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:23:00.602096",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 163,
-          "additional_symptoms": 936,
-          "prompt": 1529,
-          "total": 2628
-        },
-        "output_tokens": 4142,
-        "total_tokens": 6770
-      }
-    },
-    {
-      "conversation_id": "311",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:23:02.913283",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2038,
-          "prompt": 1377,
-          "total": 3415
-        },
-        "output_tokens": 1473,
-        "total_tokens": 4888
-      }
-    },
-    {
-      "conversation_id": "316",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:23:14.581083",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 134,
-          "additional_symptoms": 948,
-          "prompt": 1512,
-          "total": 2594
-        },
-        "output_tokens": 2267,
-        "total_tokens": 4861
-      }
-    },
-    {
-      "conversation_id": "310",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:23:22.670580",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1821,
-          "prompt": 1902,
-          "total": 3723
-        },
-        "output_tokens": 1930,
-        "total_tokens": 5653
-      }
-    },
-    {
-      "conversation_id": "313",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:23:32.398772",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 131,
-          "additional_symptoms": 965,
-          "prompt": 1526,
-          "total": 2622
-        },
-        "output_tokens": 4042,
-        "total_tokens": 6664
-      }
-    },
-    {
-      "conversation_id": "316",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:23:35.874036",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1726,
-          "prompt": 1900,
-          "total": 3626
-        },
-        "output_tokens": 2007,
-        "total_tokens": 5633
-      }
-    },
-    {
-      "conversation_id": "317",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:23:44.349551",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 140,
-          "additional_symptoms": 938,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2995,
-        "total_tokens": 5581
-      }
-    },
-    {
-      "conversation_id": "314",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:23:53.596154",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 123,
-          "additional_symptoms": 960,
-          "prompt": 1513,
-          "total": 2596
-        },
-        "output_tokens": 4422,
-        "total_tokens": 7018
-      }
-    },
-    {
-      "conversation_id": "313",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:23:57.583268",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2101,
-          "prompt": 1819,
-          "total": 3920
-        },
-        "output_tokens": 2114,
-        "total_tokens": 6034
-      }
-    },
-    {
-      "conversation_id": "317",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:24:06.800638",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2111,
-          "prompt": 1978,
-          "total": 4089
-        },
-        "output_tokens": 1655,
-        "total_tokens": 5744
-      }
-    },
-    {
-      "conversation_id": "314",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:24:13.353767",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1967,
-          "prompt": 1731,
-          "total": 3698
-        },
-        "output_tokens": 1630,
-        "total_tokens": 5328
-      }
-    },
-    {
-      "conversation_id": "318",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:24:20.175855",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 133,
-          "additional_symptoms": 949,
-          "prompt": 1512,
-          "total": 2594
-        },
-        "output_tokens": 3108,
-        "total_tokens": 5702
-      }
-    },
-    {
-      "conversation_id": "315",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:24:27.895257",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 133,
-          "additional_symptoms": 950,
-          "prompt": 1513,
-          "total": 2596
-        },
-        "output_tokens": 2709,
-        "total_tokens": 5305
-      }
-    },
-    {
-      "conversation_id": "318",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:24:56.978846",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2918,
-          "prompt": 1871,
-          "total": 4789
-        },
-        "output_tokens": 2361,
-        "total_tokens": 7150
-      }
-    },
-    {
-      "conversation_id": "322",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:24:57.986071",
+      "timestamp": "2025-05-19T17:39:29.119364",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 74,
-          "additional_symptoms": 1027,
-          "prompt": 1531,
-          "total": 2632
-        },
-        "output_tokens": 2748,
-        "total_tokens": 5380
-      }
-    },
-    {
-      "conversation_id": "319",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:25:02.647687",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 123,
-          "additional_symptoms": 982,
-          "prompt": 1535,
-          "total": 2640
-        },
-        "output_tokens": 2529,
-        "total_tokens": 5169
-      }
-    },
-    {
-      "conversation_id": "320",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:25:05.595660",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 159,
-          "additional_symptoms": 935,
-          "prompt": 1524,
-          "total": 2618
-        },
-        "output_tokens": 3793,
-        "total_tokens": 6411
-      }
-    },
-    {
-      "conversation_id": "322",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:25:10.896534",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1360,
-          "prompt": 1094,
-          "total": 2454
-        },
-        "output_tokens": 899,
-        "total_tokens": 3353
-      }
-    },
-    {
-      "conversation_id": "321",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:25:12.742721",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 98,
-          "additional_symptoms": 997,
-          "prompt": 1525,
-          "total": 2620
-        },
-        "output_tokens": 4031,
-        "total_tokens": 6651
-      }
-    },
-    {
-      "conversation_id": "315",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:25:14.327140",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1726,
-          "prompt": 1929,
-          "total": 3655
-        },
-        "output_tokens": 1814,
-        "total_tokens": 5469
-      }
-    },
-    {
-      "conversation_id": "320",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:25:30.569734",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1721,
-          "prompt": 1882,
-          "total": 3603
-        },
-        "output_tokens": 1792,
-        "total_tokens": 5395
-      }
-    },
-    {
-      "conversation_id": "321",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:25:35.630866",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2823,
-          "prompt": 1490,
-          "total": 4313
-        },
-        "output_tokens": 1441,
-        "total_tokens": 5754
-      }
-    },
-    {
-      "conversation_id": "319",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:25:37.121362",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2929,
-          "prompt": 1752,
-          "total": 4681
-        },
-        "output_tokens": 2002,
-        "total_tokens": 6683
-      }
-    },
-    {
-      "conversation_id": "323",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:25:53.097819",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 107,
-          "additional_symptoms": 976,
-          "prompt": 1513,
-          "total": 2596
-        },
-        "output_tokens": 3513,
-        "total_tokens": 6109
-      }
-    },
-    {
-      "conversation_id": "323",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:26:11.611508",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1861,
-          "prompt": 1558,
-          "total": 3419
-        },
-        "output_tokens": 1736,
-        "total_tokens": 5155
-      }
-    },
-    {
-      "conversation_id": "324",
-      "model": "openai",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:26:12.152366",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 151,
-          "additional_symptoms": 927,
+          "additional_symptoms": 1004,
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 3913,
-        "total_tokens": 6499
+        "output_tokens": 3583,
+        "total_tokens": 6169
       }
     },
     {
-      "conversation_id": "327",
-      "model": "openai",
+      "conversation_id": "120",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:26:13.772012",
+      "timestamp": "2025-05-19T17:39:52.165569",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 128,
-          "additional_symptoms": 950,
+          "existing_symptoms": 145,
+          "additional_symptoms": 933,
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 2140,
-        "total_tokens": 4726
+        "output_tokens": 2787,
+        "total_tokens": 5373
       }
     },
     {
-      "conversation_id": "326",
-      "model": "openai",
+      "conversation_id": "119",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:39:55.747951",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1319,
+          "prompt": 1169,
+          "total": 2488
+        },
+        "output_tokens": 1240,
+        "total_tokens": 3728
+      }
+    },
+    {
+      "conversation_id": "121",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:26:32.467498",
+      "timestamp": "2025-05-19T17:40:01.580512",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 138,
@@ -3037,15 +665,2355 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 2674,
-        "total_tokens": 5260
+        "output_tokens": 2893,
+        "total_tokens": 5479
+      }
+    },
+    {
+      "conversation_id": "122",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:40:10.184086",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 120,
+          "additional_symptoms": 958,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 2748,
+        "total_tokens": 5334
+      }
+    },
+    {
+      "conversation_id": "120",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:40:17.962389",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2265,
+          "prompt": 1979,
+          "total": 4244
+        },
+        "output_tokens": 1393,
+        "total_tokens": 5637
+      }
+    },
+    {
+      "conversation_id": "121",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:40:23.496556",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2192,
+          "prompt": 1923,
+          "total": 4115
+        },
+        "output_tokens": 1222,
+        "total_tokens": 5337
+      }
+    },
+    {
+      "conversation_id": "123",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:40:28.202617",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 159,
+          "additional_symptoms": 919,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 2092,
+        "total_tokens": 4678
+      }
+    },
+    {
+      "conversation_id": "122",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:40:32.093979",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2266,
+          "prompt": 1681,
+          "total": 3947
+        },
+        "output_tokens": 1317,
+        "total_tokens": 5264
+      }
+    },
+    {
+      "conversation_id": "124",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:41:10.778821",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 159,
+          "additional_symptoms": 919,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3221,
+        "total_tokens": 5807
+      }
+    },
+    {
+      "conversation_id": "125",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:41:15.312822",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 140,
+          "additional_symptoms": 938,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3046,
+        "total_tokens": 5632
+      }
+    },
+    {
+      "conversation_id": "123",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:41:15.615954",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2528,
+          "prompt": 2245,
+          "total": 4773
+        },
+        "output_tokens": 1952,
+        "total_tokens": 6725
+      }
+    },
+    {
+      "conversation_id": "124",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:41:39.891256",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2216,
+          "prompt": 1511,
+          "total": 3727
+        },
+        "output_tokens": 1399,
+        "total_tokens": 5126
+      }
+    },
+    {
+      "conversation_id": "125",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:41:44.243472",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1978,
+          "prompt": 1904,
+          "total": 3882
+        },
+        "output_tokens": 1288,
+        "total_tokens": 5170
+      }
+    },
+    {
+      "conversation_id": "129",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:05.698136",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 174,
+          "additional_symptoms": 904,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3451,
+        "total_tokens": 6037
+      }
+    },
+    {
+      "conversation_id": "128",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:09.183283",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 114,
+          "additional_symptoms": 964,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3657,
+        "total_tokens": 6243
+      }
+    },
+    {
+      "conversation_id": "127",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:11.676834",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 64,
+          "additional_symptoms": 1014,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3778,
+        "total_tokens": 6364
+      }
+    },
+    {
+      "conversation_id": "126",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:13.270566",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 59,
+          "additional_symptoms": 1019,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 341,
+        "total_tokens": 2927
+      }
+    },
+    {
+      "conversation_id": "129",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:18.015187",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1724,
+          "prompt": 1467,
+          "total": 3191
+        },
+        "output_tokens": 48,
+        "total_tokens": 3239
+      }
+    },
+    {
+      "conversation_id": "128",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:21.339210",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1696,
+          "prompt": 1425,
+          "total": 3121
+        },
+        "output_tokens": 48,
+        "total_tokens": 3169
+      }
+    },
+    {
+      "conversation_id": "127",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:24.529134",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2092,
+          "prompt": 1036,
+          "total": 3128
+        },
+        "output_tokens": 48,
+        "total_tokens": 3176
+      }
+    },
+    {
+      "conversation_id": "126",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:25.569238",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2264,
+          "prompt": 542,
+          "total": 2806
+        },
+        "output_tokens": 48,
+        "total_tokens": 2854
+      }
+    },
+    {
+      "conversation_id": "130",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:32.724878",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 130,
+          "additional_symptoms": 948,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 48,
+        "total_tokens": 2634
+      }
+    },
+    {
+      "conversation_id": "131",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:35.996888",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 120,
+          "additional_symptoms": 958,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 48,
+        "total_tokens": 2634
+      }
+    },
+    {
+      "conversation_id": "132",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:40.104208",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 141,
+          "additional_symptoms": 937,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 48,
+        "total_tokens": 2634
+      }
+    },
+    {
+      "conversation_id": "133",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:40.397674",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 155,
+          "additional_symptoms": 923,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 48,
+        "total_tokens": 2634
+      }
+    },
+    {
+      "conversation_id": "133",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:42.741888",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2050,
+          "prompt": 1157,
+          "total": 3207
+        },
+        "output_tokens": 24,
+        "total_tokens": 3231
+      }
+    },
+    {
+      "conversation_id": "130",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:45.630074",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1738,
+          "prompt": 980,
+          "total": 2718
+        },
+        "output_tokens": 48,
+        "total_tokens": 2766
+      }
+    },
+    {
+      "conversation_id": "134",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:46.721339",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 116,
+          "additional_symptoms": 962,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 24,
+        "total_tokens": 2610
+      }
+    },
+    {
+      "conversation_id": "131",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:48.291544",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2426,
+          "prompt": 958,
+          "total": 3384
+        },
+        "output_tokens": 48,
+        "total_tokens": 3432
+      }
+    },
+    {
+      "conversation_id": "134",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:49.116507",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2286,
+          "prompt": 909,
+          "total": 3195
+        },
+        "output_tokens": 24,
+        "total_tokens": 3219
+      }
+    },
+    {
+      "conversation_id": "135",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:50.892575",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 56,
+          "additional_symptoms": 1022,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 24,
+        "total_tokens": 2610
+      }
+    },
+    {
+      "conversation_id": "132",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:53.182609",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1638,
+          "prompt": 1048,
+          "total": 2686
+        },
+        "output_tokens": 48,
+        "total_tokens": 2734
+      }
+    },
+    {
+      "conversation_id": "135",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:53.250130",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1766,
+          "prompt": 511,
+          "total": 2277
+        },
+        "output_tokens": 24,
+        "total_tokens": 2301
+      }
+    },
+    {
+      "conversation_id": "136",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T17:43:53.434298",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 157,
+          "additional_symptoms": 921,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 24,
+        "total_tokens": 2610
+      }
+    },
+    {
+      "conversation_id": "136",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T17:43:55.818144",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2869,
+          "prompt": 1161,
+          "total": 4030
+        },
+        "output_tokens": 24,
+        "total_tokens": 4054
+      }
+    },
+    {
+      "conversation_id": "201",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-19T18:09:51.651537",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 125,
+          "additional_symptoms": 953,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1053,
+        "total_tokens": 3639
+      }
+    },
+    {
+      "conversation_id": "201",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-19T18:10:24.654362",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2310,
+          "prompt": 1720,
+          "total": 4030
+        },
+        "output_tokens": 1392,
+        "total_tokens": 5422
+      }
+    },
+    {
+      "conversation_id": "202",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-20T23:56:55.720145",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 122,
+          "additional_symptoms": 956,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3292,
+        "total_tokens": 5878
+      }
+    },
+    {
+      "conversation_id": "202",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-20T23:57:12.547132",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2425,
+          "prompt": 1338,
+          "total": 3763
+        },
+        "output_tokens": 949,
+        "total_tokens": 4712
+      }
+    },
+    {
+      "conversation_id": "203",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-20T23:57:37.209173",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 140,
+          "additional_symptoms": 938,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1610,
+        "total_tokens": 4196
+      }
+    },
+    {
+      "conversation_id": "203",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-20T23:58:07.909454",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1755,
+          "prompt": 1930,
+          "total": 3685
+        },
+        "output_tokens": 1919,
+        "total_tokens": 5604
+      }
+    },
+    {
+      "conversation_id": "204",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-20T23:58:08.293535",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 120,
+          "additional_symptoms": 958,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3296,
+        "total_tokens": 5882
+      }
+    },
+    {
+      "conversation_id": "204",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-20T23:58:26.795156",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1743,
+          "prompt": 1609,
+          "total": 3352
+        },
+        "output_tokens": 1136,
+        "total_tokens": 4488
+      }
+    },
+    {
+      "conversation_id": "205",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-20T23:58:55.664973",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 67,
+          "additional_symptoms": 1011,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3637,
+        "total_tokens": 6223
+      }
+    },
+    {
+      "conversation_id": "206",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-20T23:59:06.103198",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 77,
+          "additional_symptoms": 1001,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 2849,
+        "total_tokens": 5435
+      }
+    },
+    {
+      "conversation_id": "205",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-20T23:59:13.164274",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1499,
+          "prompt": 1062,
+          "total": 2561
+        },
+        "output_tokens": 1081,
+        "total_tokens": 3642
+      }
+    },
+    {
+      "conversation_id": "206",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-20T23:59:21.322557",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1346,
+          "prompt": 1075,
+          "total": 2421
+        },
+        "output_tokens": 915,
+        "total_tokens": 3336
+      }
+    },
+    {
+      "conversation_id": "207",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-20T23:59:55.085024",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 130,
+          "additional_symptoms": 948,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3419,
+        "total_tokens": 6005
+      }
+    },
+    {
+      "conversation_id": "207",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:00:16.931300",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1895,
+          "prompt": 1544,
+          "total": 3439
+        },
+        "output_tokens": 1452,
+        "total_tokens": 4891
+      }
+    },
+    {
+      "conversation_id": "208",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:01:54.790449",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 139,
+          "additional_symptoms": 939,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3575,
+        "total_tokens": 6161
+      }
+    },
+    {
+      "conversation_id": "209",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:01:58.531641",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 79,
+          "additional_symptoms": 999,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 353,
+        "total_tokens": 2939
+      }
+    },
+    {
+      "conversation_id": "209",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:02:08.256239",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2694,
+          "prompt": 667,
+          "total": 3361
+        },
+        "output_tokens": 533,
+        "total_tokens": 3894
+      }
+    },
+    {
+      "conversation_id": "208",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:02:13.242508",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2881,
+          "prompt": 1653,
+          "total": 4534
+        },
+        "output_tokens": 1162,
+        "total_tokens": 5696
+      }
+    },
+    {
+      "conversation_id": "210",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:02:49.615989",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 84,
+          "additional_symptoms": 994,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3376,
+        "total_tokens": 5962
+      }
+    },
+    {
+      "conversation_id": "211",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:02:56.573834",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 63,
+          "additional_symptoms": 1015,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3523,
+        "total_tokens": 6109
+      }
+    },
+    {
+      "conversation_id": "210",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:03:06.079755",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1306,
+          "prompt": 1186,
+          "total": 2492
+        },
+        "output_tokens": 904,
+        "total_tokens": 3396
+      }
+    },
+    {
+      "conversation_id": "211",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:03:13.749051",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1946,
+          "prompt": 1043,
+          "total": 2989
+        },
+        "output_tokens": 965,
+        "total_tokens": 3954
+      }
+    },
+    {
+      "conversation_id": "212",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:03:58.395860",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 140,
+          "additional_symptoms": 938,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3350,
+        "total_tokens": 5936
+      }
+    },
+    {
+      "conversation_id": "213",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:04:07.469422",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 128,
+          "additional_symptoms": 950,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3595,
+        "total_tokens": 6181
+      }
+    },
+    {
+      "conversation_id": "212",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:04:15.329567",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2205,
+          "prompt": 1534,
+          "total": 3739
+        },
+        "output_tokens": 967,
+        "total_tokens": 4706
+      }
+    },
+    {
+      "conversation_id": "213",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:04:26.895356",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2328,
+          "prompt": 1239,
+          "total": 3567
+        },
+        "output_tokens": 1218,
+        "total_tokens": 4785
+      }
+    },
+    {
+      "conversation_id": "214",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:04:32.848427",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 101,
+          "additional_symptoms": 977,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1035,
+        "total_tokens": 3621
+      }
+    },
+    {
+      "conversation_id": "214",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:04:51.405072",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1531,
+          "prompt": 1497,
+          "total": 3028
+        },
+        "output_tokens": 1201,
+        "total_tokens": 4229
+      }
+    },
+    {
+      "conversation_id": "215",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:05:08.734513",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 116,
+          "additional_symptoms": 962,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3206,
+        "total_tokens": 5792
+      }
+    },
+    {
+      "conversation_id": "215",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:05:26.418599",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1752,
+          "prompt": 1397,
+          "total": 3149
+        },
+        "output_tokens": 1030,
+        "total_tokens": 4179
+      }
+    },
+    {
+      "conversation_id": "216",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:05:41.287761",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 83,
+          "additional_symptoms": 995,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3884,
+        "total_tokens": 6470
+      }
+    },
+    {
+      "conversation_id": "216",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:05:57.724629",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1803,
+          "prompt": 1182,
+          "total": 2985
+        },
+        "output_tokens": 1111,
+        "total_tokens": 4096
+      }
+    },
+    {
+      "conversation_id": "217",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:06:56.376256",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 116,
+          "additional_symptoms": 962,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1738,
+        "total_tokens": 4324
+      }
+    },
+    {
+      "conversation_id": "217",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:07:14.980463",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1847,
+          "prompt": 1458,
+          "total": 3305
+        },
+        "output_tokens": 1202,
+        "total_tokens": 4507
+      }
+    },
+    {
+      "conversation_id": "218",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:07:16.263791",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 106,
+          "additional_symptoms": 972,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3266,
+        "total_tokens": 5852
+      }
+    },
+    {
+      "conversation_id": "218",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:07:34.124592",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1816,
+          "prompt": 1355,
+          "total": 3171
+        },
+        "output_tokens": 1098,
+        "total_tokens": 4269
+      }
+    },
+    {
+      "conversation_id": "219",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:07:34.888719",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 119,
+          "additional_symptoms": 959,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1251,
+        "total_tokens": 3837
+      }
+    },
+    {
+      "conversation_id": "219",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:07:58.800823",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2097,
+          "prompt": 1683,
+          "total": 3780
+        },
+        "output_tokens": 1523,
+        "total_tokens": 5303
+      }
+    },
+    {
+      "conversation_id": "220",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:08:16.126805",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 141,
+          "additional_symptoms": 937,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3270,
+        "total_tokens": 5856
+      }
+    },
+    {
+      "conversation_id": "220",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:08:38.495307",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1913,
+          "prompt": 1395,
+          "total": 3308
+        },
+        "output_tokens": 1529,
+        "total_tokens": 4837
+      }
+    },
+    {
+      "conversation_id": "221",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:08:44.207151",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 80,
+          "additional_symptoms": 998,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3712,
+        "total_tokens": 6298
+      }
+    },
+    {
+      "conversation_id": "221",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:09:00.873960",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1811,
+          "prompt": 1233,
+          "total": 3044
+        },
+        "output_tokens": 897,
+        "total_tokens": 3941
+      }
+    },
+    {
+      "conversation_id": "222",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:09:26.076544",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 102,
+          "additional_symptoms": 976,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3498,
+        "total_tokens": 6084
+      }
+    },
+    {
+      "conversation_id": "222",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:09:45.766295",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1571,
+          "prompt": 1269,
+          "total": 2840
+        },
+        "output_tokens": 1359,
+        "total_tokens": 4199
+      }
+    },
+    {
+      "conversation_id": "223",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:09:48.906031",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 125,
+          "additional_symptoms": 953,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3888,
+        "total_tokens": 6474
+      }
+    },
+    {
+      "conversation_id": "224",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:10:02.717222",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 151,
+          "additional_symptoms": 927,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 901,
+        "total_tokens": 3487
+      }
+    },
+    {
+      "conversation_id": "223",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:10:09.173198",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2421,
+          "prompt": 1507,
+          "total": 3928
+        },
+        "output_tokens": 1202,
+        "total_tokens": 5130
+      }
+    },
+    {
+      "conversation_id": "225",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:10:31.519556",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 118,
+          "additional_symptoms": 960,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1398,
+        "total_tokens": 3984
+      }
+    },
+    {
+      "conversation_id": "224",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:10:32.692506",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2162,
+          "prompt": 2105,
+          "total": 4267
+        },
+        "output_tokens": 1948,
+        "total_tokens": 6215
+      }
+    },
+    {
+      "conversation_id": "225",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:10:52.493378",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2122,
+          "prompt": 1738,
+          "total": 3860
+        },
+        "output_tokens": 1450,
+        "total_tokens": 5310
+      }
+    },
+    {
+      "conversation_id": "226",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:11:17.907691",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 120,
+          "additional_symptoms": 958,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3537,
+        "total_tokens": 6123
+      }
+    },
+    {
+      "conversation_id": "226",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:11:31.257526",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1981,
+          "prompt": 1304,
+          "total": 3285
+        },
+        "output_tokens": 859,
+        "total_tokens": 4144
+      }
+    },
+    {
+      "conversation_id": "227",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:11:40.883482",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 51,
+          "additional_symptoms": 1027,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 348,
+        "total_tokens": 2934
+      }
+    },
+    {
+      "conversation_id": "227",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:11:54.428191",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1868,
+          "prompt": 502,
+          "total": 2370
+        },
+        "output_tokens": 875,
+        "total_tokens": 3245
+      }
+    },
+    {
+      "conversation_id": "228",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:13:41.320387",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 56,
+          "additional_symptoms": 1022,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3495,
+        "total_tokens": 6081
+      }
+    },
+    {
+      "conversation_id": "229",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:13:42.338286",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 119,
+          "additional_symptoms": 959,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3639,
+        "total_tokens": 6225
+      }
+    },
+    {
+      "conversation_id": "228",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:13:54.262801",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1759,
+          "prompt": 874,
+          "total": 2633
+        },
+        "output_tokens": 796,
+        "total_tokens": 3429
+      }
+    },
+    {
+      "conversation_id": "229",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:14:09.791958",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2589,
+          "prompt": 1585,
+          "total": 4174
+        },
+        "output_tokens": 1728,
+        "total_tokens": 5902
+      }
+    },
+    {
+      "conversation_id": "230",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:14:36.356300",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 98,
+          "additional_symptoms": 980,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3026,
+        "total_tokens": 5612
+      }
+    },
+    {
+      "conversation_id": "230",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:14:51.634143",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1923,
+          "prompt": 1424,
+          "total": 3347
+        },
+        "output_tokens": 1090,
+        "total_tokens": 4437
+      }
+    },
+    {
+      "conversation_id": "231",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:14:58.601472",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 119,
+          "additional_symptoms": 959,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 349,
+        "total_tokens": 2935
+      }
+    },
+    {
+      "conversation_id": "231",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:15:12.639632",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2209,
+          "prompt": 933,
+          "total": 3142
+        },
+        "output_tokens": 773,
+        "total_tokens": 3915
+      }
+    },
+    {
+      "conversation_id": "232",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:15:38.257616",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 112,
+          "additional_symptoms": 966,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3519,
+        "total_tokens": 6105
+      }
+    },
+    {
+      "conversation_id": "233",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:15:54.859060",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 135,
+          "additional_symptoms": 943,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3420,
+        "total_tokens": 6006
+      }
+    },
+    {
+      "conversation_id": "232",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:15:57.423423",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2159,
+          "prompt": 1365,
+          "total": 3524
+        },
+        "output_tokens": 1313,
+        "total_tokens": 4837
+      }
+    },
+    {
+      "conversation_id": "233",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:16:16.321108",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1728,
+          "prompt": 1622,
+          "total": 3350
+        },
+        "output_tokens": 1287,
+        "total_tokens": 4637
+      }
+    },
+    {
+      "conversation_id": "235",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:16:32.094312",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 119,
+          "additional_symptoms": 959,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 953,
+        "total_tokens": 3539
+      }
+    },
+    {
+      "conversation_id": "234",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:16:48.860572",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 77,
+          "additional_symptoms": 1001,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3805,
+        "total_tokens": 6391
+      }
+    },
+    {
+      "conversation_id": "234",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:16:58.898931",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1933,
+          "prompt": 1061,
+          "total": 2994
+        },
+        "output_tokens": 664,
+        "total_tokens": 3658
+      }
+    },
+    {
+      "conversation_id": "235",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:17:00.360020",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2473,
+          "prompt": 1650,
+          "total": 4123
+        },
+        "output_tokens": 2076,
+        "total_tokens": 6199
+      }
+    },
+    {
+      "conversation_id": "236",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:17:39.414953",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 119,
+          "additional_symptoms": 959,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3013,
+        "total_tokens": 5599
+      }
+    },
+    {
+      "conversation_id": "236",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:18:03.295356",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1703,
+          "prompt": 1726,
+          "total": 3429
+        },
+        "output_tokens": 1661,
+        "total_tokens": 5090
+      }
+    },
+    {
+      "conversation_id": "302",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:21:05.411805",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 108,
+          "additional_symptoms": 978,
+          "prompt": 1516,
+          "total": 2602
+        },
+        "output_tokens": 3469,
+        "total_tokens": 6071
+      }
+    },
+    {
+      "conversation_id": "301",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:21:06.143691",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 114,
+          "additional_symptoms": 978,
+          "prompt": 1522,
+          "total": 2614
+        },
+        "output_tokens": 3460,
+        "total_tokens": 6074
+      }
+    },
+    {
+      "conversation_id": "301",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:21:28.595306",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1923,
+          "prompt": 1599,
+          "total": 3522
+        },
+        "output_tokens": 1179,
+        "total_tokens": 4701
+      }
+    },
+    {
+      "conversation_id": "302",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:21:32.170638",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2056,
+          "prompt": 1555,
+          "total": 3611
+        },
+        "output_tokens": 1497,
+        "total_tokens": 5108
+      }
+    },
+    {
+      "conversation_id": "303",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:21:53.699773",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 135,
+          "additional_symptoms": 943,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1620,
+        "total_tokens": 4206
+      }
+    },
+    {
+      "conversation_id": "304",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:22:16.827397",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 93,
+          "additional_symptoms": 990,
+          "prompt": 1513,
+          "total": 2596
+        },
+        "output_tokens": 3453,
+        "total_tokens": 6049
+      }
+    },
+    {
+      "conversation_id": "303",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:22:17.533868",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1687,
+          "prompt": 1916,
+          "total": 3603
+        },
+        "output_tokens": 1617,
+        "total_tokens": 5220
+      }
+    },
+    {
+      "conversation_id": "304",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:22:32.534770",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1873,
+          "prompt": 1330,
+          "total": 3203
+        },
+        "output_tokens": 1003,
+        "total_tokens": 4206
+      }
+    },
+    {
+      "conversation_id": "305",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:22:35.275316",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 137,
+          "additional_symptoms": 970,
+          "prompt": 1537,
+          "total": 2644
+        },
+        "output_tokens": 1085,
+        "total_tokens": 3729
+      }
+    },
+    {
+      "conversation_id": "305",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:23:10.603974",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2734,
+          "prompt": 1870,
+          "total": 4604
+        },
+        "output_tokens": 1972,
+        "total_tokens": 6576
+      }
+    },
+    {
+      "conversation_id": "306",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:23:23.919139",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 105,
+          "additional_symptoms": 983,
+          "prompt": 1518,
+          "total": 2606
+        },
+        "output_tokens": 3817,
+        "total_tokens": 6423
+      }
+    },
+    {
+      "conversation_id": "306",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:23:40.026903",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1744,
+          "prompt": 1352,
+          "total": 3096
+        },
+        "output_tokens": 1130,
+        "total_tokens": 4226
+      }
+    },
+    {
+      "conversation_id": "307",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:23:52.221613",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 162,
+          "additional_symptoms": 925,
+          "prompt": 1517,
+          "total": 2604
+        },
+        "output_tokens": 325,
+        "total_tokens": 2929
+      }
+    },
+    {
+      "conversation_id": "307",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:24:19.543461",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 3055,
+          "prompt": 1193,
+          "total": 4248
+        },
+        "output_tokens": 1779,
+        "total_tokens": 6027
+      }
+    },
+    {
+      "conversation_id": "308",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:24:29.816376",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 80,
+          "additional_symptoms": 1003,
+          "prompt": 1513,
+          "total": 2596
+        },
+        "output_tokens": 3620,
+        "total_tokens": 6216
+      }
+    },
+    {
+      "conversation_id": "308",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:24:45.008857",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1316,
+          "prompt": 1232,
+          "total": 2548
+        },
+        "output_tokens": 1077,
+        "total_tokens": 3625
+      }
+    },
+    {
+      "conversation_id": "310",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:28:16.928845",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 163,
+          "additional_symptoms": 936,
+          "prompt": 1529,
+          "total": 2628
+        },
+        "output_tokens": 3224,
+        "total_tokens": 5852
+      }
+    },
+    {
+      "conversation_id": "309",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:28:20.636958",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 147,
+          "additional_symptoms": 939,
+          "prompt": 1516,
+          "total": 2602
+        },
+        "output_tokens": 3590,
+        "total_tokens": 6192
+      }
+    },
+    {
+      "conversation_id": "309",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:28:35.495758",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2395,
+          "prompt": 1385,
+          "total": 3780
+        },
+        "output_tokens": 917,
+        "total_tokens": 4697
+      }
+    },
+    {
+      "conversation_id": "310",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:28:38.314229",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1821,
+          "prompt": 2195,
+          "total": 4016
+        },
+        "output_tokens": 1494,
+        "total_tokens": 5510
+      }
+    },
+    {
+      "conversation_id": "311",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:29:07.792879",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 98,
+          "additional_symptoms": 1005,
+          "prompt": 1533,
+          "total": 2636
+        },
+        "output_tokens": 1960,
+        "total_tokens": 4596
+      }
+    },
+    {
+      "conversation_id": "312",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:29:31.025880",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 115,
+          "additional_symptoms": 983,
+          "prompt": 1528,
+          "total": 2626
+        },
+        "output_tokens": 3660,
+        "total_tokens": 6286
+      }
+    },
+    {
+      "conversation_id": "311",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:29:33.768779",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2038,
+          "prompt": 1391,
+          "total": 3429
+        },
+        "output_tokens": 1653,
+        "total_tokens": 5082
+      }
+    },
+    {
+      "conversation_id": "312",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:29:53.664110",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2090,
+          "prompt": 1348,
+          "total": 3438
+        },
+        "output_tokens": 1457,
+        "total_tokens": 4895
+      }
+    },
+    {
+      "conversation_id": "313",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:30:18.213129",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 131,
+          "additional_symptoms": 965,
+          "prompt": 1526,
+          "total": 2622
+        },
+        "output_tokens": 2975,
+        "total_tokens": 5597
+      }
+    },
+    {
+      "conversation_id": "314",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:30:44.653340",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 123,
+          "additional_symptoms": 960,
+          "prompt": 1513,
+          "total": 2596
+        },
+        "output_tokens": 3549,
+        "total_tokens": 6145
+      }
+    },
+    {
+      "conversation_id": "313",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:30:46.755309",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2101,
+          "prompt": 1918,
+          "total": 4019
+        },
+        "output_tokens": 1815,
+        "total_tokens": 5834
+      }
+    },
+    {
+      "conversation_id": "314",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:31:10.473697",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1967,
+          "prompt": 1236,
+          "total": 3203
+        },
+        "output_tokens": 1559,
+        "total_tokens": 4762
+      }
+    },
+    {
+      "conversation_id": "315",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:31:39.067961",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 133,
+          "additional_symptoms": 950,
+          "prompt": 1513,
+          "total": 2596
+        },
+        "output_tokens": 3577,
+        "total_tokens": 6173
+      }
+    },
+    {
+      "conversation_id": "316",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:31:46.543968",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 134,
+          "additional_symptoms": 948,
+          "prompt": 1512,
+          "total": 2594
+        },
+        "output_tokens": 2275,
+        "total_tokens": 4869
+      }
+    },
+    {
+      "conversation_id": "315",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:32:00.923313",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1726,
+          "prompt": 1353,
+          "total": 3079
+        },
+        "output_tokens": 1190,
+        "total_tokens": 4269
+      }
+    },
+    {
+      "conversation_id": "316",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:32:12.201771",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1726,
+          "prompt": 1921,
+          "total": 3647
+        },
+        "output_tokens": 1563,
+        "total_tokens": 5210
+      }
+    },
+    {
+      "conversation_id": "317",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:32:48.619378",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 140,
+          "additional_symptoms": 938,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3404,
+        "total_tokens": 5990
+      }
+    },
+    {
+      "conversation_id": "318",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:32:59.144179",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 133,
+          "additional_symptoms": 949,
+          "prompt": 1512,
+          "total": 2594
+        },
+        "output_tokens": 3357,
+        "total_tokens": 5951
+      }
+    },
+    {
+      "conversation_id": "317",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:33:05.735063",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2111,
+          "prompt": 1483,
+          "total": 3594
+        },
+        "output_tokens": 1061,
+        "total_tokens": 4655
+      }
+    },
+    {
+      "conversation_id": "318",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:33:18.625097",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2918,
+          "prompt": 1508,
+          "total": 4426
+        },
+        "output_tokens": 1189,
+        "total_tokens": 5615
+      }
+    },
+    {
+      "conversation_id": "320",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:35:14.447541",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 159,
+          "additional_symptoms": 935,
+          "prompt": 1524,
+          "total": 2618
+        },
+        "output_tokens": 1458,
+        "total_tokens": 4076
+      }
+    },
+    {
+      "conversation_id": "319",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:35:32.056363",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 123,
+          "additional_symptoms": 982,
+          "prompt": 1535,
+          "total": 2640
+        },
+        "output_tokens": 2965,
+        "total_tokens": 5605
+      }
+    },
+    {
+      "conversation_id": "320",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:35:40.697213",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1721,
+          "prompt": 2230,
+          "total": 3951
+        },
+        "output_tokens": 1680,
+        "total_tokens": 5631
+      }
+    },
+    {
+      "conversation_id": "319",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:35:55.144655",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2929,
+          "prompt": 1354,
+          "total": 4283
+        },
+        "output_tokens": 1447,
+        "total_tokens": 5730
+      }
+    },
+    {
+      "conversation_id": "322",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:36:06.261170",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 74,
+          "additional_symptoms": 1027,
+          "prompt": 1531,
+          "total": 2632
+        },
+        "output_tokens": 641,
+        "total_tokens": 3273
+      }
+    },
+    {
+      "conversation_id": "322",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:36:20.614587",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1360,
+          "prompt": 1101,
+          "total": 2461
+        },
+        "output_tokens": 823,
+        "total_tokens": 3284
+      }
+    },
+    {
+      "conversation_id": "321",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:36:22.863383",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 98,
+          "additional_symptoms": 997,
+          "prompt": 1525,
+          "total": 2620
+        },
+        "output_tokens": 3206,
+        "total_tokens": 5826
+      }
+    },
+    {
+      "conversation_id": "321",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:36:41.392698",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2823,
+          "prompt": 1184,
+          "total": 4007
+        },
+        "output_tokens": 1083,
+        "total_tokens": 5090
+      }
+    },
+    {
+      "conversation_id": "323",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:36:54.831280",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 107,
+          "additional_symptoms": 976,
+          "prompt": 1513,
+          "total": 2596
+        },
+        "output_tokens": 2249,
+        "total_tokens": 4845
+      }
+    },
+    {
+      "conversation_id": "323",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:37:18.403269",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1861,
+          "prompt": 1537,
+          "total": 3398
+        },
+        "output_tokens": 1255,
+        "total_tokens": 4653
+      }
+    },
+    {
+      "conversation_id": "324",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:37:21.647036",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 151,
+          "additional_symptoms": 927,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 2528,
+        "total_tokens": 5114
       }
     },
     {
       "conversation_id": "325",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:26:33.302251",
+      "timestamp": "2025-05-21T00:37:40.350573",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 103,
@@ -3053,45 +3021,92 @@
           "prompt": 1513,
           "total": 2596
         },
-        "output_tokens": 4542,
-        "total_tokens": 7138
-      }
-    },
-    {
-      "conversation_id": "327",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:26:33.839319",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1622,
-          "prompt": 1795,
-          "total": 3417
-        },
-        "output_tokens": 1607,
-        "total_tokens": 5024
+        "output_tokens": 1495,
+        "total_tokens": 4091
       }
     },
     {
       "conversation_id": "324",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "results",
-      "timestamp": "2025-05-19T17:26:38.344284",
+      "timestamp": "2025-05-21T00:37:44.030569",
       "metrics": {
         "input_tokens": {
           "transcript": 2162,
-          "prompt": 1752,
-          "total": 3914
+          "prompt": 2088,
+          "total": 4250
         },
-        "output_tokens": 1802,
-        "total_tokens": 5716
+        "output_tokens": 1562,
+        "total_tokens": 5812
+      }
+    },
+    {
+      "conversation_id": "325",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:38:02.622616",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2258,
+          "prompt": 1437,
+          "total": 3695
+        },
+        "output_tokens": 1333,
+        "total_tokens": 5028
+      }
+    },
+    {
+      "conversation_id": "326",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:38:04.041779",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 138,
+          "additional_symptoms": 940,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1227,
+        "total_tokens": 3813
+      }
+    },
+    {
+      "conversation_id": "326",
+      "model": "fireworks",
+      "operation": "results",
+      "timestamp": "2025-05-21T00:38:29.244557",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2566,
+          "prompt": 1927,
+          "total": 4493
+        },
+        "output_tokens": 1409,
+        "total_tokens": 5902
+      }
+    },
+    {
+      "conversation_id": "327",
+      "model": "fireworks",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-21T00:38:54.516649",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 128,
+          "additional_symptoms": 950,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 3670,
+        "total_tokens": 6256
       }
     },
     {
       "conversation_id": "328",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-19T17:26:39.784814",
+      "timestamp": "2025-05-21T00:39:18.867111",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 115,
@@ -3099,53 +3114,38 @@
           "prompt": 1518,
           "total": 2606
         },
-        "output_tokens": 3377,
-        "total_tokens": 5983
+        "output_tokens": 3658,
+        "total_tokens": 6264
       }
     },
     {
-      "conversation_id": "326",
-      "model": "openai",
+      "conversation_id": "327",
+      "model": "fireworks",
       "operation": "results",
-      "timestamp": "2025-05-19T17:26:55.221474",
+      "timestamp": "2025-05-21T00:39:24.855687",
       "metrics": {
         "input_tokens": {
-          "transcript": 2566,
-          "prompt": 1937,
-          "total": 4503
+          "transcript": 1622,
+          "prompt": 1786,
+          "total": 3408
         },
-        "output_tokens": 1823,
-        "total_tokens": 6326
-      }
-    },
-    {
-      "conversation_id": "325",
-      "model": "openai",
-      "operation": "results",
-      "timestamp": "2025-05-19T17:26:59.912740",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2258,
-          "prompt": 1456,
-          "total": 3714
-        },
-        "output_tokens": 1564,
-        "total_tokens": 5278
+        "output_tokens": 1894,
+        "total_tokens": 5302
       }
     },
     {
       "conversation_id": "328",
-      "model": "openai",
+      "model": "fireworks",
       "operation": "results",
-      "timestamp": "2025-05-19T17:27:05.799603",
+      "timestamp": "2025-05-21T00:39:37.186708",
       "metrics": {
         "input_tokens": {
           "transcript": 2161,
-          "prompt": 1664,
-          "total": 3825
+          "prompt": 1357,
+          "total": 3518
         },
-        "output_tokens": 2038,
-        "total_tokens": 5863
+        "output_tokens": 1027,
+        "total_tokens": 4545
       }
     }
   ]

@@ -1,22 +1,24 @@
 {
-  "precision": 0.9523809523809523,
-  "recall": 1.0,
-  "f1_score": 0.975609756097561,
-  "true_positives": 20,
+  "precision": 0.95,
+  "recall": 0.95,
+  "f1_score": 0.9500000000000001,
+  "true_positives": 19,
   "false_positives": 1,
-  "false_negatives": 0,
+  "false_negatives": 1,
   "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Self Harm Thoughts",
+      "item": "Smell Problem",
       "result_quotes": [
-        "Do you feel safe at home?",
-        "I do, yeah. We have a good a good relationship.",
-        "Do you feel safe at school?",
-        "Yes, I do. I enjoy school. It's been fun.",
-        "anything that we discuss will see confidential between you and me, unless there's something that you could be talk about that could harm you or harm anyone else."
+        "Any changes in your sense of smell?",
+        "Patient: No."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    }
+  ]
 }

@@ -1,12 +1,15 @@
 {
   "medical_history_assessed": {
-    "grunting": {
+    "aches": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
-      "assessed": "No",
-      "example_quotes": []
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've been having just over the last week my cough that's been getting worse and I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell",
+        "The fever I hasn't been constant, but I've like had some nights where I just feel really chilly and then during the day sometimes even getting these chills"
+      ]
     },
     "itching": {
       "assessed": "No",
@@ -16,11 +19,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -28,27 +27,24 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "behavior_changes": {
+    "arthritis_pain": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your bowel habits like constant constipation or diarrhea.",
-        "Oh no, not really."
+        "Any changes to your bowel habits like constant constipation or diarrhea.",
+        "No, not really."
       ]
     },
     "brain_fog": {
       "assessed": "No",
       "example_quotes": []
     },
-    "changes_in_his_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes to your appetite?",
-        "just maybe in like a little bit with the loss of smell and taste, the food is not really the same in the last day, last few days?"
-      ]
+    "change_in_sleep": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
@@ -60,15 +56,19 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've like had some nights where I just feel really chilly and then during the day sometimes even getting these chills"
+        "The fever I hasn't been constant, but I've like had some nights where I just feel really chilly and then during the day sometimes even getting these chills"
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "so no sputum or blood right?",
+        "And then you said dry cough so no sputum or blood right?",
         "No."
       ]
+    },
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "confusion": {
       "assessed": "Yes",
@@ -80,64 +80,53 @@
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your bowel habits like constant constipation or diarrhea.",
-        "Oh no, not really."
+        "Any changes to your bowel habits like constant constipation or diarrhea.",
+        "No, not really."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having just over the last week my cough that's been getting worse",
-        "So that started seven days ago and then when did the fever start?",
-        "it's been pretty constant. It's been getting worse, especially like in the last few days."
+        "Yeah, I've been having just over the last week my cough that's been getting worse",
+        "It's been pretty constant. It's been getting worse, especially like in the last few days."
       ]
     },
-    "decreased_focus": {
+    "decrease_interest_in_activities": {
       "assessed": "No",
       "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your bowel habits like constant constipation or diarrhea.",
-        "Oh no, not really."
+        "Any changes to your bowel habits like constant constipation or diarrhea.",
+        "No, not really."
       ]
-    },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any pain or discharge in the eyes or ears?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "any dizziness or fainting spells?",
+        "Any dizziness or fainting spells?",
         "No."
       ]
     },
-    "drooling": {
+    "dysphagia": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you experienced any shortness of breath?",
+        "Have you experienced any shortness of breath?",
         "Um, not really, no."
       ]
     },
-    "eye_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any pain or discharge in the eyes or ears?",
-        "No."
-      ]
+    "ecercise": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "facial_pressure": {
       "assessed": "No",
@@ -146,62 +135,72 @@
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "any dizziness or fainting spells?",
+        "Any dizziness or fainting spells?",
         "No."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "how about fatigue?",
-        "I have been a bit tired in the last few days. The fevers at night and morning. Just feeling a little bit crummy, just not really energetic, energetic to do anything."
-      ]
-    },
-    "feeling_tired": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I have been a bit tired in the last few days. The fevers at night and morning. Just feeling a little bit crummy, just not really energetic, energetic to do anything."
+        "How about fatigue?",
+        "I have been a bit tired in the last few days."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I had a fever a couple of nights",
+        "I've been having just over the last week my cough that's been getting worse and I had a fever a couple of nights",
         "The fever I hasn't been constant, but I've like had some nights where I just feel really chilly and then during the day sometimes even getting these chills"
       ]
+    },
+    "flu_like_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Not the loss of taste and smell, but like the other stuff when I just had a cold or flu like symptoms previously"
+      ]
+    },
+    "food_allergy": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes to your vision or hearing?",
+        "Any changes to your vision or hearing?",
         "No, nothing like that."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "so no sputum or blood right?",
+        "And then you said dry cough so no sputum or blood right?",
         "No."
       ]
     },
-    "impending_doom_anxiety": {
+    "hyperhidrosis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "inconsolable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itchiness": {
-      "assessed": "No",
-      "example_quotes": []
+    "lethargic": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I have been a bit tired in the last few days."
+      ]
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
         "Any changes to your appetite?",
-        "just maybe in like a little bit with the loss of smell and taste, the food is not really the same in the last day, last few days?"
+        "Um, just maybe in like a little bit with the loss of smell and taste, the food is not really the same in the last day, last few days?"
       ]
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "memory_loss": {
       "assessed": "Yes",
@@ -210,15 +209,11 @@
         "No, not that I can tell."
       ]
     },
-    "motor_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
         "Do you have a runny nose or a stuffy nose?",
-        "I did have a runny nose earlier this week, but that's kind of subsided. Other than that, I don't really feel too much congestion."
+        "I did have a runny nose earlier this week, but that's kind of subsided."
       ]
     },
     "nausea": {
@@ -229,11 +224,8 @@
       ]
     },
     "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any pain or discharge in the eyes or ears?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "palpitation": {
       "assessed": "Yes",
@@ -241,10 +233,6 @@
         "Do you ever feel like your heart's racing?",
         "Uh no, not really."
       ]
-    },
-    "passing_gas": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "rectal_bleeding": {
       "assessed": "Yes",
@@ -254,11 +242,8 @@
       ]
     },
     "redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes to your hair, nails, or skin, like rashes?",
-        "No, I haven't noticed anything like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
@@ -271,45 +256,35 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "sensation_of_chest": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sexually_transmitted_infection": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slow_motion_feeling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
+    "sleep_dyspnea": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "just yesterday I noticed that I started having a loss of taste and smell",
-        "And then, um, have you experienced any shortness of breath?",
-        "No, not really, no."
+        "just yesterday I noticed that I started having a loss of taste and smell"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "do I do have a sore throat?",
+        "I do have a sore throat?",
         "No."
       ]
     },
-    "speech_volume": {
+    "sweaty": {
       "assessed": "No",
       "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "any swelling in your limbs?",
+        "Any swelling in your limbs?",
         "Uh, no, I don't think so."
       ]
     },
@@ -323,36 +298,40 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "tingling": {
+    "tearing_or_or_itchiness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "underweight_at_birth": {
+    "teary_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tonsilitis": {
       "assessed": "No",
       "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "experienced any weight loss recently?",
+        "Um, experienced any weight loss recently?",
         "No, not that I know."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in terms of urine?",
+        "Any changes in terms of urine?",
         "No, I've been peeing alright."
       ]
     },
-    "vaginal_discomfort": {
+    "vaccine_related_reaction": {
       "assessed": "No",
       "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes to your vision or hearing?",
+        "Any changes to your vision or hearing?",
         "No, nothing like that."
       ]
     },
@@ -363,6 +342,13 @@
         "No."
       ]
     },
+    "weight_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, experienced any weight loss recently?",
+        "No, not that I know."
+      ]
+    },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
@@ -371,6 +357,10 @@
       ]
     },
     "wheez_inhale": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "widespread_pain": {
       "assessed": "No",
       "example_quotes": []
     }

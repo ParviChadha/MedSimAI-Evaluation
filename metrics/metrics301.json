@@ -1,26 +1,35 @@
 {
-  "precision": 0.92,
-  "recall": 1.0,
-  "f1_score": 0.9583333333333334,
-  "true_positives": 23,
-  "false_positives": 2,
-  "false_negatives": 0,
-  "total_items": 44,
+  "precision": 0.88,
+  "recall": 0.9565217391304348,
+  "f1_score": 0.9166666666666666,
+  "true_positives": 22,
+  "false_positives": 3,
+  "false_negatives": 1,
+  "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Paralysis Limb Or Face",
+      "item": "Weakness",
       "result_quotes": [
-        "When you say weak, have you like lost any of your like motor movements like your arms, legs?",
-        "No, no, not like that kind of weak."
+        "I have just been feeling very weak and tired."
       ]
     },
     {
-      "item": "Dysuria",
+      "item": "Motor Weakness",
       "result_quotes": [
-        "OK, how about changes to your urine?",
-        "Uh, no."
+        "When you say weak, have you like lost any of your like motor movements like your arms, legs?"
+      ]
+    },
+    {
+      "item": "General Weakness",
+      "result_quotes": [
+        "I have just been feeling very weak and tired."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    }
+  ]
 }

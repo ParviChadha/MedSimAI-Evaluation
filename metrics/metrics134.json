@@ -1,22 +1,47 @@
 {
-  "precision": 0.96,
-  "recall": 1.0,
-  "f1_score": 0.9795918367346939,
-  "true_positives": 24,
-  "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 48,
+  "precision": 0.875,
+  "recall": 0.875,
+  "f1_score": 0.875,
+  "true_positives": 21,
+  "false_positives": 3,
+  "false_negatives": 3,
+  "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Diabetes",
+      "item": "Change In Taste",
       "result_quotes": [
-        "do you have any past medical conditions or diagnoses?",
-        "Um I was diagnosed with diabetes...",
-        "when were you diagnosed with diabetes?",
-        "I was diagnosed about 10 years ago.",
-        "For the diabetes I take insulin."
+        "Medical Student: Um, I'm sorry I forgot to ask you this specifically, have you experienced any kind of loss of your sense of taste or smell?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Respiratory Distress Syndrome",
+      "result_quotes": [
+        "Patient: I've been having chills. I am feeling short of breath and now my chest hurts.",
+        "Medical Student: Okay, and can you describe your shortness of breath a little bit? Is it uh, are you having catching your breath, or would you say you're having trouble taking deep breaths?"
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Patient: I've been having chills. I am feeling short of breath and now my chest hurts.",
+        "Medical Student: Okay, and have you had any kind of fevers or chills?",
+        "Patient: Uh, yeah, I've, I've had chills for sure. I felt hot."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    }
+  ]
 }

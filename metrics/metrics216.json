@@ -1,30 +1,57 @@
 {
-  "precision": 0.8823529411764706,
-  "recall": 0.9375,
-  "f1_score": 0.9090909090909091,
-  "true_positives": 15,
-  "false_positives": 2,
-  "false_negatives": 1,
+  "precision": 0.7692307692307693,
+  "recall": 0.625,
+  "f1_score": 0.6896551724137931,
+  "true_positives": 10,
+  "false_positives": 3,
+  "false_negatives": 6,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Complications During Delivery",
+      "item": "Phlegm",
       "result_quotes": [
-        "Medical Student: And in regards to birth and prenatal history. Were there any complications throughout pregnancy?",
-        "Patient: No, I wouldn't say so, no, It was normal. Everything was normal and he was a healthy baby."
+        "Patient: Um yes yeah yellow sputum yeah",
+        "Medical Student: OK, so with this cough has there has there been any sputum come up?"
       ]
     },
     {
-      "item": "Delayed Growth Milestones",
+      "item": "Respiratory Distress Syndrome",
       "result_quotes": [
-        "Medical Student: Any concerns with his growth or development so far?",
-        "Patient: No, he's been normal."
+        "Patient: It's been happening for the past two days and we weren't sure what else to do for him.",
+        "Medical Student: OK, um, and in regards to the difficulties breathing as there been any like changes to like is there been any noisy breathing?"
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Patient: We checked twice. We checked on the first day and then again last night.",
+        "Medical Student: OK, um, and in regards to the difficulties breathing as there been any like changes to like is there been any noisy breathing?"
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
       "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez Inhale",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
       "truth_quotes": []
     }
   ]

@@ -1,22 +1,42 @@
 {
-  "precision": 0.9285714285714286,
-  "recall": 1.0,
-  "f1_score": 0.962962962962963,
-  "true_positives": 13,
-  "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 26,
+  "precision": 0.8181818181818182,
+  "recall": 0.6923076923076923,
+  "f1_score": 0.7500000000000001,
+  "true_positives": 9,
+  "false_positives": 2,
+  "false_negatives": 4,
+  "total_items": 24,
   "false_positive_details": [
     {
-      "item": "Sensitive To Allergies",
+      "item": "Throat Pain",
       "result_quotes": [
-        "I have I have allergies. Usually in like the spring in the fall.",
-        "Do you have any allergies to any medications?",
-        "No, no nothing like that. It's just like I get, really bad allergies like I I've seen an allergist and some years I've gotten allergy shots.",
-        "Now do any of these allergies can't make it difficult to breathe or you feel like your face is swelling up?",
-        "Uh. Like it feels like a little bit like plugged up an like what's that called like post nasal drip? But I don't really feel like I can't breathe."
+        "Patient: \"my throat feels really scratchy.\""
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "Patient: \"It feels like a little bit like plugged up an like what's that called like post nasal drip?\"",
+        "Medical Student: \"It's just like a little stuffy.\""
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    }
+  ]
 }

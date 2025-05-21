@@ -1,26 +1,60 @@
 {
-  "precision": 0.9090909090909091,
-  "recall": 1.0,
-  "f1_score": 0.9523809523809523,
-  "true_positives": 20,
-  "false_positives": 2,
-  "false_negatives": 0,
+  "precision": 1.0,
+  "recall": 0.4,
+  "f1_score": 0.5714285714285715,
+  "true_positives": 8,
+  "false_positives": 0,
+  "false_negatives": 12,
   "total_items": 40,
-  "false_positive_details": [
+  "false_positive_details": [],
+  "false_negative_details": [
     {
-      "item": "Tearing Or Or Itchiness",
-      "result_quotes": [
-        "it's felt a little itchy I guess but no pain with swallowing."
-      ]
+      "item": "Dysphagia",
+      "truth_quotes": []
     },
     {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "Do you have any other medical conditions?",
-        "I have high blood pressure. And I take Amlodipine, for that.",
-        "my dad has high blood pressure as well"
-      ]
+      "item": "Smell Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pressure",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
     }
-  ],
-  "false_negative_details": []
+  ]
 }

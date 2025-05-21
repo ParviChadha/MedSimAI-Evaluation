@@ -1,41 +1,37 @@
 {
-  "precision": 0.8666666666666667,
-  "recall": 1.0,
-  "f1_score": 0.9285714285714286,
-  "true_positives": 26,
-  "false_positives": 4,
-  "false_negatives": 0,
+  "precision": 0.9259259259259259,
+  "recall": 0.9615384615384616,
+  "f1_score": 0.9433962264150944,
+  "true_positives": 25,
+  "false_positives": 2,
+  "false_negatives": 1,
   "total_items": 52,
   "false_positive_details": [
     {
-      "item": "Sensitive To Allergies",
+      "item": "Hyperhidrosis",
       "result_quotes": [
-        "I do have seasonal allergies. Uh but they don't seem to be helping.",
-        "Uh no nothing like that.",
-        "Just yeah, some seasonal allergies."
+        "Medical Student: \"Any night sweats or fatigue?\"",
+        "Patient: \"No.\""
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Trauma",
       "result_quotes": [
-        "in terms of your uh past medical history, do you have any um diagnoses or anything any medical conditions at all?",
-        "Uhm no, no nothing, nothing long standing."
-      ]
-    },
-    {
-      "item": "Diabetes",
-      "result_quotes": [
-        "in terms of your uh past medical history, do you have any um diagnoses or anything any medical conditions at all?",
-        "Uhm no, no nothing, nothing long standing."
-      ]
-    },
-    {
-      "item": "Asthma",
-      "result_quotes": [
-        "in terms of your uh past medical history, do you have any um diagnoses or anything any medical conditions at all?",
-        "Uhm no, no nothing, nothing long standing."
+        "Medical Student: \"And uh do you have any exposure to like fumes, dust, or like uh carpet, pets, or animals? Anything that you might have an allergic reaction to?\"",
+        "Patient: \"Uh no nothing like that.\"",
+        "Medical Student: \"Have you traveled at all recently?\"",
+        "Patient: \"No.\"",
+        "Medical Student: \"Have you had any nausea or vomiting?\"",
+        "Patient: \"Uh no.\"",
+        "Medical Student: \"Any fevers or chills?\"",
+        "Patient: \"No.\""
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Ache",
+      "truth_quotes": []
+    }
+  ]
 }

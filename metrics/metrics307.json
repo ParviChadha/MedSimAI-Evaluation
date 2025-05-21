@@ -1,32 +1,16 @@
 {
-  "precision": 0.9166666666666666,
-  "recall": 1.0,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 33,
-  "false_positives": 3,
-  "false_negatives": 0,
-  "total_items": 66,
-  "false_positive_details": [
+  "precision": 1.0,
+  "recall": 0.9696969696969697,
+  "f1_score": 0.9846153846153847,
+  "true_positives": 32,
+  "false_positives": 0,
+  "false_negatives": 1,
+  "total_items": 33,
+  "false_positive_details": [],
+  "false_negative_details": [
     {
-      "item": "Weakness",
-      "result_quotes": [
-        "As soon as I breath, well, I just haven't felt good like, tired, kind of weakish.",
-        "OK yeah um, along with your fatigue and feeling weak..."
-      ]
-    },
-    {
-      "item": "Symptom Speedup",
-      "result_quotes": [
-        "the cough has been kind of going on all day. Um, right when I get up in the morning and goes on all night, it's been getting worse to these last few days."
-      ]
-    },
-    {
-      "item": "Eye Pain",
-      "result_quotes": [
-        "OK, any discharge or pain in your eyes or ears?",
-        "No, that's been OK."
-      ]
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
     }
-  ],
-  "false_negative_details": []
+  ]
 }

@@ -1,11 +1,59 @@
 {
-  "precision": 1.0,
-  "recall": 1.0,
-  "f1_score": 1.0,
-  "true_positives": 29,
-  "false_positives": 0,
-  "false_negatives": 0,
-  "total_items": 45,
-  "false_positive_details": [],
-  "false_negative_details": []
+  "precision": 0.8,
+  "recall": 0.9655172413793104,
+  "f1_score": 0.8750000000000001,
+  "true_positives": 28,
+  "false_positives": 7,
+  "false_negatives": 1,
+  "total_items": 58,
+  "false_positive_details": [
+    {
+      "item": "Eye Discharge",
+      "result_quotes": [
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "No."
+      ]
+    },
+    {
+      "item": "Eye Pain",
+      "result_quotes": [
+        "No."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "I've been really tired but I don't know if that's because I can't get any seem to get any sleep."
+      ]
+    },
+    {
+      "item": "Tearing Or Or Itchiness",
+      "result_quotes": [
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Sleeping Issues",
+      "result_quotes": [
+        "It's affecting my sleep, so I just really like to get this fixed."
+      ]
+    },
+    {
+      "item": "Sleep Issue",
+      "result_quotes": [
+        "It's affecting my sleep, so I just really like to get this fixed."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    }
+  ]
 }

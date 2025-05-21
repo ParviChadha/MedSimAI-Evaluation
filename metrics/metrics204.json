@@ -1,27 +1,24 @@
 {
-  "precision": 0.8928571428571429,
-  "recall": 1.0,
-  "f1_score": 0.9433962264150945,
-  "true_positives": 25,
+  "precision": 0.7857142857142857,
+  "recall": 0.44,
+  "f1_score": 0.5641025641025641,
+  "true_positives": 11,
   "false_positives": 3,
-  "false_negatives": 0,
-  "total_items": 50,
+  "false_negatives": 14,
+  "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Diabetes",
+      "item": "Phlegm",
       "result_quotes": [
-        "Are you otherwise healthy? Do you have any longstanding medical conditions?",
-        "I have diabetes.",
-        "OK, how long have you had diabetes?",
-        "It's about, it's been uh seven years now."
+        "Is it a dry cough or do you bring up any phlegm?",
+        "No, it's a dry cough."
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "my family Doc started me on uh ramipril about two weeks ago, he told me that uh now that I'm 50, I need to I need to be on this pill as well, so now I have to take 2 pills instead of one.",
-        "Yeah because I think it's it's good for my heart or something.",
-        "So you started that two weeks ago, OK."
+        "I've just had this cough for the past week and I was worried I might have Covid",
+        "No, I don't have a fever."
       ]
     },
     {
@@ -31,5 +28,62 @@
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Numbness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    }
+  ]
 }

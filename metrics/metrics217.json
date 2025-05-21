@@ -1,23 +1,54 @@
 {
-  "precision": 0.9583333333333334,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.9583333333333334,
-  "true_positives": 23,
-  "false_positives": 1,
-  "false_negatives": 1,
-  "total_items": 48,
+  "precision": 0.8333333333333334,
+  "recall": 0.8333333333333334,
+  "f1_score": 0.8333333333333334,
+  "true_positives": 20,
+  "false_positives": 4,
+  "false_negatives": 4,
+  "total_items": 41,
   "false_positive_details": [
     {
-      "item": "Diabetes",
+      "item": "Itching",
       "result_quotes": [
-        "Have you been diagnosed with any medical conditions?",
-        "No, I've I've been very healthy."
+        "No, none of those, but I did it, initially I used to get just an irritation in my throat.",
+        "itching eyes"
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "I do find that it's harder to take a breath at those times."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "No, nothing like that.",
+        "Muscle aches, joint pain?"
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "It's usually, it's usually a dry cough and sometimes I do bring up like this light material"
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Irritable",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
       "truth_quotes": []
     }
   ]

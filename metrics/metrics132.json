@@ -1,19 +1,116 @@
 {
-  "precision": 0.9655172413793104,
-  "recall": 1.0,
-  "f1_score": 0.9824561403508771,
-  "true_positives": 28,
-  "false_positives": 1,
-  "false_negatives": 0,
+  "precision": 0.6666666666666666,
+  "recall": 0.35714285714285715,
+  "f1_score": 0.46511627906976744,
+  "true_positives": 10,
+  "false_positives": 5,
+  "false_negatives": 18,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Lightheadedness",
+      "item": "Complications Actual Delivery",
       "result_quotes": [
-        "Um and um have you had any uh instances of fainting or feeling dizzy?",
-        "Nope."
+        "I had a C-section in my twenties."
+      ]
+    },
+    {
+      "item": "Greenish Yellowish Nasal Discharge",
+      "result_quotes": [
+        "I've also been coughing up uh this greenish yellowish material."
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "I've also been coughing up uh this greenish yellowish material."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "I have had a fever like today, I had a fever I measured it was like 38.5.",
+        "Last night, I would say I had night sweats. My sheets were a bit drenched."
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "I've also been coughing up uh this greenish yellowish material."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Itching Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Pain",
+      "truth_quotes": []
+    }
+  ]
 }

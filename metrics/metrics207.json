@@ -1,30 +1,65 @@
 {
-  "precision": 0.9285714285714286,
-  "recall": 0.9629629629629629,
-  "f1_score": 0.9454545454545454,
-  "true_positives": 26,
-  "false_positives": 2,
-  "false_negatives": 1,
-  "total_items": 43,
+  "precision": 0.7931034482758621,
+  "recall": 0.8518518518518519,
+  "f1_score": 0.8214285714285715,
+  "true_positives": 23,
+  "false_positives": 6,
+  "false_negatives": 4,
+  "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Diabetes",
+      "item": "Phlegm",
       "result_quotes": [
-        "Are you um, do you have any medical conditions that you've been diagnosed with?",
-        "No, I've been uh, completely healthy otherwise.",
-        "Any conditions, medical conditions that run in the family?",
-        "Um, I think my dad has uh, high cholesterol."
+        "So, it's more of just like a dry cough. I'm not really bringing anything up."
       ]
     },
     {
-      "item": "Tingling",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "Any numbness or tingling in your arms or feet?",
-        "Nope."
+        "My mom had the sniffles like last week, but she pretty much got over it."
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "And the runny nose, what, what's the discharge like?",
+        "Uh it's, it's pretty clear. It might be light, but it's not like green or yellow or anything like that."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "Any aches in your, any muscle aches?",
+        "No."
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "Sometimes I feel a bit congested."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Alright, and what about sore throat?",
+        "No, no. No, sore throat."
       ]
     }
   ],
   "false_negative_details": [
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Allergy Medication",
+      "truth_quotes": []
+    },
     {
       "item": "Paralysis General",
       "truth_quotes": []

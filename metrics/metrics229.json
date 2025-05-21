@@ -1,18 +1,50 @@
 {
-  "precision": 0.96,
-  "recall": 1.0,
-  "f1_score": 0.9795918367346939,
-  "true_positives": 24,
-  "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 48,
+  "precision": 0.8695652173913043,
+  "recall": 0.8333333333333334,
+  "f1_score": 0.851063829787234,
+  "true_positives": 20,
+  "false_positives": 3,
+  "false_negatives": 4,
+  "total_items": 45,
   "false_positive_details": [
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Patient: Yeah, I was just down in a, I went to Haiti on a on a trip for a, for a volunteer program with my school and I don't know I definitely notice there is a lot of people down there coughing.",
+        "Medical Student: OK, and did you notice, uh, at all any potential exposures to tuberculosis? Anyone there that had tuberculosis? Or found out later?",
+        "Patient: Yeah, there were definitely some people around that I heard of who who mentioned tuberculosis, but I don't know if anybody specifically who had it."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Patient: this morning I read after I woke up by I coughed up some phlegm and there was some blood in it",
+        "Patient: Uhm, I have been producing some phlegm, um, but it's been just kind of white, yellowish."
+      ]
+    },
     {
       "item": "Itching",
       "result_quotes": [
-        "I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
+        "Patient: Uhm, nothing like like that. I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    }
+  ]
 }

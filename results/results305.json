@@ -1,6 +1,22 @@
 {
   "medical_history_assessed": {
-    "lightheadedness": {
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "throat_pain": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -10,30 +26,6 @@
         "Any acid reflux?",
         "Uh, no."
       ]
-    },
-    "arthritis_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Okay, and any certain muscle aches or joint pains?",
-        "Um no, nothing like that."
-      ]
-    },
-    "asthma": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um, my older sister has asthma, and uh, I don't know if anyone else in the family has asthma.",
-        "Does it wake you up at night?",
-        "Does it affect your ability to do well at school at all?",
-        "You might also have a diagnosis of asthma potentially."
-      ]
-    },
-    "bad_smell": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
@@ -46,21 +38,13 @@
       "assessed": "Yes",
       "example_quotes": [
         "Any um, chest pain?",
-        "Um, sometimes when I get like really bad coughing fits, like it sometimes starts hurting in my chest as well.",
-        "Yeah. Um, does it go away when you stop coughing?",
-        "Yeah, it goes away after, I just take some rest."
+        "Um, sometimes when I get like really bad coughing fits, like it sometimes starts hurting in my chest as well."
       ]
-    },
-    "chills": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay, great, it sounds like that the, the cough is sort of the main symptom here that you have. Um, is the cough dry or wet?",
-        "It's usually uh, it's usually dry.",
-        "Okay um, have you ever brought up any sputum or any blood?",
+        "Have you ever brought up any sputum or any blood?",
         "Uh never any blood, I have like on occasion, like sometimes brought up some sputum."
       ]
     },
@@ -74,99 +58,108 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "lately, for the last couple of months, I've been getting these coughing fits",
         "So you've had this, when did this start?",
-        "it's basically worse when you're um, doing some sort of an exercise such as walking um, or being in the gym class, and it's also worse in the cold?"
+        "Uh, I would say probably during the winter uh it, it kind of started, where I started having um, just coughing fits when I'm walking to school and then also during like gym class I started having these coughing fits and sometimes I also felt like I couldn't breathe."
       ]
     },
     "coughing_fit": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been getting these coughing fits. They don't really seem to be going away and I was a bit concerned.",
-        "I also felt like I couldn't breathe.",
-        "sometimes I also have difficulties breathing with it?",
-        "couple of times it got really bad where I had to um like, it was difficult get, it was, it was like I was trying to take deep breaths for air, but uh it was, it just felt like I couldn't."
+        "So you've had this, when did this start?",
+        "Uh, I would say probably during the winter uh it, it kind of started, where I started having um, just coughing fits when I'm walking to school and then also during like gym class I started having these coughing fits and sometimes I also felt like I couldn't breathe."
       ]
     },
-    "diabetes": {
+    "decreased_oral_intake": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_feeding": {
+    "decreased_physical_activity": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Can you tell me if you have any medical conditions that you've been diagnosed with?",
+        "No, nothing else, I've been pretty healthy."
+      ]
+    },
+    "diet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drooling": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "sometimes I also felt like I couldn't breathe.",
-        "sometimes I also have difficulties breathing with it?",
-        "it was like I was trying to take deep breaths for air, but uh it was, it just felt like I couldn't."
+        "And you said that sometimes you also have difficulties breathing with it?",
+        "Yeah, like a couple of times it got really bad where I had to um like, it was difficult get, it was, it was like I was trying to take deep breaths for air, but uh it was, it just felt like I couldn't."
       ]
+    },
+    "ear_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "facial_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fainting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "flu": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "greenish_yellowish_nasal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had a headache that accompanies the cough?",
+        "Um, so have you had a headache that accompanies the cough?",
         "Uh no."
       ]
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your vision or your hearing?",
-        "No."
-      ]
-    },
-    "hearing_problem\"": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any changes in your vision or your hearing?",
+        "Um, any changes in your vision or your hearing?",
         "No."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay um, have you ever brought up any sputum or any blood?",
+        "Have you ever brought up any sputum or any blood?",
         "Uh never any blood, I have like on occasion, like sometimes brought up some sputum."
       ]
     },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you been vaccinated?",
-        "Uh, yeah, all my immunizations are up to date."
-      ]
-    },
-    "loss_of_sense": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_taste": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lymphadenitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "motor_weakness": {
+    "mucous_building": {
       "assessed": "No",
       "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "any runny nose or stuffy nose or sinus congestion?",
+        "Um, any runny nose or stuffy nose or sinus congestion?",
         "Uh no, not really.",
-        "I do get like some nasal congestion and things like that."
+        "Um, now that you mention it, yeah, like if we're ever in the basement or anything like that, I, I do start getting like kind of irritation um, in my throat, and that kind of, sometimes I have also coughed at those times."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "any nausea or vomiting?",
+        "Any changes in your, any nausea or vomiting?",
         "No."
       ]
     },
@@ -180,9 +173,8 @@
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Okay, and any certain muscle aches or joint pains?",
-        "Um no, nothing like that.",
-        "It sometimes starts hurting in my chest as well."
+        "Any um, chest pain?",
+        "Um, sometimes when I get like really bad coughing fits, like it sometimes starts hurting in my chest as well."
       ]
     },
     "palpitation": {
@@ -195,88 +187,74 @@
     "paroxysmal_coughing": {
       "assessed": "Yes",
       "example_quotes": [
-        "lately, for the last couple of months, I've been getting these coughing fits.",
-        "I started having um, just coughing fits when I'm walking to school and then also during like gym class."
+        "So you've had this, when did this start?",
+        "Uh, I would say probably during the winter uh it, it kind of started, where I started having um, just coughing fits when I'm walking to school and then also during like gym class I started having these coughing fits and sometimes I also felt like I couldn't breathe."
       ]
-    },
-    "passing_gas": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "psychological_wellbeing": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you feel safe?",
-        "Yeah, yeah, I feel completely safe.",
         "Any concerns about bullying at school?",
-        "No, no, not at all."
+        "No, no, not at all.",
+        "Do you feel safe?",
+        "Yeah, yeah, I feel completely safe."
       ]
-    },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "any runny nose or stuffy nose or sinus congestion?",
-        "Uh no, not really.",
-        "I do get like some nasal congestion and things like that."
+        "Um, any runny nose or stuffy nose or sinus congestion?",
+        "Uh no, not really."
       ]
     },
-    "self_hurt": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "the conversation that we're having right now is confidential between you and me. Um, unless you mentioned anything that harms you or harms anyone else so, so feel free to discuss whatever or talk openly about um, any issues that you have."
-      ]
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sinus_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "any runny nose or stuffy nose or sinus congestion?",
-        "Uh no, not really."
+        "Um, any runny nose or stuffy nose or sinus congestion?",
+        "Uh no, not really.",
+        "Um, now that you mention it, yeah, like if we're ever in the basement or anything like that, I, I do start getting like kind of irritation um, in my throat, and that kind of, sometimes I have also coughed at those times."
       ]
     },
-    "sinus_headaches": {
+    "sleep_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Does it wake you up at night?",
+        "No, so far no. I, I like, I get pretty good sleep."
+      ]
+    },
+    "sleeping_issues": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Does it wake you up at night?",
+        "No, so far no. I, I like, I get pretty good sleep."
+      ]
+    },
+    "smell_loss": {
       "assessed": "No",
       "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "any sore throat?",
+        "Any sore throat?",
         "Uh no."
       ]
     },
-    "stuffy_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any runny nose or stuffy nose or sinus congestion?",
-        "Uh no, not really."
-      ]
-    },
-    "stunning": {
+    "speech_volume": {
       "assessed": "No",
       "example_quotes": []
     },
-    "symptom_speedup": {
+    "sweaty": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing": {
+    "taste_loss": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "teary_eyes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you ever had allergic rhinitis, which is basically sort of having um, red or teary eyes, itchiness on the face, a runny nose at certain times of the year, or in um, areas with mold or dust, or termites and things like that? Have you had anything like that as a child or right now?",
-        "Uh, not that I know of, no."
-      ]
     },
     "tingling": {
       "assessed": "Yes",
@@ -285,51 +263,47 @@
         "No."
       ]
     },
-    "tonsilitis": {
+    "tired": {
       "assessed": "No",
       "example_quotes": []
     },
     "trouble_breathing_with_cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "sometimes I also have difficulties breathing with it?",
+        "And you said that sometimes you also have difficulties breathing with it?",
         "Yeah, like a couple of times it got really bad where I had to um like, it was difficult get, it was, it was like I was trying to take deep breaths for air, but uh it was, it just felt like I couldn't."
       ]
     },
-    "underweight_at_birth": {
+    "vaginal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your vision or your hearing?",
+        "Um, any changes in your vision or your hearing?",
         "No."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "any nausea or vomiting?",
+        "Any changes in your, any nausea or vomiting?",
         "No.",
-        "Okay, so you're wheezing. Okay, so you ever um, cough so much that you end up vomiting?",
+        "So you ever um, cough so much that you end up vomiting?",
         "No, no that hasn't happen yet."
       ]
     },
-    "weight_gain": {
+    "weight_changes": {
       "assessed": "No",
       "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "I also noticed like uh, there's like this weird noise I started making like right after when I'm trying to take deep breaths in.",
-        "Okay, okay. Okay, so you're wheezing."
+        "Okay, so you're wheezing.",
+        "Uh yeah, it's like pretty, it can get pretty harsh. I also noticed like uh, there's like this weird noise I started making like right after when I'm trying to take deep breaths in."
       ]
-    },
-    "widespread_pain": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

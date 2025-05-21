@@ -1,41 +1,16 @@
 {
-  "precision": 0.8709677419354839,
-  "recall": 1.0,
-  "f1_score": 0.9310344827586207,
-  "true_positives": 27,
-  "false_positives": 4,
-  "false_negatives": 0,
-  "total_items": 54,
-  "false_positive_details": [
+  "precision": 1.0,
+  "recall": 0.9629629629629629,
+  "f1_score": 0.9811320754716981,
+  "true_positives": 26,
+  "false_positives": 0,
+  "false_negatives": 1,
+  "total_items": 34,
+  "false_positive_details": [],
+  "false_negative_details": [
     {
-      "item": "Fainting",
-      "result_quotes": [
-        "No? Any dizziness or fainting spells?",
-        "No."
-      ]
-    },
-    {
-      "item": "Discharge",
-      "result_quotes": [
-        "OK so no sputum or phlegm, no? OK, do you ever feel wheezy?",
-        "It's mostly just a dry cough. I don't cough up anything."
-      ]
-    },
-    {
-      "item": "Change In Sleep",
-      "result_quotes": [
-        "Does it ever wake you up at night?",
-        "No never.",
-        "You woke up feeling chilly, any night sweats?"
-      ]
-    },
-    {
-      "item": "Confusion",
-      "result_quotes": [
-        "Confusion, memory loss?",
-        "No, nothing like that."
-      ]
+      "item": "Nasal Congestion",
+      "truth_quotes": []
     }
-  ],
-  "false_negative_details": []
+  ]
 }

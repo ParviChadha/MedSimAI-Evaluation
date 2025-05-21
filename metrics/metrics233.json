@@ -1,32 +1,46 @@
 {
-  "precision": 0.9,
+  "precision": 0.8181818181818182,
   "recall": 1.0,
-  "f1_score": 0.9473684210526316,
+  "f1_score": 0.9,
   "true_positives": 27,
-  "false_positives": 3,
+  "false_positives": 6,
   "false_negatives": 0,
-  "total_items": 54,
+  "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Vaccine Related Reaction",
+      "item": "Aches",
       "result_quotes": [
-        "Are your immunizations up to date?",
-        "I think, yeah, I think so."
+        "No, I don't have any muscle aches or body pains."
       ]
     },
     {
-      "item": "Physical Or Emotional Abuse At Home",
+      "item": "Sinus Congestion",
       "result_quotes": [
-        "OK, and is there any physical or verbal abuse in the home?",
-        "No.",
-        "OK, so you do feel safe in the home?",
-        "Yes yes."
+        "umm, no. my nose hasn't been runny, but has it felt congested?"
       ]
     },
     {
-      "item": "Change In Taste",
+      "item": "Throat Pain",
       "result_quotes": [
-        "I feel like I can't taste things the same."
+        "I have a sore throat"
+      ]
+    },
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "Um, mostly with foods."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "it is sounding like it could be most likely an infectious type of process"
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "No, I'm not bringing up any phlegm."
       ]
     }
   ],

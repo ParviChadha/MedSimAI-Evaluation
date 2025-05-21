@@ -1,27 +1,23 @@
 {
-  "precision": 0.92,
-  "recall": 1.0,
-  "f1_score": 0.9583333333333334,
-  "true_positives": 23,
-  "false_positives": 2,
-  "false_negatives": 0,
-  "total_items": 46,
+  "precision": 0.9565217391304348,
+  "recall": 0.9565217391304348,
+  "f1_score": 0.9565217391304348,
+  "true_positives": 22,
+  "false_positives": 1,
+  "false_negatives": 1,
+  "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "like I have like a peanut allergy. That's it.",
-        "Oh, did you have an anaphylactic reaction?",
-        "Yeah, like I was a kid. So. I don't really remember that much, but that's when they told me I was allergic."
-      ]
-    },
-    {
-      "item": "Sexually Transmitted Infection",
-      "result_quotes": [
-        "Any sexually transmitted infections in the past?",
-        "No."
+        "I lost. I can't. I for the past two days I can't smell anything. I can't taste any of my food."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

@@ -1,30 +1,75 @@
 {
-  "precision": 0.8928571428571429,
-  "recall": 1.0,
-  "f1_score": 0.9433962264150945,
-  "true_positives": 25,
-  "false_positives": 3,
-  "false_negatives": 0,
-  "total_items": 50,
+  "precision": 0.8666666666666667,
+  "recall": 0.52,
+  "f1_score": 0.65,
+  "true_positives": 13,
+  "false_positives": 2,
+  "false_negatives": 12,
+  "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Fatigue",
+      "item": "Phlegm",
       "result_quotes": [
-        "I just don't feel very rested this morning."
+        "Yeah, I brought up a little bit of sputum.",
+        "Patient: It's been clear, mostly clear and sometimes dry as well."
       ]
     },
     {
-      "item": "Sensitive To Allergies",
+      "item": "Body Ache",
       "result_quotes": [
-        "Uhm, just environmental stuff I think, just, like in the springtime, I'll get itchy eyes or a runny nose."
-      ]
-    },
-    {
-      "item": "Ear Problem",
-      "result_quotes": [
-        "I did have tubes in my ears when I was little, but that's it though."
+        "Yeah, I have felt a bit sore.",
+        "Patient: Just kind of all over, my whole body just kind of feels a bit achy."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    }
+  ]
 }

@@ -1,19 +1,121 @@
 {
-  "precision": 0.96875,
-  "recall": 1.0,
-  "f1_score": 0.9841269841269841,
-  "true_positives": 31,
-  "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 50,
+  "precision": 0.7777777777777778,
+  "recall": 0.22580645161290322,
+  "f1_score": 0.35000000000000003,
+  "true_positives": 7,
+  "false_positives": 2,
+  "false_negatives": 24,
+  "total_items": 62,
   "false_positive_details": [
     {
-      "item": "Vaccine Related Reaction",
+      "item": "Chest Discomfort",
       "result_quotes": [
-        "Are you up to date with all of your immunizations?",
-        "Yeah I got my shingles and my pneumonia vaccination everything like that."
+        "It's I think it's more so just I can't catch my breath and sometimes I just have trouble being able to take like a full breath."
+      ]
+    },
+    {
+      "item": "Decreased Activity",
+      "result_quotes": [
+        "I do find it difficult getting out of the house recently just because of my shortness of breath, but other than that I feel that I'm pretty independent."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    }
+  ]
 }

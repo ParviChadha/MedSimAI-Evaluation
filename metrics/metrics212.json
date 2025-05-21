@@ -1,53 +1,51 @@
 {
-  "precision": 0.8333333333333334,
-  "recall": 1.0,
-  "f1_score": 0.9090909090909091,
-  "true_positives": 30,
-  "false_positives": 6,
-  "false_negatives": 0,
-  "total_items": 60,
+  "precision": 0.9565217391304348,
+  "recall": 0.7333333333333333,
+  "f1_score": 0.8301886792452831,
+  "true_positives": 22,
+  "false_positives": 1,
+  "false_negatives": 8,
+  "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Slow Motion Feeling",
+      "item": "Aches",
       "result_quotes": [
-        "I just don't remember, I remember things, but it's it's like I'm doing everything underwater.",
-        "It just feels like I'm really slow at doing things."
-      ]
-    },
-    {
-      "item": "Flu Like Symptom",
-      "result_quotes": [
-        "with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection, and one of those possibilities could be COVID-19, but also it could be the influenza."
-      ]
-    },
-    {
-      "item": "Behavior Changes",
-      "result_quotes": [
-        "Have you been uh confused or concerns with your memory?",
-        "Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
-      ]
-    },
-    {
-      "item": "Behaviour Change",
-      "result_quotes": [
-        "Have you been uh confused or concerns with your memory?",
-        "Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
-      ]
-    },
-    {
-      "item": "Lung Complications",
-      "result_quotes": [
-        "has anybody in your family had similar symptoms in the past to what you're having or had any lung conditions in the past?",
-        "No, nothing like that."
-      ]
-    },
-    {
-      "item": "Allergic Rhinitis",
-      "result_quotes": [
-        "any allergies?",
-        "Just seasonal allergies."
+        "Some muscle aches, I would say mostly in my arms and just my legs, yeah."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Tearing",
+      "truth_quotes": []
+    },
+    {
+      "item": "Itchiness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hyperacusis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Photophobia",
+      "truth_quotes": []
+    },
+    {
+      "item": "Tearing Or Or Itchiness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    }
+  ]
 }

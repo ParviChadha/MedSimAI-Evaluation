@@ -1,47 +1,35 @@
 {
-  "precision": 0.8,
-  "recall": 0.8,
-  "f1_score": 0.8000000000000002,
-  "true_positives": 12,
+  "precision": 0.8235294117647058,
+  "recall": 0.9333333333333333,
+  "f1_score": 0.8749999999999999,
+  "true_positives": 14,
   "false_positives": 3,
-  "false_negatives": 3,
+  "false_negatives": 1,
   "total_items": 30,
   "false_positive_details": [
     {
-      "item": "Dehydration",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "we try to keep him well hydrated, and we've been keeping an eye on his like um diapers and things like that.",
-        "how many diapers is he um, are you changing a day?",
-        "Usually like about 5, 6, but yesterday it was like 2."
+        "he had like a runny nose and a cough, but that went away.",
+        "he had this temperature of like 38.5"
       ]
     },
     {
-      "item": "Food Allergy",
+      "item": "Odynophagia",
       "result_quotes": [
-        "does he have any allergies that you're aware of?",
-        "Any allergies?",
-        "Oh, uh no allergies."
+        "he's not swallowing his food, like we've been feeding him some mashed up food but he's not swallowing it."
       ]
     },
     {
-      "item": "Behavior Changes",
+      "item": "Tachypnea",
       "result_quotes": [
-        "How was he doing before that?",
-        "He was fine before that, he had like a an infection, like some sort of viral infection recently...but that went away."
+        "he's been very short of breath."
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
       "truth_quotes": []
     }
   ]

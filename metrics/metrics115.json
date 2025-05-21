@@ -1,15 +1,50 @@
 {
-  "precision": 1.0,
-  "recall": 0.9523809523809523,
-  "f1_score": 0.975609756097561,
-  "true_positives": 20,
-  "false_positives": 0,
-  "false_negatives": 1,
+  "precision": 0.8421052631578947,
+  "recall": 0.7619047619047619,
+  "f1_score": 0.8,
+  "true_positives": 16,
+  "false_positives": 3,
+  "false_negatives": 5,
   "total_items": 42,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "Um, when it gets really bad then I can't really step out of the house, but other than that I feel like my energy's still there."
+      ]
+    },
+    {
+      "item": "Asthma",
+      "result_quotes": [
+        "Just throughout my life I've had asthma so when I am exercising too much or get exposed to like dust, sometimes get shortness of breath."
+      ]
+    },
+    {
+      "item": "Vaccine Related Reaction",
+      "result_quotes": [
+        "Yep."
+      ]
+    }
+  ],
   "false_negative_details": [
     {
+      "item": "Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    },
+    {
       "item": "Speech Volume",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
       "truth_quotes": []
     }
   ]

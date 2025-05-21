@@ -1,70 +1,10 @@
 {
   "medical_history_assessed": {
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "injury": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "did you get in a car accident maybe? Or any trauma to the chest or anything you can think of?"
-      ]
-    },
     "lightheadedness": {
       "assessed": "Yes",
       "example_quotes": [
         "Any dizziness or Lightheadedness?",
         "No."
-      ]
-    },
-    "loss_of_consciousness_due_to_alcohol": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you had a sexually transmitted infection before?",
-        "No, never."
-      ]
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weight_gain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "so has your weight been stable over the last several months.",
-        "Yeah, weight has been stable."
       ]
     },
     "aches": {
@@ -74,17 +14,26 @@
         "No."
       ]
     },
+    "allergic_rhinitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
         "Any bowel problems like diarrhea or Constipation?",
-        "No, nothing like that."
+        "No."
       ]
+    },
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "just randomly like 2 days ago I just started having this chest pain when I'm breathing"
+        "What brought you in today?",
+        "Yeah, so uh, just randomly like 2 days ago I just started having this chest pain when I'm breathing and it's just been getting worse..."
       ]
     },
     "chills": {
@@ -101,24 +50,33 @@
         "It is dry."
       ]
     },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
         "Any bowel problems like diarrhea or Constipation?",
-        "No, nothing like that."
+        "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have been having a little bit of a cough, but that's it, like, it kind of started today"
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
+        "I have been having a little bit of a cough, but that's it, like, it kind of started today, but it's nothing too significant."
       ]
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
         "Any bowel problems like diarrhea or Constipation?",
-        "No, nothing like that."
+        "No."
       ]
     },
     "dizzyness": {
@@ -128,18 +86,35 @@
         "No."
       ]
     },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm very short of breath as well",
-        "so I feel like I'm having to just breathe faster and more shallow."
+        "What brought you in today?",
+        "Yeah, so uh, just randomly like 2 days ago I just started having this chest pain when I'm breathing and it's just been getting worse and then because of that, I'm finding that I'm very short of breath as well..."
       ]
+    },
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?"
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
+        "I have been having a little bit of a cough, but that's it, like, it kind of started today, but it's nothing too significant."
       ]
+    },
+    "fatigue": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "feeling_tired": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
@@ -147,6 +122,10 @@
         "have you had any fevers, chills, or night sweats?",
         "Uhm, Nope."
       ]
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
@@ -158,40 +137,82 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you brought up any blood?",
+        "with the cough, have you brought up any blood?",
         "No."
       ]
+    },
+    "impending_doom_anxiety": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
+        "I have been having a little bit of a cough, but that's it, like, it kind of started today, but it's nothing too significant."
+      ]
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "how has your appetite been?",
-        "My appetite's been pretty good."
+        "How has your appetite been?",
+        "My appetite's been pretty good. It's like, definitely with the pain, I don't really feel like eating today, but I don't think it's changed."
       ]
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "malaise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?"
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
+        "I have been having a little bit of a cough, but that's it, like, it kind of started today, but it's nothing too significant."
       ]
     },
     "nasal_discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?"
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
+        "I have been having a little bit of a cough, but that's it, like, it kind of started today, but it's nothing too significant."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any nausea or vomiting?",
+        "have you had any nausea or vomiting?",
         "No."
       ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "just randomly like 2 days ago I just started having this chest pain when I'm breathing"
+        "What brought you in today?",
+        "Yeah, so uh, just randomly like 2 days ago I just started having this chest pain when I'm breathing and it's just been getting worse..."
       ]
     },
     "palpitation": {
@@ -201,17 +222,38 @@
         "No, I don't think so."
       ]
     },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "respiratory_distress_syndrome": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "sleep_hydrosis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you had any fevers, chills, or night sweats?",
-        "Uhm, Nope."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about a loss of taste or a loss of smell?",
+        "have you had a loss of taste or a loss of smell?",
         "No."
       ]
     },
@@ -222,12 +264,31 @@
         "Uh, no."
       ]
     },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptoms_stress": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about a loss of taste or a loss of smell?",
+        "have you had a loss of taste or a loss of smell?",
         "No."
       ]
+    },
+    "trauma": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "were you doing anything at the time when the chest pain started? Like did you get in a car accident maybe? Or any trauma to the chest or anything you can think of?",
+        "No, not really."
+      ]
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -237,16 +298,17 @@
       ]
     },
     "urination": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you had any, Uh, like urinary problems?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any nausea or vomiting?",
+        "have you had any nausea or vomiting?",
         "No."
       ]
     },

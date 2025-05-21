@@ -1,10 +1,36 @@
 {
   "medical_history_assessed": {
+    "aches": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "head ache for the past two days",
+        "facial pressure"
+      ]
+    },
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "changes_in_memory": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "viral infection a week back",
+        "yellow discharge from the nose"
+      ]
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -12,273 +38,163 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "respiratory_distress_syndrome": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
     "bad_smell": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you noticed at all or has someone told you that your breath might smell bad? Or have you noticed it yourself?",
-        "Oh gosh, I hope not, no. No one said that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any chest pain at all?",
         "No, no chest pain."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been having any fevers or chills?",
         "Uh, no,  nothing like that.",
-        "Any fevers or chills?",
         "No."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Constipation or diarrhea?",
         "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been coughing at all?",
-        "Uh, no."
+        "Uh, no.",
+        "No."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Constipation or diarrhea?",
         "No."
       ]
-    },
-    "diet": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any trouble breathing?",
-        "No."
+        "No trouble breathing?"
       ]
     },
     "facial_pressure": {
       "assessed": "Yes",
       "example_quotes": [
-        "it's not like a headache, it's like a facial pressure",
-        "Is it that pressure in your face or is it the congestion?",
-        "It's the...it's the pressure in my face. It hurts."
+        "facial pressure"
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any fatigue?",
         "Yeah, I've been feeling tired.",
-        "OK, and how many days would you say you've been feeling tired for?",
-        "Uh, I would say for the past three days?"
+        "for the past three days"
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been having any fevers or chills?",
         "Uh, no,  nothing like that.",
-        "Any fevers or chills?",
         "No.",
-        "And you haven't had any high fever or anything like that? Have you measured your temperature?",
-        "I haven't, I haven't, no."
+        "Have you measured your temperature?"
       ]
     },
     "greenish_yellowish_nasal_discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm getting some yellow discharge from the nose.",
-        "the discharge is yellow, how much of the discharge are you having like in a day?"
+        "yellow discharge from the nose"
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have had this terrible headache for the past two days as well."
-      ]
-    },
-    "hoarse_tone": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperhidrosis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "inconsolable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I did have what they thought was a viral infection a week back.",
-        "Yeah, that's right.",
-        "I see, OK. Any recent contact with anyone who's been ill or any recent travel?",
-        "Uh, no."
+        "head ache for the past two days"
       ]
     },
     "loss_of_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your sleep or appetite?",
-        "Well, I guess sleeping is a little bit harder now because of the pressure in my face, but other than that, no."
-      ]
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "more_quiet": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
     "mucous_building": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you feel that there is mucous building up and dripping down your throat or anything like that?",
-        "Yeah, now that you mention it, it does feel like that."
+        "mucous building up and dripping down your throat"
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had this stuffy nose for the past three days.",
-        "first, my nose was kind of stuffy.",
-        "would you say you're still pretty congested?",
-        "I think so, yeah."
+        "stuffy nose for the past three days"
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
         "Uh, no."
       ]
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sleeping_issues": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your sleep or appetite?",
-        "Well, I guess sleeping is a little bit harder now because of the pressure in my face, but other than that, no."
+        "sleeping is a little bit harder now because of the pressure in my face"
       ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I can't seem to smell well.",
-        "I kind of lost some of my smell.",
-        "Any loss of sense of taste or smell?",
-        "I guess loss of smell.",
-        "The loss of smell came after the congestion."
+        "can't seem to smell well",
+        "loss of smell"
       ]
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "I can't seem to smell well.",
-        "I kind of lost some of my smell."
+        "can't seem to smell well"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any sore throat?",
-        "No."
+        "No sore throat?"
       ]
-    },
-    "swelling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "taste_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any loss of sense of taste or smell?",
-        "I guess loss of smell."
-      ]
-    },
-    "tonsilitis": {
       "assessed": "No",
       "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you noticed at all any weight changes?",
         "No."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any issues with urinating?",
-        "No, no issues there."
+        "No issues there."
       ]
-    },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
         "Uh, no."
       ]
     }
