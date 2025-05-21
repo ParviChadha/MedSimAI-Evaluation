@@ -266,7 +266,7 @@ class ModelInterface:
         print(f"Using OpenAI client type: {client_type}")
         print(f"System prompt length: {len(system_prompt)} characters")
         print(f"User message length: {len(user_message)} characters")
-        print(f"Using model: gpt-4.1-2025-04-14")
+        print(f"Using model: gpt-4o-mini-2024-07-18")
         
         # Retry mechanism (only for non-minimal client types)
         max_retries = 3
@@ -278,7 +278,7 @@ class ModelInterface:
                     
                     # Try with a smaller, faster model first to avoid timeouts
                     response = self.client.chat.completions.create(
-                        model="gpt-4.1-2025-04-14",
+                        model="gpt-4o-mini-2024-07-18",
                         messages=messages,
                         # No JSON mode for more compatibility
                         timeout=120  # 3 minute timeout
@@ -288,7 +288,7 @@ class ModelInterface:
                 elif client_type == "minimal":
                     # Our minimal custom implementation (already has retries)
                     response = self.client.chat.completions.create(
-                        model="gpt-4.1-2025-04-14",
+                        model="gpt-4o-mini-2024-07-18",
                         messages=messages,
                         # No JSON mode for more compatibility
                     )
@@ -364,7 +364,7 @@ class ModelInterface:
         
         try:
             response = self.client.messages.create(
-                model="claude-3-7-sonnet-20250219",  # Using a verified stable Claude model
+                model="claude-3-haiku-20240307",  # Using a verified stable Claude model
                 max_tokens=4096,
                 temperature=0,
                 system=system_prompt,

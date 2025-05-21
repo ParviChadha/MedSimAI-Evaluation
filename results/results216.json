@@ -3,12 +3,10 @@
     "changes_in_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um not the greatest, no.",
-        "OK, so not not eating, eating as much or drinking as much?",
-        "Yeah."
+        "Medical Student: OK, so not not eating, eating as much or drinking as much? Patient: Yeah."
       ]
     },
-    "hyperacusis": {
+    "injury": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -19,30 +17,31 @@
     "tachypnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Sure um so my my son. He's 2 1/2 months old an were we're in the ER because he's had this cough, fever an seems like he's breathing too fast.",
-        "It was over 38 and then over the past couple of hours it seems like he's having a hard time breathing. He's breathing too fast."
+        "Patient: It seems like he's breathing too fast.",
+        "Medical Student: OK, so with this cough has there has there been any sputum come up?"
       ]
+    },
+    "throat_pain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "behavior_changes": {
       "assessed": "Yes",
       "example_quotes": [
-        "He's been very, very fussy."
+        "Medical Student: And how has his behaviour been? Patient: He's been very, very fussy.",
+        "Medical Student: OK and inconsolable, would you say yes? Patient: Yeah."
       ]
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, not that we noticed."
+        "Medical Student: OK and any bowel problems? Patient: No, not that we noticed."
       ]
-    },
-    "chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um yes yeah yellow sputum yeah"
+        "Patient: Um yes yeah yellow sputum yeah"
       ]
     },
     "constipation": {
@@ -52,90 +51,72 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Sure um so my my son. He's 2 1/2 months old an were we're in the ER because he's had this cough, fever an seems like he's breathing too fast.",
-        "Um so. I guess he was coughing first and then we took his temperature and it seemed like he had a fever."
+        "Patient: he's had this cough."
       ]
     },
-    "decreased_activity": {
+    "decrease_interest_in_activities": {
       "assessed": "No",
       "example_quotes": []
     },
-    "diet": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um not the greatest, no.",
-        "OK, so not not eating, eating as much or drinking as much?",
-        "Yeah."
-      ]
-    },
-    "drowsiness": {
+    "decreased_focus": {
       "assessed": "No",
       "example_quotes": []
     },
-    "fatigue_extended": {
+    "dizzyness": {
       "assessed": "No",
       "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Sure um so my my son. He's 2 1/2 months old an were we're in the ER because he's had this cough, fever an seems like he's breathing too fast.",
-        "It was over 38 and then over the past couple of hours it seems like he's having a hard time breathing. He's breathing too fast.",
-        "We checked twice. We checked on the first day and then again last night."
+        "Patient: it seemed like he had a fever. It was over 38."
       ]
     },
     "hearing_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK any blood that you notice in the sputum?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "inconsolable": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK and inconsolable, would you say yes?",
-        "Yeah."
+        "Medical Student: OK and inconsolable, would you say yes? Patient: Yeah."
       ]
     },
-    "limp": {
+    "infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: So in regards to a past health. Has he had any symptoms or like this before? Patient: I guess last month he kinda had similar symptoms and they said it was a viral infection."
+      ]
+    },
+    "itching_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um not the greatest, no.",
-        "OK, so not not eating, eating as much or drinking as much?",
-        "Yeah."
-      ]
-    },
-    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rigor": {
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_harm_thoughts": {
+    "mucous_building": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sensitive_to_allergies": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, any allergies to medications that you're aware of?",
-        "No."
-      ]
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "sleep_changes": {
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_problem": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -143,38 +124,33 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "symptoms_stress": {
+    "unexplained_weight_loss": {
       "assessed": "No",
       "example_quotes": []
     },
     "vision_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "No."
+        "Medical Student: OK, any vomiting? Patient: No."
       ]
     },
-    "weakness": {
+    "weight_changes": {
       "assessed": "No",
       "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "I would say he sounds slightly wheezy."
+        "Patient: I would say he sounds slightly wheezy."
       ]
     },
     "wheez_inhale": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, have you been hearing any like whistling sounds when, when he's breathing in?",
-        "I wouldn't say whistling no, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

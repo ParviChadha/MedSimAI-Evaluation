@@ -1,22 +1,31 @@
 {
-  "precision": 0.9411764705882353,
-  "recall": 0.9411764705882353,
-  "f1_score": 0.9411764705882353,
-  "true_positives": 16,
-  "false_positives": 1,
-  "false_negatives": 1,
+  "precision": 1.0,
+  "recall": 0.7058823529411765,
+  "f1_score": 0.8275862068965517,
+  "true_positives": 12,
+  "false_positives": 0,
+  "false_negatives": 5,
   "total_items": 34,
-  "false_positive_details": [
-    {
-      "item": "Throat Pain",
-      "result_quotes": [
-        "Yeah, a couple of weeks ago I had a runny nose and sore throat and a little bit of a headache but. I feel better from that now."
-      ]
-    }
-  ],
+  "false_positive_details": [],
   "false_negative_details": [
     {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
       "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Trauma",
       "truth_quotes": []
     }
   ]

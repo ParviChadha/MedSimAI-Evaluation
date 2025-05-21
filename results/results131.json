@@ -1,12 +1,14 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, I think, just last night dinner, it was just kind of a funky like, different taste. I couldn't really tell, uh, everything was kind of a bit bland. Yeah, I think my taste buds are acting all weird too."
-      ]
-    },
     "discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "injury": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -14,155 +16,109 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "respiratory_distress_syndrome": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "anxious": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "arthritis_pain": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any issues with your bowel movements or urine?",
-        "No, nothing."
+        "Patient: Uhm, no, I don't, I don't think so."
       ]
-    },
-    "chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any chest pain?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been getting a fever since then, as well, like even today, I was having chills."
+        "Patient: ...then just two days ago I noticed that I had a fever and I've been getting a fever since then, as well, like even today, I was having chills."
       ]
     },
     "confusion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any confusion or memory loss?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any coughing or shortness of breath?",
-        "Uh, no, no, I haven't been coughing or no shortness of breath at all."
-      ]
-    },
-    "decreased_fluid_intake": {
       "assessed": "No",
       "example_quotes": []
     },
-    "decreased_focus": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_feeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_sleeping": {
+    "dehydration": {
       "assessed": "No",
       "example_quotes": []
     },
     "dizzyness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any fainting spells or dizziness?",
-        "No, nothing like that."
-      ]
-    },
-    "drowsiness": {
-      "assected": "No",
+      "assessed": "No",
       "example_quotes": []
     },
-    "dysphagia": {
+    "drooling": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any coughing or shortness of breath?",
-        "Uh, no, no, I haven't been coughing or no shortness of breath at all."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "fainting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any fainting spells or dizziness?",
-        "No, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any excessive fatigue?",
-        "Yeah, I have been feeling pretty tired and just, uh, I haven't even gone to work this whole week, just kind of laying in bed honestly with all the pain and the fever and headaches, just yeah, it's exhausting."
+        "Patient: ...I have been feeling pretty tired and just, uh, I haven't even gone to work this whole week, just kind of laying in bed honestly with all the pain and the fever and headaches, just yeah, it's exhausting."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I had a pretty high fever, just two days ago of almost like I think it was like 38 or 39, yeah, I was just very concerned and I came here today.",
-        "And three days ago, like my body just started aching all over the place and then just two days ago I noticed that I had a fever and I've been getting a fever since then, as well, like even today, I was having chills."
+        "Patient: ...and then just two days ago I noticed that I had a fever and I've been getting a fever since then."
       ]
-    },
-    "flu": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "grunting_noise": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "This past week I, first just started having this really bad headache and then my body, just completely all started hurting after completely rest,",
-        "It was pretty constant, the headache kind of got better yesterday but last few days it's just been constant headache Pretty much every day.",
-        "It's just achy and it's kind of all over the front of my forehead.",
-        "Sometimes it's just like a throbbing pain.",
-        "It can go to the temples sometimes, but mostly it's my forehead.",
-        "Right now it's not that bad, probably like a two or three, but when it was, just a few days ago, it was like probably an 8 or 9."
+        "Patient: ...this past week I, first just started having this really bad headache..."
       ]
     },
     "hearing_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about changes in your vision or hearing?",
-        "No."
-      ]
-    },
-    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lumps": {
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: ...I do have diabetes, then I have high cholesterol. I also have this thing called fatty liver but that's that's about it, and a high blood pressure."
+      ]
+    },
+    "lightheadness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "malaise": {
       "assessed": "No",
       "example_quotes": []
     },
     "memory_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any confusion or memory loss?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "mucous_building": {
       "assessed": "No",
@@ -171,52 +127,46 @@
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about a stuffy nose or runny nose?",
-        "Uh, I do feel a bit more stuffy like today, but there's no like runny nose or anything like that, but I do feel a bit more pressure and stuffiness in my face today."
+        "Patient: Uhm, I do feel a bit more stuffy like today..."
       ]
     },
+    "nause": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nausea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about nausea or vomiting?",
-        "uh no, no nausea or vomiting."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "This past week I, first just started having this really bad headache and then my body, just completely all started hurting after completely rest,",
-        "And three days ago, like my body just started aching all over the place",
-        "Uhm, not neck pain but like just below my neck, like my back, upper back hurts as well."
+        "Patient: So, the headache started first, so that was around four days ago."
       ]
     },
     "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pressure_in_around_face": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about feeling like your heart's racing?",
-        "No, nothing like that."
+        "Patient: ...but I do feel a bit more pressure and stuffiness in my face today."
       ]
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about a stuffy nose or runny nose?",
-        "Uh, I do feel a bit more stuffy like today, but there's no like runny nose or anything like that, but I do feel a bit more pressure and stuffiness in my face today."
-      ]
-    },
-    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sensation_of_chest": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -232,61 +182,55 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
+    "smell_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: ...I think my taste buds are acting all weird too."
+      ]
     },
-    "speech_volume": {
+    "sore": {
       "assessed": "No",
       "example_quotes": []
     },
     "swelling": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any swelling that you've noticed in your limbs?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I think, just last night dinner, it was just kind of a funky like, different taste. I couldn't really tell, uh, everything was kind of a bit bland. Yeah, I think my taste buds are acting all weird too."
+        "Patient: I couldn't really tell, uh, everything was kind of a bit bland."
       ]
     },
     "unexplained_weight_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any weight loss recently?",
-        "Uhm, no, I don't, I don't think so."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any issues with your bowel movements or urine?",
-        "No, nothing."
+        "Patient: No, nothing."
       ]
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vision_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about changes in your vision or hearing?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about nausea or vomiting?",
-        "uh no, no nausea or vomiting."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about wheezing?",
-        "No, no wheezing?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

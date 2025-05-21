@@ -1,50 +1,74 @@
 {
   "medical_history_assessed": {
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I just heard of someone who passed away due to Covid and I'm just like very scared and I just decided to come in."
+      ]
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "phlegm": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "With the cough, is it a dry cough or are you bringing up some phlegm?"
+      ]
+    },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes to your bowel movements?",
-        "No."
+        "Any changes to your bowel movements?"
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Chest pain?",
-        "No."
+        "Chest pain?"
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, um so for the past week you said, did the cough start first, or the runny nose?",
-        "Uh it started with the cough.",
-        "Um With the cough, is it a dry cough or are you bringing up some phlegm?",
-        "Um it's mostly a dry cough",
-        "Dry cough. OK, um and is it persistent or does it come and go?",
-        "It comes and goes. It does get better when I um take um like over the counter medications for for um like the antitussive pills.",
-        "OK yeah yeah. Um and does anything make it worse like the cold air or certain times of the day or like when you're laying down?",
-        "Um the cold air does make it a little bit uh worse."
+        "I've just had a runny nose and a cough for the past uh week."
       ]
+    },
+    "difficulty_sleeping": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Fainting spells or dizziness?",
-        "No."
+        "Fainting spells or dizziness?"
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um and any shortness of breath?",
-        "Um no, no I don't think so."
+        "Any shortness of breath?"
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any like excessive fatigue?",
         "I am tired but not, I guess it's not too bad."
       ]
     },
@@ -55,101 +79,136 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and then any fevers?",
-        "Uh no."
+        "Any fevers?"
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm how about headaches?",
-        "Uhm, no."
+        "How about headaches?"
       ]
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in your vision or hearing?",
-        "No."
+        "Any changes in your vision or hearing?"
       ]
+    },
+    "high_blood_pressure": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperhidrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "impending_doom_anxiety": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I just heard of someone who passed away due to Covid and I'm just like very scared."
+      ]
+    },
+    "itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_sense": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I can't smell as as much."
+      ]
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, how about a stuffy nose?",
-        "Yeah, I do have a stuffy nose."
+        "I do have a stuffy nose."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, um nausea or vomiting?",
-        "Uhm, no."
+        "Any nausea or vomiting?"
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Joint pain?",
-        "Um no.",
         "Just my body feels a little achy, but."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um any uh, sorry, I asked you if you had chest pain, uh do you ever feel like your heart's racing?",
-        "No."
+        "Do you ever feel like your heart's racing?"
       ]
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "What brings you in?",
-        "Hi, I've just had a runny nose and a cough for the past uh week."
+        "I've just had a runny nose."
+      ]
+    },
+    "sensation_of_chest": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_issue": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_loss": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I can't smell as as much."
       ]
     },
     "smell_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Smell or taste?",
-        "Um I I can't smell as as much, but I think maybe it's just because my nose is so stuffy, but also that made me a little bit concerned about Covid, but no problems with taste."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Smell or taste?",
-        "Um I I can't smell as as much, but I think maybe it's just because my nose is so stuffy, but also that made me a little bit concerned about Covid, but no problems with taste."
+        "No problems with taste."
       ]
     },
     "unexplained_weight_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, good any weight loss recently?",
-        "Um I've been trying to lose weight, but nothing unintentional I guess."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in your vision or hearing?",
-        "No."
+        "Any changes in your vision or hearing?"
       ]
     },
     "vomiting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, um nausea or vomiting?",
-        "Uhm, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, any wheeziness?",
-        "Um no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

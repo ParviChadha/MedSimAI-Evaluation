@@ -1,15 +1,70 @@
 {
-  "precision": 1.0,
-  "recall": 0.9629629629629629,
-  "f1_score": 0.9811320754716981,
-  "true_positives": 26,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 27,
-  "false_positive_details": [],
+  "precision": 0.85,
+  "recall": 0.6296296296296297,
+  "f1_score": 0.723404255319149,
+  "true_positives": 17,
+  "false_positives": 3,
+  "false_negatives": 10,
+  "total_items": 55,
+  "false_positive_details": [
+    {
+      "item": "Behavior Changes",
+      "result_quotes": [
+        "just seems a little bit like just not himself, just more quiet."
+      ]
+    },
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "he might be a little bit dehydrated."
+      ]
+    },
+    {
+      "item": "General Weakness",
+      "result_quotes": [
+        "he's not as active as he usually is?"
+      ]
+    }
+  ],
   "false_negative_details": [
     {
-      "item": "Tachypnea",
+      "item": "Limp",
+      "truth_quotes": []
+    },
+    {
+      "item": "Delayed Growth Milestones",
+      "truth_quotes": []
+    },
+    {
+      "item": "Drooling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Grunting Noise",
+      "truth_quotes": []
+    },
+    {
+      "item": "Foreign Body Intake",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Lethargic",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
       "truth_quotes": []
     }
   ]

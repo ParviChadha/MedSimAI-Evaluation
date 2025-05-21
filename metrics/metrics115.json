@@ -1,38 +1,71 @@
 {
-  "precision": 0.9,
-  "recall": 0.8571428571428571,
-  "f1_score": 0.8780487804878048,
-  "true_positives": 18,
-  "false_positives": 2,
-  "false_negatives": 3,
+  "precision": 1.0,
+  "recall": 0.2857142857142857,
+  "f1_score": 0.4444444444444445,
+  "true_positives": 6,
+  "false_positives": 0,
+  "false_negatives": 15,
   "total_items": 42,
-  "false_positive_details": [
-    {
-      "item": "Flu",
-      "result_quotes": [
-        "Did you get the flu shot this year?",
-        "Yep."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "Uh, it's usually always, uh, produces like the sputum, and it's usually white or yellowish in colour.",
-        "I would say every time I cough like a teaspoon I probably have like. I don't know. Maybe 5 to 10 teaspoons a day."
-      ]
-    }
-  ],
+  "false_positive_details": [],
   "false_negative_details": [
-    {
-      "item": "Speech Volume",
-      "truth_quotes": []
-    },
     {
       "item": "Pain",
       "truth_quotes": []
     },
     {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Speech Volume",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
       "item": "Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Lightheadness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
       "truth_quotes": []
     }
   ]

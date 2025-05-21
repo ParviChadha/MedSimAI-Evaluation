@@ -1,32 +1,99 @@
 {
   "medical_history_assessed": {
-    "anxious": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "behavior_changes": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "changes_in_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "cold": {
+    "infectious_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having this cough for um, the last two weeks and it just, is not going away. I've also been getting like, just a runny nose for the last couple, I would take the whole week, all of last week."
+        "have you um, been around someone who might be sick, or have your parents been around someone who could be sick?",
+        "my mom had the sniffles like last week, but she pretty much got over it."
       ]
     },
-    "complications_actual_delivery": {
+    "itching": {
       "assessed": "No",
       "example_quotes": []
     },
-    "ear_problem": {
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "phlegm": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "it's more of just like a dry cough. I'm not really bringing anything up."
+      ]
+    },
+    "allergy_medication": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "chest_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Last week I maybe had a, uh, two nights, I was a bit chilly, but since then I've been fine."
+      ]
+    },
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've been having this cough for um, the last two weeks and it just, is not going away."
+      ]
+    },
+    "decreased_fluid_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diarrhoea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_breathing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_sleeping": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dyspnea": {
       "assessed": "No",
       "example_quotes": []
     },
     "eye_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -38,180 +105,45 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "fatigue": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "high_blood_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've been having this cough for um, the last two weeks and it just, is not going away.",
-        "Last week I maybe had a, uh, two nights, I was a bit chilly, but since then I've been fine."
-      ]
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "swelling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tired": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trauma": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "widespread_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "allergy_medication": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any chest pain?",
-        "No."
-      ]
-    },
-    "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Last week I maybe had a, uh, two nights, I was a bit chilly, but since then I've been fine."
-      ]
-    },
-    "constipation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Diarrhea or constipation?",
-        "No."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've been having this cough for um, the last two weeks and it just, is not going away."
-      ]
-    },
-    "diarrhoea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Diarrhea or constipation?",
-        "No."
-      ]
-    },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any difficulties with breathing?",
-        "Um, no, nothing like that."
-      ]
-    },
-    "eye_redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
-        "Uh no, nothing like that."
-      ]
-    },
     "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any fevers or chills?",
-        "No, not really. Last week I maybe had a, uh, two nights, I was a bit chilly, but since then I've been fine."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "food_allergy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Allergies, including allergies to food, or environmental allergies, and allergies to medications?",
-        "Um, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had a headache at all in these past two weeks?",
-        "No, I didn't have a headache, but sometimes I feel a bit congested."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No blood?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucous_building": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Nausea or vomiting?",
-        "No, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any pain in your belly?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any palpitations or racing of your heart?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "paralysis_general": {
       "assessed": "No",
@@ -220,80 +152,84 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've also been getting like, just a runny nose for the last couple, I would take the whole week, all of last week."
+        "I've also been getting like, just a runny nose for the last couple, I would take the whole week."
       ]
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sensitive_to_allergies": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Allergies, including allergies to food, or environmental allergies, and allergies to medications?",
-        "Um, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_hydrosis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any night sweats?",
-        "Uh, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in smell?",
-        "Nope.",
-        "Uh no, but uh, sorry, for smell, like when I was a bit congested I, I could smell less. I wasn't able to smell too much, but taste has been fine."
+        "when I was a bit congested I, I could smell less. I wasn't able to smell too much."
       ]
     },
     "smell_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in smell?",
-        "Nope.",
-        "Uh no, but uh, sorry, for smell, like when I was a bit congested I, I could smell less. I wasn't able to smell too much, but taste has been fine."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "What about uh, sore throat?",
-        "No, no. No, sore throat."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "soreness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any change in uh, taste?",
-        "Uh no, but uh, sorry, for smell, like when I was a bit congested I, I could smell less. I wasn't able to smell too much, but taste has been fine."
+        "taste has been fine."
       ]
+    },
+    "trouble_breathing": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Unintentional weight loss?",
-        "No, my weight's been the same."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vision_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
-        "Uh no, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Nausea or vomiting?",
-        "No, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "watery_eyes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your vision or your like uh, blurry vision, or any redness in your eyes or tearing?",
-        "Uh no, nothing like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheez_inhale": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

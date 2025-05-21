@@ -1,28 +1,163 @@
 {
-  "precision": 0.9375,
-  "recall": 0.967741935483871,
-  "f1_score": 0.9523809523809523,
-  "true_positives": 30,
-  "false_positives": 2,
-  "false_negatives": 1,
+  "precision": 0.4375,
+  "recall": 0.22580645161290322,
+  "f1_score": 0.2978723404255319,
+  "true_positives": 7,
+  "false_positives": 9,
+  "false_negatives": 24,
   "total_items": 62,
   "false_positive_details": [
     {
-      "item": "Eye Pain",
+      "item": "Hyperhidrosis",
       "result_quotes": [
-        "No, nothing like that."
+        "I notice a lot of my sweat covering the bed sheets."
       ]
     },
     {
-      "item": "Weight Changes",
+      "item": "Tachypnea",
       "result_quotes": [
-        "I think over the last few months I may have lost like around 3 three kilograms."
+        "I feel short of breath most of the times."
+      ]
+    },
+    {
+      "item": "Respiratory Distress Syndrome",
+      "result_quotes": [
+        "I feel like I've been having just worsening breathlessness."
+      ]
+    },
+    {
+      "item": "Loss Of Smell",
+      "result_quotes": [
+        "Any changes to your smell? No."
+      ]
+    },
+    {
+      "item": "Smell Loss",
+      "result_quotes": [
+        "Any changes to your smell? No."
+      ]
+    },
+    {
+      "item": "Coughing Fit",
+      "result_quotes": [
+        "I feel like I've been having just worsening breathlessness and a cough for it's been going on for two years now.",
+        "It's usually just a dry cough."
+      ]
+    },
+    {
+      "item": "Decrease Interest In Activities",
+      "result_quotes": [
+        "I just can't get out of the house recently just because of my shortness of breath."
+      ]
+    },
+    {
+      "item": "Decreased Activity",
+      "result_quotes": [
+        "I feel just tired and short of breath all the time so just staying in my house most of the time."
+      ]
+    },
+    {
+      "item": "More Quiet",
+      "result_quotes": [
+        "I do find it difficult getting out of the house recently just because of my shortness of breath."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
       "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
       "truth_quotes": []
     }
   ]

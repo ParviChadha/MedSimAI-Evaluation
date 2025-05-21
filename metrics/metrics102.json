@@ -1,41 +1,90 @@
 {
-  "precision": 0.8846153846153846,
-  "recall": 0.92,
-  "f1_score": 0.9019607843137256,
-  "true_positives": 23,
-  "false_positives": 3,
-  "false_negatives": 2,
+  "precision": 0.875,
+  "recall": 0.28,
+  "f1_score": 0.42424242424242425,
+  "true_positives": 7,
+  "false_positives": 1,
+  "false_negatives": 18,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Complications Actual Delivery",
+      "item": "Coughing Fit",
       "result_quotes": [
-        "OK and were there any complications at all during your pregnancy with her or after the pregnancy?",
-        "No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications. So yeah, things were good."
-      ]
-    },
-    {
-      "item": "Lethargic",
-      "result_quotes": [
-        "Does she behave like herself Like is she more tired at all? More irritable, anything like that?",
-        "Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad. She, she missed school today but went yesterday."
-      ]
-    },
-    {
-      "item": "Change In Sleep",
-      "result_quotes": [
-        "Any issues with their sleep or appetite?",
-        "She has been a bit a bit fussy, but she's been sleeping OK."
+        "Yeah, so she she did start to cough actually after that so that the cough has been there for the last, for the last maybe two to three days."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Fatigue Sleep",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
       "item": "Loss Of Appetite",
       "truth_quotes": []
     },
     {
-      "item": "Fatigue Sleep",
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Delayed Growth Milestones",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
       "truth_quotes": []
     }
   ]

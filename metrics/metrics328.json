@@ -1,89 +1,43 @@
 {
-  "precision": 0.6666666666666666,
-  "recall": 0.8333333333333334,
-  "f1_score": 0.7407407407407408,
-  "true_positives": 20,
-  "false_positives": 10,
-  "false_negatives": 4,
-  "total_items": 49,
+  "precision": 0.9166666666666666,
+  "recall": 0.4583333333333333,
+  "f1_score": 0.611111111111111,
+  "true_positives": 11,
+  "false_positives": 1,
+  "false_negatives": 13,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Sweaty",
+      "item": "Pregnancy",
       "result_quotes": [
-        "Medical Student: Um, and, yeah so she's had a fever, has she had any like, chills or night sweats, like where she's shaking?",
-        "Patient: Oh no, no."
-      ]
-    },
-    {
-      "item": "Eye Discharge",
-      "result_quotes": [
-        "Medical Student: Okay, and has she had any like, eye redness or eye discharge?",
-        "Patient: Uh no, nothing like that."
-      ]
-    },
-    {
-      "item": "Chest Discomfort",
-      "result_quotes": [
-        "Medical Student: Have you noticed, uh, any chest pain, if she's like pointing to her chest or anything?",
-        "Patient: No, nothing like that."
-      ]
-    },
-    {
-      "item": "F Fever",
-      "result_quotes": [
-        "Patient: Hi um, I'm bringing my one year old daughter in because she's had this fever um, this runny nose and this cough, for the past three, four days.",
-        "Patient: Yeah, I would say so like it's come and gone, but every time I checked her temperature, I tried to check her twice a day, it would be pretty high, like 38 or uh, 39."
-      ]
-    },
-    {
-      "item": "Underweight At Birth",
-      "result_quotes": [
-        "Medical Student: Okay. Any concerns at birth, like jaundice or, or any types of distress?",
-        "Patient: Uh no, nothing like that."
-      ]
-    },
-    {
-      "item": "Low Mood",
-      "result_quotes": [
-        "Patient: She's been pretty fussy, um, yeah, she's been pretty fussy over the past few days, but I just thought it was because of how she was feeling um, like her symptoms."
-      ]
-    },
-    {
-      "item": "Behaviour Change",
-      "result_quotes": [
-        "Patient: Um just yeah, she's been a little bit more, um, irritable as well.",
-        "Patient: She's been pretty fussy, um, yeah, she's been pretty fussy over the past few days, but I just thought it was because of how she was feeling um, like her symptoms."
-      ]
-    },
-    {
-      "item": "Vaccine Related Reaction",
-      "result_quotes": [
-        "Medical Student: Are the immunizations up to date?",
-        "Patient: Yeah, everything's up to date."
-      ]
-    },
-    {
-      "item": "Sore",
-      "result_quotes": [
-        "Medical Student: Has she had any nausea or vomiting?",
-        "Patient: No, not that I've noticed."
-      ]
-    },
-    {
-      "item": "Mucous Building",
-      "result_quotes": [
-        "Medical Student: Okay, uh, is she bringing up any, any phlegm or sputum?",
-        "Patient: Um, she's bringing up some, um, she's, she actually, she used to bring up some phlegm, but now it's, it's pretty dry."
+        "Medical Student: 'In terms of the pregnancy itself, were there any complications throughout um, with mom?'",
+        "Patient: 'Uh, no, no, no complications.'"
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
       "item": "Swelling",
       "truth_quotes": []
     },
     {
-      "item": "Watery Eyes",
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Erythema",
       "truth_quotes": []
     },
     {
@@ -91,7 +45,27 @@
       "truth_quotes": []
     },
     {
-      "item": "Fever",
+      "item": "Delayed Growth Milestones",
+      "truth_quotes": []
+    },
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
       "truth_quotes": []
     }
   ]

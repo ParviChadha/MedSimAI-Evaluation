@@ -1,35 +1,71 @@
 {
-  "precision": 0.8333333333333334,
-  "recall": 0.9375,
-  "f1_score": 0.8823529411764706,
-  "true_positives": 15,
+  "precision": 0.6666666666666666,
+  "recall": 0.375,
+  "f1_score": 0.4800000000000001,
+  "true_positives": 6,
   "false_positives": 3,
-  "false_negatives": 1,
+  "false_negatives": 10,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Decreased Activity",
+      "item": "Respiratory Distress Syndrome",
       "result_quotes": [
-        "When I went out to get the Mail today I, I just couldn't do it. I, I had to just sit down."
+        "I've been particularly short of breath as well.",
+        "It's been getting worse."
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Tachypnea",
       "result_quotes": [
-        "Uh yeah, I have uhm, high blood pressure."
+        "I'm short of breath as well."
       ]
     },
     {
-      "item": "Sensitive To Allergies",
+      "item": "Change In Taste",
       "result_quotes": [
-        "Do you have any allergies?",
-        "No."
+        "It leaves a really bad taste in my mouth when bringing it up."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
       "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
       "truth_quotes": []
     }
   ]

@@ -1,26 +1,40 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 1.0,
-  "f1_score": 0.923076923076923,
-  "true_positives": 12,
-  "false_positives": 2,
-  "false_negatives": 0,
-  "total_items": 24,
-  "false_positive_details": [
+  "precision": 1.0,
+  "recall": 0.4166666666666667,
+  "f1_score": 0.5882352941176471,
+  "true_positives": 5,
+  "false_positives": 0,
+  "false_negatives": 7,
+  "total_items": 23,
+  "false_positive_details": [],
+  "false_negative_details": [
     {
-      "item": "Decrease Interest In Activities",
-      "result_quotes": [
-        "I suppose just, has this kind of chest tightness stopped you from doing activities that you normally would do, any missed time from work?",
-        "I haven't missed any work, but I'm not I'm not doing a ton of work right now. I don't think it would stop me, it just would make me uncomfortable um during work and it keeps me, maybe this, the last few days, it's kept me from, I usually go on a couple of walks a day, the last couple days I've just gone on one usually so yeah, it's a little bit, yeah."
-      ]
+      "item": "Chest Pain",
+      "truth_quotes": []
     },
     {
-      "item": "Symptom Speedup",
-      "result_quotes": [
-        "So you said it started about 3 days ago. Have you noticed it's been getting better, worse or about staying the same?",
-        "I think it's staying the same."
-      ]
+      "item": "Sweaty",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Impending Doom Anxiety",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
     }
-  ],
-  "false_negative_details": []
+  ]
 }

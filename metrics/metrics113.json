@@ -1,41 +1,63 @@
 {
-  "precision": 0.8260869565217391,
-  "recall": 0.95,
-  "f1_score": 0.8837209302325583,
-  "true_positives": 19,
-  "false_positives": 4,
-  "false_negatives": 1,
+  "precision": 1.0,
+  "recall": 0.35,
+  "f1_score": 0.5185185185185185,
+  "true_positives": 7,
+  "false_positives": 0,
+  "false_negatives": 13,
   "total_items": 40,
-  "false_positive_details": [
-    {
-      "item": "Malaise",
-      "result_quotes": [
-        "No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
-      ]
-    },
-    {
-      "item": "Infection",
-      "result_quotes": [
-        "OK, OK. So yeah, it sounds like you might have some sort of viral infection which could potentially be covid, but could also be another sort of another viral illness, just like the common cold or the flu."
-      ]
-    },
-    {
-      "item": "Discharge",
-      "result_quotes": [
-        "It's pretty pretty watery and clear."
-      ]
-    },
-    {
-      "item": "Food Allergy",
-      "result_quotes": [
-        "And allergies to food or medications, or environmental allergies?",
-        "I think I have an allergy to penicillin. I got it, I had a rash when I was I younger when I had that."
-      ]
-    }
-  ],
+  "false_positive_details": [],
   "false_negative_details": [
     {
-      "item": "Aches",
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Difficulty Breathing",
+      "truth_quotes": []
+    },
+    {
+      "item": "Teary Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sinus Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sneezing",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
       "truth_quotes": []
     }
   ]

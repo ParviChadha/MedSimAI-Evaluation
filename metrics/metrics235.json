@@ -1,49 +1,73 @@
 {
-  "precision": 0.8214285714285714,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.8846153846153847,
-  "true_positives": 23,
-  "false_positives": 5,
-  "false_negatives": 1,
+  "precision": 0.8571428571428571,
+  "recall": 0.5,
+  "f1_score": 0.631578947368421,
+  "true_positives": 12,
+  "false_positives": 2,
+  "false_negatives": 12,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Fainting",
+      "item": "Phlegm",
       "result_quotes": [
-        "No fainting spells."
+        "Medical Student: OK, how about sputum?",
+        "Patient: Um, no sputum."
       ]
     },
     {
-      "item": "Sleep Dyspnea",
+      "item": "Tachypnea",
       "result_quotes": [
-        "And, and you mentioned shortness some shortness of breath on exertion, how about when you're laying down?",
-        "Not when I'm laying down."
-      ]
-    },
-    {
-      "item": "Injury",
-      "result_quotes": [
-        "Did anything trigger this a week back? Any trauma to the chest area? Anything like that?"
-      ]
-    },
-    {
-      "item": "Vaginal Discomfort",
-      "result_quotes": [
-        "I guess I did have a hysterectomy a few weeks ago. I know it was, I I didn't bring it up before 'cause it's just a day procedure, but I was definitely spending a lot more time um relaxing at home after that, a few weeks ago.",
-        "OK, so were they thinking it was like a cancer or something?",
-        "Um I think it was um. It was from Fibroids."
-      ]
-    },
-    {
-      "item": "Chest Discomfort",
-      "result_quotes": [
-        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing."
+        "Patient: ...it's the breathing that's been bothering me a lot more."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Decreased Physical Activity",
+      "item": "Sore",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
       "truth_quotes": []
     }
   ]

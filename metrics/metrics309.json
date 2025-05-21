@@ -1,41 +1,134 @@
 {
-  "precision": 0.8823529411764706,
-  "recall": 0.967741935483871,
-  "f1_score": 0.923076923076923,
-  "true_positives": 30,
-  "false_positives": 4,
-  "false_negatives": 1,
-  "total_items": 63,
+  "precision": 0.6666666666666666,
+  "recall": 0.12903225806451613,
+  "f1_score": 0.2162162162162162,
+  "true_positives": 4,
+  "false_positives": 2,
+  "false_negatives": 27,
+  "total_items": 58,
   "false_positive_details": [
     {
-      "item": "Eye Pain",
+      "item": "Difficulty Breathing",
       "result_quotes": [
-        "How about any eye symptoms like discharge or or eye pain?"
+        "Medical Student: Ok, and the shortness of breath you mentioned, uh, when did that start?",
+        "Patient: Around the same time."
       ]
     },
     {
-      "item": "Infectious Symptom",
+      "item": "Muscle Ache",
       "result_quotes": [
-        "And also the chest X Ray could help us look to see if you have something going on in your lungs, like a possible pneumonia or, maybe a viral infection as well, which could include something like COVID-19."
-      ]
-    },
-    {
-      "item": "Diabetes",
-      "result_quotes": [
-        "No, actually sorry, I have diabetes.",
-        "Ok, is that type 2?"
-      ]
-    },
-    {
-      "item": "Weight Gain",
-      "result_quotes": [
-        "And have you had any changes to your weight in the last several months?"
+        "Medical Student: Alright, and any muscle aches or pains?",
+        "Patient: Maybe slight muscle aches."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Rapid Breathing",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
       "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Discharge",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Weakness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Change",
+      "truth_quotes": []
+    },
+    {
+      "item": "Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
       "truth_quotes": []
     }
   ]

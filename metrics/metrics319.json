@@ -1,22 +1,72 @@
 {
-  "precision": 0.9583333333333334,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.9583333333333334,
-  "true_positives": 23,
-  "false_positives": 1,
-  "false_negatives": 1,
-  "total_items": 46,
+  "precision": 0.8235294117647058,
+  "recall": 0.5833333333333334,
+  "f1_score": 0.6829268292682927,
+  "true_positives": 14,
+  "false_positives": 3,
+  "false_negatives": 10,
+  "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Primary Headache",
       "result_quotes": [
-        "Are you bringing up any sputum at all with your cough?"
+        "any headaches at all?",
+        "Well, sometimes I do. But it's not been severe."
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "two months of difficulty breathing and the cough is gotten worse.",
+        "I'm short of breath all the time."
+      ]
+    },
+    {
+      "item": "Excessive Tiredness",
+      "result_quotes": [
+        "Oh my God. So tired I can, you know, with the difficulty breathing I feel like all my energy spent just trying to, trying to get to the bathroom."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Fainting Spells",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
       "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizziness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cold Like Symptoms",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
       "truth_quotes": []
     }
   ]

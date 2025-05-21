@@ -1,34 +1,108 @@
 {
-  "precision": 0.9259259259259259,
-  "recall": 0.8928571428571429,
-  "f1_score": 0.9090909090909091,
-  "true_positives": 25,
+  "precision": 0.75,
+  "recall": 0.21428571428571427,
+  "f1_score": 0.3333333333333333,
+  "true_positives": 6,
   "false_positives": 2,
-  "false_negatives": 3,
+  "false_negatives": 22,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
+      "item": "Loss Of Sense",
       "result_quotes": [
-        "OK, uhm do you have any allergies?",
-        "Uh no."
+        "Um just when I'm congested like I feel like I can't really smell."
       ]
     },
     {
-      "item": "Dysuria",
+      "item": "Throat Pain",
       "result_quotes": [
-        "OK, and have you had any urinary problems like painful urination or or frequency?",
-        "Nope."
+        "...maybe a little bit of a tickle in my throat, but not sore."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Sleep Hydrosis",
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Facial Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Odynophagia",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
       "truth_quotes": []
     },
     {
       "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
       "truth_quotes": []
     },
     {

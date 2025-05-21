@@ -1,43 +1,96 @@
 {
-  "precision": 0.8666666666666667,
-  "recall": 0.9629629629629629,
-  "f1_score": 0.912280701754386,
-  "true_positives": 26,
-  "false_positives": 4,
-  "false_negatives": 1,
+  "precision": 0.8181818181818182,
+  "recall": 0.3333333333333333,
+  "f1_score": 0.4736842105263157,
+  "true_positives": 9,
+  "false_positives": 2,
+  "false_negatives": 18,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Lightheadedness",
+      "item": "General Weakness",
       "result_quotes": [
-        "how about any dizziness or lightheadedness?",
-        "Nope."
+        "I just kind of like stayed in bed the whole day."
       ]
     },
     {
-      "item": "Malaise",
+      "item": "Weakness",
       "result_quotes": [
-        "Yesterday I felt a bit drained. I just kind of like stayed in bed the whole day."
-      ]
-    },
-    {
-      "item": "Eye Discharge",
-      "result_quotes": [
-        "have you had any flu like symptoms or infectious symptoms like a red eyes, runny eyes, runny nose, or a sore throat?",
-        "No, I don't have any of those symptoms."
-      ]
-    },
-    {
-      "item": "Dysuria",
-      "result_quotes": [
-        "Any urinary problems like pain or, or frequency going to the bathroom?",
-        "No."
+        "I felt a bit drained."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Infection",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Flu",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
       "item": "Stunning",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Asthma",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nause",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Widespread Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     }
   ]

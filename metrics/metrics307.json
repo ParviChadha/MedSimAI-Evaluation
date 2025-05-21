@@ -1,71 +1,94 @@
 {
-  "precision": 0.7804878048780488,
-  "recall": 0.9696969696969697,
-  "f1_score": 0.8648648648648648,
-  "true_positives": 32,
-  "false_positives": 9,
-  "false_negatives": 1,
-  "total_items": 66,
+  "precision": 0.7857142857142857,
+  "recall": 0.6666666666666666,
+  "f1_score": 0.721311475409836,
+  "true_positives": 22,
+  "false_positives": 6,
+  "false_negatives": 11,
+  "total_items": 65,
   "false_positive_details": [
     {
-      "item": "Loss Of Consciousness",
+      "item": "Flu Like Symptom",
       "result_quotes": [
-        "No dizziness and I haven't fainted or anything like that."
+        "as soon as I breath, well, I just haven't felt good like, tired, kind of weakish."
       ]
     },
     {
-      "item": "Soreness",
+      "item": "Tired",
       "result_quotes": [
-        "Oh yeah, I don't know why, yeah, my belly's been a bit achy maybe."
+        "I just haven't felt good like, tired, kind of weakish."
       ]
     },
     {
       "item": "Motor Weakness",
       "result_quotes": [
-        "As soon as I breath, well, I just haven't felt good like, tired, kind of weakish."
+        "kind of weakish."
       ]
     },
     {
-      "item": "Widespread Pain",
+      "item": "Loss Of Sense",
       "result_quotes": [
-        "Alright, yeah, maybe a bit, kind of, and weak."
+        "have you experienced any loss of taste?",
+        "No loss of taste, but I've noticed, yeah, my smell has been kind of funny."
       ]
     },
     {
-      "item": "Greenish Yellowish Nasal Discharge",
+      "item": "Difficulty Breathing",
       "result_quotes": [
-        "Well, I've been bringing up some yellowish green, kind of like phlegm, so um I guess a wet cough."
+        "I've been really short of breath."
       ]
     },
     {
-      "item": "Muscle Ache",
+      "item": "Change In Taste",
       "result_quotes": [
-        "Alright, yeah, maybe a bit, kind of, and weak."
-      ]
-    },
-    {
-      "item": "Wheez Inhale",
-      "result_quotes": [
-        "No, well, maybe I guess when I'm really short of breath, yeah, wheezing, yeah."
-      ]
-    },
-    {
-      "item": "Sleep Issue",
-      "result_quotes": [
-        "Uh, well I can't tell if it's that or the cough. I mean between those two things it's been definitely interrupting my sleep.",
-        "It helps me sleep."
-      ]
-    },
-    {
-      "item": "Symptom Speedup",
-      "result_quotes": [
-        "Uh, the shortness of breath has come on, I don't know within the last day or so. It's come on after that, the cough started first."
+        "have you experienced any loss of taste?",
+        "No loss of taste, but I've noticed, yeah, my smell has been kind of funny."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Sleep Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Problem",
+      "truth_quotes": []
+    },
+    {
       "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Discharge",
+      "truth_quotes": []
+    },
+    {
+      "item": "Rectal Bleeding",
       "truth_quotes": []
     }
   ]

@@ -1,33 +1,113 @@
 {
-  "precision": 0.9259259259259259,
-  "recall": 0.9259259259259259,
-  "f1_score": 0.9259259259259259,
-  "true_positives": 25,
+  "precision": 0.7142857142857143,
+  "recall": 0.18518518518518517,
+  "f1_score": 0.2941176470588235,
+  "true_positives": 5,
   "false_positives": 2,
-  "false_negatives": 2,
+  "false_negatives": 22,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Infection",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "I've been having this cough for um, the last two weeks and it just, is not going away.",
-        "Last week I maybe had a, uh, two nights, I was a bit chilly, but since then I've been fine."
+        "have you um, been around someone who might be sick, or have your parents been around someone who could be sick?",
+        "my mom had the sniffles like last week, but she pretty much got over it."
       ]
     },
     {
-      "item": "Cold",
+      "item": "Phlegm",
       "result_quotes": [
-        "I've been having this cough for um, the last two weeks and it just, is not going away. I've also been getting like, just a runny nose for the last couple, I would take the whole week, all of last week."
+        "it's more of just like a dry cough. I'm not really bringing anything up."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
       "item": "Paralysis General",
       "truth_quotes": []
     },
     {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
       "item": "Allergy Medication",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Food Allergy",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
       "truth_quotes": []
     }
   ]

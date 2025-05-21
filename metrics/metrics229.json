@@ -1,46 +1,83 @@
 {
-  "precision": 0.8214285714285714,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.8846153846153847,
-  "true_positives": 23,
-  "false_positives": 5,
-  "false_negatives": 1,
-  "total_items": 48,
+  "precision": 0.7857142857142857,
+  "recall": 0.4583333333333333,
+  "f1_score": 0.5789473684210527,
+  "true_positives": 11,
+  "false_positives": 3,
+  "false_negatives": 13,
+  "total_items": 34,
   "false_positive_details": [
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "I have been producing some phlegm",
+        "I saw some blood"
+      ]
+    },
     {
       "item": "Throat Pain",
       "result_quotes": [
-        "Uhm, nothing like like that. I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
+        "the back of my throat, might feel a little itchy from the coughing"
       ]
     },
     {
-      "item": "Decreased Concentration",
+      "item": "Discharge",
       "result_quotes": [
-        "Yeah, but I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
-      ]
-    },
-    {
-      "item": "Feeling Tired",
-      "result_quotes": [
-        "Yeah, but I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
-      ]
-    },
-    {
-      "item": "Sleep Problem",
-      "result_quotes": [
-        "Uhm, just been, well, I haven't been sleeping as well, waking up all sweaty and the cough is kept me up a little bit too."
-      ]
-    },
-    {
-      "item": "Tired",
-      "result_quotes": [
-        "Yeah, but I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
+        "I coughed up some phlegm and there was some blood in it"
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Sense",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
       "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
       "truth_quotes": []
     }
   ]

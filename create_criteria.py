@@ -366,6 +366,40 @@ def update_aggregated_metrics() -> None:
     
     print(f"Updated aggregated token metrics in {aggregated_file}")
 
+def ensure_token_metrics(conversation_id: str, model_name: str) -> None:
+    """Ensure that token metrics are always created, even if no LLM call is made."""
+    metrics_file = os.path.join(TOKEN_METRICS_DIR, f"token_metrics_criteria_{conversation_id}.json")
+    
+    # If the metrics file doesn't exist, create a minimal one
+    if not os.path.exists(metrics_file):
+        print(f"Creating minimal token metrics file for criteria as none was generated: {metrics_file}")
+        from datetime import datetime
+        metrics_data = {
+            "conversation_id": conversation_id,
+            "model": model_name,
+            "operation": "filter_similar_symptoms",
+            "timestamp": datetime.now().isoformat(),
+            "metrics": {
+                "input_tokens": {
+                    "existing_symptoms": 0,
+                    "additional_symptoms": 0,
+                    "prompt": 0,
+                    "total": 0
+                },
+                "output_tokens": 0,
+                "total_tokens": 0,
+                "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+            }
+        }
+        
+        # Create token metrics directory and save metrics
+        os.makedirs(TOKEN_METRICS_DIR, exist_ok=True)
+        with open(metrics_file, 'w', encoding='utf-8') as file:
+            json.dump(metrics_data, file, indent=2)
+        
+        # Update aggregated metrics
+        update_aggregated_metrics()
+
 def generate_criteria_from_annotations(annotations_file: str, output_file: str, model_interface: ModelInterface, all_symptoms_file: str = ALL_SYMPTOMS_FILE) -> List[str]:
     """Generate criteria list from annotations file and add symptoms from all_symptoms."""
     # Read annotations
@@ -437,6 +471,9 @@ def generate_criteria_from_annotations(annotations_file: str, output_file: str, 
     print(f"- {len(additional_symptoms)} additional symptoms from comprehensive list")
     print(f"- {len(sorted_symptoms)} total symptoms in criteria file")
     
+    # Ensure token metrics file exists
+    ensure_token_metrics(CONVERSATION_NUMBER, model_interface.model_name)
+
     return sorted_symptoms
 
 def main():

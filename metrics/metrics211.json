@@ -1,11 +1,40 @@
 {
   "precision": 1.0,
-  "recall": 1.0,
-  "f1_score": 1.0,
-  "true_positives": 14,
+  "recall": 0.5,
+  "f1_score": 0.6666666666666666,
+  "true_positives": 7,
   "false_positives": 0,
-  "false_negatives": 0,
-  "total_items": 14,
+  "false_negatives": 7,
+  "total_items": 28,
   "false_positive_details": [],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Flu Like Symptom",
+      "truth_quotes": []
+    },
+    {
+      "item": "Headache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Stuffy Nose",
+      "truth_quotes": []
+    }
+  ]
 }

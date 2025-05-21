@@ -1,49 +1,106 @@
 {
-  "precision": 0.8275862068965517,
-  "recall": 0.96,
-  "f1_score": 0.888888888888889,
-  "true_positives": 24,
+  "precision": 0.6428571428571429,
+  "recall": 0.36,
+  "f1_score": 0.4615384615384615,
+  "true_positives": 9,
   "false_positives": 5,
-  "false_negatives": 1,
-  "total_items": 51,
+  "false_negatives": 16,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Infection",
+      "item": "Throat Pain",
       "result_quotes": [
-        "Patient: Yeah, so I live in an apartment downtown here um, just with uh one of, one of my friends who's a roommate.",
-        "Medical Student: Okay, and is everyone at home healthy?",
-        "Patient: Yeah, she hasn't had any any symptoms, any symptoms either."
+        "Um, yeah, now that you mention it, I have had a little bit of a sore throat as well."
       ]
     },
     {
-      "item": "Lethargic",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "Patient: Yeah, it's been there for about two, yeah about two or three days. I wake up in the morning and I've been feeling like really fatigued and achy."
+        "I have asthma, which I will like, asthma and allergies."
       ]
     },
     {
-      "item": "Tingling",
+      "item": "Coughing Fit",
       "result_quotes": [
-        "Medical Student: Uh numbness or tingling?",
-        "Patient: No."
+        "I have like a coughing fit that's bad enough."
       ]
     },
     {
-      "item": "Widespread Pain",
+      "item": "Difficulty Breathing",
       "result_quotes": [
-        "Patient: Hi there, I, I've had this cough that started um, three days ago, and over these past couple of days, I've just been really achy all over and so, I've had a headache as well."
+        "Uh, a little bit after, um, if I have like a coughing fit that's bad enough."
       ]
     },
     {
-      "item": "Tonsilitis",
+      "item": "Weight Changes",
       "result_quotes": [
-        "Patient: No, well I, I've had my, my wisdom teeth taken out and, actually yeah I had my tonsils out as well when I was 12."
+        "No, I've been, my weight's been pretty stable."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
       "item": "Paralysis General",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Problem",
       "truth_quotes": []
     }
   ]

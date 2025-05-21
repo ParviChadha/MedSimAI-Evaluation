@@ -1,10 +1,10 @@
 {
   "medical_history_assessed": {
-    "lightheadedness": {
+    "discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
+    "injury": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -12,55 +12,62 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "behaviour_change": {
-      "assessed": "No",
-      "example_quotes": []
+    "anxiety": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I am really like nervous 'cause I haven't felt anything like this before."
+      ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, are you having any chest pain at all associated with that?",
-        "Like when I breathe in, I get like and it's like an ache. And then if I breathe really deep it feels like a little sharp."
+        "Like when I breathe in, I get like and it's like an ache.",
+        "if I breathe really deep it feels like a little sharp."
+      ]
+    },
+    "chest_tightness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I just feel like I can't catch my breath."
       ]
     },
     "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about fevers or chills?",
-        "No, not that I've noticed, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "cough": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "Do you have any coughing associated with that?",
-        "No no."
+        "No, no."
       ]
     },
-    "difficulty_breathing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Hi, I'm Rob and I just feel like I can't catch my breath.",
-        "And then it just got worse and then a few hours ago is like I could barely walk. And if I'm breathing deep it's like it just hurts. And I feel like I can't like catch my breath like I can't get a good like a good breath in."
-      ]
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dizzyness": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "Are you experiencing any dizziness or you feeling faint?",
         "No, just like a I can't get like a good breath."
       ]
     },
-    "dysphagia": {
+    "drowsiness": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Hi, I'm Rob and I just feel like I can't catch my breath.",
-        "And then it just got worse and then a few hours ago is like I could barely walk. And if I'm breathing deep it's like it just hurts. And I feel like I can't like catch my breath like I can't get a good like a good breath in."
+        "I feel like I can't like catch my breath."
       ]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "facial_pressure": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fainting": {
       "assessed": "No",
@@ -71,86 +78,56 @@
       "example_quotes": []
     },
     "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about fevers or chills?",
-        "No, not that I've noticed, no."
-      ]
-    },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
     "hearing_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your vision, hearing or smell?",
-        "No."
-      ]
-    },
-    "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "You're not coughing up any blood?",
-        "No."
-      ]
-    },
-    "malaise": {
       "assessed": "No",
       "example_quotes": []
     },
-    "not_crying": {
+    "hemoptysis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "obstruction": {
       "assessed": "No",
       "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Like when I breathe in, I get like and it's like an ache. And then if I breathe really deep it feels like a little sharp."
+        "It's like sharp."
       ]
     },
-    "swelling": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any swelling in your legs?",
-        "I I don't think so."
-      ]
-    },
-    "symptoms_stress": {
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing_or_or_itchiness": {
+    "swelling": {
       "assessed": "No",
       "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Weight loss?",
-        "I, I mean, I've been trying to to lose weight.",
-        "So I've lost like 15 pounds but like not... Like I've been trying to."
+        "I've been trying to lose weight."
       ]
     },
     "vision_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your vision, hearing or smell?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
-    "watery_eyes": {
+    "vomiting": {
       "assessed": "No",
       "example_quotes": []
     },
     "wheez": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "How about wheezing? Are you experiencing any wheezing?",
         "I don't think so."
       ]
     }

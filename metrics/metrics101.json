@@ -1,28 +1,108 @@
 {
-  "precision": 0.9310344827586207,
-  "recall": 0.9642857142857143,
-  "f1_score": 0.9473684210526316,
-  "true_positives": 27,
-  "false_positives": 2,
-  "false_negatives": 1,
+  "precision": 0.6956521739130435,
+  "recall": 0.5714285714285714,
+  "f1_score": 0.6274509803921569,
+  "true_positives": 16,
+  "false_positives": 7,
+  "false_negatives": 12,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Symptom Speedup",
+      "item": "Discomfort",
       "result_quotes": [
-        "It got a little bit worse at first, but then it's been kind of the same, um, since."
+        "Medical Student: OK, any chest pain at all?",
+        "Patient: Yeah, It does feel sore, kind of, uh, the center of my chest."
       ]
     },
     {
-      "item": "Change In Sleep",
+      "item": "Diabetes",
       "result_quotes": [
-        "Any changes with your sleeping or your appetite?"
+        "Medical Student: OK, do you have any past medical conditions, like high blood pressure, diabetes, anything like that?",
+        "Patient: No, I don't, I'm healthy."
+      ]
+    },
+    {
+      "item": "Ache",
+      "result_quotes": [
+        "Medical Student: OK, any chest pain at all?",
+        "Patient: Yeah, It does feel sore, kind of, uh, the center of my chest."
+      ]
+    },
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "Medical Student: And do you have any difficulty, uh, swallowing at all?",
+        "Patient: It's a little sore, but, uh, it's been OK, to eat and drink."
+      ]
+    },
+    {
+      "item": "Pain",
+      "result_quotes": [
+        "Medical Student: OK, any chest pain at all?",
+        "Patient: Yeah, It does feel sore, kind of, uh, the center of my chest."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "Medical Student: OK, so any coughing at all?",
+        "Patient: Yeah, I feel it, like more, like it does hurt when when I'm coughing."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "Patient: I've had, um, a sore throat."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fatigue Sleep",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
       "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
       "truth_quotes": []
     }
   ]

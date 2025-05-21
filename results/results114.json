@@ -1,5 +1,258 @@
 {
-  "medical_history_assessed": {},
-  "error": "Failed to parse JSON response",
-  "raw_content": "```json\n{\n  \"medical_history_assessed\": {\n    \"lightheadedness\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Any dizziness or Lightheadedness?\",\n        \"No.\"\n      ]\n    },\n    \"aches\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Have you had any muscle aches, joint pains or skin changes?\",\n        \"No.\"\n      ]\n    },\n    \"allergy_medication\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"anxious\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"arthritis_pain\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"bad_smell\": {\n      \"assessed\": \"No\",\n      \"example_quotes\": []\n    },\n    \"bowel_movement\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"Any bowel problems like diarrhea or Constipation?\",\n        \"No, nothing like that.\"\n      ]\n    },\n    \"chest_pain\": {\n      \"assessed\": \"Yes\",\n      \"example_quotes\": [\n        \"What brought you in today?\",\n        \"Yeah, so uh, just ra"
+  "medical_history_assessed": {
+    "behavior_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_breathing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I'm finding that I'm very short of breath as well",
+        "I'm really having trouble getting any deep breaths in"
+      ]
+    },
+    "difficulty_feeding": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I don't really feel like eating today"
+      ]
+    },
+    "discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "flu": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "food_allergy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "general_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "phlegm": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensation_of_chest": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "it's just been getting worse",
+        "kind of like in my right side of the chest and it feels like a stabbing pain"
+      ]
+    },
+    "sensitive_to_allergies": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sinus_headaches": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "soreness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptom_speedup": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "watery_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "aches": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bowel_movement": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I just started having this chest pain when I'm breathing",
+        "it's just been getting worse"
+      ]
+    },
+    "chills": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "colored_excess_sputum": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I have been having a little bit of a cough",
+        "it's nothing too significant"
+      ]
+    },
+    "diarrhoea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I'm finding that I'm very short of breath as well",
+        "I feel like I'm having to just breathe faster and more shallow"
+      ]
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fever": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "head_ache": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hemoptysis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_appetite": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I don't really feel like eating today"
+      ]
+    },
+    "nasal_congestion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nasal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nausea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "It's just been getting worse",
+        "it's just, like, a very sharp pain"
+      ]
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sore_throat": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "taste_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "urination": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vomiting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheez": {
+      "assessed": "No",
+      "example_quotes": []
+    }
+  }
 }

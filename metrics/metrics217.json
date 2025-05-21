@@ -1,52 +1,93 @@
 {
-  "precision": 0.7931034482758621,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.8679245283018867,
-  "true_positives": 23,
-  "false_positives": 6,
-  "false_negatives": 1,
+  "precision": 0.7058823529411765,
+  "recall": 0.5,
+  "f1_score": 0.5853658536585366,
+  "true_positives": 12,
+  "false_positives": 5,
+  "false_negatives": 12,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Widespread Pain",
+      "item": "Phlegm",
       "result_quotes": [
-        "Muscle aches, joint pain?"
+        "Medical Student: Is this cough a dry cough, or do you bring up some mucus?",
+        "Patient: It's usually a dry cough and sometimes I do bring up like this light material, but usually it's mostly a dry cough."
       ]
     },
     {
-      "item": "Chest Tightness",
+      "item": "Decrease Interest In Activities",
       "result_quotes": [
-        "Uh, when I'm usually it goes away in 10-15 minutes but when I'm coughing a lot I do get some tightness."
+        "Patient: These symptoms are stopping me and kind of affecting my daily routine."
       ]
     },
     {
-      "item": "Dysuria",
+      "item": "Hyperhidrosis",
       "result_quotes": [
-        "Any changes in your bowel movements or any urinary symptoms?"
+        "Medical Student: Do you feel like your hearts beating really fast when that happens or you're sweating?",
+        "Patient: I feel like it's usually, I don't know if it's because of the exercise, but I have like a Fitbit and it's my my heart rate is much faster."
       ]
     },
     {
-      "item": "Sneezing",
+      "item": "Food Allergy",
       "result_quotes": [
-        "I do generally have umm, get allergies during the spring time when I go outside."
+        "Medical Student: Do you have any other allergies? To food or medications?",
+        "Patient: No, not that I know."
       ]
     },
     {
-      "item": "Sweaty",
+      "item": "Throat Pain",
       "result_quotes": [
-        "Do you feel like your hearts beating really fast when that happens or you're sweating?"
-      ]
-    },
-    {
-      "item": "Tearing Or Or Itchiness",
-      "result_quotes": [
-        "Other than the the cough, have you noticed any other symptoms like a sore throat or itchy eyes? Itchy nose? Stuffy nose or runny nose? Anything like that?"
+        "Patient: initially I used to get just an irritation in my throat."
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Irritable",
+      "truth_quotes": []
+    },
+    {
+      "item": "Symptoms Stress",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Itching Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
       "truth_quotes": []
     }
   ]

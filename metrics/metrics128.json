@@ -1,19 +1,31 @@
 {
-  "precision": 0.9583333333333334,
-  "recall": 1.0,
-  "f1_score": 0.9787234042553191,
-  "true_positives": 23,
+  "precision": 0.9523809523809523,
+  "recall": 0.8695652173913043,
+  "f1_score": 0.909090909090909,
+  "true_positives": 20,
   "false_positives": 1,
-  "false_negatives": 0,
+  "false_negatives": 3,
   "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Change In Taste",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "I can't taste any of my food.",
-        "I like bit into it and I literally didn't taste anything."
+        "Patient: ... I have like a peanut allergy."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    }
+  ]
 }

@@ -1,19 +1,52 @@
 {
-  "precision": 0,
-  "recall": 0.0,
-  "f1_score": 0,
-  "true_positives": 0,
-  "false_positives": 0,
-  "false_negatives": 33,
-  "total_items": 63,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.5,
+  "recall": 0.18181818181818182,
+  "f1_score": 0.26666666666666666,
+  "true_positives": 6,
+  "false_positives": 6,
+  "false_negatives": 27,
+  "total_items": 62,
+  "false_positive_details": [
     {
-      "item": "Vision Problem",
-      "truth_quotes": []
+      "item": "Sensitivity To Allergies",
+      "result_quotes": [
+        "I sometimes get just itchy eyes and runny nose, sneezing in the springtime."
+      ]
     },
     {
-      "item": "Fatigue Extended",
+      "item": "Change In Taste",
+      "result_quotes": [
+        "I think taste a little bit today, I realized I was I wasn't really able to taste my breakfast."
+      ]
+    },
+    {
+      "item": "Body Ache",
+      "result_quotes": [
+        "I started getting these like really bad muscle pains all throughout my body."
+      ]
+    },
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "I do feel like just overall general weakness."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "I started getting these like really bad muscle pains all throughout my body."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "I started getting these like really bad muscle pains all throughout my body."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Confusion",
       "truth_quotes": []
     },
     {
@@ -21,67 +54,27 @@
       "truth_quotes": []
     },
     {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Motor Weakness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Widespread Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "General Weakness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Memory Loss",
+      "item": "Hemoptysis",
       "truth_quotes": []
     },
     {
       "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Paralysis General",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
       "truth_quotes": []
     },
     {
@@ -93,23 +86,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
+      "item": "Vomiting",
       "truth_quotes": []
     },
     {
@@ -117,11 +94,23 @@
       "truth_quotes": []
     },
     {
-      "item": "Cough",
+      "item": "Loss Of Appetite",
       "truth_quotes": []
     },
     {
-      "item": "Fainting",
+      "item": "Motor Weakness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
       "truth_quotes": []
     },
     {
@@ -129,7 +118,27 @@
       "truth_quotes": []
     },
     {
-      "item": "Hemoptysis",
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
       "truth_quotes": []
     },
     {
@@ -137,7 +146,11 @@
       "truth_quotes": []
     },
     {
-      "item": "Paralysis General",
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
       "truth_quotes": []
     }
   ]

@@ -1,91 +1,14 @@
 {
   "medical_history_assessed": {
-    "hyperacusis": {
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "infectious_symptom": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And also the chest X Ray could help us look to see if you have something going on in your lungs, like a possible pneumonia or, maybe a viral infection as well, which could include something like COVID-19."
-      ]
-    },
-    "loss_of_consciousness_due_to_alcohol": {
+    "body_ache": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Maybe slight muscle aches."
-      ]
-    },
-    "anxious": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "apnea_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "behaviour_change": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Sure, you know I've been having this chest pain for the since last night.",
-        "No, I was just about to head to bed and suddenly I felt this crampy pain in my chest."
-      ]
-    },
-    "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No chills."
-      ]
-    },
-    "colored_excess_sputum": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and so you haven't been bringing up any sputum or or any blood?"
-      ]
-    },
-    "complications_actual_delivery": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "complications_during_delivery": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "confusion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and how about any confusion or or concerns around memory?"
-      ]
-    },
-    "constipation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright and, have you had any diarrhea or constipation?"
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and have you had a cough?"
-      ]
-    },
-    "decreased_activity": {
+    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -93,230 +16,236 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "diabetes": {
+    "difficulty_breathing": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, actually sorry, I have diabetes.",
-        "Ok, is that type 2?"
+        "Medical Student: Ok, and the shortness of breath you mentioned, uh, when did that start?",
+        "Patient: Around the same time."
       ]
     },
-    "diarrhoea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright and, have you had any diarrhea or constipation?"
-      ]
-    },
-    "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any eye symptoms like discharge or or eye pain?"
-      ]
-    },
-    "discomfort": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dysphagia": {
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "muscle_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Alright, and any muscle aches or pains?",
+        "Patient: Maybe slight muscle aches."
+      ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "phlegm": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "respiratory_distress_syndrome": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sinus_congestion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptom_speedup": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "throat_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tightness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "widespread_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "ache": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Sure, you know I've been having this chest pain for the since last night."
+      ]
+    },
+    "chills": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "colored_excess_sputum": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "cough": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diarrhoea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "discharge": {
       "assessed": "No",
       "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Sure, you know I've been having this chest pain for the since last night. Um, and I'm also having a hard time breathing so thought I should check it out."
-      ]
-    },
-    "ear_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any eye symptoms like discharge or or eye pain?"
+        "Medical Student: Ok, and the shortness of breath you mentioned, uh, when did that start?",
+        "Patient: Around the same time."
       ]
     },
     "eye_redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any any redness of your eye?"
-      ]
-    },
-    "facial_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fainting": {
       "assessed": "No",
       "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Just just some fatigue, some tiredness."
+        "Patient: Just just some fatigue, some tiredness."
       ]
     },
     "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Ok, and have you had a fever?"
-      ]
-    },
-    "flu": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "food_allergy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "greenish_yellowish_nasal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
     "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Ok, and have you had any headaches?"
-      ]
-    },
-    "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and so you haven't been bringing up any sputum or or any blood?"
-      ]
-    },
-    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching_eyes": {
+    "hemoptysis": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And have you had a decrease in your appetite?"
-      ]
-    },
-    "memory_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and how about any confusion or or concerns around memory?"
-      ]
-    },
-    "nausea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and how about any nausea or vomiting?"
-      ]
-    },
-    "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Sure, you know I've been having this chest pain for the since last night.",
-        "Maybe slight muscle aches."
-      ]
-    },
-    "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, so have you felt like your heart is racing at all?"
-      ]
-    },
-    "passing_gast": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nausea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
       "assessed": "No",
       "example_quotes": []
     },
     "rapid_breathing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Ok, do you think that you're breathing more quickly?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, so have you had a runny nose?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_change": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Ok, has there been any change to your sleep or any stressful events happen that might be tiring you out?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_hydrosis": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And have you had a loss of taste or smell?"
-      ]
-    },
-    "sore_throat": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and have you had a sore throat?"
-      ]
-    },
-    "soreness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "straining_and_chest_discomfort": {
+    "sore_throat": {
       "assessed": "No",
       "example_quotes": []
     },
     "taste_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And have you had a loss of taste or smell?"
-      ]
-    },
-    "teary_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
     "unexplained_weight_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And have you had any changes to your weight in the last several months?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and how about any nausea or vomiting?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "weakness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any weakness?"
-      ]
-    },
-    "weight_gain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And have you had any changes to your weight in the last several months?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, maybe maybe a slight wheeze."
+        "Medical Student: Ok, have you noticed any changes to the sounds of your breathing, like a wheeze or whistling sound?",
+        "Patient: Yeah, maybe maybe a slight wheeze."
       ]
     }
   }

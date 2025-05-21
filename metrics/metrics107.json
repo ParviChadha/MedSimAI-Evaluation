@@ -1,24 +1,71 @@
 {
-  "precision": 0.9230769230769231,
-  "recall": 1.0,
-  "f1_score": 0.9600000000000001,
-  "true_positives": 24,
-  "false_positives": 2,
-  "false_negatives": 0,
+  "precision": 0.9166666666666666,
+  "recall": 0.4583333333333333,
+  "f1_score": 0.611111111111111,
+  "true_positives": 11,
+  "false_positives": 1,
+  "false_negatives": 13,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Feeling Tired",
+      "item": "Infection",
       "result_quotes": [
-        "I've been more fatigued over the last couple months."
-      ]
-    },
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "Yeah I do have uh, type 2 diabetes, as well as high blood pressure."
+        "Medical Student: we will have to contact a public health if the tests come back positive."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Issue",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    }
+  ]
 }

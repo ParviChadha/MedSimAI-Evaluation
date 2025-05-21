@@ -1,13 +1,60 @@
 {
-  "precision": 1.0,
-  "recall": 0.9523809523809523,
-  "f1_score": 0.975609756097561,
-  "true_positives": 20,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 21,
-  "false_positive_details": [],
+  "precision": 0.7619047619047619,
+  "recall": 0.7619047619047619,
+  "f1_score": 0.7619047619047619,
+  "true_positives": 16,
+  "false_positives": 5,
+  "false_negatives": 5,
+  "total_items": 42,
+  "false_positive_details": [
+    {
+      "item": "Loss Of Sense",
+      "result_quotes": [
+        "I can't smell as as much."
+      ]
+    },
+    {
+      "item": "Smell Loss",
+      "result_quotes": [
+        "I can't smell as as much."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "I just heard of someone who passed away due to Covid and I'm just like very scared and I just decided to come in."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "With the cough, is it a dry cough or are you bringing up some phlegm?"
+      ]
+    },
+    {
+      "item": "Impending Doom Anxiety",
+      "result_quotes": [
+        "I just heard of someone who passed away due to Covid and I'm just like very scared."
+      ]
+    }
+  ],
   "false_negative_details": [
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
     {
       "item": "Fatigue Sleep",
       "truth_quotes": []

@@ -1,56 +1,113 @@
 {
-  "precision": 0.8378378378378378,
-  "recall": 0.9393939393939394,
-  "f1_score": 0.8857142857142858,
-  "true_positives": 31,
-  "false_positives": 6,
-  "false_negatives": 2,
-  "total_items": 66,
+  "precision": 0.8461538461538461,
+  "recall": 0.3333333333333333,
+  "f1_score": 0.47826086956521735,
+  "true_positives": 11,
+  "false_positives": 2,
+  "false_negatives": 22,
+  "total_items": 48,
   "false_positive_details": [
-    {
-      "item": "Smell Problem",
-      "result_quotes": [
-        "Yeah, nice to meet you I, I've been having just over the last week my cough that's been getting worse and I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell so that got me really worried."
-      ]
-    },
-    {
-      "item": "Cold",
-      "result_quotes": [
-        "Not the loss of taste and smell, but like the other stuff when I just had a cold or flu like symptoms previously, but the taste and smell is something completely new."
-      ]
-    },
-    {
-      "item": "Allergic Rhinitis",
-      "result_quotes": [
-        "Um, sometimes in the fall like I get a bit sniffly and, but other than that, I don't know of any allergies to any foods or medications."
-      ]
-    },
-    {
-      "item": "Decreased Activity",
-      "result_quotes": [
-        "Just been planner, just sitting on the couch."
-      ]
-    },
-    {
-      "item": "Taste Problem",
-      "result_quotes": [
-        "Yeah, nice to meet you I, I've been having just over the last week my cough that's been getting worse and I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell so that got me really worried."
-      ]
-    },
     {
       "item": "Weakness",
       "result_quotes": [
-        "I have been a bit tired in the last few days. The fevers at night and morning. Just feeling a little bit crummy, just not really energetic, energetic to do anything."
+        "I've been a bit tired in the last few days.",
+        "Just feeling a little bit crummy, just not really energetic, energetic to do anything."
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "experienced any weight loss recently? No, not that I know."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
       "item": "Discharge",
       "truth_quotes": []
     },
     {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Rectal Bleeding",
+      "truth_quotes": []
+    },
+    {
       "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
       "truth_quotes": []
     }
   ]

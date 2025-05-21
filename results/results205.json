@@ -1,38 +1,108 @@
 {
   "medical_history_assessed": {
-    "chest_discomfort": {
+    "muscle_ache": {
       "assessed": "No",
       "example_quotes": []
     },
-    "constipation": {
+    "behaviour_change": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_feeding": {
+    "chest_pain": {
+      "assessed": "No",
+      "example_quotes": [
+        "Have you had any chest pain? Thats the other thing . I'm not sure if I asked you .",
+        "No no chest pain."
+      ]
+    },
+    "chills": {
+      "assessed": "No",
+      "example_quotes": [
+        "OK, any chills or night sweats?",
+        "No."
+      ]
+    },
+    "colored_excess_sputum": {
+      "assessed": "No",
+      "example_quotes": [
+        "I my next question was do you feel like it's a dry cough or you producing any sputum? Any blood? Or is it to not, not bringing up anything?",
+        "It's dry."
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And I have this mild dry cough.",
+        "I'm just worried it's covid.",
+        "Is that been pretty consistent throughout the last couple of days or is it on and off?",
+        "It's been pretty consistent, yeah."
+      ]
+    },
+    "dehydration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dizzyness": {
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, have you had, in addition to these symptoms, have you had any fevers?",
+        "Fevers, no fevers."
+      ]
+    },
+    "general_weakness": {
+      "assessed": "No",
+      "example_quotes": [
+        "OK, any muscle ache or general weakness?",
+        "Uh no."
+      ]
+    },
+    "head_ache": {
+      "assessed": "No",
+      "example_quotes": [
+        "OK, any headaches?",
+        "Um no, no headaches."
+      ]
+    },
+    "hemoptysis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "drooling": {
+    "itchiness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "extended_sleep": {
+    "loss_of_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
-    "eye_discharge": {
+    "loss_of_sense": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I seem to have lost my sense of taste as well.",
+        "The smell isn't totally gone I can still smell something if it smells really really bad..."
+      ]
+    },
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
-    "redness": {
+    "malaise": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sexually_transmitted_infection": {
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_hydrosis": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -44,98 +114,17 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "speech_volume": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "swelling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "wheez_inhale": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any chest pain?",
-        "No no chest pain."
-      ]
-    },
-    "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any chills or night sweats?",
-        "No."
-      ]
-    },
-    "colored_excess_sputum": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "do you feel like it's a dry cough or you producing any sputum? Any blood? Or is it to not, not bringing up anything?",
-        "It's dry."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I have this mild dry cough.",
-        "And did this dry cough that start at the same time?",
-        "Yes."
-      ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you had any fevers?",
-        "Fevers, no fevers."
-      ]
-    },
-    "general_weakness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any muscle ache or general weakness?",
-        "Uh no."
-      ]
-    },
-    "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any headaches?",
-        "Um no, no headaches."
-      ]
-    },
-    "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "do you feel like it's a dry cough or you producing any sputum? Any blood? Or is it to not, not bringing up anything?",
-        "It's dry."
-      ]
-    },
-    "pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_hydrosis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any chills or night sweats?",
-        "No."
-      ]
-    },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I've I've noticed that I can't smell things as well, as I used to be able to smell them and I seem to have lost my sense of taste as well.",
-        "when you say you feel like you've lost sense of taste and smell, is it totally gone or do you taste a little bit?",
-        "The smell isn't totally gone I can still smell something if it smells really really bad and and then and then I can taste really, really salty foods, but I can taste normal things like I can't taste of banana."
+        "I seem to have lost my sense of taste as well.",
+        "The smell isn't totally gone I can still smell something if it smells really really bad..."
       ]
     },
     "sore_throat": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "any sore throat?",
+        "OK, any sore throat?",
         "No."
       ]
     },
@@ -143,16 +132,23 @@
       "assessed": "Yes",
       "example_quotes": [
         "I seem to have lost my sense of taste as well.",
-        "when you say you feel like you've lost sense of taste and smell, is it totally gone or do you taste a little bit?",
-        "The smell isn't totally gone I can still smell something if it smells really really bad and and then and then I can taste really, really salty foods, but I can taste normal things like I can't taste of banana."
+        "I can't taste of banana."
       ]
     },
     "trouble_breathing": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "any difficulty breathing?",
+        "OK, any difficulty breathing?",
         "No."
       ]
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

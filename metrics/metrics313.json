@@ -1,66 +1,74 @@
 {
-  "precision": 0.7714285714285715,
-  "recall": 0.9642857142857143,
-  "f1_score": 0.8571428571428572,
-  "true_positives": 27,
-  "false_positives": 8,
-  "false_negatives": 1,
+  "precision": 0.9333333333333333,
+  "recall": 0.5,
+  "f1_score": 0.6511627906976745,
+  "true_positives": 14,
+  "false_positives": 1,
+  "false_negatives": 14,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Itchiness",
+      "item": "Change In Sleep",
       "result_quotes": [
-        "Uhm Yeah, a little bit. I would say they have been a bit itchy."
-      ]
-    },
-    {
-      "item": "Mucous Building",
-      "result_quotes": [
-        "That was around like 5 days ago and then it turned into just a lot of congestion, like around my nose and like my throat.",
-        "Yeah, I'm still getting some discharge and I also feel like I'm getting some dripping at the back of my throat too, especially when I wake up."
-      ]
-    },
-    {
-      "item": "Symptom Speedup",
-      "result_quotes": [
-        "I did kind of have a runny nose last week as well, so probably like 8 days ago but then the runny nose discontinued a little bit but really got worse 5 days ago, but all these other symptoms just happened in the last few days."
-      ]
-    },
-    {
-      "item": "Facial Pain",
-      "result_quotes": [
-        "And now over the last two days I've been just feeling so much pressure around my nose and around my jaw so I've been getting a lot of pain there as well.",
-        "Yes, I would say mainly over the cheeks. It can kind of go near the front of my teeth as well, so like I would say like mostly around the cheeks, jaws and up to the front of my teeth."
-      ]
-    },
-    {
-      "item": "Smell Problem",
-      "result_quotes": [
-        "Yeah, so just in the last three days when the congestion got really bad I started losing the ability to smell."
-      ]
-    },
-    {
-      "item": "Change In Taste",
-      "result_quotes": [
-        "No, taste is fine."
-      ]
-    },
-    {
-      "item": "Sleep Issue",
-      "result_quotes": [
-        "Uhm, it's been mainly OK, just maybe sometimes difficult to get to sleep with all the all the congestion, but I don't think my energy has been affected too much, no."
-      ]
-    },
-    {
-      "item": "Pressure In Around Face",
-      "result_quotes": [
-        "And now over the last two days I've been just feeling so much pressure around my nose and around my jaw so I've been getting a lot of pain there as well."
+        "Uhm, it's been mainly OK, just maybe sometimes difficult to get to sleep with all the all the congestion."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Aches",
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Weakness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
       "truth_quotes": []
     }
   ]

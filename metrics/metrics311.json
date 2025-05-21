@@ -1,19 +1,51 @@
 {
-  "precision": 0.95,
-  "recall": 1.0,
-  "f1_score": 0.9743589743589743,
-  "true_positives": 19,
+  "precision": 0.9166666666666666,
+  "recall": 0.5789473684210527,
+  "f1_score": 0.7096774193548387,
+  "true_positives": 11,
   "false_positives": 1,
-  "false_negatives": 0,
+  "false_negatives": 8,
   "total_items": 38,
   "false_positive_details": [
     {
-      "item": "Feeling Tired",
+      "item": "Tired",
       "result_quotes": [
-        "Does she seem like uh, very tired or fatigued, or more irritable?",
-        "She does get tired, especially after, and then she's irritable and crying after, you know, she has these fits of coughs."
+        "She does get tired, especially after..."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Blood In The Vomit",
+      "truth_quotes": []
+    },
+    {
+      "item": "Delayed Growth Milestones",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    }
+  ]
 }

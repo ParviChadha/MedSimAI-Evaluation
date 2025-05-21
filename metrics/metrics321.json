@@ -1,31 +1,69 @@
 {
-  "precision": 0.875,
-  "recall": 1.0,
-  "f1_score": 0.9333333333333333,
-  "true_positives": 21,
-  "false_positives": 3,
-  "false_negatives": 0,
+  "precision": 0.7647058823529411,
+  "recall": 0.6190476190476191,
+  "f1_score": 0.6842105263157895,
+  "true_positives": 13,
+  "false_positives": 4,
+  "false_negatives": 8,
   "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Infection",
-      "result_quotes": [
-        "Have you been around anyone who may have been sick recently?",
-        "Yeah, actually I think a few of my friends or there was somebody in my gym class knew that I sounded like they had similar symptoms."
-      ]
-    },
-    {
-      "item": "Decreased Oral Intake",
+      "item": "Changes In Appetite",
       "result_quotes": [
         "Um. It might be a little ah might have been a little bit down. I just kind of haven't been feeling so great, so I'm I've probably eating less the last few weeks, yeah."
       ]
     },
     {
-      "item": "Discharge",
+      "item": "Throat Pain",
       "result_quotes": [
-        "No, that well, did they might have looked maybe a little bit more more red, red then usual but I haven't noticed any anything in terms of itchiness or um discharge."
+        "Um, I've had a sore throat now for a couple of weeks and it's just not going away."
+      ]
+    },
+    {
+      "item": "Soreness",
+      "result_quotes": [
+        "I'd say, maybe the, uh, the right side is a little bit more sore, but I think I can feel it on both sides of my neck."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "Yeah, I felt so some muscle aches for sure."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    }
+  ]
 }

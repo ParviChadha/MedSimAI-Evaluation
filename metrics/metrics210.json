@@ -1,44 +1,72 @@
 {
-  "precision": 0.7727272727272727,
-  "recall": 1.0,
-  "f1_score": 0.8717948717948718,
-  "true_positives": 17,
-  "false_positives": 5,
-  "false_negatives": 0,
+  "precision": 0.7,
+  "recall": 0.4117647058823529,
+  "f1_score": 0.5185185185185185,
+  "true_positives": 7,
+  "false_positives": 3,
+  "false_negatives": 10,
   "total_items": 36,
   "false_positive_details": [
     {
-      "item": "Chest Discomfort",
+      "item": "Fainting",
       "result_quotes": [
-        "So I came to the emergency Department because I've been having pain in my chest.",
-        "I would say it's like the whole pretty much the left side of my chest."
+        "Medical Student: OK are you, did you have a loss of consciousness when you fell off your bike?",
+        "Patient: No, I got right back up. I just just had the pain."
       ]
     },
     {
-      "item": "Paralysis Limb Or Face",
+      "item": "Tachypnea",
       "result_quotes": [
-        "Um no nothing like that."
+        "Patient: I feel like I can't catch my breath."
       ]
     },
     {
-      "item": "Chest Tightness",
+      "item": "Sensation Of Chest",
       "result_quotes": [
-        "If I. Think I have to take really really slow and shallow breaths. If I try to take a deep breath it just really hurts like taking those small, smaller breaths helps.",
-        "Uh, like I think I I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "No, I've been pretty pretty healthy recently. No, no cough or no infections."
-      ]
-    },
-    {
-      "item": "Symptom Speedup",
-      "result_quotes": [
-        "I'd say over the last two hours it's been getting worse."
+        "Patient: If I try to take a deep breath it just really hurts like taking those small, smaller breaths helps."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Numbness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Tingling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Weakness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    }
+  ]
 }

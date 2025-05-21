@@ -1,57 +1,55 @@
 {
   "medical_history_assessed": {
-    "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "It's pretty pretty watery and clear."
-      ]
-    },
-    "hyperacusis": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "injury": {
       "assessed": "No",
       "example_quotes": []
     },
     "sneezing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "aches": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any pain in your chest?"
+        "Medical Student: And do you have any fatigue or muscle aches?",
+        "Patient: No muscle aches, but yeah, I have been fatigued last a couple of days."
+      ]
+    },
+    "chest_pain": {
+      "assessed": "No",
+      "example_quotes": [
+        "Medical Student: Any pain in your chest?",
+        "Patient: No."
       ]
     },
     "colored_excess_sputum": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "I've been bringing up any blood or any mucus or anything like that."
+        "Medical Student: I've been bringing up any blood or any mucus or anything like that.",
+        "Patient: No, and I haven't had a cough before either. This is new."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running.",
-        "OK, is it a wet cough or dry cough?",
-        "Cough started four days ago."
+        "Patient: I've had a cough as well and my nose is, keeps running.",
+        "Medical Student: And your cough, when did that start?",
+        "Patient: Cough started four days ago."
       ]
     },
     "diarrhoea": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "Any pain in your belly or any diarrhea?"
+        "Medical Student: Any pain in your belly or any diarrhea?",
+        "Patient: Nothing like that."
       ]
     },
     "diet": {
@@ -59,165 +57,145 @@
       "example_quotes": []
     },
     "difficulty_breathing": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "Any difficulties breathing?"
+        "Medical Student: Any difficulties breathing?",
+        "Patient: No."
       ]
     },
-    "dysuria": {
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "eye_redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms."
-      ]
+    "facial_pressure": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "And do you have any fatigue or muscle aches?",
-        "No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
+        "Medical Student: And do you have any fatigue or muscle aches?",
+        "Patient: ...yeah, I have been fatigued last a couple of days."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running.",
-        "OK. And when did the fevers start?",
-        "I think the fever started two days ago.",
-        "How, did you measure your magic temperature?",
-        "Yeah, it was 38 point .5 when I when I checked it.",
-        "And have you been checking it out past days? Has it gotten better or worse?",
-        "It's been about the same both both days."
+        "Patient: I've been having uh, this fever, the last couple of days..."
       ]
-    },
-    "food_allergy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And allergies to food or medications, or environmental allergies?",
-        "I think I have an allergy to penicillin. I got it, I had a rash when I was I younger when I had that."
-      ]
-    },
-    "foreign_body_intake": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "guilt_feeling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any headaches?",
-        "Uh yeah I have had a bit of a headache, actually. Well, just just this morning.",
-        "How how bad is it?",
-        "It's pretty mild. Something pretty simple like it, so I've had headaches like like this before. It's not, it's not a big deal."
+        "Medical Student: Any headaches?",
+        "Patient: Uh yeah I have had a bit of a headache, actually."
       ]
     },
     "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've been bringing up any blood or any mucus or anything like that."
-      ]
-    },
-    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, OK. So yeah, it sounds like you might have some sort of viral infection which could potentially be covid, but could also be another sort of another viral illness, just like the common cold or the flu."
-      ]
+    "hyperhidrosis": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "malaise": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
-      ]
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lung_complications": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms."
+        "Medical Student: OK, and the runny nose, what kind of discharge, or what like what's coming out of your nose?",
+        "Patient: It's pretty pretty watery and clear."
       ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any pain in your chest?",
-        "OK, any headaches?",
-        "Any pain in your belly or any diarrhea?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
-    "paralysis_general": {
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running."
+        "Patient: ...my nose is, keeps running.",
+        "Patient: ...runny nose, what kind of discharge..."
       ]
     },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sexually_transmitted_infection": {
+    "sensation_of_chest": {
       "assessed": "No",
       "example_quotes": []
     },
     "sinus_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms."
-      ]
-    },
-    "smell_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your sense of smell?"
-      ]
-    },
-    "sore_throat": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms."
-      ]
-    },
-    "swelling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "symptoms_stress": {
+    "smell_loss": {
+      "assessed": "No",
+      "example_quotes": [
+        "Medical Student: Any changes in your sense of smell?",
+        "Patient: No."
+      ]
+    },
+    "smell_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sore_throat": {
       "assessed": "No",
       "example_quotes": []
     },
     "taste_loss": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "Changes in your sense of taste?"
+        "Medical Student: Changes in your sense of taste?",
+        "Patient: No."
       ]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "teary_eyes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms."
-      ]
-    },
-    "tonsilitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaccine_related_reaction": {
+    "unexplained_weight_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "widespread_pain": {
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "watery_eyes": {
       "assessed": "No",
       "example_quotes": []
     }

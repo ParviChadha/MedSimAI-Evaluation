@@ -1,18 +1,37 @@
 {
-  "precision": 0.9166666666666666,
-  "recall": 1.0,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 11,
-  "false_positives": 1,
-  "false_negatives": 0,
+  "precision": 0.8,
+  "recall": 0.7272727272727273,
+  "f1_score": 0.761904761904762,
+  "true_positives": 8,
+  "false_positives": 2,
+  "false_negatives": 3,
   "total_items": 22,
   "false_positive_details": [
     {
-      "item": "Pregnancy",
+      "item": "Tachypnea",
       "result_quotes": [
-        "And just going back to his birth and your pregnancy, were there any complications at the time of pregnancy?"
+        "he'll talk about having shortness of breath or difficulty breathing in the cold weather"
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "he might... I mean so like environmental or I don't know, something."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    }
+  ]
 }

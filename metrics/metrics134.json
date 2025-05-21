@@ -1,19 +1,48 @@
 {
-  "precision": 0.96,
-  "recall": 1.0,
-  "f1_score": 0.9795918367346939,
-  "true_positives": 24,
+  "precision": 0.9444444444444444,
+  "recall": 0.7083333333333334,
+  "f1_score": 0.8095238095238096,
+  "true_positives": 17,
   "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 48,
+  "false_negatives": 7,
+  "total_items": 47,
   "false_positive_details": [
     {
-      "item": "Diabetes",
+      "item": "Pain",
       "result_quotes": [
-        "Um I was diagnosed with diabetes, um high blood pressure and high cholesterol.",
-        "I was diagnosed about 10 years ago."
+        "Medical Student: Okay, and what kind of pain is it?... how would you describe it?",
+        "Patient: Um, it's a, it's, it's like a, I don't know. I guess it's a sharp pain when I try to take a deep breath in."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Sleep Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    }
+  ]
 }

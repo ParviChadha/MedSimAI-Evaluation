@@ -1,11 +1,138 @@
 {
-  "precision": 1.0,
-  "recall": 1.0,
-  "f1_score": 1.0,
-  "true_positives": 34,
-  "false_positives": 0,
-  "false_negatives": 0,
-  "total_items": 34,
-  "false_positive_details": [],
-  "false_negative_details": []
+  "precision": 0.6923076923076923,
+  "recall": 0.2647058823529412,
+  "f1_score": 0.3829787234042553,
+  "true_positives": 9,
+  "false_positives": 4,
+  "false_negatives": 25,
+  "total_items": 68,
+  "false_positive_details": [
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "I'm not feeling very energetic.",
+        "Yeah, I've been sleeping more than usual."
+      ]
+    },
+    {
+      "item": "Sensation Of Chest",
+      "result_quotes": [
+        "I kind of feel like this pressure at that time is just like yeah, someone's like pressing my chest inwards."
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "Yeah, I've gained quite a bit of weight since the pandemic started. Yeah, gained about 10 pounds."
+      ]
+    },
+    {
+      "item": "Hyperhidrosis",
+      "result_quotes": [
+        "I get really sweaty when these episodes happen. Just like yeah, my face is like sweating, and my neck."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Self Harm Thoughts",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Slow Motion Feeling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Guilt Feeling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pregnancy",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Weight Gain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    }
+  ]
 }

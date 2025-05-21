@@ -1,23 +1,102 @@
 {
-  "precision": 0.9545454545454546,
-  "recall": 0.9545454545454546,
-  "f1_score": 0.9545454545454546,
-  "true_positives": 21,
-  "false_positives": 1,
-  "false_negatives": 1,
+  "precision": 0.5833333333333334,
+  "recall": 0.3181818181818182,
+  "f1_score": 0.4117647058823529,
+  "true_positives": 7,
+  "false_positives": 5,
+  "false_negatives": 15,
   "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Tired",
+      "item": "Throat Pain",
       "result_quotes": [
-        "How has your energy been? Have you been, like really fatigued?",
-        "Yeah."
+        "Patient: Yeah, absolutely. Uhm, I don't know, I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat."
+      ]
+    },
+    {
+      "item": "Vision Problem",
+      "result_quotes": [
+        "Medical Student: OK, I think I didn't ask this, but have you had any surgeries before? Patient: I had cataract surgery done."
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "Medical Student: OK, so maybe loss of taste, so you feel like your nose is really or that you're really congested? Patient: I guess yeah, now that I think about it."
+      ]
+    },
+    {
+      "item": "Malaise",
+      "result_quotes": [
+        "Patient: I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
       "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dysphagia",
       "truth_quotes": []
     }
   ]

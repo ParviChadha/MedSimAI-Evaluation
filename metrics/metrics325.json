@@ -1,36 +1,56 @@
 {
-  "precision": 0.85,
-  "recall": 0.85,
-  "f1_score": 0.85,
-  "true_positives": 17,
-  "false_positives": 3,
-  "false_negatives": 3,
+  "precision": 0.8,
+  "recall": 0.4,
+  "f1_score": 0.5333333333333333,
+  "true_positives": 8,
+  "false_positives": 2,
+  "false_negatives": 12,
   "total_items": 40,
   "false_positive_details": [
     {
       "item": "Itching Eyes",
       "result_quotes": [
-        "my eyes and my nose are just itchy",
-        "my eyes get like red and teary sometimes"
+        "my eyes and my nose are just itchy and my eyes get like red and teary sometimes."
       ]
     },
     {
-      "item": "Sensitive To Allergies",
+      "item": "Mucous Building",
       "result_quotes": [
-        "dust makes it a lot worse",
-        "any kind of allergens or any anything in the house or around you that triggers it, like dust or anything like that?"
-      ]
-    },
-    {
-      "item": "Watery Eyes",
-      "result_quotes": [
-        "my eyes get like red and teary sometimes"
+        "Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up? Yeah yeah I do."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
       "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
       "truth_quotes": []
     },
     {
@@ -38,7 +58,15 @@
       "truth_quotes": []
     },
     {
-      "item": "Unexplained Weight Loss",
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
       "truth_quotes": []
     }
   ]

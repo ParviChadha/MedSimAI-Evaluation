@@ -1,12 +1,18 @@
 {
   "medical_history_assessed": {
-    "injury": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Did anything trigger this a week back? Any trauma to the chest area? Anything like that?"
-      ]
+    "changes_in_appetite": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "lightheadedness": {
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -14,188 +20,144 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "allergic_rhinitis": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "bad_smell": {
+    "phlegm": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, how about sputum?",
+        "Patient: Um, no sputum."
+      ]
+    },
+    "sore_throat": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: ...it's the breathing that's been bothering me a lot more."
+      ]
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "In terms of like your stool, so bowel movements and urination. Like all of that's normal?"
-      ]
-    },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "change_in_sleep": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "chest_discomfort": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing."
+        "Medical Student: ...in terms of like your stool, so bowel movements... Patient: Yeah, all that's been normal."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.",
-        "Is it a constant pain? Is it always there?",
-        "And when you do get that, get that pain. How long does it last?",
-        "And the chest pain. Is it sharp or is a dull crampy? What does it feel like?"
+        "Patient: I so I've just had this pain in my chest for just over a week now..."
       ]
     },
     "colored_excess_sputum": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about sputum?",
-        "Um, no sputum."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "confusion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No confusion."
-      ]
-    },
-    "constipation": {
       "assessed": "No",
       "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I had a cough about a week ago so I thought it might be a chest infection, but I'm not feverish, so I'm not sure.",
-        "The cough is it still there?",
-        "Yeah, it's um. I still have a cough.",
-        "Any changes in your skin like rashes?",
-        "No, it's just that the dry cough."
+        "Patient: ...I still have a cough."
       ]
     },
     "decreased_physical_activity": {
-      "assected": "Yes",
-      "example_quotes": [
-        "Yeah exactly it's starting to it was starting to get, the pain was starting to improve but it was keeping me on the couch a lot of days."
-      ]
-    },
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about dizziness or fainting spells?"
+        "Patient: I guess I did have a hysterectomy a few weeks ago... I was definitely spending a lot more time um relaxing at home after that."
       ]
+    },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.",
-        "And the shortness of breath do you have that at rest as well?",
-        "But if even if I'm doing a little bit of exertion like walking a few a few blocks or something like that I'm finding it, I'm I'm short of breath.",
-        "The shortness of breath 1 to 10, 10 being the worst, the most severe. How bad is your shortness of breath?",
-        "When I'm exerting myself, it could get up to like a 7 or 8.",
-        "I I would say maybe 100 meters. But before I was able to run uh like I was running a few days per week so. So this is not like me.",
-        "And, and you mentioned shortness some shortness of breath on exertion, how about when you're laying down?"
+        "Patient: ...I can usually catch my breath. But if even if I'm doing a little bit of exertion... I'm finding it, I'm I'm short of breath."
       ]
     },
-    "fainting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No fainting spells."
-      ]
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "fatigue": {
+    "extended_sleep": {
       "assessed": "No",
       "example_quotes": []
     },
     "fever": {
-      "assessed": "Yes",
+      "assessed": "No",
       "example_quotes": [
-        "I had a cough about a week ago so I thought it might be a chest infection, but I'm not feverish, so I'm not sure.",
-        "This you mentioned, no fevers, no chills. And no night sweats too I guess?"
+        "Patient: ...I'm not feverish..."
       ]
     },
-    "food_allergy": {
+    "flu": {
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting_noise": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "guilt_feeling": {
+    "general_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
     "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any headaches?",
-        "Um no headaches."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK hearing?",
-        "Hearing has been OK."
+        "Patient: Hearing has been OK."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "And are you coughing up any blood?",
-        "No, I haven't. I haven't noticed any any blood."
+        "Medical Student: OK, are you coughing up any blood? Patient: No, I haven't."
       ]
+    },
+    "malaise": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had a stuffy nose or runny nose in the past week or so.",
-        "No, it's just that the dry cough."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I so I've just had this pain in my chest for just over a week now and it's caused me to have trouble breathing.",
-        "Is it a constant pain? Is it always there?",
-        "And when you do get that, get that pain. How long does it last?",
-        "And the chest pain. Is it sharp or is a dull crampy? What does it feel like?",
-        "Um yeah my left, my left leg's actually a little bit sore."
+        "Patient: ...just had this pain in my chest for just over a week now..."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "And you mentioned some chest pain. Any palpitations like you feel like your hearts racing?",
-        "Uh, actually I did feel like that a little bit. Especially when I was moving a little bit more, I felt like my heart was racing."
+        "Patient: ...especially when I was moving a little bit more, I felt like my heart was racing."
       ]
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had a stuffy nose or runny nose in the past week or so.",
-        "No, it's just that the dry cough."
-      ]
-    },
-    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -203,19 +165,13 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "sleep_dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And, and you mentioned shortness some shortness of breath on exertion, how about when you're laying down?",
-        "Not when I'm laying down."
-      ]
+    "sleep_changes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_hydrosis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "This you mentioned, no fevers, no chills. And no night sweats too I guess?",
-        "Yeah, no night sweats."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "slow_motion_feeling": {
       "assessed": "No",
@@ -224,67 +180,48 @@
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about smell?",
-        "No changes in smell."
+        "Patient: No changes in smell."
       ]
     },
     "sore": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any calf pain.",
-        "Um yeah my left, my left leg's actually a little bit sore."
-      ]
-    },
-    "speech_volume": {
       "assessed": "No",
       "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any swelling in the area?",
-        "Um, Yeah, we'll say that there is swelling."
+        "Patient: ...there is swelling."
       ]
     },
+    "tightness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "unexplained_weight_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And how about weight loss? Any weight loss?",
-        "No weight loss"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "In terms of like your stool, so bowel movements and urination. Like all of that's normal?",
-        "Yeah, all that's been normal."
+        "Medical Student: ...urination... Patient: Yeah, all that's been normal."
       ]
     },
     "vaccine_related_reaction": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaginal_discomfort": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I guess I did have a hysterectomy a few weeks ago. I know it was, I I didn't bring it up before 'cause it's just a day procedure, but I was definitely spending a lot more time um relaxing at home after that, a few weeks ago.",
-        "OK, so were they thinking it was like a cancer or something?",
-        "Um I think it was um. It was from Fibroids."
-      ]
-    },
     "vision_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you experienced any changes in your vision?",
-        "Yeah no, my visions been been, been fine."
-      ]
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And do you feel like you're wheezing?",
-        "Oh no wheezing."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

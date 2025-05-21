@@ -1,34 +1,79 @@
 {
-  "precision": 0.9259259259259259,
-  "recall": 0.9259259259259259,
-  "f1_score": 0.9259259259259259,
-  "true_positives": 25,
-  "false_positives": 2,
-  "false_negatives": 2,
+  "precision": 0.9230769230769231,
+  "recall": 0.4444444444444444,
+  "f1_score": 0.6,
+  "true_positives": 12,
+  "false_positives": 1,
+  "false_negatives": 15,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "It's definitely wet. My phlegm looks green.",
-        "It's been like that for the past two weeks."
-      ]
-    },
-    {
-      "item": "Weight Changes",
-      "result_quotes": [
-        "And have you noticed any kind of, uh, significant weight loss or anything like that recently?",
-        "No."
+        "Medical Student: OK, did you get sick at all recently, or were you in contact with anyone who was sick?",
+        "Patient: No, not that I know of."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
       "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
-      "item": "Hyperhidrosis",
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Headaches",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
       "truth_quotes": []
     }
   ]

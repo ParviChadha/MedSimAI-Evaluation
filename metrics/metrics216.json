@@ -1,31 +1,46 @@
 {
-  "precision": 0.8823529411764706,
-  "recall": 0.9375,
-  "f1_score": 0.9090909090909091,
-  "true_positives": 15,
-  "false_positives": 2,
-  "false_negatives": 1,
+  "precision": 0.9,
+  "recall": 0.5625,
+  "f1_score": 0.6923076923076923,
+  "true_positives": 9,
+  "false_positives": 1,
+  "false_negatives": 7,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Diet",
+      "item": "Infection",
       "result_quotes": [
-        "Um not the greatest, no.",
-        "OK, so not not eating, eating as much or drinking as much?",
-        "Yeah."
-      ]
-    },
-    {
-      "item": "Sensitive To Allergies",
-      "result_quotes": [
-        "OK, any allergies to medications that you're aware of?",
-        "No."
+        "Medical Student: So in regards to a past health. Has he had any symptoms or like this before? Patient: I guess last month he kinda had similar symptoms and they said it was a viral infection."
       ]
     }
   ],
   "false_negative_details": [
     {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Wheez Inhale",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
       "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
       "truth_quotes": []
     }
   ]

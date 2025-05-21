@@ -1,58 +1,110 @@
 {
-  "precision": 0.7941176470588235,
-  "recall": 0.9642857142857143,
-  "f1_score": 0.8709677419354839,
-  "true_positives": 27,
+  "precision": 0.6666666666666666,
+  "recall": 0.5,
+  "f1_score": 0.5714285714285715,
+  "true_positives": 14,
   "false_positives": 7,
-  "false_negatives": 1,
+  "false_negatives": 14,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Feeling Tired",
+      "item": "Decreased Physical Activity",
       "result_quotes": [
-        "He's been a little bit slowed down these last couple of days, but in regards to consistency, I'd say it's a little bit worse at night."
+        "he hasn't been too active to be honest."
       ]
     },
     {
-      "item": "General Weakness",
+      "item": "Cold",
       "result_quotes": [
-        "I feel like when he has the coughing fits, he's winded. He's weak after them."
+        "he hasn't been too sick, but I was a little bit worried and I wanted to get him seen to see if there's anything we could do."
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "he's winded."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "when he has the coughing fits, he's winded."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "it seems to overlap with COVID and we want to make sure to rule that out."
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "had a runny nose."
       ]
     },
     {
       "item": "Decrease Interest In Activities",
       "result_quotes": [
-        "He's been a little bit slowed down these last couple of days, but in regards to consistency, I'd say it's a little bit worse at night."
-      ]
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "result_quotes": [
-        "Sputum like phlegm,no he doesn't bring anything up really, so dry."
-      ]
-    },
-    {
-      "item": "Pregnancy",
-      "result_quotes": [
-        "Yeah he's a little pre term. 34 weeks I think."
-      ]
-    },
-    {
-      "item": "Fatigue",
-      "result_quotes": [
-        "He's been a little bit slowed down these last couple of days, but in regards to consistency, I'd say it's a little bit worse at night."
-      ]
-    },
-    {
-      "item": "Taste Problem",
-      "result_quotes": [
-        "Well, we've been kind of spoiling him a bit, just giving him ice cream. His throat hurts a little bit and he seems to still like it, so it's hard to tell."
+        "he hasn't been too active to be honest. He's been a little bit slowed down these last couple of days."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Hearing Problem",
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Confusion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Memory Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Rectal Bleeding",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
       "truth_quotes": []
     }
   ]

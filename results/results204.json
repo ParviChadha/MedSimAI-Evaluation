@@ -1,18 +1,13 @@
 {
   "medical_history_assessed": {
-    "anxious": {
-      "assessed": "No",
-      "example_quotes": []
+    "coughing_fit": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've just had this cough for the past week",
+        "It's just been there."
+      ]
     },
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_activity": {
+    "decreased_interest_in_activities": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -20,27 +15,11 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "discomfort": {
+    "facial_pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dizzyness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fatigue": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "feeling_tired": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "food_allergy": {
+    "facial_pressure": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -48,7 +27,31 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "greenish_yellowish_nasal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting_noise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hoarse_tone": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "injuries": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -56,69 +59,63 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "loss_of_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_limb_or_face": {
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "passing_gas": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sleep_dyspnea": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sleep_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleeping_issues": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "soreness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stuffy_nose": {
+    "phlegm": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you ever feel like your nose is stuffy or runny?",
-        "No."
+        "Is it a dry cough or do you bring up any phlegm?",
+        "No, it's a dry cough."
       ]
     },
-    "tired": {
+    "sensation_of_chest": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vomiting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any nausea or vomiting?",
-        "Uh, no."
-      ]
+    "sleep_changes": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "watery_eyes": {
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Issues uh, any changes in your bowel movements?",
-        "Um uh no, I've just been constipated from time to time, but that's nothing, that's not new."
+        "I've just been constipated from time to time.",
+        "It's a problem for years."
       ]
     },
     "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, chest pain?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "colored_excess_sputum": {
       "assessed": "No",
@@ -127,153 +124,96 @@
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Issues uh, any changes in your bowel movements?",
-        "Um uh no, I've just been constipated from time to time, but that's nothing, that's not new."
+        "Um I've just been constipated from time to time, but that's nothing, that's not new."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "What brings you in?",
-        "Hi. Uh, I've just had this cough for the past week and I was worried I might have Covid so I just wanted to um I just wanted to be checked."
+        "I've just had this cough for the past week"
       ]
     },
     "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um do you experience any shortness of breath with this cough?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "fainting": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, any fainting spells?",
-        "Uhm, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Fevers?",
         "I checked no, no, I don't have a fever."
       ]
     },
     "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Headaches?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "hearing_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your vision or hearing?",
-        "Uh no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, uh any blood that you've seen?",
-        "No, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Do you ever feel like your nose is stuffy or runny?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any nausea or vomiting?",
-        "Uh, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "numbness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, numbness or tingling?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "No",
       "example_quotes": []
     },
     "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, um feeling like your heart's racing?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Do you ever feel like your nose is stuffy or runny?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um loss of smell or taste?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "A sore throat?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "swelling": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, any swelling in your limbs?",
-        "Uh no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um loss of smell or taste?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any weight loss?",
-        "Uh no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, any changes in your urine?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vision_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any changes in your vision or hearing?",
-        "Uh no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And do you feel wheezy?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }
