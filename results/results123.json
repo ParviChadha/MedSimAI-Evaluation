@@ -1,33 +1,145 @@
 {
   "medical_history_assessed": {
+    "anxious": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bad_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behavior_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_activity": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: I have been a bit tired in the last few days. The fevers at night and morning. Just feeling a little bit crummy, just not really energetic, energetic to do anything.",
+        "Patient: Just been planner, just sitting on the couch."
+      ]
+    },
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_sleeping": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: I have been a bit tired in the last few days. The fevers at night and morning."
+      ]
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any pain or discharge in the eyes or ears?",
+        "Patient: No."
+      ]
+    },
+    "general_weakness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, how about fatigue?",
+        "Patient: I have been a bit tired in the last few days. The fevers at night and morning. Just feeling a little bit crummy, just not really energetic, energetic to do anything."
+      ]
+    },
     "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "hyperhidrosis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "respiratory_distress_syndrome": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "itching": {
       "assessed": "No",
       "example_quotes": []
     },
-    "allergic_rhinitis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Do you have any allergies?",
-        "Patient: Um, sometimes in the fall like I get a bit sniffly and, but other than that, I don't know of any allergies to any foods or medications."
-      ]
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "apnea_at_birth": {
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -35,16 +147,10 @@
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, any changes in your bowel habits like constant constipation or diarrhea.",
-        "Patient: Oh no, not really."
+        "Patient: Oh no, not really.",
+        "Medical Student: No, no blood in the stool, right?",
+        "Patient: No."
       ]
-    },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "change_in_sleep": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
@@ -56,20 +162,22 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: The fever I hasn't been constant, but I've like had some nights where I just feel really chilly and then during the day sometimes even getting these chills I've been recorded at a temperature, but I think I've had a fever at least three times in the last week."
+        "Patient: The fever I hasn't been constant, but I've like had some nights where I just feel really chilly and then during the day sometimes even getting these chills I've been recorded at a temperature, but I think I've had a fever at least three times in the last week.",
+        "Medical Student: OK, so you haven't actually taken your temperature, but it you just feel like you have chills?",
+        "Patient: Yeah."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And then you said dry cough so no sputum or blood right?",
+        "Medical Student: OK, OK. And then you said dry cough so no sputum or blood right?",
         "Patient: No."
       ]
     },
     "confusion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Confusion or memory loss?",
+        "Medical Student: OK. Confusion or memory loss?",
         "Patient: No, not that I can tell."
       ]
     },
@@ -84,16 +192,10 @@
       "assessed": "Yes",
       "example_quotes": [
         "Patient: Yeah, nice to meet you I, I've been having just over the last week my cough that's been getting worse and I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell so that got me really worried.",
-        "Medical Student: OK, so yeah, let's rewind a little bit. The cough you said started a couple of weeks ago, so would that be about 2 weeks? Three weeks?"
+        "Medical Student: OK, so yeah, let's rewind a little bit. The cough you said started a couple of weeks ago, so would that be about 2 weeks? Three weeks?",
+        "Medical Student: OK. Um alright, so let's go back to the cough and has it been constant since it started?",
+        "Patient: Yeah, it's been pretty constant. It's been getting worse, especially like in the last few days. I'm mainly coughing like before I was coughing mainly at night, but now I'm coughing throughout the day."
       ]
-    },
-    "decrease_interest_in_activities": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -101,10 +203,6 @@
         "Medical Student: OK, any changes in your bowel habits like constant constipation or diarrhea.",
         "Patient: Oh no, not really."
       ]
-    },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "discharge": {
       "assessed": "Yes",
@@ -120,14 +218,10 @@
         "Patient: No."
       ]
     },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And then, um, have you experienced any shortness of breath?",
+        "Medical Student: OK. And then, um, have you experienced any shortness of breath?",
         "Patient: Um, not really, no."
       ]
     },
@@ -149,34 +243,23 @@
       "assessed": "Yes",
       "example_quotes": [
         "Patient: Yeah, nice to meet you I, I've been having just over the last week my cough that's been getting worse and I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell so that got me really worried.",
-        "Medical Student: Seven days ago, OK. So that started seven days ago and then when did the fever start?"
+        "Medical Student: Seven days ago, OK. So that started seven days ago and then when did the fever start?",
+        "Patient: The fever I hasn't been constant, but I've like had some nights where I just feel really chilly and then during the day sometimes even getting these chills I've been recorded at a temperature, but I think I've had a fever at least three times in the last week."
       ]
-    },
-    "foreign_body_intake": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: How about any changes to your vision or hearing?",
+        "Medical Student: No, ok. How about any changes to your vision or hearing?",
         "Patient: No, nothing like that."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And then you said dry cough so no sputum or blood right?",
+        "Medical Student: OK, OK. And then you said dry cough so no sputum or blood right?",
         "Patient: No."
       ]
-    },
-    "inconsolable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "infection": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
@@ -185,21 +268,10 @@
         "Patient: Um, just maybe in like a little bit with the loss of smell and taste, the food is not really the same in the last day, last few days?"
       ]
     },
-    "lung_complications": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any lung conditions or heart conditions that run in the family?",
-        "Patient: Uh, my father did recently have a heart attack at age of 58 I think he was, he, he's fine though, but that's that's about it."
-      ]
-    },
-    "lymphadenitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "memory_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Confusion or memory loss?",
+        "Medical Student: OK. Confusion or memory loss?",
         "Patient: No, not that I can tell."
       ]
     },
@@ -213,35 +285,27 @@
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any nausea or vomiting?",
+        "Medical Student: Yeah yeah, that makes sense. Any nausea or vomiting?",
         "Patient: No."
       ]
-    },
-    "not_crying": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "Medical Student: Chest pain?",
+        "Patient: No chest pain.",
         "Medical Student: Any pain or discharge in the eyes or ears?",
+        "Patient: No.",
+        "Medical Student: Any I do have a sore throat?",
         "Patient: No."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Do you ever feel like your heart's racing?",
+        "Medical Student: OK. Do you ever feel like your heart's racing?",
         "Patient: Uh no, not really."
       ]
-    },
-    "passing_gas": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "rectal_bleeding": {
       "assessed": "Yes",
@@ -254,74 +318,38 @@
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, you mentioned loss of smell. Do you have a runny nose or a stuffy nose?",
-        "Patient: I did have a runny nose earlier this week, but that's kind of subsided. Other than that, I don't really feel too much congestion. I've been taking Tylenol, the Tylenol cold so I don't know if that helped."
+        "Patient: I did have a runny nose earlier this week, but that's kind of subsided."
       ]
-    },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_issue": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, nice to meet you I, I've been having just over the last week my cough that's been getting worse and I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell so that got me really worried."
+        "Patient: I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell so that got me really worried.",
+        "Medical Student: And then the loss of smell and taste. Do they both happen at the same time?",
+        "Patient: but smell, I kind of lost around the evening."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Oh, I see. OK. OK and then. Any I do have a sore throat?",
+        "Medical Student: OK and then. Any I do have a sore throat?",
         "Patient: No."
       ]
-    },
-    "speech_volume": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stunning": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And any swelling in your limbs?",
+        "Medical Student: No, OK. And any swelling in your limbs?",
         "Patient: Uh, no, I don't think so."
       ]
-    },
-    "symptoms_stress": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, nice to meet you I, I've been having just over the last week my cough that's been getting worse and I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell so that got me really worried."
+        "Patient: I had a fever a couple of nights and just yesterday I noticed that I started having a loss of taste and smell so that got me really worried.",
+        "Medical Student: And then the loss of smell and taste. Do they both happen at the same time?",
+        "Patient: I think the taste happened like before, but that was just yesterday and then yesterday morning like at breakfast, I couldn't really taste anything and then continued during lunch and dinner,"
       ]
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tonsilitis": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -333,38 +361,30 @@
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, good. Any changes in terms of urine?",
+        "Medical Student: No, OK. And any changes in terms of urine?",
         "Patient: No, I've been peeing alright."
       ]
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: How about any changes to your vision or hearing?",
+        "Medical Student: No, ok. How about any changes to your vision or hearing?",
         "Patient: No, nothing like that."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any nausea or vomiting?",
+        "Medical Student: Yeah yeah, that makes sense. Any nausea or vomiting?",
         "Patient: No."
       ]
-    },
-    "weight_gain": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: How about we wheeziness?",
+        "Medical Student: No, OK. How about we wheeziness?",
         "Patient: No."
       ]
-    },
-    "widespread_pain": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

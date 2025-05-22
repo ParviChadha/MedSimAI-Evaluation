@@ -1,22 +1,55 @@
 {
   "medical_history_assessed": {
-    "apnea_at_birth": {
+    "change_in_sleep": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Does it ever wake you up at night?",
+        "No. Well, it kind of happens all throughout the day. Yeah, no, no, it hasn't woken me up at night.",
+        "it did help me sleep a little bit with that the headache and just haven't been feeling very good, to help with that."
+      ]
+    },
+    "constipation": {
       "assessed": "No",
       "example_quotes": []
     },
-    "complications_during_delivery": {
+    "decreased_fluid_intake": {
       "assessed": "No",
       "example_quotes": []
     },
-    "delayed_growth_milestones": {
+    "difficulty_feeding": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any difficulty swallowing with a sore throat?",
+        "Ah is a little bit painful, but I've been able to to eat and drink okay, just really takes a little longer."
+      ]
+    },
+    "difficulty_talking": {
       "assessed": "No",
       "example_quotes": []
     },
-    "facial_pain": {
+    "general_weakness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, I have felt just tired and, over these last couple of days."
+      ]
+    },
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hoarse_tone": {
+    "hemoptysis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperhidrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -32,11 +65,11 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "motor_weakness": {
+    "not_crying": {
       "assessed": "No",
       "example_quotes": []
     },
-    "nause": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -44,108 +77,87 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any rashes or changes in their nails?"
-      ]
-    },
-    "respiratory_distress_syndrome": {
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
-    "runny_eyes": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
-    "speech_volume": {
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sweaty": {
+    "tingling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tearing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tightness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weight_changes": {
+    "weight_gain": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your bowel movement, any diarrhea?"
+        "any changes in your bowel movement, any diarrhea?",
+        "No, no, I haven't had ah, any diarrhea."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I guess have had any chest pain?"
+        "Any changes in your? I guess have had any chest pain?",
+        "No, haven't had any chest pain, haven't had anything like that before."
       ]
     },
     "confusion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms?  Have you had a confusion or is it any fuzziness?"
+        "Have you had any other symptoms? Have you had a confusion or is it any fuzziness? Or any flu like symptoms?"
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
         "So two days ago I started to have this cough.",
-        "Can you tell me a little bit more about your cough? Has it gotten better or worse over the past two days?",
-        "Okay, and is it dry cough or wet cough?",
-        "And does it ever wake you up at night?",
-        "OK, is there any, are there any triggers? Anything that makes your cough worse?"
+        "Can you tell me a little bit more about your cough?",
+        "Okay, and is it dry cough or wet cough?"
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your bowel movement, any diarrhea?"
+        "any changes in your bowel movement, any diarrhea?",
+        "No, no, I haven't had ah, any diarrhea."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any dizziness or fainting in the past couple of days?"
+        "Any dizziness or fainting in the past couple of days?",
+        "No, nothing like that."
       ]
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any difficulty swallowing with a sore throat?"
+        "Any difficulty swallowing with a sore throat?",
+        "Ah is a little bit painful, but I've been able to to eat and drink okay, just really takes a little longer."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any difficulties breathing?"
+        "Any difficulties breathing?",
+        "No."
       ]
     },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any dizziness or fainting in the past couple of days?"
+        "Any dizziness or fainting in the past couple of days?",
+        "No, nothing like that."
       ]
     },
     "fatigue_extended": {
@@ -157,61 +169,68 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "just today I've noticed the fever as well"
+        "just today I've noticed the fever as well",
+        "And tell me about your fever. Did you check it check it, check your temperature?",
+        "I did yeah today I checked it and it was, like just over 38 I think like 38.1 or two."
       ]
     },
     "flu_like_symptoms": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms?  Have you had a confusion or is it any fuzziness? Or any flu like symptoms?"
+        "Have you had any other symptoms? Have you had a confusion or is it any fuzziness? Or any flu like symptoms?"
       ]
     },
     "fuzziness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any other symptoms?  Have you had a confusion or is it any fuzziness? Or any flu like symptoms?"
+        "Have you had any other symptoms? Have you had a confusion or is it any fuzziness? Or any flu like symptoms?"
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "I haven't had a cough before and I, just today I've noticed the fever as well and and I've had a headache the last few days.",
-        "OK, what about your headache? Where exactly is it?",
-        "And, how like if you had to give it a number from one to 10? What number would you give it? With 10 being the worst headache ever?",
-        "It did, yeah, probably took it down to a two or three. The headache didn't go away entirely. It was sort of still there, but did help."
+        "and I've had a headache the last few days.",
+        "What about your headache? Where exactly is it?",
+        "I kind of feel it all over. It's like a band night feels like it's just around my head and squeezing."
       ]
     },
     "headache": {
       "assessed": "Yes",
       "example_quotes": [
-        "I haven't had a cough before and I, just today I've noticed the fever as well and and I've had a headache the last few days.",
-        "OK, what about your headache? Where exactly is it?",
-        "And, how like if you had to give it a number from one to 10? What number would you give it? With 10 being the worst headache ever?",
-        "It did, yeah, probably took it down to a two or three. The headache didn't go away entirely. It was sort of still there, but did help."
+        "and I've had a headache the last few days.",
+        "What about your headache? Where exactly is it?",
+        "I kind of feel it all over. It's like a band night feels like it's just around my head and squeezing."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Oh, you get OK. OK, what about a runny nose or stuffy nose?"
+        "OK, what about a runny nose or stuffy nose?",
+        "Uh, no, nothing like that."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any belly pain?"
+        "headache the last few days",
+        "Ah is a little bit painful",
+        "Any changes in your? I guess have had any chest pain?",
+        "Any belly pain?",
+        "any difficulties or any pain"
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Oh, you get OK. OK, what about a runny nose or stuffy nose?"
+        "OK, what about a runny nose or stuffy nose?",
+        "Uh, no, nothing like that."
       ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you felt that you've lost your sense of smell or sense of taste? Has it just been different?"
+        "Have you felt that you've lost your sense of smell or sense of taste?",
+        "Yeah, I said some actually now that you mention it right sense of smell has been different"
       ]
     },
     "sore_throat": {
@@ -224,13 +243,15 @@
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you felt that you've lost your sense of smell or sense of taste? Has it just been different?"
+        "Have you felt that you've lost your sense of smell or sense of taste?",
+        "So yeah, but my taste has been OK."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your urination, any difficulties or any pain or any increase in frequency?"
+        "OK, uhm any changes in your urination, any difficulties or any pain or any increase in frequency?",
+        "No, I've had a urinary track infections before so I know what that's like. I haven't had any of those symptoms."
       ]
     }
   }

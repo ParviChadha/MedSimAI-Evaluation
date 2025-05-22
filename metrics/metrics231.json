@@ -1,62 +1,30 @@
 {
-  "precision": 0.7575757575757576,
+  "precision": 0.8928571428571429,
   "recall": 1.0,
-  "f1_score": 0.8620689655172413,
+  "f1_score": 0.9433962264150945,
   "true_positives": 25,
-  "false_positives": 8,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Lung Complications",
+      "item": "Fatigue",
       "result_quotes": [
-        "Medical Student: And in terms of family history, do any of your family members have lung conditions or heart conditions?",
-        "Patient: I know mom has high blood pressure, but nobody's had a heart attack or, uh, no lung conditions either."
+        "I felt pretty, uh, well, yeah, I guess achy and weak."
       ]
     },
     {
-      "item": "Diet",
+      "item": "Hyperhidrosis",
       "result_quotes": [
-        "Patient: I've been told I had high cholesterol before. But I don't take any medications for it. I've been just trying to lose some weight and exercise more."
-      ]
-    },
-    {
-      "item": "Widespread Pain",
-      "result_quotes": [
-        "Patient: I felt pretty, uh, well, yeah, I guess achy and weak."
-      ]
-    },
-    {
-      "item": "Loss Of Sense",
-      "result_quotes": [
-        "Medical Student: OK, any changes in your smell?",
-        "Patient: Now that you mention it, yeah I thought it was maybe just plugged up, but I haven't really been able to smell these last few days."
-      ]
-    },
-    {
-      "item": "Infection",
-      "result_quotes": [
-        "Medical Student: OK and are you otherwise healthy? Do you have any medical conditions?",
-        "Patient: I've been told I had high cholesterol before."
-      ]
-    },
-    {
-      "item": "Motor Weakness",
-      "result_quotes": [
-        "Patient: I felt pretty, uh, well, yeah, I guess achy and weak."
+        "OK, and have you had any night sweats or chills?",
+        "Nothing like that."
       ]
     },
     {
       "item": "Eye Pain",
       "result_quotes": [
-        "Medical Student: OK and any eye pain or discharge from the eyes?",
-        "Patient: No."
-      ]
-    },
-    {
-      "item": "Sleep Issue",
-      "result_quotes": [
-        "Yeah, I tried some uh like day and night time Tylenol at home to sleep but still, when I woke up in the morning, still not feeling very good and the cough is still here too."
+        "OK and any eye pain or discharge from the eyes?",
+        "No."
       ]
     }
   ],

@@ -1,41 +1,97 @@
 {
   "medical_history_assessed": {
-    "odynophagia": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat?"
-      ]
+    "change_in_sleep": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "respiratory_distress_syndrome": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any difficulties breathing?",
-        "Patient: No."
-      ]
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nausea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Medical Student: Sneezing, any of those symptoms.",
         "Patient: Um, no nothing like that."
       ]
+    },
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "aches": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: And do you have any fatigue or muscle aches?",
         "Patient: No muscle aches, but yeah, I have been fatigued last a couple of days. Two or three days."
-      ]
-    },
-    "apnea_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any pain in your belly or any diarrhea?",
-        "Patient: Nothing like that."
       ]
     },
     "chest_pain": {
@@ -52,15 +108,14 @@
         "Patient: No, and I haven't had a cough before either. This is new."
       ]
     },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: What brings you in today?",
-        "Patient: I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running."
+        "Patient: I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running.",
+        "Medical Student: And your cough, when did that start?",
+        "Patient: Cough started four days ago.",
+        "Medical Student: OK, is it a wet cough or dry cough?",
+        "Patient: It's been dry."
       ]
     },
     "diarrhoea": {
@@ -77,18 +132,11 @@
         "Patient: No."
       ]
     },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "ear_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms."
+        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Patient: Um, no nothing like that."
       ]
     },
     "fatigue_extended": {
@@ -101,23 +149,21 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running."
+        "Patient: I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running.",
+        "Medical Student: And when did the fevers start?",
+        "Patient: I think the fever started two days ago.",
+        "Medical Student: How, did you measure your magic temperature?",
+        "Patient: Yeah, it was 38 point .5 when I when I checked it."
       ]
-    },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any headaches?",
-        "Patient: Uh yeah I have had a bit of a headache, actually. Well, just just this morning."
+        "Medical Student: Any headaches?",
+        "Patient: Uh yeah I have had a bit of a headache, actually. Well, just just this morning.",
+        "Medical Student: How how bad is it?",
+        "Patient: It's pretty mild. Something pretty simple like it, so I've had headaches like like this before. It's not, it's not a big deal."
       ]
-    },
-    "hearing_problem": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
@@ -126,54 +172,40 @@
         "Patient: No, and I haven't had a cough before either. This is new."
       ]
     },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat?"
+        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat?",
+        "Patient: Um, no nothing like that."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "Medical Student: Any pain in your chest?",
+        "Patient: No.",
+        "Medical Student: Any headaches?",
+        "Patient: Uh yeah I have had a bit of a headache, actually. Well, just just this morning.",
         "Medical Student: Any pain in your belly or any diarrhea?",
-        "Patient: Nothing like that."
+        "Patient: Nothing like that.",
+        "Medical Student: And do you have any fatigue or muscle aches?",
+        "Patient: No muscle aches..."
       ]
-    },
-    "passing_gas": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running."
+        "Patient: I I've been having uh, this fever, the last couple of days and I've had a cough as well and my nose is, keeps running.",
+        "Medical Student: OK, and the runny nose, what kind of discharge, or what like what's coming out of your nose?",
+        "Patient: It's pretty pretty watery and clear."
       ]
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sinus_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat?"
+        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat?",
+        "Patient: Um, no nothing like that."
       ]
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -185,12 +217,9 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat?"
+        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat?",
+        "Patient: Um, no nothing like that."
       ]
-    },
-    "sweaty": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
@@ -202,25 +231,9 @@
     "teary_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Medical Student: Watery, teary eyes?",
         "Patient: Um, no nothing like that."
       ]
-    },
-    "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "widespread_pain": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

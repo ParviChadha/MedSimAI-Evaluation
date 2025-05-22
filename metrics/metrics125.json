@@ -1,58 +1,38 @@
 {
-  "precision": 0.7777777777777778,
+  "precision": 0.8235294117647058,
   "recall": 1.0,
-  "f1_score": 0.8750000000000001,
+  "f1_score": 0.9032258064516129,
   "true_positives": 28,
-  "false_positives": 8,
+  "false_positives": 6,
   "false_negatives": 0,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Tearing",
+      "item": "Malaise",
       "result_quotes": [
-        "Medical Student: OK, um and have you had any eye redness or um eye discharge?",
-        "Patient: No, I don't think so."
+        "Medical Student: Alright, and how has your energy been over this past week? Have you had fatigue?",
+        "Patient: Uh no, I've been, I haven't been tired or like, it's just been like these symptoms that don't seem to go away."
       ]
     },
     {
-      "item": "Food Allergy",
+      "item": "Difficulty Talking",
       "result_quotes": [
-        "Medical Student: OK, um do you have any allergies?",
-        "Patient: Uh no."
-      ]
-    },
-    {
-      "item": "Sensitive To Allergies",
-      "result_quotes": [
-        "Medical Student: OK, um do you have any allergies?",
-        "Patient: Uh no."
-      ]
-    },
-    {
-      "item": "Cold",
-      "result_quotes": [
-        "Patient: Hi yes I'm just coming in, uh over the last week, I've been having um like a cough, runny nose and a lot of congestion as well. So I just wanted to come in here to make sure nothing's wrong."
-      ]
-    },
-    {
-      "item": "Pregnancy",
-      "result_quotes": [
-        "Medical Student: I see, OK, and is there any chance that uh you could be pregnant currently?",
-        "Patient: Uh, no, I don't think so."
-      ]
-    },
-    {
-      "item": "Vision Problem",
-      "result_quotes": [
-        "Medical Student: OK, um and have you had any eye redness or um eye discharge?",
-        "Patient: No, I don't think so."
-      ]
-    },
-    {
-      "item": "Dysphagia",
-      "result_quotes": [
-        "Medical Student: OK, so have you had any pain with swallowing food or liquids?",
+        "Medical Student: Um and uh, have you had any changes to your um to your voice?",
         "Patient: No."
+      ]
+    },
+    {
+      "item": "Weight Gain",
+      "result_quotes": [
+        "Medical Student: And how was your weight been recently? Any changes?",
+        "Patient: No, no changes."
+      ]
+    },
+    {
+      "item": "Lethargic",
+      "result_quotes": [
+        "Medical Student: Alright, and how has your energy been over this past week? Have you had fatigue?",
+        "Patient: Uh no, I've been, I haven't been tired or like, it's just been like these symptoms that don't seem to go away."
       ]
     },
     {
@@ -60,6 +40,13 @@
       "result_quotes": [
         "Medical Student: OK, and have you had any urinary problems like painful urination or or frequency?",
         "Patient: Nope."
+      ]
+    },
+    {
+      "item": "General Weakness",
+      "result_quotes": [
+        "Medical Student: Alright, and how has your energy been over this past week? Have you had fatigue?",
+        "Patient: Uh no, I've been, I haven't been tired or like, it's just been like these symptoms that don't seem to go away."
       ]
     }
   ],

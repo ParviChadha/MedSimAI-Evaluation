@@ -1,41 +1,20 @@
 {
-  "precision": 0.8518518518518519,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.9019607843137256,
-  "true_positives": 23,
-  "false_positives": 4,
-  "false_negatives": 1,
+  "precision": 0.96,
+  "recall": 1.0,
+  "f1_score": 0.9795918367346939,
+  "true_positives": 24,
+  "false_positives": 1,
+  "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "General Weakness",
+      "item": "Low Mood",
       "result_quotes": [
-        "I've been more fatigued over the last couple months."
-      ]
-    },
-    {
-      "item": "Weakness",
-      "result_quotes": [
-        "I've been more fatigued over the last couple months."
-      ]
-    },
-    {
-      "item": "Sleep Changes",
-      "result_quotes": [
-        "I have been sweating at night"
-      ]
-    },
-    {
-      "item": "Sweaty",
-      "result_quotes": [
-        "I have been sweating at night"
+        "Patient: I've been diagnosed with depression before as well.",
+        "Medical Student: OK, and do you take anything for depression?",
+        "Patient: I used to take a a citalopram, but I stopped and and things have been been stable."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

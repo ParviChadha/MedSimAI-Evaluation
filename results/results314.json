@@ -1,14 +1,105 @@
 {
   "medical_history_assessed": {
-    "change_in_appetite": {
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "change_in_sleep": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Have you been able to sleep throughout the night or does the cough wake you up or the chills wake you up?",
+        "Patient: Um, no, they don't wake me up. I wouldn't say that."
+      ]
+    },
+    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_fluid_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_oral_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "general_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "malaise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -20,10 +111,6 @@
         "Medical Student: OK, and where on your muscles would you say are aching?",
         "Patient: I would say my lower limbs and just generally all over, but just yeah like the big muscles like my thighs, my shoulders."
       ]
-    },
-    "allergic_rhinitis": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
@@ -46,27 +133,15 @@
         "Patient: Yeah, chills. I've been feeling kind of hot during the day."
       ]
     },
-    "cold": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK. Are you having any other symptoms like a sore throat, runny nose, congestion, anything like that?",
-        "Patient: No."
-      ]
-    },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Are you producing any sputum?",
         "Patient: Um, I guess a little bit, yeah. Yeah, I guess a little bit and it's yellow.",
         "Medical Student: It's yellow, OK, do you notice any kind of blood in your sputum?",
-        "Patient: No, no blood.",
         "Medical Student: OK, so just yellow sputum and how much would you say you're producing an average day?",
         "Patient: Um, maybe like, 10 to 15 times in a day I produce enough to fill like the inside of my palm."
       ]
-    },
-    "complications_actual_delivery": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "congestion": {
       "assessed": "Yes",
@@ -85,20 +160,11 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Well, I thought I should start by saying I was recently hospitalised for pneumonia. I left five days ago, but as soon as I left that evening, I started coughing again and now I have all the same symptoms. I have a cough, I'm feeling short of breath and I have a feeling like I have a fever.",
+        "Patient: I started coughing again and now I have all the same symptoms. I have a cough, I'm feeling short of breath and I have a feeling like I have a fever.",
         "Medical Student: OK, worse, OK, so you're having a cough, shortness of breath and fever, and did that all start together? Or did one come before another?",
-        "Patient: Um, so the cough came first, then the shortness of breath, and then the fever.",
         "Medical Student: OK, and the cough, how would you describe the cough?",
         "Patient: Um, it's harsh, it's persistent."
       ]
-    },
-    "decreased_activity": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_oral_intake": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -106,17 +172,6 @@
         "Medical Student: So, OK, any kind of bowel movement issues? Any constipation or diarrhea?",
         "Patient: No."
       ]
-    },
-    "difficulty_sleeping": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Have you been able to sleep throughout the night or does the cough  wake you up or the chills wake you up?",
-        "Patient: Um, no,  they don't wake me up. I wouldn't say that."
-      ]
-    },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
@@ -128,33 +183,13 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Well, I thought I should start by saying I was recently hospitalised for pneumonia. I left five days ago, but as soon as I left that evening, I started coughing again and now I have all the same symptoms. I have a cough, I'm feeling short of breath and I have a feeling like I have a fever.",
+        "Patient: I'm feeling short of breath",
         "Medical Student: OK, worse, OK, so you're having a cough, shortness of breath and fever, and did that all start together? Or did one come before another?",
-        "Patient: Um, so the cough came first, then the shortness of breath, and then the fever.",
-        "Medical Student: Yeah, OK. And how about the shortness of breath, is that just during activity or you can have that when you're sleeping or resting as well?",
+        "Medical Student: And how about the shortness of breath, is that just during activity or you can have that when you're sleeping or resting as well?",
         "Patient: The shortness of breath is more with like activity when I'm walking around."
       ]
     },
-    "ear_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "fatigue_extended": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any kind of fatigue or increased tiredness?",
-        "Patient: I feel fatigued, yes."
-      ]
-    },
-    "fatigue_sleep": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "feeling_tired": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Any kind of fatigue or increased tiredness?",
@@ -164,20 +199,11 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Well, I thought I should start by saying I was recently hospitalised for pneumonia. I left five days ago, but as soon as I left that evening, I started coughing again and now I have all the same symptoms. I have a cough, I'm feeling short of breath and I have a feeling like I have a fever.",
+        "Patient: I have a feeling like I have a fever.",
         "Medical Student: OK, worse, OK, so you're having a cough, shortness of breath and fever, and did that all start together? Or did one come before another?",
-        "Patient: Um, so the cough came first, then the shortness of breath, and then the fever.",
         "Medical Student: OK. And with the fever, did you get a chance to measure, take a temperature at all?",
         "Patient: Umm, no, I haven't actually taken my temperature."
       ]
-    },
-    "flu_like_symptom": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
@@ -193,18 +219,6 @@
         "Patient: No, no blood."
       ]
     },
-    "inconsolable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "malaise": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
@@ -219,33 +233,11 @@
         "Patient: No."
       ]
     },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK. Are you having any other symptoms like a sore throat, runny nose, congestion, anything like that?",
         "Patient: No."
-      ]
-    },
-    "sleep": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Have you been able to sleep throughout the night or does the cough  wake you up or the chills wake you up?",
-        "Patient: Um, no,  they don't wake me up. I wouldn't say that."
-      ]
-    },
-    "sleep_changes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Have you been able to sleep throughout the night or does the cough  wake you up or the chills wake you up?",
-        "Patient: Um, no,  they don't wake me up. I wouldn't say that."
       ]
     },
     "smell_loss": {
@@ -265,7 +257,7 @@
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And have you been having any kind of swelling in your limbs at all?",
+        "Medical Student: And have you been having any kind of swelling in your limbs at all?",
         "Patient: No, no swelling.",
         "Medical Student: OK and any kind of swelling of your neck region or lymph nodes?",
         "Patient: No, not that I noticed."
@@ -276,13 +268,6 @@
       "example_quotes": [
         "Medical Student: OK, and do you have any symptoms like a loss of taste, sense of taste or smell?",
         "Patient: No."
-      ]
-    },
-    "tired": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any kind of fatigue or increased tiredness?",
-        "Patient: I feel fatigued, yes."
       ]
     },
     "unexplained_weight_loss": {
@@ -298,10 +283,6 @@
         "Medical Student: And any urinary trouble?",
         "Patient: Um, nothing like that."
       ]
-    },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",

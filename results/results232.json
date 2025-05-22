@@ -1,5 +1,45 @@
 {
   "medical_history_assessed": {
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "diarrhoea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperhidrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "memory_loss": {
       "assessed": "Yes",
       "example_quotes": [
@@ -7,12 +47,57 @@
         "Patient: Nope."
       ]
     },
-    "allergic_rhinitis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: And are you allergic to anything?",
-        "Patient: No, not that I know."
-      ]
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "throat_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vomiting": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
@@ -20,10 +105,6 @@
         "Medical Student: Changes in your bowel movement or abdominal pain?",
         "Patient: Nope."
       ]
-    },
-    "chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
@@ -39,22 +120,15 @@
         "Patient: I've been having a couple of chills but like they would come and go. I didn't really think it was a fever."
       ]
     },
-    "cold": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "Patient: Yes, I am producing a lot of sputum.",
         "Medical Student: OK, what color is your sputum?",
         "Patient: It's mainly like clear white.",
         "Medical Student: OK yeah so you don't see yellow pus or anything green or bloody in there?",
         "Patient: No, I don't think so. But there's definitely like a lot more than what I usually produce."
       ]
-    },
-    "complications_during_delivery": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "confusion": {
       "assessed": "Yes",
@@ -66,22 +140,10 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Hi, yes I just came in today because I've been a bit concerned about some breathing difficulties over the last few days. It all started out with like a cough over the last week, but now I'm having trouble breathing as well.",
-        "Medical Student: So you said a cough as well, so the cough at least a week back and the shortness of breath or difficulty breathing, when did that start?",
-        "Patient: So yeah, the cough, I usually have a cough. I've had COPD for a long time, but this past week the coughing has been much worse with a lot of more sputum and. Other than that, it started I would say two to three days ago."
+        "Patient: It all started out with like a cough over the last week, but now I'm having trouble breathing as well.",
+        "Medical Student: So yeah, the cough, I usually have a cough. I've had COPD for a long time, but this past week the coughing has been much worse with a lot of more sputum and.",
+        "Medical Student: OK yeah, so alright. So let's focus on the cough first. You said it's a wet cough?"
       ]
-    },
-    "decreased_physical_activity": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_feeding": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
@@ -93,43 +155,15 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Hi, yes I just came in today because I've been a bit concerned about some breathing difficulties over the last few days.",
-        "Medical Student: So you said a cough as well, so the cough at least a week back and the shortness of breath or difficulty breathing, when did that start?",
-        "Patient: The cough got worse and then every time I'm moving around I like have to sit down and catch my breath, which is pretty abnormal for me."
+        "Patient: Hi, yes I just came in today because I've been a bit concerned about some breathing difficulties over the last few days. It all started out with like a cough over the last week, but now I'm having trouble breathing as well.",
+        "Medical Student: Oh OK, well I'm sorry to hear that. So you said a cough as well, so the cough at least a week back and the shortness of breath or difficulty breathing, when did that start?"
       ]
-    },
-    "ear_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "ecercise": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pressure": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK alright. So this time around, have you had any fevers?",
+        "Medical Student: So this time around, have you had any fevers?",
         "Patient: I've been having a couple of chills but like they would come and go. I didn't really think it was a fever."
-      ]
-    },
-    "flu": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "greenish_yellowish_nasal_discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK yeah so you don't see yellow pus or anything green or bloody in there?",
-        "Patient: No, I don't think so."
       ]
     },
     "head_ache": {
@@ -147,44 +181,26 @@
       ]
     },
     "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "high_blood_pressure": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I do have some high blood pressure which I take, I think I take one of these medications called metoprolol.",
-        "Medical Student: OK, and when was the last time you had your blood pressure checked?"
+        "Medical Student: OK yeah so you don't see yellow pus or anything green or bloody in there?",
+        "Patient: No, I don't think so."
       ]
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have a stuffy nose or runny nose?",
+        "Medical Student: OK. Have a stuffy nose or runny nose?",
         "Patient: I do feel a bit stuffy, but it's not too bad."
       ]
-    },
-    "nausea": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Do you find you have any chest pain associated with the shortness of breath?",
         "Patient: Oh no, I don't really have any pains.",
+        "Medical Student: Changes in your bowel movement or abdominal pain?",
+        "Patient: Nope.",
         "Medical Student: How about calf pain?",
         "Patient: Nope."
       ]
@@ -192,13 +208,9 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have a stuffy nose or runny nose?",
+        "Medical Student: OK. Have a stuffy nose or runny nose?",
         "Patient: I do feel a bit stuffy, but it's not too bad."
       ]
-    },
-    "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_problem": {
       "assessed": "Yes",
@@ -210,7 +222,7 @@
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And any swelling in your in your legs or upper limbs?",
+        "Medical Student: OK. And any swelling in your in your legs or upper limbs?",
         "Patient: No, not that I know."
       ]
     },
@@ -219,16 +231,6 @@
       "example_quotes": [
         "Medical Student: And how about smell or taste?",
         "Patient: Umm, no. I think they're the same."
-      ]
-    },
-    "tightness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tonsilitis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Umm, back when I was a kid I had my tonsils removed."
       ]
     },
     "unexplained_weight_loss": {
@@ -252,19 +254,11 @@
         "Patient: Nope."
       ]
     },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "wheez_inhale": {
       "assessed": "Yes",
       "example_quotes": [
         "Patient: I do find myself wheezing a little over the last few days as well."
       ]
-    },
-    "widespread_pain": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

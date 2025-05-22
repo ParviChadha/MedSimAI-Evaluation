@@ -1,14 +1,34 @@
 {
   "medical_history_assessed": {
+    "anxious": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bad_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "change_in_taste": {
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting": {
+    "diarrhoea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -20,118 +40,107 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_smell": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
+    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
     "numbness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
-        "I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
+        "Medical Student: Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
+        "Patient: I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
       ]
     },
-    "odynophagia": {
+    "palpitation": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
     "tingling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?"
+        "Medical Student: Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
+        "Patient: I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
       ]
-    },
-    "trauma": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "wheez": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "And do you find that you ever have any chest pain or shortness of breath?",
-        "I sometimes I do have some pain over on the right side of my chest."
+        "Medical Student: And do you find that you ever have any chest pain or shortness of breath?",
+        "Patient: I sometimes I do have some pain over on the right side of my chest.",
+        "Medical Student: Is this pain, what kind of pain is it?",
+        "Patient: I'd say it's kind of like a, uh it's a stabbing kind of, uh, uh pain and I only really notice it when I take a deep breath."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "And, uh, have you been experiencing any fevers or chills or night sweats?",
-        "I felt like, uh, a little bit hot. I might have a fever now so yes, no chills though."
+        "Medical Student: And, uh, have you been experiencing any fevers or chills or night sweats?",
+        "Patient: I felt like, uh, a little bit hot. I might have a fever now so yes, no chills though."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I'm bringing up some phlegm if that's what you mean.",
-        "And is it, what color is it?",
-        "I it looks pretty dark and and sometimes red."
+        "Patient: I I'm bringing up some phlegm if that's what you mean.",
+        "Medical Student: And is it, what color is it?",
+        "Patient: I it looks pretty dark and and sometimes red.",
+        "Medical Student: OK, and, how much phlegm would you say you're putting out like per every time you cough?",
+        "Patient: I'd say every time I cough, I'm bringing up at least a teaspoon of of the dark sputum."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I've had this cough and it's just not going away.",
-        "OK, and how long have you been having this cough for?"
+        "Patient: Yeah, I've had this cough and it's just not going away.",
+        "Medical Student: OK, and how long have you been having this cough for?",
+        "Patient: I think it started about a month ago.",
+        "Medical Student: OK. And do you find that it's been getting worse at all?",
+        "Patient: Yeah, the cough has been getting worse."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "And do you find that you ever have any chest pain or shortness of breath?",
-        "I only really get short of breath when I'm going for a hike or up to my 4th floor apartment."
+        "Medical Student: And do you find that you ever have any chest pain or shortness of breath?",
+        "Medical Student: OK. And how about shortness of breath, have you been experiencing anything like that?",
+        "Patient: I only really get short of breath when I'm going for a hike or up to my 4th floor apartment."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and have you been feeling more more tired, more fatigued at all recently?",
-        "Yeah, my energy has just been really down. I've been really fatigued."
+        "Medical Student: OK, and have you been feeling more more tired, more fatigued at all recently?",
+        "Patient: Yeah, my energy has just been really down. I've been really fatigued."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "And, uh, have you been experiencing any fevers or chills or night sweats?",
-        "I felt like, uh, a little bit hot. I might have a fever now so yes, no chills though."
+        "Medical Student: And, uh, have you been experiencing any fevers or chills or night sweats?",
+        "Patient: I felt like, uh, a little bit hot. I might have a fever now so yes, no chills though."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "I it looks pretty dark and and sometimes red.",
-        "OK, so do you think there's blood in your phlegm?",
-        "Yeah, the dark it does kind of look like blood, so that's what scared me and wanted me to come in today."
+        "Patient: I it looks pretty dark and and sometimes red.",
+        "Medical Student: OK, so do you think there's blood in your phlegm?",
+        "Patient: Yeah, the dark it does kind of look like blood, so that's what scared me and wanted me to come in today."
       ]
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and how about your appetite?",
-        "I feel like I've been eating OK. Regular diet."
+        "Medical Student: OK, and how about your appetite?",
+        "Patient: I feel like I've been eating OK. Regular diet."
       ]
     },
     "paralysis_limb_or_face": {
@@ -141,43 +150,46 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and do you have any other symptoms like shortness of breath or runny nose, sore throat, anything like that?",
-        "Uh nothing I can think of, just just this cough that's been bugging me."
+        "Medical Student: OK. And do you have any other symptoms like shortness of breath or runny nose, sore throat, anything like that?",
+        "Patient: Uh, I had a cold a few weeks back, but, it was just a runny nose and it seems that the cough has been kind of lingering around.",
+        "Patient: Just the cold that I was talking about it a few weeks ago, and that's where the runny nose kinda went away."
       ]
     },
     "sleep_changes": {
       "assessed": "Yes",
       "example_quotes": [
-        "And how about your sleep? Have you been getting enough sleep on a daily basis?",
-        "Uh just the, uh sweating at night has been annoying because it wakes me up sometimes, but other than that sleep has been OK."
+        "Medical Student: And how about your sleep? Have you been getting enough sleep on a daily basis?",
+        "Patient: Uh just the, uh sweating at night has been annoying because it wakes me up sometimes, but other than that sleep has been OK."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "And, uh, have you been experiencing any fevers or chills or night sweats?",
-        "I have been sweating more at night too. Yeah, I have to get up and  change my pajamas sometimes."
+        "Medical Student: How about night sweats?",
+        "Patient: I have been sweating more at night too. Yeah, I have to get up and change my pajamas sometimes.",
+        "Medical Student: OK. And how often has this been happening?",
+        "Patient: Um, I'm changing my pajamas and it's sometimes the sheets, uh, maybe a couple of times per week."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and do you have any other symptoms like shortness of breath or runny nose, sore throat, anything like that?",
-        "Uh nothing I can think of, just just this cough that's been bugging me."
+        "Medical Student: OK. And do you have any other symptoms like shortness of breath or runny nose, sore throat, anything like that?",
+        "Patient: Uh nothing I can think of, just just this cough that's been bugging me."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had any significant weight changes recently?",
-        "Uh yeah I'm down like 15 pounds over the last few months and I haven't really made any changes to my diet or exercise, so I haven't really been trying."
+        "Medical Student: And have you had any significant weight changes recently?",
+        "Patient: Uh yeah I'm down like 15 pounds over the last few months and I haven't really made any changes to my diet or exercise, so I haven't really been trying."
       ]
     },
     "weakness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
-        "I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
+        "Medical Student: Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
+        "Patient: I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
       ]
     }
   }

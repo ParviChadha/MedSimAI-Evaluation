@@ -1,11 +1,19 @@
 {
-  "precision": 1.0,
+  "precision": 0.9444444444444444,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9714285714285714,
   "true_positives": 17,
-  "false_positives": 0,
+  "false_positives": 1,
   "false_negatives": 0,
   "total_items": 34,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "OK. Have you, uh, with the, the runny nose, do you have any, what's the discharge like?",
+        "Uh, it's been kind of watery, it's clear."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

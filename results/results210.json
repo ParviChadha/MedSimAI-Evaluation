@@ -1,6 +1,22 @@
 {
   "medical_history_assessed": {
+    "apnea_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "change_in_taste": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "changes_in_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_concentration": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -8,27 +24,34 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting": {
+    "drooling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "drowsiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hoarse_tone": {
       "assessed": "No",
       "example_quotes": []
     },
     "injury": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, so any injuries to the head?",
-        "Alright, and I know you mentioned the few scratches on your hands, but any other injuries?",
-        "Oh no, I I think I got a pretty lucky."
+        "Patient: I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest and since then it's been really painful.",
+        "Medical Student: OK, so any injuries to the head?",
+        "Patient: No.",
+        "Patient: Besides, just I got some scrapes here and there on my hands, but nothing else.",
+        "Medical Student: Alright, and I know you mentioned the few scratches on your hands, but any other injuries?",
+        "Patient: Oh no, I I think I got a pretty lucky."
       ]
     },
     "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_sense": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -36,31 +59,23 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "lymphadenitis": {
+    "not_crying": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "redness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "phlegm": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
+    "sneezing": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -68,132 +83,125 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "swelling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tachypnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh, like I think I I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath."
-      ]
-    },
-    "throat_pain": {
+    "tearing": {
       "assessed": "No",
       "example_quotes": []
     },
     "trauma": {
       "assessed": "Yes",
       "example_quotes": [
-        "So I think it started just around 2 hours ago. I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest and since then it's been really painful."
+        "Patient: I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest and since then it's been really painful."
       ]
-    },
-    "wheez": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "So I came to the emergency Department because I've been having pain in my chest.",
-        "OK, where is the pain located?"
+        "Patient: So I came to the emergency Department because I've been having pain in my chest.",
+        "Medical Student: OK, where is the pain located?",
+        "Medical Student: OK I am how would you describe the pain, sometimes people will use words like burning dull, achy."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, how about any fever chills?",
-        "No, I feel I'm fine."
+        "Medical Student: OK, how about any fever chills?",
+        "Patient: No, I feel I'm fine."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and do you have a cough?",
-        "Nope."
+        "Medical Student: OK, and do you have a cough?",
+        "Patient: Nope.",
+        "Patient: No, no cough or no infections."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and uh, any dizziness?",
-        "Um no."
+        "Medical Student: OK, and uh, any dizziness?",
+        "Patient: Um no."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, like I think I I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath."
+        "Patient: If I. Think I have to take really really slow and shallow breaths. If I try to take a deep breath it just really hurts like taking those small, smaller breaths helps.",
+        "Patient: Uh, like I think I I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, how about any fever chills?",
-        "No, I feel I'm fine."
+        "Medical Student: OK, how about any fever chills?",
+        "Patient: No, I feel I'm fine."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, excellent and any headache right now?",
-        "No."
+        "Medical Student: OK, excellent and any headache right now?",
+        "Patient: No."
       ]
     },
     "loss_of_consciousness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK are you, did you have a loss of consciousness when you fell off your bike?",
-        "No, I got right back up. I just just had the pain."
+        "Medical Student: OK are you, did you have a loss of consciousness when you fell off your bike?",
+        "Patient: No, I got right back up. I just just had the pain."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
-        "Nope."
+        "Medical Student: Any nausea or vomiting?",
+        "Patient: Nope."
       ]
     },
     "numbness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any weakness or numbness or tingling that you noticed?",
-        "Um no nothing like that."
+        "Medical Student: OK, and any weakness or numbness or tingling that you noticed?",
+        "Patient: Um no nothing like that."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "So I came to the emergency Department because I've been having pain in my chest.",
-        "OK, where is the pain located?"
+        "Patient: So I came to the emergency Department because I've been having pain in my chest.",
+        "Medical Student: OK, where is the pain located?",
+        "Medical Student: OK I am how would you describe the pain, sometimes people will use words like burning dull, achy.",
+        "Medical Student: OK, and um. Anything that you've been doing that's that's made the pain worse?",
+        "Medical Student: OK, and do you feel the pain anywhere else, or is it just on the left side of your chest?",
+        "Medical Student: OK, and has the pain been getting worse, staying the same or getting better?"
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you feel as though your heart's racing?",
-        "I would say like in the last hour a little bit more so than usual."
+        "Medical Student: Do you feel as though your heart's racing?",
+        "Patient: I would say like in the last hour a little bit more so than usual."
       ]
     },
     "tingling": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any weakness or numbness or tingling that you noticed?",
-        "Um no nothing like that."
+        "Medical Student: OK, and any weakness or numbness or tingling that you noticed?",
+        "Patient: Um no nothing like that."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
-        "Nope."
+        "Medical Student: Any nausea or vomiting?",
+        "Patient: Nope."
       ]
     },
     "weakness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any weakness or numbness or tingling that you noticed?",
-        "Um no nothing like that."
+        "Medical Student: OK, and any weakness or numbness or tingling that you noticed?",
+        "Patient: Um no nothing like that."
       ]
     }
   }

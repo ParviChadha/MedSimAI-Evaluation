@@ -1,14 +1,14 @@
 {
   "medical_history_assessed": {
-    "grunting": {
+    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lightheadedness": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "change_in_sleep": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -37,7 +37,10 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been bringing up, some, like, uh, whitish sputum. It's like, yeah, whitish or clear."
+        "And has it been a dry cough or wet cough?",
+        "I've been bringing up, some, like, uh, whitish sputum. It's like, yeah, whitish or clear.",
+        "And you haven't seen blood anytime right? In your sputum?",
+        "No."
       ]
     },
     "constipation": {
@@ -50,41 +53,40 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, so you're just having difficulties breathing for the past three-four days. Do you have any, uh, do you have a cough?",
+        "Do you have any, uh, do you have a cough?",
         "I did have a, uh, yeah, I've had a cough as well, over these last few days.",
         "And has it been a dry cough or wet cough?"
       ]
     },
-    "dehydration": {
+    "decrease_interest_in_activities": {
       "assessed": "No",
       "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any pain in your belly?",
-        "No.",
         "Any diarrhea?",
         "No."
       ]
     },
-    "dysphagia": {
+    "drowsiness": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, have you had a sore throat?",
+        "Uh, it's felt a little itchy I guess but no pain with swallowing."
+      ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having difficulties breathing over these last few days."
+        "I've been having difficulties breathing over these last few days.",
+        "It has, maybe gotten a little bit worse, but not, maybe, a little worse.",
+        "Uhm, not really, it's kind of, I just feel like, it's just more difficult to breathe, uh, most of the time."
       ]
-    },
-    "ecercise": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "eye_redness": {
       "assessed": "Yes",
@@ -104,22 +106,20 @@
       "assessed": "Yes",
       "example_quotes": [
         "And have you had fevers or chills?",
-        "I have felt hot but no chills."
-      ]
-    },
-    "food_allergy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any allergies?",
-        "No allergies."
+        "I have felt hot but no chills.",
+        "You've also been feeling a little bit feverish. Have you checked your temperature?"
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright, have you had a headache?",
+        "OK. Uhm, alright, have you had a headache?",
         "Uh, no."
       ]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
@@ -127,6 +127,10 @@
         "And you haven't seen blood anytime right? In your sputum?",
         "No."
       ]
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "lumps": {
       "assessed": "No",
@@ -139,34 +143,36 @@
         "Uh, I haven't noticed anything like that."
       ]
     },
-    "numbness": {
+    "nausea": {
       "assessed": "No",
       "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "And do you have any chest pain or chest pressure?",
+        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain.",
+        "OK, have you had a sore throat?",
+        "Uh, it's felt a little itchy I guess but no pain with swallowing.",
+        "What about fatigue or muscle aches?",
+        "I've been fatigued. No muscle aches.",
         "Any pain in your belly?",
         "No."
       ]
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensation_of_chest": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -184,10 +190,6 @@
         "Uh, it's felt a little itchy I guess but no pain with swallowing."
       ]
     },
-    "sweaty": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
@@ -195,7 +197,7 @@
         "No."
       ]
     },
-    "tightness": {
+    "tearing": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -210,15 +212,23 @@
         "Uh, nothing there."
       ]
     },
-    "weakness": {
+    "vaginal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "weight_changes": {
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vomiting": {
       "assessed": "No",
       "example_quotes": []
     },
     "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheeze": {
       "assessed": "No",
       "example_quotes": []
     }

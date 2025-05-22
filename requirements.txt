@@ -1,0 +1,25 @@
+# Core dependencies
+openai>=1.0.0
+anthropic>=0.7.0
+google-generativeai>=0.3.0
+fireworks-ai>=0.9.0
+
+# Token counting and text processing
+tiktoken>=0.5.0
+
+# HTTP client (for custom OpenAI implementation fallback)
+httpx>=0.24.0
+
+# Data processing and analysis
+pandas>=1.5.0
+numpy>=1.24.0
+
+# JSON processing (built-in, but listing for completeness)
+# json - built-in module
+
+# System and file operations (built-in modules)
+# os, sys, importlib, time, re, multiprocessing, functools, argparse - all built-in
+
+# Optional dependencies for enhanced functionality
+tqdm>=4.64.0  # Progress bars for processing
+

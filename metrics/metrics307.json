@@ -1,55 +1,33 @@
 {
-  "precision": 0.8611111111111112,
-  "recall": 0.9393939393939394,
-  "f1_score": 0.8985507246376813,
-  "true_positives": 31,
-  "false_positives": 5,
-  "false_negatives": 2,
+  "precision": 0.9166666666666666,
+  "recall": 1.0,
+  "f1_score": 0.9565217391304348,
+  "true_positives": 33,
+  "false_positives": 3,
+  "false_negatives": 0,
   "total_items": 66,
   "false_positive_details": [
     {
-      "item": "Lung Complications",
+      "item": "Malaise",
       "result_quotes": [
-        "OK, and do you know of any family history of lung conditions or heart conditions?",
-        "No, I think my aunt had lung cancer but she smoked her entire life."
+        "As soon as I breath, well, I just haven't felt good like, tired, kind of weakish."
       ]
     },
     {
-      "item": "Symptom Speedup",
+      "item": "Difficulty Sleeping",
       "result_quotes": [
-        "Uh, the shortness of breath has come on, I don't know within the last day or so. It's come on after that, the cough started first."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "Well, I visited my mother at a long term care facility just this past weekend, so I guess about just over a week ago I visited there.",
-        "Yeah, there has been, I thought I was like away from those areas but I have heard about outbreaks there."
-      ]
-    },
-    {
-      "item": "Ear Problem",
-      "result_quotes": [
-        "OK, any discharge or pain in your eyes or ears?",
-        "No, that's been OK."
-      ]
-    },
-    {
-      "item": "Sleep Changes",
-      "result_quotes": [
-        "Are you having issues sleeping because of your shortness of breath?",
+        "are you having issues sleeping because of your shortness of breath?",
         "Uh, well I can't tell if it's that or the cough. I mean between those two things it's been definitely interrupting my sleep."
+      ]
+    },
+    {
+      "item": "General Weakness",
+      "result_quotes": [
+        "As soon as I breath, well, I just haven't felt good like, tired, kind of weakish.",
+        "along with your fatigue and feeling weak, have you experienced any dizziness or fainting spells?",
+        "Alright, yeah, maybe a bit, kind of, and weak."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Dyspnea",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

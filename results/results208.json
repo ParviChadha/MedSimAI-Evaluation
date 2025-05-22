@@ -1,5 +1,21 @@
 {
   "medical_history_assessed": {
+    "apnea_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bad_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "change_in_sleep": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "change_in_taste": {
       "assessed": "Yes",
       "example_quotes": [
@@ -7,7 +23,116 @@
         "Patient: Well, we've been kind of spoiling him a bit, just giving him ice cream. His throat hurts a little bit and he seems to still like it, so it's hard to tell."
       ]
     },
-    "tachypnea": {
+    "decrease_interest_in_activities": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: He hasn't been too active to be honest. He's been a little bit slowed down these last couple of days",
+        "Patient: No fainting or dizzy spells, but he's really gassed after he has like a coughing fit and he doesn't want to stand up, he'll just be sitting down or he wants to be held."
+      ]
+    },
+    "decreased_fluid_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_oral_intake": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: We haven't been really feeding him solid meals, it's because he's been sick, we've been trying to give him soup and liquids for the most part because his throat hurts, but he's able to keep them down.",
+        "Medical Student: OK, and then how about changes in his appetite?",
+        "Patient: Yeah, he's not eating as much but still, we're trying to force food into him to keep his energy up. Most of time he always will be asking for snacks in the afternoon, but now not so much."
+      ]
+    },
+    "difficulty_breathing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK,  does he have any shortness of breath with his cough?",
+        "Patient: I feel like when he has the coughing fits, he's winded. He's weak after them. Sometimes he cries after them or before the middle can be a trigger for it, but just resting normally, he doesn't seem that out of breath, no."
+      ]
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drowsiness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: He's been a little bit slowed down these last couple of days",
+        "Patient: Yeah after he has a bad coughing fit, he wants to be soothed and he'll be crying, but it's just more of because he's worn out, I believe he's tired."
+      ]
+    },
+    "dysphagia": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: His throat hurts a little bit and he seems to still like it, so it's hard to tell.",
+        "Patient: We haven't been really feeding him solid meals, it's because he's been sick, we've been trying to give him soup and liquids for the most part because his throat hurts, but he's able to keep them down."
+      ]
+    },
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK OK, and then any dizziness or fainting spells that you've noticed?",
+        "Patient: No fainting or dizzy spells, but he's really gassed after he has like a coughing fit and he doesn't want to stand up, he'll just be sitting down or he wants to be held."
+      ]
+    },
+    "loss_of_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "malaise": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: He hasn't been too active to be honest. He's been a little bit slowed down these last couple of days",
+        "Patient: I feel like when he has the coughing fits, he's winded. He's weak after them."
+      ]
+    },
+    "muscle_ache": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "not_crying": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Sometimes he cries after them or before the middle can be a trigger for it,",
+        "Patient: Yeah after he has a bad coughing fit, he wants to be soothed and he'll be crying, but it's just more of because he's worn out, I believe he's tired."
+      ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "teary_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -18,6 +143,14 @@
         "Medical Student: OK, so he has a little bit of a sore throat as well?",
         "Patient: Yeah."
       ]
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
@@ -40,21 +173,17 @@
         "Patient: He hasn't any sort of chest pain. He says his throat hurts, but I don't think it's his chest."
       ]
     },
-    "chills": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "complications_actual_delivery": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK and any complications during the actual delivery?",
+        "Medical Student: OK, and any complications during the actual delivery?",
         "Patient: Yeah, not that I remember like she started going to labor early, like earlier than we expected. We thought it was just a regular contraction and that it will just resolve but she wound up proceeding when we showed up at the hospital"
       ]
     },
     "complications_during_delivery": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK and any complications during the actual delivery?",
+        "Medical Student: OK, and any complications during the actual delivery?",
         "Patient: Yeah, not that I remember like she started going to labor early, like earlier than we expected. We thought it was just a regular contraction and that it will just resolve but she wound up proceeding when we showed up at the hospital"
       ]
     },
@@ -75,22 +204,8 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I was just bringing my son and he's just had cough for the last couple of days. I thought about a day and a half ago, it doesn't feel like a cold."
-      ]
-    },
-    "coughing_fit": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Sometimes I'll notice when he's playing. He's had these coughing fits that last for up to a minute but usually recovers from."
-      ]
-    },
-    "delayed_growth_milestones": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK and then in terms of growth, weight and head circumference, has he been hitting all those milestones for the past 2 1/2 years?",
-        "Patient: Yeah, we we bring him to the family doctor every couple of month for his regular checkups and nothing has been brought up to be concerning for his vaccines. He has been doing well.",
-        "Medical Student: OK and then how about other milestones like speech, movement, fine movement, all of that, like have those been normal? Is he on par with his peers?",
-        "Patient: Yeah, this is our first kid, but compared to his cousins he seems to be doing well. He's speaking, he's got little sentences, now he has good eye contact. He's a good kid."
+        "Patient: I was just bringing my son and he's just had cough for the last couple of days.",
+        "Medical Student: So the cough, is it consistent? Or does it come and go?"
       ]
     },
     "diarrhoea": {
@@ -100,36 +215,11 @@
         "Patient: No."
       ]
     },
-    "difficulty_feeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK OK, and then any dizziness or fainting spells that you've noticed?",
         "Patient: No fainting or dizzy spells, but he's really gassed after he has like a coughing fit and he doesn't want to stand up, he'll just be sitting down or he wants to be held."
-      ]
-    },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK,  does he have any shortness of breath with his cough?",
-        "Patient: I feel like when he has the coughing fits, he's winded. He's weak after them."
-      ]
-    },
-    "eye_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fatigue": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: He hasn't been too active to be honest. He's been a little bit slowed down these last couple of days"
       ]
     },
     "fever": {
@@ -138,10 +228,6 @@
         "Medical Student: Has he had any fevers?",
         "Patient: No."
       ]
-    },
-    "headache": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "Yes",
@@ -164,14 +250,6 @@
         "Patient: Yeah after he has a bad coughing fit, he wants to be soothed and he'll be crying, but it's just more of because he's worn out, I believe he's tired."
       ]
     },
-    "limp": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "memory_loss": {
       "assessed": "Yes",
       "example_quotes": [
@@ -182,10 +260,8 @@
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Has he had a stuffy or runny nose?",
-        "Patient: Yeah yeah, that's kind of how it first started three days ago. Maybe had a runny nose. OK, yeah.",
-        "Medical Student: Does he still have a runny nose?",
-        "Patient: Umm, a little bit less now. No, not as much now."
+        "Medical Student: OK, has he had a stuffy or runny nose?",
+        "Patient: Yeah yeah, that's kind of how it first started three days ago. Maybe had a runny nose. OK, yeah."
       ]
     },
     "nausea": {
@@ -195,28 +271,12 @@
         "Patient: No. We haven't been really feeding him solid meals, it's because he's been sick, we've been trying to give him soup and liquids for the most part because his throat hurts, but he's able to keep them down. So no, no nausea, no vomiting."
       ]
     },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "passing_gas": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK and he's passing gas?",
         "Patient: OK yeah I'd say so."
       ]
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "rectal_bleeding": {
       "assessed": "Yes",
@@ -225,70 +285,28 @@
         "Patient: No."
       ]
     },
-    "runny_eyes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I think it has been to be honest. He was a little ill like he had a runny nose a couple of days ago, maybe two days ago and then the cough started"
+        "Medical Student: OK, has he had a stuffy or runny nose?",
+        "Patient: Yeah yeah, that's kind of how it first started three days ago. Maybe had a runny nose. OK, yeah.",
+        "Medical Student: Does he still have a runny nose?",
+        "Patient: Umm, a little bit less now. No, not as much now."
       ]
-    },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sinus_headaches": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
+        "Patient: He says his throat hurts, but I don't think it's his chest.",
         "Medical Student: OK, so he has a little bit of a sore throat as well?",
         "Patient: Yeah."
-      ]
-    },
-    "stuffy_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Has he had a stuffy or runny nose?",
-        "Patient: Yeah yeah, that's kind of how it first started three days ago. Maybe had a runny nose. OK, yeah."
-      ]
-    },
-    "symptoms_stress": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tearing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tightness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trouble_breathing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK,  does he have any shortness of breath with his cough?",
-        "Patient: I feel like when he has the coughing fits, he's winded. He's weak after them."
       ]
     },
     "underweight_at_birth": {
       "assessed": "Yes",
       "example_quotes": [
         "Patient: No longstanding medical conditions. Yeah, nothing really. We had a little bit of stay in the NICU, just because he was a little bit underweight, but no, nothing really.",
-        "Medical Student: OK, was he also underweight too? You mentioned just a little bit.",
+        "Medical Student: OK, was he also underweight too?  You mentioned just a little bit.",
         "Patient: Yeah."
       ]
     },
@@ -298,14 +316,6 @@
         "Medical Student: How about weight loss?",
         "Patient: No weight loss, he's a fairly healthy kid."
       ]
-    },
-    "urination": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",

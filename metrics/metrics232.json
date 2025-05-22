@@ -1,44 +1,11 @@
 {
-  "precision": 0.8461538461538461,
-  "recall": 0.9565217391304348,
-  "f1_score": 0.8979591836734695,
-  "true_positives": 22,
-  "false_positives": 4,
-  "false_negatives": 1,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "true_positives": 23,
+  "false_positives": 0,
+  "false_negatives": 0,
   "total_items": 46,
-  "false_positive_details": [
-    {
-      "item": "Greenish Yellowish Nasal Discharge",
-      "result_quotes": [
-        "Medical Student: OK yeah so you don't see yellow pus or anything green or bloody in there?",
-        "Patient: No, I don't think so."
-      ]
-    },
-    {
-      "item": "Tonsilitis",
-      "result_quotes": [
-        "Medical Student: Umm, back when I was a kid I had my tonsils removed."
-      ]
-    },
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "Patient: I do have some high blood pressure which I take, I think I take one of these medications called metoprolol.",
-        "Medical Student: OK, and when was the last time you had your blood pressure checked?"
-      ]
-    },
-    {
-      "item": "Allergic Rhinitis",
-      "result_quotes": [
-        "Medical Student: And are you allergic to anything?",
-        "Patient: No, not that I know."
-      ]
-    }
-  ],
-  "false_negative_details": [
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    }
-  ]
+  "false_positive_details": [],
+  "false_negative_details": []
 }

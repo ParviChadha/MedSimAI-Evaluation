@@ -1,78 +1,54 @@
 {
-  "precision": 0.7674418604651163,
-  "recall": 0.9705882352941176,
-  "f1_score": 0.8571428571428571,
-  "true_positives": 33,
-  "false_positives": 10,
-  "false_negatives": 1,
+  "precision": 0.8648648648648649,
+  "recall": 0.9411764705882353,
+  "f1_score": 0.9014084507042254,
+  "true_positives": 32,
+  "false_positives": 5,
+  "false_negatives": 2,
   "total_items": 68,
   "false_positive_details": [
     {
-      "item": "Infection",
+      "item": "Self Hurt",
       "result_quotes": [
-        "Or if you had any infectious symptoms, like a runny or red eyes, runny nose or sore throat?"
+        "Medical Student: Alright, so have you had any thoughts of hurting or harming yourself?",
+        "Patient: No."
       ]
     },
     {
-      "item": "Sleep",
+      "item": "Lethargic",
       "result_quotes": [
-        "Alright and are you sleeping more than usual?"
+        "Patient: Um. Well, I've been feeling a little low... I kind of sleep all day. I'm not feeling very energetic."
       ]
     },
     {
-      "item": "Appetite",
+      "item": "Difficulty Sleeping",
       "result_quotes": [
-        "OK, any changes to your diet or appetite?"
+        "Patient: I kind of sleep all day.",
+        "Medical Student: Alright and are you sleeping more than usual?"
       ]
     },
     {
-      "item": "Body Ache",
+      "item": "Anxious",
       "result_quotes": [
-        "And, any muscle aches, body pains or joint pains or swelling?"
+        "Patient: I got I got laid off because of the pandemic and now I've been looking for jobs and it's just like it's kind of nerve wracking.",
+        "Medical Student: OK. And have you had depression or anxiety in the past?"
       ]
     },
     {
-      "item": "Changes In His Appetite",
+      "item": "General Weakness",
       "result_quotes": [
-        "OK, any changes to your diet or appetite?",
-        "Oh yeah, I've been eating quite a bit, been baking a lot at home."
-      ]
-    },
-    {
-      "item": "Respiratory Distress Syndrome",
-      "result_quotes": [
-        "Hi I just want to talk about these, these times when I feel like I'm just I'm suffocating and I just can't breathe."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "Or if you had any infectious symptoms, like a runny or red eyes, runny nose or sore throat?"
-      ]
-    },
-    {
-      "item": "Mucus Discharge",
-      "result_quotes": [
-        "but have you brought up any phlegm"
-      ]
-    },
-    {
-      "item": "Sweaty",
-      "result_quotes": [
-        "Have you had any night sweats?",
-        "No, but I get really sweaty when these episodes happen. Just like yeah, my face is like sweating, and my neck."
-      ]
-    },
-    {
-      "item": "Teary Eyes",
-      "result_quotes": [
-        "Or if you had any infectious symptoms, like a runny or red eyes"
+        "Medical Student: OK and how's your energy been?",
+        "Patient: Um. Well, I've been feeling a little low... I'm not feeling very energetic."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Loss Of Appetite",
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
       "truth_quotes": []
     }
   ]

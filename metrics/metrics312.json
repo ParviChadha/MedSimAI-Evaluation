@@ -1,58 +1,34 @@
 {
-  "precision": 0.78125,
+  "precision": 0.8620689655172413,
   "recall": 1.0,
-  "f1_score": 0.8771929824561403,
+  "f1_score": 0.9259259259259259,
   "true_positives": 25,
-  "false_positives": 7,
+  "false_positives": 4,
   "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
       "item": "Diarrhoea",
       "result_quotes": [
-        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "Patient: No."
+        "Medical Student: OK. Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?"
       ]
     },
     {
-      "item": "Change In Sleep",
+      "item": "Sneezing",
       "result_quotes": [
-        "Medical Student: And I guess going back to the cough, does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?",
-        "Patient: No I, it hasn't done that."
+        "Patient: Yeah, but that you mention that yeah, I I have had like some itchy eyes, that and a runny nose. I was sneezing quite a bit last week, but that has kind of ah, gone away now."
       ]
     },
     {
-      "item": "Difficulty Talking",
+      "item": "Constipation",
       "result_quotes": [
-        "Medical Student: OK. Uhm, and I guess going back to the cough, does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?",
-        "Patient: No I, it hasn't done that."
+        "Medical Student: OK. Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?"
       ]
     },
     {
-      "item": "Dysuria",
+      "item": "Lethargic",
       "result_quotes": [
-        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "Patient: No."
-      ]
-    },
-    {
-      "item": "Self Harm Thoughts",
-      "result_quotes": [
-        "Medical Student: Also I just want to remind you that these questions will remain confidential between you and me. In case you're worried, no one's going to find out about what we're talking about unless you, unless there's concern about harm to you or harm to anyone else. Do you feel safe at home?",
-        "Patient: I do, yes."
-      ]
-    },
-    {
-      "item": "Self Hurt",
-      "result_quotes": [
-        "Medical Student: Also I just want to remind you that these questions will remain confidential between you and me. In case you're worried, no one's going to find out about what we're talking about unless you, unless there's concern about harm to you or harm to anyone else. Do you feel safe at home?",
-        "Patient: I do, yes."
-      ]
-    },
-    {
-      "item": "Ear Problem",
-      "result_quotes": [
-        "Medical Student: ...any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
+        "Patient: Yeah, and I've been really like achy and and tired as well."
       ]
     }
   ],

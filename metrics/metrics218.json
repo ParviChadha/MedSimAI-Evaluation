@@ -1,44 +1,27 @@
 {
-  "precision": 0.8148148148148148,
+  "precision": 0.9166666666666666,
   "recall": 1.0,
-  "f1_score": 0.8979591836734693,
+  "f1_score": 0.9565217391304348,
   "true_positives": 22,
-  "false_positives": 5,
+  "false_positives": 2,
   "false_negatives": 0,
   "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
-      "result_quotes": [
-        "Medical Student: Any allergies?",
-        "Patient: Uh, nope."
-      ]
-    },
-    {
       "item": "General Weakness",
       "result_quotes": [
-        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
-      ]
-    },
-    {
-      "item": "Vision Problem",
-      "result_quotes": [
-        "Medical Student: OK, I, I think, I don't think I asked this, but have you had any surgeries before?",
-        "Patient: I had cataract surgery done."
-      ]
-    },
-    {
-      "item": "Difficulty Feeding",
-      "result_quotes": [
-        "Medical Student: And uhm, have you had any, uhm, problems with swallowing, like food or liquids?",
-        "Patient: No, I don't think so. I just had breakfast this morning and no problems there."
+        "How about any muscle aches or, or body aches?",
+        "Sort of, like I just, I found it really hard to get out of bed this morning.",
+        "How has your energy been? Have you been, like really fatigued?",
+        "Yeah.",
+        "I woke up this morning and I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
       ]
     },
     {
       "item": "Diarrhoea",
       "result_quotes": [
-        "Medical Student: Have you had any diarrhea or constipation?",
-        "Patient: Uhm, I'm often constipated but nothing new there."
+        "Have you had any diarrhea or constipation?",
+        "Uhm, I'm often constipated but nothing new there."
       ]
     }
   ],

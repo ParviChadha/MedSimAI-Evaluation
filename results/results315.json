@@ -1,28 +1,144 @@
 {
   "medical_history_assessed": {
-    "ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, have you had any rashes or skin rashes?",
-        "No.",
-        "And how about any muscle aches or or body pains?",
-        "Oh, no."
-      ]
-    },
-    "allergic_rhinitis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, and do you have any allergies?",
-        "No, I don't."
-      ]
-    },
     "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
-    "chest_discomfort": {
+    "brain_fog": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "change_in_taste": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "changes_in_appetite": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, little fatigue and and how has your appetite been?",
+        "Appetite's been OK, I'm still eating."
+      ]
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drowsiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "facial_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, have you had any pain on your face?",
+        "Pain? Ah no, nothing like that."
+      ]
+    },
+    "general_weakness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Alright and how has your energy been? Have you had fatigue?",
+        "Uhm, a little bit."
+      ]
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hemoptysis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hoarse_tone": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Alright and how has your energy been? Have you had fatigue?",
+        "Uhm, a little bit."
+      ]
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "malaise": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Alright and how has your energy been? Have you had fatigue?",
+        "Uhm, a little bit."
+      ]
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_eyes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
+        "No."
+      ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I see, OK. And have you had any weight loss recently?",
+        "No."
+      ]
+    },
+    "ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And how about any muscle aches or or body pains?",
+        "Oh, no."
+      ]
     },
     "chest_pain": {
       "assessed": "Yes",
@@ -38,50 +154,35 @@
         "Uh, no."
       ]
     },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "constipation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
         "Have you had a cough?",
-        "No."
+        "OK. Uhm, and umm, yeah, have you had a cough?",
+        "Ah no cough like now, uhm, I I did have a slight cough last week."
       ]
-    },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_focus": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore."
+        "Uhm, I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore.",
+        "OK, when did you have diarrhea?"
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore."
+        "Uhm, I have had some, like diarrhea so I think part like my stomach hurt a little bit during that time, but I don't have that anymore.",
+        "OK, when did you have diarrhea?"
       ]
-    },
-    "difficulty_sleeping": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "discharge": {
       "assessed": "Yes",
       "example_quotes": [
         "OK, and ah, with the runny nose, could you describe the discharge?",
-        "Yeah, it's, it's pretty clear."
+        "Yeah, it's, it's pretty clear.",
+        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
+        "No."
       ]
     },
     "dizzyness": {
@@ -90,10 +191,6 @@
         "How about any we, sorry, fainting or dizziness?",
         "No, nothing like that."
       ]
-    },
-    "drooling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
@@ -123,13 +220,6 @@
         "Uhm, a little bit."
       ]
     },
-    "feeling_tired": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright and how has your energy been? Have you had fatigue?",
-        "Uhm, a little bit."
-      ]
-    },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
@@ -140,28 +230,9 @@
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any headaches?",
+        "OK. Have you had any headaches?",
         "Ah, just a slight headache."
       ]
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching_eyes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
-        "No."
-      ]
-    },
-    "limp": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
@@ -169,24 +240,6 @@
         "OK, little fatigue and and how has your appetite been?",
         "Appetite's been OK, I'm still eating."
       ]
-    },
-    "loss_of_consciousness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any we, sorry, fainting or dizziness?",
-        "No, nothing like that."
-      ]
-    },
-    "loss_of_taste": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, how about a change to your sense of smell? Like loss of smell?",
-        "No, I haven't had that."
-      ]
-    },
-    "malaise": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
@@ -202,18 +255,14 @@
         "No."
       ]
     },
-    "odynophagia": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, have you had a sore throat?",
-        "Uhm, no sore throat."
-      ]
-    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any pain on your face?",
-        "Pain? Ah no, nothing like that."
+        "OK, have you had any pain on your face?",
+        "OK. Have you had any headaches?",
+        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
+        "OK, and have you had any chest pain?",
+        "And how about any muscle aches or or body pains?"
       ]
     },
     "palpitation": {
@@ -222,18 +271,6 @@
         "OK, have you had any heart palpitations or feeling like your heart's racing?",
         "No."
       ]
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "passing_gas": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "rectal_bleeding": {
       "assessed": "Yes",
@@ -248,20 +285,12 @@
         "Hi there, umm, so I've had this runny nose for the past five days and it doesn't seem to be going away so I thought I should get some help."
       ]
     },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
         "Have you had any night sweats?",
         "Uh, no, nothing like that."
       ]
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -274,20 +303,10 @@
       "assessed": "Yes",
       "example_quotes": [
         "Alright, have you had a sore throat?",
-        "Uhm, no sore throat."
+        "Uhm, no sore throat.",
+        "OK. Uhm, and do you have a sore throat?",
+        "No."
       ]
-    },
-    "speech_volume": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "straining_and_chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "swelling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -300,13 +319,6 @@
       "assessed": "Yes",
       "example_quotes": [
         "OK, have you had any changes to your urinary habits? Like any pain or frequency?",
-        "No."
-      ]
-    },
-    "vision_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
         "No."
       ]
     },
@@ -323,10 +335,6 @@
         "OK, and have you had any wheezing or shortness of breath?",
         "No."
       ]
-    },
-    "widespread_pain": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

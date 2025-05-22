@@ -1,33 +1,31 @@
 {
-  "precision": 0.9,
-  "recall": 1.0,
-  "f1_score": 0.9473684210526316,
-  "true_positives": 27,
-  "false_positives": 3,
-  "false_negatives": 0,
+  "precision": 0.9285714285714286,
+  "recall": 0.9629629629629629,
+  "f1_score": 0.9454545454545454,
+  "true_positives": 26,
+  "false_positives": 2,
+  "false_negatives": 1,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "General Weakness",
       "result_quotes": [
-        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?",
-        "Not recently, I had that about two months ago, but that got better."
+        "I can barely exercise. I feel so short of breath.",
+        "I sometimes need help with the showering, simply because I get really short of breath and then, so I have to stop and it's just, she's just worried that it's unsafe, so she helps me out with that."
       ]
     },
     {
-      "item": "Sensitive To Allergies",
+      "item": "Fatigue",
       "result_quotes": [
-        "do you have any allergies to medications?",
-        "No."
-      ]
-    },
-    {
-      "item": "Dysuria",
-      "result_quotes": [
-        "Any urinary problems?",
-        "I do, I, I uhm, I leak urine sometimes, actually quite often."
+        "I was feeling, just like this was feeling awful.",
+        "I can barely exercise. I feel so short of breath."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

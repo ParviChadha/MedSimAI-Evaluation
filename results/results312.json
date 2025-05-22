@@ -1,14 +1,20 @@
 {
   "medical_history_assessed": {
-    "grunting": {
+    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "itching": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "sneezing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Yeah, but that you mention that yeah, I I have had like some itchy eyes, that and a runny nose. I was sneezing quite a bit last week, but that has kind of ah, gone away now."
+      ]
+    },
+    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -18,22 +24,14 @@
         "Patient: Yeah, and I've been really like achy and and tired as well."
       ]
     },
-    "behaviour_change": {
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "Patient: No."
-      ]
-    },
-    "change_in_sleep": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: And I guess going back to the cough, does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?",
-        "Patient: No I, it hasn't done that."
+        "Medical Student: OK. Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?"
       ]
     },
     "chest_pain": {
@@ -50,46 +48,55 @@
         "Patient: Yeah, I've, I've felt feverish these last two days. No chills."
       ]
     },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK. Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?"
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
         "Patient: Yeah, I've had a sore throat that's been really bugging me the past four days and I've had a cough as well.",
-        "Medical Student: Uhm, when did the cough start?"
+        "Medical Student: Uhm, when did the cough start?",
+        "Patient: Yeah, so the the the cough started last week actually, and then and then I I got this sore throat afterwards.",
+        "Medical Student: OK, and is it a dry cough or wet cough?",
+        "Patient: It's dry."
       ]
     },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_activity": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_fluid_intake": {
       "assessed": "No",
       "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "Patient: No."
-      ]
-    },
-    "difficulty_talking": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK. Uhm, and I guess going back to the cough, does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?",
-        "Patient: No I, it hasn't done that."
+        "Medical Student: OK. Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?"
       ]
     },
     "discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: ...any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
+        "Medical Student: OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
       ]
     },
     "dizzyness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "drowsiness": {
+    "drooling": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -107,28 +114,11 @@
         "Patient: No."
       ]
     },
-    "dysuria": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "Patient: No."
-      ]
-    },
-    "ear_problem": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: ...any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
-      ]
-    },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: ...any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
+        "Medical Student: OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
       ]
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
@@ -140,7 +130,9 @@
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Have you had any fevers or chills?",
-        "Patient: Yeah, I've, I've felt feverish these last two days. No chills."
+        "Patient: Yeah, I've, I've felt feverish these last two days. No chills.",
+        "Medical Student: Did you measure, did you check your temperature last week?",
+        "Patient: I didn't check it last week, but I checked it yesterday and it was 38.2, I think."
       ]
     },
     "fevers": {
@@ -150,17 +142,14 @@
         "Patient: Yeah, I've, I've felt feverish these last two days. No chills."
       ]
     },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "headaches": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
+        "Medical Student: OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?",
+        "Medical Student: Any, uhm, I guess headache or any pressure in your cheeks or your head when you bend down or squat down?"
       ]
     },
-    "irritable": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -171,31 +160,53 @@
       ]
     },
     "lethargic": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Yeah, and I've been really like achy and and tired as well."
+      ]
+    },
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
+        "Medical Student: OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "Patient: No."
+        "Medical Student: OK. Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?"
       ]
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, I've had a sore throat that's been really bugging me the past four days and I've had a cough as well."
+        "Patient: Yeah, I've had a sore throat that's been really bugging me the past four days and I've had a cough as well.",
+        "Medical Student: OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
       ]
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pressure": {
       "assessed": "Yes",
@@ -204,30 +215,16 @@
         "Patient: No, I haven't felt anything like that."
       ]
     },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?",
+        "Medical Student: OK, do you have any other symptoms like headaches, stuffy nose, runny nose, uhm any discharge from your eyes, red eyes, any pain in your ears? Anything like that?",
         "Patient: Yeah, but that you mention that yeah, I I have had like some itchy eyes, that and a runny nose. I was sneezing quite a bit last week, but that has kind of ah, gone away now."
       ]
     },
-    "self_hurt": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Also I just want to remind you that these questions will remain confidential between you and me. In case you're worried, no one's going to find out about what we're talking about unless you, unless there's concern about harm to you or harm to anyone else. Do you feel safe at home?",
-        "Patient: I do, yes."
-      ]
-    },
-    "self_harm_thoughts": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Also I just want to remind you that these questions will remain confidential between you and me. In case you're worried, no one's going to find out about what we're talking about unless you, unless there's concern about harm to you or harm to anyone else. Do you feel safe at home?",
-        "Patient: I do, yes."
-      ]
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_problem": {
       "assessed": "Yes",
@@ -240,13 +237,14 @@
       "assessed": "Yes",
       "example_quotes": [
         "Patient: Yeah, I've had a sore throat that's been really bugging me the past four days and I've had a cough as well.",
-        "Medical Student: OK, that's good. And the sore throat started four days ago, are you having any difficulties swallowing at all?"
+        "Medical Student: And the sore throat started four days ago, are you having any difficulties swallowing at all?"
       ]
     },
     "strep_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've had uhm, like tonsillitis a few times in the, in the past. The last time happened about about six months ago, I'm wondering if I have strep throat."
+        "Patient: I've had uhm, like tonsillitis a few times in the, in the past. The last time happened about about six months ago, I'm wondering if I have strep throat.",
+        "Medical Student: Uhm, and we would also have to do a Covid test just in case, and I would recommend that you quarantine at home. The results should come out in the next 12 to 20 for 24 to 48 hours. Just self isolate, stay away from other family members and then you'll find out the results. If it's positive, someone will call you from public health and then let you know what to do."
       ]
     },
     "taste_problem": {
@@ -260,27 +258,21 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "Patient: No."
+        "Medical Student: OK. Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?"
       ]
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
-        "Patient: No."
+        "Medical Student: OK. Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?"
       ]
+    },
+    "weight_changes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
       "assessed": "No",

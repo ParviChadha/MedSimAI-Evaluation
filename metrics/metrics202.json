@@ -1,40 +1,39 @@
 {
-  "precision": 0.84375,
+  "precision": 0.8709677419354839,
   "recall": 1.0,
-  "f1_score": 0.9152542372881356,
+  "f1_score": 0.9310344827586207,
   "true_positives": 27,
-  "false_positives": 5,
+  "false_positives": 4,
   "false_negatives": 0,
-  "total_items": 40,
+  "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Itching",
+      "item": "Eye Discharge",
       "result_quotes": [
-        "Alright, and have you noticed any rashes or, or changes to your skin?"
+        "Student: OK. And have you had any flu like symptoms or infectious symptoms like a red eyes, runny eyes, runny nose, or a sore throat?",
+        "Patient: No, I don't have any of those symptoms."
       ]
     },
     {
-      "item": "Phlegm",
+      "item": "General Weakness",
       "result_quotes": [
-        "It's a dry cough"
+        "Patient: Yeah, like with fatigue, like also just the, my muscles were aching.",
+        "Student: OK. And how has your energy been these last couple of days?",
+        "Patient: Yesterday I felt a bit drained. I just kind of like stayed in bed the whole day."
       ]
     },
     {
       "item": "Hyperacusis",
       "result_quotes": [
-        "Alright, and have you had any sensitivity to light or sound that, that's made the headache a lot worse?"
+        "Student: Alright, and have you had any sensitivity to light or sound that, that's made the headache a lot worse?",
+        "Patient: No, it's, it's kind of just there, it's about the same as when it was when it started."
       ]
     },
     {
-      "item": "Odynophagia",
+      "item": "Dysuria",
       "result_quotes": [
-        "And have you had any flu like symptoms or infectious symptoms like a red eyes, runny eyes, runny nose, or a sore throat?"
-      ]
-    },
-    {
-      "item": "Discharge",
-      "result_quotes": [
-        "And have you had any flu like symptoms or infectious symptoms like a red eyes, runny eyes, runny nose, or a sore throat?"
+        "Student: Any urinary problems like pain or, or frequency going to the bathroom?",
+        "Patient: No."
       ]
     }
   ],

@@ -1,75 +1,39 @@
 {
-  "precision": 0.7435897435897436,
+  "precision": 0.8787878787878788,
   "recall": 1.0,
-  "f1_score": 0.8529411764705882,
+  "f1_score": 0.9354838709677419,
   "true_positives": 29,
-  "false_positives": 10,
+  "false_positives": 4,
   "false_negatives": 0,
   "total_items": 58,
   "false_positive_details": [
     {
+      "item": "Lethargic",
+      "result_quotes": [
+        "Patient: Mmm. I've been really tired but I don't know if that's because I can't get any seem to get any sleep.",
+        "Medical Student: OK um. And so you have been fatigued? Have you had any muscle aches or or body aches?"
+      ]
+    },
+    {
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "Patient: Sure, I've been coughing for the past three days and it I can't seem to stop. It's affecting my sleep, so I just really like to get this fixed.",
+        "Medical Student: OK, and you mentioned the coughs interrupting your sleep. Has is the cough constant all day or are there particular times of the day that it's worse?",
+        "Patient: It's just all day."
+      ]
+    },
+    {
       "item": "Eye Pain",
       "result_quotes": [
-        "OK, how about any pain around your eyes or ears?",
-        "No."
-      ]
-    },
-    {
-      "item": "Sleep",
-      "result_quotes": [
-        "It's affecting my sleep, so I just really like to get this fixed."
-      ]
-    },
-    {
-      "item": "Sleeping Issues",
-      "result_quotes": [
-        "It's affecting my sleep"
+        "Medical Student: OK, how about any pain around your eyes or ears?",
+        "Patient: No."
       ]
     },
     {
       "item": "Eye Discharge",
       "result_quotes": [
-        "OK, how about any discharge like mucus or tears from your eyes or ears?",
-        "No, nothing like that."
-      ]
-    },
-    {
-      "item": "Nasal Congestion",
-      "result_quotes": [
-        "Alright. And within the last month or so, have you had any cold like symptoms with a runny nose, headache, sore throat, and or a cough?",
-        "Ah no."
-      ]
-    },
-    {
-      "item": "Stuffy Nose",
-      "result_quotes": [
-        "Alright. And within the last month or so, have you had any cold like symptoms with a runny nose, headache, sore throat, and or a cough?",
-        "Ah no."
-      ]
-    },
-    {
-      "item": "Drowsiness",
-      "result_quotes": [
-        "I've been really tired but I don't know if that's because I can't get any seem to get any sleep."
-      ]
-    },
-    {
-      "item": "Sleep Changes",
-      "result_quotes": [
-        "It's affecting my sleep, so I just really like to get this fixed."
-      ]
-    },
-    {
-      "item": "Dysuria",
-      "result_quotes": [
-        "OK and have you had any painful urination or feeling the need to urinate frequently?",
-        "No."
-      ]
-    },
-    {
-      "item": "Lung Complications",
-      "result_quotes": [
-        "has anybody in the family had a lung condition or or a heart condition before?"
+        "Medical Student: OK, how about any discharge like mucus or tears from your eyes or ears?",
+        "Patient: No, nothing like that."
       ]
     }
   ],

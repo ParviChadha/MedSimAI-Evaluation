@@ -1,100 +1,66 @@
 {
-  "precision": 0.7045454545454546,
-  "recall": 1.0,
-  "f1_score": 0.8266666666666667,
-  "true_positives": 31,
-  "false_positives": 13,
-  "false_negatives": 0,
+  "precision": 0.8108108108108109,
+  "recall": 0.967741935483871,
+  "f1_score": 0.8823529411764706,
+  "true_positives": 30,
+  "false_positives": 7,
+  "false_negatives": 1,
   "total_items": 62,
   "false_positive_details": [
     {
-      "item": "Mucous Building",
+      "item": "Constipation",
       "result_quotes": [
-        "Patient: No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood."
+        "OK, and how about changes to your bowel movements?",
+        "No, I go pretty regularly."
       ]
     },
     {
-      "item": "Loss Of Smell",
+      "item": "Behavior Changes",
       "result_quotes": [
-        "Medical Student: Any changes to your smell?",
-        "Patient: No."
+        "I do find it difficult getting out of the house recently just because of my shortness of breath, but other than that I feel that I'm pretty independent.",
+        "now I just can't get out of the house. I feel just tired and short of breath all the time so just staying in my house most of the time."
       ]
     },
     {
-      "item": "Allergic Rhinitis",
+      "item": "Decrease Interest In Activities",
       "result_quotes": [
-        "Medical Student: OK, good, um, any allergies?",
-        "Patient: No. No allergies."
+        "I do find it difficult getting out of the house recently just because of my shortness of breath, but other than that I feel that I'm pretty independent.",
+        "now I just can't get out of the house. I feel just tired and short of breath all the time so just staying in my house most of the time."
       ]
     },
     {
-      "item": "Teary Eyes",
+      "item": "Tachypnea",
       "result_quotes": [
-        "Medical Student: Changes in your vision or eye pain?",
-        "Patient: No, nothing like that."
+        "OK, and how would you describe your breathlessness? Is it that you're breathing too fast or you can't catch your breath?",
+        "It's I think it's more so just I can't catch my breath and sometimes I just have trouble being able to take like a full breath."
       ]
     },
     {
-      "item": "Tearing",
+      "item": "Diarrhoea",
       "result_quotes": [
-        "Medical Student: Changes in your vision or eye pain?",
-        "Patient: No, nothing like that."
+        "OK, and how about changes to your bowel movements?",
+        "No, I go pretty regularly."
       ]
     },
     {
-      "item": "Itching Eyes",
+      "item": "Change In Sleep",
       "result_quotes": [
-        "Medical Student: Changes in your vision or eye pain?",
-        "Patient: No, nothing like that."
+        "OK and it's not waking you up at night, right?",
+        "No."
       ]
     },
     {
-      "item": "Redness",
+      "item": "Eye Pain",
       "result_quotes": [
-        "Medical Student: OK, OK, any rashes on your body?",
-        "Patient: Not that I know, no."
-      ]
-    },
-    {
-      "item": "Asthma",
-      "result_quotes": [
-        "Patient: Uh, in terms of like breathing, I think maybe as a child like I may have had like a pneumonia but nothing else.",
-        "Medical Student: Yeah, for sure. So we will try to do a good job working you up for everything that we think it may be. And right now, it sounds like it could be pulmonary fibrosis either like you know an autoimmune process or triggered after like an infection that you may have had in the past. We will definitely also look into see if it's perhaps a lung cancer, asthma and you mentioned you don't smoke so we don't think it could be COPD but we'll also test for that in case all everything else comes back negative."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "Patient: No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood."
-      ]
-    },
-    {
-      "item": "Itchiness",
-      "result_quotes": [
-        "Medical Student: OK, OK, any rashes on your body?",
-        "Patient: Not that I know, no."
-      ]
-    },
-    {
-      "item": "Runny Eyes",
-      "result_quotes": [
-        "Medical Student: Changes in your vision or eye pain?",
-        "Patient: No, nothing like that."
-      ]
-    },
-    {
-      "item": "Diabetes",
-      "result_quotes": [
-        "Patient: Uh, so yeah, my dad had quite a few problems. He had type 2 diabetes"
-      ]
-    },
-    {
-      "item": "Tired",
-      "result_quotes": [
-        "Medical Student: OK. Um, how about uh like feeling you're like you're tired?",
-        "Patient: Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older."
+        "Changes in your vision or eye pain?",
+        "No, nothing like that."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

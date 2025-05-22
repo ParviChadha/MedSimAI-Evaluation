@@ -1,28 +1,40 @@
 {
   "medical_history_assessed": {
-    "hyperacusis": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "infectious_symptom": {
+    "hyperacusis": {
       "assessed": "Yes",
       "example_quotes": [
-        "So with the acuity of your symptoms, starting with the last few days and getting worse, especially with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection, and one of those possibilities could be COVID-19, but also it could be the influenza. It could be something like the common cold, such as adenovirus."
-      ]
-    },
-    "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, have you had any diarrhea?",
-        "Um no, no diarrhea.",
-        "OK, um and any constipation?",
+        "OK, and how about any sensitivity to light when you're you're seeing it or sensitivity to sound?",
         "No."
       ]
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "anxious": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behavior_changes": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "brain_fog": {
       "assessed": "Yes",
       "example_quotes": [
-        "Sure, you know I've been feeling kinda hot for the past couple of days and I have this terrible, terrible headache. And just my brain feels foggy. So I thought I should come get it checked out.",
+        "And just my brain feels foggy.",
         "Um, just like the brain fog that I was speaking of, you know. I just don't remember, I remember things, but it's it's like I'm doing everything underwater."
       ]
     },
@@ -33,14 +45,10 @@
         "No."
       ]
     },
-    "complications_actual_delivery": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "confusion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you been uh confused or concerns with your memory?",
+        "Oh OK. Have you been uh confused or concerns with your memory?",
         "Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
       ]
     },
@@ -54,27 +62,9 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, with this fatigue, have you had any aches and pains?",
-        "Some muscle aches, I would say mostly in my arms and just my legs, yeah.",
         "OK, and have you had a cough?",
         "No cough, no."
       ]
-    },
-    "decreased_fluid_intake": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_focus": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_oral_intake": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -83,16 +73,26 @@
         "Um no, no diarrhea."
       ]
     },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had any eye symptoms such as discharge, tearing or or itchiness?",
-        "No, nothing like that.",
-        "OK, and any I guess like vaginal discharge or vaginal discomfort?",
-        "No."
+        "OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
+        "No, nothing like that."
       ]
     },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "drooling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -103,19 +103,14 @@
         "No shortness of breath either."
       ]
     },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pain": {
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "I just don't remember, I remember things, but it's it's like I'm doing everything underwater.",
-        "Oh OK. Have you been uh confused or concerns with your memory?",
+        "I see, OK, and how has your energy been? Have you had uh significant fatigue?",
         "Yes, I would say I am significantly more tired than I used to be."
       ]
     },
@@ -123,35 +118,17 @@
       "assessed": "Yes",
       "example_quotes": [
         "Sure, you know I've been feeling kinda hot for the past couple of days and I have this terrible, terrible headache.",
-        "OK, um, and so you you mentioned that you had you had a fever as well. Did you check your temperature?",
-        "I didn't actually, no I didn't check my temperature, I just feel hot."
+        "OK, um, and so you you mentioned that you had you had a fever as well. Did you check your temperature?"
       ]
-    },
-    "flu": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "So with the acuity of your symptoms, starting with the last few days and getting worse, especially with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection, and one of those possibilities could be COVID-19, but also it could be the influenza. It could be something like the common cold, such as adenovirus."
-      ]
-    },
-    "greenish_yellowish_nasal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
         "Sure, you know I've been feeling kinda hot for the past couple of days and I have this terrible, terrible headache.",
-        "OK, I see when uh did these symptoms start exactly?",
-        "So they started about 3 days ago. But it's getting worse.",
-        "OK. Uh, and uh, in terms of the headache, uh, does your head hurt in any particular location?",
-        "I would say mostly the sides of my head.",
-        "OK, and how long has the headache been going on for?",
-        "Uh the same amount of time, so like the past three days.",
-        "OK, and um, how would you describe the headache? Is it like sharp, is it like a vice grip? Is it pulsating, pressure like sensation or none of those?",
-        "It you know it feels crampy."
+        "OK, Uh, and uh, in terms of the headache, uh, does your head hurt in any particular location?"
       ]
     },
-    "hoarse_tone": {
+    "hearing_problem": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -162,7 +139,7 @@
     "itchiness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had any eye symptoms such as discharge, tearing or or itchiness?",
+        "OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
         "No, nothing like that."
       ]
     },
@@ -170,20 +147,16 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "malaise": {
+    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
     "memory_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you been uh confused or concerns with your memory?",
+        "Oh OK. Have you been uh confused or concerns with your memory?",
         "Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
       ]
-    },
-    "motor_weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "No",
@@ -196,9 +169,19 @@
         "No."
       ]
     },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "Sure, you know I've been feeling kinda hot for the past couple of days and I have this terrible, terrible headache.",
+        "OK, with this fatigue, have you had any aches and pains?",
         "Some muscle aches, I would say mostly in my arms and just my legs, yeah."
       ]
     },
@@ -208,6 +191,10 @@
         "OK, how about any period where you felt as though your heart was racing?",
         "No."
       ]
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "passing_gas": {
       "assessed": "No",
@@ -220,19 +207,11 @@
         "No."
       ]
     },
-    "physical_or_emotional_abuse_at_home": {
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
-    "redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensation_of_chest": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -242,6 +221,16 @@
         "OK, um, how has your sleep been?",
         "My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
       ]
+    },
+    "slow_motion_feeling": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
+      ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -268,14 +257,14 @@
     "tearing": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had any eye symptoms such as discharge, tearing or or itchiness?",
+        "OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
         "No, nothing like that."
       ]
     },
     "tearing_or_or_itchiness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had any eye symptoms such as discharge, tearing or or itchiness?",
+        "OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
         "No, nothing like that."
       ]
     },
@@ -290,23 +279,23 @@
         "No, no changes."
       ]
     },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "vaginal_discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any I guess like vaginal discharge or vaginal discomfort?",
+        "OK. And any I guess like vaginal discharge or vaginal discomfort?",
         "No."
       ]
     },
     "vaginal_discomfort": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any I guess like vaginal discharge or vaginal discomfort?",
+        "OK. And any I guess like vaginal discharge or vaginal discomfort?",
         "No."
       ]
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
@@ -314,10 +303,6 @@
         "OK. And have you had any nausea or vomiting?",
         "No."
       ]
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",

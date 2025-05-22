@@ -1,6 +1,6 @@
 {
   "medical_history_assessed": {
-    "discharge": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -8,15 +8,29 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "itching": {
       "assessed": "No",
       "example_quotes": []
     },
-    "stiffness": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "apnea_at_birth": {
+    "sneezing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: No, not that just like uh, seasonal allergies I sometimes get just itchy eyes and runny nose, sneezing in the springtime."
+      ]
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bad_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -27,13 +41,18 @@
         "Patient: Uhm, no."
       ]
     },
-    "chest_discomfort": {
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "change_in_sleep": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "Medical Student: Chest pain?",
         "Medical Student: And any chest pain?",
         "Patient: No."
       ]
@@ -41,23 +60,18 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've also been feeling chilly, so uhm, I wonder if I have a fever"
+        "Patient: over the past few days I've also been feeling chilly",
+        "Patient: And I have been feeling chilly over the last few days, just, I have been wearing like multiple layers having to put on an extra blanket so I might have been having a fever."
       ]
-    },
-    "cold": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: The cough, is it a dry cough or like productive cough? Are you bringing up phlegm?",
-        "Patient: It's a dry cough."
+        "Patient: It's a dry cough.",
+        "Medical Student: A dry cough, OK. Uhm, so no sputum or blood, right?",
+        "Patient: No."
       ]
-    },
-    "complications_actual_delivery": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "confusion": {
       "assessed": "Yes",
@@ -66,33 +80,20 @@
         "Patient: No."
       ]
     },
-    "constipation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've also just been having this cough for the last few days as well."
+        "Patient: and I've also just been having this cough for the last few days as well.",
+        "Medical Student: OK. The cough started ,or the muscle aches started first.",
+        "Medical Student: Four days, OK, and the cough started when?",
+        "Patient: Cough started three days ago."
       ]
     },
     "decrease_interest_in_activities": {
       "assessed": "No",
       "example_quotes": []
     },
-    "decreased_activity": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_fluid_intake": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "diabetes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_talking": {
+    "difficulty_feeding": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -107,6 +108,14 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "drowsiness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: I don't know if that's to do with the pain or just feeling unwell.",
+        "Medical Student: OK, so you're able to do those things. You just feel like maybe you're tired?",
+        "Patient: Yeah."
+      ]
+    },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
@@ -114,21 +123,19 @@
         "Patient: No."
       ]
     },
-    "extended_sleep": {
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
       "assessed": "No",
       "example_quotes": []
     },
     "eye_redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: seasonal allergies I sometimes get just itchy eyes and runny nose, sneezing in the springtime."
-      ]
-    },
-    "facial_pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "facial_pressure": {
+    "facial_pain": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -142,12 +149,6 @@
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I do feel like just overall general weakness. I don't know if that's to do with the pain or just feeling unwell."
-      ]
-    },
-    "feeling_tired": {
-      "assessed": "Yes",
-      "example_quotes": [
         "Medical Student: OK, so you're able to do those things. You just feel like maybe you're tired?",
         "Patient: Yeah."
       ]
@@ -155,18 +156,22 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I wonder if I have a fever"
+        "Patient: I wonder if I have a fever",
+        "Patient: since yesterday, I think I might have a fever as well.",
+        "Medical Student: Any fevers?",
+        "Patient: And I have been feeling chilly over the last few days, just, I have been wearing like multiple layers having to put on an extra blanket so I might have been having a fever."
       ]
-    },
-    "flu": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "general_weakness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I do feel like just overall general weakness."
+        "Medical Student: OK, and is it hard for you to walk like use your arms? Do you have any sort of like motor weakness?",
+        "Patient: Uhm, it's not, I I can walk and there's no issues, but I I do feel like just overall general weakness. I don't know if that's to do with the pain or just feeling unwell."
       ]
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
@@ -185,24 +190,26 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Uhm, so no sputum or blood, right?",
+        "Medical Student: A dry cough, OK. Uhm, so no sputum or blood, right?",
         "Patient: No."
       ]
     },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: And I think my father has high blood pressure."
-      ]
+    "hoarse_tone": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: how about appetite changes?",
+        "Medical Student: OK, uh how about appetite changes?",
         "Patient: Uhm, appetites been the same."
       ]
     },
-    "loss_of_consciousness": {
+    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -217,17 +224,21 @@
         "Patient: No."
       ]
     },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "motor_weakness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And is it hard for you to walk like use your arms? Do you have any sort of like motor weakness?",
-        "Patient: Uhm, it's not, I I can walk and there's no issues"
+        "Medical Student: OK, and is it hard for you to walk like use your arms? Do you have any sort of like motor weakness?",
+        "Patient: Uhm, it's not, I I can walk and there's no issues, but I I do feel like just overall general weakness."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: and you have a runny nose or stuffy nose?",
+        "Medical Student: OK, and you have a runny nose or stuffy nose?",
         "Patient: Uh, no."
       ]
     },
@@ -238,10 +249,18 @@
         "Patient: No, no nausea or vomiting."
       ]
     },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I started getting these like really bad muscle pains all throughout my body"
+        "Patient: I started getting these like really bad muscle pains all throughout my body",
+        "Medical Student: OK. And where specifically like wha, which muscles ache?",
+        "Patient: Pretty much like throughout my body, but I would say more so like upper back, my thighs, then my arms, yeah, kind of just all over.",
+        "Medical Student: OK any joint pains as well?",
+        "Patient: Uh, no, I don't think so."
       ]
     },
     "palpitation": {
@@ -255,7 +274,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "passing_gas": {
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -266,13 +285,10 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: and you have a runny nose or stuffy nose?",
-        "Patient: Uh, no."
+        "Medical Student: OK, and you have a runny nose or stuffy nose?",
+        "Patient: Uh, no.",
+        "Patient: No, not that just like uh, seasonal allergies I sometimes get just itchy eyes and runny nose, sneezing in the springtime."
       ]
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
@@ -288,27 +304,31 @@
         "Patient: No."
       ]
     },
-    "stunning": {
+    "speech_volume": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sweaty": {
+    "swelling": {
       "assessed": "No",
       "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Now that you mention I, I think taste a little bit today, I realized I was I wasn't really able to taste my breakfast."
+        "Medical Student: Taste or smell?",
+        "Patient: Oh sorry. Now that you mention I, I think taste a little bit today, I realized I was I wasn't really able to taste my breakfast."
       ]
     },
-    "tightness": {
+    "tearing": {
       "assessed": "No",
       "example_quotes": []
     },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
+    "tingling": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any numbness or tingling?",
+        "Patient: No."
+      ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -324,6 +344,10 @@
         "Patient: No."
       ]
     },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
@@ -336,13 +360,6 @@
       "example_quotes": [
         "Medical Student: OK, and any nausea or vomiting?",
         "Patient: No, no nausea or vomiting."
-      ]
-    },
-    "weight_changes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Any weight loss?",
-        "Patient: No."
       ]
     },
     "weight_gain": {
@@ -359,7 +376,8 @@
     "widespread_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I started getting these like really bad muscle pains all throughout my body"
+        "Patient: I started getting these like really bad muscle pains all throughout my body",
+        "Patient: Pretty much like throughout my body, but I would say more so like upper back, my thighs, then my arms, yeah, kind of just all over."
       ]
     }
   }

@@ -1,25 +1,37 @@
 {
-  "precision": 0.92,
-  "recall": 1.0,
-  "f1_score": 0.9583333333333334,
-  "true_positives": 23,
-  "false_positives": 2,
-  "false_negatives": 0,
+  "precision": 0.88,
+  "recall": 0.9565217391304348,
+  "f1_score": 0.9166666666666666,
+  "true_positives": 22,
+  "false_positives": 3,
+  "false_negatives": 1,
   "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
+      "item": "Eye Pain",
       "result_quotes": [
-        "Patient: Like the eczema, like I have like a peanut allergy. That's it."
+        "Medical Student: OK, and then any eye pain or ear pain?",
+        "Patient: No."
       ]
     },
     {
-      "item": "Lung Complications",
+      "item": "Hearing Problem",
       "result_quotes": [
-        "Medical Student: OK, anybody in the family have a heart condition or a lung condition?",
+        "Medical Student: OK, and then any eye pain or ear pain?",
         "Patient: No."
+      ]
+    },
+    {
+      "item": "Drowsiness",
+      "result_quotes": [
+        "Patient: I mean, I may be even a bit tired, but really. Otherwise no."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

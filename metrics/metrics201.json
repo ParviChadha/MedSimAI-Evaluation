@@ -1,24 +1,31 @@
 {
-  "precision": 0.96,
-  "recall": 0.96,
-  "f1_score": 0.96,
-  "true_positives": 24,
-  "false_positives": 1,
-  "false_negatives": 1,
+  "precision": 0.8928571428571429,
+  "recall": 1.0,
+  "f1_score": 0.9433962264150945,
+  "true_positives": 25,
+  "false_positives": 3,
+  "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Trouble Breathing",
+      "item": "Limp",
       "result_quotes": [
-        "Patient: Yeah hi, um, I have been coughing nonstop for the past three days, and today I have been feeling very short of breath.",
-        "Medical Student: Okay, um, and you mentioned you've been short of breath as well. Uh, how has that come on?"
+        "Medical Student: Okay, and how is your mobility now?",
+        "Patient: Um pretty good. My hips still give me some issues once in awhile, but um, for the most part, it's been okay."
+      ]
+    },
+    {
+      "item": "Lightheadedness",
+      "result_quotes": [
+        "Medical Student: Have you had any lightheadedness or, or feeling dizzy?"
+      ]
+    },
+    {
+      "item": "Hyperhidrosis",
+      "result_quotes": [
+        "Medical Student: Have you had any night sweats?"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Stunning",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

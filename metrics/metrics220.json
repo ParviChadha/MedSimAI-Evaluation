@@ -1,26 +1,52 @@
 {
-  "precision": 0.9333333333333333,
-  "recall": 1.0,
-  "f1_score": 0.9655172413793104,
-  "true_positives": 28,
-  "false_positives": 2,
-  "false_negatives": 0,
-  "total_items": 34,
+  "precision": 0.84375,
+  "recall": 0.9642857142857143,
+  "f1_score": 0.8999999999999999,
+  "true_positives": 27,
+  "false_positives": 5,
+  "false_negatives": 1,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Odynophagia",
+      "item": "Diarrhoea",
       "result_quotes": [
-        "Medical Student: Or any difficulty swallowing?",
-        "Patient: Uhm, no."
+        "Any bowel problems?",
+        "No."
       ]
     },
     {
-      "item": "Stiffness",
+      "item": "Fainting",
       "result_quotes": [
-        "Medical Student: OK, and then any joint pains or muscle aches?",
-        "Patient: No, nothing like that."
+        "And how about any episodes where you felt like you were going to faint or, yeah, pass out?",
+        "No."
+      ]
+    },
+    {
+      "item": "Rectal Bleeding",
+      "result_quotes": [
+        "Any bowel problems?",
+        "No."
+      ]
+    },
+    {
+      "item": "Passing Gas",
+      "result_quotes": [
+        "Any bowel problems?",
+        "No."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "And then have you had any urinary problems?",
+        "Um, no."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    }
+  ]
 }

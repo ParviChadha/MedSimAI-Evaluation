@@ -1,14 +1,102 @@
 {
   "medical_history_assessed": {
-    "memory_loss": {
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "decreased_concentration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "change_in_sleep": {
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drowsiness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: I mean, I may be even a bit tired, but really. Otherwise no."
+      ]
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, and then any eye pain or ear pain?",
+        "Patient: No."
+      ]
+    },
+    "general_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hearing_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, and then any eye pain or ear pain?",
+        "Patient: No."
+      ]
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -18,10 +106,6 @@
         "Medical Student: OK, and have you had any chest pain?",
         "Patient: No."
       ]
-    },
-    "chest_pressure": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chills": {
       "assessed": "Yes",
@@ -40,35 +124,23 @@
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any diarrhea or constipation?",
+        "Medical Student: Any diarrhea or constipation?",
         "Patient: No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: So you said you haven't felt sick, so have you been experiencing any other symptoms?",
-        "Patient: I mean, I may be even a bit tired, but really. Otherwise no. I guess maybe I felt like a little dry, but I haven't actually been coughing."
+        "Patient: I guess maybe I felt like a little dry, but I haven't actually been coughing.",
+        "Medical Student: OK. So no cough"
       ]
-    },
-    "decrease_interest_in_activities": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, any diarrhea or constipation?",
+        "Medical Student: Any diarrhea or constipation?",
         "Patient: No."
       ]
-    },
-    "difficulty_sleeping": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
@@ -77,14 +149,11 @@
         "Patient: No."
       ]
     },
-    "facial_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I mean, I may be even a bit tired, but really."
+        "Medical Student: So you said you haven't felt sick, so have you been experiencing any other symptoms?",
+        "Patient: I mean, I may be even a bit tired, but really. Otherwise no."
       ]
     },
     "fever": {
@@ -92,12 +161,6 @@
       "example_quotes": [
         "Medical Student: Uh, how about any fevers?",
         "Patient: I don't, like I don't have a thermometer, I like maybe felt a little hot, but like like I don't really know."
-      ]
-    },
-    "food_allergy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Like the eczema, like I have like a peanut allergy. That's it."
       ]
     },
     "head_ache": {
@@ -114,29 +177,6 @@
         "Patient: No."
       ]
     },
-    "high_blood_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "infection": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lung_complications": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, anybody in the family have a heart condition or a lung condition?",
-        "Patient: No."
-      ]
-    },
-    "lymphadenitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
@@ -151,16 +191,9 @@
         "Patient: No."
       ]
     },
-    "not_crying": {
+    "pain": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, and then any eye pain or ear pain?",
-        "Patient: No."
-      ]
     },
     "palpitation": {
       "assessed": "Yes",
@@ -169,24 +202,12 @@
         "Patient: No."
       ]
     },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness_in_throat": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK um. And have you had a runny nose?",
+        "Medical Student: And have you had a runny nose?",
         "Patient: No."
       ]
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
@@ -195,14 +216,11 @@
         "Patient: No."
       ]
     },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: So like I don't really feel sick. I just I lost. I can't. I for the past two days I can't smell anything."
+        "Patient: I just I lost. I can't. I for the past two days I can't smell anything.",
+        "Medical Student: OK, for sure I will we will, um definitely look into that today and you are right, it is a symptom that can occur with with covid."
       ]
     },
     "sore_throat": {
@@ -212,18 +230,11 @@
         "Patient: Like I said, it felt like dry, but I don't think it's been sore."
       ]
     },
-    "straining_and_chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stunning": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I can't taste any of my food."
+        "Patient: I can't taste any of my food.",
+        "Medical Student: OK, for sure I will we will, um definitely look into that today and you are right, it is a symptom that can occur with with covid."
       ]
     },
     "unexplained_weight_loss": {
@@ -240,20 +251,12 @@
         "Patient: No."
       ]
     },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Alright, um, any nausea or vomiting.",
         "Patient: No."
       ]
-    },
-    "wheez": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

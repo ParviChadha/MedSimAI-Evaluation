@@ -1,52 +1,67 @@
 {
-  "precision": 0.8235294117647058,
+  "precision": 0.7777777777777778,
   "recall": 1.0,
-  "f1_score": 0.9032258064516129,
+  "f1_score": 0.8750000000000001,
   "true_positives": 28,
-  "false_positives": 6,
+  "false_positives": 8,
   "false_negatives": 0,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Delayed Growth Milestones",
-      "result_quotes": [
-        "Medical Student: OK and then in terms of growth, weight and head circumference, has he been hitting all those milestones for the past 2 1/2 years?",
-        "Patient: Yeah, we we bring him to the family doctor every couple of month for his regular checkups and nothing has been brought up to be concerning for his vaccines. He has been doing well.",
-        "Medical Student: OK and then how about other milestones like speech, movement, fine movement, all of that, like have those been normal? Is he on par with his peers?",
-        "Patient: Yeah, this is our first kid, but compared to his cousins he seems to be doing well. He's speaking, he's got little sentences, now he has good eye contact. He's a good kid."
-      ]
-    },
-    {
-      "item": "Coughing Fit",
-      "result_quotes": [
-        "Patient: Sometimes I'll notice when he's playing. He's had these coughing fits that last for up to a minute but usually recovers from."
-      ]
-    },
-    {
-      "item": "Trouble Breathing",
+      "item": "Difficulty Breathing",
       "result_quotes": [
         "Medical Student: OK,  does he have any shortness of breath with his cough?",
+        "Patient: I feel like when he has the coughing fits, he's winded. He's weak after them. Sometimes he cries after them or before the middle can be a trigger for it, but just resting normally, he doesn't seem that out of breath, no."
+      ]
+    },
+    {
+      "item": "Decreased Oral Intake",
+      "result_quotes": [
+        "Patient: We haven't been really feeding him solid meals, it's because he's been sick, we've been trying to give him soup and liquids for the most part because his throat hurts, but he's able to keep them down.",
+        "Medical Student: OK, and then how about changes in his appetite?",
+        "Patient: Yeah, he's not eating as much but still, we're trying to force food into him to keep his energy up. Most of time he always will be asking for snacks in the afternoon, but now not so much."
+      ]
+    },
+    {
+      "item": "Loss Of Consciousness",
+      "result_quotes": [
+        "Medical Student: OK OK, and then any dizziness or fainting spells that you've noticed?",
+        "Patient: No fainting or dizzy spells, but he's really gassed after he has like a coughing fit and he doesn't want to stand up, he'll just be sitting down or he wants to be held."
+      ]
+    },
+    {
+      "item": "Decrease Interest In Activities",
+      "result_quotes": [
+        "Patient: He hasn't been too active to be honest. He's been a little bit slowed down these last couple of days",
+        "Patient: No fainting or dizzy spells, but he's really gassed after he has like a coughing fit and he doesn't want to stand up, he'll just be sitting down or he wants to be held."
+      ]
+    },
+    {
+      "item": "Not Crying",
+      "result_quotes": [
+        "Patient: Sometimes he cries after them or before the middle can be a trigger for it,",
+        "Patient: Yeah after he has a bad coughing fit, he wants to be soothed and he'll be crying, but it's just more of because he's worn out, I believe he's tired."
+      ]
+    },
+    {
+      "item": "Drowsiness",
+      "result_quotes": [
+        "Patient: He's been a little bit slowed down these last couple of days",
+        "Patient: Yeah after he has a bad coughing fit, he wants to be soothed and he'll be crying, but it's just more of because he's worn out, I believe he's tired."
+      ]
+    },
+    {
+      "item": "Malaise",
+      "result_quotes": [
+        "Patient: He hasn't been too active to be honest. He's been a little bit slowed down these last couple of days",
         "Patient: I feel like when he has the coughing fits, he's winded. He's weak after them."
       ]
     },
     {
-      "item": "Dyspnea",
+      "item": "Dysphagia",
       "result_quotes": [
-        "Medical Student: OK,  does he have any shortness of breath with his cough?",
-        "Patient: I feel like when he has the coughing fits, he's winded. He's weak after them."
-      ]
-    },
-    {
-      "item": "Stuffy Nose",
-      "result_quotes": [
-        "Medical Student: Has he had a stuffy or runny nose?",
-        "Patient: Yeah yeah, that's kind of how it first started three days ago. Maybe had a runny nose. OK, yeah."
-      ]
-    },
-    {
-      "item": "Fatigue",
-      "result_quotes": [
-        "Patient: He hasn't been too active to be honest. He's been a little bit slowed down these last couple of days"
+        "Patient: His throat hurts a little bit and he seems to still like it, so it's hard to tell.",
+        "Patient: We haven't been really feeding him solid meals, it's because he's been sick, we've been trying to give him soup and liquids for the most part because his throat hurts, but he's able to keep them down."
       ]
     }
   ],

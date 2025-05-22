@@ -1,11 +1,19 @@
 {
-  "precision": 1.0,
+  "precision": 0.9444444444444444,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9714285714285714,
   "true_positives": 17,
-  "false_positives": 0,
+  "false_positives": 1,
   "false_negatives": 0,
-  "total_items": 33,
-  "false_positive_details": [],
+  "total_items": 34,
+  "false_positive_details": [
+    {
+      "item": "Diarrhoea",
+      "result_quotes": [
+        "Medical Student: Any changes in your bowel movements, or your urinary, or any urinary concerns?",
+        "Patient: Uh, no."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

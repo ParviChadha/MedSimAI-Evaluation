@@ -1,32 +1,36 @@
 {
   "medical_history_assessed": {
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "injury": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
+    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "allergic_rhinitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "arthritis_pain": {
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and how about your bowel movements, any constipation or diarrhea?",
+        "Medical Student: OK and how about your bowel movements, any constipation or diarrhea?",
         "Patient: Um no bowel issues."
       ]
+    },
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and have you been having any palpitations like a racing heart or any chest pain at all?",
+        "Medical Student: OK and, have you been having any palpitations like a racing heart or any chest pain at all?",
         "Patient: Um, no chest pain."
       ]
     },
@@ -37,10 +41,14 @@
         "Patient: No fever and no chills."
       ]
     },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and how about your bowel movements, any constipation or diarrhea?",
+        "Medical Student: OK and how about your bowel movements, any constipation or diarrhea?",
         "Patient: Um no bowel issues."
       ]
     },
@@ -51,23 +59,40 @@
         "Medical Student: OK, and uh, what kind of cough is it like a dry cough? Or is it more like productive cough?"
       ]
     },
-    "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and how about your bowel movements, any constipation or diarrhea?",
+        "Medical Student: OK and how about your bowel movements, any constipation or diarrhea?",
         "Patient: Um no bowel issues."
       ]
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
+        "Medical Student: OK, um and other than that, have you been having any other symptoms, like a runny nose, sore throat, difficulty breathing, anything like that?",
         "Medical Student: OK, and how about shortness of breath?",
         "Patient: Um. I only have trouble breathing if I walk a few blocks or go up a few flights of stairs into my apartment."
       ]
+    },
+    "eye_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "facial_pain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
@@ -77,8 +102,11 @@
       ]
     },
     "fatigue_sleep": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK and have you been getting enough sleep?",
+        "Patient: Uh yeah I would say or sorry no my sleep has been has been poor"
+      ]
     },
     "fever": {
       "assessed": "Yes",
@@ -87,15 +115,7 @@
         "Patient: No fever and no chills."
       ]
     },
-    "food_allergy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "foreign_body_intake": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "guilt_feeling": {
+    "headache": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -110,7 +130,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "limp": {
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -121,30 +141,25 @@
         "Patient: Uh appetite's been good I feel like I've been eating normally."
       ]
     },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "loss_of_smell": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lung_complications": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "more_quiet": {
+    "nausea": {
       "assessed": "No",
       "example_quotes": []
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and have you been having any palpitations like a racing heart or any chest pain at all?",
-        "Patient: Um, no chest pain."
+        "Medical Student: OK and, have you been having any palpitations like a racing heart or any chest pain at all?"
       ]
     },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigor": {
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -152,12 +167,9 @@
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, um and other than that, have you been having any other symptoms, like a runny nose, sore throat, difficulty breathing, anything like that?",
-        "Patient: Uh, no."
+        "Medical Student: OK and I think I mentioned this before, but any know any runny nose sore throat, any of those viral symptoms?",
+        "Patient: Um, no runny nose, no sore throat, been feeling good."
       ]
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
@@ -173,11 +185,11 @@
         "Patient: No night sweats."
       ]
     },
-    "smell_loss": {
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "smell_problem": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -185,7 +197,8 @@
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: OK, um and other than that, have you been having any other symptoms, like a runny nose, sore throat, difficulty breathing, anything like that?",
-        "Patient: Uh, no."
+        "Medical Student: OK and I think I mentioned this before, but any know any runny nose sore throat, any of those viral symptoms?",
+        "Patient: Um, no runny nose, no sore throat, been feeling good."
       ]
     },
     "swelling": {
@@ -194,18 +207,6 @@
         "Medical Student: OK, and have you noticed at all any kind of swelling in your hands, feet, ankles?",
         "Patient: Uh, I think they're always a little swollen, but I might have just gained a few pounds over the years."
       ]
-    },
-    "symptoms_stress": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tearing_or_or_itchiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "teary_eyes": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -221,7 +222,7 @@
         "Patient: Ummm only at night time I seem to have to get up a lot to use the bathroom."
       ]
     },
-    "vaccine_related_reaction": {
+    "vaginal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -231,6 +232,10 @@
         "Medical Student: OK and I think I mentioned this before, but any know any runny nose sore throat, any of those viral symptoms?",
         "Patient: Um, no runny nose, no sore throat, been feeling good."
       ]
+    },
+    "vomiting": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "weight_gain": {
       "assessed": "Yes",

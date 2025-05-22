@@ -400,7 +400,7 @@ class ModelInterface:
             full_prompt += "\n\nRespond with valid JSON only."
         
         response = self.client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-2.5-flash-preview-05-20",
             contents=full_prompt,
         )
         

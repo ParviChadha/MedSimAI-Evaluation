@@ -1,26 +1,33 @@
 {
   "medical_history_assessed": {
-    "decrease_interest_in_activities": {
+    "bad_smell": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_sleeping": {
+    "brain_fog": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_talking": {
+    "discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK. Have you, uh, with the, the runny nose, do you have any, what's the discharge like?",
+        "Uh, it's been kind of watery, it's clear."
+      ]
+    },
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "foreign_body_intake": {
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hemoptysis": {
+    "hyperhidrosis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -28,19 +35,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "lethargic": {
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_sense": {
+    "loss_of_consciousness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lung_complications": {
+    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -48,144 +51,144 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "redness": {
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
-    "symptoms_stress": {
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tonsilitis": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
-    "weakness": {
+    "speech_volume": {
       "assessed": "No",
       "example_quotes": []
     },
-    "wheez": {
+    "weight_gain": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, uhm any, uh, pain in your chest?",
-        "Patient: No."
+        "OK, uhm any, uh, pain in your chest?",
+        "No."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, uhm, any fevers or chills?",
-        "Patient: No, I don't think so."
+        "OK, uhm, any fevers or chills?",
+        "No, I don't think so."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
-        "Patient: No, nothing like that."
+        "Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
+        "No, nothing like that."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any cough?",
-        "Patient: No."
+        "Any cough?",
+        "No."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
-        "Patient: No, nothing like that."
+        "Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
+        "No, nothing like that."
       ]
     },
     "drowsy": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, OK, are you feeling fatigued, tired? Have any muscle aches?",
-        "Patient: I, I have felt a little bit more drowsy these last few days and, uhm, yeah my, uhm, I have had some muscle aches as well."
+        "OK, OK, are you feeling fatigued, tired? Have any muscle aches?",
+        "I, I have felt a little bit more drowsy these last few days and, uhm, yeah my, uhm, I have had some muscle aches as well."
       ]
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you, uhm, had any difficulties swallowing?",
-        "Patient: No, it, it is a bit sore, uhm, to swallow so it takes me a little bit longer to eat, but I've been able to still, still eat."
+        "Have you, uhm, had any difficulties swallowing?",
+        "No, it, it is a bit sore, uhm, to swallow so it takes me a little bit longer to eat, but I've been able to still, still eat."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Any difficulties breathing?",
-        "Patient: No."
+        "Any difficulties breathing?",
+        "No."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, OK, are you feeling fatigued, tired? Have any muscle aches?",
-        "Patient: I, I have felt a little bit more drowsy these last few days and, uhm, yeah my, uhm, I have had some muscle aches as well."
+        "OK, OK, are you feeling fatigued, tired? Have any muscle aches?",
+        "I, I have felt a little bit more drowsy these last few days and, uhm, yeah my, uhm, I have had some muscle aches as well."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, uhm, any fevers or chills?",
-        "Patient: No, I don't think so."
+        "OK, uhm, any fevers or chills?",
+        "No, I don't think so."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I did use, uh, some uhm, like cold medication to help because I was having a headache as well and a lot of I guess just like pressure from the nose stuffiness.",
-        "Medical Student: And how's your headache now?"
+        "I did use, uh, some uhm, like cold medication to help because I was having a headache as well and a lot of I guess just like pressure from the nose stuffiness.",
+        "And how's your headache now?",
+        "It's not too bad. It's pretty mild, but it's there."
       ]
     },
     "hoarse_tone": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you changed, noticed any changes in your voice? Any hoarseness in your voice?",
-        "Patient: No."
+        "Have you changed, noticed any changes in your voice? Any hoarseness in your voice?",
+        "No."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: And do you have any nasal congestion? Does your nose feel stuffy?",
-        "Patient: Yeah it does, yes."
+        "And do you have any nasal congestion? Does your nose feel stuffy?",
+        "Yeah it does, yes."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, OK, are you feeling fatigued, tired? Have any muscle aches?",
-        "Patient: I, I have felt a little bit more drowsy these last few days and, uhm, yeah my, uhm, I have had some muscle aches as well."
+        "OK, OK, are you feeling fatigued, tired? Have any muscle aches?",
+        "I, I have felt a little bit more drowsy these last few days and, uhm, yeah my, uhm, I have had some muscle aches as well."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've, uh, had a runny nose over the last few days and I've started to have a sore throat as well.",
-        "Medical Student: Uhm, when did this start?",
-        "Patient: I would, so the runny nose started, uh, about five days ago and, and the sore throat, uhm, about the same."
+        "I've, uh, had a runny nose over the last few days and I've started to have a sore throat as well.",
+        "I would, so the runny nose started, uh, about five days ago and, and the sore throat, uhm, about the same."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've, uh, had a runny nose over the last few days and I've started to have a sore throat as well.",
-        "Medical Student: OK. Alright and has your sore throat gotten better or worse over the past five days?"
+        "I've, uh, had a runny nose over the last few days and I've started to have a sore throat as well.",
+        "And has your sore throat gotten better or worse over the past five days?"
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
-        "Patient: No, nothing like that."
+        "Any other symptoms, anything related to your belly, say, diarrhea or Constipation or any changes in your urinary, any urinary symptoms?",
+        "No, nothing like that."
       ]
     }
   }

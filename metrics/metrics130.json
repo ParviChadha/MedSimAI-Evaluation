@@ -1,29 +1,24 @@
 {
-  "precision": 0.896551724137931,
+  "precision": 0.9285714285714286,
   "recall": 1.0,
-  "f1_score": 0.9454545454545454,
+  "f1_score": 0.962962962962963,
   "true_positives": 26,
-  "false_positives": 3,
+  "false_positives": 2,
   "false_negatives": 0,
   "total_items": 52,
   "false_positive_details": [
     {
-      "item": "Eye Discharge",
+      "item": "Runny Eyes",
       "result_quotes": [
-        "Have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?"
+        "Medical Student: Alright. Um and have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?",
+        "Patient: Uh no, nothing like that."
       ]
     },
     {
-      "item": "Malaise",
+      "item": "Hyperhidrosis",
       "result_quotes": [
-        "And you've also been really um fatigued and have had some malaise over the last several weeks."
-      ]
-    },
-    {
-      "item": "Lethargic",
-      "result_quotes": [
-        "how has your energy been? Any any fatigue?",
-        "Um it's kind of been a bit low over the last few weeks, just I feel more tired. Um yeah I had to miss a few days of work as well."
+        "Medical Student: Alright, have you had any um like night sweats?",
+        "Patient: Uhm now that you mention it like I I would say two two days out of the last week I've had night sweats where my sheets were kind of just drenched when I, and then I woke up noticing that."
       ]
     }
   ],

@@ -1,51 +1,56 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
-    "discharge": {
+    "confusion": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "decrease_interest_in_activities": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_smell": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK, OK, any changes in your vision, hearing or smell?",
-        "Patient: No."
-      ]
-    },
-    "memory_loss": {
+    "difficulty_feeding": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "drooling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rectal_bleeding": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sleep_dyspnea": {
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tachypnea": {
+    "hyperhidrosis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: OK and, do you think anything triggered this?",
-        "Patient: I don't know.",
-        "Medical Student: No? [...] And you mentioned there weren't any triggers like no trauma to the area."
-      ]
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vaginal_discharge": {
       "assessed": "No",
@@ -54,99 +59,116 @@
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Well, like last night I kinda had like an ache on my chest, kind of like here like on the left.",
-        "Medical Student: Are you having any chest pain at all associated with that?",
-        "Patient: Like when I breathe in, I get like and it's like an ache. And then if I breathe really deep it feels like a little sharp."
+        "last night I kinda had like an ache on my chest",
+        "are you having any chest pain at all associated with that?",
+        "Like when I breathe in, I get like and it's like an ache. And then if I breathe really deep it feels like a little sharp.",
+        "sounds like you're having some pleuritic chest pain.",
+        "but you did say you have some chest pain when you're breathing pretty, when you take a deep breath in."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about fevers or chills?",
-        "Patient: No, not that I've noticed, no."
+        "OK, how about fevers or chills?",
+        "No, not that I've noticed, no.",
+        "because you don't have a fever or chills"
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Do you have any coughing associated with that?",
-        "Patient: No no."
+        "Do you have any coughing associated with that?",
+        "No no."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Are you experiencing any dizziness or you feeling faint?",
-        "Patient: No, just like a I can't get like a good breath."
+        "Are you experiencing any dizziness or you feeling faint?",
+        "No, just like a I can't get like a good breath."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Hi, I'm Rob and I just feel like I can't catch my breath."
+        "I just feel like I can't catch my breath.",
+        "I like was kinda having a hard time breathing",
+        "I could barely walk. And if I'm breathing deep it's like it just hurts. And I feel like I can't like catch my breath like I can't get a good like a good breath in.",
+        "how severe is your shortness of breath, 10 being the worst?",
+        "does your shortness of breath get worse?",
+        "it was like going up the stairs, can't really breathe in after.",
+        "No, just like a I can't get like a good breath.",
+        "you may have a hard time breathing."
       ]
     },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Are you experiencing any dizziness or you feeling faint?",
-        "Patient: No, just like a I can't get like a good breath."
+        "Are you experiencing any dizziness or you feeling faint?",
+        "No, just like a I can't get like a good breath."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, how about fevers or chills?",
-        "Patient: No, not that I've noticed, no."
+        "OK, how about fevers or chills?",
+        "No, not that I've noticed, no.",
+        "because you don't have a fever or chills"
       ]
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, OK, any changes in your vision, hearing or smell?",
-        "Patient: No."
+        "OK, any changes in your vision, hearing or smell?",
+        "No."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: No? You're not coughing up any blood?",
-        "Patient: No."
+        "You're not coughing up any blood?",
+        "No."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Well, like last night I kinda had like an ache on my chest, kind of like here like on the left.",
-        "Patient: Like when I breathe in, I get like and it's like an ache. And then if I breathe really deep it feels like a little sharp."
+        "if I'm breathing deep it's like it just hurts.",
+        "it's like an ache. And then if I breathe really deep it feels like a little sharp.",
+        "Does it hurt when you take a deep breath in?",
+        "Yeah, it's like it's like sharp.",
+        "Any abdominal pain?",
+        "it's like it aches kind of it, but it's all up here and like kind of in my back a little bit."
       ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any swelling in your legs?",
-        "Patient: I I don't think so."
+        "Any swelling in your legs?",
+        "I I don't think so.",
+        "but you said you don't have any swelling."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Weight loss?",
-        "Patient: I, I mean, I've been trying to to lose weight."
+        "Weight loss?",
+        "I, I mean, I've been trying to to lose weight.",
+        "So I've lost like 15 pounds but like not... Like I've been trying to."
       ]
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, OK, any changes in your vision, hearing or smell?",
-        "Patient: No."
+        "OK, any changes in your vision, hearing or smell?",
+        "No."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. How about wheezing? Are you experiencing any wheezing?",
-        "Patient: I don't think so."
+        "How about wheezing? Are you experiencing any wheezing?",
+        "I don't think so."
       ]
     }
   }

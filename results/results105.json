@@ -1,6 +1,121 @@
 {
   "medical_history_assessed": {
+    "anxious": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Uhm, no, I was just like, well, really worried that I I could have lung cancer."
+      ]
+    },
+    "bad_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behavior_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "change_in_sleep": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_sleeping": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "ear_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Changes in your vision or hearing?",
+        "Patient: No."
+      ]
+    },
+    "extended_sleep": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "general_weakness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: No. How about fatigue?",
+        "Patient: Not really, no."
+      ]
+    },
     "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperhidrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Numbness or tingling?",
+        "Patient: No numbness or tingling."
+      ]
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -12,13 +127,23 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "vaginal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "behavior_changes": {
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "weight_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: Uh, I've had this cough. It's been going on now for like last six months or so and been losing some weight as well. I've lost, I think like 20 or 30 pounds in the last six months.",
+        "Medical Student: OK, yeah, that's a lot of weight. So the weight loss, you said 20 to 30 pounds?",
+        "Patient: Yeah yeah.",
+        "Patient: Like just over 200 and I'm in the 170s now.",
+        "Medical Student: OK, so that was in the past six months."
+      ]
     },
     "bowel_movement": {
       "assessed": "Yes",
@@ -28,14 +153,6 @@
         "Medical Student: And how about like blood in your stool or constipation?",
         "Patient: No constipation and no blood in the stool."
       ]
-    },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "change_in_sleep": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
@@ -68,12 +185,9 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Uh, I've had this cough. It's been going on now for like last six months or so and been losing some weight as well."
+        "Patient: Uh, I've had this cough. It's been going on now for like last six months or so",
+        "Medical Student: When do the cough start?"
       ]
-    },
-    "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
@@ -82,20 +196,12 @@
         "Patient: No diarrhea."
       ]
     },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And how about shortness, sorry, how about dizziness or fainting spells?",
+        "Medical Student: And how about shortness, sorry, how about dizziness or fainting spells?",
         "Patient: Nothing like that."
       ]
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dyspnea": {
       "assessed": "Yes",
@@ -104,40 +210,17 @@
         "Patient: Uhm, I have, yeah the shortness of breath has been like similarly getting a bit worse over the last, over the last six months."
       ]
     },
-    "dysuria": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Umm OK, how about changes in your urine?",
-        "Patient: No, I mean sometimes I can have a, I mean harder time to go 'cause as an old guy have large prostate I think they said, but I mean that's been OK."
-      ]
-    },
-    "eye_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. And how about shortness, sorry, how about dizziness or fainting spells?",
+        "Medical Student: And how about shortness, sorry, how about dizziness or fainting spells?",
         "Patient: Nothing like that."
       ]
     },
     "fatigue": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: How about fatigue?",
+        "Medical Student: No. How about fatigue?",
         "Patient: Not really, no."
       ]
     },
@@ -148,14 +231,10 @@
         "Patient: No."
       ]
     },
-    "guilt_feeling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: How about headaches?",
+        "Medical Student: OK. How about headaches?",
         "Patient: No headaches."
       ]
     },
@@ -173,22 +252,10 @@
         "Patient: Uh no, no blood or sputum."
       ]
     },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "inconsolable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "limp": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Appetite changes?",
+        "Medical Student: Uhm, appetite changes?",
         "Patient: No way my appetite's been been OK, that's why I was like really shocked at the the weight loss."
       ]
     },
@@ -198,10 +265,6 @@
         "Medical Student: Confusion or memory loss?",
         "Patient: No."
       ]
-    },
-    "motor_weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
@@ -220,24 +283,20 @@
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Joint pains or muscle aches?",
+        "Medical Student: How about chest pain?",
+        "Patient: Uh, yeah, I've had this kind of like dull kind of aching pain that, that I've had kind of work just on the right side of my chest. It, yeah. It's kind of aching and not that bad, but uncomfortable.",
+        "Medical Student: OK. Joint pains or muscle aches?",
         "Patient: I mean sometimes I can get so like my knees will hurt, but I think that's just arthritis."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK. Uhm, and hm. Have you ever been worked up for the chest pain in the past, like to rule out heart attacks, blocked arteries, anything like that?",
-        "Patient: Uh, yeah actually, I had a stress test about a year ago and it the results of that were, were normal.",
-        "Medical Student: OK, OK good. And do you ever feel like your heart's racing?",
+        "Medical Student: And do you ever feel like your heart's racing?",
         "Patient: No, I haven't had any anything like that. I mean like, sometimes I can get palpitations 'cause I have a fib or atrial fibrillation, but it doesn't really yeah, affect me that, that much."
       ]
     },
     "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -255,18 +314,6 @@
         "Patient: No."
       ]
     },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
@@ -281,25 +328,6 @@
         "Patient: No."
       ]
     },
-    "straining_and_chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stuffy_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Runny nose or stuffy nose?",
-        "Patient: No."
-      ]
-    },
-    "stunning": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "swelling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
@@ -310,7 +338,9 @@
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Uh, I've had this cough. It's been going on now for like last six months or so and been losing some weight as well. I've lost, I think like 20 or 30 pounds in the last six months."
+        "Patient: Uh, I've had this cough. It's been going on now for like last six months or so and been losing some weight as well. I've lost, I think like 20 or 30 pounds in the last six months.",
+        "Medical Student: Uhm, appetite changes?",
+        "Patient: No way my appetite's been been OK, that's why I was like really shocked at the the weight loss."
       ]
     },
     "urination": {
@@ -319,14 +349,6 @@
         "Medical Student: Umm OK, how about changes in your urine?",
         "Patient: No, I mean sometimes I can have a, I mean harder time to go 'cause as an old guy have large prostate I think they said, but I mean that's been OK."
       ]
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
@@ -342,20 +364,12 @@
         "Patient: No."
       ]
     },
-    "weight_gain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: Alright, and is there wheeziness as well?",
         "Patient: No wheezing."
       ]
-    },
-    "widespread_pain": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

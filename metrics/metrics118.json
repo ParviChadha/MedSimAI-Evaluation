@@ -1,36 +1,25 @@
 {
-  "precision": 0.8571428571428571,
+  "precision": 0.9230769230769231,
   "recall": 1.0,
-  "f1_score": 0.923076923076923,
+  "f1_score": 0.9600000000000001,
   "true_positives": 24,
-  "false_positives": 4,
+  "false_positives": 2,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
+      "item": "Dysuria",
       "result_quotes": [
-        "Any allergies?",
-        "Uh, nope."
+        "Medical Student: OK, have you had any urinary problems?",
+        "Patient: No."
       ]
     },
     {
-      "item": "Runny Eyes",
+      "item": "Vision Problem",
       "result_quotes": [
-        "how about any, like red eyes or runny nose?",
-        "No, neither of those."
-      ]
-    },
-    {
-      "item": "Malaise",
-      "result_quotes": [
-        "I woke up this morning and I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "I just came in to see what's going on, cause I was worried, you know, with covid going on, uhm, going everywhere."
+        "Patient: I had cataract surgery done.",
+        "Medical Student: OK, and the left, right eye or right eye?",
+        "Patient: Both actually, it runs in my family. We get it pretty early on."
       ]
     }
   ],

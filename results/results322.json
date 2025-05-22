@@ -1,83 +1,41 @@
 {
   "medical_history_assessed": {
-    "bad_smell": {
+    "itching": {
       "assessed": "No",
       "example_quotes": []
     },
-    "chills": {
+    "phlegm": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dehydration": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I took him to our family doctor um and they just suggested some supportive treatments um which we've been doing at home like we try to keep him well hydrated, and we've been keeping an eye on his like um diapers and things like that.",
-        "Usually like about 5, 6, but yesterday it was like 2."
-      ]
-    },
-    "difficulty_breathing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "he's been very short of breath."
-      ]
-    },
-    "difficulty_feeding": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "he's not swallowing his food, like we've been feeding him some mashed up food but he's not swallowing it.",
-        "He's just kind of throwing throwing it back out there."
-      ]
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "runny_eyes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "he had like a an infection, like some sort of viral infection recently, like about a week back, he had like a runny nose and a cough, but that went away."
-      ]
-    },
-    "sweaty": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "watery_eyes": {
+    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
     "agitated": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um and uh has he been uh irritable or agitated?",
-        "Uh he has been very irritable and fussy."
+        "Medical Student: Um and uh has he been uh irritable or agitated?",
+        "Patient: Uh he has been very irritable and fussy."
       ]
     },
+    "anxious": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bad_smell": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "constipation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decrease_interest_in_activities": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -85,81 +43,117 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "difficulty_feeding": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Patient: he's not swallowing his food, like we've been feeding him some mashed up food but he's not swallowing it. He's just kind of throwing throwing it back out there.",
+        "Medical Student: so how much has he has he had to eat or drink in the past uh day or two?",
+        "Patient: Yeah, he's not taking. He's not he's not taking anything else like he's been so fussy and so like he's unwilling to try anything."
+      ]
+    },
+    "difficulty_talking": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "drooling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um he's drooling now uh and he sounds kind of muffled um and he's been very short of breath."
+        "Patient: Um he's drooling now"
       ]
     },
     "drowsy": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you feel like he's been drowsy uh and um lethargic?",
-        "Um yeah, I feel like he's been a little bit lethargic. Like today, he's more lethargic. All of yesterday, he was very fussy and irritable, but today seems like, he's very slow."
+        "Medical Student: Do you feel like he's been drowsy uh and um lethargic?"
       ]
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's not swallowing his food"
+        "Patient: he's not swallowing his food, like we've been feeding him some mashed up food but he's not swallowing it."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's been very short of breath."
+        "Patient: um and he's been very short of breath."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "yesterday he had he had this temperature of like 38.5 um so he's been feeling a little bit hot"
+        "Patient: like yesterday he had he had this temperature of like 38.5 um so he's been feeling a little bit hot"
       ]
     },
     "fussy": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh he has been very irritable and fussy."
+        "Patient: Uh he has been very irritable and fussy.",
+        "Patient: he's been so fussy and so like he's unwilling to try anything."
       ]
     },
     "irritable": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um and uh has he been uh irritable or agitated?",
-        "Uh he has been very irritable and fussy."
+        "Medical Student: um and uh has he been uh irritable or agitated?",
+        "Patient: Uh he has been very irritable and fussy."
       ]
     },
     "lethargic": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you feel like he's been drowsy uh and um lethargic?",
-        "Um yeah, I feel like he's been a little bit lethargic. Like today, he's more lethargic."
+        "Medical Student: Do you feel like he's been drowsy uh and um lethargic?",
+        "Patient: Um yeah, I feel like he's been a little bit lethargic. Like today, he's more lethargic. All of yesterday, he was very fussy and irritable, but today seems like, he's very slow."
       ]
+    },
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh he's had about like maybe a bottle of his milk, like of that.",
-        "Yeah, he's not taking. He's not he's not taking anything else like he's been so fussy and so like he's unwilling to try anything."
+        "Medical Student: so how much has he has he had to eat or drink in the past uh day or two?",
+        "Patient: Uh he's had about like maybe a bottle of his milk, like of that.",
+        "Patient: Yeah, he's not taking. He's not he's not taking anything else like he's been so fussy and so like he's unwilling to try anything."
       ]
     },
     "muffled_sound": {
       "assessed": "Yes",
       "example_quotes": [
-        "he sounds kind of muffled"
+        "Patient: um and he sounds kind of muffled"
       ]
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleeping_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Has he been sleeping OK?",
-        "I um no you know what last night he didn't sleep well at all. He was crying the whole night."
+        "Medical Student: Has he been sleeping OK?",
+        "Patient: I um no you know what last night he didn't sleep well at all. He was crying the whole night."
       ]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "He's just kind of throwing throwing it back out there."
+        "Patient: He's just kind of throwing throwing it back out there."
+      ]
+    },
+    "weight_gain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any concerns about his growth, his height and weight, and his head circumference?",
+        "Patient: No, he's been pretty good. Um he's been growing and gaining weight OK."
       ]
     }
   }

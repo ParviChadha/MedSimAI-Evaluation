@@ -1,26 +1,59 @@
 {
-  "precision": 0.9411764705882353,
-  "recall": 1.0,
-  "f1_score": 0.9696969696969697,
-  "true_positives": 32,
-  "false_positives": 2,
-  "false_negatives": 0,
+  "precision": 0.8378378378378378,
+  "recall": 0.96875,
+  "f1_score": 0.8985507246376812,
+  "true_positives": 31,
+  "false_positives": 6,
+  "false_negatives": 1,
   "total_items": 64,
   "false_positive_details": [
     {
-      "item": "Dysuria",
+      "item": "General Weakness",
       "result_quotes": [
-        "Medical Student: How about any urinary problems?",
-        "Patient: Um, no, nothing like that."
+        "And how's your energy been? Have you had fatigue?",
+        "I have been, yeah, I've been tired."
       ]
     },
     {
-      "item": "Allergic Rhinitis",
+      "item": "Dysuria",
       "result_quotes": [
-        "Medical Student: And have you had any allergies?",
-        "Patient: Uhm, no allergies."
+        "How about any urinary problems?",
+        "Um, no, nothing like that."
+      ]
+    },
+    {
+      "item": "Dysphagia",
+      "result_quotes": [
+        "OK, is it painful to swallow food or liquids?",
+        "It's painful to swallow solids, yeah."
+      ]
+    },
+    {
+      "item": "Difficulty Talking",
+      "result_quotes": [
+        "OK, uh, and how is your, umm, have you had any voice changes like a hot potato voice or sound like muffled or any voice changes at all?",
+        "No, not really. No."
+      ]
+    },
+    {
+      "item": "Hoarse Tone",
+      "result_quotes": [
+        "OK, uh, and how is your, umm, have you had any voice changes like a hot potato voice or sound like muffled or any voice changes at all?",
+        "No, not really. No."
+      ]
+    },
+    {
+      "item": "Difficulty Feeding",
+      "result_quotes": [
+        "OK, is it painful to swallow food or liquids?",
+        "It's painful to swallow solids, yeah."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Speech Volume",
+      "truth_quotes": []
+    }
+  ]
 }
