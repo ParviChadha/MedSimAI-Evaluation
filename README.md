@@ -1,6 +1,7 @@
 # Medical Dialogue Analysis Automation Pipeline
 
-This project provides an automated pipeline for analyzing medical dialogues between medical students and patients to evaluate whether students appropriately explored relevant medical history risk factors.
+This project provides an automated pipeline for analyzing medical dialogues between medical students and patients and to test the performance of various models at recognizing whether relevant medical symptoms were discussed in
+the conversations or not. 
 
 ## Overview
 
@@ -235,14 +236,6 @@ The pipeline tracks token consumption for cost monitoring:
 - Use `--force` to reprocess existing files
 - Monitor token usage to manage API costs
 - Use faster models (like GPT-4o-mini) for large batches
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
 
 ## Citation
 
