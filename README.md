@@ -22,7 +22,7 @@ The pipeline uses Large Language Models (LLMs) to:
 1. Clone this repository:
 ```bash
 git clone <your-repo-url>
-cd medical-dialogue-analysis
+cd medSimAI-evaluation
 ```
 
 2. Install required dependencies:
@@ -236,20 +236,7 @@ The pipeline tracks token consumption for cost monitoring:
 - Monitor token usage to manage API costs
 - Use faster models (like GPT-4o-mini) for large batches
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## License
-
-[Add your license information here]
-
 ## Citation
-
 If you use this pipeline in your research, please cite:
 
 ```bibtex

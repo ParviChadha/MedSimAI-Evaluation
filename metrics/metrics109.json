@@ -1,24 +1,44 @@
 {
-  "precision": 0.9310344827586207,
+  "precision": 0.84375,
   "recall": 1.0,
-  "f1_score": 0.9642857142857143,
+  "f1_score": 0.9152542372881356,
   "true_positives": 27,
-  "false_positives": 2,
+  "false_positives": 5,
   "false_negatives": 0,
   "total_items": 55,
   "false_positive_details": [
     {
-      "item": "Weight Changes",
+      "item": "Pregnancy",
       "result_quotes": [
-        "Medical Student: OK, how about weight loss?",
-        "Patient: No, he's been um growing pretty well."
+        "do you know if his mother's pregnancy with him was normal? Did she have any complications?",
+        "she didn't have any like complications during the pregnancy"
       ]
     },
     {
-      "item": "Dysuria",
+      "item": "Weight Changes",
       "result_quotes": [
-        "Medical Student: OK. Um and how about his urine?",
-        "Patient: Uh his urine has been the same, like no changes."
+        "how about weight loss?",
+        "No, he's been um growing pretty well"
+      ]
+    },
+    {
+      "item": "Loss Of Taste",
+      "result_quotes": [
+        "have you noticed any changes in his vision, in his smell or taste?",
+        "not that I know of"
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "I think my my father has like high blood pressure, diabetes, and all those types of things"
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "has he had a stuffy nose or runny nose?",
+        "not this week, but he he was a bit like stuffy like last week I would say"
       ]
     }
   ],

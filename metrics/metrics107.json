@@ -1,18 +1,62 @@
 {
-  "precision": 0.96,
+  "precision": 0.75,
   "recall": 1.0,
-  "f1_score": 0.9795918367346939,
+  "f1_score": 0.8571428571428571,
   "true_positives": 24,
-  "false_positives": 1,
+  "false_positives": 8,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Low Mood",
+      "item": "Sleep Problem",
       "result_quotes": [
-        "Patient: I've been diagnosed with depression before as well.",
-        "Medical Student: OK, and do you take anything for depression?",
-        "Patient: I used to take a a citalopram, but I stopped and and things have been been stable."
+        "OK, any issues with your sleep and appetite?"
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "I have uhm, lost some weight",
+        "OK, and have you lost any weight recently?",
+        "Yeah, I I have actually. I'm I'm down 20 pounds."
+      ]
+    },
+    {
+      "item": "Changes In His Appetite",
+      "result_quotes": [
+        "OK, any issues with your sleep and appetite?"
+      ]
+    },
+    {
+      "item": "Sleep",
+      "result_quotes": [
+        "OK, any issues with your sleep and appetite?"
+      ]
+    },
+    {
+      "item": "Nause",
+      "result_quotes": [
+        "OK, uh, do you have any other symptoms like a headache or nausea, vomiting?"
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Do you remember 2 weeks ago prior to that, were there any factors that might have caused this, like for example, did you travel anywhere or see or was in contact with anyone that was sick?",
+        "OK, and were you in contact with anyone there that was sick or was having similar symptoms at all?"
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "And any like fatigue or increased tiredness.",
+        "Yeah, I've had some fatigue for sure."
+      ]
+    },
+    {
+      "item": "Ecercise",
+      "result_quotes": [
+        "OK, and no chest pain on exertion?"
       ]
     }
   ],

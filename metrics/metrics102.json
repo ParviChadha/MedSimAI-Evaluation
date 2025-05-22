@@ -1,32 +1,58 @@
 {
-  "precision": 0.8928571428571429,
+  "precision": 0.78125,
   "recall": 1.0,
-  "f1_score": 0.9433962264150945,
+  "f1_score": 0.8771929824561403,
   "true_positives": 25,
-  "false_positives": 3,
+  "false_positives": 7,
   "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Weight Changes",
+      "item": "Smell Problem",
       "result_quotes": [
-        "Uhm, has she lost any weight recently?",
-        "No, no no. She's been gaining weight well."
+        "OK, does, has she lost a sense of taste or smell at all?",
+        "No, she hasn't said any anything like that, just the nasal congestion."
       ]
     },
     {
-      "item": "Difficulty Talking",
+      "item": "Diet",
       "result_quotes": [
-        "OK, uhm any issues developmentally as she was growing up like to meet are all our milestones at an appropriate age?",
-        "She did yeah, she has met she was walking at the appropriate times and able to talk and does work really well in school and is social with with her classmates and peers."
+        "OK, any issues with their sleep or appetite?",
+        "She has been a bit a bit fussy, but she's been sleeping OK."
       ]
     },
     {
-      "item": "General Weakness",
+      "item": "Sleep Changes",
       "result_quotes": [
-        "Just not feeling very well.",
-        "Does she behave like herself Like is she more tired at all? More irritable, anything like that?",
-        "Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad."
+        "OK, any issues with their sleep or appetite?",
+        "She has been a bit a bit fussy, but she's been sleeping OK."
+      ]
+    },
+    {
+      "item": "Loss Of Taste",
+      "result_quotes": [
+        "OK, does, has she lost a sense of taste or smell at all?",
+        "No, she hasn't said any anything like that, just the nasal congestion."
+      ]
+    },
+    {
+      "item": "Complications During Delivery",
+      "result_quotes": [
+        "OK and were there any complications at all during your pregnancy with her or after the pregnancy?",
+        "No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications."
+      ]
+    },
+    {
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "OK, any issues with their sleep or appetite?",
+        "She has been a bit a bit fussy, but she's been sleeping OK."
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "Any other symptoms like fevers, chills, shortness of breath, um, anything like that?"
       ]
     }
   ],

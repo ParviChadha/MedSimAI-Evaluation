@@ -1,17 +1,30 @@
 {
-  "precision": 0.9444444444444444,
+  "precision": 0.85,
   "recall": 1.0,
-  "f1_score": 0.9714285714285714,
+  "f1_score": 0.9189189189189189,
   "true_positives": 17,
-  "false_positives": 1,
+  "false_positives": 3,
   "false_negatives": 0,
-  "total_items": 34,
+  "total_items": 33,
   "false_positive_details": [
     {
-      "item": "Diarrhoea",
+      "item": "Muscle Ache",
       "result_quotes": [
-        "Medical Student: Any changes in your bowel movements, or your urinary, or any urinary concerns?",
-        "Patient: Uh, no."
+        "No belly pain or muscle aches?",
+        "Uh no, nothing like that."
+      ]
+    },
+    {
+      "item": "Redness In Throat",
+      "result_quotes": [
+        "also like the back of my throat, when I look in the mirror, is like just very red and like angry looking"
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Any changes in your bowel movements, or your urinary, or any urinary concerns?",
+        "Uh, no."
       ]
     }
   ],

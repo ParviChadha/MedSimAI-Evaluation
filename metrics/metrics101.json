@@ -1,11 +1,70 @@
 {
-  "precision": 1.0,
+  "precision": 0.7567567567567568,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.8615384615384616,
   "true_positives": 28,
-  "false_positives": 0,
+  "false_positives": 9,
   "false_negatives": 0,
   "total_items": 56,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "are you having any, uh, other symptoms besides the cough, um, like shortness of breath,sore throat, um, runny nose, congestion, anything like that?"
+      ]
+    },
+    {
+      "item": "Wheez Inhale",
+      "result_quotes": [
+        "Have you been experiencing any wheezing?",
+        "Yeah I have noticed a bit of a wheeze, yes."
+      ]
+    },
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "are you having any, uh, other symptoms besides the cough, um, like shortness of breath,sore throat, um, runny nose, congestion, anything like that?",
+        "Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "do you have any allergies?"
+      ]
+    },
+    {
+      "item": "Discomfort",
+      "result_quotes": [
+        "Yeah, It does feel sore, kind of, uh, the center of my chest."
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "Yeah, so I mean sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color."
+      ]
+    },
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "OK, any changes with your sleeping or your appetite?"
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "any fatigue?",
+        "any chest pain at all?",
+        "Yeah, It does feel sore, kind of, uh, the center of my chest."
+      ]
+    },
+    {
+      "item": "Redness",
+      "result_quotes": [
+        "and have you noticed any kind of redness in your throat or any swelling around your neck?"
+      ]
+    }
+  ],
   "false_negative_details": []
 }

@@ -1,17 +1,24 @@
 {
-  "precision": 0.96,
+  "precision": 0.9230769230769231,
   "recall": 1.0,
-  "f1_score": 0.9795918367346939,
+  "f1_score": 0.9600000000000001,
   "true_positives": 24,
-  "false_positives": 1,
+  "false_positives": 2,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Difficulty Feeding",
+      "item": "Odynophagia",
       "result_quotes": [
-        "the sore throat are you having trouble or pain while swallowing any food?",
+        "And the sore throat are you having trouble or pain while swallowing any food?",
         "It's not that bad."
+      ]
+    },
+    {
+      "item": "Nasal Discharge",
+      "result_quotes": [
+        "I'm now having like a, a runny nose.",
+        "A runny nose as well? OK, when did that start?"
       ]
     }
   ],

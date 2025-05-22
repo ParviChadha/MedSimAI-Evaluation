@@ -1,16 +1,17 @@
 {
   "conversation_id": "104",
-  "model": "gemini",
+  "model": "claude",
   "operation": "filter_similar_symptoms",
-  "timestamp": "2025-05-22T13:43:27.117794",
+  "timestamp": "2025-05-22T17:42:10.228486",
   "metrics": {
     "input_tokens": {
-      "existing_symptoms": 123,
-      "additional_symptoms": 955,
-      "prompt": 1508,
-      "total": 2586
+      "existing_symptoms": 0,
+      "additional_symptoms": 0,
+      "prompt": 0,
+      "total": 0
     },
-    "output_tokens": 3996,
-    "total_tokens": 6582
+    "output_tokens": 0,
+    "total_tokens": 0,
+    "note": "No LLM call was made or call failed - this is a placeholder metrics file"
   }
 }

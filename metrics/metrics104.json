@@ -1,31 +1,68 @@
 {
-  "precision": 0.8888888888888888,
-  "recall": 1.0,
-  "f1_score": 0.9411764705882353,
-  "true_positives": 24,
-  "false_positives": 3,
-  "false_negatives": 0,
-  "total_items": 48,
+  "precision": 0.7666666666666667,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.8518518518518519,
+  "true_positives": 23,
+  "false_positives": 7,
+  "false_negatives": 1,
+  "total_items": 47,
   "false_positive_details": [
     {
-      "item": "Dysuria",
+      "item": "Stuffy Nose",
       "result_quotes": [
-        "Or or any urinary problems?",
-        "No, no."
+        "He's just had this cough and uh stuffy nose",
+        "his stuffy nose, he's sort of had a stuffy nose since around the same time"
       ]
     },
     {
-      "item": "Eye Discharge",
+      "item": "Appetite",
       "result_quotes": [
+        "how about any like changes to his appetite?",
+        "Um he's just been eating less since he's been feeling unwell."
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "can you describe the discharge?",
         "Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge."
       ]
     },
     {
-      "item": "Eye Redness",
+      "item": "Changes Inappetite",
       "result_quotes": [
-        "his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge."
+        "how about any like changes to his appetite?",
+        "Um he's just been eating less since he's been feeling unwell."
+      ]
+    },
+    {
+      "item": "Hyperhidrosis",
+      "result_quotes": [
+        "has he been having any night sweats?",
+        "No."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "any allergies to medications or uh environment that you're aware of?",
+        "Um no.",
+        "Any allergies to the dog or to pets at all?",
+        "No."
+      ]
+    },
+    {
+      "item": "Body Ache",
+      "result_quotes": [
+        "has he had any muscle aches or body pains?",
+        "Uh, no, not really."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Widespread Pain",
+      "truth_quotes": []
+    }
+  ]
 }

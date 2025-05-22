@@ -8,110 +8,34 @@
         "Just kind of all over, my whole body just kind of feels a bit achy."
       ]
     },
-    "anxious": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decrease_interest_in_activities": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "drooling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "guilt_feeling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "not_crying": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness_in_throat": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slow_motion_feeling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing": {
+    "throat_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, do you have any other symptoms? like a runny nose, sore throat? Anything like that?",
+        "Uhm, nothing like that."
+      ]
+    },
+    "allergy_medication": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaginal_discharge": {
+    "apnea_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, yeah, any changes in your bowel movements, like any Constipation or diarrhea?"
+        "OK, yeah, any changes in your bowel movements, like any Constipation or diarrhea?",
+        "No, I haven't had anything like that."
       ]
     },
     "change_in_sleep": {
@@ -124,35 +48,58 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and are you having any fevers or chills at all?"
+        "OK, and are you having any fevers or chills at all?",
+        "I have felt pretty hot, yeah, I was sweaty last night, I didn't check a temperature, but I felt feverish."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I brought up a little bit of sputum. It's been clear, mostly clear and sometimes dry as well.",
-        "OK, and how much sputum would you say you're bringing up?",
-        "OK, and is your sputum at all yellow, green? Or does it have any blood tinge content in it?"
+        "OK, and is your sputum at all yellow, green? Or does it have any blood tinge content in it?",
+        "No, I haven't noticed anything like that.",
+        "OK, so it's mainly just white or clear.",
+        "Yeah, it's mostly, yeah, like whiteish or clear."
       ]
+    },
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, yeah, any changes in your bowel movements, like any Constipation or diarrhea?"
+        "OK, yeah, any changes in your bowel movements, like any Constipation or diarrhea?",
+        "No, I haven't had anything like that."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, so I've had this cough, ongoing now for the last three days and I found I've had a more difficult time breathing as well.",
-        "Yeah, the cough started first.",
-        "OK and the cough, can you describe it a little bit? Is it like a wet cough, a dry cough?"
+        "Yeah, so I've had this cough, ongoing now for the last three days",
+        "OK, and the cough, can you describe it a little bit? Is it like a wet cough, a dry cough? How would you describe it?"
       ]
+    },
+    "decrease_interest_in_activities": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_fluid_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_physical_activity": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, yeah, any changes in your bowel movements, like any Constipation or diarrhea?"
+        "OK, yeah, any changes in your bowel movements, like any Constipation or diarrhea?",
+        "No, I haven't had anything like that."
       ]
     },
     "dyspnea": {
@@ -160,7 +107,30 @@
       "example_quotes": [
         "I found I've had a more difficult time breathing as well.",
         "When did the shortness of breath start?",
-        "OK, and how would you describe the shortness of breath?"
+        "how would you describe the shortness of breath? Are you having trouble taking deep breaths or are you having trouble breathing when exerting yourself"
+      ]
+    },
+    "ear_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I did have tubes in my ears when I was little, but that's it though."
+      ]
+    },
+    "facial_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fatigue_sleep": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Has your sleep or appetite changed at all?",
+        "I didn't sleep very good last night. I just don't feel very rested this morning."
+      ]
+    },
+    "feeling_tired": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, probably like last night, this morning when I was laying down and just felt a bit tired and achy?"
       ]
     },
     "fever": {
@@ -174,13 +144,32 @@
       "assessed": "Yes",
       "example_quotes": [
         "OK, and any headaches?",
-        "I have had a little bit of a headache over the last day. Usually I get headaches like this when I haven't slept well."
+        "I have had a little bit of a headache over the last day."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and is your sputum at all yellow, green? Or does it have any blood tinge content in it?"
+        "OK, and is your sputum at all yellow, green? Or does it have any blood tinge content in it?",
+        "No, I haven't noticed anything like that."
+      ]
+    },
+    "hyperhidrosis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, were you having night sweats?",
+        "My bed wasn't drenched or anything but I was sweating."
+      ]
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been in contact with anyone that's been sick recently?",
+        "I don't think so. I work at the Toyota factory and there have been a few people that have been sick who worked there?"
       ]
     },
     "loss_of_appetite": {
@@ -190,31 +179,48 @@
         "And yeah, I haven't felt very hungry either."
       ]
     },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and are you congested at all? Like, do you have a runny nose or anything like that?"
+        "OK, and are you congested at all? Like, do you have a runny nose or anything like that?",
+        "No, I don't have anything like that."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you having any nausea or vomiting?"
+        "Are you having any nausea or vomiting?",
+        "No, I haven't had anything like that."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any muscle aches?",
-        "I have had a little bit of a headache over the last day.",
-        "Yeah, I have like, a chest tightness."
+        "and have you had any kind of, like swelling in your calves, or pain in your calves at all?",
+        "No, I haven't had anything like that."
+      ]
+    },
+    "pressure_in_around_face": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and is it kind of like a pressure like pain? Is it pulsating pain? How would you describe it?",
+        "I would say it's more of a pressure, yeah."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you have any other symptoms? like a runny nose, sore throat? Anything like that?"
+        "OK, do you have any other symptoms? like a runny nose, sore throat? Anything like that?",
+        "Uhm, nothing like that."
       ]
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
@@ -233,38 +239,60 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you have any other symptoms? like a runny nose, sore throat? Anything like that?"
+        "OK, do you have any other symptoms? like a runny nose, sore throat? Anything like that?",
+        "Uhm, nothing like that."
       ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and have you had any kind of, like swelling in your calves, or pain in your calves at all?"
+        "and have you had any kind of, like swelling in your calves, or pain in your calves at all?",
+        "No, I haven't had anything like that."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK are you feeling like you have lost any sense of taste or smell at all?"
+        "OK are you feeling like you have lost any sense of taste or smell at all?",
+        "Uhm, Yeah, I haven't been able to smell very well."
       ]
     },
     "tightness": {
       "assessed": "Yes",
       "example_quotes": [
         "Yeah, I have like, a chest tightness.",
-        "OK, so is it just the tightness when you cough or is it there just throughout?",
-        "Yeah if I take like a deep breath in, like, it just feels tight, like I can't get a deep breath."
+        "OK, When do you have the chest tightness, when did that start?"
       ]
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you having any nausea or vomiting?"
+        "Are you having any nausea or vomiting?",
+        "No, I haven't had anything like that."
       ]
+    },
+    "watery_eyes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "just, like in the springtime, I'll get itchy eyes or a runny nose."
+      ]
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "widespread_pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, any muscle aches?",
         "Just kind of all over, my whole body just kind of feels a bit achy."
       ]
     }
