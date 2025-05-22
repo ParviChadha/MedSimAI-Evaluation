@@ -212,10 +212,10 @@ def main():
     
     # Generate file paths based on conversation number
     conversation_number = args.conversation_number
-    results_file = args.results or f"results{conversation_number}.json"
-    annotations_file = args.annotations or f"annotations{conversation_number}.json"
-    criteria_file = args.criteria or f"criteria{conversation_number}.json"
-    output_file = args.output or f"metrics{conversation_number}.json"
+    results_file = args.results or f"results/results{conversation_number}.json"
+    annotations_file = args.annotations or f"data/annotations/annotations{conversation_number}.json"
+    criteria_file = args.criteria or f"output/criteria/criteria{conversation_number}.json"
+    output_file = args.output or f"output/metrics/metrics{conversation_number}.json"
     
     # Load results file
     print(f"Loading results from {results_file}...")

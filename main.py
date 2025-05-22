@@ -9,19 +9,22 @@ import tqdm
 from functools import partial
 import argparse
 
+# Add src directory to path for imports
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+
 # Import our ModelInterface 
 from model_interface import ModelInterface, process_conversation_worker
 
 def create_directory_structure():
     """Create the necessary directory structure for the project."""
     directories = [
-        "transcripts", 
-        "dialogs", 
-        "annotations", 
-        "criteria", 
+        "data/transcripts", 
+        "data/dialogs", 
+        "data/annotations", 
+        "output/criteria", 
         "results", 
-        "metrics",
-        "token_metrics"  # New directory for token metrics
+        "output/metrics",
+        "output/token_metrics"
     ]
     
     for directory in directories:
@@ -345,8 +348,8 @@ def main():
     """Main function to run the entire pipeline with proper multiprocessing."""
     parser = argparse.ArgumentParser(description="Automate medical dialogue analysis pipeline")
     
-    parser.add_argument("--dialogs", default="dialogs.json", help="Main dialogs JSON file")
-    parser.add_argument("--annotations", default="annotations.json", help="Main annotations JSON file")
+    parser.add_argument("--dialogs", default="data/dialogs.json", help="Main dialogs JSON file")
+    parser.add_argument("--annotations", default="data/annotations.json", help="Main annotations JSON file")
     parser.add_argument("--start", type=int, default=101, help="Starting conversation ID")
     parser.add_argument("--end", type=int, default=201, help="Ending conversation ID")
     parser.add_argument("--parallel", type=int, default=4, help="Number of parallel processes")
@@ -376,19 +379,20 @@ def main():
     # If force flag is set, clear existing files
     if args.force:
         for directory in directories:
-            for file in os.listdir(directory):
-                file_path = os.path.join(directory, file)
-                if os.path.isfile(file_path):
-                    os.remove(file_path)
-            print(f"Cleared all files in {directory}")
+            if os.path.exists(directory):
+                for file in os.listdir(directory):
+                    file_path = os.path.join(directory, file)
+                    if os.path.isfile(file_path):
+                        os.remove(file_path)
+                print(f"Cleared all files in {directory}")
     
     # Extract individual conversations from main files
     extracted_dialogs = extract_all_conversations(
-        args.dialogs, directories[1], "dialogs", args.start, args.end
+        args.dialogs, "data/dialogs", "dialogs", args.start, args.end
     )
     
     extracted_annotations = extract_all_conversations(
-        args.annotations, directories[2], "annotations", args.start, args.end
+        args.annotations, "data/annotations", "annotations", args.start, args.end
     )
     
     # Find common conversation IDs that were successfully extracted from both files
@@ -436,11 +440,11 @@ def main():
     
     # Calculate aggregated metrics
     if successful_conversations:
-        calculate_aggregated_metrics(directories[5], successful_conversations)
+        calculate_aggregated_metrics("output/metrics", successful_conversations)
         
         # Summarize token metrics unless explicitly skipped
         if not args.skip_token_summary:
-            summarize_token_metrics("token_metrics", successful_conversations)
+            summarize_token_metrics("output/token_metrics", successful_conversations)
     else:
         print("No conversations were successfully processed. Cannot calculate aggregated metrics.")
 

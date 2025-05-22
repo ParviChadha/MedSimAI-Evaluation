@@ -464,51 +464,34 @@ class ModelInterface:
             
             return f"Error: {str(e)}"
 
-    
-        # create log file if it doesn't exist
-        # if not os.path.exists("fireworks_response.log"):
-        #     with open("fireworks_response.log", "w") as log_file:
-        #         log_file.write("Fireworks response log\n")
-        # # send response to a log file
-        # with open("fireworks_response.log", "a") as log_file:
-        #     log_file.write(f"Fireworks response: {response}\n")
-
-        
-        #content = response.choices[0].message.content
-        #content = parse_json(response.choices[0].message.content)
-        # #create log file if it doesn't exist
-        # if not os.path.exists("fireworks_content.log"):
-        #     with open("fireworks_content.log", "w") as log_file:
-        #         log_file.write("Fireworks content log\n")
-        # # send content to a log file
-        # with open("fireworks_content.log", "a") as log_file:
-        #     log_file.write(f"Fireworks content: {content}\n")
-
-        # if response_type == "json_object":
-        #     return json.loads(content)
-        # return content
-
 # Helper function for process_conversation that creates its own ModelInterface
 def process_conversation_worker(conv_id, model_name, api_key=None):
     """Process a single conversation with a new ModelInterface instance"""
     try:
         # Import necessary modules within the worker
-        from create_transcript import create_transcript
         import subprocess
         import os
+        import sys
+        
+        # Add src directory to path for imports within worker
+        src_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'src')
+        if src_path not in sys.path:
+            sys.path.insert(0, src_path)
+        
+        from create_transcript import create_transcript
         
         print(f"Worker processing conversation {conv_id}")
         
         # Create a fresh ModelInterface for this worker
         model_interface = ModelInterface(model_name, api_key)
         
-        # File paths
-        transcript_file = f"transcripts/transcript{conv_id}.txt"
-        dialog_file = f"dialogs/dialogs{conv_id}.json"
-        annotation_file = f"annotations/annotations{conv_id}.json"
-        criteria_file = f"criteria/criteria{conv_id}.json"
+        # File paths - updated for new structure
+        transcript_file = f"data/transcripts/transcript{conv_id}.txt"
+        dialog_file = f"data/dialogs/dialogs{conv_id}.json"
+        annotation_file = f"data/annotations/annotations{conv_id}.json"
+        criteria_file = f"output/criteria/criteria{conv_id}.json"
         results_file = f"results/results{conv_id}.json"
-        metrics_file = f"metrics/metrics{conv_id}.json"
+        metrics_file = f"output/metrics/metrics{conv_id}.json"
         
         # Step 1: Create transcript from dialog
         if not os.path.exists(transcript_file):
@@ -521,8 +504,8 @@ def process_conversation_worker(conv_id, model_name, api_key=None):
         if not os.path.exists(criteria_file):
             print(f"Creating criteria for conversation {conv_id} using {model_name}")
             create_criteria_cmd = [
-                'python', 'create_criteria.py', 
-                annotation_file, criteria_file, conv_id, 'all_symptoms.json'
+                'python', 'src/create_criteria.py', 
+                annotation_file, criteria_file, conv_id, 'output/all_symptoms.json'
             ]
             
             if api_key:
@@ -550,7 +533,7 @@ def process_conversation_worker(conv_id, model_name, api_key=None):
         if not os.path.exists(results_file):
             print(f"Creating results for conversation {conv_id} using {model_name}")
             create_results_cmd = [
-                'python', 'create_results.py',
+                'python', 'src/create_results.py',
                 transcript_file, criteria_file, results_file
             ]
             
@@ -579,7 +562,7 @@ def process_conversation_worker(conv_id, model_name, api_key=None):
         if not os.path.exists(metrics_file):
             print(f"Calculating metrics for conversation {conv_id}")
             metrics_cmd = [
-                'python', 'metrics_evaluation.py',
+                'python', 'src/metrics_evaluation.py',
                 conv_id,
                 f"--results={results_file}",
                 f"--annotations={annotation_file}",

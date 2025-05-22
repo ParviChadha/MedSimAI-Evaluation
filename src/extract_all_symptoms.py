@@ -55,7 +55,7 @@ def main():
     """Extract all symptoms from a range of conversations and save to a file."""
     parser = argparse.ArgumentParser(description="Extract symptoms from a range of conversations")
     parser.add_argument("annotations_file", help="Path to the main annotations JSON file")
-    parser.add_argument("--output", default="all_symptoms.json", help="Output file path (default: all_symptoms.json)")
+    parser.add_argument("--output", default="output/all_symptoms.json", help="Output file path (default: output/all_symptoms.json)")
     parser.add_argument("--start", type=int, default=101, help="Starting conversation ID")
     parser.add_argument("--end", type=int, default=200, help="Ending conversation ID")
     parser.add_argument("--append", action="store_true", help="Append to existing all_symptoms.json instead of overwriting")

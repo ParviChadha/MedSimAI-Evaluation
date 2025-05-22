@@ -9,11 +9,11 @@ from tiktoken import encoding_for_model  # Import for token counting
 # Configuration - Change this to set the conversation number
 CONVERSATION_NUMBER = "102"  # Edit this line to change conversation number
 
-# Path to the comprehensive symptoms file
-ALL_SYMPTOMS_FILE = "all_symptoms.json"  # Edit if your file is named differently
+# Path to the comprehensive symptoms file - updated for new structure
+ALL_SYMPTOMS_FILE = "output/all_symptoms.json"  # Edit if your file is named differently
 
-# Token metrics directory
-TOKEN_METRICS_DIR = "token_metrics"  # Directory to store token metrics
+# Token metrics directory - updated for new structure
+TOKEN_METRICS_DIR = "output/token_metrics"  # Directory to store token metrics
 
 # Symptoms to always exclude (hardcoded)
 EXCLUDED_SYMPTOMS = {"general", "surgery", "recent hospitalizaiton", "past experience"} #made a big choice
