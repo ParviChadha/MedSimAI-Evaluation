@@ -1,6 +1,7 @@
 # Medical Dialogue Analysis Automation Pipeline
 
-This project provides an automated pipeline for analyzing medical dialogues between medical students and patients to evaluate whether students appropriately explored relevant medical history risk factors.
+This project provides an automated pipeline for analyzing medical dialogues between medical students and patients and to test the performance of various models at recognizing whether relevant medical symptoms were discussed in
+the conversations or not. 
 
 ## Overview
 
@@ -22,7 +23,7 @@ The pipeline uses Large Language Models (LLMs) to:
 1. Clone this repository:
 ```bash
 git clone <your-repo-url>
-cd medSimAI-evaluation
+cd medical-dialogue-analysis
 ```
 
 2. Install required dependencies:
@@ -237,6 +238,7 @@ The pipeline tracks token consumption for cost monitoring:
 - Use faster models (like GPT-4o-mini) for large batches
 
 ## Citation
+
 If you use this pipeline in your research, please cite:
 
 ```bibtex
