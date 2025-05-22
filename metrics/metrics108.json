@@ -1,83 +1,46 @@
 {
-  "precision": 0.7142857142857143,
-  "recall": 0.8,
-  "f1_score": 0.7547169811320756,
-  "true_positives": 20,
-  "false_positives": 8,
-  "false_negatives": 5,
+  "precision": 0.8333333333333334,
+  "recall": 1.0,
+  "f1_score": 0.9090909090909091,
+  "true_positives": 25,
+  "false_positives": 5,
+  "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Hyperhidrosis",
+      "item": "Decreased Activity",
       "result_quotes": [
-        "I have felt pretty hot, yeah, I was sweaty last night"
+        "Yeah, if I exert myself it does make it a bit worse. It'll bring on the cough more, and shortness of breath."
       ]
     },
     {
-      "item": "Smell Problem",
+      "item": "Infection",
       "result_quotes": [
-        "Uhm, Yeah, I haven't been able to smell very well."
+        "Have you been in contact with anyone that's been sick recently?",
+        "I don't think so. I work at the Toyota factory and there have been a few people that have been sick who worked there? But I don't think I've been in contact with them."
       ]
     },
     {
-      "item": "Difficulty Sleeping",
+      "item": "Eye Redness",
       "result_quotes": [
-        "I didn't sleep very good last night."
+        "OK, and do you have any allergies?",
+        "Uhm, just environmental stuff I think, just, like in the springtime, I'll get itchy eyes or a runny nose."
       ]
     },
     {
-      "item": "Unexplained Weight Loss",
+      "item": "Facial Pressure",
       "result_quotes": [
-        "And yeah, I haven't felt very hungry either."
+        "Yeah, I feel it on both, kinda like right up into my forehead there.",
+        "OK, and is it kind of like a pressure like pain? Is it pulsating pain? How would you describe it?",
+        "I would say it's more of a pressure, yeah."
       ]
     },
     {
-      "item": "Chest Pressure",
+      "item": "Straining And Chest Discomfort",
       "result_quotes": [
-        "Yeah, I have like, a chest tightness.",
-        "it just feels like I'm not able to, like, breath in all the way and catch my breath"
-      ]
-    },
-    {
-      "item": "Lung Complications",
-      "result_quotes": [
-        "Any family history of any heart or lung conditions?",
-        "especially also the shortness of breath"
-      ]
-    },
-    {
-      "item": "Coughing Fit",
-      "result_quotes": [
-        "Yeah, so I've had this cough, ongoing now for the last three days"
-      ]
-    },
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "you don't have any high blood pressure or anything like that, right?"
+        "Yeah, I have like, a chest tightness. I find when I exert myself it gets worse and after I cough, I have a little bit of trouble catching my breath as well."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

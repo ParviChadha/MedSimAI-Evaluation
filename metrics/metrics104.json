@@ -1,36 +1,49 @@
 {
-  "precision": 0.88,
-  "recall": 0.9166666666666666,
-  "f1_score": 0.8979591836734694,
-  "true_positives": 22,
-  "false_positives": 3,
-  "false_negatives": 2,
+  "precision": 0.8214285714285714,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.8846153846153847,
+  "true_positives": 23,
+  "false_positives": 5,
+  "false_negatives": 1,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Complications Actual Delivery",
-      "result_quotes": [
-        "Uh yeah, I did have to take insulin. Um he was he was also a pretty big baby when he was born, um we had to, I had to give, get a C-section done."
-      ]
-    },
-    {
       "item": "Complications During Delivery",
       "result_quotes": [
-        "Uh yeah, I did have to take insulin. Um he was he was also a pretty big baby when he was born, um we had to, I had to give, get a C-section done."
+        "Medical Student: OK, um and in terms of the pregnancy, uh were there any complications during the pregnancy like gestational diabetes or or um high blood pressure?",
+        "Patient: Uh I did have gestational diabetes.",
+        "Medical Student: OK, were there any complications with the with the procedure, with the surgery?",
+        "Patient: No no, no complications at all."
       ]
     },
     {
-      "item": "Vaccine Related Reaction",
+      "item": "Watery Eyes",
       "result_quotes": [
-        "Um well, no, I don't. I don't I don't vaccinate my kids. I'm just I'm I'm worried that they'll uh get autism."
+        "Patient: Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "Medical Student: OK, um and in terms of the pregnancy, uh were there any complications during the pregnancy like gestational diabetes or or um high blood pressure?",
+        "Patient: Uh I did have gestational diabetes."
+      ]
+    },
+    {
+      "item": "Redness In Throat",
+      "result_quotes": [
+        "Medical Student: Alright, um has he had a sore throat?",
+        "Patient: Um no."
+      ]
+    },
+    {
+      "item": "Eye Discharge",
+      "result_quotes": [
+        "Patient: Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge."
       ]
     }
   ],
   "false_negative_details": [
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
     {
       "item": "Widespread Pain",
       "truth_quotes": []

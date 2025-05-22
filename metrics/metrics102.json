@@ -1,41 +1,46 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 0.96,
-  "f1_score": 0.9056603773584904,
-  "true_positives": 24,
-  "false_positives": 4,
-  "false_negatives": 1,
+  "precision": 0.8333333333333334,
+  "recall": 1.0,
+  "f1_score": 0.9090909090909091,
+  "true_positives": 25,
+  "false_positives": 5,
+  "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Behavior Changes",
+      "item": "Drowsiness",
       "result_quotes": [
-        "Does she behave like herself Like is she more tired at all? More irritable, anything like that?"
+        "Medical Student: Does she behave like herself Like is she more tired at all? More irritable, anything like that?",
+        "Patient: Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad. She, she missed school today but went yesterday."
       ]
     },
     {
-      "item": "Complications During Delivery",
+      "item": "Flu Like Symptom",
       "result_quotes": [
-        "it was a vaginal delivery at 38 weeks and she was a normal weight"
+        "Medical Student: OK. So yeah, based on her symptoms, she does seem to have some just a cold like symptoms, viral symptoms."
       ]
     },
     {
-      "item": "Lethargic",
+      "item": "Feeling Tired",
       "result_quotes": [
-        "she's been a, maybe a bit more, maybe a bit more tired"
+        "Medical Student: Does she behave like herself Like is she more tired at all? More irritable, anything like that?",
+        "Patient: Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad. She, she missed school today but went yesterday."
       ]
     },
     {
-      "item": "Complications Actual Delivery",
+      "item": "Underweight At Birth",
       "result_quotes": [
-        "were able to go home right away with with no complications"
+        "Medical Student: OK and were there any complications at all during your pregnancy with her or after the pregnancy?",
+        "Patient: No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications. So yeah, things were good."
+      ]
+    },
+    {
+      "item": "Weight Gain",
+      "result_quotes": [
+        "Medical Student: Uhm, has she lost any weight recently?",
+        "Patient: No, no no. She's been gaining weight well."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

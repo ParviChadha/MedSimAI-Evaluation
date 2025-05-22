@@ -1,46 +1,34 @@
 {
-  "precision": 0.9130434782608695,
-  "recall": 0.7777777777777778,
-  "f1_score": 0.84,
-  "true_positives": 21,
-  "false_positives": 2,
-  "false_negatives": 6,
+  "precision": 0.896551724137931,
+  "recall": 0.9629629629629629,
+  "f1_score": 0.9285714285714286,
+  "true_positives": 26,
+  "false_positives": 3,
+  "false_negatives": 1,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Numbness",
+      "item": "Phlegm",
       "result_quotes": [
-        "Any numbness or tingling in your arms or feet?"
+        "Medical Student: So, it's more of just like a dry cough. I'm not really bringing anything up."
       ]
     },
     {
-      "item": "Tingling",
+      "item": "Motor Weakness",
       "result_quotes": [
-        "Any numbness or tingling in your arms or feet?"
+        "Medical Student: Any numbness or tingling in your arms or feet?",
+        "Patient: Nope."
+      ]
+    },
+    {
+      "item": "Bowel Movement",
+      "result_quotes": [
+        "Medical Student: Diarrhea or constipation?",
+        "Patient: No."
       ]
     }
   ],
   "false_negative_details": [
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sensitive To Allergies",
-      "truth_quotes": []
-    },
-    {
-      "item": "Food Allergy",
-      "truth_quotes": []
-    },
-    {
-      "item": "Watery Eyes",
-      "truth_quotes": []
-    },
-    {
-      "item": "Allergy Medication",
-      "truth_quotes": []
-    },
     {
       "item": "Paralysis General",
       "truth_quotes": []

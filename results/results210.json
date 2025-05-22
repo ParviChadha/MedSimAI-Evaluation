@@ -1,30 +1,14 @@
 {
   "medical_history_assessed": {
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "brain_fog": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "change_in_taste": {
       "assessed": "No",
       "example_quotes": []
     },
-    "complications_actual_delivery": {
+    "discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "complications_during_delivery": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "foreign_body_intake": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "guilt_feeling": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -32,17 +16,23 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "injury": {
       "assessed": "Yes",
       "example_quotes": [
-        "So I think it started just around 2 hours ago. I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest"
+        "OK, so any injuries to the head?",
+        "Alright, and I know you mentioned the few scratches on your hands, but any other injuries?",
+        "Oh no, I I think I got a pretty lucky."
       ]
     },
-    "lumps": {
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_sense": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_smell": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -50,11 +40,15 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_limb_or_face": {
+    "phlegm": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -62,29 +56,39 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "physical_or_emotional_abuse_at_home": {
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rigors": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_hurt": {
+    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_harm_thoughts": {
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tachypnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, like I think I I'm having. Also maybe it's just because I'm trying to breathe slowly, but I feel like I can't catch my breath."
+      ]
+    },
+    "throat_pain": {
       "assessed": "No",
       "example_quotes": []
     },
     "trauma": {
       "assessed": "Yes",
       "example_quotes": [
-        "So I think it started just around 2 hours ago. I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest"
+        "So I think it started just around 2 hours ago. I actually was riding my bicycle and just fell off on, kind of just slipped and I think I fell on that side like when I the impact was right on my chest and since then it's been really painful."
       ]
     },
-    "vaccine_related_reaction": {
+    "wheez": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -92,28 +96,27 @@
       "assessed": "Yes",
       "example_quotes": [
         "So I came to the emergency Department because I've been having pain in my chest.",
-        "I would say it's like the whole pretty much the left side of my chest.",
-        "I think it's more like someone is just stabbing me and then whole left side area."
+        "OK, where is the pain located?"
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and how about any fever chills?"
+        "OK, how about any fever chills?",
+        "No, I feel I'm fine."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any recent infections?",
-        "No, I've been pretty pretty healthy recently. No, no cough or no infections.",
-        "Do you have a cough?",
+        "OK, and do you have a cough?",
         "Nope."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, and uh, any dizziness?",
         "Um no."
       ]
     },
@@ -126,21 +129,21 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and how about any fever chills?",
+        "OK, how about any fever chills?",
         "No, I feel I'm fine."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and any headache right now?",
+        "OK, excellent and any headache right now?",
         "No."
       ]
     },
     "loss_of_consciousness": {
       "assessed": "Yes",
       "example_quotes": [
-        "are you, did you have a loss of consciousness when you fell off your bike?",
+        "OK are you, did you have a loss of consciousness when you fell off your bike?",
         "No, I got right back up. I just just had the pain."
       ]
     },
@@ -154,7 +157,7 @@
     "numbness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any weakness or numbness or tingling that you noticed?",
+        "OK, and any weakness or numbness or tingling that you noticed?",
         "Um no nothing like that."
       ]
     },
@@ -162,9 +165,7 @@
       "assessed": "Yes",
       "example_quotes": [
         "So I came to the emergency Department because I've been having pain in my chest.",
-        "I would say it's like the whole pretty much the left side of my chest.",
-        "I think it's more like someone is just stabbing me and then whole left side area.",
-        "If I. Think I have to take really really slow and shallow breaths. If I try to take a deep breath it just really hurts like taking those small, smaller breaths helps."
+        "OK, where is the pain located?"
       ]
     },
     "palpitation": {
@@ -177,7 +178,7 @@
     "tingling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any weakness or numbness or tingling that you noticed?",
+        "OK, and any weakness or numbness or tingling that you noticed?",
         "Um no nothing like that."
       ]
     },
@@ -191,7 +192,7 @@
     "weakness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any weakness or numbness or tingling that you noticed?",
+        "OK, and any weakness or numbness or tingling that you noticed?",
         "Um no nothing like that."
       ]
     }

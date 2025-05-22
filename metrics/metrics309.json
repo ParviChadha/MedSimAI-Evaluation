@@ -1,115 +1,26 @@
 {
-  "precision": 0.875,
-  "recall": 0.22580645161290322,
-  "f1_score": 0.358974358974359,
-  "true_positives": 7,
-  "false_positives": 1,
-  "false_negatives": 24,
+  "precision": 0.9393939393939394,
+  "recall": 1.0,
+  "f1_score": 0.96875,
+  "true_positives": 31,
+  "false_positives": 2,
+  "false_negatives": 0,
   "total_items": 62,
   "false_positive_details": [
     {
-      "item": "Lethargic",
+      "item": "Vision Problem",
       "result_quotes": [
-        "Just just some fatigue, some tiredness."
+        "Medical Student: How about any eye symptoms like discharge or or eye pain?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "Medical Student: Ok, any allergies?",
+        "Patient: I'm allergic to penicillin."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Rapid Breathing",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Memory Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Weakness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Discharge",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

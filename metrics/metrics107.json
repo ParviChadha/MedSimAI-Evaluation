@@ -1,82 +1,40 @@
 {
-  "precision": 0.7857142857142857,
-  "recall": 0.4583333333333333,
-  "f1_score": 0.5789473684210527,
-  "true_positives": 11,
-  "false_positives": 3,
-  "false_negatives": 13,
+  "precision": 0.8518518518518519,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.9019607843137256,
+  "true_positives": 23,
+  "false_positives": 4,
+  "false_negatives": 1,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Complications Actual Delivery",
+      "item": "General Weakness",
       "result_quotes": [
-        "I had two C sections for my second daughter and and 3rd."
+        "I've been more fatigued over the last couple months."
       ]
     },
     {
-      "item": "Pregnancy",
+      "item": "Weakness",
       "result_quotes": [
-        "I had two C sections for my second daughter and and 3rd."
+        "I've been more fatigued over the last couple months."
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Sleep Changes",
       "result_quotes": [
-        "Yeah I do have uh, type 2 diabetes, as well as high blood pressure."
+        "I have been sweating at night"
+      ]
+    },
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "I have been sweating at night"
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
       "truth_quotes": []
     }
   ]

@@ -1,27 +1,19 @@
 {
-  "precision": 0.9629629629629629,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.9454545454545454,
-  "true_positives": 26,
+  "precision": 0.9655172413793104,
+  "recall": 1.0,
+  "f1_score": 0.9824561403508771,
+  "true_positives": 28,
   "false_positives": 1,
-  "false_negatives": 2,
-  "total_items": 53,
+  "false_negatives": 0,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Impeding Doom Anxiety",
+      "item": "Dysuria",
       "result_quotes": [
-        "I was very worried um uh about the blood. I was just reading some things up and uh, about tuberculosis, so I was really stressed out today."
+        "Medical Student: No, changes in your urine?",
+        "Patient: Nope."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

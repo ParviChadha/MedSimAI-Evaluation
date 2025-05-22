@@ -1,138 +1,100 @@
 {
-  "precision": 0.6,
-  "recall": 0.1935483870967742,
-  "f1_score": 0.2926829268292683,
-  "true_positives": 6,
-  "false_positives": 4,
-  "false_negatives": 25,
+  "precision": 0.7045454545454546,
+  "recall": 1.0,
+  "f1_score": 0.8266666666666667,
+  "true_positives": 31,
+  "false_positives": 13,
+  "false_negatives": 0,
   "total_items": 62,
   "false_positive_details": [
     {
-      "item": "Weight Changes",
+      "item": "Mucous Building",
       "result_quotes": [
-        "I think over the last few months I may have lost like around 3 three kilograms."
+        "Patient: No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood."
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Loss Of Smell",
       "result_quotes": [
-        "I do have high blood pressure"
+        "Medical Student: Any changes to your smell?",
+        "Patient: No."
       ]
     },
     {
-      "item": "Hyperhidrosis",
+      "item": "Allergic Rhinitis",
       "result_quotes": [
-        "just a few times per week I would maybe have to take off my blanket sometimes I notice a lot of my sweat covering the bed sheets"
+        "Medical Student: OK, good, um, any allergies?",
+        "Patient: No. No allergies."
       ]
     },
     {
-      "item": "Lethargic",
+      "item": "Teary Eyes",
       "result_quotes": [
-        "I feel just tired and short of breath all the time so just staying in my house most of the time.",
-        "Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older."
+        "Medical Student: Changes in your vision or eye pain?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Tearing",
+      "result_quotes": [
+        "Medical Student: Changes in your vision or eye pain?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Itching Eyes",
+      "result_quotes": [
+        "Medical Student: Changes in your vision or eye pain?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Redness",
+      "result_quotes": [
+        "Medical Student: OK, OK, any rashes on your body?",
+        "Patient: Not that I know, no."
+      ]
+    },
+    {
+      "item": "Asthma",
+      "result_quotes": [
+        "Patient: Uh, in terms of like breathing, I think maybe as a child like I may have had like a pneumonia but nothing else.",
+        "Medical Student: Yeah, for sure. So we will try to do a good job working you up for everything that we think it may be. And right now, it sounds like it could be pulmonary fibrosis either like you know an autoimmune process or triggered after like an infection that you may have had in the past. We will definitely also look into see if it's perhaps a lung cancer, asthma and you mentioned you don't smoke so we don't think it could be COPD but we'll also test for that in case all everything else comes back negative."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "Patient: No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood."
+      ]
+    },
+    {
+      "item": "Itchiness",
+      "result_quotes": [
+        "Medical Student: OK, OK, any rashes on your body?",
+        "Patient: Not that I know, no."
+      ]
+    },
+    {
+      "item": "Runny Eyes",
+      "result_quotes": [
+        "Medical Student: Changes in your vision or eye pain?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Patient: Uh, so yeah, my dad had quite a few problems. He had type 2 diabetes"
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "Medical Student: OK. Um, how about uh like feeling you're like you're tired?",
+        "Patient: Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Memory Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

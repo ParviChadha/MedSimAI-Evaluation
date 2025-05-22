@@ -1,51 +1,67 @@
 {
-  "precision": 0.8846153846153846,
-  "recall": 0.8214285714285714,
-  "f1_score": 0.8518518518518519,
-  "true_positives": 23,
-  "false_positives": 3,
-  "false_negatives": 5,
+  "precision": 0.7777777777777778,
+  "recall": 1.0,
+  "f1_score": 0.8750000000000001,
+  "true_positives": 28,
+  "false_positives": 8,
+  "false_negatives": 0,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Mucous Building",
+      "item": "Tearing",
       "result_quotes": [
-        "Uh yeah, sometimes I feel like that over the last week."
+        "Medical Student: OK, um and have you had any eye redness or um eye discharge?",
+        "Patient: No, I don't think so."
       ]
     },
     {
-      "item": "Weight Gain",
+      "item": "Food Allergy",
       "result_quotes": [
-        "And how was your weight been recently? Any changes?"
+        "Medical Student: OK, um do you have any allergies?",
+        "Patient: Uh no."
       ]
     },
     {
-      "item": "Vaginal Discharge",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "And do you use condoms or any form of birth control?"
+        "Medical Student: OK, um do you have any allergies?",
+        "Patient: Uh no."
+      ]
+    },
+    {
+      "item": "Cold",
+      "result_quotes": [
+        "Patient: Hi yes I'm just coming in, uh over the last week, I've been having um like a cough, runny nose and a lot of congestion as well. So I just wanted to come in here to make sure nothing's wrong."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "Medical Student: I see, OK, and is there any chance that uh you could be pregnant currently?",
+        "Patient: Uh, no, I don't think so."
+      ]
+    },
+    {
+      "item": "Vision Problem",
+      "result_quotes": [
+        "Medical Student: OK, um and have you had any eye redness or um eye discharge?",
+        "Patient: No, I don't think so."
+      ]
+    },
+    {
+      "item": "Dysphagia",
+      "result_quotes": [
+        "Medical Student: OK, so have you had any pain with swallowing food or liquids?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Medical Student: OK, and have you had any urinary problems like painful urination or or frequency?",
+        "Patient: Nope."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Watery Eyes",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Speech Volume",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

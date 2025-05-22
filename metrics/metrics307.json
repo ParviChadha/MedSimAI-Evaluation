@@ -1,22 +1,44 @@
 {
-  "precision": 0.9354838709677419,
-  "recall": 0.8787878787878788,
-  "f1_score": 0.90625,
-  "true_positives": 29,
-  "false_positives": 2,
-  "false_negatives": 4,
+  "precision": 0.8611111111111112,
+  "recall": 0.9393939393939394,
+  "f1_score": 0.8985507246376813,
+  "true_positives": 31,
+  "false_positives": 5,
+  "false_negatives": 2,
   "total_items": 66,
   "false_positive_details": [
     {
-      "item": "Vaccine Related Reaction",
+      "item": "Lung Complications",
       "result_quotes": [
-        "I've received the Zoster vaccine for shingles and also the one for pneumonia."
+        "OK, and do you know of any family history of lung conditions or heart conditions?",
+        "No, I think my aunt had lung cancer but she smoked her entire life."
       ]
     },
     {
-      "item": "Sensation Of Chest",
+      "item": "Symptom Speedup",
       "result_quotes": [
-        "Do you have any chest pain associated with that?"
+        "Uh, the shortness of breath has come on, I don't know within the last day or so. It's come on after that, the cough started first."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Well, I visited my mother at a long term care facility just this past weekend, so I guess about just over a week ago I visited there.",
+        "Yeah, there has been, I thought I was like away from those areas but I have heard about outbreaks there."
+      ]
+    },
+    {
+      "item": "Ear Problem",
+      "result_quotes": [
+        "OK, any discharge or pain in your eyes or ears?",
+        "No, that's been OK."
+      ]
+    },
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "Are you having issues sleeping because of your shortness of breath?",
+        "Uh, well I can't tell if it's that or the cough. I mean between those two things it's been definitely interrupting my sleep."
       ]
     }
   ],
@@ -26,15 +48,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Discharge",
-      "truth_quotes": []
-    },
-    {
-      "item": "Rectal Bleeding",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
+      "item": "Sleep Dyspnea",
       "truth_quotes": []
     }
   ]

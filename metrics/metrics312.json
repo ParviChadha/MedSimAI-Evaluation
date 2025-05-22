@@ -1,54 +1,60 @@
 {
-  "precision": 0.8,
-  "recall": 0.96,
-  "f1_score": 0.8727272727272728,
-  "true_positives": 24,
-  "false_positives": 6,
-  "false_negatives": 1,
+  "precision": 0.78125,
+  "recall": 1.0,
+  "f1_score": 0.8771929824561403,
+  "true_positives": 25,
+  "false_positives": 7,
+  "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Allergic Rhinitis",
+      "item": "Diarrhoea",
       "result_quotes": [
-        "\"any history of asthma or eczema or allergic rhinitis?\"",
-        "\"No, I haven't heard of those before.\""
+        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
+        "Patient: No."
       ]
     },
     {
-      "item": "Sensitive To Allergies",
+      "item": "Change In Sleep",
       "result_quotes": [
-        "\"Yeah I, I have allergies to peanuts.\""
+        "Medical Student: And I guess going back to the cough, does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?",
+        "Patient: No I, it hasn't done that."
       ]
     },
     {
-      "item": "Behavior Changes",
+      "item": "Difficulty Talking",
       "result_quotes": [
-        "\"are things going well at school? Any bullying? Are you happy with your grades?\""
+        "Medical Student: OK. Uhm, and I guess going back to the cough, does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?",
+        "Patient: No I, it hasn't done that."
       ]
     },
     {
-      "item": "General Weakness",
+      "item": "Dysuria",
       "result_quotes": [
-        "\"and I've been really like achy and and tired as well.\""
+        "Medical Student: Uhm, any belly pain, nausea or vomiting, any changes in your bowel movements or any urinary symptoms?",
+        "Patient: No."
       ]
     },
     {
-      "item": "Sleep Changes",
+      "item": "Self Harm Thoughts",
       "result_quotes": [
-        "\"does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?\""
+        "Medical Student: Also I just want to remind you that these questions will remain confidential between you and me. In case you're worried, no one's going to find out about what we're talking about unless you, unless there's concern about harm to you or harm to anyone else. Do you feel safe at home?",
+        "Patient: I do, yes."
       ]
     },
     {
-      "item": "Odynophagia",
+      "item": "Self Hurt",
       "result_quotes": [
-        "\"Yeah, it's, it's, it's really sore.\""
+        "Medical Student: Also I just want to remind you that these questions will remain confidential between you and me. In case you're worried, no one's going to find out about what we're talking about unless you, unless there's concern about harm to you or harm to anyone else. Do you feel safe at home?",
+        "Patient: I do, yes."
+      ]
+    },
+    {
+      "item": "Ear Problem",
+      "result_quotes": [
+        "Medical Student: ...any discharge from your eyes, red eyes, any pain in your ears? Anything like that?"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

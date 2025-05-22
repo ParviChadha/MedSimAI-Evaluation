@@ -1,61 +1,30 @@
 {
-  "precision": 0.8285714285714286,
-  "recall": 0.90625,
-  "f1_score": 0.8656716417910447,
-  "true_positives": 29,
-  "false_positives": 6,
-  "false_negatives": 3,
+  "precision": 0.9393939393939394,
+  "recall": 0.96875,
+  "f1_score": 0.9538461538461539,
+  "true_positives": 31,
+  "false_positives": 2,
+  "false_negatives": 1,
   "total_items": 64,
   "false_positive_details": [
     {
-      "item": "Sensation Of Chest",
+      "item": "Dysuria",
       "result_quotes": [
-        "How about chest pain?"
+        "Medical Student: Umm OK, how about changes in your urine?",
+        "Patient: No, I mean sometimes I can have a, I mean harder time to go 'cause as an old guy have large prostate I think they said, but I mean that's been OK."
       ]
     },
     {
-      "item": "Smell Problem",
+      "item": "Stuffy Nose",
       "result_quotes": [
-        "Smell or taste?"
-      ]
-    },
-    {
-      "item": "Chest Pressure",
-      "result_quotes": [
-        "How about chest pain?"
-      ]
-    },
-    {
-      "item": "Feeling Tired",
-      "result_quotes": [
-        "How about fatigue?"
-      ]
-    },
-    {
-      "item": "Lightheadness",
-      "result_quotes": [
-        "How about dizziness or fainting spells?"
-      ]
-    },
-    {
-      "item": "Lung Complications",
-      "result_quotes": [
-        "Have you ever been diagnosed with something called COPD?",
-        "Family history of lung or heart conditions?"
+        "Medical Student: Runny nose or stuffy nose?",
+        "Patient: No."
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Paralysis General",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Rectal Bleeding",
       "truth_quotes": []
     }
   ]

@@ -1,41 +1,18 @@
 {
-  "precision": 0.896551724137931,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.912280701754386,
-  "true_positives": 26,
-  "false_positives": 3,
-  "false_negatives": 2,
+  "precision": 0.9655172413793104,
+  "recall": 1.0,
+  "f1_score": 0.9824561403508771,
+  "true_positives": 28,
+  "false_positives": 1,
+  "false_negatives": 0,
   "total_items": 56,
   "false_positive_details": [
     {
       "item": "High Blood Pressure",
       "result_quotes": [
-        "Yeah, I have high blood pressure as well."
-      ]
-    },
-    {
-      "item": "Lung Complications",
-      "result_quotes": [
-        "I have COPD.",
-        "I used to have I think like 3 different inhalers but haven't had to use them for more than 10 years now.",
-        "I worked in the steel factory for most of my working life."
-      ]
-    },
-    {
-      "item": "Motor Weakness",
-      "result_quotes": [
-        "I can barely even go to the kitchen."
+        "**Patient:** Yeah, I have high blood pressure as well."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

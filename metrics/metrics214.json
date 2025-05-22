@@ -1,35 +1,18 @@
 {
-  "precision": 0.8695652173913043,
-  "recall": 0.9523809523809523,
-  "f1_score": 0.909090909090909,
-  "true_positives": 20,
-  "false_positives": 3,
-  "false_negatives": 1,
+  "precision": 0.9545454545454546,
+  "recall": 1.0,
+  "f1_score": 0.9767441860465117,
+  "true_positives": 21,
+  "false_positives": 1,
+  "false_negatives": 0,
   "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Behavior Changes",
+      "item": "Fainting",
       "result_quotes": [
-        "I usually don't come in when I have symptoms like this uh, but I've just been, uhm, I just heard of someone who passed away due to Covid and I'm just like very scared and I just decided to come in."
-      ]
-    },
-    {
-      "item": "Low Mood",
-      "result_quotes": [
-        "I do have depression."
-      ]
-    },
-    {
-      "item": "Impeding Doom Anxiety",
-      "result_quotes": [
-        "I'm just like very scared and I just decided to come in."
+        "Medical Student: Fainting spells or dizziness?\nPatient: No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Fatigue Sleep",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,49 +1,59 @@
 {
-  "precision": 0.9,
-  "recall": 0.75,
-  "f1_score": 0.8181818181818182,
-  "true_positives": 18,
-  "false_positives": 2,
-  "false_negatives": 6,
+  "precision": 0.8076923076923077,
+  "recall": 0.875,
+  "f1_score": 0.8400000000000001,
+  "true_positives": 21,
+  "false_positives": 5,
+  "false_negatives": 3,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Complications During Delivery",
+      "item": "Vaccine Related Reaction",
       "result_quotes": [
-        "were there any complications throughout um, with mom?",
-        "Uh, no, no, no complications."
+        "Medical Student: Alright, uh, are the immunizations up to date?",
+        "Patient: Yeah, everything's up to date."
       ]
     },
     {
       "item": "Behavior Changes",
       "result_quotes": [
-        "She's been pretty fussy, um, yeah, she's been pretty fussy over the past few days"
+        "Medical Student: And how has her mood been?",
+        "Patient: She's been pretty fussy, um, yeah, she's been pretty fussy over the past few days, but I just thought it was because of how she was feeling um, like her symptoms.",
+        "Patient: Um just yeah, she's been a little bit more, um, irritable as well."
+      ]
+    },
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "Medical Student: Has she had any like, chills or night sweats, like where she's shaking?",
+        "Patient: Oh no, no."
+      ]
+    },
+    {
+      "item": "Pressure In Around Face",
+      "result_quotes": [
+        "Medical Student: Okay, and have you noticed any like bulging on her, on her forehead or on the anterior fontanelle?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "Patient: Um, and now, she sounds pretty wheezy."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Watery Eyes",
-      "truth_quotes": []
-    },
-    {
       "item": "Swelling",
       "truth_quotes": []
     },
     {
-      "item": "Sleep Hydrosis",
+      "item": "Watery Eyes",
       "truth_quotes": []
     },
     {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Erythema",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
+      "item": "Loss Of Appetite",
       "truth_quotes": []
     }
   ]

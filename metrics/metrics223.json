@@ -1,30 +1,24 @@
 {
-  "precision": 0.8387096774193549,
-  "recall": 0.9629629629629629,
-  "f1_score": 0.896551724137931,
-  "true_positives": 26,
-  "false_positives": 5,
-  "false_negatives": 1,
+  "precision": 0.9,
+  "recall": 1.0,
+  "f1_score": 0.9473684210526316,
+  "true_positives": 27,
+  "false_positives": 3,
+  "false_negatives": 0,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Sleep",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "Yeah, that happened last night, couldn't fall asleep.",
-        "It's, it's fine with the two pillows now."
+        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?",
+        "Not recently, I had that about two months ago, but that got better."
       ]
     },
     {
-      "item": "Memory Loss",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "I don't remember their names.",
-        "I don't know, I, I don't know all of that. I don't know, you have to ask my daughter, she knows much more about me."
-      ]
-    },
-    {
-      "item": "Fainting",
-      "result_quotes": [
-        "Have you had any fainting or dizziness?"
+        "do you have any allergies to medications?",
+        "No."
       ]
     },
     {
@@ -33,18 +27,7 @@
         "Any urinary problems?",
         "I do, I, I uhm, I leak urine sometimes, actually quite often."
       ]
-    },
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "have high blood pressure"
-      ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

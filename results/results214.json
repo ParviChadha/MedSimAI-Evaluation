@@ -1,12 +1,6 @@
 {
   "medical_history_assessed": {
-    "behavior_changes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I usually don't come in when I have symptoms like this uh, but I've just been, uhm, I just heard of someone who passed away due to Covid and I'm just like very scared and I just decided to come in."
-      ]
-    },
-    "complications_actual_delivery": {
+    "brain_fog": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -14,43 +8,37 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "foreign_body_intake": {
+    "drooling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "guilt_feeling": {
+    "dysuria": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "eye_pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "impeding_doom_anxiety": {
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm just like very scared and I just decided to come in."
+        "Medical Student: Fainting spells or dizziness?\nPatient: No."
       ]
     },
-    "inconsolable": {
+    "hemoptysis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
+    "lethargic": {
       "assessed": "No",
       "example_quotes": []
     },
-    "low_mood": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I do have depression."
-      ]
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
+    "more_quiet": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -58,27 +46,27 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_limb_or_face": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "physical_or_emotional_abuse_at_home": {
+    "runny_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rectal_bleeding": {
+    "sleep_dyspnea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_hurt": {
+    "sleep_hydrosis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sexually_transmitted_infection": {
+    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "underweight_at_birth": {
+    "stunning": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -90,149 +78,139 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes to your bowel movements?",
-        "No."
+        "Medical Student: Any changes to your bowel movements?\nPatient: No."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Chest pain?",
-        "No."
+        "Medical Student: Chest pain?\nPatient: No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just had a runny nose and a cough for the past uh week.",
-        "With the cough, is it a dry cough or are you bringing up some phlegm?",
-        "Um it's mostly a dry cough"
+        "Patient: Hi, I've just had a runny nose and a cough for the past uh week.",
+        "Medical Student: OK, um so for the past week you said, did the cough start first, or the runny nose?"
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Fainting spells or dizziness?",
-        "No."
+        "Medical Student: Fainting spells or dizziness?\nPatient: No."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any shortness of breath?",
-        "Um no, no I don't think so."
+        "Medical Student: Um and any shortness of breath?\nPatient: Um no, no I don't think so."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any like excessive fatigue?",
-        "I am tired but not, I guess it's not too bad."
+        "Medical Student: OK, good any weight loss recently?\nPatient: Um I've been trying to lose weight, but nothing unintentional I guess."
       ]
     },
     "fatigue_sleep": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: No fevers huh, OK. Any like excessive fatigue?\nPatient: I am tired but not, I guess it's not too bad."
+      ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any fevers?",
-        "Uh no."
+        "Medical Student: OK yeah, and then any fevers?\nPatient: Uh no."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any headaches?",
-        "Uhm, no."
+        "Medical Student: Uhm how about headaches?\nPatient: Uhm, no."
       ]
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your vision or hearing?",
-        "No."
+        "Medical Student: OK, any changes in your vision or hearing?\nPatient: No."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, how about a stuffy nose?",
-        "Yeah, I do have a stuffy nose."
+        "Medical Student: Um, how about a stuffy nose?\nPatient: Yeah, I do have a stuffy nose."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
-        "Uhm, no."
+        "Medical Student: No, um nausea or vomiting?\nPatient: Uhm, no."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Just my body feels a little achy, but."
+        "Patient: Just my body feels a little achy, but."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, sorry, I asked you if you had chest pain, uh do you ever feel like your heart's racing?",
-        "No."
+        "Medical Student: I asked you if you had chest pain, uh do you ever feel like your heart's racing?\nPatient: No."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just had a runny nose and a cough for the past uh week.",
-        "when your nose does run, do you notice that it's like uh yellow in colour or red?",
-        "It's clear, yeah."
+        "Patient: Hi, I've just had a runny nose and a cough for the past uh week."
       ]
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Smell or taste?",
-        "Um I I can't smell as as much, but I think maybe it's just because my nose is so stuffy"
+        "Medical Student: Smell or taste?\nPatient: Um I I can't smell as as much, but I think maybe it's just because my nose is so stuffy, but also that made me a little bit concerned about Covid, but no problems with taste."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Smell or taste?",
-        "but no problems with taste."
+        "Medical Student: Smell or taste?\nPatient: Um I I can't smell as as much, but I think maybe it's just because my nose is so stuffy, but also that made me a little bit concerned about Covid, but no problems with taste."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any weight loss recently?",
-        "Um I've been trying to lose weight, but nothing unintentional I guess."
+        "Medical Student: OK, good any weight loss recently?\nPatient: Um I've been trying to lose weight, but nothing unintentional I guess."
       ]
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your vision or hearing?",
-        "No."
+        "Medical Student: OK, any changes in your vision or hearing?\nPatient: No."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
-        "Uhm, no."
+        "Medical Student: No, um nausea or vomiting?\nPatient: Uhm, no."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any wheeziness?",
-        "Um no."
+        "Medical Student: No, any wheeziness?\nPatient: Um no."
       ]
     }
   }

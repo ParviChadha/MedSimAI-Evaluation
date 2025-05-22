@@ -1,37 +1,42 @@
 {
-  "precision": 0.9230769230769231,
-  "recall": 0.8888888888888888,
-  "f1_score": 0.9056603773584906,
-  "true_positives": 24,
-  "false_positives": 2,
-  "false_negatives": 3,
-  "total_items": 54,
+  "precision": 0.84375,
+  "recall": 1.0,
+  "f1_score": 0.9152542372881356,
+  "true_positives": 27,
+  "false_positives": 5,
+  "false_negatives": 0,
+  "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Photophobia",
+      "item": "Itching",
       "result_quotes": [
-        "have you had any sensitivity to light or sound that, that's made the headache a lot worse?"
+        "Alright, and have you noticed any rashes or, or changes to your skin?"
       ]
     },
     {
-      "item": "Lethargic",
+      "item": "Phlegm",
       "result_quotes": [
-        "Yesterday I felt a bit drained. I just kind of like stayed in bed the whole day."
+        "It's a dry cough"
+      ]
+    },
+    {
+      "item": "Hyperacusis",
+      "result_quotes": [
+        "Alright, and have you had any sensitivity to light or sound that, that's made the headache a lot worse?"
+      ]
+    },
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "And have you had any flu like symptoms or infectious symptoms like a red eyes, runny eyes, runny nose, or a sore throat?"
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "And have you had any flu like symptoms or infectious symptoms like a red eyes, runny eyes, runny nose, or a sore throat?"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Infection",
-      "truth_quotes": []
-    },
-    {
-      "item": "Widespread Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Stunning",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

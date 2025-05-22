@@ -1,98 +1,24 @@
 {
   "medical_history_assessed": {
-    "foreign_body_intake": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I have high blood pressure."
-      ]
-    },
-    "hoarse_tone": {
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lung_complications": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Do you have a history of any lung problems?",
-        "So no COPD, no asthma, nothing like that, right?"
-      ]
-    },
-    "lymphadenitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "nause": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "not_crying": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_issues": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stunning": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tonsilitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you have any, uh, do you have a cough?",
         "And do you have any chest pain or chest pressure?",
+        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain.",
         "To give it a number from one to ten, what would you say in terms of how severe it is with ten being the worst pain ever.",
-        "And where exactly is it, is the pain?",
-        "Alright, and has that pain gotten worse overtime?"
+        "I would say, maybe six. It feels pretty sharp when it happens and it goes away after a few minutes."
       ]
     },
     "chest_pressure": {
@@ -104,33 +30,42 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had fevers or chills?"
+        "And have you had fevers or chills?",
+        "I have felt hot but no chills."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "And has it been a dry cough or wet cough?",
-        "You haven't seen blood anytime right? In your sputum?"
+        "I've been bringing up, some, like, uh, whitish sputum. It's like, yeah, whitish or clear."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Constipation?"
+        "Constipation?",
+        "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "So you're just having difficulties breathing for the past three-four days. Do you have any, uh, do you have a cough?",
-        "And has the cough gotten any worse overtime?"
+        "OK, so you're just having difficulties breathing for the past three-four days. Do you have any, uh, do you have a cough?",
+        "I did have a, uh, yeah, I've had a cough as well, over these last few days.",
+        "And has it been a dry cough or wet cough?"
       ]
+    },
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any diarrhea?"
+        "Any pain in your belly?",
+        "No.",
+        "Any diarrhea?",
+        "No."
       ]
     },
     "dysphagia": {
@@ -140,79 +75,152 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "How may I help you?",
-        "When did it start?",
-        "And since then, has it gotten any better or worse?",
-        "And are there certain times when you feel that you're more short of breath than other times? Anything in particular that you're doing that makes it worse?",
-        "And, has this happened to you before?"
+        "I've been having difficulties breathing over these last few days."
       ]
+    },
+    "ecercise": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and has you had a sore throat? Any redness in your eyes or any congestion in your nose?"
+        "OK. What about, any redness in your eyes or any congestion in your nose?",
+        "Uh, I haven't noticed anything like that."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "What about fatigue or muscle aches?"
+        "What about fatigue or muscle aches?",
+        "I've been fatigued. No muscle aches."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
         "And have you had fevers or chills?",
-        "I've been feeling hot but no chills."
+        "I have felt hot but no chills."
+      ]
+    },
+    "food_allergy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any allergies?",
+        "No allergies."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had a headache?"
+        "Alright, have you had a headache?",
+        "Uh, no."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "You haven't seen blood anytime right? In your sputum?"
+        "And you haven't seen blood anytime right? In your sputum?",
+        "No."
       ]
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and has you had a sore throat? Any redness in your eyes or any congestion in your nose?"
+        "OK. What about, any redness in your eyes or any congestion in your nose?",
+        "Uh, I haven't noticed anything like that."
       ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any pain in your belly?"
+        "Any pain in your belly?",
+        "No."
       ]
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensation_of_chest": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Changes in your sense of smell?"
+        "Changes in your sense of smell?",
+        "No."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and has you had a sore throat?"
+        "OK, have you had a sore throat?",
+        "Uh, it's felt a little itchy I guess but no pain with swallowing."
       ]
+    },
+    "sweaty": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your sense of taste?"
+        "Any changes in your sense of taste?",
+        "No."
       ]
+    },
+    "tightness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your, uh, any changes when you pee?"
+        "Any changes in your, uh, any changes when you pee?",
+        "Uh, nothing there."
       ]
+    },
+    "weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

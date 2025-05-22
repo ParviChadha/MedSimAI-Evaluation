@@ -1,47 +1,26 @@
 {
-  "precision": 0.8648648648648649,
-  "recall": 0.9696969696969697,
-  "f1_score": 0.9142857142857143,
-  "true_positives": 32,
-  "false_positives": 5,
-  "false_negatives": 1,
+  "precision": 0.9428571428571428,
+  "recall": 1.0,
+  "f1_score": 0.9705882352941176,
+  "true_positives": 33,
+  "false_positives": 2,
+  "false_negatives": 0,
   "total_items": 66,
   "false_positive_details": [
     {
-      "item": "Ear Problem",
+      "item": "Lung Complications",
       "result_quotes": [
-        "Any pain or discharge in the eyes or ears? No."
+        "Medical Student: Any lung conditions or heart conditions that run in the family?",
+        "Patient: Uh, my father did recently have a heart attack at age of 58 I think he was, he, he's fine though, but that's that's about it."
       ]
     },
     {
-      "item": "Wheez Inhale",
+      "item": "Allergic Rhinitis",
       "result_quotes": [
-        "How about wheeziness? No."
-      ]
-    },
-    {
-      "item": "Lethargic",
-      "result_quotes": [
-        "I have been a bit tired in the last few days. The fevers at night and morning. Just feeling a little bit crummy, just not really energetic, energetic to do anything."
-      ]
-    },
-    {
-      "item": "Chest Discomfort",
-      "result_quotes": [
-        "Chest pain? No chest pain."
-      ]
-    },
-    {
-      "item": "Eye Pain",
-      "result_quotes": [
-        "Any pain or discharge in the eyes or ears? No."
+        "Medical Student: Do you have any allergies?",
+        "Patient: Um, sometimes in the fall like I get a bit sniffly and, but other than that, I don't know of any allergies to any foods or medications."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Rectal Bleeding",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,46 +1,50 @@
 {
   "medical_history_assessed": {
-    "apnea_at_birth": {
+    "coughing_fit": {
       "assessed": "No",
       "example_quotes": []
     },
-    "behavior_changes": {
+    "delayed_growth_milestones": {
       "assessed": "No",
       "example_quotes": []
     },
-    "behaviour_change": {
+    "hemoptysis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "foreign_body_intake": {
+    "hoarse_tone": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any any colds lately? Or any infections?"
+      ]
+    },
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_limb_or_face": {
+    "sleep_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you having any symptoms at night time?"
+      ]
+    },
+    "soreness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_hurt": {
+    "weakness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discomfort": {
+    "weight_gain": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -51,21 +55,23 @@
       ]
     },
     "colored_excess_sputum": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been bringing up gunk OK. Dry cough?"
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "So you have been coughing a lot over the past week or so.",
-        "You say you've had more coughing lately, is that right?",
+        "So what brings you in?",
+        "OK, I'm so I have been coughing a lot over the past week or so.",
         "Is your cough and a dry cough?"
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "And it's been pretty dry, but I've been coughing like almost nonstop throughout the day, and I'm feeling very short of breath"
+        "I'm feeling very short of breath"
       ]
     },
     "fever": {
@@ -108,8 +114,7 @@
       "assessed": "Yes",
       "example_quotes": [
         "Have you noticed any wheezing?",
-        "Oh yeah, I've been wheezing a lot, actually.",
-        "you're getting Wheezy even more times than then you're having to use your bronchodilator."
+        "Oh yeah, I've been wheezing a lot, actually."
       ]
     }
   }

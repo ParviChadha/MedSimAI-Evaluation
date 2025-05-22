@@ -1,23 +1,61 @@
 {
-  "precision": 0.9642857142857143,
-  "recall": 0.9642857142857143,
-  "f1_score": 0.9642857142857143,
-  "true_positives": 27,
-  "false_positives": 1,
-  "false_negatives": 1,
+  "precision": 0.8,
+  "recall": 1.0,
+  "f1_score": 0.888888888888889,
+  "true_positives": 28,
+  "false_positives": 7,
+  "false_negatives": 0,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Loss Of Taste",
       "result_quotes": [
-        "Was it dry or did you were bringing up any sputum or phlegm?"
+        "OK, how about a change to your sense of smell? Like loss of smell?",
+        "No, I haven't had that."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "Alright and how has your energy been? Have you had fatigue?",
+        "Uhm, a little bit."
+      ]
+    },
+    {
+      "item": "Itching Eyes",
+      "result_quotes": [
+        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
+        "No."
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "OK, and do you have any allergies?",
+        "No, I don't."
+      ]
+    },
+    {
+      "item": "Loss Of Consciousness",
+      "result_quotes": [
+        "How about any we, sorry, fainting or dizziness?",
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "Alright, have you had a sore throat?",
+        "Uhm, no sore throat."
+      ]
+    },
+    {
+      "item": "Vision Problem",
+      "result_quotes": [
+        "OK. Have you had any discharge from your eyes or eye redness or any eye pain?",
+        "No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

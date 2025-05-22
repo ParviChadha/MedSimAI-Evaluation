@@ -1,21 +1,20 @@
 {
-  "precision": 1.0,
-  "recall": 0.8928571428571429,
-  "f1_score": 0.9433962264150945,
-  "true_positives": 25,
-  "false_positives": 0,
-  "false_negatives": 3,
-  "total_items": 49,
-  "false_positive_details": [],
+  "precision": 0.9642857142857143,
+  "recall": 0.9642857142857143,
+  "f1_score": 0.9642857142857143,
+  "true_positives": 27,
+  "false_positives": 1,
+  "false_negatives": 1,
+  "total_items": 37,
+  "false_positive_details": [
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "For the shortness of breath, can you describe it a little bit? Is it, are you having trouble taking deep breaths, or are you breathing faster? Can you describe it?"
+      ]
+    }
+  ],
   "false_negative_details": [
-    {
-      "item": "Sleep Issues",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
     {
       "item": "Loss Of Appetite",
       "truth_quotes": []

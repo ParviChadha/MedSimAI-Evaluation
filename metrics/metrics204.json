@@ -1,11 +1,33 @@
 {
-  "precision": 1.0,
+  "precision": 0.8928571428571429,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9433962264150945,
   "true_positives": 25,
-  "false_positives": 0,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 50,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Loss Of Smell",
+      "result_quotes": [
+        "Um loss of smell or taste?",
+        "No."
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "Is it a dry cough or do you bring up any phlegm?",
+        "No, it's a dry cough."
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "Do you ever feel like your nose is stuffy or runny?",
+        "No."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

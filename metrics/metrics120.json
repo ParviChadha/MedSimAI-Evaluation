@@ -1,39 +1,77 @@
 {
-  "precision": 0.9,
-  "recall": 0.9310344827586207,
-  "f1_score": 0.9152542372881356,
-  "true_positives": 27,
-  "false_positives": 3,
-  "false_negatives": 2,
+  "precision": 0.7435897435897436,
+  "recall": 1.0,
+  "f1_score": 0.8529411764705882,
+  "true_positives": 29,
+  "false_positives": 10,
+  "false_negatives": 0,
   "total_items": 58,
   "false_positive_details": [
     {
-      "item": "Rigors",
+      "item": "Eye Pain",
       "result_quotes": [
-        "Maybe a little bit last night now that I think about it."
+        "OK, how about any pain around your eyes or ears?",
+        "No."
       ]
     },
     {
-      "item": "Lethargic",
+      "item": "Sleep",
+      "result_quotes": [
+        "It's affecting my sleep, so I just really like to get this fixed."
+      ]
+    },
+    {
+      "item": "Sleeping Issues",
+      "result_quotes": [
+        "It's affecting my sleep"
+      ]
+    },
+    {
+      "item": "Eye Discharge",
+      "result_quotes": [
+        "OK, how about any discharge like mucus or tears from your eyes or ears?",
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Nasal Congestion",
+      "result_quotes": [
+        "Alright. And within the last month or so, have you had any cold like symptoms with a runny nose, headache, sore throat, and or a cough?",
+        "Ah no."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "Alright. And within the last month or so, have you had any cold like symptoms with a runny nose, headache, sore throat, and or a cough?",
+        "Ah no."
+      ]
+    },
+    {
+      "item": "Drowsiness",
       "result_quotes": [
         "I've been really tired but I don't know if that's because I can't get any seem to get any sleep."
       ]
     },
     {
-      "item": "Odynophagia",
+      "item": "Sleep Changes",
       "result_quotes": [
-        "No, well, no no. I would say no."
+        "It's affecting my sleep, so I just really like to get this fixed."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "OK and have you had any painful urination or feeling the need to urinate frequently?",
+        "No."
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "has anybody in the family had a lung condition or or a heart condition before?"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Dysphagia",
-      "truth_quotes": []
-    },
-    {
-      "item": "Watery Eyes",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

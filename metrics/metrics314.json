@@ -1,31 +1,54 @@
 {
-  "precision": 0.9565217391304348,
-  "recall": 0.88,
-  "f1_score": 0.9166666666666666,
-  "true_positives": 22,
-  "false_positives": 1,
-  "false_negatives": 3,
+  "precision": 0.8064516129032258,
+  "recall": 1.0,
+  "f1_score": 0.8928571428571428,
+  "true_positives": 25,
+  "false_positives": 6,
+  "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
+      "item": "Cold",
+      "result_quotes": [
+        "Medical Student: OK. Are you having any other symptoms like a sore throat, runny nose, congestion, anything like that?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "Medical Student: Any kind of fatigue or increased tiredness?",
+        "Patient: I feel fatigued, yes."
+      ]
+    },
+    {
+      "item": "Sleep",
+      "result_quotes": [
+        "Medical Student: Have you been able to sleep throughout the night or does the cough  wake you up or the chills wake you up?",
+        "Patient: Um, no,  they don't wake me up. I wouldn't say that."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "Medical Student: Any kind of fatigue or increased tiredness?",
+        "Patient: I feel fatigued, yes."
+      ]
+    },
+    {
       "item": "Difficulty Sleeping",
       "result_quotes": [
-        "Have you been able to sleep throughout the night or does the cough  wake you up or the chills wake you up?"
+        "Medical Student: Have you been able to sleep throughout the night or does the cough  wake you up or the chills wake you up?",
+        "Patient: Um, no,  they don't wake me up. I wouldn't say that."
+      ]
+    },
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "Medical Student: Have you been able to sleep throughout the night or does the cough  wake you up or the chills wake you up?",
+        "Patient: Um, no,  they don't wake me up. I wouldn't say that."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,17 +1,36 @@
 {
-  "precision": 0.96,
+  "precision": 0.8571428571428571,
   "recall": 1.0,
-  "f1_score": 0.9795918367346939,
+  "f1_score": 0.923076923076923,
   "true_positives": 24,
-  "false_positives": 1,
+  "false_positives": 4,
   "false_negatives": 0,
-  "total_items": 47,
+  "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Vision Problem",
+      "item": "Food Allergy",
       "result_quotes": [
-        "I had cataract surgery done.",
-        "Both actually, it runs in my family. We get it pretty early on."
+        "Any allergies?",
+        "Uh, nope."
+      ]
+    },
+    {
+      "item": "Runny Eyes",
+      "result_quotes": [
+        "how about any, like red eyes or runny nose?",
+        "No, neither of those."
+      ]
+    },
+    {
+      "item": "Malaise",
+      "result_quotes": [
+        "I woke up this morning and I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "I just came in to see what's going on, cause I was worried, you know, with covid going on, uhm, going everywhere."
       ]
     }
   ],

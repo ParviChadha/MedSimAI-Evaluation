@@ -1,20 +1,82 @@
 {
-  "precision": 1.0,
-  "recall": 0.9166666666666666,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 22,
-  "false_positives": 0,
-  "false_negatives": 2,
-  "total_items": 48,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.7058823529411765,
+  "recall": 1.0,
+  "f1_score": 0.8275862068965517,
+  "true_positives": 24,
+  "false_positives": 10,
+  "false_negatives": 0,
+  "total_items": 55,
+  "false_positive_details": [
     {
-      "item": "Taste Loss",
-      "truth_quotes": []
+      "item": "Drug Use",
+      "result_quotes": [
+        "Any recreational drugs like marijuana?",
+        "Um, I'll smoke a joint or two once a week."
+      ]
     },
     {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
+      "item": "Alcohol Use",
+      "result_quotes": [
+        "Do you drink alcohol?",
+        "I don't."
+      ]
+    },
+    {
+      "item": "Weight Gain",
+      "result_quotes": [
+        "Alright, so have you noticed at all any weight changes?",
+        "No."
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "OK, and do you know if you have any allergies?",
+        "I just have some, I just have some seasonal allergies."
+      ]
+    },
+    {
+      "item": "Surgical History",
+      "result_quotes": [
+        "Any previous hospitalizations or surgeries?",
+        "Uh, no, actually I had my appendix taken out when I was 12."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "So I've had this stuffy nose for the past three days.",
+        "So first, my nose was kind of stuffy."
+      ]
+    },
+    {
+      "item": "Smoking History",
+      "result_quotes": [
+        "And do you currently smoke cigarettes?",
+        "No."
+      ]
+    },
+    {
+      "item": "Past Medical History",
+      "result_quotes": [
+        "Do you have any other medical conditions at all that you've been diagnosed with in the past?",
+        "No, not that I can think of."
+      ]
+    },
+    {
+      "item": "Asthma",
+      "result_quotes": [
+        "OK, and have you ever been diagnosed with asthma?",
+        "No."
+      ]
+    },
+    {
+      "item": "Family History",
+      "result_quotes": [
+        "do you have any family history of any conditions, like any lung conditions, heart conditions, any cancers?",
+        "Um, I know that there's some asthma that runs in the family."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

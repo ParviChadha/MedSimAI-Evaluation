@@ -1,24 +1,35 @@
 {
-  "precision": 0.9629629629629629,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.9454545454545454,
-  "true_positives": 26,
-  "false_positives": 1,
-  "false_negatives": 2,
-  "total_items": 44,
+  "precision": 0.9,
+  "recall": 0.9642857142857143,
+  "f1_score": 0.9310344827586207,
+  "true_positives": 27,
+  "false_positives": 3,
+  "false_negatives": 1,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Sexually Transmitted Infection",
+      "item": "Bowel Movement",
       "result_quotes": [
-        "Have you had a sexually transmitted infection before?"
+        "OK, have you had any diarrhea?",
+        "Um no, no diarrhea.",
+        "OK, um and any constipation?",
+        "No."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "So with the acuity of your symptoms, starting with the last few days and getting worse, especially with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection, and one of those possibilities could be COVID-19, but also it could be the influenza. It could be something like the common cold, such as adenovirus."
+      ]
+    },
+    {
+      "item": "Flu",
+      "result_quotes": [
+        "So with the acuity of your symptoms, starting with the last few days and getting worse, especially with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection, and one of those possibilities could be COVID-19, but also it could be the influenza. It could be something like the common cold, such as adenovirus."
       ]
     }
   ],
   "false_negative_details": [
-    {
-      "item": "Photophobia",
-      "truth_quotes": []
-    },
     {
       "item": "Hyperacusis",
       "truth_quotes": []

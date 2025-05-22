@@ -1,35 +1,19 @@
 {
-  "precision": 0.8125,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.8666666666666666,
-  "true_positives": 13,
-  "false_positives": 3,
-  "false_negatives": 1,
+  "precision": 0.9333333333333333,
+  "recall": 1.0,
+  "f1_score": 0.9655172413793104,
+  "true_positives": 14,
+  "false_positives": 1,
+  "false_negatives": 0,
   "total_items": 28,
   "false_positive_details": [
     {
-      "item": "Impending Doom Anxiety",
+      "item": "Weight Changes",
       "result_quotes": [
-        "Type 2 diabetes and anxiety."
-      ]
-    },
-    {
-      "item": "Sensation Of Chest",
-      "result_quotes": [
-        "I've had a shortness of breath, and even at at rest. Really, feeling like it's difficult to breathe, and when I take a deep breath I get a chest pain."
-      ]
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "result_quotes": [
-        "I've lost a few pounds, but not enough, definitely want to keep going."
+        "talking about your I guess you mentioned that your weight is a little higher than or, its outside the normal range, is that something that you would like to cut down?",
+        "Yeah, I really try to eat more vegetables and have been trying to do that sort of thing. I've lost a few pounds, but not enough, definitely want to keep going."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Headache",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

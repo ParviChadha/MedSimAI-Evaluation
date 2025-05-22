@@ -1,23 +1,19 @@
 {
-  "precision": 0.9565217391304348,
-  "recall": 0.9565217391304348,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 22,
+  "precision": 0.9583333333333334,
+  "recall": 1.0,
+  "f1_score": 0.9787234042553191,
+  "true_positives": 23,
   "false_positives": 1,
-  "false_negatives": 1,
+  "false_negatives": 0,
   "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Motor Weakness",
+      "item": "Stuffy Nose",
       "result_quotes": [
-        "When you say weak, have you like lost any of your like motor movements like your arms, legs?"
+        "Medical Student: OK, and did you have like a runny nose or stuffy nose at that point?",
+        "Patient: Maybe a little bit. I wasn't really thinking about it too much."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Weak Limbs",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

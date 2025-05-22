@@ -1,11 +1,18 @@
 {
-  "precision": 1.0,
+  "precision": 0.9411764705882353,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9696969696969697,
   "true_positives": 16,
-  "false_positives": 0,
+  "false_positives": 1,
   "false_negatives": 0,
   "total_items": 32,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Bowel Movement",
+      "result_quotes": [
+        "Any other symptoms such as belly pain or diarrhea or Constipation"
+      ]
+    }
+  ],
   "false_negative_details": []
 }

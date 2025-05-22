@@ -1,34 +1,121 @@
 {
   "medical_history_assessed": {
-    "eye_redness": {
+    "itching": {
       "assessed": "No",
       "example_quotes": []
     },
-    "impending_doom_anxiety": {
+    "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Type 2 diabetes and anxiety."
+        "do you have any belly pain or any changes in your bowel movements?",
+        "No belly pain or changes to bowel movements"
       ]
     },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching_eyes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensation_of_chest": {
+    "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a shortness of breath, and even at at rest. Really, feeling like it's difficult to breathe, and when I take a deep breath I get a chest pain."
+        "I've had a shortness of breath, and even at at rest. Really, feeling like it's difficult to breathe, and when I take a deep breath I get a chest pain.",
+        "And the chest pain, does it only occur when you take a deep breath, or are there other times as well?",
+        "I pretty much yeah only when I'm taking a deep breath"
       ]
     },
-    "sleep_changes": {
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any cough?",
+        "Yeah, I, I've had a cough as well over that the same same time period.",
+        "Is it a dry cough? Are you bringing something up?",
+        "It's dry, yeah, I haven't brought up any sputum or any any any blood."
+      ]
+    },
+    "difficulty_sleeping": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drowsiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, I've had a shortness of breath, and even at at rest. Really, feeling like it's difficult to breathe"
+      ]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms that you've had? A fever or headache?",
+        "No, nothing like that."
+      ]
+    },
+    "flu_like_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK any other flu like symptoms, runny nose, stuffy nose, sore throat? Anything like that?",
+        "No, I just had um, yeah, the shortness of breath and chest pain."
+      ]
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms that you've had? A fever or headache?",
+        "No, nothing like that."
+      ]
+    },
+    "headache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms that you've had? A fever or headache?",
+        "No, nothing like that."
+      ]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Is it a dry cough? Are you bringing something up?",
+        "It's dry, yeah, I haven't brought up any sputum or any any any blood."
+      ]
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "It's it's certainly been less I I've been moving a little bit, but I've had a lot of pain so I just haven't been doing as much activity, that's for sure.",
+        "Yeah, I have had actually, yeah my right my right calf is pretty sore."
+      ]
+    },
+    "palpitation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you feel like your heart is racing or do you feel like you have, uhm",
+        "but I do feel like my heart is beating really fast really fast though."
+      ]
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pressure_in_around_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_dyspnea": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -36,113 +123,41 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "smell_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sweaty": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "taste_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "unexplained_weight_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've lost a few pounds, but not enough, definitely want to keep going."
-      ]
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No belly pain or changes to bowel movements"
-      ]
-    },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've had a shortness of breath, and even at at rest. Really, feeling like it's difficult to breathe, and when I take a deep breath I get a chest pain."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, I, I've had a cough as well over that the same same time period."
-      ]
-    },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've had a shortness of breath, and even at at rest. Really, feeling like it's difficult to breathe"
-      ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any fever or headache?"
-      ]
-    },
-    "flu_like_symptom": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK any other flu like symptoms, runny nose, stuffy nose, sore throat? Anything like that?"
-      ]
-    },
-    "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any fever or headache?"
-      ]
-    },
-    "headache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I haven't brought up any sputum or any any any blood."
-      ]
-    },
-    "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "It's it's certainly been less I I've been moving a little bit, but I've had a lot of pain so I just haven't been doing as much activity, that's for sure."
-      ]
-    },
-    "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No belly pain or changes to bowel movements, but I do feel like my heart is beating really fast really fast though."
-      ]
-    },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK any other flu like symptoms, runny nose, stuffy nose, sore throat? Anything like that?"
+        "OK any other flu like symptoms, runny nose, stuffy nose, sore throat? Anything like that?",
+        "No, I just had um, yeah, the shortness of breath and chest pain."
       ]
     },
     "stuffy_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK any other flu like symptoms, runny nose, stuffy nose, sore throat? Anything like that?"
+        "OK any other flu like symptoms, runny nose, stuffy nose, sore throat? Anything like that?",
+        "No, I just had um, yeah, the shortness of breath and chest pain."
       ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I see and have you, I guess any pain in your legs. Or swelling in your leg? One or the other?"
+        "I I see and have you had any, I guess any pain in your legs. Or swelling in your leg? One or the other?",
+        "Yeah, I have had actually"
       ]
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "talking about your I guess you mentioned that your weight is a little higher than or, its outside the normal range, is that something that you would like to cut down?",
+        "Yeah, I really try to eat more vegetables and have been trying to do that sort of thing. I've lost a few pounds, but not enough, definitely want to keep going."
+      ]
+    },
+    "widespread_pain": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

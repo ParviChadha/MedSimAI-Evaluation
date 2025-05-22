@@ -1,18 +1,14 @@
 {
   "medical_history_assessed": {
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "complications_during_delivery": {
+    "decreased_concentration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "delayed_growth_milestones": {
+    "decreased_fluid_intake": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -20,11 +16,19 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "foreign_body_intake": {
+    "eye_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "guilt_feeling": {
+    "eye_redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "facial_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fainting": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -32,33 +36,19 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "hoarse_tone": {
+    "hyperhidrosis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lymphadenitis": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "motor_weakness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "When you say weak, have you like lost any of your like motor movements like your arms, legs?"
-      ]
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "passing_gas": {
+    "not_crying": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -70,7 +60,11 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "slow_motion_feeling": {
+    "redness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -78,160 +72,196 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "stuffy_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, and did you have like a runny nose or stuffy nose at that point?",
+        "Patient: Maybe a little bit. I wasn't really thinking about it too much."
+      ]
+    },
     "stunning": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing": {
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tingling": {
+    "vaginal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "weight_gain": {
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
     "belly_aches": {
       "assessed": "Yes",
       "example_quotes": [
-        "No bellyaches?"
+        "Medical Student: Alright, And any changes in your bowel movements?",
+        "Patient: No, no, that's all the same.",
+        "Medical Student: No bellyaches?",
+        "Patient: Nope."
       ]
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your bowel movements?"
+        "Medical Student: Alright, And any changes in your bowel movements?",
+        "Patient: No, no, that's all the same."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any chest pain?"
+        "Medical Student: Any chest pain?",
+        "Patient: Feels a little like it hurts a little bit, like when I when I breathe in."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm coughing up like gunky green stuff."
+        "Patient: I'm coughing up like gunky green stuff."
       ]
     },
     "confusion": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, uh no, not dizziness or confusion"
+        "Medical Student: No, any dizziness or confusion?",
+        "Patient: No, uh no, not dizziness or confusion, but I have just been feeling very weak and tired."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just had a real like a real bad cough."
+        "Patient: I've just had a real like a real bad cough. Umm, it's been going on for 4 or 5 days now umm, and I'm just, I'm having some trouble breathing."
       ]
     },
     "dizziness": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, uh no, not dizziness or confusion"
+        "Medical Student: No, any dizziness or confusion?",
+        "Patient: No, uh no, not dizziness or confusion, but I have just been feeling very weak and tired."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, it's uh, I'm just I feel like I can't, can't quite like breathe fully.",
-        "so like when you take a deep breath in, you can't expand your lungs fully.",
-        "you can't quite breathe fully."
+        "Patient: I'm having some trouble breathing.",
+        "Medical Student: So for 5 days, did you do have any shortness of breath with that?",
+        "Patient: Yeah, it's uh, I'm just I feel like I can't, can't quite like breathe fully."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "I just have felt like very rundown.",
-        "Just like just fatigued like more than usual, yeah."
+        "Patient: No, uh no, not dizziness or confusion, but I have just been feeling very weak and tired.",
+        "Patient: Just like just fatigued like more than usual, yeah."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I feel like I've I've probably had a fever the last couple nights."
+        "Medical Student: Fever, weight loss?",
+        "Patient: I feel like I've I've probably had a fever the last couple nights. I've just been really hot in the evenings."
       ]
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about changes in your vision or hearing?"
+        "Medical Student: OK. How about changes in your vision or hearing?",
+        "Patient: Uh, no."
       ]
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Although in the past you know few days, I just 'cause I felt really rundown and fatigued, I haven't been eating as much as I normally do."
+        "Patient: Although in the past you know few days, I just 'cause I felt really rundown and fatigued, I haven't been eating as much as I normally do."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "did you do have any shortness of breath with that?",
-        "Maybe a little bit. I wasn't really thinking about it too much."
+        "Medical Student: Four days ago, OK, and did you have like a runny nose or stuffy nose at that point?",
+        "Patient: Maybe a little bit. I wasn't really thinking about it too much."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you ever feel like your heart's racing?"
+        "Medical Student: Uhm, do you ever feel like your heart's racing?",
+        "Patient: No, I don't think so."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "did you do have any shortness of breath with that?"
+        "Medical Student: Four days ago, OK, and did you have like a runny nose or stuffy nose at that point?",
+        "Patient: Maybe a little bit. I wasn't really thinking about it too much."
       ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about changes in your taste or smell?"
+        "Medical Student: OK. Uhm sore throat?",
+        "Patient: No, not a sore throat.",
+        "Medical Student: Not a sore throat, OK. Uhm, how about changes in your taste or smell?",
+        "Patient: No, none of those."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "sore throat?"
+        "Medical Student: OK. Uhm sore throat?",
+        "Patient: No, not a sore throat."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about changes in your taste or smell?"
+        "Medical Student: OK. Uhm sore throat?",
+        "Patient: No, not a sore throat.",
+        "Medical Student: Not a sore throat, OK. Uhm, how about changes in your taste or smell?",
+        "Patient: No, none of those."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Fever, weight loss?"
+        "Medical Student: Fever, weight loss?",
+        "Patient: I feel like I've I've probably had a fever the last couple nights. I've just been really hot in the evenings.",
+        "Patient: I don't know bout my weight. I don't weigh myself all the time.",
+        "Patient: But nothing like major."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "how about changes to your urine?"
+        "Medical Student: OK, how about changes to your urine?",
+        "Patient: Uh, no."
       ]
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about changes in your vision or hearing?"
+        "Medical Student: OK. How about changes in your vision or hearing?",
+        "Patient: Uh, no."
       ]
     },
     "weak_limbs": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: When you say weak, have you like lost any of your like motor movements like your arms, legs?",
+        "Patient: No, no, not like that kind of weak. I just have felt like very rundown."
+      ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "So you're short of breath. And how about wheezing? Do you have any of that?"
+        "Medical Student: OK, uhm you can't quite breathe fully, so like when you take a deep breath in, you can't expand your lungs fully. Is that what you mean?",
+        "Patient: Yeah, yeah, I just overall I just feel like yeah, I'm I'm short of breath. I guess that's the best way to put it.",
+        "Medical Student: OK, so you're short of breath. And how about wheezing? Do you have any of that?",
+        "Patient: I don't think so."
       ]
     }
   }

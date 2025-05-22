@@ -1,42 +1,25 @@
 {
-  "precision": 0.92,
-  "recall": 0.8518518518518519,
-  "f1_score": 0.8846153846153846,
-  "true_positives": 23,
+  "precision": 0.9310344827586207,
+  "recall": 1.0,
+  "f1_score": 0.9642857142857143,
+  "true_positives": 27,
   "false_positives": 2,
-  "false_negatives": 4,
+  "false_negatives": 0,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Odynophagia",
+      "item": "Redness In Throat",
       "result_quotes": [
-        "Um, mostly with foods."
+        "Patient: I have a sore throat"
       ]
     },
     {
-      "item": "Physical Or Emotional Abuse At Home",
+      "item": "Trouble Breathing",
       "result_quotes": [
-        "And is there any physical or verbal abuse in the home?",
-        "Yes yes."
+        "Medical Student: OK, and have you had any difficulties breathing or short of breath?",
+        "Patient: No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

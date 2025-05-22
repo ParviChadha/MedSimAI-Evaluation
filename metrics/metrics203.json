@@ -1,33 +1,38 @@
 {
-  "precision": 0.9259259259259259,
-  "recall": 0.9259259259259259,
-  "f1_score": 0.9259259259259259,
-  "true_positives": 25,
-  "false_positives": 2,
-  "false_negatives": 2,
-  "total_items": 51,
+  "precision": 0.8709677419354839,
+  "recall": 1.0,
+  "f1_score": 0.9310344827586207,
+  "true_positives": 27,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 55,
   "false_positive_details": [
     {
-      "item": "Inconsolable",
+      "item": "Injury In Chest",
       "result_quotes": [
-        "just seems a little bit like just not himself, just more quiet. Not really crying."
+        "Patient: Yeah, today I was trying to pay more attention. It seems like that like this really trying to breathe more. And also I like he's like the chest I see moving a lot more."
       ]
     },
     {
-      "item": "Pregnancy",
+      "item": "Urination",
       "result_quotes": [
-        "Pregnancy was uh, OK, no complications, but he was premature by two weeks"
+        "Medical Student: OK, and what about diapers? How many wet diapers has he had over the past, or yesterday and today?",
+        "Patient: Probably around the same like usually has like five to six weight diapers and it's around the same."
+      ]
+    },
+    {
+      "item": "Bowel Movement",
+      "result_quotes": [
+        "Medical Student: OK, and what about diapers? How many wet diapers has he had over the past, or yesterday and today?",
+        "Patient: Probably around the same like usually has like five to six weight diapers and it's around the same."
+      ]
+    },
+    {
+      "item": "Sensation Of Chest",
+      "result_quotes": [
+        "Patient: Yeah, today I was trying to pay more attention. It seems like that like this really trying to breathe more. And also I like he's like the chest I see moving a lot more."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Tachypnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

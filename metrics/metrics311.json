@@ -1,35 +1,33 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 0.9473684210526315,
-  "f1_score": 0.9,
-  "true_positives": 18,
+  "precision": 0.8636363636363636,
+  "recall": 1.0,
+  "f1_score": 0.9268292682926829,
+  "true_positives": 19,
   "false_positives": 3,
-  "false_negatives": 1,
+  "false_negatives": 0,
   "total_items": 38,
   "false_positive_details": [
     {
-      "item": "Apnea At Birth",
+      "item": "Difficulty Feeding",
       "result_quotes": [
-        "And did she have to stay in the NICU at all, at the hospital afterwards?"
+        "Medical Student: Okay. And is she feeding well, like what does she usually eat?",
+        "Patient: She's feeding well. She's doing uh, she eats everything, yeah."
       ]
     },
     {
-      "item": "Behavior Changes",
+      "item": "Inconsolable",
       "result_quotes": [
-        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
+        "Medical Student: Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?",
+        "Patient: She does get tired, especially after, and then she's irritable and crying after, you know, she has these fits of coughs."
       ]
     },
     {
-      "item": "Lethargic",
+      "item": "Anxious",
       "result_quotes": [
-        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
+        "Medical Student: Okay, um, and so, has this happened before at all?",
+        "Medical Student: No, this is the first time, okay. Um, any so, she, she is vomiting. Um, is the vomit like green in colour? Or is she just vomiting up what she has eaten? What's the content of the moment?"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Sleep Dyspnea",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

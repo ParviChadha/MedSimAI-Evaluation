@@ -1,20 +1,19 @@
 {
-  "precision": 1.0,
-  "recall": 0.9166666666666666,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 22,
-  "false_positives": 0,
-  "false_negatives": 2,
-  "total_items": 42,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.96,
+  "recall": 1.0,
+  "f1_score": 0.9795918367346939,
+  "true_positives": 24,
+  "false_positives": 1,
+  "false_negatives": 0,
+  "total_items": 48,
+  "false_positive_details": [
     {
-      "item": "Sore",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
+      "item": "Injury",
+      "result_quotes": [
+        "Medical Student: OK um do, did anything trigger this a week back? Any trauma to the chest area? Anything like that?",
+        "Patient: Uh, No, no one else has been sick."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

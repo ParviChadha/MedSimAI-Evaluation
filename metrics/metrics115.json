@@ -1,31 +1,26 @@
 {
-  "precision": 0.9473684210526315,
-  "recall": 0.8571428571428571,
-  "f1_score": 0.9,
-  "true_positives": 18,
-  "false_positives": 1,
-  "false_negatives": 3,
+  "precision": 0.9130434782608695,
+  "recall": 1.0,
+  "f1_score": 0.9545454545454545,
+  "true_positives": 21,
+  "false_positives": 2,
+  "false_negatives": 0,
   "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Infection",
+      "item": "Dysuria",
       "result_quotes": [
-        "over the last year like I've had a couple of chest infections. After going to the ER, they gave me some antibiotics."
+        "Medical Student: Alright, then any urinary problems?",
+        "Patient: Nope."
+      ]
+    },
+    {
+      "item": "Redness",
+      "result_quotes": [
+        "Medical Student: Any rashes?",
+        "Patient: Nope."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Speech Volume",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,57 +1,41 @@
 {
-  "precision": 0.7727272727272727,
-  "recall": 0.85,
-  "f1_score": 0.8095238095238095,
-  "true_positives": 17,
-  "false_positives": 5,
-  "false_negatives": 3,
+  "precision": 0.8260869565217391,
+  "recall": 0.95,
+  "f1_score": 0.8837209302325583,
+  "true_positives": 19,
+  "false_positives": 4,
+  "false_negatives": 1,
   "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Asthma",
+      "item": "Odynophagia",
       "result_quotes": [
-        "Do you have any past medical conditions that you have been diagnosed with like asthma, eczema, anything like that?",
-        "I did have like I know that I would sometimes get kind of short of breath as a child."
+        "Patient: I also wake up in the morning with this like sore throat"
       ]
     },
     {
-      "item": "Infection",
+      "item": "Eye Redness",
       "result_quotes": [
-        "Any sick contacts, anyone around you that has been sick?",
-        "And besides that, have you been having any symptoms of fevers, chills, sore throat?"
+        "Patient: Yeah, let my nose so stuffy and sometimes it's just like my eyes and my nose are just itchy and my eyes get like red and teary sometimes."
       ]
     },
     {
-      "item": "Sensitive To Allergies",
+      "item": "Constipation",
       "result_quotes": [
-        "are there any besides during the spring time, any kind of allergens or any anything in the house or around you that triggers it, like dust or anything like that?",
-        "Yeah, dust makes it a lot worse."
+        "Medical Student: Any changes in your bowel movements at all?",
+        "Patient: No."
       ]
     },
     {
-      "item": "Sexually Transmitted Infection",
+      "item": "Teary Eyes",
       "result_quotes": [
-        "are you sexually active?"
-      ]
-    },
-    {
-      "item": "Mucous Building",
-      "result_quotes": [
-        "Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up?"
+        "Patient: Yeah, let my nose so stuffy and sometimes it's just like my eyes and my nose are just itchy and my eyes get like red and teary sometimes."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Post Nasal Drip",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
+      "item": "Colored Excess Sputum",
       "truth_quotes": []
     }
   ]

@@ -1,28 +1,30 @@
 {
-  "precision": 1.0,
-  "recall": 0.8620689655172413,
-  "f1_score": 0.9259259259259259,
-  "true_positives": 25,
-  "false_positives": 0,
-  "false_negatives": 4,
+  "precision": 0.90625,
+  "recall": 1.0,
+  "f1_score": 0.9508196721311475,
+  "true_positives": 29,
+  "false_positives": 3,
+  "false_negatives": 0,
   "total_items": 58,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "false_positive_details": [
     {
-      "item": "Bowel Movement",
-      "truth_quotes": []
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "Patient: Uh when it first started, it was a bit more intermittent, but now it's happening um all day long and throughout the night as well, it interrupted my sleep last night."
+      ]
     },
     {
-      "item": "Urination",
-      "truth_quotes": []
+      "item": "Loss Of Consciousness",
+      "result_quotes": [
+        "Medical Student: No, any fainting spells or dizziness?"
+      ]
     },
     {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
+      "item": "Ear Problem",
+      "result_quotes": [
+        "Medical Student: No, any changes in your vision or hearing?"
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

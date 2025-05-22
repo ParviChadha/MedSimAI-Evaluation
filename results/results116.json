@@ -1,22 +1,10 @@
 {
   "medical_history_assessed": {
-    "apnea_at_birth": {
+    "change_in_taste": {
       "assessed": "No",
       "example_quotes": []
     },
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "complications_actual_delivery": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "foreign_body_intake": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -24,43 +12,60 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "passing_gas": {
+    "limp": {
       "assessed": "No",
       "example_quotes": []
     },
-    "physical_or_emotional_abuse_at_home": {
+    "loss_of_consciousness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
+    "loss_of_smell": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rectal_bleeding": {
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_hurt": {
+    "numbness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
+        "I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
+      ]
+    },
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slow_motion_feeling": {
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slurred_speech": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
-    "underweight_at_birth": {
+    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaginal_discomfort": {
+    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vision_problem": {
+    "tingling": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?"
+      ]
+    },
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheez": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -74,25 +79,23 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "And, uh, have you been experiencing any fevers or chills or night sweats?"
+        "And, uh, have you been experiencing any fevers or chills or night sweats?",
+        "I felt like, uh, a little bit hot. I might have a fever now so yes, no chills though."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "I I'm bringing up some phlegm if that's what you mean.",
         "And is it, what color is it?",
-        "I it looks pretty dark and and sometimes red.",
-        "OK, so do you think there's blood in your phlegm?",
-        "Yeah, the dark it does kind of look like blood, so that's what scared me and wanted me to come in today."
+        "I it looks pretty dark and and sometimes red."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "What brings you in here today?",
         "Yeah, I've had this cough and it's just not going away.",
-        "OK, and how long have you been having this cough for?",
-        "I I've had a smokers cough now for several for several years, but it's really just this past month that that it's gotten really bad and I have it all day long."
+        "OK, and how long have you been having this cough for?"
       ]
     },
     "dyspnea": {
@@ -105,10 +108,8 @@
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "And how about your appetite?",
-        "And have you been feeling more more tired, more fatigued at all recently?",
-        "Yeah, my energy has just been really down. I've been really fatigued.",
-        "I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
+        "OK, and have you been feeling more more tired, more fatigued at all recently?",
+        "Yeah, my energy has just been really down. I've been really fatigued."
       ]
     },
     "fever": {
@@ -121,13 +122,16 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, so do you think there's blood in your phlegm?"
+        "I it looks pretty dark and and sometimes red.",
+        "OK, so do you think there's blood in your phlegm?",
+        "Yeah, the dark it does kind of look like blood, so that's what scared me and wanted me to come in today."
       ]
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "And how about your appetite?"
+        "OK, and how about your appetite?",
+        "I feel like I've been eating OK. Regular diet."
       ]
     },
     "paralysis_limb_or_face": {
@@ -137,8 +141,8 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, I had a cold a few weeks back, but, it was just a runny nose and it seems that the cough has been kind of lingering around.",
-        "Just the cold that I was talking about it a few weeks ago, and that's where the runny nose kinda went away."
+        "OK, and do you have any other symptoms like shortness of breath or runny nose, sore throat, anything like that?",
+        "Uh nothing I can think of, just just this cough that's been bugging me."
       ]
     },
     "sleep_changes": {
@@ -156,8 +160,11 @@
       ]
     },
     "sore_throat": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and do you have any other symptoms like shortness of breath or runny nose, sore throat, anything like that?",
+        "Uh nothing I can think of, just just this cough that's been bugging me."
+      ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -169,6 +176,7 @@
     "weakness": {
       "assessed": "Yes",
       "example_quotes": [
+        "Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
         "I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
       ]
     }

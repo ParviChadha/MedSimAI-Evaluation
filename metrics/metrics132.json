@@ -1,22 +1,31 @@
 {
-  "precision": 0.9333333333333333,
+  "precision": 0.9032258064516129,
   "recall": 1.0,
-  "f1_score": 0.9655172413793104,
+  "f1_score": 0.9491525423728813,
   "true_positives": 28,
-  "false_positives": 2,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Lung Complications",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "Um and any family history of heart or lung conditions?"
+        "Medical Student: Alright, any allergies to medications?",
+        "Patient: Not that I know of."
       ]
     },
     {
-      "item": "Lethargic",
+      "item": "Sleep",
       "result_quotes": [
-        "Yeah, I would say so. I just feel like I don't know if it's to do with the short, of being short of breath, but yeah, I just feel like I've just been needing more rest."
+        "Medical Student: OK, or have you had any uh times where you've uh woken up um from sleep because you were short of breath and you had to sit up?",
+        "Patient: Uh no."
+      ]
+    },
+    {
+      "item": "Redness In Throat",
+      "result_quotes": [
+        "Medical Student: OK. And have you had a sore throat?",
+        "Patient: No."
       ]
     }
   ],

@@ -1,16 +1,115 @@
 {
   "medical_history_assessed": {
-    "decreased_fluid_intake": {
+    "change_in_taste": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_feeding": {
+    "infectious_symptom": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?",
+        "Not recently, I had that about two months ago, but that got better."
+      ]
+    },
+    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_talking": {
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "apnea_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about any changes to bowel habits such as diarrhea or Constipation?",
+        "Uhm, no."
+      ]
+    },
+    "changes_in_appetite": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you had any changes to your appetite or, or diet or exercise?",
+        "I can barely exercise. I feel so short of breath. My dad's the same."
+      ]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Alright, and, uhm, how about any, any chest pain?",
+        "No."
+      ]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any fevers or chills?",
+        "No."
+      ]
+    },
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about any changes to bowel habits such as diarrhea or Constipation?",
+        "Uhm, no."
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, and have you been experiencing any cough?",
+        "No."
+      ]
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about any changes to bowel habits such as diarrhea or Constipation?",
+        "Uhm, no."
+      ]
+    },
+    "diet": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you had any changes to your appetite or, or diet or exercise?",
+        "I can barely exercise. I feel so short of breath. My dad's the same."
+      ]
+    },
+    "discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?",
+        "Not recently, I had that about two months ago, but that got better."
+      ]
+    },
+    "dizzyness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Alright, have you had any fainting or dizziness?",
+        "Uh, no."
+      ]
+    },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drowsiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've had, uh, worsening, uhm, shortness of breath, uhm, for the past couple of days."
+      ]
     },
     "dysuria": {
       "assessed": "Yes",
@@ -19,60 +118,82 @@
         "I do, I, I uhm, I leak urine sometimes, actually quite often."
       ]
     },
-    "fainting": {
+    "ecercise": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any fainting or dizziness?"
+        "And have you had any changes to your appetite or, or diet or exercise?",
+        "I can barely exercise. I feel so short of breath. My dad's the same."
       ]
     },
-    "foreign_body_intake": {
+    "eye_redness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?",
+        "Not recently, I had that about two months ago, but that got better."
+      ]
+    },
+    "fatigue": {
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting": {
-      "assessed": "No",
-      "example_quotes": []
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any fevers or chills?",
+        "No."
+      ]
     },
     "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hearing_problem": {
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have high blood pressure"
-      ]
-    },
-    "memory_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I don't remember their names.",
-        "I don't know, I, I don't know all of that. I don't know, you have to ask my daughter, she knows much more about me."
-      ]
-    },
-    "not_crying": {
+    "loss_of_appetite": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucous_building": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nasal_congestion": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?",
+        "Not recently, I had that about two months ago, but that got better."
+      ]
+    },
+    "nausea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "did you have any nausea or vomiting?",
+        "No."
+      ]
     },
     "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Alright, and, uhm, how about any, any chest pain?",
+        "No."
+      ]
     },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "passing_gas": {
-      "assessed": "No",
-      "example_quotes": []
+    "palpitation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been having any, uh, instances feeling as though your heart's racing or beating out of your chest?",
+        "No."
+      ]
     },
     "photophobia": {
       "assessed": "No",
@@ -82,183 +203,68 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "rectal_bleeding": {
+    "pregnancy": {
       "assessed": "No",
       "example_quotes": []
     },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sinus_headaches": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep": {
+    "sensitive_to_allergies": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, that happened last night, couldn't fall asleep.",
-        "It's, it's fine with the two pillows now."
-      ]
-    },
-    "slow_motion_feeling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "symptom_speedup": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "symptoms_stress": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tonsilitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any changes to bowel habits such as diarrhea or Constipation?"
-      ]
-    },
-    "changes_in_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And have you had any changes to your appetite or, or diet or exercise?"
-      ]
-    },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, and have you had any, uh, instances feeling as though your heart's racing or beating out of your chest?",
-        "Have you had any chest pain?"
-      ]
-    },
-    "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any fevers or chills?"
-      ]
-    },
-    "constipation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any changes to bowel habits such as diarrhea or Constipation?"
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, no."
-      ]
-    },
-    "diarrhoea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any changes to bowel habits such as diarrhea or Constipation?"
-      ]
-    },
-    "diet": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And have you had any changes to your appetite or, or diet or exercise?"
-      ]
-    },
-    "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?"
-      ]
-    },
-    "dizzyness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any fainting or dizziness?"
-      ]
-    },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've had, uh, worsening, uhm, shortness of breath, uhm, for the past couple of days.",
-        "how far are you able to walk before getting shorter breath?",
-        "have you had shortness of breath like this before?",
-        "have you been experiencing any cough?",
-        "have you, have you had any instances where you've woke up in the middle of the night extremely short of breath?",
-        "do you, uh, typically have problems with shortness of breath if you lie flat?"
-      ]
-    },
-    "ecercise": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And have you had any changes to your appetite or, or diet or exercise?",
-        "I can barely exercise. I feel so short of breath."
-      ]
-    },
-    "eye_redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?"
-      ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any fevers or chills?"
-      ]
-    },
-    "nasal_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?"
-      ]
-    },
-    "nausea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "And, uhm, have you been having any nausea or vomiting?"
-      ]
-    },
-    "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any chest pain?"
-      ]
-    },
-    "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any, uh, instances feeling as though your heart's racing or beating out of your chest?"
+        "do you have any allergies to medications?",
+        "No."
       ]
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been experiencing any cough?",
-        "have you, have you had any instances where you've woke up in the middle of the night extremely short of breath?"
+        "have you had any, uh, instances where you've woke up in the middle of the night extremely short of breath?",
+        "Yeah, that happened last night, couldn't fall asleep."
       ]
     },
     "sleep_hydrosis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK and or, or any night sweats?",
+        "No"
+      ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_loss": {
       "assessed": "No",
       "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?"
+        "Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?",
+        "Not recently, I had that about two months ago, but that got better."
       ]
+    },
+    "speech_volume": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been having any swelling?",
-        "Yeah, Oh my goodness, it's so bad I couldn't wear my shoes this morning."
+        "have you been having, uhm, any swelling?",
+        "Yeah, Oh my goodness, it's so bad I couldn't wear my shoes this morning. It's gotten worse over the past, one month."
       ]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tightness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
@@ -270,26 +276,33 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "And, uhm, have you been having any nausea or vomiting?"
+        "did you have any nausea or vomiting?",
+        "No."
       ]
+    },
+    "weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "weight_changes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any changes to your weight?",
+        "Have you, have you had any changes to your weight?",
         "Yep, gained five pounds in the past two months."
       ]
     },
     "weight_gain": {
       "assessed": "Yes",
       "example_quotes": [
+        "Have you, have you had any changes to your weight?",
         "Yep, gained five pounds in the past two months."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any wheezing?"
+        "Alright, have you had any wheezing?",
+        "No."
       ]
     }
   }

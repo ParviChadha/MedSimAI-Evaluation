@@ -1,28 +1,37 @@
 {
-  "precision": 0.96,
-  "recall": 0.9230769230769231,
-  "f1_score": 0.9411764705882353,
-  "true_positives": 24,
-  "false_positives": 1,
-  "false_negatives": 2,
+  "precision": 0.8666666666666667,
+  "recall": 1.0,
+  "f1_score": 0.9285714285714286,
+  "true_positives": 26,
+  "false_positives": 4,
+  "false_negatives": 0,
   "total_items": 52,
   "false_positive_details": [
     {
-      "item": "Sexually Transmitted Infection",
+      "item": "Smell Problem",
       "result_quotes": [
-        "And uh do you have any history of any STI's?",
-        "No."
+        "And are you having any symptoms of loss of smell at all?",
+        "No, no loss of smell."
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "in terms of your family history, does anyone have any lung conditions, heart conditions, or any cancers?",
+        "Uh nope, nothing like that."
+      ]
+    },
+    {
+      "item": "Vaginal Discharge",
+      "result_quotes": []
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Hi I'm coming in because I've had this like on and off runny nose and stuffy nose for the past week. Um and I just came to make sure it's not something serious like Covid.",
+        "I visited my sister and she has a nephew who goes to daycare, but my nephew's been OK, no, no runny nose or stuffy nose."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,67 +1,52 @@
 {
   "medical_history_assessed": {
-    "confusion": {
+    "brain_fog": {
       "assessed": "No",
       "example_quotes": []
     },
-    "delayed_growth_milestones": {
+    "change_in_sleep": {
       "assessed": "No",
       "example_quotes": []
     },
-    "facial_pressure": {
+    "decreased_physical_activity": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "when I went out to get the Mail today I, I just couldn't do it. I, I had to just sit down.",
+        "No, I usually uhm, am able to go out and get the mail, no problem, yeah."
+      ]
+    },
+    "extended_sleep": {
       "assessed": "No",
       "example_quotes": []
     },
-    "guilt_feeling": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hoarse_tone": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "Yes",
       "example_quotes": [
         "Did you, were you, were you drunk and did you pass out?",
         "Yeah, I think so. My, my friends, uh yeah, that's what my friends were, were saying anyway."
       ]
     },
-    "loss_of_consciousness_due_to_alcohol": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Did you, were you, were you drunk and did you pass out?"
-      ]
-    },
-    "lymphadenitis": {
+    "loss_of_sense": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_limb_or_face": {
+    "more_quiet": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slow_motion_feeling": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -69,19 +54,37 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "vaginal_discomfort": {
+    "sweaty": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing_or_or_itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "wheez_inhale": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any pain in your chest?"
+        "Have you had any pain in your chest?",
+        "Uh, no pain."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
+        "It's wet, I've been bringing up, uh, sputum that's uh, It's just, it leaves a really bad taste in my mouth when bringing it up.",
         "What color is the sputum?",
         "It's kind of, uh, like, yellowish green, type color."
       ]
@@ -89,47 +92,50 @@
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh no, but, well I guess I have felt a little nauseous with the, uhm, bad taste in my mouth.",
-        "And any uh diarrhea or Constipation?"
+        "OK, and any uh diarrhea or Constipation?",
+        "Uhm no, I haven't anything like that."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "What brings you in today?",
-        "Yeah, so I've had this cough that started within the last day"
+        "Yeah, so I've had this cough that started within the last day and uhm, I've also been particularly short of breath as well.",
+        "Can you tell me about the, the cough, how, is it dry cough or wet cough?"
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "And any uh diarrhea or Constipation?"
+        "OK, and any uh diarrhea or Constipation?",
+        "Uhm no, I haven't anything like that."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, so I've had this cough that started within the last day and uhm, I've also been particularly short of breath as well.",
-        "And can you tell me if it's gotten better or worse since then?"
+        "I've also been particularly short of breath as well.",
+        "What about the difficulties breathing, when did that start?"
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, so you've had this bad cough and you've had some difficulties breathing since yesterday. Have you had a headache at all?"
+        "Have you had a headache at all?",
+        "No, no headache."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Havey you noticed any blood?"
+        "Havey you noticed any blood?",
+        "No, I haven't seen any blood."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any, uh, runny nose?",
-        "Any congestion?"
+        "Any congestion?",
+        "No."
       ]
     },
     "nausea": {
@@ -142,8 +148,10 @@
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "And any pain in your belly?",
-        "When you're breathing in or breathing out any pain at that time? or deep breathing?"
+        "Any pain in your belly?",
+        "No.",
+        "When you're breathing in or breathing out any pain at that time? or deep breathing?",
+        "No, I haven't had any pain."
       ]
     },
     "palpitation": {
@@ -156,19 +164,22 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any, uh, runny nose?"
+        "Any, uh, runny nose?",
+        "No, it's really, no."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any sore throat?"
+        "OK, any sore throat?",
+        "Uhm, no."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nausea or vomiting?"
+        "Nausea or vomiting?",
+        "Uh no, but, well I guess I have felt a little nauseous with the, uhm, bad taste in my mouth."
       ]
     }
   }

@@ -1,24 +1,51 @@
 {
-  "precision": 0.9130434782608695,
+  "precision": 0.7777777777777778,
   "recall": 1.0,
-  "f1_score": 0.9545454545454545,
+  "f1_score": 0.8750000000000001,
   "true_positives": 21,
-  "false_positives": 2,
+  "false_positives": 6,
   "false_negatives": 0,
   "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Vision Problem",
+      "item": "Dysuria",
       "result_quotes": [
-        "Any issues with your eyes?",
-        "No, nothing like crusting or pus coming out of your eyes? Red eye, anything like that?"
+        "OK how about urine?",
+        "Um, that's been OK."
       ]
     },
     {
       "item": "Sexually Transmitted Infection",
       "result_quotes": [
-        "are you sexually active?",
-        "If you were to be, make sure you use protection."
+        "No alcohol. OK, are you sexually active?",
+        "No, I'm not."
+      ]
+    },
+    {
+      "item": "Sleep",
+      "result_quotes": [
+        "OK, so it's not preventing you from sleeping, going to school, playing, things like that?",
+        "No, it's more so the sore throat when swallowing."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "OK, What are you allergic too?",
+        "Um mostly seasonal allergies, bug me like um yeah, like seasonal allergies and dust, maybe."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "Yeah, I've had this, uh this, like red I guess pink rash that I have noticed it's come over my chest and and belly area."
+      ]
+    },
+    {
+      "item": "Sleep Problem",
+      "result_quotes": [
+        "OK, so it's not preventing you from sleeping, going to school, playing, things like that?",
+        "No, it's more so the sore throat when swallowing."
       ]
     }
   ],

@@ -1,23 +1,31 @@
 {
-  "precision": 0.9411764705882353,
-  "recall": 0.9411764705882353,
-  "f1_score": 0.9411764705882353,
-  "true_positives": 16,
-  "false_positives": 1,
-  "false_negatives": 1,
+  "precision": 0.85,
+  "recall": 1.0,
+  "f1_score": 0.9189189189189189,
+  "true_positives": 17,
+  "false_positives": 3,
+  "false_negatives": 0,
   "total_items": 34,
   "false_positive_details": [
     {
-      "item": "Diabetes",
+      "item": "Chest Pressure",
       "result_quotes": [
-        "do you have any past medical history any like hypertension that like diabetes?"
+        "Patient: The pain is. It's stabbing, but also it feels really really tight in my chest."
+      ]
+    },
+    {
+      "item": "Greenish Yellowish Nasal Discharge",
+      "result_quotes": [
+        "Medical Student: OK, and has there been any kind of green slimy mucus in your cough at all?",
+        "Patient: No, it's been a dry cough."
+      ]
+    },
+    {
+      "item": "Sore Throat",
+      "result_quotes": [
+        "Patient: Yeah, a couple of weeks ago I had a runny nose and sore throat and a little bit of a headache but. I feel better from that now."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

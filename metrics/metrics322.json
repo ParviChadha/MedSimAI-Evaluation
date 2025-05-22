@@ -1,19 +1,46 @@
 {
-  "precision": 1.0,
+  "precision": 0.7647058823529411,
   "recall": 0.8666666666666667,
-  "f1_score": 0.9285714285714286,
+  "f1_score": 0.8125,
   "true_positives": 13,
-  "false_positives": 0,
+  "false_positives": 4,
   "false_negatives": 2,
   "total_items": 30,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Runny Eyes",
+      "result_quotes": [
+        "he had like a an infection, like some sort of viral infection recently, like about a week back, he had like a runny nose and a cough, but that went away."
+      ]
+    },
+    {
+      "item": "Dehydration",
+      "result_quotes": [
+        "I took him to our family doctor um and they just suggested some supportive treatments um which we've been doing at home like we try to keep him well hydrated, and we've been keeping an eye on his like um diapers and things like that.",
+        "Usually like about 5, 6, but yesterday it was like 2."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "he's been very short of breath."
+      ]
+    },
+    {
+      "item": "Difficulty Feeding",
+      "result_quotes": [
+        "he's not swallowing his food, like we've been feeding him some mashed up food but he's not swallowing it.",
+        "He's just kind of throwing throwing it back out there."
+      ]
+    }
+  ],
   "false_negative_details": [
     {
-      "item": "Constipation",
+      "item": "Diarrhoea",
       "truth_quotes": []
     },
     {
-      "item": "Diarrhoea",
+      "item": "Constipation",
       "truth_quotes": []
     }
   ]

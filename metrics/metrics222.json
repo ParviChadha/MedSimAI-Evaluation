@@ -1,17 +1,50 @@
 {
-  "precision": 1.0,
-  "recall": 0.9,
-  "f1_score": 0.9473684210526316,
-  "true_positives": 18,
-  "false_positives": 0,
-  "false_negatives": 2,
+  "precision": 0.7916666666666666,
+  "recall": 0.95,
+  "f1_score": 0.8636363636363635,
+  "true_positives": 19,
+  "false_positives": 5,
+  "false_negatives": 1,
   "total_items": 40,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "false_positive_details": [
     {
-      "item": "Head Ache",
-      "truth_quotes": []
+      "item": "Itching",
+      "result_quotes": [
+        "Medical Student: OK, and what kind of reaction do you get?",
+        "Patient: I just break out in hives."
+      ]
     },
+    {
+      "item": "Weight Gain",
+      "result_quotes": [
+        "Medical Student: Any changes in your appetite or weight?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Medical Student: Have you traveled at all recently or been in touch with anyone who's been sick?",
+        "Patient: Uhm, no, nothing like that."
+      ]
+    },
+    {
+      "item": "Difficulty Sleeping",
+      "result_quotes": [
+        "Medical Student: Are you just getting daytime symptoms or are you waking up from sleep or not being able to sleep because of your symptoms?",
+        "Patient: I woke up twice last week.",
+        "Patient: Um a little bit because I haven't been sleeping too well."
+      ]
+    },
+    {
+      "item": "Pain",
+      "result_quotes": [
+        "Medical Student: Sensation of chest pain or racing of your heart?",
+        "Patient: No."
+      ]
+    }
+  ],
+  "false_negative_details": [
     {
       "item": "Symptom Speedup",
       "truth_quotes": []

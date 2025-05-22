@@ -1,36 +1,18 @@
 {
-  "precision": 0.90625,
-  "recall": 0.9666666666666667,
-  "f1_score": 0.9354838709677419,
-  "true_positives": 29,
-  "false_positives": 3,
-  "false_negatives": 1,
-  "total_items": 60,
+  "precision": 0.967741935483871,
+  "recall": 1.0,
+  "f1_score": 0.9836065573770492,
+  "true_positives": 30,
+  "false_positives": 1,
+  "false_negatives": 0,
+  "total_items": 45,
   "false_positive_details": [
     {
-      "item": "Slow Motion Feeling",
+      "item": "Dysuria",
       "result_quotes": [
-        "It just feels like I'm really slow at doing things."
-      ]
-    },
-    {
-      "item": "Sexually Transmitted Infection",
-      "result_quotes": [
-        "Have you had a sexually transmitted infection before?",
-        "No."
-      ]
-    },
-    {
-      "item": "Pregnancy",
-      "result_quotes": [
-        "I'm on the birth control pill."
+        "Alright, and then how about any urinary problems such as painful urination or going frequently?"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Hyperacusis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

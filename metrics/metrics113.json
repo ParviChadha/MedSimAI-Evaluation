@@ -1,11 +1,32 @@
 {
-  "precision": 1.0,
+  "precision": 0.8695652173913043,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9302325581395349,
   "true_positives": 20,
-  "false_positives": 0,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 40,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "Medical Student: Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat?"
+      ]
+    },
+    {
+      "item": "Bowel Movement",
+      "result_quotes": [
+        "Medical Student: Any pain in your belly or any diarrhea?",
+        "Patient: Nothing like that."
+      ]
+    },
+    {
+      "item": "Respiratory Distress Syndrome",
+      "result_quotes": [
+        "Medical Student: Any difficulties breathing?",
+        "Patient: No."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

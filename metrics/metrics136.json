@@ -1,24 +1,39 @@
 {
-  "precision": 1.0,
-  "recall": 0.90625,
-  "f1_score": 0.9508196721311475,
-  "true_positives": 29,
-  "false_positives": 0,
-  "false_negatives": 3,
+  "precision": 0.8888888888888888,
+  "recall": 1.0,
+  "f1_score": 0.9411764705882353,
+  "true_positives": 32,
+  "false_positives": 4,
+  "false_negatives": 0,
   "total_items": 64,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "false_positive_details": [
     {
-      "item": "Urination",
-      "truth_quotes": []
+      "item": "Food Allergy",
+      "result_quotes": [
+        "Medical Student: OK, um and do you have any allergies?",
+        "Patient: No, not not really."
+      ]
     },
     {
-      "item": "Rectal Bleeding",
-      "truth_quotes": []
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "Patient: Uh, so I do have diabetes and high blood pressure."
+      ]
     },
     {
-      "item": "Dysphagia",
-      "truth_quotes": []
+      "item": "Vaccine Related Reaction",
+      "result_quotes": [
+        "Medical Student: OK. Are you up to date with all your immunizations?",
+        "Patient: Yep."
+      ]
+    },
+    {
+      "item": "Weight Gain",
+      "result_quotes": [
+        "Medical Student: OK, any weight loss over the past few weeks?",
+        "Patient: Uh no, probably weight gain."
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

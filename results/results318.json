@@ -1,30 +1,21 @@
 {
   "medical_history_assessed": {
-    "decreased_focus": {
+    "change_in_taste": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_feeding": {
-      "assessed": "No",
-      "example_quotes": []
+    "discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "My phlegm looks green.",
+        "Vaginal discharge was not asked about, but phlegm was discussed."
+      ]
     },
     "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hearing_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lethargic": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -40,25 +31,20 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "passing_gas": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pregnancy": {
-      "assessed": "No",
-      "example_quotes": []
+    "phlegm": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "My phlegm looks green.",
+        "how much sputum are you bringing up in an average day now?"
+      ]
     },
     "rectal_bleeding": {
       "assessed": "No",
@@ -68,35 +54,27 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "rigor": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
-    "self_hurt": {
+    "sneezing": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slow_motion_feeling": {
+    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "stunning": {
+    "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "symptom_speedup": {
+    "throat_pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tonsilitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trauma": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "urination": {
+    "tingling": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -111,143 +89,168 @@
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, yeah, some chest tightness.",
-        "Uh, it's a, uh, it's a tightness in my chest. And it feels, I guess throbbing or achy?"
+        "Are you feeling at all any kind of, uh, chest tightness or pain?"
       ]
     },
     "chest_tightness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, yeah, some chest tightness.",
-        "Uh, it's a, uh, it's a tightness in my chest. And it feels, I guess throbbing or achy?"
+        "Yeah, some chest tightness.",
+        "it's a tightness in my chest."
       ]
     },
     "chills": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills.",
+        "Ah, nope, nothing like that."
+      ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "It's definitely wet. My phlegm looks green.",
-        "It's been like that for the past two weeks."
+        "My phlegm looks green."
       ]
     },
     "confusion": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been feeling increased sweating and confusion? Anything like that?"
+      ]
     },
     "constipation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "do you have any kind of diarrhea or constipation?"
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I've been feeling very short of breath for the past, uh, two weeks, but even before that, I started feeling a little bit short of breath and I can't stop coughing and it just feels like it's really hard for me to breathe.",
-        "Yeah.",
-        "It's definitely wet. My phlegm looks green.",
-        "The same amount of time, it started about, maybe three weeks ago, I started coughing more, um, but now it's worse."
+        "I can't stop coughing"
       ]
     },
     "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "do you have any kind of diarrhea or constipation?"
+      ]
     },
     "dizzyness": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been feeling dizzy or have you fainted at all?"
+      ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I've been feeling very short of breath for the past, uh, two weeks, but even before that, I started feeling a little bit short of breath and I can't stop coughing and it just feels like it's really hard for me to breathe.",
-        "its, uh, ok, its more with exertion, but right now even at rest, I'm coughing and feeling short of breath.",
-        "Uh, a little bit. Yeah, a little bit I would say."
+        "I've been feeling very short of breath"
       ]
     },
     "fainting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been feeling dizzy or have you fainted at all?"
+      ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I feel fatigued.",
-        "Yeah, it's probably cause of my shortness of breath."
+        "how about fatigue?",
+        "Yeah, I feel fatigued."
       ]
     },
     "fever": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "any kind of fevers at all?",
+        "No, no fevers."
+      ]
     },
     "headaches": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And any kind of headaches or nausea or vomiting."
+      ]
     },
     "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you noticed any kind of, uh, coughing up blood or blood tinged sputum at all?"
+      ]
     },
     "hyperhidrosis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been feeling increased sweating and confusion? Anything like that?"
+      ]
     },
     "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you at all had any changes in your appetite or anything like that?"
+      ]
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And any kind of headaches or nausea or vomiting."
+      ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, yeah, some chest tightness.",
-        "Uh, it's a, uh, it's a tightness in my chest. And it feels, I guess throbbing or achy?"
+        "Are you feeling at all any kind of, uh, chest tightness or pain?"
       ]
     },
     "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you felt your heart racing and anything like that?"
+      ]
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "uh yeah, I think its, yeah when I'm laying down sometimes I feel more short of breath than usual, but once I shift positions it goes back to it's normal."
+        "Are you having any of these symptoms when you're trying to sleep?",
+        "Is it, do you ever have to wake up at night to catch a breath or anything like that?"
       ]
     },
     "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any night sweats?"
+      ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Some swelling in, some swelling in my legs, yeah?"
+        "do you have any symptoms of any swelling in your extremities like legs, hands or anything like that?"
       ]
     },
     "tightness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, yeah, some chest tightness.",
-        "Uh, it's a, uh, it's a tightness in my chest. And it feels, I guess throbbing or achy?"
+        "Are you feeling at all any kind of, uh, chest tightness or pain?"
       ]
     },
     "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you noticed any kind of, uh, significant weight loss or anything like that recently?"
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And any kind of headaches or nausea or vomiting."
+      ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any wheezing at all?",
-        "Uhm, some wheezing, yeah."
+        "now are you having any wheezing at all?"
       ]
     }
   }

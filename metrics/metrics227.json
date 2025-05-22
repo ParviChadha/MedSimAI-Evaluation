@@ -1,22 +1,29 @@
 {
-  "precision": 0.9090909090909091,
+  "precision": 0.8333333333333334,
   "recall": 0.9090909090909091,
-  "f1_score": 0.9090909090909091,
+  "f1_score": 0.8695652173913043,
   "true_positives": 10,
-  "false_positives": 1,
+  "false_positives": 2,
   "false_negatives": 1,
   "total_items": 22,
   "false_positive_details": [
     {
-      "item": "Symptoms Stress",
+      "item": "Itching Eyes",
       "result_quotes": [
-        "How are things at home is he, is he doing well otherwise? Like at school and things like that, any stressors in his life?"
+        "He does get symptoms like a runny nose and itchy eyes sometimes"
+      ]
+    },
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "Does he have difficulties falling asleep at night?",
+        "Yeah, definitely wakes him up a few and every once in awhile at night"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Palpitation",
+      "item": "Pain",
       "truth_quotes": []
     }
   ]

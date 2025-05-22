@@ -1,28 +1,47 @@
 {
   "medical_history_assessed": {
-    "apnea_at_birth": {
+    "anxious": {
       "assessed": "Yes",
       "example_quotes": [
-        "And did she have to stay in the NICU at all, at the hospital afterwards?"
+        "Medical Student: Okay, um, and so, has this happened before at all?",
+        "Medical Student: No, this is the first time, okay. Um, any so, she, she is vomiting. Um, is the vomit like green in colour? Or is she just vomiting up what she has eaten? What's the content of the moment?"
       ]
     },
-    "behavior_changes": {
+    "confusion": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_feeding": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
+        "Medical Student: Okay. And is she feeding well, like what does she usually eat?",
+        "Patient: She's feeding well. She's doing uh, she eats everything, yeah."
       ]
+    },
+    "fainting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "headache": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lethargic": {
+    "inconsolable": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
+        "Medical Student: Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?",
+        "Patient: She does get tired, especially after, and then she's irritable and crying after, you know, she has these fits of coughs."
       ]
     },
-    "low_mood": {
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_smell": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -30,39 +49,23 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "not_crying": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_general": {
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_limb_or_face": {
+    "redness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigors": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slow_motion_feeling": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -70,135 +73,150 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "tingling": {
+    "straining_and_chest_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaginal_discharge": {
+    "taste_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaginal_discomfort": {
+    "vision_problem": {
       "assessed": "No",
       "example_quotes": []
     },
     "blood_in_the_vomit": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, any blood in the vomit? Or is she coughing up any blood?"
+        "Medical Student: Oh, I see, okay. Um, any blood in the vomit? Or is she coughing up any blood?",
+        "Patient: No."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, any, any fevers or chills?"
+        "Medical Student: Okay, um, other than the cough uh, any, any fevers or chills?",
+        "Patient: No, I don't think she's had fevers. I haven't checked, though."
       ]
     },
     "cold_like_symptoms": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, any, so this started two weeks ago, any kind of symptoms of runny nose or um, cold-like symptoms before then?"
+        "Medical Student: Um, any, so this started two weeks ago, any kind of symptoms of runny nose or um, cold-like symptoms before then?",
+        "Patient: Yeah, yeah she did have a bit of a runny nose. It was just uh, watery, uh, since discharge. And at that time her cough, she had a cough as well."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any symptoms of diarrhea or constipation?"
+        "Medical Student: Okay. Um, any symptoms of diarrhea or constipation?",
+        "Patient: No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "So what uh, brings you here today?",
-        "Um, and can you describe the cough a little bit? Is it a dry cough or is she bringing anything up?",
-        "Okay, um, and so there's episodes where she also turns blue?"
+        "Patient: I am here with uh, with my daughter, who has just been having a cough for the past um, two weeks.",
+        "Medical Student: Okay, um, and can you describe the cough a little bit? Is it a dry cough or is she bringing anything up?"
       ]
     },
     "coughing_fit": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, it is a, it is a dry cough, um, but she just keeps coughing and coughing and, and then she just, you know, once she'll start coughing she just doesn't stop."
+        "Patient: Um, it is a, it is a dry cough, um, but she just keeps coughing and coughing and, and then she just, you know, once she'll start coughing she just doesn't stop.",
+        "Medical Student: Okay. And the cough is pretty constant, or is it, does it come and go?",
+        "Patient: Yeah, she just has these episodes where she just coughs and coughs and coughs, and then she'll either vomit or just turn blue, or just um, get better in a couple, couple minutes. This kind of comes and goes like that."
       ]
     },
     "cyanotic_episodes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, and so there's episodes where she also turns blue?"
+        "Patient: Um, it is a, it is a dry cough, um, but she just keeps coughing and coughing and, and then she just, you know, once she'll start coughing she just doesn't stop. And then um, there's been times when she just turns blue, she's coughing so much.",
+        "Medical Student: Okay. Um, and so there's episodes where she also turns blue?"
       ]
     },
     "delayed_growth_milestones": {
       "assessed": "Yes",
       "example_quotes": [
-        "And any difficulties or complications with her growth? Like in terms of her weight or her height?",
-        "And in terms of her milestones, has she been meeting all of them on time?"
+        "Medical Student: And in terms of her milestones, has she been meeting all of them on time?",
+        "Patient: Yes."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any symptoms of diarrhea or constipation?"
+        "Medical Student: Okay. Um, any symptoms of diarrhea or constipation?",
+        "Patient: No."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
+        "Medical Student: Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?",
+        "Patient: She does get tired, especially after, and then she's irritable and crying after, you know, she has these fits of coughs."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, any, any fevers or chills?"
+        "Medical Student: Okay, um, other than the cough uh, any, any fevers or chills?",
+        "Patient: No, I don't think she's had fevers. I haven't checked, though."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, any blood in the vomit? Or is she coughing up any blood?"
+        "Medical Student: Oh, I see, okay. Um, any blood in the vomit? Or is she coughing up any blood?",
+        "Patient: No."
       ]
     },
     "irritable": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?",
-        "She does get tired, especially after, and then she's irritable and crying after, you know, she has these fits of coughs."
+        "Medical Student: Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?",
+        "Patient: She does get tired, especially after, and then she's irritable and crying after, you know, she has these fits of coughs."
       ]
     },
     "paroxysmal_coughing": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, it is a, it is a dry cough, um, but she just keeps coughing and coughing and, and then she just, you know, once she'll start coughing she just doesn't stop."
+        "Medical Student: Okay. And the cough is pretty constant, or is it, does it come and go?",
+        "Patient: Yeah, she just has these episodes where she just coughs and coughs and coughs, and then she'll either vomit or just turn blue, or just um, get better in a couple, couple minutes. This kind of comes and goes like that."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, any, so this started two weeks ago, any kind of symptoms of runny nose or um, cold-like symptoms before then?",
-        "Yeah, yeah she did have a bit of a runny nose. It was just uh, watery, uh, since discharge."
+        "Medical Student: Um, any, so this started two weeks ago, any kind of symptoms of runny nose or um, cold-like symptoms before then?",
+        "Patient: Yeah, yeah she did have a bit of a runny nose. It was just uh, watery, uh, since discharge. And at that time her cough, she had a cough as well."
       ]
     },
     "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: No. How's her sleeping like?",
+        "Patient: Uh, not great. It's just the cough keeps uh, waking her up and she just doesn't, can't fall asleep."
+      ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any trouble with urinating at all?"
+        "Medical Student: Okay. Any um, any trouble with urinating at all?",
+        "Patient: No."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "She's also vomited once or twice.",
-        "It's usually just what she's eaten."
+        "Patient: She's also vomited once or twice.",
+        "Medical Student: Oh, I see, okay. Um, any blood in the vomit? Or is she coughing up any blood?"
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Is it kind of a wheeze?",
-        "Yeah, sure."
+        "Medical Student: Okay, is it kind of a wheeze?",
+        "Patient: Yeah, sure."
       ]
     }
   }

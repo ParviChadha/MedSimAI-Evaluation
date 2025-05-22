@@ -1,66 +1,6 @@
 {
   "medical_history_assessed": {
-    "apnea_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "decreased_concentration": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tearing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tonsilitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaccine_related_reaction": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "wheez_inhale": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -70,42 +10,63 @@
         "Yeah, I had a sore throat and a little bit of a headache as well, uhm, and, and some aches and fatigue."
       ]
     },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms such as belly pain or diarrhea or Constipation"
+      ]
+    },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, have you had any chest pain?"
+        "have you had any chest pain?"
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had, have you had any fevers or chills?"
+        "Have you had, have you had any fevers or chills?"
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, and have you had any blood that came up with the sputum?"
+        "I have had a little bit of sputum production recently, uh, it's been mostly clear though."
       ]
+    },
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?"
+        "Any other symptoms such as belly pain or diarrhea or Constipation"
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I understand that you've had a cough, can you tell me a little bit more about that?",
-        "can you tell me a little bit more about this cough?"
+        "I understand that you've had a cough, can you tell me a little bit more about that?"
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?"
+        "Any other symptoms such as belly pain or diarrhea or Constipation"
       ]
+    },
+    "dizzyness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "drooling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_pain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
@@ -116,25 +77,41 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had, have you had any fevers or chills?"
+        "Have you had, have you had any fevers or chills?"
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I had a sore throat and a little bit of a headache as well, uhm, and, and some aches and fatigue."
+        "Yeah, I had a sore throat and a little bit of a headache as well"
       ]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, and have you had any blood that came up with the sputum?"
+        "have you had any blood that came up with the sputum?"
       ]
+    },
+    "hoarse_tone": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?"
+        "Any other symptoms such as belly pain"
       ]
     },
     "palpitation": {
@@ -143,24 +120,47 @@
         "Any palpitations? Do you feel like your heart's racing?"
       ]
     },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. OK, uhm, any uhm, I guess, any runny nose?",
-        "Yeah, my nose was a bit runny last week, but it's, that's better now."
+        "And any uhm, I guess, any runny nose?"
       ]
+    },
+    "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_issue": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I had a sore throat and a little bit of a headache as well, uhm, and, and some aches and fatigue."
+        "Yeah, I had a sore throat"
       ]
+    },
+    "swelling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any other symptoms such as belly pain or diarrhea or Constipation or changes in your urine, are having any urinary symptoms?"
+        "changes in your urine, are having any urinary symptoms?"
       ]
+    },
+    "vomiting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

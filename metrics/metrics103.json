@@ -8,39 +8,34 @@
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Weight Changes",
-      "result_quotes": [
-        "Any changes in your appetite?",
-        "No.",
-        "OK, have you lost any significant weight recently?",
-        "Uh, no."
-      ]
-    },
-    {
       "item": "Odynophagia",
       "result_quotes": [
-        "And the sore throat are you having trouble or pain while swallowing any food?",
-        "It's not that bad.",
-        "It's just irritation in my throat."
+        "And the sore throat are you having trouble or pain while swallowing any food?"
       ]
     },
     {
-      "item": "Lightheadedness",
+      "item": "Lung Complications",
       "result_quotes": [
-        "Do you have any other symptoms like. Shortness of breath, chest pain, dizziness, or anything like that?",
+        "Any family history of any lung or heart condition."
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "Is it constant, are your symptoms constant? Or they come and go?"
+      ]
+    },
+    {
+      "item": "Allergy Medication",
+      "result_quotes": [
+        "Any allergies to medication?",
         "No."
-      ]
-    },
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "Just high blood pressure. My mom has it."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Widespread Pain",
+      "item": "Dysphagia",
       "truth_quotes": []
     }
   ]

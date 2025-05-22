@@ -1,47 +1,85 @@
 {
-  "precision": 0.8571428571428571,
+  "precision": 0.75,
   "recall": 0.967741935483871,
-  "f1_score": 0.909090909090909,
+  "f1_score": 0.8450704225352113,
   "true_positives": 30,
-  "false_positives": 5,
+  "false_positives": 10,
   "false_negatives": 1,
   "total_items": 62,
   "false_positive_details": [
     {
-      "item": "Changes In Memory",
+      "item": "Loss Of Consciousness Due To Alcohol",
       "result_quotes": [
-        "No, not that I know of, no."
+        "Medical Student: OK, how about alcohol? Do you drink alcohol?",
+        "Patient: No."
       ]
     },
     {
-      "item": "Weight Changes",
+      "item": "Photophobia",
       "result_quotes": [
-        "I think over the last few months I may have lost like around 3 three kilograms."
+        "Medical Student: Changes in your vision or eye pain?",
+        "Patient: No, nothing like that."
       ]
     },
     {
-      "item": "Chest Pressure",
+      "item": "Dysuria",
       "result_quotes": [
-        "No chest pain, no no."
+        "Medical Student: OK and urine, any changes there?",
+        "Patient: Nope."
       ]
     },
     {
-      "item": "Symptom Speedup",
+      "item": "Stuffy Nose",
       "result_quotes": [
-        "I think over the last few months I may have lost like around 3 three kilograms.",
-        "Yeah, I would say so."
+        "Medical Student: Runny nose or stuffy nose?",
+        "Patient: Nope, not that I know of."
       ]
     },
     {
-      "item": "High Blood Pressure",
+      "item": "Difficulty Sleeping",
       "result_quotes": [
-        "I do have high blood pressure"
+        "Medical Student: OK and it's not waking you up at night, right?",
+        "Patient: No."
+      ]
+    },
+    {
+      "item": "Eye Redness",
+      "result_quotes": [
+        "Medical Student: Changes in your vision or eye pain?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Tearing",
+      "result_quotes": [
+        "Medical Student: Changes in your vision or eye pain?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    {
+      "item": "Redness In Throat",
+      "result_quotes": [
+        "Medical Student: Have you experienced a sore throat?",
+        "Patient: Nope."
+      ]
+    },
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "Medical Student: Have you experienced a sore throat?",
+        "Patient: Nope."
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "Patient: Um, I think it's, I feel short of breath most of the times, but it's mainly just gets worse when I'm exerting myself when I'm walking more than usual or just working in the garden."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Pain",
+      "item": "Sleep Dyspnea",
       "truth_quotes": []
     }
   ]

@@ -1,122 +1,28 @@
 {
   "medical_history_assessed": {
-    "anxious": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "grunting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "guilt_feeling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "inconsolable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "low_mood": {
+    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lumps": {
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
-    "motor_weakness": {
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any diarrhea or constipation?"
+      ]
     },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "passing_gas": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rectal_bleeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slow_motion_feeling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stunning": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaccine_related_reaction": {
+    "change_in_sleep": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -129,7 +35,7 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any fevers or chills?"
+        "OK, have you had any fevers or chills?"
       ]
     },
     "confusion": {
@@ -150,16 +56,40 @@
         "Have you had a cough?"
       ]
     },
+    "decreased_focus": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_oral_intake": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, have you had any loss of appetite?"
+      ]
+    },
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about things like diabetes or or high blood pressure?"
+      ]
+    },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
         "Have you had any diarrhea or constipation?"
       ]
     },
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_sleeping": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "could you describe the discharge?"
+        "Hi I'm, I have been having this nasal obstruction and discharge for the past week and it doesn't seem to be going away and it's bothering me so I thought I would get it checked out by you."
       ]
     },
     "dizzyness": {
@@ -174,10 +104,14 @@
         "Have you had any shortness of breath"
       ]
     },
+    "extended_sleep": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Have you had any eye redness or or any eye pain?"
+        "Have you had any eye redness or or any eye pain?"
       ]
     },
     "facial_pain": {
@@ -189,19 +123,23 @@
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "And how has your energy been? Have you had fatigue or malaise?"
+        "OK, and how has your energy been? Have you had fatigue or malaise?"
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any fevers or chills?"
+        "OK, have you had any fevers or chills?"
       ]
+    },
+    "general_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "how about any headaches?"
+        "OK, how about any headaches?"
       ]
     },
     "hearing_problem": {
@@ -216,6 +154,16 @@
         "OK, and have you coughed up any blood?"
       ]
     },
+    "infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you sexually active?\nOK, could you tell me a little bit about your partner or, or partners?\nOK, and any concern for a sexually transmitted infection?"
+      ]
+    },
+    "itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "lightheadness": {
       "assessed": "Yes",
       "example_quotes": [
@@ -225,13 +173,17 @@
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any loss of appetite?"
+        "OK, have you had any loss of appetite?"
       ]
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "malaise": {
       "assessed": "Yes",
       "example_quotes": [
-        "And how has your energy been? Have you had fatigue or malaise?"
+        "OK, and how has your energy been? Have you had fatigue or malaise?"
       ]
     },
     "memory_loss": {
@@ -239,6 +191,14 @@
       "example_quotes": [
         "Have you had any memory loss or confusion?"
       ]
+    },
+    "more_quiet": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucous_building": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
@@ -249,8 +209,12 @@
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any nausea or vomiting?"
+        "OK, have you had any nausea or vomiting?"
       ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "pain": {
       "assessed": "Yes",
@@ -264,44 +228,106 @@
         "Have you felt like your hearts beating really fast or racing?"
       ]
     },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "runny_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
         "Hi I'm, I have been having this nasal obstruction and discharge for the past week and it doesn't seem to be going away and it's bothering me so I thought I would get it checked out by you."
       ]
     },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensitive_to_allergies": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and any allergies like to any medications or any seasonal allergies? Like do you get symptoms like this that change throughout the year?"
+      ]
+    },
     "sexually_transmitted_infection": {
       "assessed": "Yes",
       "example_quotes": [
-        "any concern for a sexually transmitted infection?"
+        "OK, could you tell me a little bit about your partner or, or partners?\nOK, and any concern for a sexually transmitted infection?"
       ]
     },
+    "sleep_changes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "sleep_hydrosis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had a night sweats?"
+      ]
+    },
+    "sleeping_issues": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any changes to your sense of smell or any loss of smell?"
+        "All right, have you had any changes or to your sense of smell or any loss of smell?"
       ]
     },
     "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, and have you had any sneezing?"
+        "OK. Uhm, and have you had any sneezing?"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had a sore throat?"
+        "OK, have you had a sore throat?"
       ]
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any changes to your sense of taste?"
+        "OK. Have you had any changes to your sense of taste?"
+      ]
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing_or_or_itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "teary_eyes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "trouble_breathing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and you mentioned, so with the obstruction, have you had difficulties breathing?"
       ]
     },
     "unexplained_weight_loss": {
@@ -316,6 +342,10 @@
         "Have you had any painful urination or urinary frequency?"
       ]
     },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
@@ -325,14 +355,22 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any nausea or vomiting?"
+        "OK, have you had any nausea or vomiting?"
       ]
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
         "Have you had any wheezing?"
       ]
+    },
+    "wheez_inhale": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

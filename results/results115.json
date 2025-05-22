@@ -1,26 +1,60 @@
 {
   "medical_history_assessed": {
-    "apnea_at_birth": {
+    "ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, how about any muscle aches or or joint aches or or body aches?",
+        "Patient: No, nothing like that."
+      ]
+    },
+    "anxious": {
       "assessed": "No",
       "example_quotes": []
     },
-    "changes_in_his_appetite": {
-      "assessed": "No",
-      "example_quotes": []
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any bowel problems?",
+        "Patient: No."
+      ]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, and have you had any chest pain?",
+        "Patient: No, just sometimes when I'm like coughing a lot it gets a little bit uncomfortable. But other than that, no."
+      ]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK and you have it, have you had any fevers or chills?",
+        "Patient: No."
+      ]
+    },
+    "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, and has the cough been dry or have you been bringing up sputum?",
+        "Patient: Uh, it's usually always, uh, produces like the sputum, and it's usually white or yellowish in colour.",
+        "Medical Student: OK, and how much sputum are you producing each day? Some, sometimes it's useful to think about like teaspoons or tablespoons.",
+        "Patient: I would say every time I cough like a teaspoon I probably have like. I don't know. Maybe 5 to 10 teaspoons a day."
+      ]
     },
     "confusion": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dehydration": {
-      "assessed": "No",
-      "example_quotes": []
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: What brings you in to see us?",
+        "Patient: So I've just been having this cough that I feel has just been getting worse, and I've also been feeling a bit short of breath for the last few months.",
+        "Medical Student: OK, could you tell me when the cough started?",
+        "Patient: So I would say it started around two months ago."
+      ]
     },
     "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_sleeping": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -28,37 +62,118 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "hearing_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "high_blood_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "infection": {
+    "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "over the last year like I've had a couple of chest infections. After going to the ER, they gave me some antibiotics."
+        "Medical Student: What brings you in to see us?",
+        "Patient: So I've just been having this cough that I feel has just been getting worse, and I've also been feeling a bit short of breath for the last few months."
       ]
     },
-    "irritable": {
+    "dysuria": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Alright, then any urinary problems?",
+        "Patient: Nope."
+      ]
+    },
+    "eye_redness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rectal_bleeding": {
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, um, and how has your energy been? Have you been experiencing fatigue?",
+        "Patient: Um, when it gets really bad then I can't really step out of the house, but other than that I feel like my energy's still there."
+      ]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK and you have it, have you had any fevers or chills?",
+        "Patient: No."
+      ]
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, how about headaches?",
+        "Patient: No headaches."
+      ]
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK um. And have you noticed any blood?",
+        "Patient: No, um I haven't noticed any blood."
+      ]
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, how about being lightheaded or or like you were going to pass out?",
+        "Patient: No."
+      ]
+    },
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, and have you had any chest pain?",
+        "Patient: No, just sometimes when I'm like coughing a lot it gets a little bit uncomfortable. But other than that, no.",
+        "Medical Student: OK, how about abdominal pain?",
+        "Patient: No abdominal pain."
+      ]
+    },
+    "palpitation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, um have you had any instances where you felt like your heart was racing?",
+        "Patient: No."
+      ]
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
       "assessed": "No",
       "example_quotes": []
     },
     "redness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any rashes?",
+        "Patient: Nope."
+      ]
+    },
+    "rigor": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sexually_transmitted_infection": {
-      "assessed": "No",
-      "example_quotes": []
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, have you had a runny nose or or a sore throat?",
+        "Patient: Nope."
+      ]
     },
-    "sleep_issue": {
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -66,150 +181,66 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "symptoms_stress": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tonsilitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "watery_eyes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "just sometimes when I'm like coughing a lot it gets a little bit uncomfortable."
-      ]
-    },
-    "bowel_movement": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, just sometimes when I'm like coughing a lot it gets a little bit uncomfortable. But other than that, no."
-      ]
-    },
-    "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No."
-      ]
-    },
-    "colored_excess_sputum": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh, it's usually always, uh, produces like the sputum, and it's usually white or yellowish in colour."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "So I've just been having this cough that I feel has just been getting worse",
-        "could you tell me when the cough started?",
-        "I would say it started around two months ago.",
-        "I would say not really, it just started in the last two to three months."
-      ]
-    },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "and I've also been feeling a bit short of breath for the last few months.",
-        "OK, and have you noticed any blood?",
-        "It's around two months ago, around the same time.",
-        "Uh, it's it can happen like at anytime, but worse when I am exerting myself."
-      ]
-    },
-    "fatigue_extended": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um, when it gets really bad then I can't really step out of the house, but other than that I feel like my energy's still there."
-      ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, um I don't feel like I have a fever and no other symptoms"
-      ]
-    },
-    "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No headaches."
-      ]
-    },
-    "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No, um I haven't noticed any blood."
-      ]
-    },
-    "lightheadness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No."
-      ]
-    },
-    "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "just sometimes when I'm like coughing a lot it gets a little bit uncomfortable. But other than that, no."
-      ]
-    },
-    "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "No."
-      ]
-    },
-    "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Nope."
-      ]
-    },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "No."
+        "Medical Student: OK, how about at a loss of smell?",
+        "Patient: No."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nope."
+        "Medical Student: OK, have you had a runny nose or or a sore throat?",
+        "Patient: Nope."
       ]
     },
     "speech_volume": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, um that reminded me I I forgot to ask. Have you notice any changes to your voice?",
+        "Patient: Um no, not really."
+      ]
+    },
+    "stiffness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sweaty": {
       "assessed": "No",
       "example_quotes": []
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nope."
+        "Medical Student: Um a loss of taste?",
+        "Patient: Nope."
       ]
     },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "urination": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Alright, then any urinary problems?",
+        "Patient: Nope."
+      ]
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
       "assessed": "No",
       "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, sometimes I've noticed it, but I had it before. Like with asthma as well, but not not that much."
+        "Medical Student: Alright, and have you had any wheezing?",
+        "Patient: Um, sometimes I've noticed it, but I had it before. Like with asthma as well, but not not that much."
       ]
     }
   }

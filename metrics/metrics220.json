@@ -1,75 +1,26 @@
 {
-  "precision": 0.7428571428571429,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.8253968253968255,
-  "true_positives": 26,
-  "false_positives": 9,
-  "false_negatives": 2,
-  "total_items": 56,
+  "precision": 0.9333333333333333,
+  "recall": 1.0,
+  "f1_score": 0.9655172413793104,
+  "true_positives": 28,
+  "false_positives": 2,
+  "false_negatives": 0,
+  "total_items": 34,
   "false_positive_details": [
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "I have high blood pressure and diabetes."
-      ]
-    },
-    {
-      "item": "Vaccine Related Reaction",
-      "result_quotes": [
-        "I recently learned that I should get something called the pneumococcal vaccine. I haven't gotten that yet."
-      ]
-    },
-    {
-      "item": "Diabetes",
-      "result_quotes": [
-        "I have high blood pressure and diabetes."
-      ]
-    },
-    {
-      "item": "Mucous Building",
-      "result_quotes": [
-        "I am. Umm, and it looks yellow and sometimes even green."
-      ]
-    },
     {
       "item": "Odynophagia",
       "result_quotes": [
-        "Or any difficulty swallowing? Uhm, no."
+        "Medical Student: Or any difficulty swallowing?",
+        "Patient: Uhm, no."
       ]
     },
     {
-      "item": "Lung Complications",
+      "item": "Stiffness",
       "result_quotes": [
-        "I've been coughing a lot. I've been feeling short of breath and I just feel really wheezy"
-      ]
-    },
-    {
-      "item": "Weight Changes",
-      "result_quotes": [
-        "Have you had any weight loss over the last several months? Weight loss, no."
-      ]
-    },
-    {
-      "item": "Ear Problem",
-      "result_quotes": [
-        "Have you had any ear pain or eye pain? No."
-      ]
-    },
-    {
-      "item": "Lethargic",
-      "result_quotes": [
-        "I feel a little bit more tired, but other than that, no."
+        "Medical Student: OK, and then any joint pains or muscle aches?",
+        "Patient: No, nothing like that."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,35 +1,33 @@
 {
-  "precision": 0.9142857142857143,
-  "recall": 0.9696969696969697,
-  "f1_score": 0.9411764705882354,
-  "true_positives": 32,
+  "precision": 0.9166666666666666,
+  "recall": 1.0,
+  "f1_score": 0.9565217391304348,
+  "true_positives": 33,
   "false_positives": 3,
-  "false_negatives": 1,
-  "total_items": 66,
+  "false_negatives": 0,
+  "total_items": 45,
   "false_positive_details": [
     {
-      "item": "Decreased Fluid Intake",
+      "item": "Lightheadedness",
       "result_quotes": [
-        "Yeah, just with the trouble swallowing I'm trying to make sure that he gets like liquids because over the last few days he can't tolerate like solid foods at all."
+        "OK, dizziness or fainting spells?",
+        "No."
       ]
     },
     {
-      "item": "Lumps",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "Uhm, I think there might be like a few lumps near his neck, so I don't know if that's swelling, but definitely there is. There's a few that I felt over the last few days."
+        "Any sick contacts recently that he may have had?",
+        "I don't think at home at least, uh, but maybe at school, like you never know who they are in contact with, so I'm wondering if he just picked it up somewhere from school."
       ]
     },
     {
-      "item": "Difficulty Feeding",
+      "item": "Odynophagia",
       "result_quotes": [
-        "Yeah, just with the trouble swallowing I'm trying to make sure that he gets like liquids because over the last few days he can't tolerate like solid foods at all."
+        "And is he having any issues swallowing food or fluids?",
+        "Yeah, it seems like appetite's gone down, like a lot of pain in his throat, especially when swallowing solid foods."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Pus",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

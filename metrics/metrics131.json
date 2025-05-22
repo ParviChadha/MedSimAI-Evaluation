@@ -1,24 +1,55 @@
 {
-  "precision": 1.0,
-  "recall": 0.8846153846153846,
-  "f1_score": 0.9387755102040816,
-  "true_positives": 23,
-  "false_positives": 0,
-  "false_negatives": 3,
+  "precision": 0.7878787878787878,
+  "recall": 1.0,
+  "f1_score": 0.8813559322033898,
+  "true_positives": 26,
+  "false_positives": 7,
+  "false_negatives": 0,
   "total_items": 52,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "false_positive_details": [
     {
-      "item": "Urination",
-      "truth_quotes": []
+      "item": "Redness",
+      "result_quotes": [
+        "How about changes in your hair, nails or skin, like rashes?"
+      ]
     },
     {
-      "item": "Chest Pain",
-      "truth_quotes": []
+      "item": "Weight Gain",
+      "result_quotes": [
+        "I did gain a lot of weight at some point during my 40s and that's when all these things started happening."
+      ]
     },
     {
-      "item": "Bowel Movement",
-      "truth_quotes": []
+      "item": "Pressure In Around Face",
+      "result_quotes": [
+        "but I do feel a bit more pressure and stuffiness in my face today."
+      ]
+    },
+    {
+      "item": "Facial Pain",
+      "result_quotes": [
+        "but I do feel a bit more pressure and stuffiness in my face today."
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "Do you have any allergies?"
+      ]
+    },
+    {
+      "item": "Loss Of Sense",
+      "result_quotes": [
+        "How about changes in smell or taste?",
+        "I think my taste buds are acting all weird too."
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "How about a stuffy nose or runny nose?"
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

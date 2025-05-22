@@ -1,11 +1,30 @@
 {
-  "precision": 1.0,
+  "precision": 0.8636363636363636,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9268292682926829,
   "true_positives": 19,
-  "false_positives": 0,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 38,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Sleep Issue",
+      "result_quotes": [
+        "I have, yeah. I usually get them when I'm dehydrated. Or maybe I haven't slept well. And that's also been the case for the past two to three days."
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "Yeah, I've been really tired."
+      ]
+    },
+    {
+      "item": "Malaise",
+      "result_quotes": [
+        "I am a little bit, I mean, I feel I just haven't been feeling very good overall so I've been resting these last couple of days mostly."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

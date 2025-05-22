@@ -1,138 +1,139 @@
 {
   "medical_history_assessed": {
-    "apnea_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "behavior_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "complications_actual_delivery": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hemoptesis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lymphadenitis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "self_harm_thoughts": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_issue": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_issues": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slow_motion_feeling": {
+    "phlegm": {
       "assessed": "No",
       "example_quotes": []
     },
     "stiffness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, do you have any neck stiffness?"
+        "Medical Student: OK, do you have any neck stiffness?",
+        "Patient: No."
       ]
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "So you're eating well, doing well, any changes to your bowel movements recently?"
+        "Medical Student: OK, alright, so you're eating well, doing well, any changes to your bowel movements recently?",
+        "Patient: Uh no, no."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Excellent. OK, you've had a cough at all?"
+        "Medical Student: OK, you've had a cough at all?",
+        "Patient: No cough."
       ]
+    },
+    "dehydration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_sleeping": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "So you have some muscle aches, little bit of fever, stuffy nose, sore throat, do you have any difficulty swallowing?"
+        "Medical Student: ...do you have any difficulty swallowing?",
+        "Patient: Uh no, it just hurts."
       ]
     },
     "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Penicillin, what happens when you take penicillin?",
+        "Patient: Um I get a rash.",
+        "Medical Student: OK. Any trouble breathing?",
+        "Patient: No."
+      ]
+    },
+    "fainting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fatigue": {
       "assessed": "No",
       "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, so if I understand, it started with a stuffy nose?",
-        "OK, and that kinda progressed to a fever?"
+        "Patient: Hi, um so I've had this terrible fever for the past three days um and just before that I had a stuffy nose um and I had a sore throat, well I still do, um and it's just not going away, so I thought I should just come in and see if I have covid or what it is."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any headaches?"
+        "Medical Student: Any headaches?",
+        "Patient: Um no, no headaches."
       ]
     },
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: So no high blood pressure?",
+        "Patient: No."
+      ]
+    },
+    "itchiness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "limp": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "loss_of_appetite": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_sense": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucous_building": {
       "assessed": "No",
       "example_quotes": []
     },
     "muscle_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Oh, actually um not in my joints, but I've just, there there has been some muscle ache."
+        "Patient: Oh, actually um not in my joints, but I've just, there there has been some muscle ache."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, so if I understand, it started with a stuffy nose?"
+        "Patient: Hi, um so I've had this terrible fever for the past three days um and just before that I had a stuffy nose um and I had a sore throat..."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nothing really, have you had any nausea, any vomiting at all in the last little while?"
+        "Medical Student: Nothing really, have you had any nausea, any vomiting at all in the last little while?",
+        "Patient: No."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any pain anywhere else in your body?",
-        "Uh no, no."
+        "Medical Student: Any pain anywhere else in your body?",
+        "Patient: Uh, no."
       ]
+    },
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "No",
@@ -141,20 +142,34 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "and just before that I had a stuffy nose um and I had a sore throat, well I still do, um and it's just not going away"
+        "Patient: Hi, um so I've had this terrible fever for the past three days um and just before that I had a stuffy nose um and I had a sore throat, well I still do..."
       ]
+    },
+    "speech_volume": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "And just in terms of coming back to this sore throat, do you feel like you have any swelling around your neck? Does it feel inflamed or swollen?"
+        "Medical Student: And just in terms of coming back to this sore throat, do you feel like you have any swelling around your neck? Does it feel inflamed or swollen?",
+        "Patient: No."
       ]
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Nothing really, have you had any nausea, any vomiting at all in the last little while?"
+        "Medical Student: Nothing really, have you had any nausea, any vomiting at all in the last little while?",
+        "Patient: No."
       ]
+    },
+    "wheez": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

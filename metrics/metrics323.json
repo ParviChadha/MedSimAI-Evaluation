@@ -1,44 +1,15 @@
 {
-  "precision": 0.8947368421052632,
-  "recall": 0.7727272727272727,
-  "f1_score": 0.8292682926829269,
-  "true_positives": 17,
-  "false_positives": 2,
-  "false_negatives": 5,
+  "precision": 1.0,
+  "recall": 0.9545454545454546,
+  "f1_score": 0.9767441860465117,
+  "true_positives": 21,
+  "false_positives": 0,
+  "false_negatives": 1,
   "total_items": 44,
-  "false_positive_details": [
-    {
-      "item": "Sleep Issue",
-      "result_quotes": [
-        "Uh yeah I would say or sorry no my sleep has been has been poor"
-      ]
-    },
-    {
-      "item": "Malaise",
-      "result_quotes": [
-        "Yeah, these last few months by energy has been low. I I've been feeling a lot more tired than usual."
-      ]
-    }
-  ],
+  "false_positive_details": [],
   "false_negative_details": [
     {
-      "item": "Sleep Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
       "item": "Fatigue Sleep",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
       "truth_quotes": []
     }
   ]

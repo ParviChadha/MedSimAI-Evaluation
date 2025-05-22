@@ -1,26 +1,59 @@
 {
   "medical_history_assessed": {
-    "behavior_changes": {
+    "confusion": {
       "assessed": "No",
       "example_quotes": []
     },
-    "change_in_taste": {
+    "constipation": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "decreased_concentration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
+    "discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_sense": {
+    "drooling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_smell": {
+    "dysphagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "eye_discharge": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?"
+      ]
+    },
+    "facial_pain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "how has your energy been? Any any fatigue?",
+        "Um it's kind of been a bit low over the last few weeks, just I feel more tired. Um yeah I had to miss a few days of work as well."
+      ]
+    },
+    "loss_of_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -32,13 +65,11 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
+    "malaise": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And you've also been really um fatigued and have had some malaise over the last several weeks."
+      ]
     },
     "paralysis_general": {
       "assessed": "No",
@@ -48,19 +79,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "physical_or_emotional_abuse_at_home": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigors": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -72,19 +91,23 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "slow_motion_feeling": {
+    "smell_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slurred_speech": {
+    "tearing": {
       "assessed": "No",
       "example_quotes": []
     },
-    "underweight_at_birth": {
+    "tingling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaccine_related_reaction": {
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -97,32 +120,36 @@
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any uh any chest pain?"
+        "I see, have you had any uh any chest pain?",
+        "Uh, no. It's more of just the discomfort with the coughing."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
+        "Um have you had any fevers or chills?",
         "Uh definitely I feel like I have had some chills over the last week."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've also recently started noticing that I'm coughing up some blood as well, like it's mixed into like sputum.",
+        "were you bringing up sputum or phlegm at that time?",
         "Uh yeah, initially it was just like um kind of white too, sometimes yellowish phlegm, but now over the last week I've been also noticing um some blood in it as well."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Hi uh nice to meet you. I've just uh been experiencing um a cough for the last few weeks"
+        "I've just uh been experiencing um a cough for the last few weeks and uh I also recently started noticing that I'm coughing up some blood as well, like it's mixed into like sputum.",
+        "alright, so you said a few weeks for the cough. Is this more than three weeks, more than four weeks, or a few months?"
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any diarrhea?"
+        "Any diarrhea?",
+        "No."
       ]
     },
     "discomfort": {
@@ -134,96 +161,114 @@
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any uh like fainting or dizziness?"
+        "Have you had any uh like fainting or dizziness?",
+        "No, nothing like that."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "And, um have you been having any shortness of breath?"
+        "And, um have you been having any shortness of breath?",
+        "um no, I don't think so. But kind of like I do feel some discomfort in my chest like I just associated it with the cough."
       ]
     },
     "dysuria": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any urinary problems like pain or or going often?"
+        "Any urinary problems like pain or or going often?",
+        "Uh no, nothing like that."
       ]
     },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any uh like fainting or dizziness?"
+        "Have you had any uh like fainting or dizziness?",
+        "No, nothing like that."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
+        "how has your energy been? Any any fatigue?",
         "Um it's kind of been a bit low over the last few weeks, just I feel more tired. Um yeah I had to miss a few days of work as well."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any fevers or chills?",
-        "Uh, yeah I would say like a few times this week, I've also felt like hot."
+        "Um have you had any fevers or chills?",
+        "OK, have you felt feverish? Or have you felt hot at any point?",
+        "Um, yeah I would say like a few times this week, I've also felt like hot."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've also recently started noticing that I'm coughing up some blood as well, like it's mixed into like sputum."
+        "I've just uh been experiencing um a cough for the last few weeks and uh I also recently started noticing that I'm coughing up some blood as well, like it's mixed into like sputum.",
+        "but now over the last week I've been also noticing um some blood in it as well."
       ]
     },
     "itching_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright. Um and have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?"
+        "Have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?",
+        "Uh no, nothing like that."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any uh like nausea or vomiting?"
+        "OK um and how about any nausea or vomiting?",
+        "No, no, no nausea or vomiting."
       ]
     },
     "pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any urinary problems like pain or or going often?",
+        "No, nothing like that."
+      ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um and have you felt as though um like your heart's racing or beating really fast?"
+        "Have you felt as though um like your heart's racing or beating really fast?",
+        "No, nothing like that."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright. Um and have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?"
+        "Have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?",
+        "Uh no, nothing like that."
       ]
     },
     "sexually_transmitted_infection": {
       "assessed": "Yes",
       "example_quotes": [
         "are you currently sexually active?",
-        "no concerns for a sexually transmitted infection at this time?"
+        "OK, um so no concerns for a sexually transmitted infection at this time?",
+        "No."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um yeah now that you mention it like I I would say two two days out of the last week I've had night sweats where my sheets were kind of just drenched when I, and then I woke up noticing that."
+        "Alright, have you had any um like night sweats?",
+        "Uhm now that you mention it like I I would say two two days out of the last week I've had night sweats where my sheets were kind of just drenched when I, and then I woke up noticing that."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Alright. Um and have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?"
+        "Have you had any infectious or viral type symptoms like itchy eyes, or runny runny nose, sore throat?",
+        "Uh no, nothing like that."
       ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
+        "And how about your um your weight? Have you had any changes to your weight over the last several months?",
         "Yeah, I think I've lost maybe 10 pounds in the last couple months.",
         "OK, that sounds like some, uh, some weight lost significant weight loss, have you been trying to lose weight?",
         "No, not really."
@@ -232,19 +277,22 @@
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any urinary problems like pain or or going often?"
+        "Any urinary problems like pain or or going often?",
+        "Uh no, nothing like that."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any uh like nausea or vomiting?"
+        "OK um and how about any nausea or vomiting?",
+        "No, no, no nausea or vomiting."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been having any uh like wheezing?"
+        "OK, and um have you had any changes to your breathing like like wheezing?",
+        "Uh, no, nothing like that."
       ]
     }
   }

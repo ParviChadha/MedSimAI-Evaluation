@@ -1,11 +1,26 @@
 {
-  "precision": 1.0,
+  "precision": 0.9310344827586207,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.9642857142857143,
   "true_positives": 27,
-  "false_positives": 0,
+  "false_positives": 2,
   "false_negatives": 0,
-  "total_items": 54,
-  "false_positive_details": [],
+  "total_items": 42,
+  "false_positive_details": [
+    {
+      "item": "Loss Of Consciousness",
+      "result_quotes": [
+        "Any dizziness or fainting spells?",
+        "No."
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "OK and like no pus or liquid's coming out of your ear or anything like that, right?",
+        "No."
+      ]
+    }
+  ],
   "false_negative_details": []
 }

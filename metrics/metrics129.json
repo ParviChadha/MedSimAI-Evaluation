@@ -1,16 +1,48 @@
 {
-  "precision": 1.0,
-  "recall": 0.9722222222222222,
-  "f1_score": 0.9859154929577464,
-  "true_positives": 35,
-  "false_positives": 0,
-  "false_negatives": 1,
-  "total_items": 66,
-  "false_positive_details": [],
-  "false_negative_details": [
+  "precision": 0.8571428571428571,
+  "recall": 1.0,
+  "f1_score": 0.923076923076923,
+  "true_positives": 36,
+  "false_positives": 6,
+  "false_negatives": 0,
+  "total_items": 72,
+  "false_positive_details": [
     {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
+      "item": "Bowel Movement",
+      "result_quotes": [
+        "Have you had any diarrhea or constipation?"
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "OK, and any allergies like to any medications or any seasonal allergies? Like do you get symptoms like this that change throughout the year?"
+      ]
+    },
+    {
+      "item": "Decreased Oral Intake",
+      "result_quotes": [
+        "OK, have you had any loss of appetite?"
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "How about things like diabetes or or high blood pressure?"
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "Are you sexually active?\nOK, could you tell me a little bit about your partner or, or partners?\nOK, and any concern for a sexually transmitted infection?"
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "OK, and you mentioned, so with the obstruction, have you had difficulties breathing?"
+      ]
     }
-  ]
+  ],
+  "false_negative_details": []
 }

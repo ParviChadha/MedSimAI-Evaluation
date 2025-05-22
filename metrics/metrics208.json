@@ -1,29 +1,52 @@
 {
-  "precision": 0.9032258064516129,
+  "precision": 0.8235294117647058,
   "recall": 1.0,
-  "f1_score": 0.9491525423728813,
+  "f1_score": 0.9032258064516129,
   "true_positives": 28,
-  "false_positives": 3,
+  "false_positives": 6,
   "false_negatives": 0,
-  "total_items": 53,
+  "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Lung Complications",
+      "item": "Delayed Growth Milestones",
       "result_quotes": [
-        "Any family history of lung conditions?",
-        "So my grandfather, so his greatgrandfather I suppose passed away from lung cancer. He was a heavy smoker though."
+        "Medical Student: OK and then in terms of growth, weight and head circumference, has he been hitting all those milestones for the past 2 1/2 years?",
+        "Patient: Yeah, we we bring him to the family doctor every couple of month for his regular checkups and nothing has been brought up to be concerning for his vaccines. He has been doing well.",
+        "Medical Student: OK and then how about other milestones like speech, movement, fine movement, all of that, like have those been normal? Is he on par with his peers?",
+        "Patient: Yeah, this is our first kid, but compared to his cousins he seems to be doing well. He's speaking, he's got little sentences, now he has good eye contact. He's a good kid."
       ]
     },
     {
-      "item": "Behavior Changes",
+      "item": "Coughing Fit",
       "result_quotes": [
-        "Yeah, he's a little bit slowed down these last couple of days"
+        "Patient: Sometimes I'll notice when he's playing. He's had these coughing fits that last for up to a minute but usually recovers from."
       ]
     },
     {
-      "item": "Odynophagia",
+      "item": "Trouble Breathing",
       "result_quotes": [
-        "He says his throat hurts"
+        "Medical Student: OK,  does he have any shortness of breath with his cough?",
+        "Patient: I feel like when he has the coughing fits, he's winded. He's weak after them."
+      ]
+    },
+    {
+      "item": "Dyspnea",
+      "result_quotes": [
+        "Medical Student: OK,  does he have any shortness of breath with his cough?",
+        "Patient: I feel like when he has the coughing fits, he's winded. He's weak after them."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "Medical Student: Has he had a stuffy or runny nose?",
+        "Patient: Yeah yeah, that's kind of how it first started three days ago. Maybe had a runny nose. OK, yeah."
+      ]
+    },
+    {
+      "item": "Fatigue",
+      "result_quotes": [
+        "Patient: He hasn't been too active to be honest. He's been a little bit slowed down these last couple of days"
       ]
     }
   ],
