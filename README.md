@@ -244,10 +244,6 @@ The pipeline tracks token consumption for cost monitoring:
 4. Add tests if applicable
 5. Submit a pull request
 
-## License
-
-[Add your license information here]
-
 ## Citation
 
 If you use this pipeline in your research, please cite:
