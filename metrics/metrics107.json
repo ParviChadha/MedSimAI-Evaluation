@@ -1,22 +1,46 @@
 {
-  "precision": 0.9166666666666666,
+  "precision": 0.7857142857142857,
   "recall": 0.4583333333333333,
-  "f1_score": 0.611111111111111,
+  "f1_score": 0.5789473684210527,
   "true_positives": 11,
-  "false_positives": 1,
+  "false_positives": 3,
   "false_negatives": 13,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Infection",
+      "item": "Complications Actual Delivery",
       "result_quotes": [
-        "Medical Student: we will have to contact a public health if the tests come back positive."
+        "I had two C sections for my second daughter and and 3rd."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "I had two C sections for my second daughter and and 3rd."
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "Yeah I do have uh, type 2 diabetes, as well as high blood pressure."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Urination",
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
       "truth_quotes": []
     },
     {
@@ -24,7 +48,11 @@
       "truth_quotes": []
     },
     {
-      "item": "Sleep Issue",
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
       "truth_quotes": []
     },
     {
@@ -40,23 +68,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
+      "item": "Dyspnea",
       "truth_quotes": []
     },
     {
@@ -64,7 +76,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Loss Of Appetite",
+      "item": "Urination",
       "truth_quotes": []
     }
   ]

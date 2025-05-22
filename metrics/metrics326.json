@@ -1,119 +1,40 @@
 {
-  "precision": 0.6428571428571429,
-  "recall": 0.32142857142857145,
-  "f1_score": 0.4285714285714286,
-  "true_positives": 9,
-  "false_positives": 5,
-  "false_negatives": 19,
+  "precision": 0.896551724137931,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.912280701754386,
+  "true_positives": 26,
+  "false_positives": 3,
+  "false_negatives": 2,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Discharge",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "I'm seeing over the last, I would say two months occasionally some streaks of blood in the sputum that I'm producing."
+        "Yeah, I have high blood pressure as well."
       ]
     },
     {
-      "item": "Tachypnea",
+      "item": "Lung Complications",
       "result_quotes": [
-        "I do feel sometimes I get like more tired than I used to throughout the day.",
-        "sometimes I also feel more breathless on when I'm exerting myself more."
+        "I have COPD.",
+        "I used to have I think like 3 different inhalers but haven't had to use them for more than 10 years now.",
+        "I worked in the steel factory for most of my working life."
       ]
     },
     {
-      "item": "Changes In Appetite",
+      "item": "Motor Weakness",
       "result_quotes": [
-        "Um, I think it's been pretty much the same. Sometimes when I'm coughing a lot, I don't feel like eating, but other than that it's been around the same."
-      ]
-    },
-    {
-      "item": "Weight Changes",
-      "result_quotes": [
-        "I've actually lost a significant amount of weight. I would say within the last 1 and a 1/2 months probably lost like 8 to 10 pounds."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "I've had two or three viral infections, just just just cold cold symptoms."
+        "I can barely even go to the kitchen."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
       "item": "Pain",
       "truth_quotes": []
     },
     {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     }
   ]

@@ -1,126 +1,19 @@
 {
-  "precision": 0.6666666666666666,
-  "recall": 0.1875,
-  "f1_score": 0.29268292682926833,
-  "true_positives": 6,
-  "false_positives": 3,
-  "false_negatives": 26,
+  "precision": 1.0,
+  "recall": 0.71875,
+  "f1_score": 0.8363636363636363,
+  "true_positives": 23,
+  "false_positives": 0,
+  "false_negatives": 9,
   "total_items": 64,
-  "false_positive_details": [
-    {
-      "item": "Redness In Throat",
-      "result_quotes": [
-        "it looks pretty red and angry."
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "I've had a sore throat for the past three days and it doesn't seem to be getting any better, and I've also had a fever."
-      ]
-    },
-    {
-      "item": "Lymphadenitis",
-      "result_quotes": [
-        "I feel like inside the back of my throat, my tonsils feel a little bit swollen."
-      ]
-    }
-  ],
+  "false_positive_details": [],
   "false_negative_details": [
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Itching Eyes",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Speech Volume",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Discharge",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Redness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
     {
       "item": "Dyspnea",
       "truth_quotes": []
     },
     {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
+      "item": "Colored Excess Sputum",
       "truth_quotes": []
     },
     {
@@ -128,7 +21,27 @@
       "truth_quotes": []
     },
     {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Speech Volume",
+      "truth_quotes": []
+    },
+    {
+      "item": "Redness",
+      "truth_quotes": []
+    },
+    {
       "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
       "truth_quotes": []
     }
   ]

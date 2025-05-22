@@ -1,65 +1,11 @@
 {
-  "precision": 0.75,
-  "recall": 0.375,
-  "f1_score": 0.5,
-  "true_positives": 6,
-  "false_positives": 2,
-  "false_negatives": 10,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "true_positives": 16,
+  "false_positives": 0,
+  "false_negatives": 0,
   "total_items": 32,
-  "false_positive_details": [
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "I had a sore throat and a little bit of a headache as well, uhm, and, and some aches and fatigue."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "I have had a little bit of sputum production recently, uh, it's been mostly clear though."
-      ]
-    }
-  ],
-  "false_negative_details": [
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    }
-  ]
+  "false_positive_details": [],
+  "false_negative_details": []
 }

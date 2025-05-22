@@ -1,16 +1,20 @@
 {
   "medical_history_assessed": {
     "phlegm": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, so you haven't been bringing anything up with it?",
+        "No, nothing."
+      ]
     },
     "aches": {
       "assessed": "Yes",
       "example_quotes": [
-        "I mean, I'm tired, but I don't think they're not like hurting."
+        "Any aches in your joints anywhere?",
+        "No. I mean, I'm I'm tired, but I don't think they're not like hurting."
       ]
     },
-    "behavior_changes": {
+    "chest_tightness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -18,51 +22,61 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I\u2019ve been having this really dry cough",
+        "So what brings you to the clinic today?",
         "I first noticed that my throat was kind of scratchy and then I started coughing, but it's really like dry."
       ]
+    },
+    "decreased_fluid_intake": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dehydration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "diarrhoea": {
-      "assessed": "No",
+      "assessed": "Yes",
       "example_quotes": [
-        "Any diarrhea?",
-        "No no."
+        "Any diarrhea?"
       ]
     },
-    "ear_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
+    "facial_pain": {
       "assessed": "No",
       "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have felt really hot.",
-        "I feel hot but during the day too I'm just like I'm I'm like hey I'm wearing like just shorts and like a tank top and I just still feel really hot."
+        "OK, you haven't been noticing been running a temperature at home. Have you hot fevers?",
+        "I have felt really hot."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "my head\u2019s pounding",
-        "You have a headache right now?"
+        "Your heads pounding. You have a headache right now?",
+        "Yeah, little bit."
       ]
     },
-    "hoarse_tone": {
+    "hyperhidrosis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "You noticed any night sweats by night sweats. I mean you wake up sheets are soaked.",
+        "I honestly I felt hot like all the time like yeah yeah night. I feel hot but during the day too I'm just like I'm I'm like hey I'm wearing like just shorts and like a tank top and I just still feel really hot."
+      ]
+    },
+    "injury_in_chest": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -70,63 +84,60 @@
       "assessed": "Yes",
       "example_quotes": [
         "I just feel kinda crappy overall.",
-        "Oh no, no, it's perfectly valid. We called that Malays in general."
+        "We called that Malays in general. Just feeling a little bit off."
       ]
     },
-    "nasal_discharge": {
+    "mucus_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness_in_throat": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensitive_to_allergies": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have allergies. Usually in like the spring in the fall.",
-        "I get really bad allergies like I've seen an allergist."
+        "Aside from that, any nausea? Any vomiting?"
       ]
     },
+    "pressure_in_around_face": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Now do any of these allergies can't make it difficult to breathe or you feel like your face is swelling up?",
+        "Like it feels like a little bit like plugged up an like what's that called like post nasal drip? But I don't really feel like I can't breathe."
+      ]
+    },
+    "sleep": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_issues": {
       "assessed": "No",
       "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "my throat feels really scratchy."
+        "I just like for I don't know like three or four days I\u2019ve been having this really dry cough and my throat feels really scratchy."
       ]
     },
-    "teary_eyes": {
+    "symptoms_stress": {
       "assessed": "No",
       "example_quotes": []
     },
     "tired": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm tired."
+        "I just feel kinda crappy overall.",
+        "I'm I'm tired, but I don't think they're not like hurting."
       ]
     },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "watery_eyes": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Aside from that, any nausea? Any vomiting?"
+      ]
     }
   }
 }

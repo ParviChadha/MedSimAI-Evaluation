@@ -1,96 +1,27 @@
 {
-  "precision": 0.8181818181818182,
-  "recall": 0.34615384615384615,
-  "f1_score": 0.4864864864864865,
-  "true_positives": 9,
-  "false_positives": 2,
-  "false_negatives": 17,
-  "total_items": 51,
+  "precision": 0.96,
+  "recall": 0.9230769230769231,
+  "f1_score": 0.9411764705882353,
+  "true_positives": 24,
+  "false_positives": 1,
+  "false_negatives": 2,
+  "total_items": 52,
   "false_positive_details": [
     {
-      "item": "Discharge",
+      "item": "Sexually Transmitted Infection",
       "result_quotes": [
-        "Medical Student: Are you bringing up any discharge from like your nose, or are you coughing any material up?",
-        "Patient: No, no. I mean there's some discharge from my nose, like it's runny, but it's it's not yellow or anything, it's clear."
-      ]
-    },
-    {
-      "item": "Change In Taste",
-      "result_quotes": [
-        "Medical Student: Are you having any symptoms of loss of smell at all?",
-        "Patient: No, no loss of smell.",
-        "Medical Student: How about loss of taste?",
-        "Patient: No."
+        "And uh do you have any history of any STI's?",
+        "No."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fatigue Extended",
-      "truth_quotes": []
-    },
-    {
       "item": "Loss Of Appetite",
       "truth_quotes": []
     },
     {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
       "truth_quotes": []
     }
   ]

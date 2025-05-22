@@ -1,110 +1,132 @@
 {
   "medical_history_assessed": {
-    "change_in_sleep": {
+    "diabetes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "changes_in_appetite": {
+    "difficulty_feeding": {
       "assessed": "No",
       "example_quotes": []
     },
-    "confusion": {
+    "drowsiness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "general_weakness": {
+    "dysuria": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "nausea": {
+    "palpitation": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
+    "pregnancy": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sleep_hydrosis": {
+    "rigor": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tired": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaginal_discomfort": {
+    "urination": {
       "assessed": "No",
       "example_quotes": []
     },
-    "weight_changes": {
+    "weight_gain": {
       "assessed": "No",
       "example_quotes": []
     },
     "anxious": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, did you feel anxious or sweaty or the feeling of impending doom at all?",
+        "Medical Student: did you feel anxious or sweaty or the feeling of impending doom at all?",
         "Patient: Uh, no I can't say that I did."
       ]
     },
     "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: OK, now when you're walking, you say you have some chest tightness, do you have any chest pain?",
+        "Patient: No, there's not there's not pain, it just feels like, when I breathe in it feels tight."
+      ]
     },
     "chest_tightness": {
       "assessed": "Yes",
       "example_quotes": [
         "Medical Student: So I understand you're having some chest tightness?",
-        "Patient: Yeah, it's uh, for the last maybe three days, um it's not really pain, not in any specific spot, it just feels a bit tight in my chest area when I breathe in especially."
+        "Patient: Yeah, it's uh, for the last maybe three days, um it's not really pain, not in any specific spot, it just feels a bit tight in my chest area when I breathe in especially"
       ]
     },
     "chills": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any chills?",
+        "Patient: No."
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, have you had any cough at all in the last little while?",
+        "Medical Student: Have you had any cough at all in the last little while?",
         "Patient: Uh no like I feel a little more hoarse and like there's maybe some more phlegm, like I'm clearing my throat more, but I haven't actually been coughing."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: OK, and did you feel yourself becoming out of breath at all?",
+        "Medical Student: And did you feel yourself becoming out of breath at all?",
         "Patient: Uh I I feel like it was kind of harder to get a whole breath, um so yeah, yeah, I guess."
       ]
     },
     "fever": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: any fevers?",
+        "Patient: No, can't say that, no."
+      ]
     },
     "hoarse_tone": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I feel a little more hoarse and like there's maybe some more phlegm."
+        "Patient: Uh no like I feel a little more hoarse and like there's maybe some more phlegm, like I'm clearing my throat more, but I haven't actually been coughing."
       ]
     },
     "impending_doom_anxiety": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: did you feel anxious or sweaty or the feeling of impending doom at all?",
+        "Patient: Uh, no I can't say that I did."
+      ]
+    },
+    "sleep_hydrosis": {
       "assessed": "No",
       "example_quotes": []
     },
     "sweaty": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: did you feel anxious or sweaty or the feeling of impending doom at all?",
+        "Patient: Uh, no I can't say that I did."
+      ]
     },
     "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Medical Student: Any unexplained weight loss at all?",
+        "Patient: Nope."
+      ]
     }
   }
 }

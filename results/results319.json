@@ -1,62 +1,26 @@
 {
   "medical_history_assessed": {
-    "body_ache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "change_in_taste": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "changes_in_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been sick at all recently with fever? Chills, like runny nose? Any cold like symptoms?",
-        "No, nothing like that?"
+        "Have you been sick at all recently with fever? Chills, like runny nose? Any cold like symptoms?"
       ]
-    },
-    "complications_actual_delivery": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "complications_during_delivery": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any diarrhea or Constipation?",
-        "No."
+        "Any diarrhea or Constipation?"
       ]
     },
-    "dehydration": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "delayed_growth_milestones": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "excessive_tiredness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Oh my God. So tired I can, you know, with the difficulty breathing I feel like all my energy spent just trying to, trying to get to the bathroom."
-      ]
     },
     "hyperacusis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -64,11 +28,15 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "loss_of_sense": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "loss_of_smell": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_taste": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -76,102 +44,151 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "muscle_ache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "positive_feelings_of_guilt": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "primary_headache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "any headaches at all?",
-        "Well, sometimes I do. But it's not been severe."
-      ]
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "tachypnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "two months of difficulty breathing and the cough is gotten worse.",
-        "I'm short of breath all the time."
-      ]
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "respiratory_distress_syndrome": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes or do you get any chest pain at all?",
-        "Uhm, sometimes when I breathe in very deep."
+        "Any any changes or do you get any chest pain at all?"
       ]
     },
     "cold_like_symptoms": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been sick at all recently with fever? Chills, like runny nose? Any cold like symptoms?"
+      ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you bringing up any sputum at all with your cough?",
-        "it's pink in color"
+        "OK and is is there any color to it or is it clear?",
+        "It's pink in color?"
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I am having difficulties breathing and I've just had this cough and it's, It's been two months now."
+        "What brings you here today?",
+        "Two months of difficulty breathing and the cough is gotten worse. I've had a cough for a couple years now. I'm a smoker."
       ]
     },
     "diarrhea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
-        "No."
+        "Any diarrhea or Constipation?"
       ]
     },
     "dizziness": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any kind of dizziness or fainting spells?"
+      ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "difficulty breathing and the cough is gotten worse.",
-        "it's worse when I am moving."
+        "What brings you here today?",
+        "About two months ago.",
+        "Shortness of breath just kind of stays.",
+        "I'm short of breath all the time."
       ]
     },
     "fainting_spells": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any kind of dizziness or fainting spells?"
+      ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
+        "And so you've been diagnosed with COPD. Have you had to use oxygen at home at all?",
         "Oh my God. So tired I can, you know, with the difficulty breathing I feel like all my energy spent just trying to, trying to get to the bathroom."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have a mild fever. It just, it's been there."
+        "Have you been sick at all recently with fever? Chills, like runny nose? Any cold like symptoms?",
+        "I have a mild fever. It just, it's been there.",
+        "When did you notice?"
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
         "Any headaches at all?",
-        "Well, sometimes I do. But it's not been severe."
+        "No. Well, sometimes I do. But it's not been severe. It's been there for the past uhm always when I'm stressed out I get these headaches. It's nothing new."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you coughed up any blood at all?",
-        "Sometimes streaks of blood here and there."
+        "OK. Have you coughed up any blood at all?",
+        "Sometimes?",
+        "Streaks of blood here and there."
       ]
     },
     "loss_of_appetite": {
@@ -181,46 +198,58 @@
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?",
-        "No."
+        "Any nausea or vomiting?"
       ]
     },
     "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any any kind of sensation that your heart is racing?"
+      ]
     },
     "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been sick at all recently with fever? Chills, like runny nose? Any cold like symptoms?"
+      ]
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you to wake up at night and gasp gasping for air?",
-        "No, it hasn't gotten that far."
+        "Do you find yourself ever having to wake up at night and gasp gasping for air?",
+        "No, it hasn't gotten that far but seeing how bad it's been over the past two months and how fast is progressing, I won't be surprised if I can't even sleep.",
+        "Well, no, not really. It's just the difficulty breathing sometimes it's been hard to sleep."
       ]
     },
     "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you getting any night sweats at all?"
+      ]
     },
     "sleep_issues": {
       "assessed": "Yes",
       "example_quotes": [
-        "it's just the difficulty breathing sometimes it's been hard to sleep."
+        "Any any issues with your sleep or appetite?"
       ]
     },
     "swelling": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any kind of swelling in your legs or hands that you've notice?"
+      ]
     },
     "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any any kind of significant weight loss?"
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?"
+      ]
     }
   }
 }

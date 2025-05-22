@@ -1,14 +1,61 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "allergic_rhinitis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any history of asthma or eczema or allergic rhinitis?\"",
+        "\"No, I haven't heard of those before.\""
+      ]
+    },
+    "behavior_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"are things going well at school? Any bullying? Are you happy with your grades?\""
+      ]
+    },
+    "brain_fog": {
       "assessed": "No",
       "example_quotes": []
     },
-    "changes_in_appetite": {
+    "confusion": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_breathing": {
+    "constipation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_concentration": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_oral_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "general_weakness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"and I've been really like achy and and tired as well.\""
+      ]
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hemoptesis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -16,144 +63,209 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "muscle_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've been really like achy and and tired as well."
-      ]
-    },
-    "phlegm": {
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "throat_pain": {
+    "odynophagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a sore throat that's been really bugging me the past four days."
+        "\"Yeah, it's, it's, it's really sore.\""
       ]
     },
-    "wheez": {
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensitive_to_allergies": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"Yeah I, I have allergies to peanuts.\""
+      ]
+    },
+    "sleep_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?\""
+      ]
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "unexplained_weight_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
       "assessed": "No",
       "example_quotes": []
     },
     "achy": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been really like achy and and tired as well."
+        "\"and I've been really like achy and and tired as well.\""
       ]
     },
     "bowel_movement": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any changes in your bowel movements or any urinary symptoms?\""
+      ]
     },
     "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any chest pain?\""
+      ]
     },
     "chills": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"Have you had any fevers or chills?\""
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a cough as well.",
-        "It's dry."
+        "\"What brings you in today?\"",
+        "\"And has it gotten better or worse or stayed the same since last week?\"",
+        "\"It's dry.\""
       ]
     },
     "discharge": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any discharge from your eyes, red eyes\""
+      ]
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "are you having any difficulties swallowing at all? Yeah, it's, it's, it's really sore."
+        "\"are you having any difficulties swallowing at all?\""
       ]
     },
     "dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"Difficulties breathing?\""
+      ]
     },
     "eye_redness": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any discharge from your eyes, red eyes\""
+      ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been really like achy and and tired as well."
+        "\"and I've been really like achy and and tired as well.\""
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've felt feverish these last two days."
+        "\"Have you had any fevers or chills?\"",
+        "\"Yeah, I've, I've felt feverish these last two days.\""
       ]
     },
     "fevers": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"Yeah, I've, I've felt feverish these last two days.\""
+      ]
     },
     "headaches": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"do you have any other symptoms like headaches\""
+      ]
     },
     "itching_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have had like some itchy eyes."
+        "\"Yeah, but that you mention that yeah, I I have had like some itchy eyes\""
       ]
     },
     "nasal_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "a runny nose."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any belly pain, nausea or vomiting\""
+      ]
     },
     "pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any pain in your ears?\""
+      ]
     },
     "pressure": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any pressure in your cheeks or your head when you bend down or squat down?\""
+      ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have had like some itchy eyes, that and a runny nose."
+        "\"any discharge from your eyes, red eyes, any pain in your ears? Anything like that?\"",
+        "\"Yeah, but that you mention that yeah, I I have had like some itchy eyes, that and a runny nose.\""
       ]
     },
     "smell_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"and have you had any changes in your sense of smell?\""
+      ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a sore throat that's been really bugging me the past four days."
+        "\"What brings you in today?\"",
+        "\"Yeah, I've had a sore throat that's been really bugging me the past four days and I've had a cough as well.\""
       ]
     },
     "strep_throat": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"I'm wondering if I have strep throat.\"",
+        "\"we could do a rapid strep test.\""
+      ]
     },
     "taste_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"Changes in your sense of taste?\""
+      ]
     },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any changes in your bowel movements or any urinary symptoms?\""
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "\"any belly pain, nausea or vomiting\""
+      ]
     }
   }
 }

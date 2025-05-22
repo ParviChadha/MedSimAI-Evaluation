@@ -400,7 +400,7 @@ class ModelInterface:
             full_prompt += "\n\nRespond with valid JSON only."
         
         response = self.client.models.generate_content(
-            model="gemini-2.5-pro-exp-03-25",
+            model="gemma-3-27b-it",
             contents=full_prompt,
         )
         
@@ -427,7 +427,7 @@ class ModelInterface:
         
         try:
             response = self.client.chat.completions.create(
-                model="accounts/fireworks/models/deepseek-v3",
+                model="accounts/fireworks/models/gemma-3-27b-it",
                 messages=messages,
                 max_tokens=4096
             )

@@ -1,6 +1,6 @@
 {
   "medical_history_assessed": {
-    "brain_fog": {
+    "decreased_focus": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -8,93 +8,87 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_sleeping": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh yeah I would say or sorry no my sleep has been has been poor"
-      ]
-    },
-    "fainting": {
+    "facial_pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "feeling_tired": {
+    "hoarse_tone": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "malaise": {
       "assessed": "Yes",
       "example_quotes": [
         "Yeah, these last few months by energy has been low. I I've been feeling a lot more tired than usual."
       ]
     },
-    "grunting": {
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "guilt_feeling": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hearing_problem": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "high_blood_pressure": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um my blood pressure has been high and that was diagnosed in the last few years."
-      ]
-    },
-    "hyperacusis": {
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperhidrosis": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
-    "infection": {
-      "assessed": "No",
-      "example_quotes": [
-        "No recent infections."
-      ]
-    },
-    "muscle_ache": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "sinus_headaches": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pressure_in_around_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensitive_to_allergies": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_problems": {
+    "sleep_issue": {
       "assessed": "Yes",
       "example_quotes": [
         "Uh yeah I would say or sorry no my sleep has been has been poor"
       ]
     },
-    "smell_loss": {
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "throat_pain": {
+    "stiffness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "watery_eyes": {
+    "tonsilitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "wheez": {
+    "trauma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "widespread_pain": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -105,12 +99,16 @@
       ]
     },
     "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, no chest pain."
+      ]
     },
     "chills": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No fever and no chills."
+      ]
     },
     "constipation": {
       "assessed": "No",
@@ -119,7 +117,10 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I I have a cough."
+        "Yeah, I I have a cough.",
+        "I always seem to bring up some gunk on my when I cough.",
+        "It's really hard to say I've had a cough for the past few years now, but I feel like it's getting worse.",
+        "I do cough throughout the day, but I find it's worse in the morning."
       ]
     },
     "diarrhoea": {
@@ -133,32 +134,46 @@
       ]
     },
     "fatigue_extended": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, these last few months by energy has been low. I I've been feeling a lot more tired than usual."
+      ]
     },
     "fatigue_sleep": {
       "assessed": "No",
       "example_quotes": []
     },
     "fever": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No fever and no chills."
+      ]
     },
     "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Well, no blood."
+      ]
     },
     "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh appetite's been good I feel like I've been eating normally."
+      ]
     },
     "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you been having any palpitations like a racing heart or any chest pain at all?",
+        "Um, no chest pain."
+      ]
     },
     "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, no.",
+        "Um, no runny nose, no sore throat, been feeling good."
+      ]
     },
     "sleep_dyspnea": {
       "assessed": "No",
@@ -169,8 +184,10 @@
       "example_quotes": []
     },
     "sore_throat": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, no runny nose, no sore throat, been feeling good."
+      ]
     },
     "swelling": {
       "assessed": "Yes",
@@ -191,13 +208,16 @@
       ]
     },
     "viral_symptom": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, no runny nose, no sore throat, been feeling good."
+      ]
     },
     "weight_gain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I wasn't even, I haven't been trying to lose weight but doesn't hurt though as I've I've gained a few pounds over the years so I don't mind."
+        "Uh, I think they're always a little swollen, but I might have just gained a few pounds over the years.",
+        "Um I maybe lost 5 pounds in the last few months. I wasn't even, I haven't been trying to lose weight but doesn't hurt though as I've I've gained a few pounds over the years so I don't mind."
       ]
     }
   }

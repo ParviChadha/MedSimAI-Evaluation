@@ -1,20 +1,18 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "changes_in_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um. It might be a little ah might have been a little bit down. I just kind of haven't been feeling so great, so I'm I've probably eating less the last few weeks, yeah."
-      ]
-    },
-    "discharge": {
+    "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting": {
+    "complications_during_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "foreign_body_intake": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -22,61 +20,74 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "lumps": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, a little tender, I've noticed the um some lumps at the front of front of my neck that have been a bit sore."
+        "Um. A little tender, I've noticed the um some lumps at the front of front of my neck that have been a bit sore."
       ]
     },
     "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "muscle_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, I felt so some muscle aches for sure."
-      ]
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "phlegm": {
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
     },
     "pus": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um no it's not, nothing like that, it's just pink and red and it's just kind of shown up over the last little while."
+        "OK and is it bleeding or oozing anything like pus?"
       ]
     },
-    "respiratory_distress_syndrome": {
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sinus_congestion": {
+    "self_harm_thoughts": {
       "assessed": "No",
       "example_quotes": []
     },
-    "soreness": {
+    "sexually_transmitted_infection": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'd say, maybe the, uh, the right side is a little bit more sore, but I think I can feel it on both sides of my neck."
+        "are you sexually active?",
+        "If you were to be, make sure you use protection."
       ]
     },
-    "tachypnea": {
+    "sleep_dyspnea": {
       "assessed": "No",
       "example_quotes": []
     },
-    "throat_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Um, I've had a sore throat now for a couple of weeks and it's just not going away."
-      ]
+    "sleep_hydrosis": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "vaginal_discharge": {
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -84,108 +95,117 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "watery_eyes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weight_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weight_gain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "wheez": {
-      "assessed": "No",
-      "example_quotes": []
+    "vision_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any issues with your eyes?",
+        "No, nothing like crusting or pus coming out of your eyes? Red eye, anything like that?"
+      ]
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "No changes to bowel habits."
+        "how about your stools? Have they been normal? Have you had diarrhea, constipation, anything like that?"
       ]
     },
     "constipation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "how about your stools? Have they been normal? Have you had diarrhea, constipation, anything like that?"
+      ]
     },
     "cough": {
-      "assessed": "No",
+      "assessed": "Yes",
       "example_quotes": [
-        "No, I haven't had a cough no."
+        "Um how about coughing?"
       ]
     },
     "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "how about your stools? Have they been normal? Have you had diarrhea, constipation, anything like that?"
+      ]
     },
     "eye_issues": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um. No, that well, did they might have looked maybe a little bit more more red, red then usual but I haven't noticed any anything in terms of itchiness or um discharge."
+        "Any issues with your eyes?"
       ]
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "that well, did they might have looked maybe a little bit more more red, red then usual but I haven't noticed any anything in terms of itchiness or um discharge."
+        "No, nothing like crusting or pus coming out of your eyes? Red eye, anything like that?"
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, I have. Yeah I felt hot and Um I checked my temperature this morning and it was 38.7 I think it was. Is that a fever?"
+        "have you noticed a fever at all?",
+        "Yeah, I felt hot and Um I checked my temperature this morning and it was 38.7 I think it was. Is that a fever?",
+        "Yeah, I'd say that's a fever."
       ]
     },
     "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "or do you have any headaches?"
+      ]
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "it might have been a little bit down. I just kind of haven't been feeling so great."
+        "And how's your appetite? Are you still eating well?",
+        "Um. It might be a little ah might have been a little bit down. I just kind of haven't been feeling so great, so I'm I've probably eating less the last few weeks, yeah."
       ]
     },
     "nasal_congestion": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And how about a stuffy nose or or a runny nose?"
+      ]
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?"
+      ]
     },
     "odynophagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "It does, yeah, uh, If my throat hurts when I'm eating or Um uh or swallowing like liquid's as well."
+        "does it hurt when you swallow?"
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "OK, and how bad would you say your discomfort is 1 to 10, 10 being the worst.",
         "Um. I would say maybe a two or three if I move my neck I I can feel it more, but otherwise I can just barely notice that it's there."
       ]
     },
     "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And how about a stuffy nose or or a runny nose?"
+      ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, I've had a sore throat now for a couple of weeks and it's just not going away."
+        "What brings you in today?",
+        "Um, I've had a sore throat now for a couple of weeks and it's just not going away.",
+        "OK, so about two weeks, three weeks?",
+        "Uh I would say it's kinda yeah like burnin' or burning or scratchy.",
+        "It does, yeah, uh, If my throat hurts when I'm eating or Um uh or swallowing like liquid's as well, but cold stuff seems to make it feel a little bit better."
       ]
     },
     "swollen_glands": {
       "assessed": "Yes",
       "example_quotes": [
-        "I think so, um maybe that's what's swollen in my neck."
+        "does your neck hurt too?",
+        "I think so, um maybe that's what's swollen in my neck.",
+        "OK, OK. Um have you noticed that your that your glands are swollen?"
       ]
     },
     "urination": {
@@ -195,12 +215,15 @@
       ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?"
+      ]
     },
     "widespread_pain": {
       "assessed": "Yes",
       "example_quotes": [
+        "Yeah, I felt so some muscle aches for sure.",
         "I say I got a whole body, I just feel like my muscles and joints are sore."
       ]
     }

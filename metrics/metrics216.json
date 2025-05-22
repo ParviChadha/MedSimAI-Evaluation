@@ -1,46 +1,41 @@
 {
-  "precision": 0.9,
-  "recall": 0.5625,
-  "f1_score": 0.6923076923076923,
-  "true_positives": 9,
-  "false_positives": 1,
-  "false_negatives": 7,
+  "precision": 0.8235294117647058,
+  "recall": 0.875,
+  "f1_score": 0.8484848484848485,
+  "true_positives": 14,
+  "false_positives": 3,
+  "false_negatives": 2,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Infection",
+      "item": "Physical Or Emotional Abuse At Home",
       "result_quotes": [
-        "Medical Student: So in regards to a past health. Has he had any symptoms or like this before? Patient: I guess last month he kinda had similar symptoms and they said it was a viral infection."
+        "Are there any concerns for like verbal abuse in the home?",
+        "How about any physical abuse in the home?"
+      ]
+    },
+    {
+      "item": "Complications During Delivery",
+      "result_quotes": [
+        "Were there any complications throughout pregnancy?",
+        "No, I wouldn't say so, no, It was normal. Everything was normal and he was a healthy baby."
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "And in the family, are there any lung conditions like asthma or any heart conditions that run in the family?",
+        "Um, my sister. So his aunt has asthma."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez Inhale",
-      "truth_quotes": []
-    },
-    {
       "item": "Hemoptysis",
       "truth_quotes": []
     },
     {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
       "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
       "truth_quotes": []
     }
   ]

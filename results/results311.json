@@ -1,6 +1,32 @@
 {
   "medical_history_assessed": {
-    "injury": {
+    "apnea_at_birth": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And did she have to stay in the NICU at all, at the hospital afterwards?"
+      ]
+    },
+    "behavior_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
+      ]
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lethargic": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
+      ]
+    },
+    "low_mood": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -8,180 +34,171 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "phlegm": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "blood_in_the_vomit": {
-      "assessed": "No",
-      "example_quotes": [
-        "Oh, I see, okay. Um, any blood in the vomit? Or is she coughing up any blood?"
-      ]
-    },
-    "chills": {
-      "assessed": "No",
-      "example_quotes": [
-        "Um, any kind of symptoms of runny nose or um, cold-like symptoms before then?"
-      ]
-    },
-    "cold_like_symptoms": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, yeah she did have a bit of a runny nose."
-      ]
-    },
-    "complications_during_delivery": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "constipation": {
-      "assessed": "No",
-      "example_quotes": [
-        "Okay. Any um, any symptoms of diarrhea or constipation?"
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "who has just been having a cough for the past um, two weeks."
-      ]
-    },
-    "coughing_fit": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "...she just keeps coughing and coughing and, and then she just, you know, once she'll start coughing she just doesn't stop."
-      ]
-    },
-    "cyanotic_episodes": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "...there's been times when she just turns blue, she's coughing so much."
-      ]
-    },
-    "delayed_growth_milestones": {
+    "paralysis_limb_or_face": {
       "assessed": "No",
       "example_quotes": []
     },
-    "diarrhoea": {
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
     },
-    "ear_problem": {
+    "rigors": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fatigue_extended": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "She does get tired, especially after, and then she's irritable and crying after, you know, she has these fits of coughs."
-      ]
-    },
-    "fever": {
-      "assessed": "No",
-      "example_quotes": [
-        "Um, any fevers or chills?"
-      ]
-    },
-    "food_allergy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "injury_in_chest": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "irritable": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "...after, you know, she has these fits of coughs."
-      ]
-    },
-    "itching_eyes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "motor_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "mucous_building": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paroxysmal_coughing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "...has these episodes where she just coughs and coughs..."
-      ]
-    },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, yeah she did have a bit of a runny nose."
-      ]
     },
     "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sleep_dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uh, not great. It's just the cough keeps uh, waking her up and she just doesn't, can't fall asleep."
-      ]
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing": {
+    "smell_problem": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing_or_itchiness": {
+    "tingling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tired": {
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "blood_in_the_vomit": {
       "assessed": "Yes",
       "example_quotes": [
-        "She does get tired, especially after..."
+        "Um, any blood in the vomit? Or is she coughing up any blood?"
       ]
     },
-    "urination": {
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, any, any fevers or chills?"
+      ]
+    },
+    "cold_like_symptoms": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, any, so this started two weeks ago, any kind of symptoms of runny nose or um, cold-like symptoms before then?"
+      ]
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any symptoms of diarrhea or constipation?"
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "So what uh, brings you here today?",
+        "Um, and can you describe the cough a little bit? Is it a dry cough or is she bringing anything up?",
+        "Okay, um, and so there's episodes where she also turns blue?"
+      ]
+    },
+    "coughing_fit": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, it is a, it is a dry cough, um, but she just keeps coughing and coughing and, and then she just, you know, once she'll start coughing she just doesn't stop."
+      ]
+    },
+    "cyanotic_episodes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, and so there's episodes where she also turns blue?"
+      ]
+    },
+    "delayed_growth_milestones": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And any difficulties or complications with her growth? Like in terms of her weight or her height?",
+        "And in terms of her milestones, has she been meeting all of them on time?"
+      ]
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any symptoms of diarrhea or constipation?"
+      ]
+    },
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
+      ]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, any, any fevers or chills?"
+      ]
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, any blood in the vomit? Or is she coughing up any blood?"
+      ]
+    },
+    "irritable": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?",
+        "She does get tired, especially after, and then she's irritable and crying after, you know, she has these fits of coughs."
+      ]
+    },
+    "paroxysmal_coughing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, it is a, it is a dry cough, um, but she just keeps coughing and coughing and, and then she just, you know, once she'll start coughing she just doesn't stop."
+      ]
+    },
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, any, so this started two weeks ago, any kind of symptoms of runny nose or um, cold-like symptoms before then?",
+        "Yeah, yeah she did have a bit of a runny nose. It was just uh, watery, uh, since discharge."
+      ]
+    },
+    "sleep_dyspnea": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "urination": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any trouble with urinating at all?"
+      ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "She's also vomited once or twice."
+        "She's also vomited once or twice.",
+        "It's usually just what she's eaten."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Okay, is it kind of a wheeze? Patient: Yeah, sure."
+        "Is it kind of a wheeze?",
+        "Yeah, sure."
       ]
     }
   }

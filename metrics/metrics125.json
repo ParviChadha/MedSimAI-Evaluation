@@ -1,68 +1,34 @@
 {
-  "precision": 0.75,
-  "recall": 0.21428571428571427,
-  "f1_score": 0.3333333333333333,
-  "true_positives": 6,
-  "false_positives": 2,
-  "false_negatives": 22,
+  "precision": 0.8846153846153846,
+  "recall": 0.8214285714285714,
+  "f1_score": 0.8518518518518519,
+  "true_positives": 23,
+  "false_positives": 3,
+  "false_negatives": 5,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Loss Of Sense",
+      "item": "Mucous Building",
       "result_quotes": [
-        "Um just when I'm congested like I feel like I can't really smell."
+        "Uh yeah, sometimes I feel like that over the last week."
       ]
     },
     {
-      "item": "Throat Pain",
+      "item": "Weight Gain",
       "result_quotes": [
-        "...maybe a little bit of a tickle in my throat, but not sore."
+        "And how was your weight been recently? Any changes?"
+      ]
+    },
+    {
+      "item": "Vaginal Discharge",
+      "result_quotes": [
+        "And do you use condoms or any form of birth control?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Facial Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fatigue Extended",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Odynophagia",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
+      "item": "Pain",
       "truth_quotes": []
     },
     {
@@ -70,43 +36,15 @@
       "truth_quotes": []
     },
     {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
-      "item": "Urination",
+      "item": "Speech Volume",
       "truth_quotes": []
     },
     {
       "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Speech Volume",
       "truth_quotes": []
     }
   ]

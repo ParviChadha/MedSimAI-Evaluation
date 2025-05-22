@@ -1,64 +1,29 @@
 {
-  "precision": 0.5,
-  "recall": 0.25925925925925924,
-  "f1_score": 0.3414634146341463,
-  "true_positives": 7,
-  "false_positives": 7,
-  "false_negatives": 20,
+  "precision": 0.92,
+  "recall": 0.8518518518518519,
+  "f1_score": 0.8846153846153846,
+  "true_positives": 23,
+  "false_positives": 2,
+  "false_negatives": 4,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Phlegm",
+      "item": "Odynophagia",
       "result_quotes": [
-        "Medical Student: Are you bringing up any any phlegm?",
-        "Patient: No."
+        "Um, mostly with foods."
       ]
     },
     {
-      "item": "Food Allergy",
+      "item": "Physical Or Emotional Abuse At Home",
       "result_quotes": [
-        "Medical Student: Alright, do you know if you have any allergies to medications?",
-        "Patient: Umm, possibly penicillin."
-      ]
-    },
-    {
-      "item": "Redness In Throat",
-      "result_quotes": [
-        "Medical Student: OK, and you can't taste your food as well, and when did you notice that?",
-        "Patient: That was two days ago."
-      ]
-    },
-    {
-      "item": "Lethargic",
-      "result_quotes": [
-        "Medical Student: OK. And how has your energy level been? Have you been fatigued?",
-        "Patient: A little bit, yes."
-      ]
-    },
-    {
-      "item": "Drowsiness",
-      "result_quotes": [
-        "Medical Student: And how has your energy level been? Have you been fatigued?",
-        "Patient: A little bit, yes."
-      ]
-    },
-    {
-      "item": "Tired",
-      "result_quotes": [
-        "Medical Student: OK. Have you been diagnosed with any medical conditions before?"
-      ]
-    },
-    {
-      "item": "Difficulty Sleeping",
-      "result_quotes": [
-        "Medical Student: Is it interfering with your sleep?",
-        "Patient: It is mostly during the day and in the evenings, it doesn't wake me up from sleep."
+        "And is there any physical or verbal abuse in the home?",
+        "Yes yes."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Urination",
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
@@ -66,75 +31,11 @@
       "truth_quotes": []
     },
     {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hearing Problem",
+      "item": "Urination",
       "truth_quotes": []
     },
     {
       "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Discharge",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
       "truth_quotes": []
     }
   ]

@@ -1,97 +1,49 @@
 {
-  "precision": 0.8181818181818182,
-  "recall": 0.3333333333333333,
-  "f1_score": 0.4736842105263157,
-  "true_positives": 9,
-  "false_positives": 2,
-  "false_negatives": 18,
-  "total_items": 53,
+  "precision": 0.8387096774193549,
+  "recall": 0.9629629629629629,
+  "f1_score": 0.896551724137931,
+  "true_positives": 26,
+  "false_positives": 5,
+  "false_negatives": 1,
+  "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Lung Complications",
+      "item": "Sleep",
       "result_quotes": [
-        "Medical Student: But it's, uh, and then, uh, also we'll get some blood work and a chest x-ray. But it is sounding like this could be a heart failure exacerbation."
+        "Yeah, that happened last night, couldn't fall asleep.",
+        "It's, it's fine with the two pillows now."
       ]
     },
     {
-      "item": "Infection",
+      "item": "Memory Loss",
       "result_quotes": [
-        "Medical Student: Have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?",
-        "Patient: Not recently, I had that about two months ago, but that got better."
+        "I don't remember their names.",
+        "I don't know, I, I don't know all of that. I don't know, you have to ask my daughter, she knows much more about me."
+      ]
+    },
+    {
+      "item": "Fainting",
+      "result_quotes": [
+        "Have you had any fainting or dizziness?"
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Any urinary problems?",
+        "I do, I, I uhm, I leak urine sometimes, actually quite often."
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "have high blood pressure"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Discharge",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
       "truth_quotes": []
     }
   ]

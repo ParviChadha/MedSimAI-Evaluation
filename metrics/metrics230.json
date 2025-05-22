@@ -1,68 +1,29 @@
 {
-  "precision": 0.8181818181818182,
-  "recall": 0.45,
-  "f1_score": 0.5806451612903226,
-  "true_positives": 9,
+  "precision": 0.9047619047619048,
+  "recall": 0.95,
+  "f1_score": 0.9268292682926829,
+  "true_positives": 19,
   "false_positives": 2,
-  "false_negatives": 11,
+  "false_negatives": 1,
   "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Trouble Breathing",
+      "item": "High Blood Pressure",
       "result_quotes": [
-        "I've been having difficulties breathing over these last few days."
+        "I have high blood pressure."
       ]
     },
     {
-      "item": "Itching",
+      "item": "Lung Complications",
       "result_quotes": [
-        "it's felt a little itchy I guess but no pain with swallowing."
+        "Do you have a history of any lung problems?",
+        "So no COPD, no asthma, nothing like that, right?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
       "item": "Dysphagia",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
       "truth_quotes": []
     }
   ]

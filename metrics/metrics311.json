@@ -1,50 +1,34 @@
 {
-  "precision": 0.9166666666666666,
-  "recall": 0.5789473684210527,
-  "f1_score": 0.7096774193548387,
-  "true_positives": 11,
-  "false_positives": 1,
-  "false_negatives": 8,
+  "precision": 0.8571428571428571,
+  "recall": 0.9473684210526315,
+  "f1_score": 0.9,
+  "true_positives": 18,
+  "false_positives": 3,
+  "false_negatives": 1,
   "total_items": 38,
   "false_positive_details": [
     {
-      "item": "Tired",
+      "item": "Apnea At Birth",
       "result_quotes": [
-        "She does get tired, especially after..."
+        "And did she have to stay in the NICU at all, at the hospital afterwards?"
+      ]
+    },
+    {
+      "item": "Behavior Changes",
+      "result_quotes": [
+        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
+      ]
+    },
+    {
+      "item": "Lethargic",
+      "result_quotes": [
+        "Um, and how about her behaviour? Does she seem like uh, very tired or fatigued, or more irritable?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Blood In The Vomit",
-      "truth_quotes": []
-    },
-    {
-      "item": "Delayed Growth Milestones",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
+      "item": "Sleep Dyspnea",
       "truth_quotes": []
     }
   ]

@@ -1,93 +1,19 @@
 {
-  "precision": 0.7058823529411765,
-  "recall": 0.5,
-  "f1_score": 0.5853658536585366,
-  "true_positives": 12,
-  "false_positives": 5,
-  "false_negatives": 12,
+  "precision": 1.0,
+  "recall": 0.9166666666666666,
+  "f1_score": 0.9565217391304348,
+  "true_positives": 22,
+  "false_positives": 0,
+  "false_negatives": 2,
   "total_items": 48,
-  "false_positive_details": [
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "Medical Student: Is this cough a dry cough, or do you bring up some mucus?",
-        "Patient: It's usually a dry cough and sometimes I do bring up like this light material, but usually it's mostly a dry cough."
-      ]
-    },
-    {
-      "item": "Decrease Interest In Activities",
-      "result_quotes": [
-        "Patient: These symptoms are stopping me and kind of affecting my daily routine."
-      ]
-    },
-    {
-      "item": "Hyperhidrosis",
-      "result_quotes": [
-        "Medical Student: Do you feel like your hearts beating really fast when that happens or you're sweating?",
-        "Patient: I feel like it's usually, I don't know if it's because of the exercise, but I have like a Fitbit and it's my my heart rate is much faster."
-      ]
-    },
-    {
-      "item": "Food Allergy",
-      "result_quotes": [
-        "Medical Student: Do you have any other allergies? To food or medications?",
-        "Patient: No, not that I know."
-      ]
-    },
-    {
-      "item": "Throat Pain",
-      "result_quotes": [
-        "Patient: initially I used to get just an irritation in my throat."
-      ]
-    }
-  ],
+  "false_positive_details": [],
   "false_negative_details": [
-    {
-      "item": "Irritable",
-      "truth_quotes": []
-    },
-    {
-      "item": "Symptoms Stress",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Itching Eyes",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
     {
       "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
+      "item": "Irritable",
       "truth_quotes": []
     }
   ]

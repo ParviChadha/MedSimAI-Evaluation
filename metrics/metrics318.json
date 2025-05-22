@@ -1,35 +1,15 @@
 {
-  "precision": 0.9230769230769231,
-  "recall": 0.4444444444444444,
-  "f1_score": 0.6,
-  "true_positives": 12,
-  "false_positives": 1,
-  "false_negatives": 15,
+  "precision": 1.0,
+  "recall": 0.4074074074074074,
+  "f1_score": 0.5789473684210525,
+  "true_positives": 11,
+  "false_positives": 0,
+  "false_negatives": 16,
   "total_items": 54,
-  "false_positive_details": [
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "Medical Student: OK, did you get sick at all recently, or were you in contact with anyone who was sick?",
-        "Patient: No, not that I know of."
-      ]
-    }
-  ],
+  "false_positive_details": [],
   "false_negative_details": [
     {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
+      "item": "Diarrhoea",
       "truth_quotes": []
     },
     {
@@ -37,15 +17,31 @@
       "truth_quotes": []
     },
     {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
       "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Headaches",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chills",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hyperhidrosis",
       "truth_quotes": []
     },
     {
@@ -57,23 +53,23 @@
       "truth_quotes": []
     },
     {
-      "item": "Vomiting",
+      "item": "Nausea",
       "truth_quotes": []
     },
     {
-      "item": "Chills",
+      "item": "Fainting",
       "truth_quotes": []
     },
     {
-      "item": "Constipation",
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
-      "item": "Headaches",
+      "item": "Confusion",
       "truth_quotes": []
     },
     {
-      "item": "Fever",
+      "item": "Unexplained Weight Loss",
       "truth_quotes": []
     }
   ]

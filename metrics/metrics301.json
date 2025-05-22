@@ -1,110 +1,22 @@
 {
-  "precision": 0.5714285714285714,
-  "recall": 0.34782608695652173,
-  "f1_score": 0.4324324324324324,
-  "true_positives": 8,
-  "false_positives": 6,
-  "false_negatives": 15,
+  "precision": 0.9565217391304348,
+  "recall": 0.9565217391304348,
+  "f1_score": 0.9565217391304348,
+  "true_positives": 22,
+  "false_positives": 1,
+  "false_negatives": 1,
   "total_items": 46,
   "false_positive_details": [
     {
-      "item": "General Weakness",
+      "item": "Motor Weakness",
       "result_quotes": [
-        "I've just been feeling very weak and tired."
-      ]
-    },
-    {
-      "item": "Feeling Tired",
-      "result_quotes": [
-        "I've just been really hot in the evenings.",
-        "I just feel like I've probably had a fever."
-      ]
-    },
-    {
-      "item": "Pain",
-      "result_quotes": [
-        "Feels a little like it hurts a little bit, like when I breathe in."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "I'm coughing up like gunky green stuff."
-      ]
-    },
-    {
-      "item": "Decreased Physical Activity",
-      "result_quotes": [
-        "Just like just fatigued like more than usual, yeah."
-      ]
-    },
-    {
-      "item": "Respiratory Distress Syndrome",
-      "result_quotes": [
-        "I'm having some trouble breathing.",
-        "I feel like I can't, can't quite like breathe fully."
+        "When you say weak, have you like lost any of your like motor movements like your arms, legs?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Belly Aches",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizziness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
       "item": "Weak Limbs",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
       "truth_quotes": []
     }
   ]

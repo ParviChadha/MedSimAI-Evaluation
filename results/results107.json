@@ -1,51 +1,135 @@
 {
   "medical_history_assessed": {
-    "lightheadedness": {
+    "complications_actual_delivery": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I had two C sections for my second daughter and and 3rd."
+      ]
+    },
+    "complications_during_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "decreased_fluid_intake": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "delayed_growth_milestones": {
       "assessed": "No",
       "example_quotes": []
     },
-    "bad_smell": {
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "ear_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hearing_problem": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah I do have uh, type 2 diabetes, as well as high blood pressure."
+      ]
+    },
+    "hoarse_tone": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I had two C sections for my second daughter and and 3rd."
+      ]
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any issues with your bowel movements? Any Constipation or diarrhea?",
-        "Patient: No."
+        "Any issues with your bowel movements? Any Constipation or diarrhea?"
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've been uh, starting to get like this sharp chest pain as well.",
-        "Medical Student: OK and your chest pain, when did that start?",
-        "Patient: This started, yeah, 'bout a few days ago as well."
+        "I've been having this like sharp pain in my in my chest.",
+        "I've been getting like this sharp chest pain as well.",
+        "I do feel it when I cough.",
+        "I also feel it uh, if I'm maybe moving around as well."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I I have felt a bit hot. That's more so yeah, maybe when I've been having night sweats."
+        "I have felt a bit hot."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: it's been getting worse 'cause now I've I've started to notice blood in the sputum."
+        "it's been getting worse 'cause now I've I've started to notice blood in the sputum that wasn't there at first.",
+        "I first saw some blood, uhm, two days ago.",
+        "Blood is, I'm coughing that up into the tissue."
       ]
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "constipation": {
       "assessed": "No",
@@ -54,18 +138,13 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've had this cough that's been ongoing and and getting worse."
+        "What brings you in here today.",
+        "I I've had this cough that's been ongoing and and getting worse",
+        "A couple weeks ago, OK, and has it gotten worse since then, or has it stayed about the same?",
+        "Can you just describe your cough currently? Is it more of a wet cough or dry cough?"
       ]
     },
     "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_sleeping": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_talking": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -74,11 +153,8 @@
       "example_quotes": []
     },
     "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: do you have any kind of shortness of breath?",
-        "Patient: No, just a stern cough."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "fainting": {
       "assessed": "No",
@@ -87,22 +163,15 @@
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I've been more fatigued over the last couple months."
+        "I've been more fatigued over the last couple months.",
+        "Yeah, I've had some fatigue for sure."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I I have felt a bit hot."
+        "I have felt a bit hot."
       ]
-    },
-    "food_allergy": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "head_ache": {
       "assessed": "No",
@@ -111,34 +180,18 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I'm coughing that up into the tissue."
+        "it's been getting worse 'cause now I've I've started to notice blood in the sputum that wasn't there at first.",
+        "I first saw some blood, uhm, two days ago."
       ]
     },
     "hyperhidrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I have been sweating at night."
+        "I have been sweating at night",
+        "I've woken up soaked."
       ]
-    },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: we will have to contact a public health if the tests come back positive."
-      ]
-    },
-    "itching_eyes": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_consciousness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_sense": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -150,73 +203,32 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_changes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "sleep_hydrosis": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_issue": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "soreness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "speech_volume": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "straining_and_chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sweaty": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Sleep's been OK"
+      ]
     },
     "swelling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Yeah, I I have actually. I'm I'm down 20 pounds."
+        "I have uhm, lost some weight and and I've been more fatigued over the last couple months.",
+        "I'm I'm down 20 pounds."
       ]
     },
     "urination": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaginal_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "watery_eyes": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "wheez": {
       "assessed": "No",
       "example_quotes": []
     }

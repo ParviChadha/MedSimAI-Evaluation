@@ -1,26 +1,15 @@
 {
-  "precision": 0.9,
-  "recall": 0.8181818181818182,
-  "f1_score": 0.8571428571428572,
-  "true_positives": 9,
-  "false_positives": 1,
-  "false_negatives": 2,
-  "total_items": 21,
-  "false_positive_details": [
-    {
-      "item": "Difficulty Breathing",
-      "result_quotes": [
-        "over this time you've had this cough, have you felt like you've had difficulty breathing?"
-      ]
-    }
-  ],
+  "precision": 1.0,
+  "recall": 0.9090909090909091,
+  "f1_score": 0.9523809523809523,
+  "true_positives": 10,
+  "false_positives": 0,
+  "false_negatives": 1,
+  "total_items": 22,
+  "false_positive_details": [],
   "false_negative_details": [
     {
       "item": "Rigor",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
       "truth_quotes": []
     }
   ]

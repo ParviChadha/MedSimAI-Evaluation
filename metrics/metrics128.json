@@ -1,31 +1,24 @@
 {
-  "precision": 0.9523809523809523,
-  "recall": 0.8695652173913043,
-  "f1_score": 0.909090909090909,
-  "true_positives": 20,
-  "false_positives": 1,
-  "false_negatives": 3,
+  "precision": 0.92,
+  "recall": 1.0,
+  "f1_score": 0.9583333333333334,
+  "true_positives": 23,
+  "false_positives": 2,
+  "false_negatives": 0,
   "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Sensitive To Allergies",
+      "item": "Dysuria",
       "result_quotes": [
-        "Patient: ... I have like a peanut allergy."
+        "Any changes to urinary habits. Any painful urination or needing to go more often?"
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "And do you take birth control?"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

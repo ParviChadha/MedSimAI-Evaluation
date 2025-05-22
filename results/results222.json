@@ -1,114 +1,52 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
     "changes_inappetite": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "grunting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "odynophagia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any changes in your bowel movements? Patient: Uh no."
+        "Any changes in your appetite or weight?"
       ]
     },
-    "chest_pain": {
+    "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "chest_tightness": {
+    "difficulty_talking": {
       "assessed": "No",
       "example_quotes": []
     },
-    "chills": {
+    "dysuria": {
       "assessed": "No",
       "example_quotes": []
     },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: ...and I'm also like consistently coughing all the time and it's not getting any better."
-      ]
-    },
-    "delayed_growth_milestones": {
+    "ear_problem": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_breathing": {
+    "high_blood_pressure": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dizzyness": {
+    "hoarse_tone": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dyspnea": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "facial_pain": {
+    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "fatigue_extended": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: Um a little bit because I haven't been sleeping too well."
-      ]
-    },
-    "feeling_tired": {
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "fever": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "flu": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "general_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": [
-        "Medical Student: OK, and any blood in your sputum at all? Patient: No, no blood."
-      ]
-    },
-    "motor_weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "nausea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "palpitation": {
+    "mucous_building": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -116,35 +54,31 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rectal_bleeding": {
+    "sexually_transmitted_infection": {
       "assessed": "No",
       "example_quotes": []
     },
-    "runny_nose": {
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sensation_of_chest": {
+    "stunning": {
       "assessed": "No",
       "example_quotes": []
     },
-    "smell_problem": {
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sore_throat": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "symptom_speedup": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "taste_loss": {
+    "urination": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -152,18 +86,118 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "vomiting": {
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your bowel movements?"
+      ]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills?"
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "you say you're also getting a cough.",
+        "And how would you describe the cough? Is it wet or dry?"
+      ]
+    },
+    "dizzyness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "any dizziness or fainting?"
+      ]
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms like sore throat, runny nose, shortness of breath, anything like that?"
+      ]
+    },
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fatigue?",
+        "Um a little bit because I haven't been sleeping too well."
+      ]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills?"
+      ]
+    },
+    "head_ache": {
       "assessed": "No",
       "example_quotes": []
     },
-    "weight_changes": {
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any blood in your sputum at all?"
+      ]
+    },
+    "nausea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And any headaches? Nausea or vomiting?"
+      ]
+    },
+    "palpitation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any sensation of chest pain or racing of your heart?"
+      ]
+    },
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms like sore throat, runny nose, shortness of breath, anything like that?"
+      ]
+    },
+    "sensation_of_chest": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any sensation of chest pain or racing of your heart?"
+      ]
+    },
+    "smell_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your sense of smell or taste?"
+      ]
+    },
+    "sore_throat": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any other symptoms like sore throat, runny nose, shortness of breath, anything like that?"
+      ]
+    },
+    "symptom_speedup": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "taste_loss": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your sense of smell or taste?"
+      ]
+    },
+    "vomiting": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And any headaches? Nausea or vomiting?"
+      ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ...I've been very wheezy for the past week..."
+        "What brings you in here today?",
+        "you're getting some wheezing and you say you're also getting a cough.",
+        "Are you getting an on and off, but basically every time I cough after that I'll be wheezy for a little bit."
       ]
     }
   }

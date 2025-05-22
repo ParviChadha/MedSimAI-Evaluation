@@ -1,10 +1,25 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "asthma": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any past medical conditions that you have been diagnosed with like asthma, eczema, anything like that?",
+        "I did have like I know that I would sometimes get kind of short of breath as a child."
+      ]
+    },
+    "complications_during_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting": {
+    "diabetes": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "food_allergy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -12,11 +27,40 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any sick contacts, anyone around you that has been sick?",
+        "And besides that, have you been having any symptoms of fevers, chills, sore throat?"
+      ]
+    },
+    "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
+    "mucous_building": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up?"
+      ]
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -24,117 +68,104 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "stiffness": {
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensitive_to_allergies": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "are there any besides during the spring time, any kind of allergens or any anything in the house or around you that triggers it, like dust or anything like that?",
+        "Yeah, dust makes it a lot worse."
+      ]
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "are you sexually active?"
+      ]
+    },
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your bowel movements at all?"
+      ]
     },
     "chills": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills?",
+        "Any night sweats, fevers, or chills?"
+      ]
     },
     "colored_excess_sputum": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "are you bringing up any sputum?"
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have to like cough to clear my throat"
+        "are you coughing at all?",
+        "Well, I have to like cough to clear my throat but then not otherwise."
       ]
     },
     "dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had shortness of breath after that, like when like as a child, how old were you?"
+      ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any kind of fatigue or tiredness throughout the day?",
         "I do feel more fatigued when I have these symptoms."
       ]
     },
-    "fatigue_sleep": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "fever": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "flu_like_symptom": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "grunting_noise": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hives": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching_eyes": {
       "assessed": "Yes",
       "example_quotes": [
-        "my eyes and my nose are just itchy and my eyes get like red and teary sometimes."
+        "Any fevers or chills?",
+        "But no fevers."
+      ]
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any headaches?"
       ]
     },
     "loss_of_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "mucous_building": {
+    "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up? Yeah yeah I do."
+        "Any nausea or vomiting?"
       ]
-    },
-    "nause": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "nausea": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "post_nasal_drip": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up? Yeah yeah I do."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just been sneezing a lot and I have this runny nose."
+        "I've been sneezing a lot and I have this runny nose.",
+        "It's been years, I don't even remember.",
+        "yeah? OK, and years like just sneezing and the runny nose has been going on for the last few years."
       ]
-    },
-    "sexually_transmitted_infection": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sleep_hydrosis": {
       "assessed": "No",
@@ -143,42 +174,50 @@
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "it's hard to smell and my nose is stuffy, but no loss of taste."
+        "any loss of sense of taste or smell?"
       ]
     },
     "sneezing": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just been sneezing a lot."
+        "I've been sneezing a lot and I have this runny nose.",
+        "It's been years, I don't even remember."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "I also wake up in the morning with this like sore throat."
+        "I also wake up in the morning with this like sore throat",
+        "I get a bit of a sore throat, I guess in the morning, but it just goes away after."
       ]
     },
     "taste_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "any loss of sense of taste or smell?",
+        "no loss of taste."
+      ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been losing weight, but I've been dieting and working out more."
+        "Any changes to your appetite or weight?",
+        "I've been losing weight, but I've been dieting and working out more.",
+        "how much weight would you say you've lost over the last few months?",
+        "I've lost about four pounds in the past four, five months."
       ]
     },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any trouble urinating?"
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?"
+      ]
     }
   }
 }

@@ -1,63 +1,19 @@
 {
-  "precision": 0.9230769230769231,
-  "recall": 0.5217391304347826,
-  "f1_score": 0.6666666666666667,
-  "true_positives": 12,
-  "false_positives": 1,
-  "false_negatives": 11,
+  "precision": 1.0,
+  "recall": 0.9130434782608695,
+  "f1_score": 0.9545454545454545,
+  "true_positives": 21,
+  "false_positives": 0,
+  "false_negatives": 2,
   "total_items": 46,
-  "false_positive_details": [
-    {
-      "item": "Weight Changes",
-      "result_quotes": [
-        "Any significant changes in your weight?",
-        "No."
-      ]
-    }
-  ],
+  "false_positive_details": [],
   "false_negative_details": [
     {
       "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
       "item": "Coughing Fit",
-      "truth_quotes": []
-    },
-    {
-      "item": "Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
       "truth_quotes": []
     }
   ]

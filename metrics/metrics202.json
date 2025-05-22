@@ -1,88 +1,28 @@
 {
-  "precision": 0.8181818181818182,
-  "recall": 0.3333333333333333,
-  "f1_score": 0.4736842105263157,
-  "true_positives": 9,
+  "precision": 0.9230769230769231,
+  "recall": 0.8888888888888888,
+  "f1_score": 0.9056603773584906,
+  "true_positives": 24,
   "false_positives": 2,
-  "false_negatives": 18,
+  "false_negatives": 3,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "General Weakness",
+      "item": "Photophobia",
       "result_quotes": [
-        "I just kind of like stayed in bed the whole day."
+        "have you had any sensitivity to light or sound that, that's made the headache a lot worse?"
       ]
     },
     {
-      "item": "Weakness",
+      "item": "Lethargic",
       "result_quotes": [
-        "I felt a bit drained."
+        "Yesterday I felt a bit drained. I just kind of like stayed in bed the whole day."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
       "item": "Infection",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Flu",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Stunning",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Asthma",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nause",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
       "truth_quotes": []
     },
     {
@@ -90,7 +30,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Sleep Hydrosis",
+      "item": "Stunning",
       "truth_quotes": []
     }
   ]

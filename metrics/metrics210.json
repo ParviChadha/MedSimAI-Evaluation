@@ -1,72 +1,11 @@
 {
-  "precision": 0.7,
-  "recall": 0.4117647058823529,
-  "f1_score": 0.5185185185185185,
-  "true_positives": 7,
-  "false_positives": 3,
-  "false_negatives": 10,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "true_positives": 17,
+  "false_positives": 0,
+  "false_negatives": 0,
   "total_items": 36,
-  "false_positive_details": [
-    {
-      "item": "Fainting",
-      "result_quotes": [
-        "Medical Student: OK are you, did you have a loss of consciousness when you fell off your bike?",
-        "Patient: No, I got right back up. I just just had the pain."
-      ]
-    },
-    {
-      "item": "Tachypnea",
-      "result_quotes": [
-        "Patient: I feel like I can't catch my breath."
-      ]
-    },
-    {
-      "item": "Sensation Of Chest",
-      "result_quotes": [
-        "Patient: If I try to take a deep breath it just really hurts like taking those small, smaller breaths helps."
-      ]
-    }
-  ],
-  "false_negative_details": [
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Numbness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Tingling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Weakness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    }
-  ]
+  "false_positive_details": [],
+  "false_negative_details": []
 }

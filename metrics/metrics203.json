@@ -1,70 +1,32 @@
 {
-  "precision": 0.85,
-  "recall": 0.6296296296296297,
-  "f1_score": 0.723404255319149,
-  "true_positives": 17,
-  "false_positives": 3,
-  "false_negatives": 10,
-  "total_items": 55,
+  "precision": 0.9259259259259259,
+  "recall": 0.9259259259259259,
+  "f1_score": 0.9259259259259259,
+  "true_positives": 25,
+  "false_positives": 2,
+  "false_negatives": 2,
+  "total_items": 51,
   "false_positive_details": [
     {
-      "item": "Behavior Changes",
+      "item": "Inconsolable",
       "result_quotes": [
-        "just seems a little bit like just not himself, just more quiet."
+        "just seems a little bit like just not himself, just more quiet. Not really crying."
       ]
     },
     {
-      "item": "Weakness",
+      "item": "Pregnancy",
       "result_quotes": [
-        "he might be a little bit dehydrated."
-      ]
-    },
-    {
-      "item": "General Weakness",
-      "result_quotes": [
-        "he's not as active as he usually is?"
+        "Pregnancy was uh, OK, no complications, but he was premature by two weeks"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Limp",
-      "truth_quotes": []
-    },
-    {
-      "item": "Delayed Growth Milestones",
-      "truth_quotes": []
-    },
-    {
-      "item": "Drooling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Grunting Noise",
-      "truth_quotes": []
-    },
-    {
-      "item": "Foreign Body Intake",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
+      "item": "Tachypnea",
       "truth_quotes": []
     },
     {
       "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Lethargic",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
       "truth_quotes": []
     }
   ]

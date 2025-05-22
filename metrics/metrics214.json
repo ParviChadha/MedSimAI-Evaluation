@@ -1,60 +1,32 @@
 {
-  "precision": 0.7619047619047619,
-  "recall": 0.7619047619047619,
-  "f1_score": 0.7619047619047619,
-  "true_positives": 16,
-  "false_positives": 5,
-  "false_negatives": 5,
+  "precision": 0.8695652173913043,
+  "recall": 0.9523809523809523,
+  "f1_score": 0.909090909090909,
+  "true_positives": 20,
+  "false_positives": 3,
+  "false_negatives": 1,
   "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Loss Of Sense",
+      "item": "Behavior Changes",
       "result_quotes": [
-        "I can't smell as as much."
+        "I usually don't come in when I have symptoms like this uh, but I've just been, uhm, I just heard of someone who passed away due to Covid and I'm just like very scared and I just decided to come in."
       ]
     },
     {
-      "item": "Smell Loss",
+      "item": "Low Mood",
       "result_quotes": [
-        "I can't smell as as much."
+        "I do have depression."
       ]
     },
     {
-      "item": "Infectious Symptom",
+      "item": "Impeding Doom Anxiety",
       "result_quotes": [
-        "I just heard of someone who passed away due to Covid and I'm just like very scared and I just decided to come in."
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "With the cough, is it a dry cough or are you bringing up some phlegm?"
-      ]
-    },
-    {
-      "item": "Impending Doom Anxiety",
-      "result_quotes": [
-        "I just heard of someone who passed away due to Covid and I'm just like very scared."
+        "I'm just like very scared and I just decided to come in."
       ]
     }
   ],
   "false_negative_details": [
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
     {
       "item": "Fatigue Sleep",
       "truth_quotes": []

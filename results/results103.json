@@ -1,36 +1,8 @@
 {
   "medical_history_assessed": {
-    "brain_fog": {
+    "confusion": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "cold": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've had a cough and I've had a sore throat for the past two days."
-      ]
-    },
-    "decreased_focus": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "exercise": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "general_weakness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Maybe a little bit. It's not too bad."
-      ]
     },
     "grunting": {
       "assessed": "No",
@@ -40,21 +12,56 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "impending_doom_anxiety": {
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Just high blood pressure. My mom has it."
+      ]
+    },
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "irritable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "itching": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lightheadedness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any other symptoms like. Shortness of breath, chest pain, dizziness, or anything like that?",
+        "No."
+      ]
     },
     "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "mucus_discharge": {
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm now having like a, a runny nose."
+        "And the sore throat are you having trouble or pain while swallowing any food?",
+        "It's not that bad.",
+        "It's just irritation in my throat."
       ]
     },
-    "not_crying": {
+    "palpitation": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -62,7 +69,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "pregnancy": {
+    "pressure_in_around_face": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -70,143 +77,206 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "sneezing": {
+    "sleep_changes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "swelling": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing_or_itchiness": {
+    "smell_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tightness": {
+    "stunning": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tonsillitis": {
+    "vaccine_related_reaction": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trouble_breathing": {
+    "vaginal_discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "wheez_inhale": {
-      "assessed": "No",
-      "example_quotes": []
+    "weight_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your appetite?",
+        "No.",
+        "OK, have you lost any significant weight recently?",
+        "Uh, no."
+      ]
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your bowel movement at all like Constipation or diarrhea? No."
+        "Any changes in your bowel movement at all like Constipation or diarrhea?",
+        "No."
       ]
     },
     "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any other symptoms like. Shortness of breath, chest pain, dizziness, or anything like that?",
+        "No."
+      ]
     },
     "chills": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills?",
+        "Now I know."
+      ]
     },
     "colored_excess_sputum": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, are you having any kind of? Are you bringing up any blood or sputum at all?",
+        "No."
+      ]
     },
     "constipation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your bowel movement at all like Constipation or diarrhea?",
+        "No."
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I just I've had a cough and I've had a sore throat for the past two days."
+        "What brings you in here today?",
+        "Um, I just I've had a cough and I've had a sore throat for the past two days and I was just worried that I might have COVID so I thought I'd come in.",
+        "can you describe your cough? Is it a wet cough or a dry cough?",
+        "It's a dry cough."
       ]
     },
     "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your bowel movement at all like Constipation or diarrhea?",
+        "No."
+      ]
     },
     "dizzyness": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any other symptoms like. Shortness of breath, chest pain, dizziness, or anything like that?",
+        "No."
+      ]
     },
     "dysphagia": {
       "assessed": "Yes",
       "example_quotes": [
+        "And the sore throat are you having trouble or pain while swallowing any food?",
+        "It's not that bad.",
         "It's just irritation in my throat."
       ]
     },
     "dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you have any other symptoms like. Shortness of breath, chest pain, dizziness, or anything like that?",
+        "No."
+      ]
     },
     "fatigue": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any fatigue or malaise?",
         "Maybe a little bit. It's not too bad."
       ]
     },
     "fever": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills?",
+        "Now I know."
+      ]
     },
     "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any headaches?",
+        "No."
+      ]
     },
     "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, are you having any kind of? Are you bringing up any blood or sputum at all?",
+        "No."
+      ]
     },
     "hoarse_tone": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any hoarseness in your voice at all?",
+        "No."
+      ]
     },
     "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your appetite?",
+        "No."
+      ]
     },
     "malaise": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fatigue or malaise?",
+        "Maybe a little bit. It's not too bad."
+      ]
     },
     "muscle_aches": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm? Yeah, little bit."
+        "Any muscle aches at all?",
+        "Uhm? Yeah, little bit.",
+        "And when did that start?",
+        "Maybe two days ago?"
       ]
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea, vomiting?",
+        "No."
+      ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm now having like a, a runny nose."
+        "I'm now having like a, a runny nose.",
+        "A runny nose as well? OK, when did that start?",
+        "Uhm, maybe like I don't know just now even, like an hour or two ago."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a sore throat for the past two days."
+        "What brings you in here today?",
+        "Um, I just I've had a cough and I've had a sore throat for the past two days and I was just worried that I might have COVID so I thought I'd come in.",
+        "It started with a sore throat two nights ago"
       ]
     },
     "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, have you lost any significant weight recently?",
+        "Uh, no."
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea, vomiting?",
+        "No."
+      ]
     },
     "widespread_pain": {
       "assessed": "No",

@@ -1,54 +1,52 @@
 {
   "medical_history_assessed": {
-    "dehydration": {
+    "delayed_growth_milestones": {
       "assessed": "No",
       "example_quotes": []
     },
-    "discharge": {
+    "diabetes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "do you have any past medical history any like hypertension that like diabetes?"
+      ]
+    },
+    "difficulty_talking": {
       "assessed": "No",
       "example_quotes": []
     },
-    "drooling": {
+    "grunting": {
       "assessed": "No",
       "example_quotes": []
     },
-    "drowsiness": {
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dysphagia": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dysuria": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
-    "flu_like_symptom": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
-    "irregular_behavior_changes": {
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lightheadedness": {
+    "odynophagia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_appetite": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "loss_of_consciousness_due_to_alcohol": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "numbness": {
+    "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -56,53 +54,63 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "vaccine_related_reaction": {
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vision_problem": {
+    "slurred_speech": {
       "assessed": "No",
       "example_quotes": []
     },
-    "weight_changes": {
+    "tingling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "urination": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, my chest is really hurting.",
-        "It's hard to say the exact location, but more on the left side of my chest.",
+        "Can you just tell me what brings you in here today?",
+        "OK, and where where does it hurt exactly?",
+        "OK, and is it like what kind of pain is it? Is it like a dull aching pain, or is it as sharp or stabbing pain?",
         "The pain is. It's stabbing, but also it feels really really tight in my chest."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having chills the last few days."
+        "No nausea or vomiting. I did take my temperature, no. Sorry I did not take my temperature, but I've been having chills the last few days."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a cough since last week, but it feels much worse today."
+        "apart from the pain, are you having any other symptoms like a cough or shortness of breath and anything like that?",
+        "I've had a cough since last week, but it feels much worse today.",
+        "No blood."
       ]
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
+        "Have you been feeling any kind of dizziness at all?",
         "I have a little bit of yeah, um dizziness when I when the pain gets really bad."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
+        "apart from the pain, are you having any other symptoms like a cough or shortness of breath and anything like that?",
         "Yeah, with the pain, I'm having a hard time breathing."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
+        "And have you been feeling at all fatigued at all?",
         "I've been really tired with all of the traveling, so I think maybe I'm just jet lagged."
       ]
     },
@@ -111,57 +119,66 @@
       "example_quotes": []
     },
     "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "and have you noticed at all coughing up blood?"
+      ]
     },
     "injury_in_chest": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um no."
+        "have you recently had any kind of trauma or injury to your chest at all?"
       ]
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you been experiencing any kind of nausea or vomiting, or fever or chills?"
+      ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "The pain is. It's stabbing, but also it feels really really tight in my chest.",
-        "It's getting worse."
+        "OK, and is it like what kind of pain is it? Is it like a dull aching pain, or is it as sharp or stabbing pain?"
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
+        "have you noticed any skin changes at all? Any rashes?",
         "Yeah, since this morning it's felt like my heart is is racing."
       ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "Ah, my legs felt a bit swollen on the way back on the airplane."
+        "have you been experiencing any kind of swelling at all in your feet or ankles?",
+        "Ah, my legs felt a bit swollen on the way back on the airplane, but they tend to swell so I didn't think anything of it.",
+        "OK so they have swollen up before but you saw them swollen this time as well?"
       ]
     },
     "tightness": {
       "assessed": "Yes",
       "example_quotes": [
-        "but also it feels really really tight in my chest.",
-        "I got this tightness and and stabbing pain on the left side of my chest."
+        "The pain is. It's stabbing, but also it feels really really tight in my chest."
       ]
     },
     "trauma": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you recently had any kind of trauma or injury to your chest at all?"
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you been experiencing any kind of nausea or vomiting, or fever or chills?"
+      ]
     },
     "widespread_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "my entire body has been achy these past few days."
+        "My left leg hurts really bad right now, but my entire body has been achy these past few days."
       ]
     }
   }

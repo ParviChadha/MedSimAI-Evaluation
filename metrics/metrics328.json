@@ -1,31 +1,29 @@
 {
-  "precision": 0.9166666666666666,
-  "recall": 0.4583333333333333,
-  "f1_score": 0.611111111111111,
-  "true_positives": 11,
-  "false_positives": 1,
-  "false_negatives": 13,
+  "precision": 0.9,
+  "recall": 0.75,
+  "f1_score": 0.8181818181818182,
+  "true_positives": 18,
+  "false_positives": 2,
+  "false_negatives": 6,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Pregnancy",
+      "item": "Complications During Delivery",
       "result_quotes": [
-        "Medical Student: 'In terms of the pregnancy itself, were there any complications throughout um, with mom?'",
-        "Patient: 'Uh, no, no, no complications.'"
+        "were there any complications throughout um, with mom?",
+        "Uh, no, no, no complications."
+      ]
+    },
+    {
+      "item": "Behavior Changes",
+      "result_quotes": [
+        "She's been pretty fussy, um, yeah, she's been pretty fussy over the past few days"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
+      "item": "Watery Eyes",
       "truth_quotes": []
     },
     {
@@ -33,23 +31,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Erythema",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Delayed Growth Milestones",
-      "truth_quotes": []
-    },
-    {
-      "item": "Watery Eyes",
       "truth_quotes": []
     },
     {
@@ -57,15 +39,11 @@
       "truth_quotes": []
     },
     {
-      "item": "Nausea",
+      "item": "Erythema",
       "truth_quotes": []
     },
     {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
+      "item": "Hemoptysis",
       "truth_quotes": []
     }
   ]

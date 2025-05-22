@@ -1,6 +1,16 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I have high blood pressure."
+      ]
+    },
+    "hoarse_tone": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -8,59 +18,120 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "itching": {
+    "lung_complications": {
       "assessed": "Yes",
       "example_quotes": [
-        "it's felt a little itchy I guess but no pain with swallowing."
+        "Do you have a history of any lung problems?",
+        "So no COPD, no asthma, nothing like that, right?"
       ]
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nause": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "not_crying": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_dyspnea": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sleep_issues": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain."
+        "Do you have any, uh, do you have a cough?",
+        "And do you have any chest pain or chest pressure?",
+        "To give it a number from one to ten, what would you say in terms of how severe it is with ten being the worst pain ever.",
+        "And where exactly is it, is the pain?",
+        "Alright, and has that pain gotten worse overtime?"
       ]
     },
     "chest_pressure": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain."
+        "And do you have any chest pain or chest pressure?"
       ]
     },
     "chills": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you had fevers or chills?"
+      ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been bringing up, some, like, uh, whitish sputum."
+        "And has it been a dry cough or wet cough?",
+        "You haven't seen blood anytime right? In your sputum?"
       ]
     },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "constipation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Constipation?"
+      ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a cough as well, over these last few days."
+        "So you're just having difficulties breathing for the past three-four days. Do you have any, uh, do you have a cough?",
+        "And has the cough gotten any worse overtime?"
       ]
     },
     "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_sleeping": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "drooling": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any diarrhea?"
+      ]
     },
     "dysphagia": {
       "assessed": "No",
@@ -69,118 +140,79 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having difficulties breathing over these last few days."
+        "How may I help you?",
+        "When did it start?",
+        "And since then, has it gotten any better or worse?",
+        "And are there certain times when you feel that you're more short of breath than other times? Anything in particular that you're doing that makes it worse?",
+        "And, has this happened to you before?"
       ]
     },
-    "extended_sleep": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "eye_redness": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and has you had a sore throat? Any redness in your eyes or any congestion in your nose?"
+      ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been fatigued."
+        "What about fatigue or muscle aches?"
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have felt hot but no chills."
+        "And have you had fevers or chills?",
+        "I've been feeling hot but no chills."
       ]
     },
     "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had a headache?"
+      ]
     },
     "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "impending_doom_anxiety": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_smell": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "low_mood": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lumps": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "You haven't seen blood anytime right? In your sputum?"
+      ]
     },
     "nasal_congestion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "nause": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "OK, and has you had a sore throat? Any redness in your eyes or any congestion in your nose?"
+      ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I would say, maybe six. It feels pretty sharp when it happens and it goes away after a few minutes."
+        "Any pain in your belly?"
       ]
     },
-    "self_hurt": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "smell_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Changes in your sense of smell?"
+      ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "my throat's been a little bit itchy."
+        "OK, and has you had a sore throat?"
       ]
     },
-    "speech_volume": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "straining_and_chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stuffy_nose": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "symptoms_stress": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "taste_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trouble_breathing": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having difficulties breathing over these last few days."
+        "Any changes in your sense of taste?"
       ]
     },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your, uh, any changes when you pee?"
+      ]
     }
   }
 }

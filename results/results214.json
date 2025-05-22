@@ -1,74 +1,135 @@
 {
   "medical_history_assessed": {
-    "discharge": {
+    "behavior_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I usually don't come in when I have symptoms like this uh, but I've just been, uhm, I just heard of someone who passed away due to Covid and I'm just like very scared and I just decided to come in."
+      ]
+    },
+    "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "infectious_symptom": {
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "impeding_doom_anxiety": {
       "assessed": "Yes",
       "example_quotes": [
-        "I just heard of someone who passed away due to Covid and I'm just like very scared and I just decided to come in."
+        "I'm just like very scared and I just decided to come in."
       ]
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "low_mood": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I do have depression."
+      ]
+    },
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "phlegm": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "With the cough, is it a dry cough or are you bringing up some phlegm?"
-      ]
-    },
-    "sneezing": {
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "stiffness": {
+    "paralysis_limb_or_face": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tachypnea": {
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes to your bowel movements?"
+        "Any changes to your bowel movements?",
+        "No."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Chest pain?"
+        "Chest pain?",
+        "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just had a runny nose and a cough for the past uh week."
+        "I've just had a runny nose and a cough for the past uh week.",
+        "With the cough, is it a dry cough or are you bringing up some phlegm?",
+        "Um it's mostly a dry cough"
       ]
-    },
-    "difficulty_sleeping": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Fainting spells or dizziness?"
+        "Fainting spells or dizziness?",
+        "No."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any shortness of breath?"
+        "Any shortness of breath?",
+        "Um no, no I don't think so."
       ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
+        "Any like excessive fatigue?",
         "I am tired but not, I guess it's not too bad."
       ]
     },
@@ -79,63 +140,36 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any fevers?"
+        "Any fevers?",
+        "Uh no."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about headaches?"
+        "Any headaches?",
+        "Uhm, no."
       ]
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your vision or hearing?"
+        "Any changes in your vision or hearing?",
+        "No."
       ]
-    },
-    "high_blood_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hyperhidrosis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "impending_doom_anxiety": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I just heard of someone who passed away due to Covid and I'm just like very scared."
-      ]
-    },
-    "itchiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "lightheadness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "loss_of_sense": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I can't smell as as much."
-      ]
-    },
-    "motor_weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "I do have a stuffy nose."
+        "Um, how about a stuffy nose?",
+        "Yeah, I do have a stuffy nose."
       ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any nausea or vomiting?"
+        "Any nausea or vomiting?",
+        "Uhm, no."
       ]
     },
     "pain": {
@@ -147,68 +181,59 @@
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you ever feel like your heart's racing?"
+        "Um, sorry, I asked you if you had chest pain, uh do you ever feel like your heart's racing?",
+        "No."
       ]
-    },
-    "photophobia": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just had a runny nose."
-      ]
-    },
-    "sensation_of_chest": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_issue": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "smell_loss": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I can't smell as as much."
+        "I've just had a runny nose and a cough for the past uh week.",
+        "when your nose does run, do you notice that it's like uh yellow in colour or red?",
+        "It's clear, yeah."
       ]
     },
     "smell_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Smell or taste?",
+        "Um I I can't smell as as much, but I think maybe it's just because my nose is so stuffy"
+      ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "No problems with taste."
+        "Smell or taste?",
+        "but no problems with taste."
       ]
     },
     "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any weight loss recently?",
+        "Um I've been trying to lose weight, but nothing unintentional I guess."
+      ]
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your vision or hearing?"
+        "Any changes in your vision or hearing?",
+        "No."
       ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?",
+        "Uhm, no."
+      ]
     },
     "wheez": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any wheeziness?",
+        "Um no."
+      ]
     }
   }
 }

@@ -1,88 +1,53 @@
 {
-  "precision": 0.8181818181818182,
-  "recall": 0.36,
-  "f1_score": 0.5,
-  "true_positives": 9,
-  "false_positives": 2,
-  "false_negatives": 16,
-  "total_items": 33,
+  "precision": 0.8,
+  "recall": 0.96,
+  "f1_score": 0.8727272727272728,
+  "true_positives": 24,
+  "false_positives": 6,
+  "false_negatives": 1,
+  "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Throat Pain",
+      "item": "Allergic Rhinitis",
       "result_quotes": [
-        "I've had a sore throat that's been really bugging me the past four days."
+        "\"any history of asthma or eczema or allergic rhinitis?\"",
+        "\"No, I haven't heard of those before.\""
       ]
     },
     {
-      "item": "Muscle Ache",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "I've been really like achy and and tired as well."
+        "\"Yeah I, I have allergies to peanuts.\""
+      ]
+    },
+    {
+      "item": "Behavior Changes",
+      "result_quotes": [
+        "\"are things going well at school? Any bullying? Are you happy with your grades?\""
+      ]
+    },
+    {
+      "item": "General Weakness",
+      "result_quotes": [
+        "\"and I've been really like achy and and tired as well.\""
+      ]
+    },
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "\"does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?\""
+      ]
+    },
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "\"Yeah, it's, it's, it's really sore.\""
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Headaches",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Strep Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pressure",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fevers",
-      "truth_quotes": []
-    },
-    {
-      "item": "Discharge",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Problem",
+      "item": "Nasal Congestion",
       "truth_quotes": []
     }
   ]

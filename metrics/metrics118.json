@@ -1,117 +1,19 @@
 {
-  "precision": 0.5384615384615384,
-  "recall": 0.2916666666666667,
-  "f1_score": 0.3783783783783784,
-  "true_positives": 7,
-  "false_positives": 6,
-  "false_negatives": 17,
-  "total_items": 48,
+  "precision": 0.96,
+  "recall": 1.0,
+  "f1_score": 0.9795918367346939,
+  "true_positives": 24,
+  "false_positives": 1,
+  "false_negatives": 0,
+  "total_items": 47,
   "false_positive_details": [
     {
-      "item": "Changes In Appetite",
+      "item": "Vision Problem",
       "result_quotes": [
-        "It's alright."
-      ]
-    },
-    {
-      "item": "Change In Taste",
-      "result_quotes": [
-        "I don't, uh, yes, I said I was eating breakfast this morning, but it just tasted really bland."
-      ]
-    },
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "I just found it really hard to get out of bed this morning."
-      ]
-    },
-    {
-      "item": "Cold",
-      "result_quotes": [
-        "I usually get a cold once a year in the fall."
-      ]
-    },
-    {
-      "item": "Infection",
-      "result_quotes": [
-        "I still wanted to be careful and come in, just in case."
-      ]
-    },
-    {
-      "item": "Aches",
-      "result_quotes": [
-        "I just found it really hard to get out of bed this morning."
+        "I had cataract surgery done.",
+        "Both actually, it runs in my family. We get it pretty early on."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dysphagia",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Lightheadness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

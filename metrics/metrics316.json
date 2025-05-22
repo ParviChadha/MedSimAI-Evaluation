@@ -1,119 +1,26 @@
 {
-  "precision": 0.6666666666666666,
-  "recall": 0.2857142857142857,
-  "f1_score": 0.4,
-  "true_positives": 8,
-  "false_positives": 4,
-  "false_negatives": 20,
-  "total_items": 43,
+  "precision": 0.9629629629629629,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.9454545454545454,
+  "true_positives": 26,
+  "false_positives": 1,
+  "false_negatives": 2,
+  "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Muscle Ache",
+      "item": "Passing Gas",
       "result_quotes": [
-        "Patient: Yeah, I've had like muscle aches. I guess I feel like we've been getting older, but no yeah, I've had muscle aches these last couple of days as well."
-      ]
-    },
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "Medical Student: And are you otherwise healthy or do you have any longstanding medical conditions?",
-        "Patient: I have diabetes, type 2 diabetes, and I have high blood pressure as well."
-      ]
-    },
-    {
-      "item": "Change In Taste",
-      "result_quotes": [
-        "Medical Student: How about changes to your smell or taste?",
-        "Patient: No changes to smell or taste. That's been been normal."
-      ]
-    },
-    {
-      "item": "Changes In Appetite",
-      "result_quotes": [
-        "Medical Student: And how about appetite changes?",
-        "Patient: Yeah, I haven't. I've had a loss of appetite."
+        "No. You don't feel gassy or, or bloated?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Aches",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
       "item": "Weight Gain",
       "truth_quotes": []
     },
     {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Memory Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bloated",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
+      "item": "Constipation",
       "truth_quotes": []
     }
   ]

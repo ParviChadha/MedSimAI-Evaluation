@@ -1,38 +1,58 @@
 {
   "medical_history_assessed": {
+    "brain_fog": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "changes_in_memory": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "chest_pressure": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "I think we did uh see some um just kind of clear to almost uh clear to yellowish fluid from his affected ear."
+        "Uh I think we did see some uh, just like it wasn't red or anything, but I think we did uh see some um just kind of clear to almost uh clear to yellowish fluid from his affected ear."
       ]
     },
-    "drooling": {
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um my father has like high blood pressure, diabetes, and all those types of things."
+      ]
+    },
+    "hoarse_tone": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dysphagia": {
+    "hyperhidrosis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "grunting": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hypothermia": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
     "itching": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "he was he was itching like pretty much this whole week, but I think right now he's hesitant to even touch his ears."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
-    "lethargic": {
+    "lightheadedness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "loss_of_consciousness_due_to_alcohol": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -40,7 +60,11 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "mucous_building": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -48,26 +72,68 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "stiffness": {
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "how are things at home, um is like, are things financially stable? Any relationship issues?"
+      ]
+    },
+    "pregnancy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Did you know if his mother's pregnancy with him was normal? Did she have any complications?"
+      ]
+    },
+    "pressure_in_around_face": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tachypnea": {
+    "rectal_bleeding": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing": {
+    "respiratory_distress_syndrome": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "rigors": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sensation_of_chest": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, he's been um growing pretty well."
+      ]
+    },
+    "weight_gain": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "His bowel movements have been pretty much the same, um he's uh, yeah, there's been no real changes."
+        "how how have his bowel movements been?"
       ]
     },
     "chest_pain": {
@@ -93,7 +159,10 @@
     "ear_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "he did have uh like he used to, probably when he was uh like 2 years old, he did have a couple ear infections."
+        "What brings you in?",
+        "The ear pain, when did that start?",
+        "Have you noticed that his hearing has changed at all?",
+        "Have you had any past issues with his ears, like ear infections or like hearing issues in the past?"
       ]
     },
     "fainting": {
@@ -103,7 +172,8 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "he actually had a fever just yesterday of like 39 degrees Celsius."
+        "he actually had a fever just yesterday of like 39 degrees Celsius.",
+        "so 39 degrees, so he does have a fever uh for sure."
       ]
     },
     "head_ache": {
@@ -113,29 +183,34 @@
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "he still like answers to us and like I don't think his ear, hearing is affected."
+        "And the right ear looks normal?",
+        "Have you noticed that his hearing has changed at all?"
       ]
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "maybe a little bit more fussy just, but I don't know if that's probably due to the pain."
+        "Any appetite change?"
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "he was a bit like stuffy like last week I would say."
+        "Um he's been kind of just having discomfort um and over the last few days uh he also started crying because of how much pain he is having, and then um we also noticed that he had like was just feeling warm, so we took his temperature and he actually had a fever just yesterday of like 39 degrees Celsius.",
+        "Um has he had a stuffy nose or runny nose?"
       ]
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um how about uh nausea or vomiting?"
+      ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's been kind of just having discomfort."
+        "What brings you in?",
+        "The ear pain, when did that start?"
       ]
     },
     "palpitation": {
@@ -143,10 +218,8 @@
       "example_quotes": []
     },
     "redness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "does it seem red?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "runny_nose": {
       "assessed": "No",
@@ -165,10 +238,8 @@
       "example_quotes": []
     },
     "urination": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "his urine has been the same, like no changes."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "vision_problem": {
       "assessed": "No",

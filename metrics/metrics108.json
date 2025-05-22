@@ -1,26 +1,66 @@
 {
-  "precision": 0.9090909090909091,
-  "recall": 0.4,
-  "f1_score": 0.5555555555555556,
-  "true_positives": 10,
-  "false_positives": 1,
-  "false_negatives": 15,
+  "precision": 0.7142857142857143,
+  "recall": 0.8,
+  "f1_score": 0.7547169811320756,
+  "true_positives": 20,
+  "false_positives": 8,
+  "false_negatives": 5,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Trouble Breathing",
+      "item": "Hyperhidrosis",
       "result_quotes": [
-        "I find when I exert myself it gets worse."
+        "I have felt pretty hot, yeah, I was sweaty last night"
+      ]
+    },
+    {
+      "item": "Smell Problem",
+      "result_quotes": [
+        "Uhm, Yeah, I haven't been able to smell very well."
+      ]
+    },
+    {
+      "item": "Difficulty Sleeping",
+      "result_quotes": [
+        "I didn't sleep very good last night."
+      ]
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "result_quotes": [
+        "And yeah, I haven't felt very hungry either."
+      ]
+    },
+    {
+      "item": "Chest Pressure",
+      "result_quotes": [
+        "Yeah, I have like, a chest tightness.",
+        "it just feels like I'm not able to, like, breath in all the way and catch my breath"
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "Any family history of any heart or lung conditions?",
+        "especially also the shortness of breath"
+      ]
+    },
+    {
+      "item": "Coughing Fit",
+      "result_quotes": [
+        "Yeah, so I've had this cough, ongoing now for the last three days"
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "you don't have any high blood pressure or anything like that, right?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
+      "item": "Nasal Congestion",
       "truth_quotes": []
     },
     {
@@ -28,7 +68,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Swelling",
+      "item": "Runny Nose",
       "truth_quotes": []
     },
     {
@@ -36,43 +76,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Widespread Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
+      "item": "Hemoptysis",
       "truth_quotes": []
     }
   ]

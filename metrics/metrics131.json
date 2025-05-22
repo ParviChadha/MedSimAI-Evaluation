@@ -1,50 +1,15 @@
 {
-  "precision": 0.75,
-  "recall": 0.34615384615384615,
-  "f1_score": 0.4736842105263157,
-  "true_positives": 9,
-  "false_positives": 3,
-  "false_negatives": 17,
+  "precision": 1.0,
+  "recall": 0.8846153846153846,
+  "f1_score": 0.9387755102040816,
+  "true_positives": 23,
+  "false_positives": 0,
+  "false_negatives": 3,
   "total_items": 52,
-  "false_positive_details": [
-    {
-      "item": "High Blood Pressure",
-      "result_quotes": [
-        "Patient: ...I do have diabetes, then I have high cholesterol. I also have this thing called fatty liver but that's that's about it, and a high blood pressure."
-      ]
-    },
-    {
-      "item": "Smell Problem",
-      "result_quotes": [
-        "Patient: ...I think my taste buds are acting all weird too."
-      ]
-    },
-    {
-      "item": "Pressure In Around Face",
-      "result_quotes": [
-        "Patient: ...but I do feel a bit more pressure and stuffiness in my face today."
-      ]
-    }
-  ],
+  "false_positive_details": [],
   "false_negative_details": [
     {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Memory Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
+      "item": "Urination",
       "truth_quotes": []
     },
     {
@@ -52,47 +17,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
+      "item": "Bowel Movement",
       "truth_quotes": []
     }
   ]

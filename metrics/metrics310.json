@@ -1,78 +1,41 @@
 {
-  "precision": 0.9,
-  "recall": 0.2727272727272727,
-  "f1_score": 0.41860465116279066,
-  "true_positives": 9,
-  "false_positives": 1,
-  "false_negatives": 24,
+  "precision": 0.8787878787878788,
+  "recall": 0.8787878787878788,
+  "f1_score": 0.8787878787878788,
+  "true_positives": 29,
+  "false_positives": 4,
+  "false_negatives": 4,
   "total_items": 66,
   "false_positive_details": [
     {
-      "item": "Difficulty Feeding",
+      "item": "Weight Gain",
       "result_quotes": [
-        "...he's got a poor appetite, but he..."
+        "He he's been gaining weight, hasn't had any weight loss."
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "Any complications with his mother's pregnancy with him?"
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "Weight loss?"
+      ]
+    },
+    {
+      "item": "Complications During Delivery",
+      "result_quotes": [
+        "it was a C-section delivery but that went well",
+        "Labor was taking, it was prolonged, I mean so it they ended up deciding to just convert throughout. It wasn't an emergency, but like they could have waited a bit longer they were saying but just kind of what went made the decision."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
       "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Discharge",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Numbness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hospitalizaiton",
-      "truth_quotes": []
-    },
-    {
-      "item": "Delayed Growth Milestones",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
       "truth_quotes": []
     },
     {
@@ -80,35 +43,11 @@
       "truth_quotes": []
     },
     {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
       "item": "Pain Or Discharge",
       "truth_quotes": []
     },
     {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fainting Spells",
-      "truth_quotes": []
-    },
-    {
-      "item": "Tingling",
+      "item": "Numbness",
       "truth_quotes": []
     }
   ]

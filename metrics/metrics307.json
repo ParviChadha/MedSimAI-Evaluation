@@ -1,86 +1,28 @@
 {
-  "precision": 0.7857142857142857,
-  "recall": 0.6666666666666666,
-  "f1_score": 0.721311475409836,
-  "true_positives": 22,
-  "false_positives": 6,
-  "false_negatives": 11,
-  "total_items": 65,
+  "precision": 0.9354838709677419,
+  "recall": 0.8787878787878788,
+  "f1_score": 0.90625,
+  "true_positives": 29,
+  "false_positives": 2,
+  "false_negatives": 4,
+  "total_items": 66,
   "false_positive_details": [
     {
-      "item": "Flu Like Symptom",
+      "item": "Vaccine Related Reaction",
       "result_quotes": [
-        "as soon as I breath, well, I just haven't felt good like, tired, kind of weakish."
+        "I've received the Zoster vaccine for shingles and also the one for pneumonia."
       ]
     },
     {
-      "item": "Tired",
+      "item": "Sensation Of Chest",
       "result_quotes": [
-        "I just haven't felt good like, tired, kind of weakish."
-      ]
-    },
-    {
-      "item": "Motor Weakness",
-      "result_quotes": [
-        "kind of weakish."
-      ]
-    },
-    {
-      "item": "Loss Of Sense",
-      "result_quotes": [
-        "have you experienced any loss of taste?",
-        "No loss of taste, but I've noticed, yeah, my smell has been kind of funny."
-      ]
-    },
-    {
-      "item": "Difficulty Breathing",
-      "result_quotes": [
-        "I've been really short of breath."
-      ]
-    },
-    {
-      "item": "Change In Taste",
-      "result_quotes": [
-        "have you experienced any loss of taste?",
-        "No loss of taste, but I've noticed, yeah, my smell has been kind of funny."
+        "Do you have any chest pain associated with that?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Sleep Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Problem",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hearing Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
       "truth_quotes": []
     },
     {
@@ -89,6 +31,10 @@
     },
     {
       "item": "Rectal Bleeding",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
       "truth_quotes": []
     }
   ]

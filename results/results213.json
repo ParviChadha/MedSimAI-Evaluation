@@ -1,10 +1,6 @@
 {
   "medical_history_assessed": {
-    "discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -12,101 +8,31 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "bowel_movement": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: No, bowel movements are normal."
-      ]
-    },
-    "brain_fog": {
+    "behaviour_change": {
       "assessed": "No",
       "example_quotes": []
     },
-    "chest_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: sometimes when I I'm coughing a lot I feel a little bit of just tension and heaviness in there."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: I would say around the same same time frame like 3 months, but I'm not always coughing."
-      ]
-    },
-    "diet": {
+    "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_breathing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: I'm just here because I've been experiencing some breathlessness..."
-      ]
-    },
-    "difficulty_sleeping": {
+    "complications_during_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_talking": {
+    "foreign_body_intake": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dizzyness": {
+    "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: I feel it like a lot of the time, especially outside when I'm in the cold..."
-      ]
-    },
-    "ear_problem": {
+    "impending_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "eye_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: some nights I do, especially in the last week I have woken up feeling a bit chilly."
-      ]
-    },
-    "flu": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "flu_like_symptom": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hearing_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hemoptysis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Do you ever cough up blood? Patient: No, I don't."
-      ]
-    },
-    "injury_in_chest": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -114,7 +40,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "itching_eyes": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -122,7 +48,11 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "lumps": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -130,43 +60,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "mucous_building": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "nasal_congestion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "nausea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Patient: No, no nausea or vomiting."
-      ]
-    },
-    "not_crying": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "palpitation": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: any feelings like your heart's racing? Patient: Nope."
-      ]
     },
     "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "pressure_in_around_face": {
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -174,72 +76,213 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "redness": {
+    "rigor": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "bowel_movement": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, bowel movements are normal."
+      ]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, just sometimes when I I'm coughing a lot I feel a little bit of just tension and heaviness in there."
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I would say around the same same time frame like 3 months, but I'm not always coughing. It comes and goes.",
+        "Yeah, I would say so."
+      ]
+    },
+    "dizzyness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No."
+      ]
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "What brings you in today?",
+        "I'm just here because I've been experiencing some breathlessness as well as a bit of cough.",
+        "I feel it like a lot of the time, especially outside when I'm in the cold or at at night when I go outside at night, my chest feels a little tight too at the same time.",
+        "I think it's more just a I can't catch my breath and it feels like my my throat is just kind of like closing off and I can't take deep breaths."
+      ]
+    },
+    "ear_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, no hearing is fine.",
+        "No pus or liquid's coming out of your ear or anything like that, right?",
+        "No.",
+        "No ear pain?"
+      ]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers?",
+        "I don't know about a fever, I haven't checked, but some nights I do, especially in the last week I have woken up feeling a bit chilly. I haven't really checked."
+      ]
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No."
+      ]
+    },
+    "hearing_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, no hearing is fine."
+      ]
+    },
+    "hemoptysis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "do you ever cough up blood?",
+        "No, I don't. It's mostly just a dry cough. I don't cough up anything."
+      ]
+    },
+    "memory_loss": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Confusion, memory loss?",
+        "No, nothing like that."
+      ]
+    },
+    "nasal_congestion": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, nothing like that."
+      ]
+    },
+    "nausea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No nausea or vomitting."
+      ]
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, just sometimes when I I'm coughing a lot I feel a little bit of just tension and heaviness in there."
+      ]
+    },
+    "palpitation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Nope."
+      ]
     },
     "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, nothing like that."
+      ]
     },
     "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Does your shortness of breath get worse when you're falling asleep?",
+        "No, nothing like that. I think it's mainly just worse if I go out in the cold or I'm like running around, doing more activities."
+      ]
     },
     "sleep_hydrosis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sleep_issue": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "any night sweats?",
+        "Uh no."
+      ]
     },
     "smell_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, no changes in my smell, no."
+      ]
     },
     "sore_throat": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, no I don't have a sore throat, no."
+      ]
     },
     "swelling": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "any any swelling?",
+        "No, nothing like that."
+      ]
     },
     "tightness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: ...my chest feels a little tight too at the same time."
+        "I feel it like a lot of the time, especially outside when I'm in the cold or at at night when I go outside at night, my chest feels a little tight too at the same time."
       ]
     },
     "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "any weight loss?",
+        "No no."
+      ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: how about in terms of urinating, any changes there? Patient: No no."
+        "No no."
       ]
     },
     "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, everything is OK."
+      ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: No, no nausea or vomiting."
+        "No nausea or vomitting."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: I do hear like a like a weird sound when I breathe out sometimes, I I think it might be wheeziness."
+        "do you ever feel wheezy?",
+        "I I I do hear like a like a weird sound when I breathe out sometimes, I I think it might be wheeziness."
       ]
     }
   }

@@ -1,49 +1,30 @@
 {
-  "precision": 0.6,
+  "precision": 0.8571428571428571,
   "recall": 0.25,
-  "f1_score": 0.35294117647058826,
+  "f1_score": 0.3870967741935483,
   "true_positives": 6,
-  "false_positives": 4,
+  "false_positives": 1,
   "false_negatives": 18,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Lung Complications",
-      "result_quotes": [
-        "I feel like this time might be just a bit worse though"
-      ]
-    },
-    {
-      "item": "Respiratory Distress Syndrome",
-      "result_quotes": [
-        "I've had um worsening shortness of breath",
-        "I just can't catch my breath even with um some small things around the apartment"
-      ]
-    },
-    {
-      "item": "Infection",
-      "result_quotes": [
-        "I was wondering if you think I I have an infection"
-      ]
-    },
-    {
       "item": "High Blood Pressure",
       "result_quotes": [
-        "I have been diagnosed with... high blood pressure"
+        "Um yeah, so I I have been I've been diagnosed with COPD uh as well as uh, high blood pressure and uh GERD."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Sleep Hydrosis",
+      "item": "Sore Throat",
       "truth_quotes": []
     },
     {
-      "item": "Unexplained Weight Loss",
+      "item": "Change In Sleep",
       "truth_quotes": []
     },
     {
-      "item": "Loss Of Appetite",
+      "item": "Runny Nose",
       "truth_quotes": []
     },
     {
@@ -51,7 +32,43 @@
       "truth_quotes": []
     },
     {
-      "item": "Sleep Dyspnea",
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
       "truth_quotes": []
     },
     {
@@ -63,47 +80,11 @@
       "truth_quotes": []
     },
     {
-      "item": "Change In Sleep",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
       "item": "Chest Pain",
       "truth_quotes": []
     },
     {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
+      "item": "Sleep Dyspnea",
       "truth_quotes": []
     }
   ]

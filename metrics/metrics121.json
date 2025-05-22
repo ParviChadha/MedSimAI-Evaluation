@@ -1,22 +1,15 @@
 {
-  "precision": 0.8888888888888888,
-  "recall": 0.2857142857142857,
-  "f1_score": 0.43243243243243246,
-  "true_positives": 8,
-  "false_positives": 1,
-  "false_negatives": 20,
-  "total_items": 45,
-  "false_positive_details": [
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "The arthritis pain was just killing me last night and I thought taking an extra pill would help."
-      ]
-    }
-  ],
+  "precision": 1.0,
+  "recall": 0.8928571428571429,
+  "f1_score": 0.9433962264150945,
+  "true_positives": 25,
+  "false_positives": 0,
+  "false_negatives": 3,
+  "total_items": 49,
+  "false_positive_details": [],
   "false_negative_details": [
     {
-      "item": "Chest Pain",
+      "item": "Sleep Issues",
       "truth_quotes": []
     },
     {
@@ -24,75 +17,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
       "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fainting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Issues",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
       "truth_quotes": []
     }
   ]

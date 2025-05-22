@@ -1,51 +1,51 @@
 {
-  "precision": 1.0,
-  "recall": 0.6,
-  "f1_score": 0.7499999999999999,
-  "true_positives": 15,
-  "false_positives": 0,
-  "false_negatives": 10,
+  "precision": 0.8461538461538461,
+  "recall": 0.88,
+  "f1_score": 0.8627450980392156,
+  "true_positives": 22,
+  "false_positives": 4,
+  "false_negatives": 3,
   "total_items": 50,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Changes In His Appetite",
+      "result_quotes": [
+        "I haven't been eating a lot 'cause it just hurts to eat. I don't know if I'm just hungry. Like I've just been eating like ice cream 'cause it feels nice."
+      ]
+    },
+    {
+      "item": "Discomfort",
+      "result_quotes": [
+        "It's at the back of my throat and it's kind of burning.",
+        "Uh, it's like my whole belly's been like a little like sore or but it's it's pretty much like mild."
+      ]
+    },
+    {
+      "item": "Head Ache",
+      "result_quotes": [
+        "Any any sinus headaches, any sort of pain in and around your cheeks or pain in your forehead as you're trying to bend over?",
+        "Uh, no. No headache."
+      ]
+    },
+    {
+      "item": "Ache",
+      "result_quotes": [
+        "I feel like really tired. I think I had. I think I had chills like yesterday.",
+        "Uh, it's like my whole belly's been like a little like sore or but it's it's pretty much like mild."
+      ]
+    }
+  ],
   "false_negative_details": [
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Eyes",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sinus Headaches",
-      "truth_quotes": []
-    },
-    {
-      "item": "Slurred Speech",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    },
     {
       "item": "Watery Eyes",
       "truth_quotes": []
     },
     {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
       "item": "Speech Volume",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Eyes",
       "truth_quotes": []
     }
   ]

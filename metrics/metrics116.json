@@ -1,56 +1,19 @@
 {
-  "precision": 0.7333333333333333,
-  "recall": 0.6875,
-  "f1_score": 0.7096774193548386,
-  "true_positives": 11,
-  "false_positives": 4,
-  "false_negatives": 5,
-  "total_items": 28,
-  "false_positive_details": [
-    {
-      "item": "Fatigue Sleep",
-      "result_quotes": [
-        "Yeah, my energy has just been really down. I've been really fatigued."
-      ]
-    },
-    {
-      "item": "Hyperhidrosis",
-      "result_quotes": [
-        "I have been sweating more at night too. Yeah, I have to get up and change my pajamas sometimes."
-      ]
-    },
-    {
-      "item": "Feeling Tired",
-      "result_quotes": [
-        "Yeah, my energy has just been really down. I've been really fatigued."
-      ]
-    },
-    {
-      "item": "Difficulty Breathing",
-      "result_quotes": [
-        "I only really get short of breath when I'm going for a hike or up to my 4th floor apartment."
-      ]
-    }
-  ],
+  "precision": 1.0,
+  "recall": 0.875,
+  "f1_score": 0.9333333333333333,
+  "true_positives": 14,
+  "false_positives": 0,
+  "false_negatives": 2,
+  "total_items": 32,
+  "false_positive_details": [],
   "false_negative_details": [
     {
       "item": "Sore Throat",
       "truth_quotes": []
     },
     {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
       "item": "Paralysis Limb Or Face",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fatigue Extended",
       "truth_quotes": []
     }
   ]

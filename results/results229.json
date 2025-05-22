@@ -1,20 +1,40 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "behaviour_change": {
       "assessed": "No",
       "example_quotes": []
     },
-    "discharge": {
+    "changes_in_memory": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "decreased_concentration": {
       "assessed": "Yes",
       "example_quotes": [
-        "I coughed up some phlegm and there was some blood in it"
+        "Yeah, I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
       ]
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "guilt_feeling": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lightheadedness": {
+    "impending_doom_anxiety": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -22,38 +42,73 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "muscle_ache": {
+    "low_mood": {
       "assessed": "No",
       "example_quotes": []
     },
-    "phlegm": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I have been producing some phlegm",
-        "I saw some blood"
-      ]
-    },
-    "sinus_congestion": {
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "throat_pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "the back of my throat, might feel a little itchy from the coughing"
-      ]
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "wheez": {
+    "numbness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "stunning": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tonsilitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaccine_related_reaction": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, no."
+      ]
     },
     "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No chest pain."
+      ]
     },
     "chills": {
       "assessed": "Yes",
@@ -64,13 +119,17 @@
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "it's been just kind of white, yellowish."
+        "Hi, this morning I read after I woke up by I coughed up some phlegm and there was some blood in it and it it totally scared me.",
+        "Um it was pretty red. It, ah, yeah it was bright red and it was covering the, the issue."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've had a cough recently leading up to this"
+        "Uhm, yeah, I have, uh, had a cough recently leading up to this.",
+        "Wow, four weeks. OK. Do you know if you did anything prior to that, any new exposures or being around someone ill like anything like that that might have caused your cough?",
+        "Uh, I have been producing some phlegm, um, but it's been just kind of white, yellowish.",
+        "it can bring on some more coughing."
       ]
     },
     "dyspnea": {
@@ -82,13 +141,13 @@
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
+        "Yeah, but I've definitely been more more tired."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having ah, so fevers throughout the day"
+        "Yeah, I've been having ah, so fevers throughout the day, but feeling really hot, and and really sweaty at night."
       ]
     },
     "head_ache": {
@@ -98,72 +157,103 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "there was some blood in it"
+        "Hi, this morning I read after I woke up by I coughed up some phlegm and there was some blood in it and it it totally scared me.",
+        "I've never brought up blood before."
       ]
     },
     "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, no, I've been eating OK."
+      ]
     },
     "loss_of_sense": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any loss of sense of taste or smell?",
+        "Uh, no, nothing like that."
+      ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "a little bit of nausea maybe"
+        "Uh, nothing like, well, a little bit of nausea maybe, but no vomiting.",
+        "Uh, it's coming after like if I'm having a really big cough, coughing fit I could feel a little nauseous after but it doesn't last very long."
       ]
     },
     "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, nothing like that."
+      ]
     },
     "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you having any shortness of breath, sore throat, runny nose, anything like that?",
+        "Uhm, nothing like like that. I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
+      ]
     },
     "sleep_changes": {
       "assessed": "Yes",
       "example_quotes": [
-        "I haven't been sleeping as well, waking up all sweaty"
+        "Uhm, just been, well, I haven't been sleeping as well, waking up all sweaty and the cough is kept me up a little bit too."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "waking up soaked"
+        "Yeah, I've been having ah, so fevers throughout the day, but feeling really hot, and and really sweaty at night.",
+        "Uhm, also a few times this past week, I've what woke up soaked."
       ]
     },
     "smell_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any loss of sense of taste or smell?",
+        "Uh, no, nothing like that."
+      ]
     },
     "sore_throat": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you having any shortness of breath, sore throat, runny nose, anything like that?",
+        "Uhm, nothing like like that. I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
+      ]
     },
     "swelling": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any swelling in your limbs at all?",
+        "No."
+      ]
     },
     "taste_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any loss of sense of taste or smell?",
+        "Uh, no, nothing like that."
+      ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I think I'm down like 15 pounds since the summer time"
+        "Have you noticed at all any weight loss over the last few months?",
+        "Yeah, I think I'm down like 15 pounds since the summer time, which is great."
       ]
     },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your urination?",
+        "No."
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, nothing like, well, a little bit of nausea maybe, but no vomiting."
+      ]
     }
   }
 }

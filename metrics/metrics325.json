@@ -1,32 +1,49 @@
 {
-  "precision": 0.8,
-  "recall": 0.4,
-  "f1_score": 0.5333333333333333,
-  "true_positives": 8,
-  "false_positives": 2,
-  "false_negatives": 12,
+  "precision": 0.7727272727272727,
+  "recall": 0.85,
+  "f1_score": 0.8095238095238095,
+  "true_positives": 17,
+  "false_positives": 5,
+  "false_negatives": 3,
   "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Itching Eyes",
+      "item": "Asthma",
       "result_quotes": [
-        "my eyes and my nose are just itchy and my eyes get like red and teary sometimes."
+        "Do you have any past medical conditions that you have been diagnosed with like asthma, eczema, anything like that?",
+        "I did have like I know that I would sometimes get kind of short of breath as a child."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "Any sick contacts, anyone around you that has been sick?",
+        "And besides that, have you been having any symptoms of fevers, chills, sore throat?"
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "are there any besides during the spring time, any kind of allergens or any anything in the house or around you that triggers it, like dust or anything like that?",
+        "Yeah, dust makes it a lot worse."
+      ]
+    },
+    {
+      "item": "Sexually Transmitted Infection",
+      "result_quotes": [
+        "are you sexually active?"
       ]
     },
     {
       "item": "Mucous Building",
       "result_quotes": [
-        "Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up? Yeah yeah I do."
+        "Do you have a sensation of like anything kind of dripping down your throat like after you wake up like just a build up?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
+      "item": "Post Nasal Drip",
       "truth_quotes": []
     },
     {
@@ -34,39 +51,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
       "truth_quotes": []
     }
   ]

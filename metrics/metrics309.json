@@ -1,42 +1,22 @@
 {
-  "precision": 0.6666666666666666,
-  "recall": 0.12903225806451613,
-  "f1_score": 0.2162162162162162,
-  "true_positives": 4,
-  "false_positives": 2,
-  "false_negatives": 27,
-  "total_items": 58,
+  "precision": 0.875,
+  "recall": 0.22580645161290322,
+  "f1_score": 0.358974358974359,
+  "true_positives": 7,
+  "false_positives": 1,
+  "false_negatives": 24,
+  "total_items": 62,
   "false_positive_details": [
     {
-      "item": "Difficulty Breathing",
+      "item": "Lethargic",
       "result_quotes": [
-        "Medical Student: Ok, and the shortness of breath you mentioned, uh, when did that start?",
-        "Patient: Around the same time."
-      ]
-    },
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "Medical Student: Alright, and any muscle aches or pains?",
-        "Patient: Maybe slight muscle aches."
+        "Just just some fatigue, some tiredness."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
       "item": "Rapid Breathing",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
       "truth_quotes": []
     },
     {
@@ -44,7 +24,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Fever",
+      "item": "Memory Loss",
       "truth_quotes": []
     },
     {
@@ -52,11 +32,19 @@
       "truth_quotes": []
     },
     {
-      "item": "Sleep Hydrosis",
+      "item": "Cough",
       "truth_quotes": []
     },
     {
-      "item": "Discharge",
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
       "truth_quotes": []
     },
     {
@@ -64,7 +52,31 @@
       "truth_quotes": []
     },
     {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
       "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
       "truth_quotes": []
     },
     {
@@ -76,11 +88,11 @@
       "truth_quotes": []
     },
     {
-      "item": "Head Ache",
+      "item": "Weakness",
       "truth_quotes": []
     },
     {
-      "item": "Nausea",
+      "item": "Sore Throat",
       "truth_quotes": []
     },
     {
@@ -88,47 +100,15 @@
       "truth_quotes": []
     },
     {
-      "item": "Loss Of Appetite",
+      "item": "Hemoptysis",
       "truth_quotes": []
     },
     {
-      "item": "Weakness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Memory Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
+      "item": "Discharge",
       "truth_quotes": []
     },
     {
       "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Change",
-      "truth_quotes": []
-    },
-    {
-      "item": "Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
       "truth_quotes": []
     }
   ]

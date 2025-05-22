@@ -1,39 +1,34 @@
 {
-  "precision": 1.0,
-  "recall": 0.5,
-  "f1_score": 0.6666666666666666,
-  "true_positives": 7,
-  "false_positives": 0,
-  "false_negatives": 7,
+  "precision": 0.8125,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.8666666666666666,
+  "true_positives": 13,
+  "false_positives": 3,
+  "false_negatives": 1,
   "total_items": 28,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Impending Doom Anxiety",
+      "result_quotes": [
+        "Type 2 diabetes and anxiety."
+      ]
+    },
+    {
+      "item": "Sensation Of Chest",
+      "result_quotes": [
+        "I've had a shortness of breath, and even at at rest. Really, feeling like it's difficult to breathe, and when I take a deep breath I get a chest pain."
+      ]
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "result_quotes": [
+        "I've lost a few pounds, but not enough, definitely want to keep going."
+      ]
+    }
+  ],
   "false_negative_details": [
     {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Flu Like Symptom",
-      "truth_quotes": []
-    },
-    {
       "item": "Headache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Stuffy Nose",
       "truth_quotes": []
     }
   ]

@@ -1,69 +1,26 @@
 {
-  "precision": 0.7647058823529411,
-  "recall": 0.6190476190476191,
-  "f1_score": 0.6842105263157895,
-  "true_positives": 13,
-  "false_positives": 4,
-  "false_negatives": 8,
+  "precision": 0.9130434782608695,
+  "recall": 1.0,
+  "f1_score": 0.9545454545454545,
+  "true_positives": 21,
+  "false_positives": 2,
+  "false_negatives": 0,
   "total_items": 42,
   "false_positive_details": [
     {
-      "item": "Changes In Appetite",
+      "item": "Vision Problem",
       "result_quotes": [
-        "Um. It might be a little ah might have been a little bit down. I just kind of haven't been feeling so great, so I'm I've probably eating less the last few weeks, yeah."
+        "Any issues with your eyes?",
+        "No, nothing like crusting or pus coming out of your eyes? Red eye, anything like that?"
       ]
     },
     {
-      "item": "Throat Pain",
+      "item": "Sexually Transmitted Infection",
       "result_quotes": [
-        "Um, I've had a sore throat now for a couple of weeks and it's just not going away."
-      ]
-    },
-    {
-      "item": "Soreness",
-      "result_quotes": [
-        "I'd say, maybe the, uh, the right side is a little bit more sore, but I think I can feel it on both sides of my neck."
-      ]
-    },
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "Yeah, I felt so some muscle aches for sure."
+        "are you sexually active?",
+        "If you were to be, make sure you use protection."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,43 +1,34 @@
 {
-  "precision": 0.875,
-  "recall": 0.5384615384615384,
-  "f1_score": 0.6666666666666667,
-  "true_positives": 7,
-  "false_positives": 1,
-  "false_negatives": 6,
+  "precision": 0.8461538461538461,
+  "recall": 0.8461538461538461,
+  "f1_score": 0.8461538461538461,
+  "true_positives": 11,
+  "false_positives": 2,
+  "false_negatives": 2,
   "total_items": 26,
   "false_positive_details": [
     {
-      "item": "Sensitive To Allergies",
+      "item": "Hyperhidrosis",
       "result_quotes": [
-        "I have allergies. Usually in like the spring in the fall.",
-        "I get really bad allergies like I've seen an allergist."
+        "You noticed any night sweats by night sweats. I mean you wake up sheets are soaked.",
+        "I honestly I felt hot like all the time like yeah yeah night. I feel hot but during the day too I'm just like I'm I'm like hey I'm wearing like just shorts and like a tank top and I just still feel really hot."
+      ]
+    },
+    {
+      "item": "Pressure In Around Face",
+      "result_quotes": [
+        "Now do any of these allergies can't make it difficult to breathe or you feel like your face is swelling up?",
+        "Like it feels like a little bit like plugged up an like what's that called like post nasal drip? But I don't really feel like I can't breathe."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Nausea",
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
       "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Phlegm",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sleep Hydrosis",
       "truth_quotes": []
     }
   ]

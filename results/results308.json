@@ -1,104 +1,33 @@
 {
   "medical_history_assessed": {
-    "trauma": {
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "chest_pain": {
-      "assessed": "No",
-      "example_quotes": [
-        "Any pain in your chest?",
-        "No."
-      ]
-    },
-    "chills": {
-      "assessed": "No",
-      "example_quotes": [
-        "Any fevers or chills?",
-        "No, I don't think so."
-      ]
-    },
-    "constipation": {
-      "assessed": "No",
-      "example_quotes": [
-        "Any changes in your belly, say, diarrhea or constipation?",
-        "No, nothing like that."
-      ]
-    },
-    "cough": {
-      "assessed": "No",
-      "example_quotes": [
-        "Any cough?",
-        "No."
-      ]
-    },
-    "decrease_interest_in_activities": {
+    "confusion": {
       "assessed": "No",
       "example_quotes": []
     },
-    "delayed_growth_milestones": {
+    "decreased_concentration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": [
-        "Any changes in your belly, say, diarrhea or constipation?",
-        "No, nothing like that."
-      ]
-    },
-    "drowsy": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Are you feeling fatigued, tired?",
-        "I have felt a little bit more drowsy these last few days."
-      ]
-    },
-    "dysphagia": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any difficulties swallowing?",
-        "It is a bit sore, uhm, to swallow so it takes me a little bit longer to eat."
-      ]
-    },
-    "dyspnea": {
-      "assessed": "No",
-      "example_quotes": [
-        "Any difficulties breathing?",
-        "No."
-      ]
-    },
-    "fainting": {
+    "dizziness": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "fatigue_extended": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fever": {
-      "assessed": "No",
-      "example_quotes": [
-        "Any fevers or chills?",
-        "No, I don't think so."
-      ]
     },
     "guilt_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
-    "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I have had some muscle aches as well.",
-        "I did use, uh, some uhm, like cold medication to help because I was having a headache."
-      ]
+    "hemoptysis": {
+      "assessed": "No",
+      "example_quotes": []
     },
-    "hoarse_tone": {
+    "high_blood_pressure": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you noticed any changes in your voice? Any hoarseness in your voice?",
-        "No."
+        "Uh, I think my dad has high blood pressure."
       ]
     },
     "hyperhidrosis": {
@@ -109,35 +38,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "nasal_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any nasal congestion? Does your nose feel stuffy?",
-        "Yeah it does, yes."
-      ]
-    },
-    "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any other symptoms, anything related to your belly?",
-        "No, nothing like that."
-      ]
-    },
-    "rectal_bleeding": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rigor": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've had a runny nose over the last few days."
-      ]
-    },
-    "sexually_transmitted_infection": {
+    "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -145,21 +54,7 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "slurred_speech": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "smell_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sore_throat": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I've started to have a sore throat as well."
-      ]
-    },
-    "tearing": {
+    "tingling": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -167,17 +62,116 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any pain in your chest?"
+      ]
+    },
+    "chills": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills?"
+      ]
+    },
+    "constipation": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "say, diarrhea or Constipation"
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any cough?"
+      ]
+    },
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "say, diarrhea or Constipation"
+      ]
+    },
+    "drowsy": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I have felt a little bit more drowsy these last few days"
+      ]
+    },
+    "dysphagia": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you, uhm, had any difficulties swallowing?"
+      ]
+    },
+    "dyspnea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any difficulties breathing?"
+      ]
+    },
+    "fatigue_extended": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills?"
+      ]
+    },
+    "head_ache": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I did use, uh, some uhm, like cold medication to help because I was having a headache as well",
+        "And how's your headache now?"
+      ]
+    },
+    "hoarse_tone": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you changed, noticed any changes in your voice? Any hoarseness in your voice?"
+      ]
+    },
+    "nasal_congestion": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And do you have any nasal congestion? Does your nose feel stuffy?"
+      ]
+    },
+    "pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any pain in your chest?"
+      ]
+    },
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've, uh, had a runny nose over the last few days",
+        "With the, the runny nose, do you have any, what's the discharge like?"
+      ]
+    },
+    "sore_throat": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "and I've started to have a sore throat as well.",
+        "Has your sore throat gotten better or worse over the past five days?"
+      ]
+    },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vaginal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "any urinary symptoms?"
+      ]
     }
   }
 }

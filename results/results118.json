@@ -1,76 +1,48 @@
 {
   "medical_history_assessed": {
-    "aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I just found it really hard to get out of bed this morning."
-      ]
-    },
-    "change_in_taste": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I don't, uh, yes, I said I was eating breakfast this morning, but it just tasted really bland."
-      ]
-    },
-    "changes_in_appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "It's alright."
-      ]
-    },
-    "chest_discomfort": {
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
-    "cold": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I usually get a cold once a year in the fall."
-      ]
-    },
-    "dehydration": {
+    "behavior_change": {
       "assessed": "No",
       "example_quotes": []
     },
-    "delayed_growth_milestones": {
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_breathing": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_talking": {
+    "impeding_doom_anxiety": {
       "assessed": "No",
       "example_quotes": []
     },
-    "drooling": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "extended_sleep": {
+    "lung_complications": {
       "assessed": "No",
       "example_quotes": []
     },
-    "impending_doom_anxiety": {
+    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "infection": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I still wanted to be careful and come in, just in case."
-      ]
-    },
-    "injury_in_chest": {
+    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
     },
-    "muscle_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I just found it really hard to get out of bed this morning."
-      ]
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "paralysis_limb_or_face": {
       "assessed": "No",
@@ -80,7 +52,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "redness": {
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -88,19 +68,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "slurred_speech": {
+    "sexually_transmitted_infection": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tachypnea": {
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tearing": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "tightness": {
+    "vaccine_related_reaction": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -108,115 +84,186 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "chest_pain": {
+    "vaginal_discomfort": {
       "assessed": "No",
       "example_quotes": []
+    },
+    "vision_problem": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I had cataract surgery done.",
+        "Both actually, it runs in my family. We get it pretty early on."
+      ]
+    },
+    "chest_pain": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any chest pain?",
+        "No."
+      ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm often constipated but nothing new there."
+        "Have you had any diarrhea or constipation?",
+        "Uhm, I'm often constipated but nothing new there."
       ]
     },
     "cough": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And have you had any cough?",
+        "No."
+      ]
     },
     "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any diarrhea or constipation?",
+        "Uhm, I'm often constipated but nothing new there."
+      ]
     },
     "dizzyness": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been dizzy or lightheaded?",
+        "No."
+      ]
     },
     "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any problems with swallowing, like food or liquids?",
+        "No, I don't think so. I just had breakfast this morning and no problems there."
+      ]
     },
     "dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "have you had any shortness of breath?",
+        "I don't think so."
+      ]
     },
     "eye_redness": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "how about any, like red eyes or runny nose?",
+        "No, neither of those."
+      ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "I just felt horrible."
+        "How has your energy been? Have you been, like really fatigued?",
+        "Yeah."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just been feeling a little feverish."
+        "Yeah, absolutely. Uhm, I don't know, I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat.",
+        "did you take your temperature?",
+        "No, I don't have a thermometer at home."
       ]
     },
     "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had a headache?",
+        "No."
+      ]
     },
     "lightheadness": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you been dizzy or lightheaded?",
+        "No."
+      ]
     },
     "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "and how has your appetite been?",
+        "It's alright."
+      ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "I guess yeah, now that I think about it."
+        "how about any, like red eyes or runny nose?",
+        "No, neither of those."
       ]
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any nausea or vomiting?",
+        "No."
+      ]
     },
     "pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Sort of, like I just, I found it really hard to get out of bed this morning."
+      ]
     },
     "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you felt as though your hearts's been racing at all or, or beating out of your chest?",
+        "No."
+      ]
     },
     "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "how about any, like red eyes or runny nose?",
+        "No, neither of those."
+      ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I said I was eating breakfast this morning, but it just tasted really bland."
+        "and how about any loss of taste or loss of smell?",
+        "Yeah, I don't, uh, yes, I said I was eating breakfast this morning, but it just tasted really bland.",
+        "so you feel like your nose is really or that you're really congested?"
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat."
+        "Yeah, absolutely. Uhm, I don't know, I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat.",
+        "when... ",
+        "Last night actually."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I said I was eating breakfast this morning, but it just tasted really bland."
+        "and how about any loss of taste or loss of smell?",
+        "Yeah, I don't, uh, yes, I said I was eating breakfast this morning, but it just tasted really bland."
       ]
     },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any urinary problems?",
+        "No."
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any nausea or vomiting?",
+        "No."
+      ]
     },
     "wheez": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "and so you haven't had any cough or shortness of breath, but have you noticed any wheezing?",
+        "No."
+      ]
     }
   }
 }

@@ -1,44 +1,36 @@
 {
-  "precision": 0.8888888888888888,
+  "precision": 0.9230769230769231,
   "recall": 0.8888888888888888,
-  "f1_score": 0.8888888888888888,
+  "f1_score": 0.9056603773584906,
   "true_positives": 24,
-  "false_positives": 3,
+  "false_positives": 2,
   "false_negatives": 3,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Tightness",
+      "item": "Vaccine Related Reaction",
       "result_quotes": [
-        "Medical Student: Does it go away when you stop coughing?",
-        "Patient: Yeah, it goes away after."
+        "Uh, yeah, all my immunizations are up to date."
       ]
     },
     {
-      "item": "Sensation Of Chest",
+      "item": "Phlegm",
       "result_quotes": [
-        "Medical Student: Does it go away when you stop coughing?",
-        "Patient: Yeah, it goes away after."
-      ]
-    },
-    {
-      "item": "Sensitive To Allergies",
-      "result_quotes": [
-        "Patient: I do get like some nasal congestion and things like that."
+        "Uh never any blood, I have like on occasion, like sometimes brought up some sputum."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Hearing Problem\"",
+      "item": "Paroxysmal Coughing",
       "truth_quotes": []
     },
     {
-      "item": "Sinus Congestion",
+      "item": "Colored Excess Sputum",
       "truth_quotes": []
     },
     {
-      "item": "Psychological Wellbeing",
+      "item": "Hemoptysis",
       "truth_quotes": []
     }
   ]

@@ -1,22 +1,72 @@
 {
   "medical_history_assessed": {
-    "changes_in_appetite": {
+    "changes_in_his_appetite": {
       "assessed": "No",
       "example_quotes": []
     },
-    "discharge": {
+    "changes_in_memory": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, not that I know of, no."
+      ]
+    },
+    "chest_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No chest pain, no no."
+      ]
+    },
+    "chest_tightness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "hyperacusis": {
+    "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "injury": {
+    "decreased_concentration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lightheadedness": {
+    "decreased_focus": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_feeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "difficulty_sleeping": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "dysuria": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "high_blood_pressure": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I do have high blood pressure"
+      ]
+    },
+    "hoarse_tone": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "inconsolable": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "irritable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -24,45 +74,78 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "muscle_ache": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
-    "odynophagia": {
+    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "phlegm": {
+    "motor_weakness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "respiratory_distress_syndrome": {
+    "nause": {
       "assessed": "No",
       "example_quotes": []
     },
-    "throat_pain": {
+    "numbness": {
       "assessed": "No",
       "example_quotes": []
     },
-    "trauma": {
+    "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "behavior_changes": {
+    "passing_gas": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rigor": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "symptom_speedup": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I think over the last few months I may have lost like around 3 three kilograms.",
+        "Yeah, I would say so."
+      ]
+    },
+    "symptoms_stress": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_changes": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I think over the last few months I may have lost like around 3 three kilograms."
+      ]
+    },
+    "weight_gain": {
       "assessed": "No",
       "example_quotes": []
     },
     "bowel_movement": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "check_for_constipated": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, I go pretty regularly."
+      ]
     },
     "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No chest pain, no no."
+      ]
     },
     "chills": {
       "assessed": "Yes",
@@ -71,11 +154,13 @@
       ]
     },
     "colored_excess_sputum": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood."
+      ]
     },
     "confusion": {
-      "assessed": "No",
+      "assessed": "Yes",
       "example_quotes": [
         "Not that I know of, no."
       ]
@@ -83,164 +168,130 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Not so well I I feel like I've been having just worsening breathlessness and a cough for it's been going on for two years now and I just can't seem to get rid of it.",
-        "It's usually just a dry cough. No, no I don't produce any mucus or blood."
+        "I feel like I've been having just worsening breathlessness and a cough for it's been going on for two years now and I just can't seem to get rid of it."
       ]
     },
-    "diarrhea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_feeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "dizzyness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "drowsiness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older."
+        "No."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I feel like I've been having just worsening breathlessness.",
-        "It's I think it's more so just I can't catch my breath."
+        "I feel like I've been having just worsening breathlessness and a cough for it's been going on for two years now and I just can't seem to get rid of it.",
+        "I think it's, I feel short of breath most of the times, but it's mainly just gets worse when I'm exerting myself when I'm walking more than usual or just working in the garden.",
+        "It's I think it's more so just I can't catch my breath and sometimes I just have trouble being able to take like a full breath."
       ]
-    },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "ecercise": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "It mainly just gets worse when I'm exerting myself when I'm walking more than usual or just working in the garden."
-      ]
-    },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "facial_pain": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "fainting": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No."
+      ]
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "I feel pretty tired sometimes, but I just thought it was because I'm getting older."
+        "Um, yeah, I feel pretty tired sometimes, but I just thought it was because I'm getting older.",
+        "I feel just tired and short of breath all the time so just staying in my house most of the time."
       ]
     },
     "fever": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "flu_like_symptom": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "greenish_yellowish_nasal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um, maybe some chills here and there, but not not really a fever, no."
+      ]
     },
     "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, no."
+      ]
     },
     "hearing_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No."
+      ]
     },
     "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "irritable": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood."
+      ]
     },
     "memory_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Not that I know of, no."
+      ]
     },
     "nasal_congestion": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Nope, not that I know of."
+      ]
     },
     "nausea": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "numbness": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, no."
+      ]
     },
     "pain": {
       "assessed": "No",
       "example_quotes": []
     },
     "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pressure_around_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "rigor": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No heart has been fine."
+      ]
     },
     "runny_nose": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sensation_of_chest": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Nope, not that I know of."
+      ]
     },
     "sleep_dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, I'm completely fine laying down.",
+        "No."
+      ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "I notice a lot of my sweat covering the bed sheets. That's been going on for about, say a couple months now."
+        "Um, just a few times per week I would maybe have to take off my blanket sometimes I notice a lot of my sweat covering the bed sheets. That's been going on for about, say a couple months now."
       ]
     },
     "smell_loss": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "sore": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No."
+      ]
     },
     "sore_throat": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Nope."
+      ]
     },
     "swelling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "symptoms_stress": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, not that I've noticed."
+      ]
     },
     "taste_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, not that I know."
+      ]
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -249,24 +300,28 @@
       ]
     },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Nope."
+      ]
     },
     "vision_problem": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, nothing like that."
+      ]
     },
     "vomiting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weight_gain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, no."
+      ]
     },
     "wheez": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, I haven't heard any kind of wheeziness at all."
+      ]
     }
   }
 }

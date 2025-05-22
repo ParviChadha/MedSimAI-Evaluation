@@ -1,58 +1,14 @@
 {
   "medical_history_assessed": {
-    "body_ache": {
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
-    "change_in_taste": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Are you having any symptoms of loss of smell at all?",
-        "Patient: No, no loss of smell.",
-        "Medical Student: How about loss of taste?",
-        "Patient: No."
-      ]
-    },
-    "changes_in_appetite": {
+    "delayed_growth_milestones": {
       "assessed": "No",
       "example_quotes": []
     },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_feeding": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Medical Student: Are you bringing up any discharge from like your nose, or are you coughing any material up?",
-        "Patient: No, no. I mean there's some discharge from my nose, like it's runny, but it's it's not yellow or anything, it's clear."
-      ]
-    },
-    "dizziness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "drowsiness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fainting": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fatigue": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "feeling_tired": {
+    "foreign_body_intake": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -60,7 +16,11 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "hoarse_tone": {
+    "hemoptysis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "high_blood_pressure": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -68,42 +28,74 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "itchiness": {
+    "loss_of_consciousness_due_to_alcohol": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lightheadedness": {
+    "lumps": {
       "assessed": "No",
       "example_quotes": []
     },
-    "nausea": {
+    "lung_complications": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "lymphadenitis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "memory_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "odynophagia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_general": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "paralysis_limb_or_face": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "photophobia": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "respiratory_distress_syndrome": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_harm_thoughts": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sexually_transmitted_infection": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any nausea or vomiting?",
-        "Patient: Uh no."
+        "And uh do you have any history of any STI's?",
+        "No."
       ]
     },
-    "pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "phlegm": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "pressure_in_around_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "redness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stiffness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trauma": {
+    "underweight_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -111,66 +103,93 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "weight_changes": {
+    "vision_problem": {
       "assessed": "No",
       "example_quotes": []
     },
     "ache": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any sore throat or muscle aches?",
+        "No."
+      ]
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any changes in your bowel movements like any constipation or diarrhea?",
-        "Patient: No."
+        "Any changes in your bowel movements like any constipation or diarrhea?",
+        "No."
       ]
     },
     "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any shortness of breath or chest pain at all?",
+        "Uh no."
+      ]
     },
     "chills": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any fevers or chills?",
+        "No."
+      ]
     },
     "colored_excess_sputum": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Are you bringing up any discharge from like your nose, or are you coughing any material up?",
+        "No, no. I mean there's some discharge from my nose, like it's runny, but it's it's not yellow or anything, it's clear."
+      ]
     },
     "constipation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your bowel movements like any constipation or diarrhea?",
+        "No."
+      ]
     },
     "cough": {
-      "assessed": "No",
+      "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Are you coughing at all?",
-        "Patient: No."
+        "Are you coughing at all?",
+        "No."
       ]
     },
     "diarrhoea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your bowel movements like any constipation or diarrhea?",
+        "No."
+      ]
     },
     "dyspnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any shortness of breath or chest pain at all?",
+        "Uh no."
+      ]
     },
     "fatigue_extended": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any night sweats or fatigue?",
+        "No."
+      ]
     },
     "fever": {
-      "assessed": "No",
+      "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Any fevers or chills?",
-        "Patient: No."
+        "Any fevers or chills?",
+        "No."
       ]
     },
     "head_ache": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any uh headaches?",
+        "Nope."
+      ]
     },
     "loss_of_appetite": {
       "assessed": "No",
@@ -179,24 +198,37 @@
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Hi I'm coming in because I've had this like on and off runny nose and stuffy nose for the past week."
+        "So at first I felt kind of stuffy um and then now it's more runny.",
+        "Um it's it's pretty constant throughout the day. It's just it just feels bad at night because it um makes it hard for me to fall asleep."
       ]
     },
     "nasal_discharge": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Are you bringing up any discharge from like your nose, or are you coughing any material up?",
-        "Patient: No, no. I mean there's some discharge from my nose, like it's runny, but it's it's not yellow or anything, it's clear."
+        "Are you bringing up any discharge from like your nose, or are you coughing any material up?",
+        "No, no. I mean there's some discharge from my nose, like it's runny, but it's it's not yellow or anything, it's clear."
+      ]
+    },
+    "nausea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you had any nausea or vomiting?",
+        "Uh no."
       ]
     },
     "palpitation": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um yeah, so those were some of the questions I had for you. I know it's a bit concerning because of the pandemic going on and um a runny nose can be a symptom uh of Covid as well, but uh it can also be a symptom of just the common cold or any other virus. Um but since you're having, uh you're symptomatic right now, we will definitely get like a Covid swab test done for you.",
+        "Um any kind of sensation that your heart is racing?",
+        "Uh no, nothing like that."
+      ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Patient: Hi I'm coming in because I've had this like on and off runny nose and stuffy nose for the past week."
+        "Hi I'm coming in because I've had this like on and off runny nose and stuffy nose for the past week.",
+        "So at first I felt kind of stuffy um and then now it's more runny."
       ]
     },
     "sleep_hydrosis": {
@@ -206,41 +238,49 @@
     "sleep_issues": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Um and is it just a constant issue that goes on throughout the day or is it worse at night, during the day, how would you describe it?",
-        "Patient: Um it's it's pretty constant throughout the day. It's just it just feels bad at night because it um makes it hard for me to fall asleep."
+        "Um it's it's pretty constant throughout the day. It's just it just feels bad at night because it um makes it hard for me to fall asleep."
       ]
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Are you having any symptoms of loss of smell at all?",
-        "Patient: No, no loss of smell."
+        "And are you having any symptoms of loss of smell at all?",
+        "No, no loss of smell."
       ]
     },
     "sore_throat": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any sore throat or muscle aches?",
+        "No."
+      ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: How about loss of taste?",
-        "Patient: No."
+        "How about loss of taste?",
+        "No."
       ]
     },
     "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Have you lost any weight, significant weight, uh recently in the last few months?",
+        "No."
+      ]
     },
     "urination": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any changes in your urinary pattern?",
+        "No."
+      ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Medical Student: Have you had any nausea or vomiting?",
-        "Patient: Uh no."
+        "Have you had any nausea or vomiting?",
+        "Uh no."
       ]
     }
   }

@@ -1,111 +1,134 @@
 {
   "medical_history_assessed": {
-    "change_in_taste": {
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_breathing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I only really get short of breath when I'm going for a hike or up to my 4th floor apartment."
-      ]
-    },
-    "dizziness": {
+    "behavior_changes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "fatigue_sleep": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, my energy has just been really down. I've been really fatigued."
-      ]
-    },
-    "feeling_tired": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, my energy has just been really down. I've been really fatigued."
-      ]
-    },
-    "hyperhidrosis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I have been sweating more at night too. Yeah, I have to get up and change my pajamas sometimes."
-      ]
-    },
-    "lightheadedness": {
+    "complications_actual_delivery": {
       "assessed": "No",
       "example_quotes": []
     },
-    "memory_loss": {
+    "decreased_concentration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "muscle_aches": {
+    "foreign_body_intake": {
       "assessed": "No",
       "example_quotes": []
     },
-    "nausea": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "throat_pain": {
+    "passing_gas": {
       "assessed": "No",
       "example_quotes": []
     },
-    "vaginal_discharge": {
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "pregnancy": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "rectal_bleeding": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slow_motion_feeling": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "slurred_speech": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "underweight_at_birth": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "vision_problem": {
       "assessed": "No",
       "example_quotes": []
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'd say it's kind of like a, uh it's a stabbing kind of, uh, uh pain and I only really notice it when I take a deep breath."
+        "And do you find that you ever have any chest pain or shortness of breath?",
+        "I sometimes I do have some pain over on the right side of my chest."
       ]
     },
     "chills": {
-      "assessed": "No",
+      "assessed": "Yes",
       "example_quotes": [
-        "Yes, no chills though."
+        "And, uh, have you been experiencing any fevers or chills or night sweats?"
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "I I'm bringing up some phlegm if that's what you mean.",
+        "And is it, what color is it?",
+        "I it looks pretty dark and and sometimes red.",
+        "OK, so do you think there's blood in your phlegm?",
         "Yeah, the dark it does kind of look like blood, so that's what scared me and wanted me to come in today."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, I've had this cough and it's just not going away."
+        "What brings you in here today?",
+        "Yeah, I've had this cough and it's just not going away.",
+        "OK, and how long have you been having this cough for?",
+        "I I've had a smokers cough now for several for several years, but it's really just this past month that that it's gotten really bad and I have it all day long."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
+        "And do you find that you ever have any chest pain or shortness of breath?",
         "I only really get short of breath when I'm going for a hike or up to my 4th floor apartment."
       ]
     },
     "fatigue_extended": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And how about your appetite?",
+        "And have you been feeling more more tired, more fatigued at all recently?",
+        "Yeah, my energy has just been really down. I've been really fatigued.",
+        "I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
+      ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "I felt like, uh, a little bit hot. I might have a fever now so yes."
+        "And, uh, have you been experiencing any fevers or chills or night sweats?",
+        "I felt like, uh, a little bit hot. I might have a fever now so yes, no chills though."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, the dark it does kind of look like blood, so that's what scared me and wanted me to come in today."
+        "OK, so do you think there's blood in your phlegm?"
       ]
     },
     "loss_of_appetite": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And how about your appetite?"
+      ]
     },
     "paralysis_limb_or_face": {
       "assessed": "No",
@@ -114,19 +137,22 @@
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uh, I had a cold a few weeks back, but, it was just a runny nose and it seems that the cough has been kind of lingering around."
+        "Uh, I had a cold a few weeks back, but, it was just a runny nose and it seems that the cough has been kind of lingering around.",
+        "Just the cold that I was talking about it a few weeks ago, and that's where the runny nose kinda went away."
       ]
     },
     "sleep_changes": {
       "assessed": "Yes",
       "example_quotes": [
-        "just the, uh sweating at night has been annoying because it wakes me up sometimes, but other than that sleep has been OK."
+        "And how about your sleep? Have you been getting enough sleep on a daily basis?",
+        "Uh just the, uh sweating at night has been annoying because it wakes me up sometimes, but other than that sleep has been OK."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "I have been sweating more at night too. Yeah, I have to get up and change my pajamas sometimes."
+        "And, uh, have you been experiencing any fevers or chills or night sweats?",
+        "I have been sweating more at night too. Yeah, I have to get up and  change my pajamas sometimes."
       ]
     },
     "sore_throat": {
@@ -136,13 +162,14 @@
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
+        "And have you had any significant weight changes recently?",
         "Uh yeah I'm down like 15 pounds over the last few months and I haven't really made any changes to my diet or exercise, so I haven't really been trying."
       ]
     },
     "weakness": {
       "assessed": "Yes",
       "example_quotes": [
-        "I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
+        "I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
       ]
     }
   }

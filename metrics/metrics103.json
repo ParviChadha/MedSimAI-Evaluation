@@ -1,96 +1,44 @@
 {
-  "precision": 0.7,
-  "recall": 0.2916666666666667,
-  "f1_score": 0.4117647058823529,
-  "true_positives": 7,
-  "false_positives": 3,
-  "false_negatives": 17,
+  "precision": 0.8518518518518519,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.9019607843137256,
+  "true_positives": 23,
+  "false_positives": 4,
+  "false_negatives": 1,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Cold",
+      "item": "Weight Changes",
       "result_quotes": [
-        "I've had a cough and I've had a sore throat for the past two days."
+        "Any changes in your appetite?",
+        "No.",
+        "OK, have you lost any significant weight recently?",
+        "Uh, no."
       ]
     },
     {
-      "item": "General Weakness",
+      "item": "Odynophagia",
       "result_quotes": [
-        "Maybe a little bit. It's not too bad."
+        "And the sore throat are you having trouble or pain while swallowing any food?",
+        "It's not that bad.",
+        "It's just irritation in my throat."
       ]
     },
     {
-      "item": "Mucus Discharge",
+      "item": "Lightheadedness",
       "result_quotes": [
-        "I'm now having like a, a runny nose."
+        "Do you have any other symptoms like. Shortness of breath, chest pain, dizziness, or anything like that?",
+        "No."
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "Just high blood pressure. My mom has it."
       ]
     }
   ],
   "false_negative_details": [
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chills",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hoarse Tone",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Malaise",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
     {
       "item": "Widespread Pain",
       "truth_quotes": []

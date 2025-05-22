@@ -1,98 +1,38 @@
 {
-  "precision": 0.7,
-  "recall": 0.2916666666666667,
-  "f1_score": 0.4117647058823529,
-  "true_positives": 7,
+  "precision": 0.88,
+  "recall": 0.9166666666666666,
+  "f1_score": 0.8979591836734694,
+  "true_positives": 22,
   "false_positives": 3,
-  "false_negatives": 17,
+  "false_negatives": 2,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Infectious Symptom",
+      "item": "Complications Actual Delivery",
       "result_quotes": [
-        "he's had this cough and uh stuffy nose"
+        "Uh yeah, I did have to take insulin. Um he was he was also a pretty big baby when he was born, um we had to, I had to give, get a C-section done."
       ]
     },
     {
-      "item": "Changes In Appetite",
+      "item": "Complications During Delivery",
       "result_quotes": [
-        "Um he's just been eating less since he's been feeling unwell."
+        "Uh yeah, I did have to take insulin. Um he was he was also a pretty big baby when he was born, um we had to, I had to give, get a C-section done."
       ]
     },
     {
-      "item": "Watery Eyes",
+      "item": "Vaccine Related Reaction",
       "result_quotes": [
-        "his eyes are also red and kind of um he's been teary."
+        "Um well, no, I don't. I don't I don't vaccinate my kids. I'm just I'm I'm worried that they'll uh get autism."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Widespread Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Physical Or Emotional Abuse At Home",
-      "truth_quotes": []
-    },
-    {
-      "item": "Delayed Growth Milestones",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Trouble Breathing",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
       "truth_quotes": []
     },
     {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Sore Throat",
-      "truth_quotes": []
-    },
-    {
-      "item": "Hemoptysis",
+      "item": "Widespread Pain",
       "truth_quotes": []
     }
   ]

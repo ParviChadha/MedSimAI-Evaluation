@@ -1,81 +1,22 @@
 {
-  "precision": 0.7777777777777778,
-  "recall": 0.28,
-  "f1_score": 0.4117647058823529,
-  "true_positives": 7,
-  "false_positives": 2,
-  "false_negatives": 18,
+  "precision": 0.9565217391304348,
+  "recall": 0.88,
+  "f1_score": 0.9166666666666666,
+  "true_positives": 22,
+  "false_positives": 1,
+  "false_negatives": 3,
   "total_items": 50,
   "false_positive_details": [
     {
-      "item": "Lightheadedness",
+      "item": "Difficulty Sleeping",
       "result_quotes": [
-        "Medical Student: Do you feel dizzy or lightheaded at all?",
-        "Patient: Um, no."
-      ]
-    },
-    {
-      "item": "Flu Like Symptom",
-      "result_quotes": [
-        "Patient: Yeah, chills. I've been feeling kind of hot during the day."
+        "Have you been able to sleep throughout the night or does the cough  wake you up or the chills wake you up?"
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Swelling",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Smell Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
       "item": "Congestion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Bowel Movement",
-      "truth_quotes": []
-    },
-    {
-      "item": "Constipation",
       "truth_quotes": []
     },
     {
@@ -83,15 +24,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Hemoptysis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Diarrhoea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
+      "item": "Runny Nose",
       "truth_quotes": []
     }
   ]

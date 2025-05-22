@@ -1,73 +1,19 @@
 {
-  "precision": 0.8571428571428571,
-  "recall": 0.5,
-  "f1_score": 0.631578947368421,
-  "true_positives": 12,
-  "false_positives": 2,
-  "false_negatives": 12,
-  "total_items": 48,
-  "false_positive_details": [
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "Medical Student: OK, how about sputum?",
-        "Patient: Um, no sputum."
-      ]
-    },
-    {
-      "item": "Tachypnea",
-      "result_quotes": [
-        "Patient: ...it's the breathing that's been bothering me a lot more."
-      ]
-    }
-  ],
+  "precision": 1.0,
+  "recall": 0.9166666666666666,
+  "f1_score": 0.9565217391304348,
+  "true_positives": 22,
+  "false_positives": 0,
+  "false_negatives": 2,
+  "total_items": 42,
+  "false_positive_details": [],
   "false_negative_details": [
     {
       "item": "Sore",
       "truth_quotes": []
     },
     {
-      "item": "Colored Excess Sputum",
-      "truth_quotes": []
-    },
-    {
-      "item": "Unexplained Weight Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Confusion",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vision Problem",
-      "truth_quotes": []
-    },
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Fever",
-      "truth_quotes": []
-    },
-    {
       "item": "Sleep Hydrosis",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nasal Congestion",
       "truth_quotes": []
     }
   ]

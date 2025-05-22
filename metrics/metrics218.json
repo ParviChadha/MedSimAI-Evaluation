@@ -1,103 +1,19 @@
 {
-  "precision": 0.5833333333333334,
-  "recall": 0.3181818181818182,
-  "f1_score": 0.4117647058823529,
-  "true_positives": 7,
-  "false_positives": 5,
-  "false_negatives": 15,
+  "precision": 0.9565217391304348,
+  "recall": 1.0,
+  "f1_score": 0.9777777777777777,
+  "true_positives": 22,
+  "false_positives": 1,
+  "false_negatives": 0,
   "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Throat Pain",
+      "item": "Diabetes",
       "result_quotes": [
-        "Patient: Yeah, absolutely. Uhm, I don't know, I've just been feeling a little feverish, uhm, and I also have a, a bit of a sore throat."
-      ]
-    },
-    {
-      "item": "Vision Problem",
-      "result_quotes": [
-        "Medical Student: OK, I think I didn't ask this, but have you had any surgeries before? Patient: I had cataract surgery done."
-      ]
-    },
-    {
-      "item": "Sinus Congestion",
-      "result_quotes": [
-        "Medical Student: OK, so maybe loss of taste, so you feel like your nose is really or that you're really congested? Patient: I guess yeah, now that I think about it."
-      ]
-    },
-    {
-      "item": "Malaise",
-      "result_quotes": [
-        "Patient: I just felt horrible. And the sore throat was just worse and I felt feverish and tired and I felt really crappy."
-      ]
-    },
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "Patient: Sort of, like I just, I found it really hard to get out of bed this morning."
+        "Diabetes.",
+        "my mom, my sister, my brother"
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Runny Nose",
-      "truth_quotes": []
-    },
-    {
-      "item": "Urination",
-      "truth_quotes": []
-    },
-    {
-      "item": "Loss Of Appetite",
-      "truth_quotes": []
-    },
-    {
-      "item": "Chest Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Nausea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Vomiting",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dyspnea",
-      "truth_quotes": []
-    },
-    {
-      "item": "Eye Redness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Cough",
-      "truth_quotes": []
-    },
-    {
-      "item": "Head Ache",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dizzyness",
-      "truth_quotes": []
-    },
-    {
-      "item": "Wheez",
-      "truth_quotes": []
-    },
-    {
-      "item": "Pain",
-      "truth_quotes": []
-    },
-    {
-      "item": "Palpitation",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dysphagia",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

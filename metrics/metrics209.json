@@ -1,16 +1,16 @@
 {
-  "precision": 0.9285714285714286,
-  "recall": 0.8125,
-  "f1_score": 0.8666666666666666,
-  "true_positives": 13,
+  "precision": 0.9333333333333333,
+  "recall": 0.875,
+  "f1_score": 0.9032258064516129,
+  "true_positives": 14,
   "false_positives": 1,
-  "false_negatives": 3,
+  "false_negatives": 2,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Tightness",
+      "item": "Sleep",
       "result_quotes": [
-        "Patient: Oh, like sometimes when it's really cold outside, I'll go out and like it. My chest feels tight and just feel like I can't breathe."
+        "\"Oh no. No, mostly like gym class like I said.\""
       ]
     }
   ],
@@ -21,10 +21,6 @@
     },
     {
       "item": "Watery Eyes",
-      "truth_quotes": []
-    },
-    {
-      "item": "Self Hurt",
       "truth_quotes": []
     }
   ]
