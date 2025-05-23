@@ -1,0 +1,24 @@
+{
+  "precision": 0.9375,
+  "recall": 0.9375,
+  "f1_score": 0.9375,
+  "true_positives": 15,
+  "false_positives": 1,
+  "false_negatives": 1,
+  "total_items": 31,
+  "false_positive_details": [
+    {
+      "item": "Flu",
+      "result_quotes": [
+        "have you gotten your flu shot this year?",
+        "So it's also a possibility it might be influenza, just the seasonal flu."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    }
+  ]
+}

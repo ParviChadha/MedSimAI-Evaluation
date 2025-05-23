@@ -1,0 +1,45 @@
+{
+  "precision": 0.8709677419354839,
+  "recall": 0.9642857142857143,
+  "f1_score": 0.9152542372881356,
+  "true_positives": 27,
+  "false_positives": 4,
+  "false_negatives": 1,
+  "total_items": 56,
+  "false_positive_details": [
+    {
+      "item": "Itching",
+      "result_quotes": [
+        "OK, um and how about any eye symptoms like redness or itchiness, pain?",
+        "Uh, no, nothing like that."
+      ]
+    },
+    {
+      "item": "Tearing Or Or Itchiness",
+      "result_quotes": [
+        "OK, um and how about any eye symptoms like redness or itchiness, pain?",
+        "Uh, no, nothing like that."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "OK, have you had a runny nose or felt congested?",
+        "No."
+      ]
+    },
+    {
+      "item": "Fatigue",
+      "result_quotes": [
+        "OK, and how has your energy been? Have you had any fatigue or malaise the last several days?",
+        "Yeah, I would say so. I just feel like I don't know if it's to do with the short, of being short of breath, but yeah, I just feel like I've just been needing more rest."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "precision": 0.9032258064516129,
+  "recall": 1.0,
+  "f1_score": 0.9491525423728813,
+  "true_positives": 28,
+  "false_positives": 3,
+  "false_negatives": 0,
+  "total_items": 56,
+  "false_positive_details": [
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "Alright so I know you told me a COPD, but do you have any other medical diagnosis?",
+        "Yeah, I have high blood pressure as well."
+      ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Any urinary problems?",
+        "Uh no."
+      ]
+    },
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "How about any night sweats?",
+        "No."
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

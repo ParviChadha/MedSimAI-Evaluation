@@ -1,0 +1,42 @@
+{
+  "precision": 0.8518518518518519,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.9019607843137256,
+  "true_positives": 23,
+  "false_positives": 4,
+  "false_negatives": 1,
+  "total_items": 47,
+  "false_positive_details": [
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "Do you ever feel like you're short of breath when you're coughing or otherwise?",
+        "I do find that it's harder to take a breath at those times"
+      ]
+    },
+    {
+      "item": "Decreased Physical Activity",
+      "result_quotes": [
+        "over the last few weeks I've had to just stop doing what I'm doing, like exercising and just come home and rest"
+      ]
+    },
+    {
+      "item": "Widespread Pain",
+      "result_quotes": [
+        "Muscle aches, joint pain?"
+      ]
+    },
+    {
+      "item": "Sensation Of Chest",
+      "result_quotes": [
+        "when I'm coughing a lot I do get some tightness"
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Irritable",
+      "truth_quotes": []
+    }
+  ]
+}

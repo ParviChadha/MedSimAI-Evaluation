@@ -1,0 +1,56 @@
+{
+  "precision": 0.8125,
+  "recall": 1.0,
+  "f1_score": 0.896551724137931,
+  "true_positives": 26,
+  "false_positives": 6,
+  "false_negatives": 0,
+  "total_items": 51,
+  "false_positive_details": [
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Um were you uh with anyone around you sick at all before those seven days?",
+        "Any fevers or chills?",
+        "Any sore throat or muscle aches?"
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "Are you bringing up any discharge from like your nose, or are you coughing any material up?",
+        "No, no. I mean there's some discharge from my nose, like it's runny, but it's it's not yellow or anything, it's clear."
+      ]
+    },
+    {
+      "item": "Flu Like Symptom",
+      "result_quotes": [
+        "Any fevers or chills?",
+        "Any sore throat or muscle aches?",
+        "Any uh headaches?"
+      ]
+    },
+    {
+      "item": "Changes In Appetite",
+      "result_quotes": [
+        "Any issues with your sleep or appetite?",
+        "No."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "Any sore throat or muscle aches?",
+        "No."
+      ]
+    },
+    {
+      "item": "Appetite",
+      "result_quotes": [
+        "Any issues with your sleep or appetite?",
+        "No."
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

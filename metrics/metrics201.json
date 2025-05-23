@@ -1,0 +1,49 @@
+{
+  "precision": 0.8518518518518519,
+  "recall": 0.92,
+  "f1_score": 0.8846153846153846,
+  "true_positives": 23,
+  "false_positives": 4,
+  "false_negatives": 2,
+  "total_items": 50,
+  "false_positive_details": [
+    {
+      "item": "Lightheadness",
+      "result_quotes": [
+        "Have you had any lightheadedness or, or feeling dizzy?",
+        "No."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "have you um, been diagnosed with any medical conditions?",
+        "Um, I have diabetes, I have high blood pressure and I have high cholesterol."
+      ]
+    },
+    {
+      "item": "Ecercise",
+      "result_quotes": [
+        "have you been experiencing uh shortness of breath um, on exertion otherwise, like prior to this?",
+        "Um no, no."
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "And how has your weight been over the last several months? Have you had any weight loss or gain?",
+        "Uh no, it's been pretty stable."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Stunning",
+      "truth_quotes": []
+    }
+  ]
+}

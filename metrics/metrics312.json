@@ -1,0 +1,70 @@
+{
+  "precision": 0.75,
+  "recall": 0.96,
+  "f1_score": 0.8421052631578947,
+  "true_positives": 24,
+  "false_positives": 8,
+  "false_negatives": 1,
+  "total_items": 50,
+  "false_positive_details": [
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "And no pneumonia or anything like that, right?",
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Fatigue Sleep",
+      "result_quotes": [
+        "Yeah, and I've been really like achy and and tired as well."
+      ]
+    },
+    {
+      "item": "Loss Of Smell",
+      "result_quotes": [
+        "and have you had any changes in your sense of smell?",
+        "No, I haven't."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "do you have allergies to food or environmental allergies",
+        "Yeah I, I have allergies to peanuts."
+      ]
+    },
+    {
+      "item": "Body Ache",
+      "result_quotes": [
+        "Yeah, and I've been really like achy and and tired as well."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Yeah, I've had a sore throat that's been really bugging me the past four days and I've had a cough as well.",
+        "I've had uhm, like tonsillitis a few times in the, in the past."
+      ]
+    },
+    {
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "does it make it difficult for you to fall asleep at night or does it wake you up in the middle of the night?",
+        "No I, it hasn't done that."
+      ]
+    },
+    {
+      "item": "Tearing Or Or Itchiness",
+      "result_quotes": [
+        "Yeah, but that you mention that yeah, I I have had like some itchy eyes"
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "precision": 0.9,
+  "recall": 1.0,
+  "f1_score": 0.9473684210526316,
+  "true_positives": 27,
+  "false_positives": 3,
+  "false_negatives": 0,
+  "total_items": 54,
+  "false_positive_details": [
+    {
+      "item": "Throat Pain",
+      "result_quotes": [
+        "I have a sore throat",
+        "are you having any pain with swallowing either liquids or food?",
+        "Um, mostly with foods.",
+        "when did the sore throat start?",
+        "It started up around the same time as my cough."
+      ]
+    },
+    {
+      "item": "Nasal Discharge",
+      "result_quotes": [
+        "Any mucous or pain or discharge from either your ears or nose?",
+        "No.",
+        "so your nose hasn't been runny, but has it felt congested?",
+        "umm, no."
+      ]
+    },
+    {
+      "item": "Muscle Aches",
+      "result_quotes": [
+        "any muscle aches or or body pains?",
+        "No."
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

@@ -1,0 +1,58 @@
+{
+  "precision": 0.8235294117647058,
+  "recall": 0.9655172413793104,
+  "f1_score": 0.888888888888889,
+  "true_positives": 28,
+  "false_positives": 6,
+  "false_negatives": 1,
+  "total_items": 58,
+  "false_positive_details": [
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "I'm finding that I'm very short of breath as well",
+        "I'm really having trouble getting any deep breaths in"
+      ]
+    },
+    {
+      "item": "Appetite",
+      "result_quotes": [
+        "How has your appetite been?",
+        "My appetite's been pretty good. It's like, definitely with the pain, I don't really feel like eating today, but I don't think it's changed."
+      ]
+    },
+    {
+      "item": "Weight Changes",
+      "result_quotes": [
+        "so has your weight been stable over the last several months.",
+        "Yeah, weight has been stable."
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
+        "I have been having a little bit of a cough, but that's it"
+      ]
+    },
+    {
+      "item": "Ache",
+      "result_quotes": [
+        "Have you had any muscle aches, joint pains or skin changes?",
+        "No."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "So, there was some discomfort like just 2 days ago, but then just yesterday it started getting very painful when I was breathing."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    }
+  ]
+}

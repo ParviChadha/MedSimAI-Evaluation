@@ -1,0 +1,56 @@
+{
+  "precision": 0.8387096774193549,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.8813559322033899,
+  "true_positives": 26,
+  "false_positives": 5,
+  "false_negatives": 2,
+  "total_items": 56,
+  "false_positive_details": [
+    {
+      "item": "Body Ache",
+      "result_quotes": [
+        "Alright, any muscle aches or body pains?",
+        "Uhm no, nothing like that."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "OK, and have you felt like your nose um is obstructed, like you're not able to breathe in through either one of your nostrils?",
+        "Yeah, that happens and sometimes the nostrils keep switching."
+      ]
+    },
+    {
+      "item": "Eye Discharge",
+      "result_quotes": [
+        "OK, um and have you had any eye redness or um eye discharge?",
+        "No, I don't think so."
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "OK, so you're, you are, are you feeling um like mucus drain from your nose like into the back of your uh mouth?",
+        "Uh yeah, sometimes I feel like that over the last week."
+      ]
+    },
+    {
+      "item": "Discharge",
+      "result_quotes": [
+        "And um could you, is your nose uh like, could you describe the discharge from your nose?",
+        "Yeah, it's more like kind of a clear to maybe whitish discharge."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Speech Volume",
+      "truth_quotes": []
+    },
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    }
+  ]
+}

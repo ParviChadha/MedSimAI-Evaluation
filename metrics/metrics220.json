@@ -1,0 +1,77 @@
+{
+  "precision": 0.7647058823529411,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.8387096774193549,
+  "true_positives": 26,
+  "false_positives": 8,
+  "false_negatives": 2,
+  "total_items": 56,
+  "false_positive_details": [
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Uhm, I have high blood pressure and diabetes.",
+        "for my diabetes I'm on metformin."
+      ]
+    },
+    {
+      "item": "Fainting",
+      "result_quotes": [
+        "And how about any episodes where you felt like you were going to faint or, yeah, pass out?",
+        "No."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "Have you had any chest pain?",
+        "Well my chest feels, I guess sometimes I, it feels painful because I'm coughing so much, but nothing more than that."
+      ]
+    },
+    {
+      "item": "Muscle Aches",
+      "result_quotes": [
+        "OK, and then any joint pains or muscle aches?",
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Ear Problem",
+      "result_quotes": [
+        "OK, have you had any ear pain or eye pain?",
+        "Ear pain, or eye pain? No."
+      ]
+    },
+    {
+      "item": "Sleep Issue",
+      "result_quotes": [
+        "So a bit more tired. How has your sleep been?",
+        "My sleep has been, um, pretty normal."
+      ]
+    },
+    {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "Um, I feel a little bit more tired, but other than that, no.",
+        "So a bit more tired. How has your sleep been?"
+      ]
+    },
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "So a bit more tired. How has your sleep been?",
+        "My sleep has been, um, pretty normal. It's been, yeah, it's been the same."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fatigue Extended",
+      "truth_quotes": []
+    }
+  ]
+}

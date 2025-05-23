@@ -1,0 +1,41 @@
+{
+  "precision": 0.875,
+  "recall": 1.0,
+  "f1_score": 0.9333333333333333,
+  "true_positives": 28,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 56,
+  "false_positive_details": [
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "OK, are you short of breath at all?",
+        "No, I'm not short of breath."
+      ]
+    },
+    {
+      "item": "Changes In Memory",
+      "result_quotes": [
+        "Confusion or memory loss?",
+        "No."
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "OK. Um any runny nose or stuffy nose?",
+        "No, no uh runny or stuffy nose."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "Any sick contacts recently?",
+        "we do sometimes go to the hospital as well",
+        "Sometimes yeah, we we do see some sick people"
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

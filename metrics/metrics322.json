@@ -1,0 +1,49 @@
+{
+  "precision": 0.7647058823529411,
+  "recall": 0.8666666666666667,
+  "f1_score": 0.8125,
+  "true_positives": 13,
+  "false_positives": 4,
+  "false_negatives": 2,
+  "total_items": 30,
+  "false_positive_details": [
+    {
+      "item": "Changes In Appetite",
+      "result_quotes": [
+        "in terms of uh, so how much has he has he had to eat or drink in the past uh day or two?",
+        "Uh he's had about like maybe a bottle of his milk, like of that.",
+        "he's not swallowing his food, like we've been feeding him some mashed up food but he's not swallowing it"
+      ]
+    },
+    {
+      "item": "Drowsiness",
+      "result_quotes": [
+        "Do you feel like he's been drowsy uh and um lethargic?",
+        "Um yeah, I feel like he's been a little bit lethargic."
+      ]
+    },
+    {
+      "item": "Cold",
+      "result_quotes": [
+        "he had like a an infection, like some sort of viral infection recently, like about a week back, he had like a runny nose and a cough"
+      ]
+    },
+    {
+      "item": "Sleep Problem",
+      "result_quotes": [
+        "Has he been sleeping OK?",
+        "I um no you know what last night he didn't sleep well at all. He was crying the whole night."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    }
+  ]
+}

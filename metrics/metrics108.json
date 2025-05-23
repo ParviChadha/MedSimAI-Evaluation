@@ -1,12 +1,26 @@
 {
-  "precision": 0.7575757575757576,
+  "precision": 0.78125,
   "recall": 1.0,
-  "f1_score": 0.8620689655172413,
+  "f1_score": 0.8771929824561403,
   "true_positives": 25,
-  "false_positives": 8,
+  "false_positives": 7,
   "false_negatives": 0,
   "total_items": 49,
   "false_positive_details": [
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "Have you been in contact with anyone that's been sick recently?",
+        "I don't think so. I work at the Toyota factory and there have been a few people that have been sick who worked there?"
+      ]
+    },
+    {
+      "item": "Fatigue Sleep",
+      "result_quotes": [
+        "Has your sleep or appetite changed at all?",
+        "I didn't sleep very good last night. I just don't feel very rested this morning."
+      ]
+    },
     {
       "item": "Hyperhidrosis",
       "result_quotes": [
@@ -22,23 +36,9 @@
       ]
     },
     {
-      "item": "Infection",
-      "result_quotes": [
-        "Have you been in contact with anyone that's been sick recently?",
-        "I don't think so. I work at the Toyota factory and there have been a few people that have been sick who worked there?"
-      ]
-    },
-    {
       "item": "Ear Problem",
       "result_quotes": [
         "I did have tubes in my ears when I was little, but that's it though."
-      ]
-    },
-    {
-      "item": "Throat Pain",
-      "result_quotes": [
-        "OK, do you have any other symptoms? like a runny nose, sore throat? Anything like that?",
-        "Uhm, nothing like that."
       ]
     },
     {
@@ -48,16 +48,10 @@
       ]
     },
     {
-      "item": "Watery Eyes",
+      "item": "Throat Pain",
       "result_quotes": [
-        "just, like in the springtime, I'll get itchy eyes or a runny nose."
-      ]
-    },
-    {
-      "item": "Fatigue Sleep",
-      "result_quotes": [
-        "Has your sleep or appetite changed at all?",
-        "I didn't sleep very good last night. I just don't feel very rested this morning."
+        "OK, do you have any other symptoms? like a runny nose, sore throat? Anything like that?",
+        "Uhm, nothing like that."
       ]
     }
   ],

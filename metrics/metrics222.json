@@ -1,0 +1,40 @@
+{
+  "precision": 0.8333333333333334,
+  "recall": 1.0,
+  "f1_score": 0.9090909090909091,
+  "true_positives": 20,
+  "false_positives": 4,
+  "false_negatives": 0,
+  "total_items": 40,
+  "false_positive_details": [
+    {
+      "item": "Decreased Physical Activity",
+      "result_quotes": [
+        "have you had to do you have y to miss any school or anything like that over the past week?",
+        "I missed two days"
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "have you traveled at all recently or been in touch with anyone who's been sick?",
+        "no, nothing like that"
+      ]
+    },
+    {
+      "item": "Allergy Medication",
+      "result_quotes": [
+        "any allergies to any medications that you know?",
+        "Not to medication I'm allergic to like strawberries and Kiwis"
+      ]
+    },
+    {
+      "item": "Loss Of Smell",
+      "result_quotes": [
+        "Any changes in your sense of smell or taste?",
+        "No"
+      ]
+    }
+  ],
+  "false_negative_details": []
+}

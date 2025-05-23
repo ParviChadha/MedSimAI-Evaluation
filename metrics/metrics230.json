@@ -1,0 +1,35 @@
+{
+  "precision": 0.9,
+  "recall": 0.9,
+  "f1_score": 0.9,
+  "true_positives": 18,
+  "false_positives": 2,
+  "false_negatives": 2,
+  "total_items": 40,
+  "false_positive_details": [
+    {
+      "item": "Odynophagia",
+      "result_quotes": [
+        "OK, have you had a sore throat?",
+        "Uh, it's felt a little itchy I guess but no pain with swallowing."
+      ]
+    },
+    {
+      "item": "Taste Problem",
+      "result_quotes": [
+        "Any changes in your sense of taste?",
+        "No."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dysphagia",
+      "truth_quotes": []
+    }
+  ]
+}

@@ -1,24 +1,31 @@
 {
-  "precision": 0.9230769230769231,
+  "precision": 0.8888888888888888,
   "recall": 1.0,
-  "f1_score": 0.9600000000000001,
+  "f1_score": 0.9411764705882353,
   "true_positives": 24,
-  "false_positives": 2,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Odynophagia",
+      "item": "Appetite",
       "result_quotes": [
-        "And the sore throat are you having trouble or pain while swallowing any food?",
-        "It's not that bad."
+        "Any changes in your appetite?",
+        "No."
       ]
     },
     {
-      "item": "Nasal Discharge",
+      "item": "Muscle Ache",
       "result_quotes": [
-        "I'm now having like a, a runny nose.",
-        "A runny nose as well? OK, when did that start?"
+        "Any muscle aches at all?",
+        "Uhm? Yeah, little bit."
+      ]
+    },
+    {
+      "item": "Pain",
+      "result_quotes": [
+        "And the sore throat are you having trouble or pain while swallowing any food?",
+        "It's not that bad."
       ]
     }
   ],

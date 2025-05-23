@@ -1,0 +1,38 @@
+{
+  "precision": 0.8846153846153846,
+  "recall": 0.9583333333333334,
+  "f1_score": 0.9199999999999999,
+  "true_positives": 23,
+  "false_positives": 3,
+  "false_negatives": 1,
+  "total_items": 48,
+  "false_positive_details": [
+    {
+      "item": "Low Mood",
+      "result_quotes": [
+        "And how has her mood been?",
+        "She's been pretty fussy"
+      ]
+    },
+    {
+      "item": "Nasal Congestion",
+      "result_quotes": [
+        "and has she had a runny nose?",
+        "Um yeah, now that you mention it, yeah, she did have a runny nose."
+      ]
+    },
+    {
+      "item": "Decreased Fluid Intake",
+      "result_quotes": [
+        "Has she been eating and drinking okay?",
+        "Yeah, we've managed to get her to drink and eat okay."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Watery Eyes",
+      "truth_quotes": []
+    }
+  ]
+}

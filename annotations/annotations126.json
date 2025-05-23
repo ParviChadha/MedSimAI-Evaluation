@@ -1,0 +1,739 @@
+{
+  "126": [
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "uid": "0"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "status": "Yes",
+        "when": "three days ago",
+        "ana factors": "deep breathing,walk",
+        "ana factors status": "yes aggravating",
+        "other": "gets a bit harder to breathe",
+        "uid": "1"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "progression check": true,
+        "uid": "2"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "status": "Yes",
+        "progression": "unchanged with time",
+        "uid": "3"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "ana factors check": true,
+        "uid": "4"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "status": "Yes",
+        "how": "abruptly",
+        "uid": "5"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "other": "what were patient doing when chest tightness came",
+        "uid": "6"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "status": "Yes",
+        "other": "patient first noticed it when gone for walk",
+        "uid": "7"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest pain",
+        "uid": "8"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest pain",
+        "status": "No",
+        "other": "when patient breathe in it just feels tight",
+        "uid": "9"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "impending doom anxiety,anxious,sweaty",
+        "uid": "10"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "impending doom anxiety,anxious,sweaty",
+        "status": "No",
+        "uid": "11"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "uid": "12"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "dyspnea",
+        "status": "Yes",
+        "other": "it was kind of harder to get a whole breath",
+        "uid": "13"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "location check": true,
+        "uid": "14"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "status": "Yes",
+        "location": "all over chest",
+        "uid": "15"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "frequency check": true,
+        "uid": "16"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "status": "Yes",
+        "ana factors": "walk,deep breathing",
+        "ana factors status": "yes aggravating",
+        "frequency": "always there",
+        "uid": "17"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "ana factors": "walk",
+        "ana factors check": true,
+        "frequency": "constantly ",
+        "frequency check": true,
+        "uid": "18"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "status": "Yes",
+        "ana factors": "walk",
+        "ana factors status": "yes aggravating",
+        "frequency": "constantly ",
+        "uid": "19"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "cough",
+        "uid": "20"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "cough",
+        "status": "No",
+        "uid": "21"
+      },
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "hoarse tone",
+        "status": "Yes",
+        "other": "maybe some more phlegm, clearing throat more",
+        "uid": "21"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "fever",
+        "uid": "22"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "fever",
+        "status": "No",
+        "uid": "23"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "sleep hydrosis",
+        "uid": "24"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "sleep hydrosis",
+        "status": "No",
+        "uid": "25"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chills",
+        "uid": "26"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chills",
+        "status": "No",
+        "uid": "27"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "uid": "28"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "unexplained weight loss",
+        "status": "No",
+        "uid": "29"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "past experience",
+        "uid": "30"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "past experience",
+        "status": "No",
+        "uid": "31"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "asthma",
+        "status": "The patient still suffers from the condition.",
+        "other": " had some trouble breathing",
+        "uid": "31"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "puffers ",
+        "response to": "asthma",
+        "response to check": true,
+        "uid": "32"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "puffers ",
+        "status": "currently taking",
+        "response to": "asthma",
+        "frequency": "every day",
+        "uid": "33"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "puffers ",
+        "other": "used that puffers which was as needed in the past",
+        "uid": "34"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "puffers ",
+        "status": "took in the past",
+        "frequency": "as needed",
+        "other": "couple of years ago used that puffers which was as needed",
+        "uid": "35"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "puffers ",
+        "status": "currently taking",
+        "other": "have patient stopped taking the daily one in last three days either",
+        "uid": "36"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "puffers ",
+        "status": "currently taking",
+        "frequency": "morning and night",
+        "other": "skipping the night one",
+        "uid": "37"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "value": "puffers ",
+        "other": "Have patient just been doing well without using puffer at night",
+        "uid": "38"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "puffers ",
+        "status": "currently taking",
+        "other": " patient just been doing well without using puffer at night",
+        "uid": "39"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "occupation",
+        "uid": "40"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "occupation",
+        "value": "financial advisor",
+        "status": "Yes",
+        "other": "semi retired so do some stuff from home",
+        "uid": "41"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "severity": true,
+        "uid": "42"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "status": "Yes",
+        "severity": "2",
+        "other": "patient don't think it would stop him to perform his day to day activity",
+        "uid": "43"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "other": " not stopping too much of your day to day functioning, but it's noticeable?",
+        "uid": "44"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "symptom",
+        "value": "chest tightness",
+        "status": "Yes",
+        "other": "not stopping too much of your day to day functioning, but it's noticeable",
+        "uid": "45"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "uid": "46"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "high bp",
+        "status": "The patient still suffers from the condition.",
+        "uid": "47"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "status": "currently taking",
+        "response to": "high bp",
+        "uid": "47"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "status": "currently taking",
+        "response to": "high bp",
+        "uid": "48"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "salbutamol",
+        "status": "currently taking",
+        "response to": "asthma",
+        "uid": "49"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "50"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Ramipril",
+        "status": "currently taking",
+        "response to": "high bp",
+        "uid": "51"
+      }
+    ],
+    [
+      {
+        "intent": "nod_prompt",
+        "uid": "52"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "Tylenol ",
+        "status": "currently taking",
+        "frequency": "if patient have a headache or something, but not very often",
+        "uid": "53"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medication",
+        "uid": "54"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "status": "no",
+        "uid": "55"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "lung disease",
+        "uid": "56"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "lung disease",
+        "status": "No",
+        "uid": "57"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "smoking",
+        "uid": "58"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "smoking",
+        "status": "No",
+        "uid": "59"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "uid": "60"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "recreational drugs",
+        "status": "No",
+        "uid": "61"
+      },
+      {
+        "intent": "inform",
+        "slot": "habit",
+        "value": "alcoholism",
+        "status": "No",
+        "status criterion": "CAGE",
+        "frquency": "on the weekend",
+        "other": "few beers on the weekend",
+        "uid": "61"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "medical history",
+        "value": "allergy",
+        "uid": "62"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "allergy",
+        "status": "No",
+        "uid": "63"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical history",
+        "value": "seasonal allergies",
+        "status": "The patient sufferred from the condition in the past.",
+        "frequency": "springtime",
+        "other": "it's really been many years since patient have noticed that",
+        "uid": "63"
+      }
+    ],
+    [
+      {
+        "intent": "inquire",
+        "slot": "exposure",
+        "value": "pets",
+        "uid": "64"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "exposure",
+        "value": "pets",
+        "status": "No",
+        "uid": "65"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "current symptoms",
+        "uid": "66"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "topic": "current symptoms",
+        "uid": "67"
+      }
+    ],
+    [
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "physical exam",
+        "other": "future",
+        "uid": "68"
+      },
+      {
+        "intent": "inform",
+        "slot": "medical test",
+        "name": "Auscultation",
+        "other": "future",
+        "uid": "68"
+      },
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "bronchospasm / acute asthma exacerbation",
+        "status": "Maybe",
+        "uid": "68"
+      },
+      {
+        "intent": "inform",
+        "slot": "medication",
+        "value": "rescue puffers",
+        "other": "future",
+        "uid": "68"
+      },
+      {
+        "intent": "inform",
+        "slot": "basic information",
+        "name": "John",
+        "uid": "68"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "medical discussion",
+        "uid": "69"
+      }
+    ],
+    [
+      {
+        "intent": "diagnosis",
+        "slot": "disease",
+        "value": "cardiac ischemia",
+        "status": "Maybe",
+        "uid": "70"
+      }
+    ],
+    [
+      {
+        "intent": "salutations",
+        "uid": "71"
+      }
+    ],
+    [
+      {
+        "intent": "chit-chat",
+        "slot": "non-medical discussion",
+        "uid": "72"
+      }
+    ],
+    [
+      {
+        "intent": "differential",
+        "slot": "diseases/conditions",
+        "ddx 1": "bronchospasm / acute asthma exacerbation",
+        "ddx 2": "chronic heart failure",
+        "ddx 3": "eosinophilic non allergic asthma",
+        "ddx 4": "cardiac ischemia",
+        "uid": "73"
+      }
+    ]
+  ]
+}

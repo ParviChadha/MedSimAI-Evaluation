@@ -1,0 +1,56 @@
+{
+  "precision": 0.7857142857142857,
+  "recall": 0.9565217391304348,
+  "f1_score": 0.8627450980392156,
+  "true_positives": 22,
+  "false_positives": 6,
+  "false_negatives": 1,
+  "total_items": 44,
+  "false_positive_details": [
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "Have a stuffy nose or runny nose?",
+        "I do feel a bit stuffy, but it's not too bad."
+      ]
+    },
+    {
+      "item": "Wheez",
+      "result_quotes": [
+        "I do find myself wheezing a little over the last few days as well."
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "Yeah, they said I had some kind of lung infection at that time",
+        "I've had COPD for more than... I guess more than 10 years now"
+      ]
+    },
+    {
+      "item": "Tonsilitis",
+      "result_quotes": [
+        "Umm, back when I was a kid I had my tonsils removed."
+      ]
+    },
+    {
+      "item": "Asthma",
+      "result_quotes": [
+        "did they ever say to you that you had anything else like asthma, COPD, any longstanding conditions?"
+      ]
+    },
+    {
+      "item": "Headache",
+      "result_quotes": [
+        "Headaches?",
+        "No headaches."
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Wheez Inhale",
+      "truth_quotes": []
+    }
+  ]
+}
