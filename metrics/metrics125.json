@@ -1,55 +1,69 @@
 {
-  "precision": 0.8387096774193549,
-  "recall": 0.9285714285714286,
-  "f1_score": 0.8813559322033899,
-  "true_positives": 26,
-  "false_positives": 5,
-  "false_negatives": 2,
+  "precision": 0.8,
+  "recall": 0.8571428571428571,
+  "f1_score": 0.8275862068965518,
+  "true_positives": 24,
+  "false_positives": 6,
+  "false_negatives": 4,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Body Ache",
+      "item": "Facial Pressure",
       "result_quotes": [
-        "Alright, any muscle aches or body pains?",
-        "Uhm no, nothing like that."
-      ]
-    },
-    {
-      "item": "Stuffy Nose",
-      "result_quotes": [
-        "OK, and have you felt like your nose um is obstructed, like you're not able to breathe in through either one of your nostrils?",
-        "Yeah, that happens and sometimes the nostrils keep switching."
+        "\"I see, and have you had any uh like facial pain like over your over your cheeks or or forehead?\"",
+        "\"Uh no, nothing like that.\""
       ]
     },
     {
       "item": "Eye Discharge",
       "result_quotes": [
-        "OK, um and have you had any eye redness or um eye discharge?",
-        "No, I don't think so."
+        "\"And have you had any eye redness or um eye discharge?\"",
+        "\"No, I don't think so.\""
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "\"Hi yes I'm just coming in, uh over the last week, I've been having um like a cough, runny nose and a lot of congestion as well.\""
       ]
     },
     {
       "item": "Mucous Building",
       "result_quotes": [
-        "OK, so you're, you are, are you feeling um like mucus drain from your nose like into the back of your uh mouth?",
-        "Uh yeah, sometimes I feel like that over the last week."
+        "\"OK, so you're, you are, are you feeling um like mucus drain from your nose like into the back of your uh mouth?\"",
+        "\"Uh yeah, sometimes I feel like that over the last week.\""
       ]
     },
     {
       "item": "Discharge",
       "result_quotes": [
-        "And um could you, is your nose uh like, could you describe the discharge from your nose?",
-        "Yeah, it's more like kind of a clear to maybe whitish discharge."
+        "\"OK, and could you, is your nose uh like, could you describe the discharge from your nose?\"",
+        "\"Yeah, it's more like kind of a clear to maybe whitish discharge.\""
+      ]
+    },
+    {
+      "item": "Sensitive To Allergies",
+      "result_quotes": [
+        "\"Do you have any allergies?\"",
+        "\"Uh no.\""
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Speech Volume",
+      "item": "Odynophagia",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
       "truth_quotes": []
     },
     {
       "item": "Watery Eyes",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     }
   ]

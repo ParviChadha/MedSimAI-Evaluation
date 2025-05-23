@@ -1,73 +1,85 @@
 {
-  "precision": 0.7567567567567568,
-  "recall": 1.0,
-  "f1_score": 0.8615384615384616,
-  "true_positives": 28,
-  "false_positives": 9,
-  "false_negatives": 0,
+  "precision": 0.7692307692307693,
+  "recall": 0.7142857142857143,
+  "f1_score": 0.7407407407407408,
+  "true_positives": 20,
+  "false_positives": 6,
+  "false_negatives": 8,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Food Allergy",
+      "item": "Sinus Congestion",
       "result_quotes": [
-        "do you have any allergies?",
-        "No."
-      ]
-    },
-    {
-      "item": "Wheez Inhale",
-      "result_quotes": [
-        "Have you been experiencing any wheezing?",
-        "Yeah I have noticed a bit of a wheeze, yes."
+        "Yeah, I've had, um, a sore throat, uh, and a headache, as well."
       ]
     },
     {
       "item": "Chest Discomfort",
       "result_quotes": [
-        "any fatigue?",
-        "any chest pain at all?",
-        "Yeah, It does feel sore, kind of, uh, the center of my chest."
-      ]
-    },
-    {
-      "item": "Sleep Changes",
-      "result_quotes": [
-        "any changes with your sleeping or your appetite?",
-        "No."
-      ]
-    },
-    {
-      "item": "Redness",
-      "result_quotes": [
-        "have you noticed any kind of redness in your throat or any swelling around your neck?",
-        "No, I took a look in the mirror as best I could with my phone and I couldn't really notice anything that looked red."
-      ]
-    },
-    {
-      "item": "Sinus Congestion",
-      "result_quotes": [
-        "are you having any, uh, other symptoms besides the cough, um, like shortness of breath,sore throat, um, runny nose, congestion, anything like that?"
-      ]
-    },
-    {
-      "item": "Mucus Discharge",
-      "result_quotes": [
-        "sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color."
+        "Yeah, It does feel sore, kind of, uh, the center of my chest.",
+        "I feel it, like more, like it does hurt when when I'm coughing, that's kind of what I'm feeling it. I think it's being caused by how much I'm coughing."
       ]
     },
     {
       "item": "Discomfort",
       "result_quotes": [
-        "Yeah, I feel it, like more, like it does hurt when when I'm coughing"
+        "Yeah, It does feel sore, kind of, uh, the center of my chest.",
+        "I feel it, like more, like it does hurt when when I'm coughing, that's kind of what I'm feeling it. I think it's being caused by how much I'm coughing."
       ]
     },
     {
       "item": "Throat Pain",
       "result_quotes": [
-        "are you having any, uh, other symptoms besides the cough, um, like shortness of breath,sore throat, um, runny nose, congestion, anything like that?",
-        "Uh. yeah, I've had, um, a sore throat, uh, and a headache, as well."
+        "Yeah, I've had, um, a sore throat, uh, and a headache, as well.",
+        "It's a little sore, but, uh, it's been OK, to eat and drink."
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "Yeah, so I mean sometimes I produce sputum and sometimes I don't. It's uh, white and whiteish clear in color.",
+        "Uh, No blood, and maybe a little yellowish."
+      ]
+    },
+    {
+      "item": "Wheez Inhale",
+      "result_quotes": [
+        "Yeah I have noticed a bit of a wheeze, yes."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fever",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Smell Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Taste Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    }
+  ]
 }

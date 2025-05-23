@@ -1,45 +1,46 @@
 {
-  "precision": 0.7894736842105263,
-  "recall": 0.9375,
-  "f1_score": 0.8571428571428572,
-  "true_positives": 15,
+  "precision": 0.7647058823529411,
+  "recall": 0.8125,
+  "f1_score": 0.787878787878788,
+  "true_positives": 13,
   "false_positives": 4,
-  "false_negatives": 1,
+  "false_negatives": 3,
   "total_items": 32,
   "false_positive_details": [
     {
       "item": "Appetite",
       "result_quotes": [
-        "OK, and how about your appetite?",
         "I feel like I've been eating OK. Regular diet."
-      ]
-    },
-    {
-      "item": "Tired",
-      "result_quotes": [
-        "OK, and have you been feeling more more tired, more fatigued at all recently?",
-        "Yeah, my energy has just been really down. I've been really fatigued.",
-        "I I, I mean, I'm really tired all the time and kind of feel weak that way"
       ]
     },
     {
       "item": "Motor Weakness",
       "result_quotes": [
-        "Do you notice any kind of tingling or numbness in your limbs or any muscular weakness?",
         "I I, I mean, I'm really tired all the time and kind of feel weak that way, but, no muscular weakness."
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "Yeah, my energy has just been really down. I've been really fatigued."
       ]
     },
     {
       "item": "Diet",
       "result_quotes": [
-        "OK, and how about your appetite?",
-        "I feel like I've been eating OK. Regular diet.",
-        "And have you had any significant weight changes recently?",
-        "I'm down like 15 pounds over the last few months and I haven't really made any changes to my diet or exercise"
+        "I feel like I've been eating OK. Regular diet."
       ]
     }
   ],
   "false_negative_details": [
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
     {
       "item": "Paralysis Limb Or Face",
       "truth_quotes": []

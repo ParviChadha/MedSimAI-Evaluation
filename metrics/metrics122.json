@@ -1,11 +1,107 @@
 {
-  "precision": 1.0,
-  "recall": 1.0,
-  "f1_score": 1.0,
-  "true_positives": 24,
-  "false_positives": 0,
-  "false_negatives": 0,
-  "total_items": 43,
-  "false_positive_details": [],
-  "false_negative_details": []
+  "precision": 0.6153846153846154,
+  "recall": 0.3333333333333333,
+  "f1_score": 0.43243243243243246,
+  "true_positives": 8,
+  "false_positives": 5,
+  "false_negatives": 16,
+  "total_items": 48,
+  "false_positive_details": [
+    {
+      "item": "Malaise",
+      "result_quotes": [
+        "\"Yeah, uh now that you mentioned, I do think I I feel a bit feverish.\""
+      ]
+    },
+    {
+      "item": "Ecercise",
+      "result_quotes": [
+        "\"Yeah, I'm just really feeling like I just can't, uh catch my breath even with um some small things around the apartment uh that normally I can do, it's any type of exertion, I just can't catch my breath.\""
+      ]
+    },
+    {
+      "item": "Decreased Physical Activity",
+      "result_quotes": [
+        "\"I, I mean, I haven't been able to do as much with uh being so short of breath, but my energy has been been OK.\""
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "\"Yeah, I'm bringing up sputum uh pretty much um like every time I'm coughing up I'm bringing up some yellowish or greenish uh sputum.\""
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "\"Um yeah, so I I have been I've been diagnosed with COPD uh as well as uh, high blood pressure and uh GERD.\""
+      ]
+    }
+  ],
+  "false_negative_details": [
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Loss Of Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vision Problem",
+      "truth_quotes": []
+    },
+    {
+      "item": "Change In Sleep",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Unexplained Weight Loss",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Constipation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Diarrhoea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    }
+  ]
 }

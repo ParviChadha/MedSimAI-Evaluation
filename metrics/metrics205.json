@@ -1,26 +1,23 @@
 {
-  "precision": 0.875,
-  "recall": 1.0,
-  "f1_score": 0.9333333333333333,
-  "true_positives": 14,
-  "false_positives": 2,
-  "false_negatives": 0,
+  "precision": 0.9285714285714286,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.9285714285714286,
+  "true_positives": 13,
+  "false_positives": 1,
+  "false_negatives": 1,
   "total_items": 28,
   "false_positive_details": [
     {
       "item": "Muscle Ache",
       "result_quotes": [
-        "any muscle ache or general weakness?",
-        "Uh no."
-      ]
-    },
-    {
-      "item": "Aches",
-      "result_quotes": [
-        "any muscle ache or general weakness?",
-        "Uh no."
+        "Medical Student: OK, any muscle ache or general weakness?"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

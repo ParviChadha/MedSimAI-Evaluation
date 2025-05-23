@@ -1,19 +1,35 @@
 {
-  "precision": 0.9166666666666666,
-  "recall": 1.0,
-  "f1_score": 0.9565217391304348,
-  "true_positives": 11,
-  "false_positives": 1,
-  "false_negatives": 0,
+  "precision": 0.7692307692307693,
+  "recall": 0.9090909090909091,
+  "f1_score": 0.8333333333333333,
+  "true_positives": 10,
+  "false_positives": 3,
+  "false_negatives": 1,
   "total_items": 22,
   "false_positive_details": [
     {
       "item": "Sleep Issues",
       "result_quotes": [
-        "Are you having any symptoms at night time?",
-        "Yeah, how they don't happen as much as my daytime symptoms, but I been having it maybe like every other day or like you know, every two days or so."
+        "Are you having any symptoms at night time?"
+      ]
+    },
+    {
+      "item": "Symptom Speedup",
+      "result_quotes": [
+        "You're using it more than normal, so how often were you normally using it?"
+      ]
+    },
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "Are you having any symptoms at night time?"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Colored Excess Sputum",
+      "truth_quotes": []
+    }
+  ]
 }

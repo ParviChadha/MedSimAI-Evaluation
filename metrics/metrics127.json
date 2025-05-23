@@ -1,40 +1,56 @@
 {
-  "precision": 0.7777777777777778,
-  "recall": 1.0,
-  "f1_score": 0.8750000000000001,
-  "true_positives": 14,
-  "false_positives": 4,
-  "false_negatives": 0,
+  "precision": 0.6842105263157895,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.7878787878787878,
+  "true_positives": 13,
+  "false_positives": 6,
+  "false_negatives": 1,
   "total_items": 28,
   "false_positive_details": [
     {
-      "item": "Decreased Physical Activity",
+      "item": "Injury In Chest",
       "result_quotes": [
-        "No? OK, how about on exertion? Like when you walk or run, or you know, does it hurt more or does I mean sorry, does your shortness of breath get worse?",
-        "Oh yeah, it was like going up the stairs, can't really breathe in after."
+        "I just thought maybe I pulled a muscle on this side."
+      ]
+    },
+    {
+      "item": "Coughing Fit",
+      "result_quotes": [
+        "Any coughing associated with that?",
+        "No no."
       ]
     },
     {
       "item": "Aches",
       "result_quotes": [
-        "Well, like last night I kinda had like an ache on my chest",
-        "Uh, no, no, it's like it aches kind of it, but it's all up here and like kind of in my back a little bit."
+        "Like when I breathe in, I get like and it's like an ache. And then if I breathe really deep it feels like a little sharp.",
+        "I mean, I've been trying to to lose weight.",
+        "They told me a year ago I have like high blood pressure so I've been cutting out like salt and trying to walk more."
       ]
     },
     {
-      "item": "Injury In Chest",
+      "item": "Decreased Physical Activity",
       "result_quotes": [
-        "OK and, do you think anything triggered this?",
-        "And you mentioned there weren't any triggers like no trauma to the area."
+        "Oh yeah, it was like going up the stairs, can't really breathe in after."
+      ]
+    },
+    {
+      "item": "Extended Sleep",
+      "result_quotes": [
+        "I slept fine last night."
       ]
     },
     {
       "item": "Lightheadedness",
       "result_quotes": [
-        "Are you experiencing any dizziness or you feeling faint?",
-        "No, just like a I can't get like a good breath."
+        "Are you experiencing any dizziness or you feeling faint?"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Hearing Problem",
+      "truth_quotes": []
+    }
+  ]
 }

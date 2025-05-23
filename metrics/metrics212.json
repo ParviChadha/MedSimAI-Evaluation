@@ -1,61 +1,71 @@
 {
-  "precision": 0.8108108108108109,
-  "recall": 1.0,
-  "f1_score": 0.8955223880597014,
-  "true_positives": 30,
-  "false_positives": 7,
-  "false_negatives": 0,
+  "precision": 0.7631578947368421,
+  "recall": 0.9666666666666667,
+  "f1_score": 0.8529411764705883,
+  "true_positives": 29,
+  "false_positives": 9,
+  "false_negatives": 1,
   "total_items": 59,
   "false_positive_details": [
     {
-      "item": "Sleep Issues",
+      "item": "Chest Pressure",
       "result_quotes": [
-        "OK, um, how has your sleep been?",
-        "My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
-      ]
-    },
-    {
-      "item": "Changes In Memory",
-      "result_quotes": [
-        "Oh OK. Have you been uh confused or concerns with your memory?",
-        "Um, no, I haven't forgotten things. It just feels like I'm really slow at doing things."
-      ]
-    },
-    {
-      "item": "Itching Eyes",
-      "result_quotes": [
-        "OK, and have you had any eye symptoms such as discharge, tearing or or itchiness?",
-        "No, nothing like that."
-      ]
-    },
-    {
-      "item": "Trouble Breathing",
-      "result_quotes": [
-        "Alright, how about shortness of breath?",
-        "No shortness of breath either."
-      ]
-    },
-    {
-      "item": "Fatigue",
-      "result_quotes": [
-        "I see, OK, and how has your energy been? Have you had uh significant fatigue?",
-        "Yes, I would say I am significantly more tired than I used to be."
+        "No."
       ]
     },
     {
       "item": "Ache",
       "result_quotes": [
-        "OK, with this fatigue, have you had any aches and pains?",
         "Some muscle aches, I would say mostly in my arms and just my legs, yeah."
+      ]
+    },
+    {
+      "item": "Changes In Memory",
+      "result_quotes": [
+        "Um, just like the brain fog that I was speaking of, you know. I just don't remember, I remember things, but it's it's like I'm doing everything underwater."
+      ]
+    },
+    {
+      "item": "Fatigue",
+      "result_quotes": [
+        "Yes, I would say I am significantly more tired than I used to be."
+      ]
+    },
+    {
+      "item": "Itching Eyes",
+      "result_quotes": [
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Eye Pain",
+      "result_quotes": [
+        "No, nothing like that."
       ]
     },
     {
       "item": "Muscle Ache",
       "result_quotes": [
-        "OK, with this fatigue, have you had any aches and pains?",
         "Some muscle aches, I would say mostly in my arms and just my legs, yeah."
+      ]
+    },
+    {
+      "item": "Trouble Breathing",
+      "result_quotes": [
+        "No shortness of breath either."
+      ]
+    },
+    {
+      "item": "Sleep Issues",
+      "result_quotes": [
+        "My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Hyperacusis",
+      "truth_quotes": []
+    }
+  ]
 }

@@ -1,80 +1,96 @@
 {
-  "precision": 0.7567567567567568,
-  "recall": 0.9655172413793104,
-  "f1_score": 0.8484848484848485,
-  "true_positives": 28,
-  "false_positives": 9,
-  "false_negatives": 1,
+  "precision": 0.6744186046511628,
+  "recall": 1.0,
+  "f1_score": 0.8055555555555556,
+  "true_positives": 29,
+  "false_positives": 14,
+  "false_negatives": 0,
   "total_items": 58,
   "false_positive_details": [
     {
+      "item": "Loss Of Smell",
+      "result_quotes": [
+        "Um no."
+      ]
+    },
+    {
+      "item": "Sleep Issues",
+      "result_quotes": [
+        "It's affecting my sleep, so I just really like to get this fixed."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "No, no chest pain no."
+      ]
+    },
+    {
+      "item": "Facial Pain",
+      "result_quotes": [
+        "No."
+      ]
+    },
+    {
+      "item": "Flu",
+      "result_quotes": [
+        "Ah you know, it seems to be getting worse, and now I even feel hot like I have a fever or something."
+      ]
+    },
+    {
       "item": "Teary Eyes",
       "result_quotes": [
-        "how about any discharge like mucus or tears from your eyes or ears?",
         "No, nothing like that."
       ]
     },
     {
       "item": "Eye Discharge",
       "result_quotes": [
-        "how about any discharge like mucus or tears from your eyes or ears?",
         "No, nothing like that."
       ]
     },
     {
       "item": "Eye Pain",
       "result_quotes": [
-        "how about any pain around your eyes or ears?",
         "No."
       ]
     },
     {
       "item": "Feeling Tired",
       "result_quotes": [
-        "I've been really tired but I don't know if that's because I can't get any seem to get any sleep.",
-        "And so you have been fatigued?"
-      ]
-    },
-    {
-      "item": "Sleep Issues",
-      "result_quotes": [
-        "It's affecting my sleep, so I just really like to get this fixed.",
-        "and you mentioned the coughs interrupting your sleep."
-      ]
-    },
-    {
-      "item": "Difficulty Sleeping",
-      "result_quotes": [
-        "It's affecting my sleep, so I just really like to get this fixed.",
-        "and you mentioned the coughs interrupting your sleep."
-      ]
-    },
-    {
-      "item": "Appetite",
-      "result_quotes": [
-        "and how is your appetite been?",
-        "My appetite's been OK. I also it's just hard to eat because I'm coughing so much."
-      ]
-    },
-    {
-      "item": "Loss Of Smell",
-      "result_quotes": [
-        "and have you had any loss or of your sense of taste or loss of your sense of smell?",
-        "Um no."
+        "I've been really tired but I don't know if that's because I can't get any seem to get any sleep."
       ]
     },
     {
       "item": "Flu Like Symptom",
       "result_quotes": [
-        "And within the last month or so, have you had any cold like symptoms with a runny nose, headache, sore throat, and or a cough?",
-        "Ah no."
+        "Ah you know, it seems to be getting worse, and now I even feel hot like I have a fever or something."
+      ]
+    },
+    {
+      "item": "Appetite",
+      "result_quotes": [
+        "My appetite's been OK. I also it's just hard to eat because I'm coughing so much."
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "No, it's it's dry. It's very dry."
+      ]
+    },
+    {
+      "item": "Decreased Oral Intake",
+      "result_quotes": [
+        "My appetite's been OK. I also it's just hard to eat because I'm coughing so much."
+      ]
+    },
+    {
+      "item": "Difficulty Sleeping",
+      "result_quotes": [
+        "It's affecting my sleep, so I just really like to get this fixed."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Fatigue Extended",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,17 +1,24 @@
 {
-  "precision": 0.875,
-  "recall": 1.0,
-  "f1_score": 0.9333333333333333,
-  "true_positives": 28,
-  "false_positives": 4,
-  "false_negatives": 0,
+  "precision": 0.8181818181818182,
+  "recall": 0.9642857142857143,
+  "f1_score": 0.8852459016393442,
+  "true_positives": 27,
+  "false_positives": 6,
+  "false_negatives": 1,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Difficulty Breathing",
+      "item": "Lightheadness",
       "result_quotes": [
-        "OK, are you short of breath at all?",
-        "No, I'm not short of breath."
+        "Fainting spells or dizziness?",
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "Um any runny nose or stuffy nose?",
+        "No, no uh runny or stuffy nose."
       ]
     },
     {
@@ -22,20 +29,30 @@
       ]
     },
     {
-      "item": "Sinus Congestion",
+      "item": "Infectious Symptom",
       "result_quotes": [
-        "OK. Um any runny nose or stuffy nose?",
-        "No, no uh runny or stuffy nose."
+        "Yeah so um, that's definitely high on our differential. So, we'll do a couple of things. We'll do a Covid swab on you um just to rule that in or out, you should hear back for, about those results, in 24 to 48 hours."
       ]
     },
     {
-      "item": "Infectious Symptom",
+      "item": "Widespread Pain",
       "result_quotes": [
-        "Any sick contacts recently?",
-        "we do sometimes go to the hospital as well",
-        "Sometimes yeah, we we do see some sick people"
+        "Uh, joint pain?",
+        "No."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "OK, are you short of breath at all?",
+        "No, I'm not short of breath. Um just, it's just the cough."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

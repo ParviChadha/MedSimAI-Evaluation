@@ -1,38 +1,48 @@
 {
-  "precision": 0.9,
-  "recall": 1.0,
-  "f1_score": 0.9473684210526316,
-  "true_positives": 27,
-  "false_positives": 3,
-  "false_negatives": 0,
+  "precision": 0.8387096774193549,
+  "recall": 0.9629629629629629,
+  "f1_score": 0.896551724137931,
+  "true_positives": 26,
+  "false_positives": 5,
+  "false_negatives": 1,
   "total_items": 54,
   "false_positive_details": [
     {
       "item": "Throat Pain",
       "result_quotes": [
-        "I have a sore throat",
-        "are you having any pain with swallowing either liquids or food?",
-        "Um, mostly with foods.",
-        "when did the sore throat start?",
-        "It started up around the same time as my cough."
+        "I have a sore throat and I feel like I can't taste things the same.",
+        "Mostly with foods."
+      ]
+    },
+    {
+      "item": "Chest Tightness",
+      "result_quotes": [
+        "No."
+      ]
+    },
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "A little bit, yes."
       ]
     },
     {
       "item": "Nasal Discharge",
       "result_quotes": [
-        "Any mucous or pain or discharge from either your ears or nose?",
-        "No.",
-        "so your nose hasn't been runny, but has it felt congested?",
-        "umm, no."
+        "No."
       ]
     },
     {
       "item": "Muscle Aches",
       "result_quotes": [
-        "any muscle aches or or body pains?",
         "No."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Discharge",
+      "truth_quotes": []
+    }
+  ]
 }

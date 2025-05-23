@@ -1,48 +1,62 @@
 {
-  "precision": 0.7647058823529411,
+  "precision": 0.65,
   "recall": 0.8666666666666667,
-  "f1_score": 0.8125,
+  "f1_score": 0.7428571428571429,
   "true_positives": 13,
-  "false_positives": 4,
+  "false_positives": 7,
   "false_negatives": 2,
   "total_items": 30,
   "false_positive_details": [
     {
-      "item": "Changes In Appetite",
+      "item": "Decreased Physical Activity",
       "result_quotes": [
-        "in terms of uh, so how much has he has he had to eat or drink in the past uh day or two?",
-        "Uh he's had about like maybe a bottle of his milk, like of that.",
-        "he's not swallowing his food, like we've been feeding him some mashed up food but he's not swallowing it"
-      ]
-    },
-    {
-      "item": "Drowsiness",
-      "result_quotes": [
-        "Do you feel like he's been drowsy uh and um lethargic?",
-        "Um yeah, I feel like he's been a little bit lethargic."
-      ]
-    },
-    {
-      "item": "Cold",
-      "result_quotes": [
-        "he had like a an infection, like some sort of viral infection recently, like about a week back, he had like a runny nose and a cough"
+        "he's been a little bit lethargic. Like today, he's more lethargic."
       ]
     },
     {
       "item": "Sleep Problem",
       "result_quotes": [
-        "Has he been sleeping OK?",
-        "I um no you know what last night he didn't sleep well at all. He was crying the whole night."
+        "last night he didn't sleep well at all. He was crying the whole night."
+      ]
+    },
+    {
+      "item": "Drowsiness",
+      "result_quotes": [
+        "he's been a little bit lethargic. Like today, he's more lethargic."
+      ]
+    },
+    {
+      "item": "Changes In Appetite",
+      "result_quotes": [
+        "he's not taking. He's not he's not taking anything else like he's been so fussy and so like he's unwilling to try anything."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "he had like a runny nose and a cough, but that went away."
+      ]
+    },
+    {
+      "item": "Cold",
+      "result_quotes": [
+        "he had like a runny nose and a cough, but that went away."
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "and he's been very short of breath."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Diarrhoea",
+      "item": "Constipation",
       "truth_quotes": []
     },
     {
-      "item": "Constipation",
+      "item": "Vomiting",
       "truth_quotes": []
     }
   ]

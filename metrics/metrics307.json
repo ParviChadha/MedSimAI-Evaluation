@@ -1,24 +1,24 @@
 {
-  "precision": 0.75,
-  "recall": 1.0,
-  "f1_score": 0.8571428571428571,
-  "true_positives": 33,
-  "false_positives": 11,
-  "false_negatives": 0,
+  "precision": 0.7272727272727273,
+  "recall": 0.9696969696969697,
+  "f1_score": 0.8311688311688312,
+  "true_positives": 32,
+  "false_positives": 12,
+  "false_negatives": 1,
   "total_items": 65,
   "false_positive_details": [
     {
-      "item": "Changes In Memory",
+      "item": "Trouble Breathing",
       "result_quotes": [
-        "Any confusion or memory loss?",
-        "No concerns with my memory."
+        "Well, I've had this cough but the biggest issue is that I've been really short of breath.",
+        "Maybe a 7?",
+        "Um, not really."
       ]
     },
     {
-      "item": "Sweaty",
+      "item": "Changes In Memory",
       "result_quotes": [
-        "Have you been feeling like you have night sweats or chills?",
-        "Um, not really. No, I haven't noticed that."
+        "No concerns with my memory."
       ]
     },
     {
@@ -28,61 +28,65 @@
       ]
     },
     {
-      "item": "Sleep Problem",
+      "item": "Phlegm",
       "result_quotes": [
-        "are you having issues sleeping because of your shortness of breath?",
-        "it's been definitely interrupting my sleep"
+        "Well, I've been bringing up some yellowish green, kind of like phlegm, so um I guess a wet cough.",
+        "Um, yeah, probably more like the size of like a thumb tip."
+      ]
+    },
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "No, I haven't noticed that."
       ]
     },
     {
       "item": "Eye Discharge",
       "result_quotes": [
-        "Any discharge or pain in your eyes or ears?",
         "No, that's been OK."
       ]
     },
     {
-      "item": "Fainting",
+      "item": "Lightheadedness",
       "result_quotes": [
-        "have you experienced any dizziness or fainting spells?",
         "No dizziness and I haven't fainted or anything like that."
-      ]
-    },
-    {
-      "item": "Trouble Breathing",
-      "result_quotes": [
-        "I've been really short of breath",
-        "maybe I guess when I'm really short of breath"
       ]
     },
     {
       "item": "Wheez Inhale",
       "result_quotes": [
-        "and do you hear any wheezing at all?",
-        "maybe I guess when I'm really short of breath, yeah, wheezing, yeah."
+        "No, well, maybe I guess when I'm really short of breath, yeah, wheezing, yeah."
       ]
     },
     {
-      "item": "Phlegm",
+      "item": "Fainting",
       "result_quotes": [
-        "Well, I've been bringing up some yellowish green, kind of like phlegm, so um I guess a wet cough.",
-        "OK, so yeah, yellowish green you said."
+        "No dizziness and I haven't fainted or anything like that."
+      ]
+    },
+    {
+      "item": "Sleep Problem",
+      "result_quotes": [
+        "Uh, well I can't tell if it's that or the cough. I mean between those two things it's been definitely interrupting my sleep."
       ]
     },
     {
       "item": "Aches",
       "result_quotes": [
-        "And how about um, muscle aches or any sort of body aches?",
         "Alright, yeah, maybe a bit, kind of, and weak."
       ]
     },
     {
       "item": "Loss Of Taste",
       "result_quotes": [
-        "have you experienced any loss of taste?",
-        "No loss of taste"
+        "No loss of taste, but I've noticed, yeah, my smell has been kind of funny."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Discharge",
+      "truth_quotes": []
+    }
+  ]
 }

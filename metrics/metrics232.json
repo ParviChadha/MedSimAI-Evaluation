@@ -1,30 +1,38 @@
 {
-  "precision": 0.7857142857142857,
-  "recall": 0.9565217391304348,
-  "f1_score": 0.8627450980392156,
-  "true_positives": 22,
-  "false_positives": 6,
-  "false_negatives": 1,
+  "precision": 0.7419354838709677,
+  "recall": 1.0,
+  "f1_score": 0.8518518518518519,
+  "true_positives": 23,
+  "false_positives": 8,
+  "false_negatives": 0,
   "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Stuffy Nose",
+      "item": "Tachypnea",
       "result_quotes": [
-        "Have a stuffy nose or runny nose?",
-        "I do feel a bit stuffy, but it's not too bad."
+        "every time I'm moving around I like have to sit down and catch my breath, which is pretty abnormal for me."
       ]
     },
     {
-      "item": "Wheez",
+      "item": "Stuffy Nose",
       "result_quotes": [
-        "I do find myself wheezing a little over the last few days as well."
+        "And have you had a stuffy nose or runny nose?",
+        "I do feel a bit stuffy, but it's not too bad."
       ]
     },
     {
       "item": "Lung Complications",
       "result_quotes": [
-        "Yeah, they said I had some kind of lung infection at that time",
-        "I've had COPD for more than... I guess more than 10 years now"
+        "I did a couple of years ago, I had to be admitted because I had some shortness of breath.",
+        "Yeah, they said I had some kind of lung infection at that time, so they gave me some antibiotics while I was in the hospital.",
+        "Yeah so I've had COPD for more than... I guess more than 10 years now so I think it just got a lot worse with the infection."
+      ]
+    },
+    {
+      "item": "Headache",
+      "result_quotes": [
+        "Headaches?",
+        "No headaches."
       ]
     },
     {
@@ -34,23 +42,25 @@
       ]
     },
     {
-      "item": "Asthma",
+      "item": "Dysuria",
       "result_quotes": [
-        "did they ever say to you that you had anything else like asthma, COPD, any longstanding conditions?"
+        "Changes to urinating?",
+        "No, that's all fine"
       ]
     },
     {
-      "item": "Headache",
+      "item": "Asthma",
       "result_quotes": [
-        "Headaches?",
-        "No headaches."
+        "I do have some high blood pressure which I take, I think I take one of these medications called metoprolol.",
+        "Yeah, so I do have three like different puffers I take. I can't remember the name. I do have some puffers I don't take. I've been using them right now. It has been helping with some of my shortness of breath, but I've definitely been having to use them way more than I used to."
+      ]
+    },
+    {
+      "item": "Wheez",
+      "result_quotes": [
+        "I would say it's a bit harsh at times. I wouldn't say it's barky or muffled. I do find myself wheezing a little over the last few days as well."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Wheez Inhale",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

@@ -1,54 +1,87 @@
 {
-  "precision": 0.8,
-  "recall": 1.0,
-  "f1_score": 0.888888888888889,
-  "true_positives": 28,
-  "false_positives": 7,
-  "false_negatives": 0,
+  "precision": 0.7027027027027027,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.7999999999999999,
+  "true_positives": 26,
+  "false_positives": 11,
+  "false_negatives": 2,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Sleeping Issues",
-      "result_quotes": [
-        "OK, um, how has your sleep been?"
-      ]
-    },
-    {
-      "item": "Hearing Problem",
-      "result_quotes": [
-        "OK, and how about any sensitivity to light when you're you're seeing it or sensitivity to sound?"
-      ]
-    },
-    {
-      "item": "Diabetes",
-      "result_quotes": [
-        "OK, so no diabetes, high blood pressure, anything like that?"
-      ]
-    },
-    {
       "item": "Sleep Issue",
       "result_quotes": [
-        "OK, um, how has your sleep been?"
+        "\"My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there.\""
       ]
     },
     {
       "item": "Sleep",
       "result_quotes": [
-        "OK, um, how has your sleep been?"
+        "\"My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there.\""
       ]
     },
     {
-      "item": "Tired",
+      "item": "Chest Pressure",
       "result_quotes": [
-        "Yes, I would say I am significantly more tired than I used to be."
+        "\"No.\""
       ]
     },
     {
       "item": "Difficulty Breathing",
       "result_quotes": [
-        "Alright, how about shortness of breath?"
+        "\"No shortness of breath either.\""
+      ]
+    },
+    {
+      "item": "Pregnancy",
+      "result_quotes": [
+        "\"Sure, I I just my husband, um we we don't use protection. But I'm on the birth control pill.\""
+      ]
+    },
+    {
+      "item": "Malaise",
+      "result_quotes": [
+        "\"Yes, I would say I am significantly more tired than I used to be.\""
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "\"No.\""
+      ]
+    },
+    {
+      "item": "Chest Tightness",
+      "result_quotes": [
+        "\"No.\""
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "\"Yes, I would say I am significantly more tired than I used to be.\""
+      ]
+    },
+    {
+      "item": "Sleeping Issues",
+      "result_quotes": [
+        "\"My sleep has been pretty normal. I go to bed around the same time, wake up around the same time. Yeah, I'd say that there's no issue there.\""
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "\"So with the acuity of your symptoms, starting with the last few days and getting worse, especially with a fever which we now have documented of 38.8 and a kind of feeling, uh, tired with aches and pains and the headache, I am concerned that you have possibly a viral infection, and one of those possibilities could be COVID-19, but also it could be the influenza. It could be something like the common cold, such as adenovirus.\""
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Photophobia",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hyperacusis",
+      "truth_quotes": []
+    }
+  ]
 }

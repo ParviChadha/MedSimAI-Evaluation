@@ -1,11 +1,26 @@
 {
-  "precision": 1.0,
+  "precision": 0.8571428571428571,
   "recall": 1.0,
-  "f1_score": 1.0,
+  "f1_score": 0.923076923076923,
   "true_positives": 12,
-  "false_positives": 0,
+  "false_positives": 2,
   "false_negatives": 0,
   "total_items": 24,
-  "false_positive_details": [],
+  "false_positive_details": [
+    {
+      "item": "Colored Excess Sputum",
+      "result_quotes": [
+        "\"Uh I feel like it was kind of harder to get a whole breath, um so yeah, yeah, I guess.\"",
+        "\"Uh no like I feel a little more hoarse and like there's maybe some more phlegm, like I'm clearing my throat more, but I haven't actually been coughing.\""
+      ]
+    },
+    {
+      "item": "Sensation Of Chest",
+      "result_quotes": [
+        "\"So I understand you're having some chest tightness?\"",
+        "\"Yeah, it's uh, for the last maybe three days, um it's not really pain, not in any specific spot, it just feels a bit tight in my chest area when I breathe in especially, and it just gets a bit harder to breathe and it feels more tight like especially when I go for my walks, which I do everyday, uh I try to walk my dog.\""
+      ]
+    }
+  ],
   "false_negative_details": []
 }

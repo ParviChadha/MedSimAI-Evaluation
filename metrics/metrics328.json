@@ -1,37 +1,51 @@
 {
-  "precision": 0.8846153846153846,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.9199999999999999,
-  "true_positives": 23,
+  "precision": 0.8695652173913043,
+  "recall": 0.8333333333333334,
+  "f1_score": 0.851063829787234,
+  "true_positives": 20,
   "false_positives": 3,
-  "false_negatives": 1,
+  "false_negatives": 4,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Low Mood",
+      "item": "Constipation",
       "result_quotes": [
-        "And how has her mood been?",
-        "She's been pretty fussy"
-      ]
-    },
-    {
-      "item": "Nasal Congestion",
-      "result_quotes": [
-        "and has she had a runny nose?",
-        "Um yeah, now that you mention it, yeah, she did have a runny nose."
+        "Alright, and any changes to um, like urinary habits as well?",
+        "Uh no, no changes there."
       ]
     },
     {
       "item": "Decreased Fluid Intake",
       "result_quotes": [
-        "Has she been eating and drinking okay?",
-        "Yeah, we've managed to get her to drink and eat okay."
+        "Yeah, we've managed to get her to drink and eat okay. Um, so, in that sense, no changes there.",
+        "Okay, how many diapers is she, how many wet diapers per day?",
+        "Uh, about five."
+      ]
+    },
+    {
+      "item": "Nasal Congestion",
+      "result_quotes": [
+        "Um yeah, now that you mention it, yeah, she did have a runny nose. Um, it seems to be less now, but she did have a lot a few days ago.",
+        "Okay, and did that start around the same time as the cough and, and fever?",
+        "Yeah."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Watery Eyes",
+      "item": "Delayed Growth Milestones",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Hemoptysis",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
       "truth_quotes": []
     }
   ]

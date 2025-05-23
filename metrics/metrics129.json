@@ -1,12 +1,26 @@
 {
-  "precision": 0.782608695652174,
-  "recall": 1.0,
-  "f1_score": 0.878048780487805,
-  "true_positives": 36,
-  "false_positives": 10,
-  "false_negatives": 0,
+  "precision": 0.7608695652173914,
+  "recall": 0.9722222222222222,
+  "f1_score": 0.853658536585366,
+  "true_positives": 35,
+  "false_positives": 11,
+  "false_negatives": 1,
   "total_items": 70,
   "false_positive_details": [
+    {
+      "item": "Nasal Discharge",
+      "result_quotes": [
+        "OK, for sure. Uhm, could you describe the discharge?",
+        "OK, so no yellow, green or or red to indicate any blood?"
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "And are you healthy? Or, or have you been diagnosed with any medical conditions in the past?",
+        "OK, and any allergies like to any medications or any seasonal allergies? Like do you get symptoms like this that change throughout the year?"
+      ]
+    },
     {
       "item": "Taste Problem",
       "result_quotes": [
@@ -20,21 +34,15 @@
       ]
     },
     {
-      "item": "Lightheadedness",
+      "item": "Sleep Issues",
       "result_quotes": [
-        "Have you had any lightheadedness or dizziness?"
+        "OK, and you mentioned, so with the obstruction, have you had difficulties breathing?"
       ]
     },
     {
-      "item": "Aches",
+      "item": "Difficulty Breathing",
       "result_quotes": [
-        "Have you had any muscle aches or joint pains?"
-      ]
-    },
-    {
-      "item": "Dysuria",
-      "result_quotes": [
-        "Have you had any painful urination or urinary frequency?"
+        "OK, and you mentioned, so with the obstruction, have you had difficulties breathing?"
       ]
     },
     {
@@ -50,24 +58,28 @@
       ]
     },
     {
-      "item": "Nasal Discharge",
+      "item": "Aches",
       "result_quotes": [
-        "Uhm, could you describe the discharge?",
-        "Hi I'm, I have been having this nasal obstruction and discharge for the past week"
+        "Have you had any muscle aches or joint pains?"
       ]
     },
     {
-      "item": "Allergic Rhinitis",
-      "result_quotes": [
-        "any seasonal allergies? Like do you get symptoms like this that change throughout the year?"
-      ]
-    },
-    {
-      "item": "Difficulty Breathing",
+      "item": "Sleep",
       "result_quotes": [
         "OK, and you mentioned, so with the obstruction, have you had difficulties breathing?"
       ]
+    },
+    {
+      "item": "Dysuria",
+      "result_quotes": [
+        "Have you had any painful urination or urinary frequency?"
+      ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    }
+  ]
 }

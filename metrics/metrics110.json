@@ -1,24 +1,28 @@
 {
-  "precision": 0.8888888888888888,
+  "precision": 0.8421052631578947,
   "recall": 1.0,
-  "f1_score": 0.9411764705882353,
+  "f1_score": 0.9142857142857143,
   "true_positives": 16,
-  "false_positives": 2,
+  "false_positives": 3,
   "false_negatives": 0,
   "total_items": 32,
   "false_positive_details": [
     {
       "item": "Fainting",
       "result_quotes": [
-        "Did you, were you, were you drunk and did you pass out?",
-        "Yeah, I think so."
+        "Yeah, I think so. My, my friends, uh yeah, that's what my friends were, were saying anyway."
       ]
     },
     {
       "item": "Nasal Discharge",
       "result_quotes": [
-        "Any, uh, runny nose?",
         "No, it's really, no."
+      ]
+    },
+    {
+      "item": "Taste Loss",
+      "result_quotes": [
+        "Yeah, I've been bringing up, uh, sputum that's uh, It's just, it leaves a really bad taste in my mouth when bringing it up."
       ]
     }
   ],

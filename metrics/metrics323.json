@@ -1,38 +1,50 @@
 {
-  "precision": 0.8076923076923077,
+  "precision": 0.7777777777777778,
   "recall": 0.9545454545454546,
-  "f1_score": 0.875,
+  "f1_score": 0.8571428571428572,
   "true_positives": 21,
-  "false_positives": 5,
+  "false_positives": 6,
   "false_negatives": 1,
   "total_items": 44,
   "false_positive_details": [
     {
       "item": "Feeling Tired",
       "result_quotes": [
-        "OK, any increased fatigue or just feeling tired overall?",
+        "OK, and have you noticed at all any increased fatigue or just feeling tired overall?",
         "Yeah, these last few months by energy has been low. I I've been feeling a lot more tired than usual."
-      ]
-    },
-    {
-      "item": "Sleep Issue",
-      "result_quotes": [
-        "OK and have you been getting enough sleep?",
-        "Uh yeah I would say or sorry no my sleep has been has been poor"
       ]
     },
     {
       "item": "Phlegm",
       "result_quotes": [
-        "I always seem to bring up some gunk on my when I cough.",
         "OK, and what what colour is this gunk?",
-        "It's green, sometimes yellowish."
+        "It's green, sometimes yellowish.",
+        "OK, and how much of the gunk or the sputum would you say you bring up every day?",
+        "Uh a couple of kleenexes. Um, I'll use, but so not that much."
+      ]
+    },
+    {
+      "item": "Vaccine Related Reaction",
+      "result_quotes": [
+        "OK and have you been exposed to anyone with tuberculosis in the past?",
+        "Um no, I actually had a tuberculosis test for work and it was normal."
+      ]
+    },
+    {
+      "item": "Sleep Issue",
+      "result_quotes": [
+        "OK, and have you been getting enough sleep?",
+        "Uh yeah I would say or sorry no my sleep has been has been poor"
       ]
     },
     {
       "item": "Infectious Symptom",
       "result_quotes": [
-        "And have you had any recent infections at all?",
+        "Have you recently traveled outside of the country?",
+        "No, I haven't traveled anywhere.",
+        "OK, and have you noticed any other symptoms like fevers or chills?",
+        "No fever and no chills.",
+        "OK, any recent infections at all?",
         "No recent infections."
       ]
     },
@@ -46,7 +58,7 @@
   ],
   "false_negative_details": [
     {
-      "item": "Fatigue Sleep",
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     }
   ]

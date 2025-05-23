@@ -15,48 +15,44 @@
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "And do you have any chest pain or chest pressure?",
-        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain."
+        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain.",
+        "I would say, maybe six. It feels pretty sharp when it happens and it goes away after a few minutes.",
+        "Uh yeah, I kind of feel it, Yeah, just over on the right side of the sternum."
       ]
     },
     "chest_pressure": {
       "assessed": "Yes",
       "example_quotes": [
-        "And do you have any chest pain or chest pressure?"
+        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had fevers or chills?",
         "I have felt hot but no chills."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "And has it been a dry cough or wet cough?",
         "I've been bringing up, some, like, uh, whitish sputum. It's like, yeah, whitish or clear."
       ]
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Constipation?",
         "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Do you have a cough?",
         "I did have a, uh, yeah, I've had a cough as well, over these last few days."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any diarrhea?",
         "No."
       ]
     },
@@ -65,20 +61,22 @@
       "example_quotes": []
     },
     "dysphagia": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, it's felt a little itchy I guess but no pain with swallowing."
+      ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
         "I've been having difficulties breathing over these last few days.",
-        "it's just more difficult to breathe, uh, most of the time."
+        "It has, maybe gotten a little bit worse, but not, maybe, a little worse.",
+        "Uhm, not really, it's kind of, I just feel like, it's just more difficult to breathe, uh, most of the time."
       ]
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "What about, any redness in your eyes or any congestion in your nose?",
         "Uh, I haven't noticed anything like that."
       ]
     },
@@ -89,28 +87,24 @@
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "What about fatigue or muscle aches?",
-        "I've been fatigued. No muscle aches."
+        "I've been fatigued."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had fevers or chills?",
         "I have felt hot but no chills."
       ]
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Uhm, alright, have you had a headache?",
-        "Uh, no."
+        "No."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "And you haven't seen blood anytime right? In your sputum?",
         "No."
       ]
     },
@@ -125,13 +119,14 @@
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "What about, any redness in your eyes or any congestion in your nose?",
         "Uh, I haven't noticed anything like that."
       ]
     },
     "nasal_discharge": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, I haven't noticed anything like that."
+      ]
     },
     "nause": {
       "assessed": "No",
@@ -140,15 +135,15 @@
     "odynophagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had a sore throat?",
         "Uh, it's felt a little itchy I guess but no pain with swallowing."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any pain in your belly?",
-        "No."
+        "Yeah, when I like, uh, take a deep breath or after after I cough I've been having some chest pain.",
+        "I would say, maybe six. It feels pretty sharp when it happens and it goes away after a few minutes.",
+        "Uh yeah, I kind of feel it, Yeah, just over on the right side of the sternum."
       ]
     },
     "rectal_bleeding": {
@@ -166,7 +161,6 @@
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Changes in your sense of smell?",
         "No."
       ]
     },
@@ -177,22 +171,24 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had a sore throat?",
         "Uh, it's felt a little itchy I guess but no pain with swallowing."
       ]
     },
     "sweaty": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "I have felt hot but no chills."
+      ]
     },
     "taste_loss": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No."
+      ]
     },
     "taste_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your sense of taste?",
         "No."
       ]
     },
@@ -203,8 +199,7 @@
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in your, uh, any changes when you pee?",
-        "Uh, nothing there."
+        "No."
       ]
     },
     "vaccine_related_reaction": {
@@ -216,8 +211,10 @@
       "example_quotes": []
     },
     "widespread_pain": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No muscle aches."
+      ]
     }
   }
 }

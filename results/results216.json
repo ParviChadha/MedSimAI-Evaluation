@@ -1,79 +1,48 @@
 {
   "medical_history_assessed": {
-    "body_ache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "change_in_taste": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "changes_in_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "How has this appetite been?",
         "Um not the greatest, no.",
-        "OK, so not not eating, eating as much or drinking as much?",
         "Yeah."
       ]
     },
-    "grunting": {
+    "discharge": {
       "assessed": "No",
       "example_quotes": []
     },
-    "lightheadedness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
+    "hyperacusis": {
       "assessed": "No",
       "example_quotes": []
     },
     "tachypnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "seems like he's breathing too fast",
-        "over the past couple of hours it seems like he's having a hard time breathing. He's breathing too fast."
+        "He's breathing too fast."
       ]
     },
-    "throat_pain": {
+    "apnea_at_birth": {
       "assessed": "No",
       "example_quotes": []
     },
     "behavior_changes": {
       "assessed": "Yes",
       "example_quotes": [
-        "How has his behaviour been?",
         "He's been very, very fussy.",
-        "OK and inconsolable, would you say yes?",
         "Yeah."
       ]
     },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "And any bowel problems?",
         "No, not that we noticed."
       ]
-    },
-    "chest_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "chills": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, so with this cough has there has there been any sputum come up?",
         "Um yes yeah yellow sputum yeah"
       ]
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "constipation": {
       "assessed": "No",
@@ -82,105 +51,129 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's had this cough",
-        "I guess he was coughing first"
+        "Um so. I guess he was coughing first and then we took his temperature and it seemed like he had a fever."
       ]
     },
-    "diarrhoea": {
+    "coughing_fit": {
       "assessed": "No",
       "example_quotes": []
     },
-    "difficulty_breathing": {
+    "decreased_oral_intake": {
       "assessed": "Yes",
       "example_quotes": [
-        "seems like he's breathing too fast",
-        "over the past couple of hours it seems like he's having a hard time breathing",
-        "in regards to the difficulties breathing"
+        "Um not the greatest, no.",
+        "Yeah."
       ]
     },
-    "eye_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "fainting": {
+    "dizzyness": {
       "assessed": "No",
       "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "he's had this cough, fever",
-        "then we took his temperature and it seemed like he had a fever. It was over 38",
-        "OK and how was the fever checked?"
+        "Um so. I guess he was coughing first and then we took his temperature and it seemed like he had a fever. It was over 38 and then over the past couple of hours it seems like he's having a hard time breathing.",
+        "We checked twice. We checked on the first day and then again last night."
       ]
+    },
+    "foreign_body_intake": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "And then any concerns with either his vision or or hearing?",
         "No."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK any blood that you notice in the sputum?",
         "No."
       ]
+    },
+    "high_blood_pressure": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "inconsolable": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK and inconsolable, would you say yes?",
+        "He's been very, very fussy.",
         "Yeah."
       ]
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "How has this appetite been?",
-        "Um not the greatest, no."
+        "Um not the greatest, no.",
+        "Yeah."
       ]
     },
-    "palpitation": {
+    "mucous_building": {
       "assessed": "No",
       "example_quotes": []
     },
-    "swelling": {
+    "muscle_ache": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "nause": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "physical_or_emotional_abuse_at_home": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No.",
+        "No."
+      ]
+    },
+    "self_hurt": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "smell_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "taste_loss": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "tearing": {
       "assessed": "No",
       "example_quotes": []
     },
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "And then any concerns with either his vision or or hearing?",
         "No."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any vomiting?",
         "No."
       ]
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "in regards to the difficulties breathing as there been any like changes to like is there been any noisy breathing?",
         "I would say he sounds slightly wheezy."
       ]
     },
     "wheez_inhale": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you been hearing any like whistling sounds when, when he's breathing in?",
-        "I wouldn't say whistling no, no."
+        "No, no."
       ]
     }
-  }
+  },
+  "differential_diagnosis": [
+    "Viral respiratory infection (e.g., bronchiolitis)",
+    "Bacterial pneumonia",
+    "Sepsis",
+    "Meningitis"
+  ]
 }

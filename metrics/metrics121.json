@@ -1,17 +1,59 @@
 {
-  "precision": 0.7777777777777778,
+  "precision": 0.6829268292682927,
   "recall": 1.0,
-  "f1_score": 0.8750000000000001,
+  "f1_score": 0.8115942028985507,
   "true_positives": 28,
-  "false_positives": 8,
+  "false_positives": 13,
   "false_negatives": 0,
   "total_items": 55,
   "false_positive_details": [
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "I just have the osteoarthritis."
+      ]
+    },
     {
       "item": "Tired",
       "result_quotes": [
         "Any fatigue? Just feeling more tired today?",
         "Maybe a little bit."
+      ]
+    },
+    {
+      "item": "Smell Problem",
+      "result_quotes": [
+        "I also noticed that I have, my breath just smells really bad. I don't know why.",
+        "This morning I would say."
+      ]
+    },
+    {
+      "item": "Sleep Problem",
+      "result_quotes": [
+        "Any sleep or appetite issues?",
+        "No."
+      ]
+    },
+    {
+      "item": "Lightheadness",
+      "result_quotes": [
+        "How about dizziness uh, any fainting spells?",
+        "No."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "Have you been having any cold-like symptoms before the two days, like in the last week, like runny nose, sore throat?",
+        "No. I was, like, I was absolutely fine."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "I just started having, um, difficulty with breathing um, starting yesterday.",
+        "For the shortness of breath, can you describe it a little bit? Is it, are you having trouble taking deep breaths, or are you breathing faster? Can you describe it?",
+        "Yeah, I just feel like um, I'm getting out of breath really easily, just like um, walking even, walking to the kitchen from my bedroom, I'm getting short of breath and it, it just started yesterday morning, it's so odd."
       ]
     },
     {
@@ -22,47 +64,38 @@
       ]
     },
     {
-      "item": "Sleep Problem",
+      "item": "Sleeping Issues",
       "result_quotes": [
-        "Okay, any sleep or appetite issues?",
+        "Any sleep or appetite issues?",
+        "No."
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "And uh, are you coughing up any blood by any chance?",
+        "No."
+      ]
+    },
+    {
+      "item": "Soreness",
+      "result_quotes": [
+        "How about sore throat, headaches, muscle pain, anything like that?",
         "No."
       ]
     },
     {
       "item": "Behavior Changes",
       "result_quotes": [
-        "And did your husband tell you anything, like that has changed in your behaviour at all uh, recently?",
         "He just said that I was, I was just extremely drowsy yesterday and I was very hard to wake up."
       ]
     },
     {
-      "item": "Throat Pain",
+      "item": "Lung Complications",
       "result_quotes": [
-        "How about sore throat, headaches, muscle pain, anything like that?",
-        "No.",
-        "Have you been having any cold-like symptoms before the two days, like in the last week, like runny nose, sore throat?",
-        "No. I was, like, I was absolutely fine."
-      ]
-    },
-    {
-      "item": "Difficulty Breathing",
-      "result_quotes": [
-        "I just started having, um, difficulty with breathing um, starting yesterday.",
-        "For the shortness of breath, can you describe it a little bit? Is it, are you having trouble taking deep breaths, or are you breathing faster? Can you describe it?"
-      ]
-    },
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "How about sore throat, headaches, muscle pain, anything like that?",
-        "No."
-      ]
-    },
-    {
-      "item": "Sleeping Issues",
-      "result_quotes": [
-        "Okay, any sleep or appetite issues?",
-        "No."
+        "I just started having, um, difficulty with breathing um, starting yesterday. And I also developed this cough um, yesterday morning.",
+        "For the shortness of breath, can you describe it a little bit? Is it, are you having trouble taking deep breaths, or are you breathing faster? Can you describe it?",
+        "Yeah, I just feel like um, I'm getting out of breath really easily, just like um, walking even, walking to the kitchen from my bedroom, I'm getting short of breath and it, it just started yesterday morning, it's so odd."
       ]
     }
   ],

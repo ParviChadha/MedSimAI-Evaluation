@@ -1,12 +1,19 @@
 {
-  "precision": 0.88,
-  "recall": 0.9565217391304348,
-  "f1_score": 0.9166666666666666,
-  "true_positives": 22,
-  "false_positives": 3,
-  "false_negatives": 1,
+  "precision": 0.8518518518518519,
+  "recall": 1.0,
+  "f1_score": 0.92,
+  "true_positives": 23,
+  "false_positives": 4,
+  "false_negatives": 0,
   "total_items": 45,
   "false_positive_details": [
+    {
+      "item": "Difficulty Sleeping",
+      "result_quotes": [
+        "Any issues with your sleep or appetite?",
+        "Uh, no."
+      ]
+    },
     {
       "item": "Infection",
       "result_quotes": [
@@ -17,24 +24,19 @@
       ]
     },
     {
-      "item": "Sleep Issues",
+      "item": "Tachypnea",
       "result_quotes": [
-        "Any issues with your sleep or appetite?",
-        "Uh, no."
+        "How much can you walk or run until you feel the coughing or shortness of breath?",
+        "About like 200 meters."
       ]
     },
     {
-      "item": "Difficulty Sleeping",
+      "item": "Sleep Issues",
       "result_quotes": [
         "Any issues with your sleep or appetite?",
         "Uh, no."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Coughing Fit",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

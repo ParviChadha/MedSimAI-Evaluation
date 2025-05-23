@@ -1,47 +1,45 @@
 {
-  "precision": 0.8076923076923077,
-  "recall": 1.0,
-  "f1_score": 0.8936170212765957,
-  "true_positives": 21,
-  "false_positives": 5,
-  "false_negatives": 0,
+  "precision": 0.8260869565217391,
+  "recall": 0.9047619047619048,
+  "f1_score": 0.8636363636363636,
+  "true_positives": 19,
+  "false_positives": 4,
+  "false_negatives": 2,
   "total_items": 42,
   "false_positive_details": [
     {
       "item": "Taste Problem",
       "result_quotes": [
-        "Um a loss of taste?",
         "Nope."
-      ]
-    },
-    {
-      "item": "Muscle Ache",
-      "result_quotes": [
-        "Any muscle aches or or joint aches or or body aches?",
-        "No, nothing like that."
-      ]
-    },
-    {
-      "item": "Muscle Aches",
-      "result_quotes": [
-        "Any muscle aches or or joint aches or or body aches?",
-        "No, nothing like that."
       ]
     },
     {
       "item": "Decreased Activity",
       "result_quotes": [
-        "how has your energy been? Have you been experiencing fatigue?",
-        "when it gets really bad then I can't really step out of the house, but other than that I feel like my energy's still there."
+        "When it gets really bad then I can't really step out of the house, but other than that I feel like my energy's still there."
       ]
     },
     {
-      "item": "Sore",
+      "item": "Muscle Aches",
       "result_quotes": [
-        "have you had a runny nose or or a sore throat?",
-        "Nope."
+        "No, nothing like that."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "No, nothing like that."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Ache",
+      "truth_quotes": []
+    }
+  ]
 }

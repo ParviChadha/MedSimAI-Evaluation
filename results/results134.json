@@ -1,84 +1,101 @@
 {
   "medical_history_assessed": {
+    "grunting": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "hyperacusis": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "allergic_rhinitis": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um maybe like a slight runny nose, yeah."
+      ]
+    },
+    "anxious": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "asthma": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you having any kind of changes in your bowel movements at all? Any constipation or diarrhea?",
+        "Any changes in your bowel movements at all? Any constipation or diarrhea?",
         "No."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "now my chest hurts",
-        "where would you say you're getting the chest pain?",
-        "what kind of pain is it? Is it like a sharp pain, stabbing pain, aching pain?"
+        "Um, it's mostly like centre of my chest, like, close to my, like I'd say it's like it feels like, it's not my like, it doesn't feel like it's inside. It feels more like it's pushing up on, on my chest wall.",
+        "Um, it's a, it's, it's like a, I don't know. I guess it's a sharp pain when I try to take a deep breath in."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been having chills",
-        "have you had any kind of fevers or chills?",
-        "I've had chills for sure"
+        "Uh, yeah, I've, I've had chills for sure. I felt hot. I haven't actually taken my temperature, so I'm not too sure about if I actually have a fever.",
+        "They've been going on for the past three days."
       ]
     },
     "cold": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you recently had a cold, like cold-like symptoms at all within the last few weeks?",
-        "yeah, I guess the runny nose"
+        "Um, yeah, I guess the runny nose. Um, I've had on and off for the past like 7 days."
       ]
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you having any kind of changes in your bowel movements at all? Any constipation or diarrhea?",
+        "Any changes in your bowel movements at all? Any constipation or diarrhea?",
         "No."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you have any kind of cough at all?",
         "No cough."
       ]
     },
-    "dehydration": {
+    "decreased_activity": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "delayed_growth_milestones": {
       "assessed": "No",
       "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you having any kind of changes in your bowel movements at all? Any constipation or diarrhea?",
+        "Any changes in your bowel movements at all? Any constipation or diarrhea?",
         "No."
       ]
     },
-    "discharge": {
+    "difficulty_talking": {
       "assessed": "No",
       "example_quotes": []
     },
     "dizzyness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you experienced any kind of um dizziness or fainting episodes?",
-        "no."
+        "Have you experienced any kind of dizziness or fainting episodes?",
+        "Uh, no."
       ]
     },
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I am feeling short of breath",
-        "can you describe your shortness of breath a little bit?",
-        "do you get short of breath when laying down at all?"
+        "It's mostly when I'm trying to take a deep breath in.",
+        "Um, it's mostly like centre of my chest, like, close to my, like I'd say it's like it feels like, it's not my like, it doesn't feel like it's inside. It feels more like it's pushing up on, on my chest wall."
       ]
     },
-    "dysuria": {
+    "ear_problem": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -86,43 +103,20 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "eye_pain": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you experienced any kind of um dizziness or fainting episodes?",
-        "no."
-      ]
-    },
-    "fatigue": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I get tired with the shortness of breath"
+        "Have you experienced any kind of dizziness or fainting episodes?",
+        "Uh, no."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any kind of fevers or chills?",
-        "I felt hot. I haven't actually taken my temperature"
+        "Uh, yeah, I've, I've had chills for sure. I felt hot. I haven't actually taken my temperature, so I'm not too sure about if I actually have a fever."
       ]
     },
-    "headache": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hearing_problem": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "hemoptysis": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
+    "inconsolable": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -130,10 +124,10 @@
       "assessed": "Yes",
       "example_quotes": [
         "Any changes in your appetite at all?",
-        "no."
+        "Uh, no."
       ]
     },
-    "memory_loss": {
+    "lymphadenitis": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -141,11 +135,14 @@
       "assessed": "No",
       "example_quotes": []
     },
+    "muscle_aches": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you have any kind of other symptoms, like runny nose, sore throat",
-        "maybe like a slight runny nose"
+        "Um maybe like a slight runny nose, yeah."
       ]
     },
     "nausea": {
@@ -158,15 +155,15 @@
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you, um, find that your heart is racing at all?",
-        "no, nothing like that."
+        "And do you find that your heart is racing at all?",
+        "Uh no, nothing like that."
       ]
     },
     "paralysis_general": {
       "assessed": "No",
       "example_quotes": []
     },
-    "photophobia": {
+    "paralysis_limb_or_face": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -174,69 +171,72 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "redness": {
+    "rigor": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you have any kind of other symptoms, like runny nose, sore throat",
-        "maybe like a slight runny nose, yeah"
+        "Um maybe like a slight runny nose, yeah."
       ]
     },
     "sleep_dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you have to wake up at night to catch your breath at all?",
+        "And do you have to wake up at night to catch your breath at all?",
         "No, nothing like that."
       ]
     },
     "sleep_hydrosis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Are you having any night sweats?",
+        "Any night sweats?",
         "No."
       ]
     },
-    "slurred_speech": {
+    "sleep_issue": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you experienced any kind of loss of your sense of taste or smell?",
+        "I'm sorry I forgot to ask you this specifically, have you experienced any kind of loss of your sense of taste or smell?",
         "No."
       ]
-    },
-    "sneezing": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you have any kind of other symptoms, like runny nose, sore throat, anything like that?"
+        "Any kind of runny nose, sore throat, anything like that?",
+        "Uh maybe like a slight runny nose, yeah."
+      ]
+    },
+    "speech_volume": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sweaty": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any night sweats?",
+        "No."
       ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "do you have any kind of swelling in your legs, hands, anywhere?",
+        "And do you have any kind of swelling in your legs, hands, anywhere?",
         "No."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you experienced any kind of loss of your sense of taste or smell?",
+        "I'm sorry I forgot to ask you this specifically, have you experienced any kind of loss of your sense of taste or smell?",
         "No."
       ]
-    },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
@@ -252,6 +252,10 @@
         "No."
       ]
     },
+    "vaginal_discomfort": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "vision_problem": {
       "assessed": "No",
       "example_quotes": []
@@ -262,14 +266,13 @@
         "Any nausea or vomiting?",
         "No."
       ]
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "weight_gain": {
-      "assessed": "No",
-      "example_quotes": []
     }
-  }
+  },
+  "differential_diagnosis": [
+    "COVID-19",
+    "Pneumonia (viral or bacterial)",
+    "Pulmonary embolism",
+    "Myocardial infarction",
+    "Pleurisy"
+  ]
 }

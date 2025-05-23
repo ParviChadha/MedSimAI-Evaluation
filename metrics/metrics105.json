@@ -1,52 +1,42 @@
 {
-  "precision": 0.8611111111111112,
-  "recall": 0.96875,
-  "f1_score": 0.911764705882353,
-  "true_positives": 31,
+  "precision": 0.8648648648648649,
+  "recall": 1.0,
+  "f1_score": 0.927536231884058,
+  "true_positives": 32,
   "false_positives": 5,
-  "false_negatives": 1,
+  "false_negatives": 0,
   "total_items": 63,
   "false_positive_details": [
     {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "Uh no, no blood or sputum."
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "I've had this kind of like dull kind of aching pain that, that I've had kind of work just on the right side of my chest. It, yeah. It's kind of aching and not that bad, but uncomfortable."
+      ]
+    },
+    {
+      "item": "Slurred Speech",
+      "result_quotes": [
+        "No."
+      ]
+    },
+    {
       "item": "Wheez Inhale",
       "result_quotes": [
-        "Alright, and is there wheeziness as well?",
         "No wheezing."
       ]
     },
     {
       "item": "Chest Discomfort",
       "result_quotes": [
-        "How about chest pain?",
-        "Uh, yeah, I've had this kind of like dull kind of aching pain that, that I've had kind of work just on the right side of my chest."
-      ]
-    },
-    {
-      "item": "Aches",
-      "result_quotes": [
-        "Joint pains or muscle aches?",
-        "I mean sometimes I can get so like my knees will hurt, but I think that's just arthritis."
-      ]
-    },
-    {
-      "item": "Allergy Medication",
-      "result_quotes": [
-        "any allergies?",
-        "Uh, no allergies."
-      ]
-    },
-    {
-      "item": "Food Allergy",
-      "result_quotes": [
-        "any allergies?",
-        "Uh, no allergies."
+        "I've had this kind of like dull kind of aching pain that, that I've had kind of work just on the right side of my chest. It, yeah. It's kind of aching and not that bad, but uncomfortable."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Paralysis General",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

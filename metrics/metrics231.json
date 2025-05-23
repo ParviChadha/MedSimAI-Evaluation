@@ -1,24 +1,16 @@
 {
-  "precision": 0.7575757575757576,
-  "recall": 1.0,
-  "f1_score": 0.8620689655172413,
-  "true_positives": 25,
+  "precision": 0.7419354838709677,
+  "recall": 0.92,
+  "f1_score": 0.8214285714285714,
+  "true_positives": 23,
   "false_positives": 8,
-  "false_negatives": 0,
+  "false_negatives": 2,
   "total_items": 49,
   "false_positive_details": [
     {
-      "item": "Feeling Tired",
+      "item": "Loss Of Consciousness",
       "result_quotes": [
-        "I felt pretty, uh, well, yeah, I guess achy and weak."
-      ]
-    },
-    {
-      "item": "Sensitive To Allergies",
-      "result_quotes": [
-        "So you said seasonal allergies. Any other allergies?",
-        "Umm, no, just usually like in the springtime.",
-        "Something like Reactine or Claritin for the seasonal allergies but that's about it."
+        "No."
       ]
     },
     {
@@ -28,19 +20,21 @@
       ]
     },
     {
+      "item": "Feeling Tired",
+      "result_quotes": [
+        "I felt pretty, uh, well, yeah, I guess achy and weak."
+      ]
+    },
+    {
       "item": "Ear Problem",
       "result_quotes": [
-        "Any changes in your hearing?",
-        "No changes there.",
-        "Any ear pain?",
         "No ear pain, no."
       ]
     },
     {
-      "item": "Widespread Pain",
+      "item": "Symptom Speedup",
       "result_quotes": [
-        "How about muscle aches or pains?",
-        "I felt pretty, uh, well, yeah, I guess achy and weak."
+        "I would say I feel a bit worse."
       ]
     },
     {
@@ -50,18 +44,26 @@
       ]
     },
     {
-      "item": "Flu Like Symptom",
+      "item": "Sensitive To Allergies",
       "result_quotes": [
-        "Maybe as a kid. I mean, I remember getting the flu. I had a cough and that sort of thing, but I haven't been sick for several years now."
+        "Umm, no, just usually like in the springtime."
       ]
     },
     {
-      "item": "Symptom Speedup",
+      "item": "Sinus Congestion",
       "result_quotes": [
-        "Since you started having this cough too, now has anything changed? How are you feeling worse? Or do you feel kind of the same as when it started?",
-        "I would say I feel a bit worse."
+        "Yeah, I thought it was maybe just plugged up, but I haven't really been able to smell these last few days."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Discharge",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
+      "truth_quotes": []
+    }
+  ]
 }

@@ -12,13 +12,16 @@
       "example_quotes": []
     },
     "tachypnea": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "every time I'm moving around I like have to sit down and catch my breath, which is pretty abnormal for me."
+      ]
     },
     "asthma": {
       "assessed": "Yes",
       "example_quotes": [
-        "did they ever say to you that you had anything else like asthma, COPD, any longstanding conditions?"
+        "I do have some high blood pressure which I take, I think I take one of these medications called metoprolol.",
+        "Yeah, so I do have three like different puffers I take. I can't remember the name. I do have some puffers I don't take. I've been using them right now. It has been helping with some of my shortness of breath, but I've definitely been having to use them way more than I used to."
       ]
     },
     "bowel_movement": {
@@ -42,17 +45,14 @@
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "So this time around, have you had any fevers?",
         "I've been having a couple of chills but like they would come and go. I didn't really think it was a fever."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, what color is your sputum?",
-        "It's mainly like clear white.",
-        "OK yeah so you don't see yellow pus or anything green or bloody in there?",
-        "No, I don't think so. But there's definitely like a lot more than what I usually produce."
+        "So yeah, the cough, I usually have a cough. I've had COPD for a long time, but this past week the coughing has been much worse with a lot of more sputum and.",
+        "It's mainly like clear white."
       ]
     },
     "confusion": {
@@ -65,9 +65,15 @@
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "So you said a cough as well, so the cough at least a week back",
-        "So let's focus on the cough first. You said it's a wet cough?",
-        "Yes, I am producing a lot of sputum."
+        "So yeah, the cough, I usually have a cough. I've had COPD for a long time, but this past week the coughing has been much worse with a lot of more sputum and.",
+        "OK, so let's focus on the cough first. You said it's a wet cough?",
+        "Yes, I am producing a lot of sputum.",
+        "OK, what color is your sputum?",
+        "It's mainly like clear white.",
+        "OK yeah so you don't see yellow pus or anything green or bloody in there?",
+        "No, I don't think so. But there's definitely like a lot more than what I usually produce.",
+        "OK, umm this cough, does it sound harsh, barky or does it sound muffled?",
+        "I would say it's a bit harsh at times. I wouldn't say it's barky or muffled. I do find myself wheezing a little over the last few days as well."
       ]
     },
     "diet": {
@@ -84,14 +90,17 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I've been a bit concerned about some breathing difficulties over the last few days",
-        "the shortness of breath or difficulty breathing, when did that start?",
-        "every time I'm moving around I like have to sit down and catch my breath"
+        "What brings you in?",
+        "Hi, yes I just came in today because I've been a bit concerned about some breathing difficulties over the last few days.",
+        "every time I'm moving around I like have to sit down and catch my breath, which is pretty abnormal for me."
       ]
     },
     "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Changes to urinating?",
+        "No, that's all fine"
+      ]
     },
     "ecercise": {
       "assessed": "No",
@@ -133,7 +142,7 @@
       "assessed": "Yes",
       "example_quotes": [
         "OK yeah so you don't see yellow pus or anything green or bloody in there?",
-        "No, I don't think so."
+        "No, I don't think so. But there's definitely like a lot more than what I usually produce."
       ]
     },
     "hyperhidrosis": {
@@ -147,14 +156,15 @@
     "lung_complications": {
       "assessed": "Yes",
       "example_quotes": [
-        "Yeah, they said I had some kind of lung infection at that time",
-        "I've had COPD for more than... I guess more than 10 years now"
+        "I did a couple of years ago, I had to be admitted because I had some shortness of breath.",
+        "Yeah, they said I had some kind of lung infection at that time, so they gave me some antibiotics while I was in the hospital.",
+        "Yeah so I've had COPD for more than... I guess more than 10 years now so I think it just got a lot worse with the infection."
       ]
     },
     "nasal_congestion": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have a stuffy nose or runny nose?",
+        "And have you had a stuffy nose or runny nose?",
         "I do feel a bit stuffy, but it's not too bad."
       ]
     },
@@ -166,15 +176,13 @@
       "assessed": "Yes",
       "example_quotes": [
         "Do you find you have any chest pain associated with the shortness of breath?",
-        "Oh no, I don't really have any pains.",
-        "How about calf pain?",
-        "Nope."
+        "Oh no, I don't really have any pains."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have a stuffy nose or runny nose?",
+        "And have you had a stuffy nose or runny nose?",
         "I do feel a bit stuffy, but it's not too bad."
       ]
     },
@@ -188,7 +196,7 @@
     "stuffy_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have a stuffy nose or runny nose?",
+        "And have you had a stuffy nose or runny nose?",
         "I do feel a bit stuffy, but it's not too bad."
       ]
     },
@@ -215,7 +223,7 @@
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any weight loss?",
+        "Any weight loss?",
         "No."
       ]
     },
@@ -252,12 +260,14 @@
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "I do find myself wheezing a little over the last few days as well."
+        "I would say it's a bit harsh at times. I wouldn't say it's barky or muffled. I do find myself wheezing a little over the last few days as well."
       ]
     },
     "wheez_inhale": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "I would say it's a bit harsh at times. I wouldn't say it's barky or muffled. I do find myself wheezing a little over the last few days as well."
+      ]
     },
     "widespread_pain": {
       "assessed": "No",

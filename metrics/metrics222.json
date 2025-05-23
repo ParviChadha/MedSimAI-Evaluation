@@ -1,40 +1,35 @@
 {
-  "precision": 0.8333333333333334,
-  "recall": 1.0,
-  "f1_score": 0.9090909090909091,
-  "true_positives": 20,
-  "false_positives": 4,
-  "false_negatives": 0,
+  "precision": 0.8636363636363636,
+  "recall": 0.95,
+  "f1_score": 0.9047619047619048,
+  "true_positives": 19,
+  "false_positives": 3,
+  "false_negatives": 1,
   "total_items": 40,
   "false_positive_details": [
     {
-      "item": "Decreased Physical Activity",
+      "item": "Loss Of Smell",
       "result_quotes": [
-        "have you had to do you have y to miss any school or anything like that over the past week?",
-        "I missed two days"
-      ]
-    },
-    {
-      "item": "Infectious Symptom",
-      "result_quotes": [
-        "have you traveled at all recently or been in touch with anyone who's been sick?",
-        "no, nothing like that"
+        "Any changes in your sense of smell or taste?"
       ]
     },
     {
       "item": "Allergy Medication",
       "result_quotes": [
-        "any allergies to any medications that you know?",
-        "Not to medication I'm allergic to like strawberries and Kiwis"
+        "I'm allergic to like strawberries and Kiwis."
       ]
     },
     {
-      "item": "Loss Of Smell",
+      "item": "Loss Of Sense",
       "result_quotes": [
-        "Any changes in your sense of smell or taste?",
-        "No"
+        "Any changes in your sense of smell or taste?"
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Changes Inappetite",
+      "truth_quotes": []
+    }
+  ]
 }

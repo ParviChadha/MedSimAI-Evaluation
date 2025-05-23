@@ -1,85 +1,128 @@
 {
-  "precision": 0.7380952380952381,
+  "precision": 0.6595744680851063,
   "recall": 0.9393939393939394,
-  "f1_score": 0.8266666666666667,
+  "f1_score": 0.775,
   "true_positives": 31,
-  "false_positives": 11,
+  "false_positives": 16,
   "false_negatives": 2,
   "total_items": 66,
   "false_positive_details": [
     {
-      "item": "Itching Eyes",
+      "item": "Decreased Physical Activity",
       "result_quotes": [
-        "seasonal allergies I sometimes get just itchy eyes and runny nose"
+        "OK, so you're able to do those things. You just feel like maybe you're tired?"
       ]
     },
     {
-      "item": "Body Ache",
+      "item": "Lethargic",
       "result_quotes": [
-        "I've been getting these like really bad muscle pains all throughout my body",
-        "Pretty much like throughout my body, but I would say more so like upper back, my thighs, then my arms, yeah, kind of just all over"
+        "I do feel like just overall general weakness. I don't know if that's to do with the pain or just feeling unwell."
+      ]
+    },
+    {
+      "item": "Loss Of Sense",
+      "result_quotes": [
+        "Oh sorry. Now that you mention I, I think taste a little bit today, I realized I was I wasn't really able to taste my breakfast."
+      ]
+    },
+    {
+      "item": "Fatigue",
+      "result_quotes": [
+        "I do feel like just overall general weakness. I don't know if that's to do with the pain or just feeling unwell."
+      ]
+    },
+    {
+      "item": "Infectious Symptom",
+      "result_quotes": [
+        "I've also been feeling chilly, so uhm, I wonder if I have a fever"
+      ]
+    },
+    {
+      "item": "Aches",
+      "result_quotes": [
+        "I started getting these like really bad muscle pains all throughout my body"
+      ]
+    },
+    {
+      "item": "Lightheadness",
+      "result_quotes": [
+        "Fainting or dizziness spells?",
+        "No."
+      ]
+    },
+    {
+      "item": "Sensation Of Chest",
+      "result_quotes": [
+        "Any chest pain?",
+        "No."
       ]
     },
     {
       "item": "Loss Of Smell",
       "result_quotes": [
         "Taste or smell?",
-        "No"
+        "No."
+      ]
+    },
+    {
+      "item": "Wheez Inhale",
+      "result_quotes": [
+        "Wheeziness?",
+        "No."
       ]
     },
     {
       "item": "Loss Of Taste",
       "result_quotes": [
-        "Taste or smell?",
-        "I think taste a little bit today, I realized I was I wasn't really able to taste my breakfast"
+        "Oh sorry. Now that you mention I, I think taste a little bit today, I realized I was I wasn't really able to taste my breakfast."
       ]
     },
     {
-      "item": "Aches",
+      "item": "Sinus Congestion",
       "result_quotes": [
-        "I've been getting these like really bad muscle pains all throughout my body",
-        "which muscles ache?"
+        "Uhm, no."
       ]
     },
     {
-      "item": "Infectious Symptom",
+      "item": "Body Ache",
       "result_quotes": [
-        "have you been in touch with or in contact with anyone sick recently?",
-        "No, no one's been sick"
-      ]
-    },
-    {
-      "item": "Loss Of Sense",
-      "result_quotes": [
-        "Taste or smell?",
-        "I think taste a little bit today, I realized I was I wasn't really able to taste my breakfast"
+        "I started getting these like really bad muscle pains all throughout my body"
       ]
     },
     {
       "item": "Feeling Tired",
       "result_quotes": [
-        "You just feel like maybe you're tired?",
-        "Yeah"
+        "I do feel like just overall general weakness. I don't know if that's to do with the pain or just feeling unwell."
       ]
     },
     {
-      "item": "Fatigue",
+      "item": "Chest Pressure",
       "result_quotes": [
-        "You just feel like maybe you're tired?",
-        "Yeah"
+        "Any feelings of like feel like feeling like your heart's racing?",
+        "No."
       ]
     },
     {
       "item": "High Blood Pressure",
       "result_quotes": [
-        "I think my father has high blood pressure"
-      ]
-    },
-    {
-      "item": "Changes Inappetite",
-      "result_quotes": [
-        "how about appetite changes?",
-        "appetites been the same"
+        "And then do you smoke?",
+        "Uhm, just socially sometimes when I'm with friends, not-nothing regular.",
+        "OK, and so for the past like two months, how often have you been smoking?",
+        "Probably a couple cigarettes on the weekend. We usually smoke marijuana, so not not too much like tobacco or cigarettes.",
+        "OK. OK. Uhm, do you do any other recreational drugs like marijuana, cocaine?",
+        "Just marijuana, no other drugs.",
+        "OK, do you smoke it or edibles.",
+        "Smoke it.",
+        "OK, and how often do you smoke cannabis?",
+        "Probably just when I'm meeting up with friends. So every weekend I would say.",
+        "Every weekend?",
+        "Yeah.",
+        "OK. And then how about an alcohol, do you drink alcohol?",
+        "Yeah, I drink alcohol probably a couple of drinks every few days.",
+        "OK. OK. And sorry what kind of alcohol do you drink every few days?",
+        "Just mostly beers, maybe whiskey sometimes.",
+        "OK, and how much of that?",
+        "So probably a couple beers. Uhm every few days and then whiskey, maybe a normal glass every few days, so yeah I would say 3 or 4 beers a week and then maybe 2 glasses of whiskey. In a, in an average week."
       ]
     }
   ],
@@ -89,7 +132,7 @@
       "truth_quotes": []
     },
     {
-      "item": "Fatigue Extended",
+      "item": "Hemoptysis",
       "truth_quotes": []
     }
   ]

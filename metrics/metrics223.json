@@ -1,30 +1,59 @@
 {
-  "precision": 0.9,
-  "recall": 1.0,
-  "f1_score": 0.9473684210526316,
-  "true_positives": 27,
-  "false_positives": 3,
-  "false_negatives": 0,
+  "precision": 0.8214285714285714,
+  "recall": 0.8518518518518519,
+  "f1_score": 0.8363636363636364,
+  "true_positives": 23,
+  "false_positives": 5,
+  "false_negatives": 4,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "High Blood Pressure",
+      "item": "Wheez Inhale",
       "result_quotes": [
-        "Yeah, I have uh, heart, heart failure and uh, had two heart attacks and have high cholesterol, high blood pressure and, uh, I'm also overweight."
+        "\"No.\""
       ]
     },
     {
-      "item": "Redness",
+      "item": "Change In Sleep",
       "result_quotes": [
-        "OK, have you had any infectious symptoms such as uh, eye redness, eye discharge, nasal discharge or, or sore throat?"
+        "\"Yeah, I just went and sat on my chair and slept on the chair.\""
       ]
     },
     {
-      "item": "Appetite",
+      "item": "Nasal Discharge",
       "result_quotes": [
-        "And have you had any changes to your appetite or, or diet or exercise?"
+        "\"Not recently, I had that about two months ago, but that got better.\""
+      ]
+    },
+    {
+      "item": "Fatigue Sleep",
+      "result_quotes": [
+        "\"Yeah, that happened last night, couldn't fall asleep.\""
+      ]
+    },
+    {
+      "item": "Lightheadness",
+      "result_quotes": [
+        "\"No.\""
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Discharge",
+      "truth_quotes": []
+    },
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Changes In Appetite",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

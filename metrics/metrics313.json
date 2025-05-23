@@ -1,37 +1,56 @@
 {
-  "precision": 0.875,
-  "recall": 1.0,
-  "f1_score": 0.9333333333333333,
-  "true_positives": 28,
-  "false_positives": 4,
-  "false_negatives": 0,
+  "precision": 0.8181818181818182,
+  "recall": 0.9642857142857143,
+  "f1_score": 0.8852459016393442,
+  "true_positives": 27,
+  "false_positives": 6,
+  "false_negatives": 1,
   "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Change In Sleep",
+      "item": "Chest Discomfort",
       "result_quotes": [
-        "it's been mainly OK, just maybe sometimes difficult to get to sleep with all the all the congestion"
+        "And have you had any chest pain?",
+        "No, no chest pain."
       ]
     },
     {
       "item": "Smell Problem",
       "result_quotes": [
-        "OK, and have you had any changes to your sense of smell?",
         "Yeah, so just in the last three days when the congestion got really bad I started losing the ability to smell."
       ]
     },
     {
-      "item": "Sinus Congestion",
+      "item": "Symptom Speedup",
       "result_quotes": [
-        "and then it turned into just a lot of congestion, like around my nose and like my throat"
+        "I did kind of have a runny nose last week as well, so probably like 8 days ago but then the runny nose discontinued a little bit but really got worse 5 days ago, but all these other symptoms just happened in the last few days."
       ]
     },
     {
       "item": "Mucus Discharge",
       "result_quotes": [
-        "Yeah, I'm still getting some discharge and I also feel like I'm getting some dripping at the back of my throat too"
+        "Yeah, I'm still getting some discharge and I also feel like I'm getting some dripping at the back of my throat too, especially when I wake up.",
+        "Uh, it's fairly clear and sometimes, like a bit white, but like, it's not like green or yellow."
+      ]
+    },
+    {
+      "item": "Change In Sleep",
+      "result_quotes": [
+        "Uhm, it's been mainly OK, just maybe sometimes difficult to get to sleep with all the all the congestion, but I don't think my energy has been affected too much, no."
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "Yeah, so over the last week I've just been feeling some symptoms. It kind of first started with, like a runny nose. That was around like 5 days ago and then it turned into just a lot of congestion, like around my nose and like my throat. And now over the last two days I've been just feeling so much pressure around my nose and around my jaw so I've been getting a lot of pain there as well.",
+        "Yeah, so at night sometimes I have to like turn because one side of my nose gets difficult to breathe from and then it kind of balances out on the other side. So yeah, I do have some obstruction."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Weakness",
+      "truth_quotes": []
+    }
+  ]
 }

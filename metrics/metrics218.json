@@ -1,33 +1,83 @@
 {
-  "precision": 0.88,
-  "recall": 1.0,
-  "f1_score": 0.9361702127659575,
-  "true_positives": 22,
+  "precision": 0.75,
+  "recall": 0.4090909090909091,
+  "f1_score": 0.5294117647058824,
+  "true_positives": 9,
   "false_positives": 3,
-  "false_negatives": 0,
+  "false_negatives": 13,
   "total_items": 44,
   "false_positive_details": [
     {
       "item": "Weakness",
       "result_quotes": [
-        "like I just, I found it really hard to get out of bed this morning",
-        "I felt feverish and tired"
+        "Sort of, like I just, I found it really hard to get out of bed this morning."
       ]
     },
     {
       "item": "Malaise",
       "result_quotes": [
-        "I just felt horrible",
-        "I felt really crappy"
+        "I'd say this morning as well, yesterday was just like a little tickle in my throat and I thought it would just go away you know, and I woke up this morning and I just felt horrible."
       ]
     },
     {
-      "item": "Allergy Medication",
+      "item": "Flu",
       "result_quotes": [
-        "Any allergies?",
-        "Uh, nope."
+        "Well yeah, I usually get a cold once a year in the fall. It does feel similar to that."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Wheez",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dyspnea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Urination",
+      "truth_quotes": []
+    },
+    {
+      "item": "Eye Redness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Cough",
+      "truth_quotes": []
+    },
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dysphagia",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    }
+  ]
 }

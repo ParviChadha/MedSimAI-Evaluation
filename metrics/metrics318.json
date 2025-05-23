@@ -1,45 +1,56 @@
 {
-  "precision": 0.8387096774193549,
+  "precision": 0.8125,
   "recall": 0.9629629629629629,
-  "f1_score": 0.896551724137931,
+  "f1_score": 0.8813559322033898,
   "true_positives": 26,
-  "false_positives": 5,
+  "false_positives": 6,
   "false_negatives": 1,
   "total_items": 54,
   "false_positive_details": [
     {
       "item": "Infection",
       "result_quotes": [
-        "did you get sick at all recently, or were you in contact with anyone who was sick?",
-        "did you have a like a pneumonia or infection that you had to get antibiotics for"
-      ]
-    },
-    {
-      "item": "Chest Discomfort",
-      "result_quotes": [
-        "Are you feeling at all any kind of, uh, chest tightness or pain?",
-        "Uh, yeah, some chest tightness."
+        "It's definitely wet. My phlegm looks green.",
+        "Uhm, I'm bringing up about, I'd say it would fill like two, two of my palms, like the inside of my palm."
       ]
     },
     {
       "item": "Trouble Breathing",
       "result_quotes": [
-        "I've been feeling very short of breath",
-        "it just feels like it's really hard for me to breathe",
-        "even at rest, I'm coughing and feeling short of breath"
+        "Yeah, I've been feeling very short of breath for the past, uh, two weeks, but even before that, I started feeling a little bit short of breath and I can't stop coughing and it just feels like it's really hard for me to breathe.",
+        "Uhm, its, uh, ok, its more with exertion, but right now even at rest, I'm coughing and feeling short of breath.",
+        "It lasts about, uh, I don't know, I kind of feel short of breath all the time, but when it's really bad, it lasts about five-ten minutes and then it goes back to like my normal shortness of breath.",
+        "uh yeah, I think its, yeah when I'm laying down sometimes I feel more short of breath than usual, but once I shift positions it goes back to it's normal."
       ]
     },
     {
-      "item": "Aches",
+      "item": "Chest Discomfort",
       "result_quotes": [
-        "it's a tightness in my chest. And it feels, I guess throbbing or achy?"
+        "Uhm, yeah, some chest tightness.",
+        "Uhm, I would say it's a, uh, it's a tightness in my chest. And it feels, I guess throbbing or achy?"
       ]
     },
     {
       "item": "Fatigue",
       "result_quotes": [
-        "how about fatigue?",
-        "Yeah, I feel fatigued."
+        "Yeah, I feel fatigued.",
+        "Yeah, it's probably cause of my shortness of breath."
+      ]
+    },
+    {
+      "item": "Lung Complications",
+      "result_quotes": [
+        "Yeah, I've been feeling very short of breath for the past, uh, two weeks, but even before that, I started feeling a little bit short of breath and I can't stop coughing and it just feels like it's really hard for me to breathe.",
+        "Uhm, its, uh, ok, its more with exertion, but right now even at rest, I'm coughing and feeling short of breath.",
+        "It lasts about, uh, I don't know, I kind of feel short of breath all the time, but when it's really bad, it lasts about five-ten minutes and then it goes back to like my normal shortness of breath.",
+        "uh yeah, I think its, yeah when I'm laying down sometimes I feel more short of breath than usual, but once I shift positions it goes back to it's normal."
+      ]
+    },
+    {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "It's definitely wet. My phlegm looks green.",
+        "Uhm, I'm bringing up about, I'd say it would fill like two, two of my palms, like the inside of my palm."
       ]
     }
   ],

@@ -1,10 +1,31 @@
 {
   "medical_history_assessed": {
+    "change_in_taste": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "changes_inappetite": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, no, I've been eating OK."
+      ]
+    },
+    "muscle_ache": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "sneezing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "behaviour_change": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in your bowel movements?",
-        "Um, no."
+        "No, no changes in your urination?"
       ]
     },
     "chest_pain": {
@@ -14,50 +35,52 @@
         "No chest pain."
       ]
     },
+    "chest_tightness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any shortness of breath?",
+        "Just after the, like coughing really, but otherwise, ah, no."
+      ]
+    },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, are you having any fevers or chills?",
         "Yeah, I've been having ah, so fevers throughout the day, but feeling really hot, and and really sweaty at night."
       ]
+    },
+    "cold": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and the cough that you've been having for the last four weeks at, is it like a wet cough? Are you producing any sputum or phlegm, or is it more of a dry cough?",
-        "Uh, I have been producing some phlegm, um, but it's been just kind of white, yellowish."
+        "Uh, I have been producing some phlegm, um, but it's been just kind of white, yellowish.",
+        "Yeah or moreso clear actually, up until today where I saw some blood."
       ]
-    },
-    "confusion": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "constipation": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, but have you been coughing recently?",
         "Uh yeah, I have, uh, had a cough recently leading up to this.",
-        "OK, and how long have you had the cough for?",
-        "Uhm, I've had it for uhm, yeah, about about four weeks."
+        "Uhm, it's been pretty severe through throughout the day. I've been just coughing or coughing a ton."
       ]
+    },
+    "decreased_fluid_intake": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "dehydration": {
       "assessed": "No",
       "example_quotes": []
     },
-    "diarrhea": {
-      "assessed": "No",
-      "example_quotes": []
+    "diarrhoea": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, no changes in your bowel movements?"
+      ]
     },
-    "dizziness": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "drowsiness": {
+    "discomfort": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -68,103 +91,75 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, are you having any other symptoms at all, like shortness of breath, sore throat, runny nose, anything like that?",
-        "And, um, have you been having any shortness of breath?",
+        "Any shortness of breath?",
         "Just after the, like coughing really, but otherwise, ah, no."
       ]
     },
-    "dysuria": {
-      "assessed": "No",
-      "example_quotes": []
+    "extended_sleep": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uhm, just been, well, I haven't been sleeping as well, waking up all sweaty and the cough is kept me up a little bit too."
+      ]
     },
-    "eye_discharge": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "eye_pain": {
+    "facial_pressure": {
       "assessed": "No",
       "example_quotes": []
     },
     "fatigue_extended": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Have you noticed at all, uh, any increased fatigue throughout the day?",
         "Yeah, but I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
       ]
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, are you having any fevers or chills?",
         "Yeah, I've been having ah, so fevers throughout the day, but feeling really hot, and and really sweaty at night."
       ]
     },
     "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK. Are you having any headaches or nausea or vomiting?",
-        "Nothing like, well, a little bit of nausea maybe, but no vomiting."
-      ]
-    },
-    "hearing_problem": {
       "assessed": "No",
       "example_quotes": []
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "Hi, this morning I read after I woke up by I coughed up some phlegm and there was some blood in it and it it totally scared me.",
-        "OK, and was this the first time that happened?",
-        "Uhm, yeah, I've never I never noticed blood in my sputum before."
+        "this morning I read after I woke up by I coughed up some phlegm and there was some blood in it and it it totally scared me.",
+        "Um it was pretty red. It, ah, yeah it was bright red and it was covering the, the issue.",
+        "it was just that time just this morning on the tissue and then a little bit in the toilet and it looked like a lot in the in the water."
       ]
-    },
-    "high_blood_pressure": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "itching": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Uhm, nothing like like that. I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
-      ]
-    },
-    "lethargic": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in your appetite?",
         "Uh, no, I've been eating OK."
       ]
+    },
+    "loss_of_consciousness": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "loss_of_sense": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any loss of sense of taste or smell?",
+        "Any loss of sense of taste or smell?",
         "Uh, no, nothing like that."
       ]
+    },
+    "nasal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Are you having any headaches or nausea or vomiting?",
         "Nothing like, well, a little bit of nausea maybe, but no vomiting.",
-        "OK. How often you getting nausea?",
         "Uh, it's coming after like if I'm having a really big cough, coughing fit I could feel a little nauseous after but it doesn't last very long."
       ]
     },
     "numbness": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "pain": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any chest pain?",
-        "No chest pain."
-      ]
     },
     "palpitation": {
       "assessed": "Yes",
@@ -173,37 +168,25 @@
         "No, nothing like that."
       ]
     },
-    "paralysis_general": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "paralysis_limb_or_face": {
-      "assessed": "No",
-      "example_quotes": []
-    },
     "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rectal_bleeding": {
+    "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
     },
-    "redness": {
+    "rigor": {
       "assessed": "No",
       "example_quotes": []
     },
     "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, are you having any other symptoms at all, like shortness of breath, sore throat, runny nose, anything like that?",
-        "Uhm, nothing like like that."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_changes": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes at all in your sleep?",
         "Uhm, just been, well, I haven't been sleeping as well, waking up all sweaty and the cough is kept me up a little bit too."
       ]
     },
@@ -211,72 +194,69 @@
       "assessed": "Yes",
       "example_quotes": [
         "Yeah, I've been having ah, so fevers throughout the day, but feeling really hot, and and really sweaty at night.",
-        "OK, how often are you getting night sweats?",
-        "Uhm, also a few times this past week, I've what woke up soaked."
+        "also a few times this past week, I've what woke up soaked."
       ]
     },
-    "slurred_speech": {
+    "slow_motion_feeling": {
       "assessed": "No",
       "example_quotes": []
     },
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any loss of sense of taste or smell?",
+        "Any loss of sense of taste or smell?",
         "Uh, no, nothing like that."
       ]
     },
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, are you having any other symptoms at all, like shortness of breath, sore throat, runny nose, anything like that?",
-        "Uhm, nothing like like that. I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
+        "the back of my throat, might feel a little itchy from the coughing, but not really sure."
       ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any swelling in your limbs at all?",
+        "Any swelling in your limbs at all?",
         "No."
       ]
     },
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any loss of sense of taste or smell?",
+        "Any loss of sense of taste or smell?",
         "Uh, no, nothing like that."
       ]
     },
-    "tingling": {
+    "tired": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, but I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
+      ]
+    },
+    "tonsilitis": {
       "assessed": "No",
       "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you noticed at all any weight loss over the last few months?",
         "Yeah, I think I'm down like 15 pounds since the summer time, which is great.",
-        "OK, have you tried to lose weight at all or is it just been completely unintentional?",
         "Uh, well I, I mean my, my appendix was taken out a few months ago and so I guess after that I, well, maybe wasn't eating and eating as much, but I mean I wasn't really trying to lose weight."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any changes in your urination?",
+        "Any changes in your urination?",
         "No."
       ]
     },
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Are you having any headaches or nausea or vomiting?",
         "Nothing like, well, a little bit of nausea maybe, but no vomiting."
       ]
-    },
-    "weakness": {
-      "assessed": "No",
-      "example_quotes": []
     }
   }
 }

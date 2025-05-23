@@ -1,60 +1,71 @@
 {
-  "precision": 0.8157894736842105,
-  "recall": 1.0,
-  "f1_score": 0.898550724637681,
-  "true_positives": 31,
-  "false_positives": 7,
-  "false_negatives": 0,
+  "precision": 0.7894736842105263,
+  "recall": 0.967741935483871,
+  "f1_score": 0.8695652173913043,
+  "true_positives": 30,
+  "false_positives": 8,
+  "false_negatives": 1,
   "total_items": 62,
   "false_positive_details": [
     {
-      "item": "Sinus Congestion",
+      "item": "Difficulty Breathing",
       "result_quotes": [
-        "Runny nose or stuffy nose?",
-        "Nope, not that I know of."
-      ]
-    },
-    {
-      "item": "Mucus Discharge",
-      "result_quotes": [
-        "No, it's uh, it's usually just a dry cough. No, no I don't produce any mucus or blood."
-      ]
-    },
-    {
-      "item": "Loss Of Sense",
-      "result_quotes": [
-        "Any changes to your taste recently?",
-        "Any changes to your smell?"
+        "Yeah, I would say approximately around the same time.",
+        "Um, I think it's, I feel short of breath most of the times, but it's mainly just gets worse when I'm exerting myself when I'm walking more than usual or just working in the garden.",
+        "It's I think it's more so just I can't catch my breath and sometimes I just have trouble being able to take like a full breath.",
+        "It can get up to I would say like an eight sometimes when I'm doing a lot of work."
       ]
     },
     {
       "item": "Sleep",
       "result_quotes": [
-        "OK and it's not waking you up at night, right?",
+        "No, I'm completely fine laying down.",
         "No."
       ]
     },
     {
       "item": "Sleeping Issues",
       "result_quotes": [
-        "OK and it's not waking you up at night, right?",
+        "No, I'm completely fine laying down.",
         "No."
       ]
     },
     {
-      "item": "Decreased Activity",
+      "item": "Chest Tightness",
       "result_quotes": [
-        "I do find it difficult getting out of the house recently just because of my shortness of breath",
-        "I just can't get out of the house. I feel just tired and short of breath all the time so just staying in my house most of the time."
+        "No chest pain, no no."
       ]
     },
     {
-      "item": "Eye Pain",
+      "item": "Lightheadness",
       "result_quotes": [
-        "Changes in your vision or eye pain?",
-        "No, nothing like that."
+        "No."
+      ]
+    },
+    {
+      "item": "Chest Discomfort",
+      "result_quotes": [
+        "No chest pain, no no."
+      ]
+    },
+    {
+      "item": "Difficulty Sleeping",
+      "result_quotes": [
+        "No, I'm completely fine laying down.",
+        "No."
+      ]
+    },
+    {
+      "item": "Tightness",
+      "result_quotes": [
+        "No chest pain, no no."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    }
+  ]
 }

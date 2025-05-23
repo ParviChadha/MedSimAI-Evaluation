@@ -1,45 +1,66 @@
 {
-  "precision": 0.8709677419354839,
-  "recall": 0.9642857142857143,
-  "f1_score": 0.9152542372881356,
-  "true_positives": 27,
-  "false_positives": 4,
-  "false_negatives": 1,
+  "precision": 0.7567567567567568,
+  "recall": 1.0,
+  "f1_score": 0.8615384615384616,
+  "true_positives": 28,
+  "false_positives": 9,
+  "false_negatives": 0,
   "total_items": 56,
   "false_positive_details": [
     {
-      "item": "Itching",
+      "item": "Decrease Interest In Activities",
       "result_quotes": [
-        "OK, um and how about any eye symptoms like redness or itchiness, pain?",
-        "Uh, no, nothing like that."
-      ]
-    },
-    {
-      "item": "Tearing Or Or Itchiness",
-      "result_quotes": [
-        "OK, um and how about any eye symptoms like redness or itchiness, pain?",
-        "Uh, no, nothing like that."
+        "Yeah, I would say so. I just feel like I don't know if it's to do with the short, of being short of breath, but yeah, I just feel like I've just been needing more rest."
       ]
     },
     {
       "item": "Stuffy Nose",
       "result_quotes": [
-        "OK, have you had a runny nose or felt congested?",
         "No."
+      ]
+    },
+    {
+      "item": "Lethargic",
+      "result_quotes": [
+        "Yeah, I would say so. I just feel like I don't know if it's to do with the short, of being short of breath, but yeah, I just feel like I've just been needing more rest."
+      ]
+    },
+    {
+      "item": "Sleep Changes",
+      "result_quotes": [
+        "Last night, I would say I had night sweats. My sheets were a bit drenched."
       ]
     },
     {
       "item": "Fatigue",
       "result_quotes": [
-        "OK, and how has your energy been? Have you had any fatigue or malaise the last several days?",
         "Yeah, I would say so. I just feel like I don't know if it's to do with the short, of being short of breath, but yeah, I just feel like I've just been needing more rest."
+      ]
+    },
+    {
+      "item": "Tearing Or Or Itchiness",
+      "result_quotes": [
+        "Uh, no, nothing like that."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "I have had a fever like today, I had a fever I measured it was like 38.5. Yesterday, I felt like I had chills and a fever as well."
+      ]
+    },
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "Yeah, I would say so. I just feel like I don't know if it's to do with the short, of being short of breath, but yeah, I just feel like I've just been needing more rest."
+      ]
+    },
+    {
+      "item": "Redness In Throat",
+      "result_quotes": [
+        "No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Fatigue Extended",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

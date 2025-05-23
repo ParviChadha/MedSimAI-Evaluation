@@ -1,35 +1,42 @@
 {
-  "precision": 0.9,
-  "recall": 0.9,
-  "f1_score": 0.9,
-  "true_positives": 18,
-  "false_positives": 2,
-  "false_negatives": 2,
+  "precision": 0.8,
+  "recall": 1.0,
+  "f1_score": 0.888888888888889,
+  "true_positives": 20,
+  "false_positives": 5,
+  "false_negatives": 0,
   "total_items": 40,
   "false_positive_details": [
     {
+      "item": "Nasal Discharge",
+      "result_quotes": [
+        "Uh, I haven't noticed anything like that."
+      ]
+    },
+    {
       "item": "Odynophagia",
       "result_quotes": [
-        "OK, have you had a sore throat?",
         "Uh, it's felt a little itchy I guess but no pain with swallowing."
+      ]
+    },
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "I have felt hot but no chills."
+      ]
+    },
+    {
+      "item": "Widespread Pain",
+      "result_quotes": [
+        "No muscle aches."
       ]
     },
     {
       "item": "Taste Problem",
       "result_quotes": [
-        "Any changes in your sense of taste?",
         "No."
       ]
     }
   ],
-  "false_negative_details": [
-    {
-      "item": "Taste Loss",
-      "truth_quotes": []
-    },
-    {
-      "item": "Dysphagia",
-      "truth_quotes": []
-    }
-  ]
+  "false_negative_details": []
 }

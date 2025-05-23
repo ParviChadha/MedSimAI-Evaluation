@@ -1,32 +1,33 @@
 {
-  "precision": 0.85,
-  "recall": 1.0,
-  "f1_score": 0.9189189189189189,
-  "true_positives": 17,
-  "false_positives": 3,
-  "false_negatives": 0,
+  "precision": 0.8823529411764706,
+  "recall": 0.8823529411764706,
+  "f1_score": 0.8823529411764706,
+  "true_positives": 15,
+  "false_positives": 2,
+  "false_negatives": 2,
   "total_items": 33,
   "false_positive_details": [
     {
-      "item": "Muscle Ache",
+      "item": "Dysuria",
       "result_quotes": [
-        "No belly pain or muscle aches?",
-        "Uh no, nothing like that."
+        "No."
       ]
     },
     {
       "item": "Redness In Throat",
       "result_quotes": [
-        "also like the back of my throat, when I look in the mirror, is like just very red and like angry looking"
-      ]
-    },
-    {
-      "item": "Dysuria",
-      "result_quotes": [
-        "Any changes in your bowel movements, or your urinary, or any urinary concerns?",
-        "Uh, no."
+        "Um, I also feel like, so with a sore throat, I also have some um, pain on the sides, like on my, on my neck. Like I almost feel like some lumps on both sides."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    },
+    {
+      "item": "Chest Pain",
+      "truth_quotes": []
+    }
+  ]
 }

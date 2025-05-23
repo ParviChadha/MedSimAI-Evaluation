@@ -1,12 +1,49 @@
 {
-  "precision": 0.6842105263157895,
+  "precision": 0.7027027027027027,
   "recall": 0.9285714285714286,
-  "f1_score": 0.7878787878787878,
+  "f1_score": 0.7999999999999999,
   "true_positives": 26,
-  "false_positives": 12,
+  "false_positives": 11,
   "false_negatives": 2,
   "total_items": 56,
   "false_positive_details": [
+    {
+      "item": "Change In Taste",
+      "result_quotes": [
+        "How about changes to your smell or taste?",
+        "Uhm, so I, actually yeah, with the sense of smell like I haven't been able to smell as well. Now that you ask again, yeah, sorry."
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "How about allergies? Do you have any?",
+        "No, I don't think no, no allergies."
+      ]
+    },
+    {
+      "item": "Difficulty Breathing",
+      "result_quotes": [
+        "What brings you in?",
+        "Hi there, I've been having this uhm, cough that's been ongoing for the past two days, and I've started to become short of breath as well.",
+        "Within the last day, OK. And the coughing is that I dry cough or is it a wet cough?",
+        "It's a dry cough."
+      ]
+    },
+    {
+      "item": "Stuffy Nose",
+      "result_quotes": [
+        "And how about a runny nose or a stuffy nose?",
+        "No, I haven't really had a runny nose, no runny nose."
+      ]
+    },
+    {
+      "item": "Changes In Appetite",
+      "result_quotes": [
+        "Any appetite changes?",
+        "Yeah, I haven't. I've had a loss of appetite."
+      ]
+    },
     {
       "item": "Diabetes",
       "result_quotes": [
@@ -15,83 +52,38 @@
       ]
     },
     {
-      "item": "Changes In His Appetite",
-      "result_quotes": [
-        "and any appetite changes?",
-        "Yeah, I haven't. I've had a loss of appetite."
-      ]
-    },
-    {
-      "item": "Stuffy Nose",
-      "result_quotes": [
-        "And any have you noticed, like a runny nose or a stuffy nose?",
-        "No, I haven't really had a runny nose, no runny nose."
-      ]
-    },
-    {
-      "item": "Changes In Appetite",
-      "result_quotes": [
-        "and any appetite changes?",
-        "Yeah, I haven't. I've had a loss of appetite."
-      ]
-    },
-    {
       "item": "Weight Changes",
       "result_quotes": [
-        "And how about of, how about weight loss?",
+        "How about weight loss?",
         "No, I haven't had any, uh, any weight loss."
-      ]
-    },
-    {
-      "item": "Nause",
-      "result_quotes": [
-        "Uhm, and no nausea or vomiting?",
-        "No, I haven't had any. Ah, actually I have been a bit, I've had some nausea as well like that's what I feel like with that with the abdominal pain."
-      ]
-    },
-    {
-      "item": "Passing Gas",
-      "result_quotes": [
-        "and you don't feel gassy or, or bloated?",
-        "No."
-      ]
-    },
-    {
-      "item": "Food Allergy",
-      "result_quotes": [
-        "And how about allergies? Do you have any?",
-        "No, I don't think no, no allergies."
-      ]
-    },
-    {
-      "item": "Change In Taste",
-      "result_quotes": [
-        "How about changes to your smell or taste?",
-        "No changes to smell or taste. That's been normal.",
-        "And any changes in your smell or taste?"
-      ]
-    },
-    {
-      "item": "Difficulty Breathing",
-      "result_quotes": [
-        "I've started to become short of breath as well. Even with just a little bit of exertion.",
-        "when do the shortness of breath start?"
-      ]
-    },
-    {
-      "item": "Phlegm",
-      "result_quotes": [
-        "And the coughing is that I dry cough or is it a wet cough?",
-        "It's a dry cough.",
-        "Uhm so no sputum or blood.",
-        "No sputum or blood in the coughing."
       ]
     },
     {
       "item": "Nasal Discharge",
       "result_quotes": [
-        "And any have you noticed, like a runny nose or a stuffy nose?",
+        "And how about a runny nose or a stuffy nose?",
         "No, I haven't really had a runny nose, no runny nose."
+      ]
+    },
+    {
+      "item": "Changes In His Appetite",
+      "result_quotes": [
+        "Any appetite changes?",
+        "Yeah, I haven't. I've had a loss of appetite."
+      ]
+    },
+    {
+      "item": "Nause",
+      "result_quotes": [
+        "And no nausea or vomiting?",
+        "No, I haven't had any. Ah, actually I have been a bit, I've had some nausea as well like that's what I feel like with that with the abdominal pain."
+      ]
+    },
+    {
+      "item": "Phlegm",
+      "result_quotes": [
+        "And no sputum or blood.",
+        "No, I haven't had any sputum or blood in the coughing."
       ]
     }
   ],

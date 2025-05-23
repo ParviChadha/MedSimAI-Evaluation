@@ -1,43 +1,62 @@
 {
-  "precision": 0.8461538461538461,
-  "recall": 0.9565217391304348,
-  "f1_score": 0.8979591836734695,
-  "true_positives": 22,
-  "false_positives": 4,
-  "false_negatives": 1,
+  "precision": 0.75,
+  "recall": 0.9130434782608695,
+  "f1_score": 0.8235294117647057,
+  "true_positives": 21,
+  "false_positives": 7,
+  "false_negatives": 2,
   "total_items": 46,
   "false_positive_details": [
     {
-      "item": "Eye Pain",
+      "item": "Runny Eyes",
       "result_quotes": [
-        "OK, and then any eye pain or ear pain?",
-        "No."
+        "Any eye pain or ear pain?"
+      ]
+    },
+    {
+      "item": "Watery Eyes",
+      "result_quotes": [
+        "Any eye pain or ear pain?"
       ]
     },
     {
       "item": "Fatigue",
       "result_quotes": [
-        "I mean, I may be even a bit tired, but really. Otherwise no."
+        "I may be even a bit tired"
+      ]
+    },
+    {
+      "item": "Eye Pain",
+      "result_quotes": [
+        "Any eye pain or ear pain?"
       ]
     },
     {
       "item": "Headache",
       "result_quotes": [
-        "Alright, and have you had any headaches?",
-        "Mmm no."
+        "Alright, have you had any headaches?"
       ]
     },
     {
       "item": "Sexually Transmitted Infection",
       "result_quotes": [
-        "OK, and um. Any sexually transmitted infections in the past?",
-        "No."
+        "Any sexually transmitted infections in the past?"
+      ]
+    },
+    {
+      "item": "Difficulty Talking",
+      "result_quotes": [
+        "have you felt a like short of breath at all?"
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Fatigue Extended",
+      "truth_quotes": []
+    },
+    {
+      "item": "Pain",
       "truth_quotes": []
     }
   ]

@@ -1,23 +1,46 @@
 {
-  "precision": 0.9375,
+  "precision": 0.75,
   "recall": 0.9375,
-  "f1_score": 0.9375,
+  "f1_score": 0.8333333333333334,
   "true_positives": 15,
-  "false_positives": 1,
+  "false_positives": 5,
   "false_negatives": 1,
   "total_items": 31,
   "false_positive_details": [
     {
+      "item": "Mucous Building",
+      "result_quotes": [
+        "Yes, that's right."
+      ]
+    },
+    {
+      "item": "Sneezing",
+      "result_quotes": [
+        "Yes, that's right."
+      ]
+    },
+    {
       "item": "Flu",
       "result_quotes": [
-        "have you gotten your flu shot this year?",
         "So it's also a possibility it might be influenza, just the seasonal flu."
+      ]
+    },
+    {
+      "item": "Injury",
+      "result_quotes": [
+        "No."
+      ]
+    },
+    {
+      "item": "Flu Like Symptom",
+      "result_quotes": [
+        "Hi, um so I've had this terrible fever for the past three days um and just before that I had a stuffy nose um and I had a sore throat, well I still do, um and it's just not going away, so I thought I should just come in and see if I have covid or what it is."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Runny Nose",
+      "item": "Loss Of Appetite",
       "truth_quotes": []
     }
   ]

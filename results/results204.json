@@ -5,20 +5,29 @@
       "example_quotes": []
     },
     "sinus_congestion": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Do you ever feel like your nose is stuffy or runny?",
+        "No."
+      ]
     },
     "tachypnea": {
       "assessed": "No",
       "example_quotes": []
     },
     "allergy_medication": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any allergies?",
+        "Uhm penicillin, I just get uh I get a rash. I got a rash when I was a child, I haven't had it since then."
+      ]
     },
     "bad_smell": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Um loss of smell or taste?",
+        "No."
+      ]
     },
     "bowel_movement": {
       "assessed": "Yes",
@@ -38,7 +47,7 @@
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, chest pain?",
+        "Chest pain?",
         "No."
       ]
     },
@@ -52,16 +61,17 @@
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um uh no, I've just been constipated from time to time, but that's nothing, that's not new.",
-        "OK, constipation. And I'm sorry when did your constipation start?"
+        "Issues uh, any changes in your bowel movements?",
+        "Um uh no, I've just been constipated from time to time, but that's nothing, that's not new."
       ]
     },
     "cough": {
       "assessed": "Yes",
       "example_quotes": [
-        "Hi. Uh, I've just had this cough for the past week",
-        "Has it been persistent or does it come and go?",
-        "how would you describe your cough like is it barky? Is it harsh? Is it muffled?"
+        "What brings you in?",
+        "Hi. Uh, I've just had this cough for the past week and I was worried I might have Covid so I just wanted to um I just wanted to be checked.",
+        "How would you describe your cough like is it barky? Is it harsh? Is it muffled?",
+        "Uhm no, I don't I don't think it's barky or harsh."
       ]
     },
     "decrease_interest_in_activities": {
@@ -79,7 +89,7 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Um do you experience any shortness of breath with this cough?",
+        "Do you experience any shortness of breath with this cough?",
         "No."
       ]
     },
@@ -90,7 +100,7 @@
     "fainting": {
       "assessed": "Yes",
       "example_quotes": [
-        "any fainting spells?",
+        "Any fainting spells?",
         "Uhm, no."
       ]
     },
@@ -123,14 +133,14 @@
     "hearing_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your vision or hearing?",
+        "Any changes in your vision or hearing?",
         "Uh no."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "uh any blood that you've seen?",
+        "Any blood that you've seen?",
         "No, no."
       ]
     },
@@ -139,8 +149,21 @@
       "example_quotes": []
     },
     "itching_eyes": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "You mentioned you, it started a week ago.",
+        "Yeah.",
+        "Has it been persistent or does it come and go?",
+        "Um it's just been there.",
+        "You mentioned you, it started a week ago.",
+        "Yeah.",
+        "Has it been persistent or does it come and go?",
+        "Um it's just been there.",
+        "You mentioned you, it started a week ago.",
+        "Yeah.",
+        "Has it been persistent or does it come and go?",
+        "Um it's just been there."
+      ]
     },
     "loss_of_smell": {
       "assessed": "Yes",
@@ -167,14 +190,14 @@
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any nausea or vomiting?",
+        "Any nausea or vomiting?",
         "Uh, no."
       ]
     },
     "numbness": {
       "assessed": "Yes",
       "example_quotes": [
-        "No, numbness or tingling?",
+        "Numbness or tingling?",
         "No."
       ]
     },
@@ -188,7 +211,7 @@
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "um feeling like your heart's racing?",
+        "Feeling like your heart's racing?",
         "No."
       ]
     },
@@ -204,8 +227,11 @@
       ]
     },
     "sensation_of_chest": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Chest pain?",
+        "No."
+      ]
     },
     "sleep": {
       "assessed": "No",
@@ -264,7 +290,7 @@
     "vision_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "any changes in your vision or hearing?",
+        "Any changes in your vision or hearing?",
         "Uh no."
       ]
     },
@@ -275,7 +301,7 @@
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "And do you feel wheezy?",
+        "Do you feel wheezy?",
         "No."
       ]
     }

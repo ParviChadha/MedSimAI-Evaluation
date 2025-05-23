@@ -1,47 +1,47 @@
 {
-  "updated_at": "2025-05-23T12:31:05.805359",
+  "updated_at": "2025-05-23T13:23:12.501565",
   "total_conversations": 100,
-  "total_operations": 199,
-  "total_input_tokens": 398882,
-  "total_output_tokens": 198350,
-  "total_tokens": 597232,
-  "average_input_tokens_per_operation": 2004.4321608040202,
-  "average_output_tokens_per_operation": 996.7336683417085,
+  "total_operations": 188,
+  "total_input_tokens": 345321,
+  "total_output_tokens": 154082,
+  "total_tokens": 499403,
+  "average_input_tokens_per_operation": 1836.813829787234,
+  "average_output_tokens_per_operation": 819.5851063829788,
   "operation_totals": {
     "results": {
-      "input_tokens": 365248,
-      "output_tokens": 154517,
-      "total_tokens": 519765,
-      "count": 99,
-      "avg_input_tokens": 3689.373737373737,
-      "avg_output_tokens": 1560.7777777777778,
-      "avg_total_tokens": 5250.151515151515
+      "input_tokens": 327219,
+      "output_tokens": 141623,
+      "total_tokens": 468842,
+      "count": 88,
+      "avg_input_tokens": 3718.3977272727275,
+      "avg_output_tokens": 1609.3522727272727,
+      "avg_total_tokens": 5327.75
     },
     "filter_similar_symptoms": {
-      "input_tokens": 33634,
-      "output_tokens": 43833,
-      "total_tokens": 77467,
+      "input_tokens": 18102,
+      "output_tokens": 12459,
+      "total_tokens": 30561,
       "count": 100,
-      "avg_input_tokens": 336.34,
-      "avg_output_tokens": 438.33,
-      "avg_total_tokens": 774.67
+      "avg_input_tokens": 181.02,
+      "avg_output_tokens": 124.59,
+      "avg_total_tokens": 305.61
     }
   },
   "model_statistics": {
     "claude": {
-      "conversations": 199,
-      "input_tokens": 398882,
-      "output_tokens": 198350,
-      "total_tokens": 597232,
+      "conversations": 188,
+      "input_tokens": 345321,
+      "output_tokens": 154082,
+      "total_tokens": 499403,
       "operations": {
         "results": {
-          "input_tokens": 365248,
-          "output_tokens": 154517,
-          "count": 99
+          "input_tokens": 327219,
+          "output_tokens": 141623,
+          "count": 88
         },
         "filter_similar_symptoms": {
-          "input_tokens": 33634,
-          "output_tokens": 43833,
+          "input_tokens": 18102,
+          "output_tokens": 12459,
           "count": 100
         }
       }
@@ -49,108 +49,175 @@
   },
   "conversation_metrics": [
     {
-      "conversation_id": "113",
+      "conversation_id": "101",
       "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:04:47.114016",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:43:48.854693",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
+          "transcript": 2153,
+          "prompt": 1943,
+          "total": 4096
         },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+        "output_tokens": 1927,
+        "total_tokens": 6023
       }
     },
     {
-      "conversation_id": "112",
+      "conversation_id": "102",
       "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:04:47.357662",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:43:46.857277",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
+          "transcript": 1649,
+          "prompt": 1760,
+          "total": 3409
         },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+        "output_tokens": 1468,
+        "total_tokens": 4877
       }
     },
     {
-      "conversation_id": "111",
+      "conversation_id": "103",
       "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:04:48.094852",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:43:43.648822",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
+          "transcript": 1565,
+          "prompt": 1691,
+          "total": 3256
         },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+        "output_tokens": 1676,
+        "total_tokens": 4932
       }
     },
     {
-      "conversation_id": "114",
+      "conversation_id": "104",
       "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:04:48.195462",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:43:31.643082",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
+          "transcript": 1894,
+          "prompt": 1686,
+          "total": 3580
         },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+        "output_tokens": 1784,
+        "total_tokens": 5364
+      }
+    },
+    {
+      "conversation_id": "105",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:44:22.040846",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2179,
+          "prompt": 2152,
+          "total": 4331
+        },
+        "output_tokens": 1781,
+        "total_tokens": 6112
+      }
+    },
+    {
+      "conversation_id": "106",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:44:26.316585",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1346,
+          "prompt": 1226,
+          "total": 2572
+        },
+        "output_tokens": 1056,
+        "total_tokens": 3628
+      }
+    },
+    {
+      "conversation_id": "107",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:44:39.767697",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2953,
+          "prompt": 1663,
+          "total": 4616
+        },
+        "output_tokens": 1909,
+        "total_tokens": 6525
+      }
+    },
+    {
+      "conversation_id": "108",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:44:42.342208",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2499,
+          "prompt": 1751,
+          "total": 4250
+        },
+        "output_tokens": 1842,
+        "total_tokens": 6092
+      }
+    },
+    {
+      "conversation_id": "109",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:45:16.724602",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2530,
+          "prompt": 1890,
+          "total": 4420
+        },
+        "output_tokens": 1963,
+        "total_tokens": 6383
+      }
+    },
+    {
+      "conversation_id": "110",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:45:11.917061",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2502,
+          "prompt": 1172,
+          "total": 3674
+        },
+        "output_tokens": 1018,
+        "total_tokens": 4692
       }
     },
     {
       "conversation_id": "111",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T00:05:07.146630",
+      "timestamp": "2025-05-23T12:45:19.865253",
       "metrics": {
         "input_tokens": {
           "transcript": 2253,
           "prompt": 977,
           "total": 3230
         },
-        "output_tokens": 808,
-        "total_tokens": 4038
-      }
-    },
-    {
-      "conversation_id": "113",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:05:15.522565",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1491,
-          "prompt": 1419,
-          "total": 2910
-        },
-        "output_tokens": 1554,
-        "total_tokens": 4464
+        "output_tokens": 860,
+        "total_tokens": 4090
       }
     },
     {
       "conversation_id": "112",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T00:05:19.821794",
+      "timestamp": "2025-05-23T12:45:33.327161",
       "metrics": {
         "input_tokens": {
           "transcript": 2205,
@@ -162,216 +229,871 @@
       }
     },
     {
+      "conversation_id": "113",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:45:58.111168",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1491,
+          "prompt": 1419,
+          "total": 2910
+        },
+        "output_tokens": 1774,
+        "total_tokens": 4684
+      }
+    },
+    {
       "conversation_id": "114",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T00:05:21.737653",
+      "timestamp": "2025-05-23T12:46:11.467204",
       "metrics": {
         "input_tokens": {
           "transcript": 1767,
-          "prompt": 1985,
-          "total": 3752
+          "prompt": 1995,
+          "total": 3762
         },
-        "output_tokens": 1830,
-        "total_tokens": 5582
-      }
-    },
-    {
-      "conversation_id": "115",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:05:58.344596",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "116",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:06:10.041590",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "117",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:06:11.151643",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 171,
-          "additional_symptoms": 907,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3494,
-        "total_tokens": 6080
-      }
-    },
-    {
-      "conversation_id": "118",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:06:15.068084",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+        "output_tokens": 2374,
+        "total_tokens": 6136
       }
     },
     {
       "conversation_id": "115",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T00:06:27.440331",
+      "timestamp": "2025-05-23T12:46:03.698156",
       "metrics": {
         "input_tokens": {
           "transcript": 2043,
           "prompt": 1473,
           "total": 3516
         },
-        "output_tokens": 1410,
-        "total_tokens": 4926
+        "output_tokens": 1194,
+        "total_tokens": 4710
       }
     },
     {
       "conversation_id": "116",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T00:06:40.870805",
+      "timestamp": "2025-05-23T12:46:16.630410",
       "metrics": {
         "input_tokens": {
           "transcript": 1870,
           "prompt": 1171,
           "total": 3041
         },
-        "output_tokens": 1631,
-        "total_tokens": 4672
+        "output_tokens": 1146,
+        "total_tokens": 4187
       }
     },
     {
       "conversation_id": "118",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T00:06:43.373909",
+      "timestamp": "2025-05-23T12:46:52.582705",
       "metrics": {
         "input_tokens": {
           "transcript": 1816,
           "prompt": 1656,
           "total": 3472
         },
-        "output_tokens": 1483,
-        "total_tokens": 4955
-      }
-    },
-    {
-      "conversation_id": "117",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:06:47.524105",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2508,
-          "prompt": 1797,
-          "total": 4305
-        },
-        "output_tokens": 1833,
-        "total_tokens": 6138
-      }
-    },
-    {
-      "conversation_id": "119",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:07:20.257683",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "120",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:07:32.440527",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "119",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:07:41.007800",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1319,
-          "prompt": 1163,
-          "total": 2482
-        },
-        "output_tokens": 1117,
-        "total_tokens": 3599
+        "output_tokens": 1387,
+        "total_tokens": 4859
       }
     },
     {
       "conversation_id": "120",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T00:08:09.527466",
+      "timestamp": "2025-05-23T12:49:23.000672",
       "metrics": {
         "input_tokens": {
           "transcript": 2265,
           "prompt": 1983,
           "total": 4248
         },
-        "output_tokens": 1900,
-        "total_tokens": 6148
+        "output_tokens": 1535,
+        "total_tokens": 5783
+      }
+    },
+    {
+      "conversation_id": "121",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:49:24.949421",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2192,
+          "prompt": 1912,
+          "total": 4104
+        },
+        "output_tokens": 2140,
+        "total_tokens": 6244
+      }
+    },
+    {
+      "conversation_id": "122",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:49:18.056566",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2266,
+          "prompt": 1661,
+          "total": 3927
+        },
+        "output_tokens": 1278,
+        "total_tokens": 5205
+      }
+    },
+    {
+      "conversation_id": "123",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:50:08.609009",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2528,
+          "prompt": 2224,
+          "total": 4752
+        },
+        "output_tokens": 1973,
+        "total_tokens": 6725
+      }
+    },
+    {
+      "conversation_id": "124",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:50:16.776420",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2216,
+          "prompt": 2242,
+          "total": 4458
+        },
+        "output_tokens": 2244,
+        "total_tokens": 6702
+      }
+    },
+    {
+      "conversation_id": "125",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:50:16.416193",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1978,
+          "prompt": 1925,
+          "total": 3903
+        },
+        "output_tokens": 1969,
+        "total_tokens": 5872
+      }
+    },
+    {
+      "conversation_id": "126",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:50:08.051476",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2264,
+          "prompt": 928,
+          "total": 3192
+        },
+        "output_tokens": 1222,
+        "total_tokens": 4414
+      }
+    },
+    {
+      "conversation_id": "127",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:50:49.036707",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2092,
+          "prompt": 1028,
+          "total": 3120
+        },
+        "output_tokens": 963,
+        "total_tokens": 4083
+      }
+    },
+    {
+      "conversation_id": "128",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:50:55.062936",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1696,
+          "prompt": 1598,
+          "total": 3294
+        },
+        "output_tokens": 1181,
+        "total_tokens": 4475
+      }
+    },
+    {
+      "conversation_id": "129",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:51:12.981530",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1724,
+          "prompt": 2391,
+          "total": 4115
+        },
+        "output_tokens": 2011,
+        "total_tokens": 6126
+      }
+    },
+    {
+      "conversation_id": "130",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:51:05.278495",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1738,
+          "prompt": 1806,
+          "total": 3544
+        },
+        "output_tokens": 1888,
+        "total_tokens": 5432
+      }
+    },
+    {
+      "conversation_id": "131",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:51:36.645429",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2426,
+          "prompt": 1760,
+          "total": 4186
+        },
+        "output_tokens": 1752,
+        "total_tokens": 5938
+      }
+    },
+    {
+      "conversation_id": "132",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:51:46.814714",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1638,
+          "prompt": 1925,
+          "total": 3563
+        },
+        "output_tokens": 1692,
+        "total_tokens": 5255
+      }
+    },
+    {
+      "conversation_id": "133",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:51:59.617186",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2050,
+          "prompt": 2162,
+          "total": 4212
+        },
+        "output_tokens": 1922,
+        "total_tokens": 6134
+      }
+    },
+    {
+      "conversation_id": "134",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:51:58.951251",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2286,
+          "prompt": 1665,
+          "total": 3951
+        },
+        "output_tokens": 1560,
+        "total_tokens": 5511
+      }
+    },
+    {
+      "conversation_id": "135",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:52:16.644178",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1766,
+          "prompt": 846,
+          "total": 2612
+        },
+        "output_tokens": 605,
+        "total_tokens": 3217
+      }
+    },
+    {
+      "conversation_id": "136",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:52:39.399999",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2869,
+          "prompt": 2187,
+          "total": 5056
+        },
+        "output_tokens": 2097,
+        "total_tokens": 7153
+      }
+    },
+    {
+      "conversation_id": "201",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:55:51.978797",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2310,
+          "prompt": 1737,
+          "total": 4047
+        },
+        "output_tokens": 1399,
+        "total_tokens": 5446
+      }
+    },
+    {
+      "conversation_id": "202",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:55:54.315066",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2425,
+          "prompt": 1846,
+          "total": 4271
+        },
+        "output_tokens": 1617,
+        "total_tokens": 5888
+      }
+    },
+    {
+      "conversation_id": "203",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:55:56.011953",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1755,
+          "prompt": 1932,
+          "total": 3687
+        },
+        "output_tokens": 2184,
+        "total_tokens": 5871
+      }
+    },
+    {
+      "conversation_id": "204",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:55:51.004067",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1743,
+          "prompt": 1741,
+          "total": 3484
+        },
+        "output_tokens": 1519,
+        "total_tokens": 5003
+      }
+    },
+    {
+      "conversation_id": "205",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:56:34.210932",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1499,
+          "prompt": 1037,
+          "total": 2536
+        },
+        "output_tokens": 1141,
+        "total_tokens": 3677
+      }
+    },
+    {
+      "conversation_id": "206",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:56:34.937893",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1346,
+          "prompt": 1167,
+          "total": 2513
+        },
+        "output_tokens": 1084,
+        "total_tokens": 3597
+      }
+    },
+    {
+      "conversation_id": "207",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:56:33.797725",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1895,
+          "prompt": 1875,
+          "total": 3770
+        },
+        "output_tokens": 1435,
+        "total_tokens": 5205
+      }
+    },
+    {
+      "conversation_id": "208",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:56:38.826236",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2881,
+          "prompt": 1941,
+          "total": 4822
+        },
+        "output_tokens": 2236,
+        "total_tokens": 7058
+      }
+    },
+    {
+      "conversation_id": "211",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:57:20.093807",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1946,
+          "prompt": 1029,
+          "total": 2975
+        },
+        "output_tokens": 1197,
+        "total_tokens": 4172
+      }
+    },
+    {
+      "conversation_id": "212",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:57:27.162765",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2205,
+          "prompt": 2034,
+          "total": 4239
+        },
+        "output_tokens": 1540,
+        "total_tokens": 5779
+      }
+    },
+    {
+      "conversation_id": "213",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:58:05.329442",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2328,
+          "prompt": 1858,
+          "total": 4186
+        },
+        "output_tokens": 2713,
+        "total_tokens": 6899
+      }
+    },
+    {
+      "conversation_id": "214",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:58:05.047260",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1531,
+          "prompt": 1484,
+          "total": 3015
+        },
+        "output_tokens": 1250,
+        "total_tokens": 4265
+      }
+    },
+    {
+      "conversation_id": "215",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:58:10.446172",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1752,
+          "prompt": 1601,
+          "total": 3353
+        },
+        "output_tokens": 1348,
+        "total_tokens": 4701
+      }
+    },
+    {
+      "conversation_id": "216",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:58:11.437353",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1803,
+          "prompt": 1188,
+          "total": 2991
+        },
+        "output_tokens": 833,
+        "total_tokens": 3824
+      }
+    },
+    {
+      "conversation_id": "217",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:58:58.247933",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1847,
+          "prompt": 1667,
+          "total": 3514
+        },
+        "output_tokens": 2045,
+        "total_tokens": 5559
+      }
+    },
+    {
+      "conversation_id": "218",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T12:58:48.356736",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1816,
+          "prompt": 1548,
+          "total": 3364
+        },
+        "output_tokens": 1146,
+        "total_tokens": 4510
+      }
+    },
+    {
+      "conversation_id": "219",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:01:07.715491",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2097,
+          "prompt": 1661,
+          "total": 3758
+        },
+        "output_tokens": 1864,
+        "total_tokens": 5622
+      }
+    },
+    {
+      "conversation_id": "220",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:01:14.133821",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1913,
+          "prompt": 1917,
+          "total": 3830
+        },
+        "output_tokens": 2129,
+        "total_tokens": 5959
+      }
+    },
+    {
+      "conversation_id": "222",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:01:02.166942",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1571,
+          "prompt": 1426,
+          "total": 2997
+        },
+        "output_tokens": 1064,
+        "total_tokens": 4061
+      }
+    },
+    {
+      "conversation_id": "223",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:01:37.928341",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2421,
+          "prompt": 1845,
+          "total": 4266
+        },
+        "output_tokens": 1352,
+        "total_tokens": 5618
+      }
+    },
+    {
+      "conversation_id": "224",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:01:52.530362",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2162,
+          "prompt": 2094,
+          "total": 4256
+        },
+        "output_tokens": 1915,
+        "total_tokens": 6171
+      }
+    },
+    {
+      "conversation_id": "225",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:01:54.951777",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2122,
+          "prompt": 1718,
+          "total": 3840
+        },
+        "output_tokens": 1751,
+        "total_tokens": 5591
+      }
+    },
+    {
+      "conversation_id": "227",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:02:21.971132",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1868,
+          "prompt": 854,
+          "total": 2722
+        },
+        "output_tokens": 1244,
+        "total_tokens": 3966
+      }
+    },
+    {
+      "conversation_id": "228",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:02:33.224771",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1759,
+          "prompt": 871,
+          "total": 2630
+        },
+        "output_tokens": 868,
+        "total_tokens": 3498
+      }
+    },
+    {
+      "conversation_id": "229",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:02:41.641696",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2589,
+          "prompt": 1679,
+          "total": 4268
+        },
+        "output_tokens": 1607,
+        "total_tokens": 5875
+      }
+    },
+    {
+      "conversation_id": "230",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:02:51.074254",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1923,
+          "prompt": 1421,
+          "total": 3344
+        },
+        "output_tokens": 1159,
+        "total_tokens": 4503
+      }
+    },
+    {
+      "conversation_id": "231",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:03:08.383807",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2209,
+          "prompt": 1720,
+          "total": 3929
+        },
+        "output_tokens": 1247,
+        "total_tokens": 5176
+      }
+    },
+    {
+      "conversation_id": "232",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:03:25.313261",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2159,
+          "prompt": 1590,
+          "total": 3749
+        },
+        "output_tokens": 1830,
+        "total_tokens": 5579
+      }
+    },
+    {
+      "conversation_id": "233",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:03:28.428886",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1728,
+          "prompt": 1861,
+          "total": 3589
+        },
+        "output_tokens": 1250,
+        "total_tokens": 4839
+      }
+    },
+    {
+      "conversation_id": "234",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:03:33.854540",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1933,
+          "prompt": 1171,
+          "total": 3104
+        },
+        "output_tokens": 837,
+        "total_tokens": 3941
+      }
+    },
+    {
+      "conversation_id": "235",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:03:57.196576",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2473,
+          "prompt": 1662,
+          "total": 4135
+        },
+        "output_tokens": 1754,
+        "total_tokens": 5889
+      }
+    },
+    {
+      "conversation_id": "236",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:04:16.456458",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1703,
+          "prompt": 1720,
+          "total": 3423
+        },
+        "output_tokens": 1835,
+        "total_tokens": 5258
+      }
+    },
+    {
+      "conversation_id": "101",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:43:27.405708",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "102",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:43:30.684250",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "103",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:43:25.207988",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "104",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:26:15.917096",
+      "timestamp": "2025-05-23T12:43:13.969454",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 123,
@@ -379,126 +1101,15 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 3400,
-        "total_tokens": 5986
-      }
-    },
-    {
-      "conversation_id": "103",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:26:17.523721",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "101",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:26:18.580559",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "102",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:26:19.968338",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "104",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:26:41.069615",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1894,
-          "prompt": 1680,
-          "total": 3574
-        },
-        "output_tokens": 1281,
-        "total_tokens": 4855
-      }
-    },
-    {
-      "conversation_id": "103",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:26:42.692811",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1565,
-          "prompt": 1691,
-          "total": 3256
-        },
-        "output_tokens": 1363,
-        "total_tokens": 4619
-      }
-    },
-    {
-      "conversation_id": "102",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:26:54.994429",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1649,
-          "prompt": 1760,
-          "total": 3409
-        },
-        "output_tokens": 1945,
-        "total_tokens": 5354
-      }
-    },
-    {
-      "conversation_id": "101",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:26:56.659868",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2153,
-          "prompt": 1943,
-          "total": 4096
-        },
-        "output_tokens": 2058,
-        "total_tokens": 6154
+        "output_tokens": 1349,
+        "total_tokens": 3935
       }
     },
     {
       "conversation_id": "105",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:27:32.925489",
+      "timestamp": "2025-05-23T12:44:02.429556",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -515,24 +1126,7 @@
       "conversation_id": "106",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:27:34.735141",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "108",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:27:51.162449",
+      "timestamp": "2025-05-23T12:44:13.860594",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -549,7 +1143,7 @@
       "conversation_id": "107",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:27:53.137058",
+      "timestamp": "2025-05-23T12:44:20.220513",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -560,73 +1154,30 @@
         "output_tokens": 0,
         "total_tokens": 0,
         "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "106",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:27:56.337262",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1346,
-          "prompt": 1226,
-          "total": 2572
-        },
-        "output_tokens": 1003,
-        "total_tokens": 3575
-      }
-    },
-    {
-      "conversation_id": "105",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:28:10.731531",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2179,
-          "prompt": 2152,
-          "total": 4331
-        },
-        "output_tokens": 1877,
-        "total_tokens": 6208
-      }
-    },
-    {
-      "conversation_id": "107",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:28:26.000832",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2953,
-          "prompt": 1663,
-          "total": 4616
-        },
-        "output_tokens": 1587,
-        "total_tokens": 6203
       }
     },
     {
       "conversation_id": "108",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:28:27.359535",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:44:21.015299",
       "metrics": {
         "input_tokens": {
-          "transcript": 2499,
-          "prompt": 1751,
-          "total": 4250
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1946,
-        "total_tokens": 6196
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "109",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:28:47.271830",
+      "timestamp": "2025-05-23T12:44:54.086393",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -643,7 +1194,7 @@
       "conversation_id": "110",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:29:03.065823",
+      "timestamp": "2025-05-23T12:45:00.376720",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -657,40 +1208,10 @@
       }
     },
     {
-      "conversation_id": "110",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:29:27.355569",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2502,
-          "prompt": 1172,
-          "total": 3674
-        },
-        "output_tokens": 1081,
-        "total_tokens": 4755
-      }
-    },
-    {
-      "conversation_id": "109",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:29:27.634060",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2530,
-          "prompt": 1890,
-          "total": 4420
-        },
-        "output_tokens": 1890,
-        "total_tokens": 6310
-      }
-    },
-    {
-      "conversation_id": "123",
+      "conversation_id": "111",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:50:16.383380",
+      "timestamp": "2025-05-23T12:45:08.460347",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -704,10 +1225,145 @@
       }
     },
     {
-      "conversation_id": "124",
+      "conversation_id": "112",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:50:17.030772",
+      "timestamp": "2025-05-23T12:45:15.398774",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "113",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:45:41.043017",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "114",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:45:46.130988",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 145,
+          "additional_symptoms": 933,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 2779,
+        "total_tokens": 5365
+      }
+    },
+    {
+      "conversation_id": "115",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:45:49.907244",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "116",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:46:03.316393",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "117",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:46:28.839974",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "118",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:46:35.497403",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "119",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:49:06.309685",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "120",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:49:04.040106",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -724,7 +1380,7 @@
       "conversation_id": "121",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:50:17.629727",
+      "timestamp": "2025-05-23T12:49:03.600658",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -741,99 +1397,75 @@
       "conversation_id": "122",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:50:19.116560",
+      "timestamp": "2025-05-23T12:49:02.833229",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 120,
-          "additional_symptoms": 958,
-          "prompt": 1508,
-          "total": 2586
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 3341,
-        "total_tokens": 5927
-      }
-    },
-    {
-      "conversation_id": "122",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:50:52.071427",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2266,
-          "prompt": 1506,
-          "total": 3772
-        },
-        "output_tokens": 1527,
-        "total_tokens": 5299
-      }
-    },
-    {
-      "conversation_id": "121",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:50:55.339905",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2192,
-          "prompt": 1912,
-          "total": 4104
-        },
-        "output_tokens": 1922,
-        "total_tokens": 6026
-      }
-    },
-    {
-      "conversation_id": "124",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:50:56.940110",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2216,
-          "prompt": 2242,
-          "total": 4458
-        },
-        "output_tokens": 1924,
-        "total_tokens": 6382
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "123",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:50:58.704746",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:49:47.437442",
       "metrics": {
         "input_tokens": {
-          "transcript": 2528,
-          "prompt": 2224,
-          "total": 4752
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 2071,
-        "total_tokens": 6823
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
-      "conversation_id": "126",
+      "conversation_id": "124",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:51:47.881723",
+      "timestamp": "2025-05-23T12:49:51.167131",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 59,
-          "additional_symptoms": 1019,
-          "prompt": 1508,
-          "total": 2586
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 3419,
-        "total_tokens": 6005
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "125",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:51:49.678781",
+      "timestamp": "2025-05-23T12:49:53.867134",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "126",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:49:53.882401",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -850,7 +1482,7 @@
       "conversation_id": "127",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:51:50.753155",
+      "timestamp": "2025-05-23T12:50:38.171641",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -867,7 +1499,7 @@
       "conversation_id": "128",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:51:51.955426",
+      "timestamp": "2025-05-23T12:50:41.766240",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -881,70 +1513,10 @@
       }
     },
     {
-      "conversation_id": "126",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:52:06.512936",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2264,
-          "prompt": 906,
-          "total": 3170
-        },
-        "output_tokens": 811,
-        "total_tokens": 3981
-      }
-    },
-    {
-      "conversation_id": "127",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:52:15.547017",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2092,
-          "prompt": 1028,
-          "total": 3120
-        },
-        "output_tokens": 1082,
-        "total_tokens": 4202
-      }
-    },
-    {
-      "conversation_id": "128",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:52:21.118616",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1696,
-          "prompt": 1598,
-          "total": 3294
-        },
-        "output_tokens": 1337,
-        "total_tokens": 4631
-      }
-    },
-    {
-      "conversation_id": "125",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:52:29.315477",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1978,
-          "prompt": 1925,
-          "total": 3903
-        },
-        "output_tokens": 1859,
-        "total_tokens": 5762
-      }
-    },
-    {
       "conversation_id": "129",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:53:00.101036",
+      "timestamp": "2025-05-23T12:50:50.339713",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -961,7 +1533,7 @@
       "conversation_id": "130",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:53:12.202164",
+      "timestamp": "2025-05-23T12:50:45.509554",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -978,85 +1550,7 @@
       "conversation_id": "131",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:53:15.072595",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "129",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:53:38.109802",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1724,
-          "prompt": 2391,
-          "total": 4115
-        },
-        "output_tokens": 1938,
-        "total_tokens": 6053
-      }
-    },
-    {
-      "conversation_id": "130",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:53:50.164048",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1738,
-          "prompt": 1806,
-          "total": 3544
-        },
-        "output_tokens": 1877,
-        "total_tokens": 5421
-      }
-    },
-    {
-      "conversation_id": "131",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:53:52.445623",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2426,
-          "prompt": 1760,
-          "total": 4186
-        },
-        "output_tokens": 1745,
-        "total_tokens": 5931
-      }
-    },
-    {
-      "conversation_id": "134",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:57:00.397758",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 116,
-          "additional_symptoms": 962,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3310,
-        "total_tokens": 5896
-      }
-    },
-    {
-      "conversation_id": "133",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:57:00.694791",
+      "timestamp": "2025-05-23T12:51:18.590866",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1073,7 +1567,7 @@
       "conversation_id": "132",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:57:03.636634",
+      "timestamp": "2025-05-23T12:51:27.111659",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1084,90 +1578,47 @@
         "output_tokens": 0,
         "total_tokens": 0,
         "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "135",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:57:04.036650",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "135",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:57:19.417654",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1766,
-          "prompt": 846,
-          "total": 2612
-        },
-        "output_tokens": 643,
-        "total_tokens": 3255
-      }
-    },
-    {
-      "conversation_id": "134",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:57:28.107202",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2286,
-          "prompt": 1632,
-          "total": 3918
-        },
-        "output_tokens": 1387,
-        "total_tokens": 5305
       }
     },
     {
       "conversation_id": "133",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:57:39.281959",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:51:39.128346",
       "metrics": {
         "input_tokens": {
-          "transcript": 2050,
-          "prompt": 2162,
-          "total": 4212
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1908,
-        "total_tokens": 6120
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
-      "conversation_id": "132",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:57:43.046382",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1638,
-          "prompt": 1925,
-          "total": 3563
-        },
-        "output_tokens": 1965,
-        "total_tokens": 5528
-      }
-    },
-    {
-      "conversation_id": "136",
+      "conversation_id": "134",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T00:58:12.444793",
+      "timestamp": "2025-05-23T12:51:41.462072",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "135",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:52:08.770847",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1183,90 +1634,8 @@
     {
       "conversation_id": "136",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T00:58:56.531951",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2869,
-          "prompt": 2187,
-          "total": 5056
-        },
-        "output_tokens": 2212,
-        "total_tokens": 7268
-      }
-    },
-    {
-      "conversation_id": "202",
-      "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:22:06.032768",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 122,
-          "additional_symptoms": 956,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 2925,
-        "total_tokens": 5511
-      }
-    },
-    {
-      "conversation_id": "204",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:22:10.892057",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "206",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:22:11.218169",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "205",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:22:11.541882",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "203",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:22:13.114349",
+      "timestamp": "2025-05-23T12:52:16.498620",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1283,7 +1652,58 @@
       "conversation_id": "201",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:22:14.714349",
+      "timestamp": "2025-05-23T12:55:35.633639",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "202",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:55:34.456795",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "203",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:55:32.310970",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "204",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:55:32.162917",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1299,114 +1719,42 @@
     {
       "conversation_id": "205",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:22:30.385834",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:56:21.918387",
       "metrics": {
         "input_tokens": {
-          "transcript": 1499,
-          "prompt": 1037,
-          "total": 2536
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 839,
-        "total_tokens": 3375
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "206",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:22:32.590861",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1346,
-          "prompt": 1167,
-          "total": 2513
-        },
-        "output_tokens": 945,
-        "total_tokens": 3458
-      }
-    },
-    {
-      "conversation_id": "204",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:22:40.830300",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1743,
-          "prompt": 1741,
-          "total": 3484
-        },
-        "output_tokens": 1329,
-        "total_tokens": 4813
-      }
-    },
-    {
-      "conversation_id": "202",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:22:42.902521",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2425,
-          "prompt": 1818,
-          "total": 4243
-        },
-        "output_tokens": 1713,
-        "total_tokens": 5956
-      }
-    },
-    {
-      "conversation_id": "201",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:22:46.739229",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2310,
-          "prompt": 1737,
-          "total": 4047
-        },
-        "output_tokens": 1487,
-        "total_tokens": 5534
-      }
-    },
-    {
-      "conversation_id": "203",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:22:52.167242",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1755,
-          "prompt": 1932,
-          "total": 3687
-        },
-        "output_tokens": 1803,
-        "total_tokens": 5490
-      }
-    },
-    {
-      "conversation_id": "208",
-      "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:23:20.597025",
+      "timestamp": "2025-05-23T12:56:20.894857",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 139,
-          "additional_symptoms": 939,
-          "prompt": 1508,
-          "total": 2586
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 2960,
-        "total_tokens": 5546
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "207",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:23:28.035936",
+      "timestamp": "2025-05-23T12:56:16.607327",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 130,
@@ -1414,125 +1762,31 @@
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 3556,
-        "total_tokens": 6142
-      }
-    },
-    {
-      "conversation_id": "209",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:23:35.112755",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "210",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:23:38.599824",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "207",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:24:00.512970",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1895,
-          "prompt": 1547,
-          "total": 3442
-        },
-        "output_tokens": 1576,
-        "total_tokens": 5018
-      }
-    },
-    {
-      "conversation_id": "210",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:24:00.763333",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1306,
-          "prompt": 1334,
-          "total": 2640
-        },
-        "output_tokens": 1136,
-        "total_tokens": 3776
-      }
-    },
-    {
-      "conversation_id": "209",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:24:02.227230",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2694,
-          "prompt": 1183,
-          "total": 3877
-        },
-        "output_tokens": 1112,
-        "total_tokens": 4989
+        "output_tokens": 1824,
+        "total_tokens": 4410
       }
     },
     {
       "conversation_id": "208",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:24:13.786457",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2881,
-          "prompt": 1925,
-          "total": 4806
-        },
-        "output_tokens": 2588,
-        "total_tokens": 7394
-      }
-    },
-    {
-      "conversation_id": "216",
-      "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:25:54.220019",
+      "timestamp": "2025-05-23T12:56:15.197323",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 83,
-          "additional_symptoms": 995,
+          "existing_symptoms": 139,
+          "additional_symptoms": 939,
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 3337,
-        "total_tokens": 5923
+        "output_tokens": 1660,
+        "total_tokens": 4246
       }
     },
     {
-      "conversation_id": "213",
+      "conversation_id": "209",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:25:55.029933",
+      "timestamp": "2025-05-23T12:57:04.831926",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1546,27 +1800,10 @@
       }
     },
     {
-      "conversation_id": "212",
+      "conversation_id": "210",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:25:55.647459",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "214",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:25:57.415827",
+      "timestamp": "2025-05-23T12:57:07.433363",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1583,7 +1820,57 @@
       "conversation_id": "211",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:25:57.628377",
+      "timestamp": "2025-05-23T12:57:07.283525",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "212",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:57:09.752414",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "213",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:57:37.502570",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 128,
+          "additional_symptoms": 950,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1533,
+        "total_tokens": 4119
+      }
+    },
+    {
+      "conversation_id": "214",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:57:50.813095",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1600,7 +1887,7 @@
       "conversation_id": "215",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:25:59.272505",
+      "timestamp": "2025-05-23T12:57:54.394455",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1616,98 +1903,8 @@
     {
       "conversation_id": "216",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:26:16.757267",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1803,
-          "prompt": 1170,
-          "total": 2973
-        },
-        "output_tokens": 966,
-        "total_tokens": 3939
-      }
-    },
-    {
-      "conversation_id": "211",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:26:18.797625",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1946,
-          "prompt": 1029,
-          "total": 2975
-        },
-        "output_tokens": 950,
-        "total_tokens": 3925
-      }
-    },
-    {
-      "conversation_id": "214",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:26:24.217793",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1531,
-          "prompt": 1484,
-          "total": 3015
-        },
-        "output_tokens": 1289,
-        "total_tokens": 4304
-      }
-    },
-    {
-      "conversation_id": "215",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:26:29.123113",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1752,
-          "prompt": 1601,
-          "total": 3353
-        },
-        "output_tokens": 1386,
-        "total_tokens": 4739
-      }
-    },
-    {
-      "conversation_id": "213",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:26:29.705276",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2328,
-          "prompt": 1848,
-          "total": 4176
-        },
-        "output_tokens": 1612,
-        "total_tokens": 5788
-      }
-    },
-    {
-      "conversation_id": "212",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:26:36.696679",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2205,
-          "prompt": 2034,
-          "total": 4239
-        },
-        "output_tokens": 2085,
-        "total_tokens": 6324
-      }
-    },
-    {
-      "conversation_id": "218",
-      "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:27:13.456128",
+      "timestamp": "2025-05-23T12:58:00.939281",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1724,7 +1921,7 @@
       "conversation_id": "217",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:27:13.966726",
+      "timestamp": "2025-05-23T12:58:35.650654",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1735,175 +1932,64 @@
         "output_tokens": 0,
         "total_tokens": 0,
         "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "219",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:27:17.057688",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "220",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T01:27:22.614679",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "217",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:27:42.478231",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1847,
-          "prompt": 1667,
-          "total": 3514
-        },
-        "output_tokens": 1377,
-        "total_tokens": 4891
       }
     },
     {
       "conversation_id": "218",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:27:44.724040",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T12:58:34.847280",
       "metrics": {
         "input_tokens": {
-          "transcript": 1816,
-          "prompt": 1548,
-          "total": 3364
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1439,
-        "total_tokens": 4803
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "219",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:27:55.271562",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:00:49.906374",
       "metrics": {
         "input_tokens": {
-          "transcript": 2097,
-          "prompt": 1661,
-          "total": 3758
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1856,
-        "total_tokens": 5614
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "220",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T01:28:00.347340",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:00:53.077534",
       "metrics": {
         "input_tokens": {
-          "transcript": 1913,
-          "prompt": 1917,
-          "total": 3830
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1881,
-        "total_tokens": 5711
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "221",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:46:25.368508",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "226",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:46:26.842583",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "224",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:46:27.167299",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "223",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:46:27.257316",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "225",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:46:27.692530",
+      "timestamp": "2025-05-23T13:00:51.846852",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1920,7 +2006,7 @@
       "conversation_id": "222",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:46:29.120523",
+      "timestamp": "2025-05-23T13:00:49.502284",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -1931,230 +2017,148 @@
         "output_tokens": 0,
         "total_tokens": 0,
         "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "221",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:46:51.514316",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1811,
-          "prompt": 1215,
-          "total": 3026
-        },
-        "output_tokens": 1268,
-        "total_tokens": 4294
-      }
-    },
-    {
-      "conversation_id": "222",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:46:53.383649",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1571,
-          "prompt": 1426,
-          "total": 2997
-        },
-        "output_tokens": 1238,
-        "total_tokens": 4235
-      }
-    },
-    {
-      "conversation_id": "225",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:47:00.769063",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2122,
-          "prompt": 1718,
-          "total": 3840
-        },
-        "output_tokens": 1524,
-        "total_tokens": 5364
       }
     },
     {
       "conversation_id": "223",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:47:01.141107",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2421,
-          "prompt": 1844,
-          "total": 4265
-        },
-        "output_tokens": 1710,
-        "total_tokens": 5975
-      }
-    },
-    {
-      "conversation_id": "226",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:47:03.830946",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1981,
-          "prompt": 1679,
-          "total": 3660
-        },
-        "output_tokens": 1766,
-        "total_tokens": 5426
-      }
-    },
-    {
-      "conversation_id": "224",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:47:07.111372",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2162,
-          "prompt": 2094,
-          "total": 4256
-        },
-        "output_tokens": 1942,
-        "total_tokens": 6198
-      }
-    },
-    {
-      "conversation_id": "227",
-      "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:47:46.641483",
+      "timestamp": "2025-05-23T13:01:20.318786",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "228",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:47:48.475708",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "230",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:47:55.652319",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "229",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:47:56.876505",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 119,
-          "additional_symptoms": 959,
+          "existing_symptoms": 125,
+          "additional_symptoms": 953,
           "prompt": 1508,
           "total": 2586
         },
-        "output_tokens": 3503,
-        "total_tokens": 6089
+        "output_tokens": 1556,
+        "total_tokens": 4142
+      }
+    },
+    {
+      "conversation_id": "224",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:01:32.221094",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "225",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:01:37.043545",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "226",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:01:47.364665",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "227",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:48:07.166980",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:02:08.444556",
       "metrics": {
         "input_tokens": {
-          "transcript": 1868,
-          "prompt": 854,
-          "total": 2722
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 876,
-        "total_tokens": 3598
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "228",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:48:13.406270",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:02:22.998872",
       "metrics": {
         "input_tokens": {
-          "transcript": 1759,
-          "prompt": 871,
-          "total": 2630
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1078,
-        "total_tokens": 3708
-      }
-    },
-    {
-      "conversation_id": "230",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:48:20.077733",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1923,
-          "prompt": 1421,
-          "total": 3344
-        },
-        "output_tokens": 1150,
-        "total_tokens": 4494
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "229",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:48:36.104304",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:02:24.096576",
       "metrics": {
         "input_tokens": {
-          "transcript": 2589,
-          "prompt": 1650,
-          "total": 4239
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1875,
-        "total_tokens": 6114
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "230",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:02:36.792491",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "231",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:57:52.218765",
+      "timestamp": "2025-05-23T13:02:53.808646",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2171,24 +2175,7 @@
       "conversation_id": "232",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:57:53.159423",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "236",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:57:53.531956",
+      "timestamp": "2025-05-23T13:03:05.694939",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2205,7 +2192,24 @@
       "conversation_id": "233",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:57:54.772610",
+      "timestamp": "2025-05-23T13:03:12.776472",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "234",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:03:23.311480",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2222,7 +2226,7 @@
       "conversation_id": "235",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:57:55.112166",
+      "timestamp": "2025-05-23T13:03:37.748029",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2233,171 +2237,13 @@
         "output_tokens": 0,
         "total_tokens": 0,
         "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "234",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T11:57:56.276100",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "234",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:58:21.028765",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1933,
-          "prompt": 1171,
-          "total": 3104
-        },
-        "output_tokens": 1001,
-        "total_tokens": 4105
       }
     },
     {
       "conversation_id": "236",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:58:25.104688",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1703,
-          "prompt": 1720,
-          "total": 3423
-        },
-        "output_tokens": 1528,
-        "total_tokens": 4951
-      }
-    },
-    {
-      "conversation_id": "232",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:58:25.412931",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2159,
-          "prompt": 1590,
-          "total": 3749
-        },
-        "output_tokens": 1459,
-        "total_tokens": 5208
-      }
-    },
-    {
-      "conversation_id": "231",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:58:25.927830",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2209,
-          "prompt": 1720,
-          "total": 3929
-        },
-        "output_tokens": 1678,
-        "total_tokens": 5607
-      }
-    },
-    {
-      "conversation_id": "233",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:58:27.681687",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1728,
-          "prompt": 1861,
-          "total": 3589
-        },
-        "output_tokens": 1665,
-        "total_tokens": 5254
-      }
-    },
-    {
-      "conversation_id": "235",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T11:58:31.286693",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2473,
-          "prompt": 1662,
-          "total": 4135
-        },
-        "output_tokens": 1605,
-        "total_tokens": 5740
-      }
-    },
-    {
-      "conversation_id": "305",
-      "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:24:33.371222",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "306",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:24:34.396303",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "303",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:24:35.126614",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "304",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:24:36.444018",
+      "timestamp": "2025-05-23T13:03:55.971044",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2414,7 +2260,7 @@
       "conversation_id": "301",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:24:37.467460",
+      "timestamp": "2025-05-23T13:05:54.374405",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2431,98 +2277,120 @@
       "conversation_id": "302",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:24:37.999279",
+      "timestamp": "2025-05-23T13:05:54.350575",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 108,
-          "additional_symptoms": 978,
-          "prompt": 1516,
-          "total": 2602
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 3602,
-        "total_tokens": 6204
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
-      "conversation_id": "302",
+      "conversation_id": "303",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:25:01.226005",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:05:54.463131",
       "metrics": {
         "input_tokens": {
-          "transcript": 2056,
-          "prompt": 1517,
-          "total": 3573
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1139,
-        "total_tokens": 4712
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "304",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:05:54.955858",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "304",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:25:02.868374",
+      "timestamp": "2025-05-23T13:06:10.636445",
       "metrics": {
         "input_tokens": {
           "transcript": 1873,
           "prompt": 1351,
           "total": 3224
         },
-        "output_tokens": 1245,
-        "total_tokens": 4469
+        "output_tokens": 1582,
+        "total_tokens": 4806
       }
     },
     {
-      "conversation_id": "306",
+      "conversation_id": "302",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:25:05.323979",
+      "timestamp": "2025-05-23T13:06:11.670217",
       "metrics": {
         "input_tokens": {
-          "transcript": 1744,
-          "prompt": 1557,
-          "total": 3301
+          "transcript": 2056,
+          "prompt": 1550,
+          "total": 3606
         },
-        "output_tokens": 1567,
-        "total_tokens": 4868
-      }
-    },
-    {
-      "conversation_id": "301",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:25:07.145549",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1923,
-          "prompt": 1600,
-          "total": 3523
-        },
-        "output_tokens": 1474,
-        "total_tokens": 4997
+        "output_tokens": 1511,
+        "total_tokens": 5117
       }
     },
     {
       "conversation_id": "303",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:25:08.191741",
+      "timestamp": "2025-05-23T13:06:14.313121",
       "metrics": {
         "input_tokens": {
           "transcript": 1687,
           "prompt": 1917,
           "total": 3604
         },
-        "output_tokens": 1612,
-        "total_tokens": 5216
+        "output_tokens": 1825,
+        "total_tokens": 5429
       }
     },
     {
-      "conversation_id": "307",
+      "conversation_id": "305",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:25:54.930192",
+      "timestamp": "2025-05-23T13:06:37.157714",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "306",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:06:43.499849",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2539,7 +2407,7 @@
       "conversation_id": "308",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:25:56.008059",
+      "timestamp": "2025-05-23T13:06:46.264930",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2553,61 +2421,10 @@
       }
     },
     {
-      "conversation_id": "309",
+      "conversation_id": "307",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:25:58.871249",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "310",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:26:01.186659",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "312",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:26:05.737559",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "311",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:26:07.431850",
+      "timestamp": "2025-05-23T13:06:46.769251",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2624,114 +2441,180 @@
       "conversation_id": "308",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:26:17.426588",
+      "timestamp": "2025-05-23T13:06:58.642544",
       "metrics": {
         "input_tokens": {
           "transcript": 1316,
           "prompt": 1226,
           "total": 2542
         },
-        "output_tokens": 1030,
-        "total_tokens": 3572
+        "output_tokens": 1171,
+        "total_tokens": 3713
       }
     },
     {
-      "conversation_id": "311",
+      "conversation_id": "306",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:26:34.419943",
+      "timestamp": "2025-05-23T13:07:02.956727",
       "metrics": {
         "input_tokens": {
-          "transcript": 2038,
-          "prompt": 1363,
-          "total": 3401
+          "transcript": 1744,
+          "prompt": 1557,
+          "total": 3301
         },
-        "output_tokens": 1237,
-        "total_tokens": 4638
-      }
-    },
-    {
-      "conversation_id": "309",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:26:35.445096",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2395,
-          "prompt": 2098,
-          "total": 4493
-        },
-        "output_tokens": 1868,
-        "total_tokens": 6361
+        "output_tokens": 1966,
+        "total_tokens": 5267
       }
     },
     {
       "conversation_id": "307",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:26:37.649105",
+      "timestamp": "2025-05-23T13:07:09.518700",
       "metrics": {
         "input_tokens": {
           "transcript": 3055,
           "prompt": 2223,
           "total": 5278
         },
-        "output_tokens": 2198,
-        "total_tokens": 7476
+        "output_tokens": 2026,
+        "total_tokens": 7304
+      }
+    },
+    {
+      "conversation_id": "310",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:08:53.302341",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "309",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:08:55.382581",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "312",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:26:37.889618",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:08:57.333573",
       "metrics": {
         "input_tokens": {
-          "transcript": 2090,
-          "prompt": 1732,
-          "total": 3822
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1524,
-        "total_tokens": 5346
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "311",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:09:00.220668",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "310",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:26:43.858087",
+      "timestamp": "2025-05-23T13:09:13.176483",
       "metrics": {
         "input_tokens": {
           "transcript": 1821,
           "prompt": 2252,
           "total": 4073
         },
-        "output_tokens": 2143,
-        "total_tokens": 6216
+        "output_tokens": 1852,
+        "total_tokens": 5925
       }
     },
     {
-      "conversation_id": "313",
+      "conversation_id": "312",
       "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:27:12.739399",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:09:13.713047",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
+          "transcript": 2090,
+          "prompt": 1732,
+          "total": 3822
         },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+        "output_tokens": 1560,
+        "total_tokens": 5382
+      }
+    },
+    {
+      "conversation_id": "309",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:09:14.235182",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2395,
+          "prompt": 2098,
+          "total": 4493
+        },
+        "output_tokens": 1555,
+        "total_tokens": 6048
+      }
+    },
+    {
+      "conversation_id": "311",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:09:16.435075",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2038,
+          "prompt": 1363,
+          "total": 3401
+        },
+        "output_tokens": 1353,
+        "total_tokens": 4754
       }
     },
     {
       "conversation_id": "314",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:27:27.978148",
+      "timestamp": "2025-05-23T13:09:43.157836",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2745,10 +2628,10 @@
       }
     },
     {
-      "conversation_id": "316",
+      "conversation_id": "313",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:27:30.698747",
+      "timestamp": "2025-05-23T13:09:44.459275",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2765,7 +2648,7 @@
       "conversation_id": "315",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:27:31.757914",
+      "timestamp": "2025-05-23T13:09:45.548604",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -2776,328 +2659,315 @@
         "output_tokens": 0,
         "total_tokens": 0,
         "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "317",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:27:33.651670",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 140,
-          "additional_symptoms": 938,
-          "prompt": 1508,
-          "total": 2586
-        },
-        "output_tokens": 3513,
-        "total_tokens": 6099
-      }
-    },
-    {
-      "conversation_id": "318",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:27:37.288267",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "313",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:27:51.772747",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2101,
-          "prompt": 1893,
-          "total": 3994
-        },
-        "output_tokens": 1892,
-        "total_tokens": 5886
-      }
-    },
-    {
-      "conversation_id": "314",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:28:03.215942",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1967,
-          "prompt": 1730,
-          "total": 3697
-        },
-        "output_tokens": 1705,
-        "total_tokens": 5402
-      }
-    },
-    {
-      "conversation_id": "317",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:28:05.962888",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2111,
-          "prompt": 1758,
-          "total": 3869
-        },
-        "output_tokens": 1597,
-        "total_tokens": 5466
       }
     },
     {
       "conversation_id": "316",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:28:09.548511",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:09:46.755301",
       "metrics": {
         "input_tokens": {
-          "transcript": 1726,
-          "prompt": 1904,
-          "total": 3630
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 2056,
-        "total_tokens": 5686
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "315",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:28:09.970698",
+      "timestamp": "2025-05-23T13:10:04.055677",
       "metrics": {
         "input_tokens": {
           "transcript": 1726,
           "prompt": 1920,
           "total": 3646
         },
-        "output_tokens": 1946,
-        "total_tokens": 5592
+        "output_tokens": 1315,
+        "total_tokens": 4961
+      }
+    },
+    {
+      "conversation_id": "313",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:10:11.708094",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2101,
+          "prompt": 1893,
+          "total": 3994
+        },
+        "output_tokens": 2512,
+        "total_tokens": 6506
+      }
+    },
+    {
+      "conversation_id": "316",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:10:13.409568",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1726,
+          "prompt": 1904,
+          "total": 3630
+        },
+        "output_tokens": 2328,
+        "total_tokens": 5958
+      }
+    },
+    {
+      "conversation_id": "319",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:21:06.873946",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "318",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:21:07.466387",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "317",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:21:09.120531",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "320",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:21:09.405868",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "318",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:28:14.764445",
+      "timestamp": "2025-05-23T13:21:28.367189",
       "metrics": {
         "input_tokens": {
           "transcript": 2918,
           "prompt": 1848,
           "total": 4766
         },
-        "output_tokens": 1834,
-        "total_tokens": 6600
+        "output_tokens": 2113,
+        "total_tokens": 6879
       }
     },
     {
-      "conversation_id": "319",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:28:50.721287",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "320",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:28:56.036185",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "321",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:29:01.624034",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "322",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:29:04.994350",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "323",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:29:05.678239",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "324",
-      "model": "claude",
-      "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:29:07.602682",
-      "metrics": {
-        "input_tokens": {
-          "existing_symptoms": 0,
-          "additional_symptoms": 0,
-          "prompt": 0,
-          "total": 0
-        },
-        "output_tokens": 0,
-        "total_tokens": 0,
-        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
-      }
-    },
-    {
-      "conversation_id": "319",
+      "conversation_id": "317",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:29:23.156647",
+      "timestamp": "2025-05-23T13:21:29.382305",
       "metrics": {
         "input_tokens": {
-          "transcript": 2929,
-          "prompt": 1710,
-          "total": 4639
+          "transcript": 2111,
+          "prompt": 1964,
+          "total": 4075
         },
-        "output_tokens": 1531,
-        "total_tokens": 6170
-      }
-    },
-    {
-      "conversation_id": "322",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:29:25.920113",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1360,
-          "prompt": 1113,
-          "total": 2473
-        },
-        "output_tokens": 1061,
-        "total_tokens": 3534
+        "output_tokens": 1752,
+        "total_tokens": 5827
       }
     },
     {
       "conversation_id": "320",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:29:34.853394",
+      "timestamp": "2025-05-23T13:21:32.893029",
       "metrics": {
         "input_tokens": {
           "transcript": 1721,
           "prompt": 2229,
           "total": 3950
         },
-        "output_tokens": 2007,
-        "total_tokens": 5957
+        "output_tokens": 1998,
+        "total_tokens": 5948
+      }
+    },
+    {
+      "conversation_id": "324",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:21:54.080641",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 151,
+          "additional_symptoms": 927,
+          "prompt": 1508,
+          "total": 2586
+        },
+        "output_tokens": 1758,
+        "total_tokens": 4344
       }
     },
     {
       "conversation_id": "321",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:29:37.986102",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:21:57.445611",
       "metrics": {
         "input_tokens": {
-          "transcript": 2823,
-          "prompt": 1460,
-          "total": 4283
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1594,
-        "total_tokens": 5877
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "322",
+      "model": "claude",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:22:00.519805",
+      "metrics": {
+        "input_tokens": {
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
+        },
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "323",
       "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:29:39.541588",
+      "operation": "filter_similar_symptoms",
+      "timestamp": "2025-05-23T13:22:02.107309",
       "metrics": {
         "input_tokens": {
-          "transcript": 1861,
-          "prompt": 1540,
-          "total": 3401
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 1769,
-        "total_tokens": 5170
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
+      }
+    },
+    {
+      "conversation_id": "322",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:22:12.445784",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1360,
+          "prompt": 1113,
+          "total": 2473
+        },
+        "output_tokens": 896,
+        "total_tokens": 3369
       }
     },
     {
       "conversation_id": "324",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:29:47.527031",
+      "timestamp": "2025-05-23T13:22:14.987887",
       "metrics": {
         "input_tokens": {
           "transcript": 2162,
-          "prompt": 2090,
-          "total": 4252
+          "prompt": 2110,
+          "total": 4272
         },
-        "output_tokens": 2006,
-        "total_tokens": 6258
+        "output_tokens": 1796,
+        "total_tokens": 6068
+      }
+    },
+    {
+      "conversation_id": "321",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:22:16.180628",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 2823,
+          "prompt": 1460,
+          "total": 4283
+        },
+        "output_tokens": 1619,
+        "total_tokens": 5902
+      }
+    },
+    {
+      "conversation_id": "323",
+      "model": "claude",
+      "operation": "results",
+      "timestamp": "2025-05-23T13:22:21.069565",
+      "metrics": {
+        "input_tokens": {
+          "transcript": 1861,
+          "prompt": 1540,
+          "total": 3401
+        },
+        "output_tokens": 1851,
+        "total_tokens": 5252
       }
     },
     {
       "conversation_id": "325",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:30:19.904126",
+      "timestamp": "2025-05-23T13:22:43.213157",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -3114,23 +2984,24 @@
       "conversation_id": "326",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:30:20.311863",
+      "timestamp": "2025-05-23T13:22:45.892821",
       "metrics": {
         "input_tokens": {
-          "existing_symptoms": 138,
-          "additional_symptoms": 940,
-          "prompt": 1508,
-          "total": 2586
+          "existing_symptoms": 0,
+          "additional_symptoms": 0,
+          "prompt": 0,
+          "total": 0
         },
-        "output_tokens": 3473,
-        "total_tokens": 6059
+        "output_tokens": 0,
+        "total_tokens": 0,
+        "note": "No LLM call was made or call failed - this is a placeholder metrics file"
       }
     },
     {
       "conversation_id": "327",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:30:29.869265",
+      "timestamp": "2025-05-23T13:22:46.188734",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -3147,7 +3018,7 @@
       "conversation_id": "328",
       "model": "claude",
       "operation": "filter_similar_symptoms",
-      "timestamp": "2025-05-23T12:30:33.010124",
+      "timestamp": "2025-05-23T13:22:51.528246",
       "metrics": {
         "input_tokens": {
           "existing_symptoms": 0,
@@ -3161,63 +3032,33 @@
       }
     },
     {
-      "conversation_id": "325",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:30:47.312384",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 2258,
-          "prompt": 1437,
-          "total": 3695
-        },
-        "output_tokens": 1349,
-        "total_tokens": 5044
-      }
-    },
-    {
       "conversation_id": "326",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:30:56.714324",
+      "timestamp": "2025-05-23T13:23:09.838643",
       "metrics": {
         "input_tokens": {
           "transcript": 2566,
-          "prompt": 1900,
-          "total": 4466
+          "prompt": 1913,
+          "total": 4479
         },
-        "output_tokens": 1769,
-        "total_tokens": 6235
-      }
-    },
-    {
-      "conversation_id": "327",
-      "model": "claude",
-      "operation": "results",
-      "timestamp": "2025-05-23T12:31:01.274704",
-      "metrics": {
-        "input_tokens": {
-          "transcript": 1622,
-          "prompt": 1791,
-          "total": 3413
-        },
-        "output_tokens": 1613,
-        "total_tokens": 5026
+        "output_tokens": 1995,
+        "total_tokens": 6474
       }
     },
     {
       "conversation_id": "328",
       "model": "claude",
       "operation": "results",
-      "timestamp": "2025-05-23T12:31:05.781348",
+      "timestamp": "2025-05-23T13:23:12.448819",
       "metrics": {
         "input_tokens": {
           "transcript": 2161,
           "prompt": 1667,
           "total": 3828
         },
-        "output_tokens": 1544,
-        "total_tokens": 5372
+        "output_tokens": 1793,
+        "total_tokens": 5621
       }
     }
   ]

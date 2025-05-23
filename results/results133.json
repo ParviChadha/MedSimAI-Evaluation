@@ -1,17 +1,13 @@
 {
   "medical_history_assessed": {
     "body_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Alright, any muscle aches or body pains?",
-        "No."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "infectious_symptom": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you been around anybody who's been sick?",
-        "my younger sister had a sore throat like a week back"
+        "I've had a sore throat for the past three days and it doesn't seem to be getting any better, and I've also had a fever."
       ]
     },
     "respiratory_distress_syndrome": {
@@ -33,25 +29,26 @@
     "changes_in_his_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "And how about your appetite? Has that changed?",
         "I'm still hungry, I just don't eat as much 'cause my throat is sore."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "How about any chest pain?",
+        "Any chest pain?",
         "No chest pain."
       ]
     },
     "cold": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, not that I've noticed."
+      ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "but have you had any instances of bringing up any sputum or or any blood?",
+        "And so you don't you haven't had any cough, but have you had any instances of bringing up any sputum or or any blood?",
         "No."
       ]
     },
@@ -81,8 +78,10 @@
       ]
     },
     "discomfort": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "It's painful to swallow solids, yeah."
+      ]
     },
     "dizzyness": {
       "assessed": "Yes",
@@ -141,13 +140,16 @@
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "And so you mentioned that you also had a fever. When did that start?",
+        "So you mentioned that you also had a fever. When did that start?",
+        "That started two days ago.",
         "It was 38.8."
       ]
     },
     "flu_like_symptom": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "I've had a sore throat for the past three days and it doesn't seem to be getting any better, and I've also had a fever."
+      ]
     },
     "greenish_yellowish_nasal_discharge": {
       "assessed": "No",
@@ -156,21 +158,21 @@
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any any headaches?",
+        "How about any headaches?",
         "Um, no headaches, no."
       ]
     },
     "headache": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any any headaches?",
+        "How about any headaches?",
         "Um, no headaches, no."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "but have you had any instances of bringing up any sputum or or any blood?",
+        "And so you don't you haven't had any cough, but have you had any instances of bringing up any sputum or or any blood?",
         "No."
       ]
     },
@@ -192,7 +194,6 @@
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "And how about your appetite? Has that changed?",
         "I'm still hungry, I just don't eat as much 'cause my throat is sore."
       ]
     },
@@ -204,30 +205,30 @@
       ]
     },
     "nause": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any nausea or vomiting?",
+        "No."
+      ]
     },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had any nausea or vomiting?",
+        "Any nausea or vomiting?",
         "No."
       ]
     },
     "odynophagia": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, is it painful to swallow food or liquids?",
+        "Is it painful to swallow food or liquids?",
         "It's painful to swallow solids, yeah."
       ]
     },
     "pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "Have you had any abdominal pain?",
-        "No.",
-        "How about any chest pain?",
-        "No chest pain."
+        "It's painful to swallow solids, yeah."
       ]
     },
     "palpitation": {
@@ -248,24 +249,28 @@
     "redness": {
       "assessed": "Yes",
       "example_quotes": [
-        "Does it look like you have like redness in the back of your, back of your mouth?",
         "Yeah, it looks pretty red and angry."
       ]
     },
     "runny_nose": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and have you had any, uh, like any runny nose?",
         "No, not that I've noticed."
       ]
     },
     "sensation_of_chest": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "Any chest pain?",
+        "No chest pain."
+      ]
     },
     "sleep": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "And how's your energy been? Have you had fatigue?",
+        "I have been, yeah, I've been tired."
+      ]
     },
     "sleep_hydrosis": {
       "assessed": "No",
@@ -281,21 +286,22 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "Hi, umm, so I've had a sore throat for the past three days",
-        "So you said that the sore throat started three days ago."
+        "I've had a sore throat for the past three days and it doesn't seem to be getting any better, and I've also had a fever.",
+        "Yeah, it looks pretty red and angry."
       ]
     },
     "soreness": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, and it's sore?",
-        "Yeah."
+        "It's painful to swallow solids, yeah."
       ]
     },
     "speech_volume": {
       "assessed": "Yes",
       "example_quotes": [
-        "and how is your, umm, have you had any voice changes like a hot potato voice or sound like muffled or any voice changes at all?",
+        "OK, and have you noticed any like neck swelling?",
+        "No.",
+        "And how about your voice, have you had any voice changes like a hot potato voice or sound like muffled or any voice changes at all?",
         "No, not really. No."
       ]
     },
@@ -304,15 +310,17 @@
       "example_quotes": []
     },
     "stuffy_nose": {
-      "assessed": "No",
-      "example_quotes": []
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, not that I've noticed."
+      ]
     },
     "swelling": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you noticed any like neck swelling?",
+        "OK, and have you noticed any like neck swelling?",
         "No.",
-        "I feel like inside the back of my throat, my tonsils feel a little bit swollen."
+        "Yeah, it looks pretty red and angry."
       ]
     },
     "taste_loss": {
@@ -340,8 +348,7 @@
     "tonsilitis": {
       "assessed": "Yes",
       "example_quotes": [
-        "I feel like inside the back of my throat, my tonsils feel a little bit swollen.",
-        "the redness and swelling of the tonsils in the back of your mouth"
+        "Yeah, it looks pretty red and angry."
       ]
     },
     "urination": {
@@ -358,7 +365,7 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "And have you had any nausea or vomiting?",
+        "Any nausea or vomiting?",
         "No."
       ]
     },
@@ -369,7 +376,7 @@
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, have you had any wheezing?",
+        "How about any wheezing?",
         "No."
       ]
     }

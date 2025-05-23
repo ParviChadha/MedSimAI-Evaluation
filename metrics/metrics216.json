@@ -1,18 +1,24 @@
 {
-  "precision": 0.9375,
+  "precision": 0.8823529411764706,
   "recall": 0.9375,
-  "f1_score": 0.9375,
+  "f1_score": 0.9090909090909091,
   "true_positives": 15,
-  "false_positives": 1,
+  "false_positives": 2,
   "false_negatives": 1,
   "total_items": 32,
   "false_positive_details": [
     {
-      "item": "Difficulty Breathing",
+      "item": "Decreased Oral Intake",
       "result_quotes": [
-        "seems like he's breathing too fast",
-        "over the past couple of hours it seems like he's having a hard time breathing",
-        "in regards to the difficulties breathing"
+        "Um not the greatest, no.",
+        "Yeah."
+      ]
+    },
+    {
+      "item": "Physical Or Emotional Abuse At Home",
+      "result_quotes": [
+        "No.",
+        "No."
       ]
     }
   ],

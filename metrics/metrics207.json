@@ -1,24 +1,28 @@
 {
-  "precision": 0.9285714285714286,
+  "precision": 0.896551724137931,
   "recall": 0.9629629629629629,
-  "f1_score": 0.9454545454545454,
+  "f1_score": 0.9285714285714286,
   "true_positives": 26,
-  "false_positives": 2,
+  "false_positives": 3,
   "false_negatives": 1,
-  "total_items": 45,
+  "total_items": 54,
   "false_positive_details": [
     {
-      "item": "Tingling",
+      "item": "Chest Tightness",
       "result_quotes": [
-        "Any numbness or tingling in your arms or feet?",
-        "Nope."
+        "No."
       ]
     },
     {
-      "item": "Numbness",
+      "item": "Phlegm",
       "result_quotes": [
-        "Any numbness or tingling in your arms or feet?",
-        "Nope."
+        "So, it's more of just like a dry cough. I'm not really bringing anything up."
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "Yeah, the runny nose has been more, um, this week. It kind of like, started with a cough last week."
       ]
     }
   ],

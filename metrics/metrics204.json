@@ -1,16 +1,61 @@
 {
-  "precision": 0.9615384615384616,
+  "precision": 0.8064516129032258,
   "recall": 1.0,
-  "f1_score": 0.9803921568627451,
+  "f1_score": 0.8928571428571428,
   "true_positives": 25,
-  "false_positives": 1,
+  "false_positives": 6,
   "false_negatives": 0,
   "total_items": 50,
   "false_positive_details": [
     {
+      "item": "Bad Smell",
+      "result_quotes": [
+        "Um loss of smell or taste?",
+        "No."
+      ]
+    },
+    {
+      "item": "Itching Eyes",
+      "result_quotes": [
+        "You mentioned you, it started a week ago.",
+        "Yeah.",
+        "Has it been persistent or does it come and go?",
+        "Um it's just been there.",
+        "You mentioned you, it started a week ago.",
+        "Yeah.",
+        "Has it been persistent or does it come and go?",
+        "Um it's just been there.",
+        "You mentioned you, it started a week ago.",
+        "Yeah.",
+        "Has it been persistent or does it come and go?",
+        "Um it's just been there."
+      ]
+    },
+    {
+      "item": "Allergy Medication",
+      "result_quotes": [
+        "Any allergies?",
+        "Uhm penicillin, I just get uh I get a rash. I got a rash when I was a child, I haven't had it since then."
+      ]
+    },
+    {
       "item": "Loss Of Smell",
       "result_quotes": [
         "Um loss of smell or taste?",
+        "No."
+      ]
+    },
+    {
+      "item": "Sensation Of Chest",
+      "result_quotes": [
+        "Chest pain?",
+        "No."
+      ]
+    },
+    {
+      "item": "Sinus Congestion",
+      "result_quotes": [
+        "Do you ever feel like your nose is stuffy or runny?",
         "No."
       ]
     }

@@ -1,48 +1,20 @@
 {
   "medical_history_assessed": {
     "lightheadedness": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any dizziness or Lightheadedness?",
-        "No."
-      ]
-    },
-    "memory_loss": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "respiratory_distress_syndrome": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any muscle aches, joint pains or skin changes?",
-        "No."
-      ]
     },
     "aches": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Have you had any muscle aches, joint pains or skin changes?",
-        "No."
-      ]
-    },
-    "allergy_medication": {
       "assessed": "No",
       "example_quotes": []
     },
-    "apnea_at_birth": {
+    "allergic_rhinitis": {
       "assessed": "No",
       "example_quotes": []
     },
-    "appetite": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How has your appetite been?",
-        "My appetite's been pretty good. It's like, definitely with the pain, I don't really feel like eating today, but I don't think it's changed."
-      ]
+    "arthritis_pain": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "bowel_movement": {
       "assessed": "Yes",
@@ -54,29 +26,51 @@
     "chest_discomfort": {
       "assessed": "Yes",
       "example_quotes": [
-        "So, there was some discomfort like just 2 days ago, but then just yesterday it started getting very painful when I was breathing."
+        "What brought you in today?",
+        "Yeah, so uh, just randomly like 2 days ago I just started having this chest pain when I'm breathing and it's just been getting worse and then because of that, I'm finding that I'm very short of breath as well, so I just got really concerned.",
+        "OK, and so the pain comes on when you breathe in, or yeah, when you take a deep breath. Does the pain come on at any other points or does it go away?",
+        "Uh, it's mostly, yeah, I feel the sharp pain when I breathe in."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
         "What brought you in today?",
-        "just randomly like 2 days ago I just started having this chest pain when I'm breathing"
+        "Yeah, so uh, just randomly like 2 days ago I just started having this chest pain when I'm breathing and it's just been getting worse and then because of that, I'm finding that I'm very short of breath as well, so I just got really concerned.",
+        "OK, and were you doing anything at the time when the chest pain started? Like did you get in a car accident maybe? Or any trauma to the chest or anything you can think of?",
+        "No, not really. I was just at home and then I noticed that when, I like, take a deep breath in, it's just, like, a very sharp pain. It's kind of like in my right side of the chest and it feels like a stabbing pain."
+      ]
+    },
+    "chest_tightness": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "What brought you in today?",
+        "Yeah, so uh, just randomly like 2 days ago I just started having this chest pain when I'm breathing and it's just been getting worse and then because of that, I'm finding that I'm very short of breath as well, so I just got really concerned.",
+        "OK, and so the pain comes on when you breathe in, or yeah, when you take a deep breath. Does the pain come on at any other points or does it go away?",
+        "Uh, it's mostly, yeah, I feel the sharp pain when I breathe in."
       ]
     },
     "chills": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any fevers, chills, or night sweats?",
-        "Nope."
+        "OK, and have you had any fevers, chills, or night sweats?",
+        "Uhm, Nope."
       ]
     },
     "colored_excess_sputum": {
       "assessed": "Yes",
       "example_quotes": [
-        "is the cough dry or have you brought up sputum?",
-        "It is dry."
+        "OK, and with the cough, have you brought up any blood?",
+        "No."
       ]
+    },
+    "complications_actual_delivery": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "complications_during_delivery": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "constipation": {
       "assessed": "Yes",
@@ -89,25 +83,20 @@
       "assessed": "Yes",
       "example_quotes": [
         "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
+        "I have been having a little bit of a cough, but that's it, like, it kind of started today, but it's nothing too significant.",
+        "OK, and with the cough, have you brought up any blood?",
+        "No."
       ]
+    },
+    "delayed_growth_milestones": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
         "Any bowel problems like diarrhea or Constipation?",
         "No, nothing like that."
-      ]
-    },
-    "difficulty_talking": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "discharge": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
       ]
     },
     "dizzyness": {
@@ -120,47 +109,51 @@
     "dyspnea": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm finding that I'm very short of breath as well",
-        "you mentioned you had shortness of breath as well. When does this come on?"
+        "What brought you in today?",
+        "Yeah, so uh, just randomly like 2 days ago I just started having this chest pain when I'm breathing and it's just been getting worse and then because of that, I'm finding that I'm very short of breath as well, so I just got really concerned.",
+        "OK, and so the pain comes on when you breathe in, or yeah, when you take a deep breath. Does the pain come on at any other points or does it go away?",
+        "Uh, it's mostly, yeah, I feel the sharp pain when I breathe in.",
+        "OK, and you mentioned you had shortness of breath as well. When does this come on?",
+        "Since yesterday it's been pretty constant and it's more like, Uh, just uh, I'm really having trouble getting any deep breaths in, so I feel like I'm having to just breathe faster and more shallow."
       ]
     },
     "eye_redness": {
       "assessed": "Yes",
       "example_quotes": [
         "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
+        "No."
       ]
     },
-    "fainting": {
+    "fatigue_extended": {
       "assessed": "No",
       "example_quotes": []
     },
-    "fatigue_extended": {
+    "feeling_tired": {
       "assessed": "No",
       "example_quotes": []
     },
     "fever": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any fevers, chills, or night sweats?",
-        "Nope."
+        "OK, and have you had any fevers, chills, or night sweats?",
+        "Uhm, Nope."
       ]
     },
-    "grunting": {
+    "flu": {
       "assessed": "No",
       "example_quotes": []
     },
     "head_ache": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you been experiencing any headaches?",
+        "OK, and have you been experiencing any headaches?",
         "No."
       ]
     },
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "with the cough, have you brought up any blood?",
+        "OK, and with the cough, have you brought up any blood?",
         "No."
       ]
     },
@@ -168,22 +161,33 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "inconsolable": {
+    "infection": {
       "assessed": "No",
       "example_quotes": []
     },
-    "itching_eyes": {
+    "itchiness": {
       "assessed": "No",
       "example_quotes": []
     },
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "How has your appetite been?",
+        "OK, how has your appetite been?",
         "My appetite's been pretty good. It's like, definitely with the pain, I don't really feel like eating today, but I don't think it's changed."
       ]
     },
-    "mucus_discharge": {
+    "loss_of_sense": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "How about a loss of taste or a loss of smell?",
+        "No."
+      ]
+    },
+    "motor_weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "mucous_building": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -191,14 +195,14 @@
       "assessed": "Yes",
       "example_quotes": [
         "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
+        "No."
       ]
     },
     "nasal_discharge": {
       "assessed": "Yes",
       "example_quotes": [
         "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
-        "I have been having a little bit of a cough, but that's it"
+        "No."
       ]
     },
     "nausea": {
@@ -212,44 +216,43 @@
       "assessed": "Yes",
       "example_quotes": [
         "What brought you in today?",
-        "just randomly like 2 days ago I just started having this chest pain when I'm breathing"
+        "Yeah, so uh, just randomly like 2 days ago I just started having this chest pain when I'm breathing and it's just been getting worse and then because of that, I'm finding that I'm very short of breath as well, so I just got really concerned.",
+        "OK, and were you doing anything at the time when the chest pain started? Like did you get in a car accident maybe? Or any trauma to the chest or anything you can think of?",
+        "No, not really. I was just at home and then I noticed that when, I like, take a deep breath in, it's just, like, a very sharp pain. It's kind of like in my right side of the chest and it feels like a stabbing pain."
       ]
     },
     "palpitation": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any episodes where you feel like your heart is, like, racing or beating out of your chest?",
+        "OK, and have you had any episodes where you feel like your heart is, like, racing or beating out of your chest?",
         "No, I don't think so."
       ]
     },
-    "rectal_bleeding": {
+    "paralysis_limb_or_face": {
       "assessed": "No",
       "example_quotes": []
     },
-    "rigor": {
+    "photophobia": {
       "assessed": "No",
       "example_quotes": []
     },
-    "runny_nose": {
+    "self_hurt": {
       "assessed": "No",
       "example_quotes": []
     },
-    "sinus_headaches": {
+    "sleep_dyspnea": {
       "assessed": "No",
       "example_quotes": []
     },
     "sleep_hydrosis": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "have you had any fevers, chills, or night sweats?",
-        "Nope."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "sleep_issue": {
       "assessed": "No",
       "example_quotes": []
     },
-    "slurred_speech": {
+    "sleeping_issues": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -263,15 +266,11 @@
     "sore_throat": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had a sore throat?",
-        "no."
+        "How about any viral symptoms, like eye redness, nasal discharge, or nasal congestion or cough?",
+        "No."
       ]
     },
-    "straining_and_chest_discomfort": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "stuffy_nose": {
+    "symptom_speedup": {
       "assessed": "No",
       "example_quotes": []
     },
@@ -282,35 +281,31 @@
         "No."
       ]
     },
+    "tearing": {
+      "assessed": "No",
+      "example_quotes": []
+    },
     "teary_eyes": {
       "assessed": "No",
       "example_quotes": []
     },
-    "tingling": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "trouble_breathing": {
+    "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "I'm finding that I'm very short of breath as well",
-        "I'm really having trouble getting any deep breaths in"
+        "OK, so has your weight been stable over the last several months.",
+        "Yeah, weight has been stable."
       ]
-    },
-    "underweight_at_birth": {
-      "assessed": "No",
-      "example_quotes": []
-    },
-    "unexplained_weight_loss": {
-      "assessed": "No",
-      "example_quotes": []
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any, Uh, like urinary problems?",
+        "OK, and have you had any, Uh, like urinary problems?",
         "No."
       ]
+    },
+    "vaginal_discharge": {
+      "assessed": "No",
+      "example_quotes": []
     },
     "vomiting": {
       "assessed": "Yes",
@@ -319,19 +314,27 @@
         "No."
       ]
     },
-    "weight_changes": {
+    "weakness": {
+      "assessed": "No",
+      "example_quotes": []
+    },
+    "weight_gain": {
       "assessed": "Yes",
       "example_quotes": [
-        "so has your weight been stable over the last several months.",
+        "OK, so has your weight been stable over the last several months.",
         "Yeah, weight has been stable."
       ]
     },
     "wheez": {
       "assessed": "Yes",
       "example_quotes": [
-        "have you had any wheezing?",
+        "OK, and have you had any wheezing?",
         "No, I don't think so."
       ]
+    },
+    "wheez_inhale": {
+      "assessed": "No",
+      "example_quotes": []
     }
   }
 }

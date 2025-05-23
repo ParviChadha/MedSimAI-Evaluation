@@ -1,12 +1,21 @@
 {
-  "precision": 0.8333333333333334,
+  "precision": 0.7692307692307693,
   "recall": 1.0,
-  "f1_score": 0.9090909090909091,
+  "f1_score": 0.8695652173913044,
   "true_positives": 20,
-  "false_positives": 4,
+  "false_positives": 6,
   "false_negatives": 0,
   "total_items": 40,
   "false_positive_details": [
+    {
+      "item": "Loss Of Sense",
+      "result_quotes": [
+        "Any changes in your sense of smell?",
+        "No.",
+        "Changes in your sense of taste?",
+        "No."
+      ]
+    },
     {
       "item": "Loss Of Smell",
       "result_quotes": [
@@ -15,19 +24,10 @@
       ]
     },
     {
-      "item": "Redness",
+      "item": "Nause",
       "result_quotes": [
-        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes?",
-        "Um, no nothing like that."
-      ]
-    },
-    {
-      "item": "Mucus Discharge",
-      "result_quotes": [
-        "OK, and the runny nose, what kind of discharge, or what like what's coming out of your nose?",
-        "It's pretty pretty watery and clear.",
-        "I've been bringing up any blood or any mucus or anything like that.",
-        "No, and I haven't had a cough before either."
+        "Any pain in your belly or any diarrhea?",
+        "Nothing like that."
       ]
     },
     {
@@ -35,6 +35,22 @@
       "result_quotes": [
         "Any difficulties breathing?",
         "No."
+      ]
+    },
+    {
+      "item": "Redness",
+      "result_quotes": [
+        "Have you had any other symptoms, such as having a stuffy nose that have congestion in your sinuses, sore throat? Umm, red eyes? Watery, teary eyes? Sneezing, any of those symptoms.",
+        "Um, no nothing like that."
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "And the runny nose, what kind of discharge, or what like what's coming out of your nose?",
+        "It's pretty pretty watery and clear.",
+        "When did that start?",
+        "Yeah, yeah, sorry that started about four days ago as well, so about the same time as the cough."
       ]
     }
   ],

@@ -1,23 +1,71 @@
 {
-  "precision": 0.9230769230769231,
+  "precision": 0.7272727272727273,
   "recall": 1.0,
-  "f1_score": 0.9600000000000001,
+  "f1_score": 0.8421052631578948,
   "true_positives": 24,
-  "false_positives": 2,
+  "false_positives": 9,
   "false_negatives": 0,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Chills",
+      "item": "Tachypnea",
       "result_quotes": [
-        "This you mentioned, no fevers, no chills.",
-        "Yeah, no night sweats."
+        "OK, and the shortness of breath do you have that at rest as well?",
+        "OK, the shortness of breath 1 to 10, 10 being the worst, the most severe. How bad is your shortness of breath?",
+        "OK, and how far can you walk before you need to rest."
+      ]
+    },
+    {
+      "item": "Loss Of Sense",
+      "result_quotes": [
+        "OK, how about smell?",
+        "OK, and your vision's been been, been fine."
       ]
     },
     {
       "item": "Trauma",
       "result_quotes": [
-        "did anything trigger this a week back? Any trauma to the chest area?"
+        "OK, um did anything trigger this a week back? Any trauma to the chest area? Anything like that?"
+      ]
+    },
+    {
+      "item": "Chest Pressure",
+      "result_quotes": [
+        "OK, um how old are you, Jen?",
+        "OK, when did this pain start? You said a week back?",
+        "OK, and is it a constant pain? Is it always there?",
+        "OK, and when you do get that, get that pain. How long does it last?",
+        "OK, the chest pain. Is it sharp or is a dull crampy? What does it feel like?"
+      ]
+    },
+    {
+      "item": "Changes In Memory",
+      "result_quotes": [
+        "no confusion?"
+      ]
+    },
+    {
+      "item": "Allergic Rhinitis",
+      "result_quotes": [
+        "No, it's just that the dry cough."
+      ]
+    },
+    {
+      "item": "Chills",
+      "result_quotes": [
+        "OK, this you mentioned, no fevers, no chills."
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "OK, and the left leg's actually a little bit sore."
+      ]
+    },
+    {
+      "item": "Injury",
+      "result_quotes": [
+        "OK, um did anything trigger this a week back? Any trauma to the chest area? Anything like that?"
       ]
     }
   ],

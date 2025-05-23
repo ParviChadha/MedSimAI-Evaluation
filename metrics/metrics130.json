@@ -1,17 +1,16 @@
 {
-  "precision": 0.8387096774193549,
+  "precision": 0.7647058823529411,
   "recall": 1.0,
-  "f1_score": 0.9122807017543859,
+  "f1_score": 0.8666666666666666,
   "true_positives": 26,
-  "false_positives": 5,
+  "false_positives": 8,
   "false_negatives": 0,
   "total_items": 52,
   "false_positive_details": [
     {
-      "item": "Trouble Breathing",
+      "item": "Lung Complications",
       "result_quotes": [
-        "And, um have you been having any shortness of breath?",
-        "And um have you had any changes to your breathing like like wheezing?"
+        "I've just uh been experiencing um a cough for the last few weeks and uh I also recently started noticing that I'm coughing up some blood as well, like it's mixed into like sputum."
       ]
     },
     {
@@ -21,24 +20,40 @@
       ]
     },
     {
-      "item": "Hyperhidrosis",
+      "item": "Allergy Medication",
       "result_quotes": [
-        "Alright, have you had any um like night sweats?",
-        "Uhm now that you mention it like I I would say two two days out of the last week I've had night sweats where my sheets were kind of just drenched"
+        "Do you take any medications or any over the counter, supplements?"
       ]
     },
     {
       "item": "Difficulty Breathing",
       "result_quotes": [
-        "And, um have you been having any shortness of breath?",
-        "um no, I don't think so."
+        "OK, and um have you had any changes to your breathing like like wheezing?"
       ]
     },
     {
-      "item": "Allergy Medication",
+      "item": "Trouble Breathing",
       "result_quotes": [
-        "Alright, any allergies that you're aware of?",
-        "Not that I know, no."
+        "OK, and um have you had any changes to your breathing like like wheezing?"
+      ]
+    },
+    {
+      "item": "Loss Of Consciousness",
+      "result_quotes": [
+        "Have you had any uh like fainting or dizziness?"
+      ]
+    },
+    {
+      "item": "Hyperhidrosis",
+      "result_quotes": [
+        "Alright, have you had any um like night sweats?",
+        "Uhm now that you mention it like I I would say two two days out of the last week I've had night sweats where my sheets were kind of just drenched when I, and then I woke up noticing that."
+      ]
+    },
+    {
+      "item": "Decreased Physical Activity",
+      "result_quotes": [
+        "Um it's kind of been a bit low over the last few weeks, just I feel more tired. Um yeah I had to miss a few days of work as well."
       ]
     }
   ],

@@ -1,28 +1,42 @@
 {
-  "precision": 0.92,
+  "precision": 0.8518518518518519,
   "recall": 0.9583333333333334,
-  "f1_score": 0.9387755102040817,
+  "f1_score": 0.9019607843137256,
   "true_positives": 23,
-  "false_positives": 2,
+  "false_positives": 4,
   "false_negatives": 1,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "High Blood Pressure",
+      "item": "Discharge",
       "result_quotes": [
-        "in terms of the pregnancy, uh were there any complications during the pregnancy like gestational diabetes or or um high blood pressure?"
+        "Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge."
       ]
     },
     {
-      "item": "Redness",
+      "item": "Complications Actual Delivery",
       "result_quotes": [
-        "his eyes are also red and kind of um he's been teary"
+        "OK, were there any complications with the with the procedure, with the surgery?",
+        "No no, no complications at all."
+      ]
+    },
+    {
+      "item": "Diabetes",
+      "result_quotes": [
+        "Uh I did have gestational diabetes.",
+        "Uh yeah, I did have to take insulin. Um he was he was also a pretty big baby when he was born, um we had to, I had to give, get a C-section done."
+      ]
+    },
+    {
+      "item": "Watery Eyes",
+      "result_quotes": [
+        "Yeah it's just uh it's just uh watery discharge. his eyes are also red and kind of um he's been teary. Or I guess just yeah, it's just been like very watery and red and uh yeah, it's clear discharge."
       ]
     }
   ],
   "false_negative_details": [
     {
-      "item": "Widespread Pain",
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     }
   ]

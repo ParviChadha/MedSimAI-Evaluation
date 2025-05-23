@@ -1,5 +1,66 @@
 {
   "medical_history_assessed": {
+    "runny_nose": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I think the runny nose is what, what started first. And like kind of the nasal congestion. She was telling you that she felt that there was like pressure or congestion in her nose."
+      ]
+    },
+    "sneezing": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "And like kind of the nasal congestion. She was telling you that she felt that there was like pressure or congestion in her nose.",
+        "Surely after that probably maybe the same day or or the next day."
+      ]
+    },
+    "cough": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, so she she did start to cough actually after that so that the cough has been there for the last, for the last maybe two to three days. It's a dry cough."
+      ]
+    },
+    "colored_excess_sputum": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, nothing like that."
+      ]
+    },
+    "fever": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, she did feel a bit warm to touch and has looked a bit flushed in her face. Just doesn't look like herself."
+      ]
+    },
+    "fatigue_extended": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad."
+      ]
+    },
+    "nasal_congestion": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "I think the runny nose is what, what started first. And like kind of the nasal congestion. She was telling you that she felt that there was like pressure or congestion in her nose."
+      ]
+    },
+    "pressure_in_around_face": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "Uh, yeah, well yeah, I think so. She doesn't say, well, no pain but does feel like a bit of pressure with the congestion, I think."
+      ]
+    },
+    "delayed_growth_milestones": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "She did yeah, she has met she was walking at the appropriate times and able to talk and does work really well in school and is social with with her classmates and peers."
+      ]
+    },
+    "complications_during_delivery": {
+      "assessed": "Yes",
+      "example_quotes": [
+        "No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications. So yeah, things were good."
+      ]
+    },
     "lightheadedness": {
       "assessed": "No",
       "example_quotes": []
@@ -7,21 +68,18 @@
     "bowel_movement": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in her bowel movement, constipation, diarrhea?",
         "No, that's been normal."
       ]
     },
     "change_in_sleep": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any issues with their sleep or appetite?",
         "She has been a bit a bit fussy, but she's been sleeping OK."
       ]
     },
     "chest_pain": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any chest pain that she's described?",
         "No chest pain."
       ]
     },
@@ -30,24 +88,8 @@
       "example_quotes": []
     },
     "chills": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any other symptoms like fevers, chills, shortness of breath, um, anything like that?"
-      ]
-    },
-    "colored_excess_sputum": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, is she at all, coughing up any green or yellow material or any blood at all?",
-        "No, nothing like that."
-      ]
-    },
-    "complications_during_delivery": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK and were there any complications at all during your pregnancy with her or after the pregnancy?",
-        "No, it was a vaginal delivery at 38 weeks and she was a normal weight. We were able to go home right away with with no complications."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "confusion": {
       "assessed": "No",
@@ -56,75 +98,36 @@
     "constipation": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in her bowel movement, constipation, diarrhea?",
         "No, that's been normal."
-      ]
-    },
-    "cough": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, does she have any coughing at all?",
-        "Yeah, so she she did start to cough actually after that so that the cough has been there for the last, for the last maybe two to three days. It's a dry cough."
-      ]
-    },
-    "delayed_growth_milestones": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, uhm any issues developmentally as she was growing up like to meet are all our milestones at an appropriate age?",
-        "She did yeah, she has met she was walking at the appropriate times and able to talk and does work really well in school and is social with with her classmates and peers."
       ]
     },
     "diarrhoea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any changes in her bowel movement, constipation, diarrhea?",
         "No, that's been normal."
       ]
     },
     "diet": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK, any issues with their sleep or appetite?",
-        "She has been a bit a bit fussy, but she's been sleeping OK."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "dyspnea": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any other symptoms like fevers, chills, shortness of breath, um, anything like that?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "eye_pain": {
       "assessed": "No",
       "example_quotes": []
     },
-    "fatigue_extended": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Does she behave like herself Like is she more tired at all? More irritable, anything like that?",
-        "Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad."
-      ]
-    },
     "fatigue_sleep": {
       "assessed": "Yes",
       "example_quotes": [
-        "Does she behave like herself Like is she more tired at all? More irritable, anything like that?",
-        "Yeah, she's been a, maybe a bit more, maybe a bit more tired and and a bit more irritable, but not not too bad."
-      ]
-    },
-    "fever": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any other symptoms like fevers, chills, shortness of breath, um, anything like that?",
-        "Uh, she did feel a bit warm to touch and has looked a bit flushed in her face."
+        "She has been a bit a bit fussy, but she's been sleeping OK."
       ]
     },
     "head_ache": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any headaches, nausea or vomiting?",
-        "Uhm, no."
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "hearing_problem": {
       "assessed": "No",
@@ -133,7 +136,6 @@
     "hemoptysis": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, is she at all, coughing up any green or yellow material or any blood at all?",
         "No, nothing like that."
       ]
     },
@@ -148,14 +150,12 @@
     "loss_of_appetite": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any issues with their sleep or appetite?",
         "She has been a bit a bit fussy, but she's been sleeping OK."
       ]
     },
     "loss_of_taste": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, does, has she lost a sense of taste or smell at all?",
         "No, she hasn't said any anything like that, just the nasal congestion."
       ]
     },
@@ -163,29 +163,15 @@
       "assessed": "No",
       "example_quotes": []
     },
-    "nasal_congestion": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "I think the runny nose is what, what started first. And like kind of the nasal congestion. She was telling you that she felt that there was like pressure or congestion in her nose."
-      ]
-    },
     "nausea": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any headaches, nausea or vomiting?",
-        "Uhm, no."
+        "No."
       ]
     },
     "physical_or_emotional_abuse_at_home": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "pressure_in_around_face": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "OK. Did you feel any pressure in around her face at all?",
-        "Uh, yeah, well yeah, I think so. She doesn't say, well, no pain but does feel like a bit of pressure with the congestion, I think."
-      ]
     },
     "rectal_bleeding": {
       "assessed": "No",
@@ -194,12 +180,6 @@
     "runny_eyes": {
       "assessed": "No",
       "example_quotes": []
-    },
-    "runny_nose": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, I'm just bringing in my old daughter who's really been complaining about having a runny nose and has been sneezing a lot over this past over this past week."
-      ]
     },
     "self_harm_thoughts": {
       "assessed": "No",
@@ -212,7 +192,6 @@
     "sleep_changes": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, any issues with their sleep or appetite?",
         "She has been a bit a bit fussy, but she's been sleeping OK."
       ]
     },
@@ -223,21 +202,13 @@
     "smell_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, does, has she lost a sense of taste or smell at all?",
         "No, she hasn't said any anything like that, just the nasal congestion."
       ]
     },
     "smell_problem": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, does, has she lost a sense of taste or smell at all?",
         "No, she hasn't said any anything like that, just the nasal congestion."
-      ]
-    },
-    "sneezing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Yeah, I'm just bringing in my old daughter who's really been complaining about having a runny nose and has been sneezing a lot over this past over this past week."
       ]
     },
     "sore": {
@@ -251,7 +222,6 @@
     "taste_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK, does, has she lost a sense of taste or smell at all?",
         "No, she hasn't said any anything like that, just the nasal congestion."
       ]
     },
@@ -260,23 +230,19 @@
       "example_quotes": []
     },
     "trouble_breathing": {
-      "assessed": "Yes",
-      "example_quotes": [
-        "Any other symptoms like fevers, chills, shortness of breath, um, anything like that?"
-      ]
+      "assessed": "No",
+      "example_quotes": []
     },
     "unexplained_weight_loss": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Uhm, has she lost any weight recently?",
         "No, no no. She's been gaining weight well."
       ]
     },
     "urination": {
       "assessed": "Yes",
       "example_quotes": [
-        "OK. Any urinary problems?",
-        "No, she had a urinary tract infection when she was like little but hasn't had any since."
+        "She had a urinary tract infection when she was like little but hasn't had any since."
       ]
     },
     "vaginal_discharge": {
@@ -286,8 +252,7 @@
     "vomiting": {
       "assessed": "Yes",
       "example_quotes": [
-        "Any headaches, nausea or vomiting?",
-        "Uhm, no."
+        "No."
       ]
     }
   }

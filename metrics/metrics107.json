@@ -1,62 +1,96 @@
 {
-  "precision": 0.75,
-  "recall": 1.0,
-  "f1_score": 0.8571428571428571,
-  "true_positives": 24,
+  "precision": 0.6666666666666666,
+  "recall": 0.6666666666666666,
+  "f1_score": 0.6666666666666666,
+  "true_positives": 16,
   "false_positives": 8,
-  "false_negatives": 0,
+  "false_negatives": 8,
   "total_items": 48,
   "false_positive_details": [
     {
-      "item": "Ecercise",
-      "result_quotes": [
-        "and no chest pain on exertion?"
-      ]
-    },
-    {
       "item": "Infectious Symptom",
       "result_quotes": [
-        "Do you know if anyone at the homeless shelter or anywhere else around your surrounding has had tuberculosis?",
-        "were you in contact with anyone there that was sick or was having similar symptoms at all?"
+        "I've had this cough that's been ongoing and and getting worse, and and now I've been having this like sharp pain in my in my chest.",
+        "I first saw some blood, uhm, two days ago. It was a really small amount so I didn't worry too much, but I I brought up blood yesterday and again this morning. It's been just about enough to cover a tissue, so it's not a lot of blood each time, but it's pretty red.",
+        "There are certainly some people around that that had some that would have a cough, or were not feeling very well but, uh, and sometimes I would see people who would even have a hospital gown on, that that that uh came from the hospital. So yeah, there were definitely some people who weren't feeling well."
       ]
     },
     {
-      "item": "Sleep",
+      "item": "Coughing Fit",
       "result_quotes": [
-        "OK, any issues with your sleep and appetite?"
-      ]
-    },
-    {
-      "item": "Sleep Problem",
-      "result_quotes": [
-        "OK, any issues with your sleep and appetite?"
-      ]
-    },
-    {
-      "item": "Nause",
-      "result_quotes": [
-        "OK, uh, do you have any other symptoms like a headache or nausea, vomiting?"
-      ]
-    },
-    {
-      "item": "Changes In His Appetite",
-      "result_quotes": [
-        "OK, any issues with your sleep and appetite?"
+        "I do feel it when I cough. I also feel it uh, if I'm maybe moving around as well. Like changing positions or things like that. It hurts for a few minutes and then it it will kind of settle down."
       ]
     },
     {
       "item": "Feeling Tired",
       "result_quotes": [
-        "And any like fatigue or increased tiredness"
+        "I've had some fatigue for sure.",
+        "I've been more fatigued over the last couple months."
+      ]
+    },
+    {
+      "item": "Ecercise",
+      "result_quotes": [
+        "I do feel it when I cough. I also feel it uh, if I'm maybe moving around as well. Like changing positions or things like that. It hurts for a few minutes and then it it will kind of settle down."
+      ]
+    },
+    {
+      "item": "Sleep",
+      "result_quotes": [
+        "Sleep's been OK"
+      ]
+    },
+    {
+      "item": "Weakness",
+      "result_quotes": [
+        "I've been more fatigued over the last couple months."
+      ]
+    },
+    {
+      "item": "Changes In His Appetite",
+      "result_quotes": [
+        "I've been eating well, but I have uhm, lost some weight and and I've been more fatigued over the last couple months."
       ]
     },
     {
       "item": "Weight Changes",
       "result_quotes": [
-        "I have uhm, lost some weight",
-        "OK, and have you lost any weight recently?"
+        "I've been eating well, but I have uhm, lost some weight and and I've been more fatigued over the last couple months."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nausea",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fainting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Vomiting",
+      "truth_quotes": []
+    },
+    {
+      "item": "Dizzyness",
+      "truth_quotes": []
+    },
+    {
+      "item": "Palpitation",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Issue",
+      "truth_quotes": []
+    }
+  ]
 }

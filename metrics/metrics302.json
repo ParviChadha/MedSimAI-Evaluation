@@ -1,18 +1,59 @@
 {
-  "precision": 0.9565217391304348,
-  "recall": 1.0,
-  "f1_score": 0.9777777777777777,
-  "true_positives": 22,
-  "false_positives": 1,
-  "false_negatives": 0,
+  "precision": 0.7692307692307693,
+  "recall": 0.9090909090909091,
+  "f1_score": 0.8333333333333333,
+  "true_positives": 20,
+  "false_positives": 6,
+  "false_negatives": 2,
   "total_items": 44,
   "false_positive_details": [
     {
-      "item": "Muscle Ache",
+      "item": "Decreased Physical Activity",
       "result_quotes": [
-        "No OK, any muscle aches in your body?"
+        "I walked here fine, but I normally like can walk around the block and I go for a walk, usually a couple times a day to walk my dog and it's been just it's been a little bit trickier to do that."
+      ]
+    },
+    {
+      "item": "High Blood Pressure",
+      "result_quotes": [
+        "Um. Yeah I have a high blood pressure."
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "It's likely that what you have right now is COPD exacerbation, maybe just a like an infection that you got, which worsened some of your COPD symptoms."
+      ]
+    },
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "Any night sweats where you feel like you're drenched in sweat at night?",
+        "Uh, no, nothing like that."
+      ]
+    },
+    {
+      "item": "Redness In Throat",
+      "result_quotes": [
+        "Any sore throat at all?",
+        "Oh no."
+      ]
+    },
+    {
+      "item": "Pressure In Around Face",
+      "result_quotes": [
+        "I think I think I have a I've had a bit of a like this pressure in the sinus area, but it's been the cough has been the thing that's been the most bothersome."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Pain",
+      "truth_quotes": []
+    },
+    {
+      "item": "Fussy Feeling",
+      "truth_quotes": []
+    }
+  ]
 }

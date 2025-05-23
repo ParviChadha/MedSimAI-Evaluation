@@ -1,18 +1,71 @@
 {
-  "precision": 0.9666666666666667,
-  "recall": 1.0,
-  "f1_score": 0.983050847457627,
-  "true_positives": 29,
-  "false_positives": 1,
-  "false_negatives": 0,
-  "total_items": 51,
+  "precision": 0.7567567567567568,
+  "recall": 0.9655172413793104,
+  "f1_score": 0.8484848484848485,
+  "true_positives": 28,
+  "false_positives": 9,
+  "false_negatives": 1,
+  "total_items": 58,
   "false_positive_details": [
     {
-      "item": "Hyperhidrosis",
+      "item": "Phlegm",
       "result_quotes": [
-        "I haven't checked it, but um like I've been feeling pretty sweaty from how hot I've been."
+        "\"It's it's mostly dry.\""
+      ]
+    },
+    {
+      "item": "Infection",
+      "result_quotes": [
+        "\"Uh possibly, um I mean, I'm in sales, so meeting with clients all day, um maybe one of them were sick.\""
+      ]
+    },
+    {
+      "item": "Loss Of Consciousness",
+      "result_quotes": [
+        "\"No fainting spells or dizziness?\""
+      ]
+    },
+    {
+      "item": "Difficulty Sleeping",
+      "result_quotes": [
+        "\"it interrupted my sleep last night.\""
+      ]
+    },
+    {
+      "item": "Muscle Ache",
+      "result_quotes": [
+        "\"Uh maybe these past couple of days, yeah.\""
+      ]
+    },
+    {
+      "item": "Lightheadness",
+      "result_quotes": [
+        "\"No fainting spells or dizziness?\""
+      ]
+    },
+    {
+      "item": "Sensation Of Chest",
+      "result_quotes": [
+        "\"No chest pain.\""
+      ]
+    },
+    {
+      "item": "Food Allergy",
+      "result_quotes": [
+        "\"Uh yeah, I'm allergic to um cats.\""
+      ]
+    },
+    {
+      "item": "Sweaty",
+      "result_quotes": [
+        "\"I haven't checked it, but um like I've been feeling pretty sweaty from how hot I've been.\""
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Bowel Movement",
+      "truth_quotes": []
+    }
+  ]
 }

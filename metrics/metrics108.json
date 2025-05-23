@@ -1,38 +1,34 @@
 {
-  "precision": 0.78125,
-  "recall": 1.0,
-  "f1_score": 0.8771929824561403,
-  "true_positives": 25,
-  "false_positives": 7,
-  "false_negatives": 0,
+  "precision": 0.65625,
+  "recall": 0.84,
+  "f1_score": 0.736842105263158,
+  "true_positives": 21,
+  "false_positives": 11,
+  "false_negatives": 4,
   "total_items": 49,
   "false_positive_details": [
     {
       "item": "Infection",
       "result_quotes": [
-        "Have you been in contact with anyone that's been sick recently?",
-        "I don't think so. I work at the Toyota factory and there have been a few people that have been sick who worked there?"
+        "I don't think so. I work at the Toyota factory and there have been a few people that have been sick who worked there? But I don't think I've been in contact with them."
       ]
     },
     {
-      "item": "Fatigue Sleep",
+      "item": "Allergy Medication",
       "result_quotes": [
-        "Has your sleep or appetite changed at all?",
-        "I didn't sleep very good last night. I just don't feel very rested this morning."
+        "Uhm, just environmental stuff I think, just, like in the springtime, I'll get itchy eyes or a runny nose."
       ]
     },
     {
-      "item": "Hyperhidrosis",
+      "item": "Decreased Fluid Intake",
       "result_quotes": [
-        "OK, were you having night sweats?",
-        "My bed wasn't drenched or anything but I was sweating."
+        "And yeah, I haven't felt very hungry either."
       ]
     },
     {
-      "item": "Pressure In Around Face",
+      "item": "Apnea At Birth",
       "result_quotes": [
-        "OK, and is it kind of like a pressure like pain? Is it pulsating pain? How would you describe it?",
-        "I would say it's more of a pressure, yeah."
+        "I did have tubes in my ears when I was little, but that's it though."
       ]
     },
     {
@@ -42,18 +38,59 @@
       ]
     },
     {
+      "item": "Decreased Physical Activity",
+      "result_quotes": [
+        "Oh yeah, just like these last two days I called in and I let them know and I left work early yesterday when I realized that I was feeling sick and didn't go in this morning."
+      ]
+    },
+    {
+      "item": "Hyperhidrosis",
+      "result_quotes": [
+        "I have felt pretty hot, yeah, I was sweaty last night, I didn't check a temperature, but I felt feverish."
+      ]
+    },
+    {
+      "item": "Decrease Interest In Activities",
+      "result_quotes": [
+        "And yeah, I haven't felt very hungry either."
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "Yeah, I have like, a chest tightness. I find when I exert myself it gets worse and after I cough, I have a little bit of trouble catching my breath as well.",
+        "I would say it, yeah, I kind of go back to the chest tightness, it just feels like I'm not able to, like, breath in all the way and catch my breath after I exert myself or coughing."
+      ]
+    },
+    {
       "item": "Feeling Tired",
       "result_quotes": [
         "Yeah, probably like last night, this morning when I was laying down and just felt a bit tired and achy?"
       ]
     },
     {
-      "item": "Throat Pain",
+      "item": "Fatigue Sleep",
       "result_quotes": [
-        "OK, do you have any other symptoms? like a runny nose, sore throat? Anything like that?",
-        "Uhm, nothing like that."
+        "I didn't sleep very good last night. I just don't feel very rested this morning."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Sore Throat",
+      "truth_quotes": []
+    },
+    {
+      "item": "Swelling",
+      "truth_quotes": []
+    },
+    {
+      "item": "Nasal Congestion",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    }
+  ]
 }

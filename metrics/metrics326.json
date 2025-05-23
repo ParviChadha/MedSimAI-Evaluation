@@ -1,31 +1,50 @@
 {
-  "precision": 0.9032258064516129,
+  "precision": 0.8235294117647058,
   "recall": 1.0,
-  "f1_score": 0.9491525423728813,
+  "f1_score": 0.9032258064516129,
   "true_positives": 28,
-  "false_positives": 3,
+  "false_positives": 6,
   "false_negatives": 0,
-  "total_items": 56,
+  "total_items": 55,
   "false_positive_details": [
     {
-      "item": "High Blood Pressure",
+      "item": "Flu",
       "result_quotes": [
-        "Alright so I know you told me a COPD, but do you have any other medical diagnosis?",
-        "Yeah, I have high blood pressure as well."
+        "\"Yeah, like in the last two years, I've probably had two or three viral infections, just just just cold cold symptoms.\""
       ]
     },
     {
-      "item": "Dysuria",
+      "item": "Ecercise",
       "result_quotes": [
-        "Any urinary problems?",
-        "Uh no."
+        "\"Um, I do feel sometimes I get like more tired than I used to throughout the day.\"",
+        "\"Yeah, that and I just start coughing so much that I just have to sit down.\""
       ]
     },
     {
-      "item": "Sweaty",
+      "item": "Motor Weakness",
       "result_quotes": [
-        "How about any night sweats?",
-        "No."
+        "\"Not weakness, I'll just say more fatigue.\""
+      ]
+    },
+    {
+      "item": "Mucus Discharge",
+      "result_quotes": [
+        "\"I was a bit worried because I've been having this cough for around two years, which has been getting worse. But recently I've noticed that I see streaks of blood in the sputum that I'm producing.\"",
+        "\"Probably like a, a couple teaspoons.\""
+      ]
+    },
+    {
+      "item": "Muscle Aches",
+      "result_quotes": [
+        "\"Any joint pains or or muscle pains?\"",
+        "\"No.\""
+      ]
+    },
+    {
+      "item": "Respiratory Distress Syndrome",
+      "result_quotes": [
+        "\"Sometimes I would say like when when, it gets worse when I'm exerting myself more, I I can get some wheezing.\"",
+        "\"No, I'm pretty fine during the night.\""
       ]
     }
   ],

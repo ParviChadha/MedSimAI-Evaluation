@@ -1,41 +1,72 @@
 {
-  "precision": 0.8518518518518519,
-  "recall": 0.9583333333333334,
-  "f1_score": 0.9019607843137256,
-  "true_positives": 23,
-  "false_positives": 4,
-  "false_negatives": 1,
+  "precision": 0.7333333333333333,
+  "recall": 0.9166666666666666,
+  "f1_score": 0.8148148148148148,
+  "true_positives": 22,
+  "false_positives": 8,
+  "false_negatives": 2,
   "total_items": 47,
   "false_positive_details": [
+    {
+      "item": "Decreased Physical Activity",
+      "result_quotes": [
+        "Uhm, you mentioned that you started going to the gym more often earlier this year, and that is when you sort of notice some of these symptoms?"
+      ]
+    },
     {
       "item": "Difficulty Breathing",
       "result_quotes": [
         "Do you ever feel like you're short of breath when you're coughing or otherwise?",
-        "I do find that it's harder to take a breath at those times"
+        "I do find that it's harder to take a breath at those times."
       ]
     },
     {
-      "item": "Decreased Physical Activity",
+      "item": "Symptom Speedup",
       "result_quotes": [
-        "over the last few weeks I've had to just stop doing what I'm doing, like exercising and just come home and rest"
+        "Um, I would say started, uh probably 3 months back, but it's gotten worse, so like before I used to like just have some irritation in my throat and cough a little, but now, I would say probably every other day I'm having these episodes where I can't stop coughing when I'm exercising."
       ]
     },
     {
       "item": "Widespread Pain",
       "result_quotes": [
-        "Muscle aches, joint pain?"
+        "Muscle aches, joint pain?",
+        "No."
+      ]
+    },
+    {
+      "item": "Runny Eyes",
+      "result_quotes": [
+        "Other than the the cough, have you noticed any other symptoms like a sore throat or itchy eyes? Itchy nose? Stuffy nose or runny nose? Anything like that?",
+        "No, none of those, but I did it, initially I used to get just an irritation in my throat. But now it's just more of a cough."
       ]
     },
     {
       "item": "Sensation Of Chest",
       "result_quotes": [
-        "when I'm coughing a lot I do get some tightness"
+        "Uh, when I'm usually it goes away in 10-15 minutes but when I'm coughing a lot I do get some tightness."
+      ]
+    },
+    {
+      "item": "Constipation",
+      "result_quotes": [
+        "Any changes in your bowel movements or any urinary symptoms?",
+        "Nope."
+      ]
+    },
+    {
+      "item": "Tachypnea",
+      "result_quotes": [
+        "I do find that it's harder to take a breath at those times."
       ]
     }
   ],
   "false_negative_details": [
     {
       "item": "Irritable",
+      "truth_quotes": []
+    },
+    {
+      "item": "Sleep Hydrosis",
       "truth_quotes": []
     }
   ]

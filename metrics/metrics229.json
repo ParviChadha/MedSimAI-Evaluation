@@ -1,25 +1,52 @@
 {
-  "precision": 0.9230769230769231,
-  "recall": 1.0,
-  "f1_score": 0.9600000000000001,
-  "true_positives": 24,
-  "false_positives": 2,
-  "false_negatives": 0,
-  "total_items": 48,
+  "precision": 0.8148148148148148,
+  "recall": 0.9166666666666666,
+  "f1_score": 0.8627450980392156,
+  "true_positives": 22,
+  "false_positives": 5,
+  "false_negatives": 2,
+  "total_items": 47,
   "false_positive_details": [
     {
-      "item": "Pain",
+      "item": "Diarrhoea",
       "result_quotes": [
-        "Any chest pain?",
-        "No chest pain."
+        "No, no changes in your bowel movements?"
       ]
     },
     {
-      "item": "Itching",
+      "item": "Extended Sleep",
       "result_quotes": [
-        "Uhm, nothing like like that. I mean the back of my throat, might feel a little itchy from the coughing, but not really sure."
+        "Uhm, just been, well, I haven't been sleeping as well, waking up all sweaty and the cough is kept me up a little bit too."
+      ]
+    },
+    {
+      "item": "Changes Inappetite",
+      "result_quotes": [
+        "Uh, no, I've been eating OK."
+      ]
+    },
+    {
+      "item": "Tired",
+      "result_quotes": [
+        "Yeah, but I've definitely been more more tired. I haven't been able to concentrate on, umm, on my schoolwork."
+      ]
+    },
+    {
+      "item": "Chest Tightness",
+      "result_quotes": [
+        "Any shortness of breath?",
+        "Just after the, like coughing really, but otherwise, ah, no."
       ]
     }
   ],
-  "false_negative_details": []
+  "false_negative_details": [
+    {
+      "item": "Head Ache",
+      "truth_quotes": []
+    },
+    {
+      "item": "Runny Nose",
+      "truth_quotes": []
+    }
+  ]
 }
